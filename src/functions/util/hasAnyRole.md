@@ -1,10 +1,10 @@
 ---
 title: $hasAnyRole 
-description: $hasAnyRole check if the provided user has any of the roles listed in the roles argument.
+description: $hasAnyRole will check if the provided user has any of the roles listed in the roles argument.
 id: hasAnyRole
 ---
 
-`$hasAnyRole` check if the provided user has any of the roles listed in the roles argument.
+`$hasAnyRole` will check if the provided user has any of the roles listed in the roles argument.
 
 ## Usage
 
