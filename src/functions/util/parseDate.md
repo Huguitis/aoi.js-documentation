@@ -17,8 +17,8 @@ $parseDate[ms;type?]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| ms      | string  | text you want to slice                             | yes      |
-| type?     | string  | the type in which the parsed Date will be returned in         | no       |
+| ms      | string  | time in ms you want to parse                             | yes      |
+| type?     | string  | the type in which the parsed date will be returned in         | no       |
 
 ### Types
 | Type      | Format    |
@@ -29,7 +29,7 @@ $parseDate[ms;type?]
 
 ## Example
 
-This will return your current date in the `date` [format](/../../util/parseDate.md#types):
+This will return your current date in the `date` [format](#types):
 
 ```javascript
 bot.command({
