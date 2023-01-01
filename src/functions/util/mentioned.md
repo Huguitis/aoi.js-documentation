@@ -1,10 +1,10 @@
 ---
 title: $mentioned 
-description: $mentioned will return the mention of an specific argument.
+description: $mentioned will return the ID of an user of the mention.
 id: mentioned
 ---
 
-`$mentioned` will return the mention of an specific argument.
+`$mentioned` will return the ID of an user of the mention.
 
 ## Usage
 
