@@ -29,7 +29,7 @@ $hasPermsInChannel[channelID;userorroleID;...perms]
 | createinvite         |              Permission to create guild invites                        |
 | kick         |                   Permission to kick guild members                                 |
 | ban         |              Permission to ban guild members                                      |
-| admin         |             Administrator Permissions                                       |
+| administrator         |             Administrator Permissions                                       |
 | managechannel         |                           Permission to manage guild channels                        |
 | manageserver         |              Permissions to modify server settings                                      |
 | addreactions         |           Permissions to add reactions                                         |
