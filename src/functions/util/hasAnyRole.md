@@ -30,7 +30,7 @@ This will return `true` when the user has any of the listed roles:
 bot.command({
   name: 'hasAnyRole',
   code: `
-  $hasAnyRole[$guildID;$authorID;$findRole[Owner]]
+  $hasAnyRole[$guildID;$authorID;$findRole[Owner];$findRole[Admin]]
   `
 });
 ```
