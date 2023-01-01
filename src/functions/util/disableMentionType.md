@@ -19,15 +19,19 @@ $disableMentionType[type]
 |-----------|---------|----------------------------------------------------|----------|
 | type      | string  | type of mention you want to disable                | yes      |
 
-### Available types
-* everyone
-  * disables everyone/here mentions
-* users
-  * disables all user mentions
-* roles
-  * disables all role mentions
-* all
-  * disables all mentions stated above  
+
+<details>
+  <summary> <h2> Available Types </h2></summary>
+
+| Type      | Description                                        |
+|-----------|----------------------------------------------------|
+| everyone      | `@everyone` and `@here` mentions                |
+| users      | all user mentions                |
+| roles      | all role mentions               |
+| all      | everything listed above                |
+ 
+</details>
+
 ## Example(s)
 
 This will stop the bot from mentioning you:
