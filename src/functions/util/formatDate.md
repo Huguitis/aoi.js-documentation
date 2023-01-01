@@ -20,7 +20,9 @@ $formatDate[date;format?]
 | date      | number  | the date you want to format                             | yes      |
 | format?     | string  | the format that will be used to display the date          | no       |
 
-#### Possible formatting
+
+<details open>
+  <summary> <h2> Possible formatting </h2></summary>
 
 | Format     | Output    |
 |-----------|---------|
@@ -34,6 +36,7 @@ $formatDate[date;format?]
 | YYYY     | Returns year fully, 2020, 2021 ...  |
 | YY     | Returns the last two numbers of the year, 20, 21 ...  |
 
+</details>
 ## Example
 
 This will return your current date in the `dddd, DD MMMM YYYY` format:
