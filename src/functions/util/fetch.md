@@ -40,7 +40,7 @@ $fetch[method;query;...query]
 
 ## Example
 
-This will display information about the message using the `fetch` command:
+This will display information about the message using the `fetch` function:
 
 ```javascript
 bot.command({
