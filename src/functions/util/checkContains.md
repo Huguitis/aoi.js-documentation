@@ -1,6 +1,6 @@
 ---
 title: $checkContains 
-description: $checkContains will check if the given arguments are present within the text.
+description: $checkContains will check if the given arguments are present within a text.
 id: checkContains
 ---
 

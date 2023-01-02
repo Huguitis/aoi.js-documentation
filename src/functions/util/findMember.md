@@ -1,6 +1,6 @@
 ---
 title: $findMember 
-description: $findMember will find a specific member in a specific guild.
+description: $findMember will find a specific member in a specific guild by their name.
 id: findMember
 ---
 
