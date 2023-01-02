@@ -22,7 +22,7 @@ $concatTextSplit[...text]
 
 ## Example
 
-This will return add `Hello, Bye` to the already used `$textSplit` argument:
+This will add `Hello, Bye` to the already used `$textSplit` argument:
 
 ```javascript
 bot.command({
