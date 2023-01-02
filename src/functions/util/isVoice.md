@@ -1,15 +1,15 @@
 ---
-title: $isDM 
-description: $isDM will check if the given channel is a DM or not.
-id: isDM
+title: $isVoice 
+description: $isVoice will check if the given channel is a voice channel or not.
+id: isVoice
 ---
 
-`$isDM` will check if the given channel is a DM or not.
+`$isVoice` will check if the given channel is a voice channel or not.
 
 ## Usage
 
 ```php
-$isDM[channelID?]
+$isVoice[channelID]
 ```
 
 ## Parameters 
@@ -22,13 +22,13 @@ $isDM[channelID?]
 
 ## Example
 
-This will return either `true` or `false` depending on if you're executing the command in a DM or not:
+This will return either `true` or `false` depending on what you use as argument:
 
 ```javascript
 bot.command({
-  name: 'isDM',
+  name: 'isVoice',
   code: `
-  $isDM[$channelID]
+  $isVoice[$channelID]
   `
 });
 ```

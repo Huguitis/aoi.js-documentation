@@ -9,15 +9,15 @@ id: isThread
 ## Usage
 
 ```php
-$isThread[channel?]
+$isThread[channelID?]
 ```
 
 ## Parameters 
 
 
-| Field    | Type    | Description                    | Required |
-| -------- | ------- | ------------------------------ | -------- |
-| channel? | integer | channel that you want to check | no       |
+| Field      | Type    | Description                              | Required |
+| ---------- | ------- | ---------------------------------------- | -------- |
+| channelID? | integer | ID of the channel that you want to check | no       |
 
 
 ## Example
