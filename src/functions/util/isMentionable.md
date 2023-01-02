@@ -24,7 +24,7 @@ $isMentionable[roleID;guildID?]
 
 ## Example
 
-This will check if a role with the name `Owner` is mentionable: 
+This will check if a role with the name `Owner` is mentionable and returns either `true` or `false`: 
 
 ```javascript
 bot.command({

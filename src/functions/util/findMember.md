@@ -24,7 +24,7 @@ $findMember[user;returnSelf?;guildID?]
 
 ## Example
 
-This will return `your ID` as `Leref` was not found in the given guild:
+This will return your ID as `Leref` was not found in the given guild:
 
 ```javascript
 bot.command({

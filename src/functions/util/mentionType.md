@@ -19,8 +19,8 @@ $mentionType[mention]
 |-----------|---------|----------------------------------------------------|----------|
 | mention      | string  | any type of mention                            | yes      |
 
-<details>
-  <summary> <h2> Available Types </h2></summary>
+<details open>
+  <summary> <h3> Available Types </h3></summary>
 
 | Type      | Description                                        |
 |-----------|----------------------------------------------------|

@@ -9,7 +9,7 @@ id: messageSlice
 ## Usage
 
 ```php
-$messageSlice[from?;to?]
+$messageSlice[from;to?]
 ```
 
 ## Parameters 
@@ -17,19 +17,19 @@ $messageSlice[from?;to?]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| from?     | number  | starting point where to slice the message          | no       |
+| from     | number  | starting point where to slice the message          | yes       |
 | to?        | number  | ending point where slicing ends                    | no      |
 
 
 ## Example
 
-This will slice the message with any given argument:
+This will slice the message from the first character to the fifth character:
 
 ```javascript
 bot.command({
   name: 'messageSlice',
   code: `
-  $messageSlide[from?;to?]
+  $messageSlide[1;5]
   `
 });
 ```

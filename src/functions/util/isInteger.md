@@ -22,7 +22,7 @@ $isInteger[number]
 
 ## Example
 
-This checks if your message contains an integer:
+This checks if your message contains an integer and returns `true` or `false`:
 
 ```javascript
 bot.command({

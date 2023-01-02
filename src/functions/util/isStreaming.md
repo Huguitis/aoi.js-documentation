@@ -23,7 +23,7 @@ $isStreaming[userid?;guildid?]
 
 ## Example
 
-This will return either `true` or `false` depending on if you're streaming or not:
+This will return either `true` or `false` depending on if you're streaming (voice channel) or not:
 
 ```javascript
 bot.command({

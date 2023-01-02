@@ -23,8 +23,9 @@ $findRole[roleResolver;guildID?]
 
 ## Example
 
-This will return `773353338393329675`:
-### Note that this won't work if your bot is not in the guild where the role is in.
+This will return the role ID of the role `Owner` if it exists:
+### Note that this example won't work if your bot is not in the guild where the role is in.
+
 ```javascript
 bot.command({
   name: 'findRole',

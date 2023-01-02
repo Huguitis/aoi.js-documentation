@@ -22,7 +22,7 @@ $modulo[...numbers;...numbers]
 
 ## Example
 
-This will return `2` as it's the remainder of `5 mod 3`:
+This will return `2` as it's the remainder of `5 % 3`:
 
 ```javascript
 bot.command({

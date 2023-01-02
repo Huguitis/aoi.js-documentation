@@ -20,8 +20,7 @@ This will return the amount of role mentions in the given text:
 bot.command({
   name: 'mentionedRolesCount',
   code: `
-  $mentionedRolesCount
-  <@&1008551437686546483> <@&1058540613173260449>
+  You have: $mentionedRolesCount role mentions in your message!
 `
 });
 ```

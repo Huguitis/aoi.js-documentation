@@ -1,6 +1,6 @@
 ---
 title: $get 
-description: $get is used for temporary variables.
+description: $get is used for retrieving temporary variables.
 id: get
 ---
 

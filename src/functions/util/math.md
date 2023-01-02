@@ -1,10 +1,10 @@
 ---
 title: $math 
-description: $math will return a calculated result with the given argument.
+description: $math will return a calculated result of the given argument.
 id: math
 ---
 
-`$math` will return a calculated result with the given argument.
+`$math` will return a calculated result of the given argument.
 
 ## Usage
 

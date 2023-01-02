@@ -29,7 +29,7 @@ bot.command({
     name: "textSplitMap",
     code: `
     $textSplitMap[devs]
-    $textSplit[Ayaka,Leref,Ferel,Blurr;/]
+    $textSplit[Ayaka,Leref,Ferel,Blurr;,]
     `
 });
 

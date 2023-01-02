@@ -4,7 +4,7 @@ description: $nonEscape will stop escaping special characters.
 id: nonEscape
 ---
 
-`$argsSlice` will stop escaping special characters.
+`$nonEscape` will stop escaping special characters.
 
 ## Usage
 

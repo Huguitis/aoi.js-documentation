@@ -4,7 +4,7 @@ description: $isBoosting will check if the given user is boosting the given guil
 id: isBoosting
 ---
 
-`$isBoosting` will slide multiple arguments depending on the arguments.
+`$isBoosting` will check if the given user is boosting the given guild.
 
 ## Usage
 

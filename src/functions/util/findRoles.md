@@ -1,10 +1,10 @@
 ---
 title: $findRoles 
-description: $findRoles will return roles depending on the given query.
+description: $findRoles will return all matching roles depending on the given query.
 id: findRoles
 ---
 
-`$findRoles` will return roles depending on the given query.
+`$findRoles` will return all matching roles depending on the given query.
 
 ## Usage
 

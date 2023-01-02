@@ -24,7 +24,7 @@ $isManaged[roleID;guildID?]
 
 ## Example
 
-This will check if a role called `Server Booster` is managed by Discord.
+This will check if a role called `Server Booster` is managed by Discord and return either `true` or `false`:
 
 ```javascript
 bot.command({

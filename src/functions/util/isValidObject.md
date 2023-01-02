@@ -1,10 +1,10 @@
 ---
 title: $isValidObject 
-description: $isValidObject checks if the given json is an valid object.
+description: $isValidObject checks if the given json is a valid object.
 id: isValidObject
 ---
 
-`$isValidObject` checks if the given json is an valid object.
+`$isValidObject` checks if the given json is a valid object.
 
 ## Usage
 
@@ -18,6 +18,8 @@ $isValidObject[json]
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
 | json      | string  | json object                             | yes      |
+
+### This function will only work if it's a JSON Object
 
 ## Example
 

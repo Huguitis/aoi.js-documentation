@@ -39,7 +39,7 @@ This will convert `1w 2d 20m` to milliseconds and return `778800000`:
 bot.command({
   name: 'parseTime',
   code: `
-  $parseTime[69m]
+  $parseTime[1w 2d 20m]
   `
 });
 ```

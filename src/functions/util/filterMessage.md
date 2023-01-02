@@ -1,10 +1,10 @@
 ---
 title: $filterMessage 
-description: $filterMessage will filter certain characters.
+description: $filterMessage will filter certain characters out of given text.
 id: filterMessage
 ---
 
-`$filterMessage` will filter certain characters.
+`$filterMessage` will filter certain characters out of given text.
 
 ## Usage
 

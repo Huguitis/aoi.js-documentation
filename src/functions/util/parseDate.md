@@ -1,10 +1,10 @@
 ---
 title: $parseDate 
-description: $parseDate will slide multiple arguments depending on the arguments.
+description: $parseDate will return the date/time for the given milliseconds
 id: parseDate
 ---
 
-`$parseDate` will slide multiple arguments depending on the arguments.
+`$parseDate` $parseDate will return the date/time for the given milliseconds
 
 ## Usage
 

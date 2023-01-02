@@ -1,10 +1,10 @@
 ---
 title: $mentionedChannelsCount 
-description: $mentionedChannelsCount will return the amount of channel mentiones within a message.
+description: $mentionedChannelsCount will return the amount of channel mentions within a message.
 id: mentionedChannelsCount
 ---
 
-`$mentionedChannelsCount` will return the amount of channel mentiones within a message.
+`$mentionedChannelsCount` will return the amount of channel mentions within a message.
 
 ## Usage
 

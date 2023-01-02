@@ -17,7 +17,7 @@ $isVerified[guildID?]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------|----------|
-| guildID?      | integer  | the guild ID of the guild you want to check its verification status of  | yes      |
+| guildID?      | integer  | the guild ID of the guild you want to check its verification status of  | no      |
 
 
 ## Example

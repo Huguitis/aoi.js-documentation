@@ -1,6 +1,6 @@
 ---
 title: $let 
-description: $let is used for temporary variables.
+description: $let is used for storing temporary variables.
 id: let
 ---
 

@@ -23,7 +23,7 @@ $isMuted[userID?;guildID?]
 
 ## Example
 
-This will check if you're currently muted in a voice channel:
+This will check if you're currently muted in a voice channel and returns either `true` or `false`:
 
 ```javascript
 bot.command({

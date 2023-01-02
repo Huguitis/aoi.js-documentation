@@ -1,10 +1,10 @@
 ---
 title: $hasPermsInChannel 
-description: $hasPermsInChannel will check if the user has one of the required permission in the given channel and executes the command if they do.
+description: $hasPermsInChannel will check if the user has one of the required permission in the given channel.
 id: hasPermsInChannel
 ---
 
-`$hasPermsInChannel` will check if the user has one of the required permission in the given channel and executes the command if they do.
+`$hasPermsInChannel` will check if the user has one of the required permission in the given channel.
 
 ## Usage
 
@@ -73,7 +73,7 @@ $hasPermsInChannel[channelID;userorroleID;...perms]
 
 ## Example
 
-This will return `true` when the author has `send messages`permissions and return `false` when they don't have those:
+This will return `true` when the author has `send messages` permissions and return `false` when they don't have those:
 
 ```javascript
 bot.command({

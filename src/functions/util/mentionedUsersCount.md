@@ -20,8 +20,7 @@ This will return the amount of user mentions in the given text:
 bot.command({
   name: 'mentionedUsersCount',
   code: `
-  $mentionedUsersCount
-  <@$authorID>
+  Amount of user mentions: $mentionedUsersCount
 `
 });
 ```

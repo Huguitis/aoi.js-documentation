@@ -9,7 +9,7 @@ id: isRoleEditable
 ## Usage
 
 ```php
-$argsSlice[roleid;guildid?]
+$isRoleEditable[roleid;guildid?]
 ```
 
 ## Parameters 

@@ -24,7 +24,7 @@ $formatDate[date;format?]
 <details open>
   <summary> <h2> Possible formatting </h2></summary>
 
-| Format     | Output    |
+| Format     |     |
 |-----------|---------|
 | dddd      | Returns the weekday, Monday, Tuesday, Wednesday ... |
 | dd     | Returns the abbreviation of the weekday, Mon, Tue, Wed ...  |
@@ -37,6 +37,7 @@ $formatDate[date;format?]
 | YY     | Returns the last two numbers of the year, 20, 21 ...  |
 
 </details>
+
 ## Example
 
 This will return your current date in the `dddd, DD MMMM YYYY` format:

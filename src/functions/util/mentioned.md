@@ -23,7 +23,7 @@ $mentioned[index;returnSelf?]
 
 ## Example
 
-This will return the ID of the **first** mention if you attempt to mention someone in this command:
+This will return the ID of the **first** mention if you attempt to mention someone in this command, or else it will return your ID:
 
 ```javascript
 bot.command({
