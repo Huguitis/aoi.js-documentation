@@ -15,9 +15,9 @@ $textSplit[awaited]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| awaited   | string  |   name of the awaited command                   | yes      |
+| Field   | Type   | Description                 | Required |
+| ------- | ------ | --------------------------- | -------- |
+| awaited | string | name of the awaited command | yes      |
 
 
 ## Example

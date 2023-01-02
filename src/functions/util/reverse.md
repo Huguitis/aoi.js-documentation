@@ -15,9 +15,9 @@ $reverse[text]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text you want to reverse                           | yes      |
+| Field | Type   | Description              | Required |
+| ----- | ------ | ------------------------ | -------- |
+| text  | string | text you want to reverse | yes      |
 
 
 ## Example

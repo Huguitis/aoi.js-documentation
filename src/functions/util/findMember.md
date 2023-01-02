@@ -15,11 +15,11 @@ $findMember[user;returnSelf?;guildID?]
 ## Parameters 
 
 
-| Field           | Type     | Description                                           | Required |
-|-----------------|----------|-------------------------------------------------------|----------|
-| user            | string   | user you want to find                                 | yes      |
-| returnSelf?     | string   | return the author's id if user was not found          | no       |
-| guildID?        | integer  | guild ID where the user is present in                 | no       |
+| Field       | Type    | Description                                  | Required |
+| ----------- | ------- | -------------------------------------------- | -------- |
+| user        | string  | user you want to find                        | yes      |
+| returnSelf? | string  | return the author's id if user was not found | no       |
+| guildID?    | integer | guild ID where the user is present in        | no       |
 
 
 ## Example

@@ -15,9 +15,9 @@ $resolveEmojiID[emoji]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| emoji     | string  | emoji name                                         | yes      |
+| Field | Type   | Description | Required |
+| ----- | ------ | ----------- | -------- |
+| emoji | string | emoji name  | yes      |
 
 ### Please note that your bot has to be present in the guild where the emoji is in.
 

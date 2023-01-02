@@ -15,10 +15,10 @@ $serverEmojiExists[emoji;guildId?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| emoji     | string  | emoji you want to check if it exists               | yes      |
-| guildId?  | integer | guild id of the guild where the emoji exists       | no       |
+| Field    | Type    | Description                                  | Required |
+| -------- | ------- | -------------------------------------------- | -------- |
+| emoji    | string  | emoji you want to check if it exists         | yes      |
+| guildId? | integer | guild id of the guild where the emoji exists | no       |
 
 ### Please note that your bot has to be present in the guild where the emoji is in.
 

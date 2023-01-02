@@ -15,10 +15,10 @@ $randomString[range;diffExec?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| range      | number  | range of the random generated string                            | yes      |
-| diffExec?     | string  |           | no       |
+| Field     | Type   | Description                          | Required |
+| --------- | ------ | ------------------------------------ | -------- |
+| range     | number | range of the random generated string | yes      |
+| diffExec? | string |                                      | no       |
 
 
 ## Example

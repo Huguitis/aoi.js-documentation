@@ -15,15 +15,15 @@ $checkContains[text;...chars]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text you want to check                             | yes      |
-| chars     | string  | text you want to check for in the first argument   | yes      |
+| Field | Type   | Description                                      | Required |
+| ----- | ------ | ------------------------------------------------ | -------- |
+| text  | string | text you want to check                           | yes      |
+| chars | string | text you want to check for in the first argument | yes      |
 
 
 ## Example
 
-This will return `true` as `Leref` and/or `Ayaka` are present in the given text:
+This will return `true` as `easy` and/or `simple` are present in the given text:
 
 ```javascript
 bot.command({

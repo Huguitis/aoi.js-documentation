@@ -1,7 +1,7 @@
 ---
 title: $replaceText 
 description: $replaceText will replace specific segments of text.
-id: argsCheck
+id: replaceText
 ---
 
 `$replaceText` will replace specific segments of text.
@@ -15,12 +15,12 @@ $replaceText[text;replacer;replaceTo;times?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text you want to modify                            | yes      |
-| replacer  | string  | the text that will be replaced                     | yes      |
-| replaceTo | string  | the text that will replace `replacer`              | yes      |
-| times?    | number  | how many times `replaceTo` replaces `replacer`     | no       |
+| Field     | Type   | Description                                    | Required |
+| --------- | ------ | ---------------------------------------------- | -------- |
+| text      | string | text you want to modify                        | yes      |
+| replacer  | string | the text that will be replaced                 | yes      |
+| replaceTo | string | the text that will replace `replacer`          | yes      |
+| times?    | number | how many times `replaceTo` replaces `replacer` | no       |
 
 ## Examples
 

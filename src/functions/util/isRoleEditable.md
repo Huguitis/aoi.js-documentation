@@ -15,10 +15,10 @@ $isRoleEditable[roleid;guildid?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| roleid      | integer  | role id you want to check if its editable                             | yes      |
-| guildid?     | integer  | the guild id of where the role exists          | no       |
+| Field    | Type    | Description                               | Required |
+| -------- | ------- | ----------------------------------------- | -------- |
+| roleid   | integer | role id you want to check if its editable | yes      |
+| guildid? | integer | the guild id of where the role exists     | no       |
 
 
 ## Example

@@ -15,9 +15,9 @@ $modulo[...numbers;...numbers]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| numbers      | number  | math operation                            | yes      |
+| Field   | Type   | Description    | Required |
+| ------- | ------ | -------------- | -------- |
+| numbers | number | math operation | yes      |
 
 
 ## Example

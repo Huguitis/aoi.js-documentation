@@ -15,9 +15,9 @@ $isInteger[number]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| number    | number  | number you want to check if its an integer or not                     | yes      |
+| Field  | Type   | Description                                       | Required |
+| ------ | ------ | ------------------------------------------------- | -------- |
+| number | number | number you want to check if its an integer or not | yes      |
 
 
 ## Example

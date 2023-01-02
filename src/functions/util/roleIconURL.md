@@ -15,10 +15,10 @@ $roleIconURL[guildId?;roleId]
 ## Parameters
 
 
-| Field       | Type     | Description                                        | Required |
-|-------------|----------|----------------------------------------------------|----------|
-| guildId?    | integer  |  guild ID of the guild where the role exists       | no       |
-| roleId      | integer  | role ID you want to check if it exists             | yes      |
+| Field    | Type    | Description                                 | Required |
+| -------- | ------- | ------------------------------------------- | -------- |
+| guildId? | integer | guild ID of the guild where the role exists | no       |
+| roleId   | integer | role ID you want to check if it exists      | yes      |
 
 
 ## Example

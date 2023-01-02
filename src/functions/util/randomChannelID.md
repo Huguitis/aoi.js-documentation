@@ -15,10 +15,10 @@ $randomChannelID[guildID/global?;type?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| guildID/global?      | string  | guild ID or global search                             | no      |
-| type?     | number  |           | no       |
+| Field           | Type   | Description               | Required |
+| --------------- | ------ | ------------------------- | -------- |
+| guildID/global? | string | guild ID or global search | no       |
+| type?           | number |                           | no       |
 
 
 ## Example

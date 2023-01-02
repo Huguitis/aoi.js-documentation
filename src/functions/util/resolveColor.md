@@ -15,20 +15,20 @@ $resolveColor[type;returnAs?;...datas]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| type      | string  | which type the input is                            | yes      |
-| returnAs? | string  | as what the color will be returned                 | no       |
-| datas     | string  | the data of the rgb or decimal color data          | yes      |
+| Field     | Type   | Description                               | Required |
+| --------- | ------ | ----------------------------------------- | -------- |
+| type      | string | which type the input is                   | yes      |
+| returnAs? | string | as what the color will be returned        | no       |
+| datas     | string | the data of the rgb or decimal color data | yes      |
 
 
 ### Types
 
-|  Types    |                         |   Returns    |
-|-----------|-------------------------|--------------|
-| rgb       | red, green, blue        | 50, 168, 82  |
-| decimal   | hex color               |   #32a852    |
-| number    | hexadecimal color       |      80      |
+| Types   |                   | Returns     |
+| ------- | ----------------- | ----------- |
+| rgb     | red, green, blue  | 50, 168, 82 |
+| decimal | hex color         | #32a852     |
+| number  | hexadecimal color | 80          |
 
 
 ## Example

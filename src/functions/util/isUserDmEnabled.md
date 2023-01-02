@@ -15,9 +15,9 @@ $isUserDmEnabled[userid]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| userid      | integer  | user id of the user you want to check if their dms are enabled or not                             | yes      |
+| Field  | Type    | Description                                                           | Required |
+| ------ | ------- | --------------------------------------------------------------------- | -------- |
+| userid | integer | user id of the user you want to check if their dms are enabled or not | yes      |
 
 
 ## Example

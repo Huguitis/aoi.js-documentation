@@ -15,9 +15,9 @@ $randomUserID[global/guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| global/guildID? | string | return a random user out of all guild or out of one specific guild only | no      |
+| Field           | Type   | Description                                                             | Required |
+| --------------- | ------ | ----------------------------------------------------------------------- | -------- |
+| global/guildID? | string | return a random user out of all guild or out of one specific guild only | no       |
 
 
 ## Example

@@ -15,9 +15,9 @@ $randomRoleID[guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| guildID?  | integer |   where it will return the random role ID from     | yes      |
+| Field    | Type    | Description                                  | Required |
+| -------- | ------- | -------------------------------------------- | -------- |
+| guildID? | integer | where it will return the random role ID from | yes      |
 
 
 ## Example

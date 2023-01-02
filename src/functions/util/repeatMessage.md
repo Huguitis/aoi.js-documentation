@@ -15,10 +15,10 @@ $repeatMessage[time;text]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| time      | integer | the amount of times the text gets repeated         | yes      |
-| text      | string  | the text that will get repeated                    | yes      |
+| Field | Type    | Description                                | Required |
+| ----- | ------- | ------------------------------------------ | -------- |
+| time  | integer | the amount of times the text gets repeated | yes      |
+| text  | string  | the text that will get repeated            | yes      |
 
 
 ## Example

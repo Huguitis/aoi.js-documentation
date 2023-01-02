@@ -15,9 +15,9 @@ $math[calc]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| calc      | string  | calculation                             | yes      |
+| Field | Type   | Description | Required |
+| ----- | ------ | ----------- | -------- |
+| calc  | string | calculation | yes      |
 
 
 ## Example

@@ -15,9 +15,9 @@ $concatTextSplit[...text]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text to be seperated                               | yes      |
+| Field | Type   | Description          | Required |
+| ----- | ------ | -------------------- | -------- |
+| text  | string | text to be seperated | yes      |
 
 
 ## Example

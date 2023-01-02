@@ -15,10 +15,10 @@ $serverChannelExists[channel;guildID?]
 ## Parameters 
 
 
-| Field         | Type    | Description                                               | Required |
-|---------------|---------|-----------------------------------------------------------|----------|
-| channel       | string  | channel ID or name of the server channel                  | yes      |
-| guildId       | integer | id of the guild where the server channel exists in        | yes      |
+| Field   | Type    | Description                                        | Required |
+| ------- | ------- | -------------------------------------------------- | -------- |
+| channel | string  | channel ID or name of the server channel           | yes      |
+| guildId | integer | id of the guild where the server channel exists in | yes      |
 
 
 ## Example

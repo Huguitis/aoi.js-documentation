@@ -15,9 +15,9 @@ $serverExists[guildId]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| guildId   | integer | guild id                                           | yes      |
+| Field   | Type    | Description | Required |
+| ------- | ------- | ----------- | -------- |
+| guildId | integer | guild id    | yes      |
 
 
 ## Example

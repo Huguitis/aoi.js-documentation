@@ -15,9 +15,9 @@ $splitText[index]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| index     | integer |   index of $textSplit argument                     | yes      |
+| Field | Type    | Description                  | Required |
+| ----- | ------- | ---------------------------- | -------- |
+| index | integer | index of $textSplit argument | yes      |
 
 
 ## Example

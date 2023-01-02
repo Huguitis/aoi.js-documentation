@@ -15,10 +15,10 @@ $isMuted[userID?;guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| userID    | integer  | id of the user you want to check if they're muted | yes      |
-| guildID?    | integer  | guild id of where the user is muted in          | yes      |
+| Field    | Type    | Description                                       | Required |
+| -------- | ------- | ------------------------------------------------- | -------- |
+| userID   | integer | id of the user you want to check if they're muted | yes      |
+| guildID? | integer | guild id of where the user is muted in            | yes      |
 
 
 ## Example

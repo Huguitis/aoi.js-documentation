@@ -15,20 +15,20 @@ $disableMentionType[type]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| type      | string  | type of mention you want to disable                | yes      |
+| Field | Type   | Description                         | Required |
+| ----- | ------ | ----------------------------------- | -------- |
+| type  | string | type of mention you want to disable | yes      |
 
 
 <details>
   <summary> <h2> Available Types </h2></summary>
 
-| Type      | Description                                        |
-|-----------|----------------------------------------------------|
-| everyone      | `@everyone` and `@here` mentions                |
-| users      | all user mentions                |
-| roles      | all role mentions               |
-| all      | everything listed above                |
+| Type     | Description                      |
+| -------- | -------------------------------- |
+| everyone | `@everyone` and `@here` mentions |
+| users    | all user mentions                |
+| roles    | all role mentions                |
+| all      | everything listed above          |
  
 </details>
 

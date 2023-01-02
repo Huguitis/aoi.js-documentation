@@ -15,10 +15,10 @@ $findRole[roleResolver;guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| roleResolver      | string  | name of the role you want to find                             | yes      |
-| guildID?     | integer  | guild ID where the role is present in          | no       |
+| Field        | Type    | Description                           | Required |
+| ------------ | ------- | ------------------------------------- | -------- |
+| roleResolver | string  | name of the role you want to find     | yes      |
+| guildID?     | integer | guild ID where the role is present in | no       |
 
 
 ## Example

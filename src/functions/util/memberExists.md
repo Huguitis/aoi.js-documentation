@@ -15,10 +15,10 @@ $memberExists[userid;guildid?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| userid      | integer  | id of the user you want to check if they're currently a member of the given server                           | yes      |
-| guildid?     | integer  | the server where the user is present in          | no       |
+| Field    | Type    | Description                                                                        | Required |
+| -------- | ------- | ---------------------------------------------------------------------------------- | -------- |
+| userid   | integer | id of the user you want to check if they're currently a member of the given server | yes      |
+| guildid? | integer | the server where the user is present in                                            | no       |
 
 
 ## Example

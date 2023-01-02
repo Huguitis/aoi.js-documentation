@@ -15,10 +15,10 @@ $filterMessage[text;...letters]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text input which will be filtered                  | yes      |
-| letters   | string  | characters you want to filter out of the `text`    | yes      |
+| Field   | Type   | Description                                     | Required |
+| ------- | ------ | ----------------------------------------------- | -------- |
+| text    | string | text input which will be filtered               | yes      |
+| letters | string | characters you want to filter out of the `text` | yes      |
 
 
 ## Example

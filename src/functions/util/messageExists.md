@@ -15,10 +15,10 @@ $messageExists[messageid;channelid?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| messageid      | integer  | the id of the message                             | yes      |
-| channelid?     | integer  | the channel id where the message is located          | no       |
+| Field      | Type    | Description                                 | Required |
+| ---------- | ------- | ------------------------------------------- | -------- |
+| messageid  | integer | the id of the message                       | yes      |
+| channelid? | integer | the channel id where the message is located | no       |
 
 
 ## Example

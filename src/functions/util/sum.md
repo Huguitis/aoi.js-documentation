@@ -15,10 +15,10 @@ $sum[num1;num2]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| num1      | number  |                                                    | yes      |
-| num2      | number  |                                                    | yes      |
+| Field | Type   | Description | Required |
+| ----- | ------ | ----------- | -------- |
+| num1  | number |             | yes      |
+| num2  | number |             | yes      |
 
 ## Example
 

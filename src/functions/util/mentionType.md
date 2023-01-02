@@ -15,19 +15,19 @@ $mentionType[mention]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| mention      | string  | any type of mention                            | yes      |
+| Field   | Type   | Description         | Required |
+| ------- | ------ | ------------------- | -------- |
+| mention | string | any type of mention | yes      |
 
 <details open>
   <summary> <h3> Available Types </h3></summary>
 
-| Type      | Description                                        |
-|-----------|----------------------------------------------------|
-| everyone      | `@everyone` and `@here` mentions                |
-| users      | all user mentions                |
-| roles      | all role mentions               |
-| all      | everything listed above                |
+| Type     | Description                      |
+| -------- | -------------------------------- |
+| everyone | `@everyone` and `@here` mentions |
+| users    | all user mentions                |
+| roles    | all role mentions                |
+| all      | everything listed above          |
  
 </details>
 

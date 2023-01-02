@@ -15,9 +15,9 @@ $isValidInvite[url]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| url      | string  | guild invite url                             | yes      |
+| Field | Type   | Description      | Required |
+| ----- | ------ | ---------------- | -------- |
+| url   | string | guild invite url | yes      |
 
 
 ## Example

@@ -15,10 +15,10 @@ $textSplit[text;sep?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  |   query of arguments                               | yes      |
-| sep?      | string  |   seperator for the text arguments                 | no       |
+| Field | Type   | Description                      | Required |
+| ----- | ------ | -------------------------------- | -------- |
+| text  | string | query of arguments               | yes      |
+| sep?  | string | seperator for the text arguments | no       |
 
 
 ## Example

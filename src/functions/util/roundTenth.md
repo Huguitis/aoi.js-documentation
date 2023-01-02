@@ -15,10 +15,10 @@ $roundTenth[number;decimalPosition?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| number    | number  | number to round                                    | yes      |
-| decimalPosition?  | integer  | how many numbers after the comma come                                    | no      |
+| Field            | Type    | Description                           | Required |
+| ---------------- | ------- | ------------------------------------- | -------- |
+| number           | number  | number to round                       | yes      |
+| decimalPosition? | integer | how many numbers after the comma come | no       |
 
 
 ## Example

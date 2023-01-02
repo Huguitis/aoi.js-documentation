@@ -15,12 +15,12 @@ $random[num1;num2;allow?;random?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| num1    | number  | start of the span                             | yes      |
-| num2     | number  | end of the span          | yes       |
-| allow?        | string  | allows returning of decimal numbers                     | no      |
-| [random?](#advanced-examples)        | string  | if the returned number will be random                   | no      |
+| Field                         | Type   | Description                           | Required |
+| ----------------------------- | ------ | ------------------------------------- | -------- |
+| num1                          | number | start of the span                     | yes      |
+| num2                          | number | end of the span                       | yes      |
+| allow?                        | string | allows returning of decimal numbers   | no       |
+| [random?](#advanced-examples) | string | if the returned number will be random | no       |
 
 
 ## Examples

@@ -1,10 +1,10 @@
 ---
 title: $fetch 
-description: $fetch will fetch information about a given method using Discord API.
+description: $fetch will fetch information about a given method using Discord's API.
 id: fetch
 ---
 
-`$fetch` will fetch information about a given method using Discord API.
+`$fetch` will fetch information about a given method using Discord's API.
 
 ## Usage
 
@@ -14,33 +14,32 @@ $fetch[method;query;...query]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| method    | string  | method (listed below)                              | yes      |
-| query     | string  | input for the method                               | yes      |
+| Field  | Type   | Description           | Required |
+| ------ | ------ | --------------------- | -------- |
+| method | string | method (listed below) | yes      |
+| query  | string | input for the method  | yes      |
 
 
 <details>
-  <summary><h2> Methods </h2></summary>
+  <summary><h3> Methods </h3></summary>
 
-| Method     |                                     
-|------------|
-| message    |
-| channel    |
-| user       |
-| invite     |
-| webhook    |
-| application |
-| command    |
-| guildPreview |
-| guildTemplate |
+| Method              |
+| ------------------- |
+| message             |
+| channel             |
+| user                |
+| invite              |
+| webhook             |
+| application         |
+| command             |
+| guildPreview        |
+| guildTemplate       |
 | premiumStickerPacks |
-| sticker     |
-| guildCommand|
-| default     |
+| sticker             |
+| guildCommand        |
+| default             |
 
 </details>
-
 
 ## Example
 

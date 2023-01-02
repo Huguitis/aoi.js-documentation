@@ -15,10 +15,10 @@ $isStreaming[userid?;guildid?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| userid?      | integer  | the user id of the user you want to check if they're streaming                             | no      |
-| guildid?     | integer  | the guild id of where they're streaming in          | no       |
+| Field    | Type    | Description                                                    | Required |
+| -------- | ------- | -------------------------------------------------------------- | -------- |
+| userid?  | integer | the user id of the user you want to check if they're streaming | no       |
+| guildid? | integer | the guild id of where they're streaming in                     | no       |
 
 
 ## Example

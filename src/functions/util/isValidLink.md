@@ -15,9 +15,9 @@ $isValidLink[url]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| url      | string  | any kind of link                             | yes      |
+| Field | Type   | Description      | Required |
+| ----- | ------ | ---------------- | -------- |
+| url   | string | any kind of link | yes      |
 
 
 ## Example

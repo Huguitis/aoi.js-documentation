@@ -15,9 +15,9 @@ $mentionedRoles[index]
 ## Parameters 
 
 
-| Field           | Type     | Description                                           | Required |
-|-----------------|----------|-------------------------------------------------------|----------|
-| index            | number   | the index of the argument                                | yes      |
+| Field | Type   | Description               | Required |
+| ----- | ------ | ------------------------- | -------- |
+| index | number | the index of the argument | yes      |
 
 ## Example
 

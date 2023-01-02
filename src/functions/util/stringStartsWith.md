@@ -15,10 +15,10 @@ $stringStartsWith[text;check]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  |  the text that will be checked                     | yes      |
-| check     | string  |  the argument that will check if the text starts with something specific                     | yes      |
+| Field | Type   | Description                                                             | Required |
+| ----- | ------ | ----------------------------------------------------------------------- | -------- |
+| text  | string | the text that will be checked                                           | yes      |
+| check | string | the argument that will check if the text starts with something specific | yes      |
 
 ## Example
 

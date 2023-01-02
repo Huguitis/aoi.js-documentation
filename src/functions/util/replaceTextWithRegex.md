@@ -15,21 +15,21 @@ $replaceTextWithRegex[text;reg;flags;newT]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| text      | string  | text you want to modify                            | yes      |
-| reg  | string  | the regex that will be replaced                         | yes      |
-| flags | string  |  [flags](#flags)                                       | yes      |
-| newT    | string  | the text that will replace `reg`                     | no       |
+| Field | Type   | Description                      | Required |
+| ----- | ------ | -------------------------------- | -------- |
+| text  | string | text you want to modify          | yes      |
+| reg   | string | the regex that will be replaced  | yes      |
+| flags | string | [flags](#flags)                  | yes      |
+| newT  | string | the text that will replace `reg` | no       |
 
 <details open>
   <summary><h2> Flags </h2></summary>
 
-| Flags         |                                                    |
-|---------------|----------------------------------------------------|
-|   g           |      Replace all matches (case-sensitive)          |
-|   m           |      Multiline matching                            |
-|   i           |      Replace all matches (case-insensitive)        |
+| Flags |                                        |
+| ----- | -------------------------------------- |
+| g     | Replace all matches (case-sensitive)   |
+| m     | Multiline matching                     |
+| i     | Replace all matches (case-insensitive) |
 
 </details>
 

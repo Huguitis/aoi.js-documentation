@@ -15,10 +15,10 @@ $numberSeperator[num;sep?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| num       | number  | number you want to seperate                        | yes      |
-| sep?      | string  | seperator which will be used to seperate the numbers, default: `,`          | no       |
+| Field | Type   | Description                                                        | Required |
+| ----- | ------ | ------------------------------------------------------------------ | -------- |
+| num   | number | number you want to seperate                                        | yes      |
+| sep?  | string | seperator which will be used to seperate the numbers, default: `,` | no       |
 
 
 ## Example

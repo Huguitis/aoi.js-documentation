@@ -15,10 +15,10 @@ $isMentionable[roleID;guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| roleID      | integer  | the role id to check if it's mentionable or not                         | yes      |
-| guildID?     | integer  |  guild id where the role is present in        | no       |
+| Field    | Type    | Description                                     | Required |
+| -------- | ------- | ----------------------------------------------- | -------- |
+| roleID   | integer | the role id to check if it's mentionable or not | yes      |
+| guildID? | integer | guild id where the role is present in           | no       |
 
 ### Please note that your bot has to be in the same guild as the role for the function to work.
 

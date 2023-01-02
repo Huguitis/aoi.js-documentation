@@ -15,12 +15,12 @@ $findRoles[query;limit?;type?;res?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| query      | string  |  name of the role you want to find                            | yes      |
-| limit?     | number  |  the maximum amount of roles the bot will return         | no       |
-| type?        | string  |     type of the search query             | no      |
-| res?        | string  |   formatting for the output                | no      |
+| Field  | Type   | Description                                     | Required |
+| ------ | ------ | ----------------------------------------------- | -------- |
+| query  | string | name of the role you want to find               | yes      |
+| limit? | number | the maximum amount of roles the bot will return | no       |
+| type?  | string | type of the search query                        | no       |
+| res?   | string | formatting for the output                       | no       |
 
 ### Parameters for the `res` argument
 * {position} -> returns the position
