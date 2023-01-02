@@ -15,9 +15,9 @@ $isThread[channel?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| channel?      | integer  | channel that you want to check                            | no      |
+| Field    | Type    | Description                    | Required |
+| -------- | ------- | ------------------------------ | -------- |
+| channel? | integer | channel that you want to check | no       |
 
 
 ## Example

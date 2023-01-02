@@ -1,15 +1,15 @@
 ---
-title: $isManaged 
-description: $isManaged will check if a certain role is managed by Discord.
-id: isManaged
+title: $isRoleManaged 
+description: $isRoleManaged will check if a certain role is managed by Discord.
+id: isRoleManaged
 ---
 
-`$isManaged` will check if a certain role is managed by Discord.
+`$isRoleManaged` will check if a certain role is managed by Discord.
 
 ## Usage
 
 ```php
-$isManaged[roleID;guildID?]
+$isRoleManaged[roleID;guildID?]
 ```
 
 ## Parameters 
@@ -28,9 +28,9 @@ This will check if a role called `Server Booster` is managed by Discord and retu
 
 ```javascript
 bot.command({
-  name: 'isManaged',
+  name: 'isRoleManaged',
   code: `
-  $isManaged[$findRole[Server Booster];$guildID]
+  $isRoleManaged[$findRole[Server Booster];$guildID]
   `
 });
 ```
