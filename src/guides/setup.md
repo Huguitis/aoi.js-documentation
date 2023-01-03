@@ -1,5 +1,6 @@
 ---
 id: setup
+description: Ready to begin using aoi.js, this is the basic setup you'll need to begin using aoi.js.
 title: Setup
 ---
 
