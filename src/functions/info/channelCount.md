@@ -9,15 +9,16 @@ id: allChannelsCount
 ## Usage
 
 ```php
-$allChannelsCount[type?]
+$channelCount[guildID?;type?]
 ```
 
 ## Parameters 
 
 
-| Field | Type   | Description                 | Required |
-| ----- | ------ | --------------------------- | -------- |
-| type? | string | type you want the amount of | no       |
+| Field    | Type    | Description                                                    | Required |
+| -------- | ------- | -------------------------------------------------------------- | -------- |
+| guildID? | integer | guild id of the guild where you want the amount of channels of | no       |
+| type?    | string  | type you want the amount of                                    | no       |
 
 
 | Channel Type         |                |
@@ -41,9 +42,9 @@ This will return the amount of Voice Channels in your guild:
 
 ```javascript
 bot.command({
-  name: 'allChannelsCount',
+  name: 'channelCount',
   code: `
-  $allChannelsCount[Voice]
+  $channelCount[$guildID;Voice]
   `
 });
 ```
