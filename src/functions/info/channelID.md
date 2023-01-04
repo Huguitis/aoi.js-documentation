@@ -16,13 +16,13 @@ $channelID[name?]
 
 
 | Field | Type    | Description                                            | Required |
-| ----- | ------- | ------------------------------------------------------ | -------- |
-| name? | integer | channel name of the channel you want the channel ID of | no       |
+| ----- | ------- | ------------------------------------------------------ | :------: |
+| name? | integer | channel name of the channel you want the channel ID of |    no    |
 
 
 ## Example
 
-This will return the channel ID of the channel where you're executing the command:
+This will return the channel ID of the channel where you execute the command in:
 
 ```javascript
 bot.command({

@@ -1,10 +1,10 @@
 ---
 title: $allChannelsCount 
-description: $allChannelsCount will return the amount of channels of a given type.
+description: $allChannelsCount will return the amount of all cached channels of a given type.
 id: allChannelsCount
 ---
 
-`$allChannelsCount` will return the amount of channels of a given type.
+`$allChannelsCount` will return the amount of all cached channels of a given type.
 
 ## Usage
 

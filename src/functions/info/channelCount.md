@@ -16,9 +16,9 @@ $channelCount[guildID?;type?]
 
 
 | Field    | Type    | Description                                                    | Required |
-| -------- | ------- | -------------------------------------------------------------- | -------- |
-| guildID? | integer | guild id of the guild where you want the amount of channels of | no       |
-| type?    | string  | type you want the amount of                                    | no       |
+| -------- | ------- | -------------------------------------------------------------- | :------: |
+| guildID? | integer | guild id of the guild where you want the amount of channels of |    no    |
+| type?    | string  | type you want the amount of                                    |    no    |
 
 
 | Channel Type         |                |
@@ -32,7 +32,7 @@ $channelCount[guildID?;type?]
 | Announcement Thread  | NewsThread     |
 | Announcement Channel | News           |
 | Home                 | GuildDirectory |
-| NSFW Channel         | Nsfw           |
+| NSFW Channel         | NSFW           |
 | all types            | all            |
 
 
