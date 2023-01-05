@@ -1,35 +1,26 @@
 ---
 title: $maxRam 
-description: $maxRam will return the max ram provided by your host.
+description: $maxRam will return the bot's maximum amount of Ram.
 id: maxRam
 ---
 
-`$lowestRole` will return the lowest role of a specific user.
+`$maxRam` will return the bot's maximum amount of Ram.
 
 ## Usage
 
 ```php
-$lowestRole[userID?;guildID?]
+$maxRam
 ```
-
-## Parameters 
-
-
-| Field    | Type    | Description                                                                                        | Required |
-| -------- | ------- | -------------------------------------------------------------------------------------------------- | :------: |
-| userID?  | integer | user if of the user you want the highest role of                                                   |    no    |
-| guildID? | integer | the ID of the guild                                                                                |    no    |
-
 
 ## Example
 
-This will return the ID of your lowest role:
+This will your bot's maximum amount of available Ram:
 
 ```javascript
 bot.command({
-  name: 'lowestRole',
+  name: 'maxRam',
   code: `
-  $lowestRole[$authorID;$guildID]
+  $maxRam
   `
 });
 ```
