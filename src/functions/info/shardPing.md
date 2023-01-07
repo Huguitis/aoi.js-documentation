@@ -29,7 +29,7 @@ This will return the shard latency of the current shard:
 bot.command({
   name: 'shardPing',
   code: `
-  $shardPing[$shardId]
+  $shardPing[$shardId]MS
   `
 });
 ```
