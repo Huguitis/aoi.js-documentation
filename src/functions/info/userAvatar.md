@@ -31,7 +31,7 @@ This will return your profile picture:
 bot.command({
   name: 'userAvatar',
   code: `
-  $userAvatar[$guildID;$authorID;2048;yes;webp]
+  $userAvatar[$authorID;2048;yes;webp]
   `
 });
 ```
