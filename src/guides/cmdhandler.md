@@ -52,8 +52,6 @@ Your created directory should look like that:
 
 If you want to have your commands and files more organised then use sub directories, simply click on the **commands**  directory you created earlier and create as many sub directories as you want inside of it, for example, music commands:
 
-![music][directory-sub-directory-preview-2]
-
 
 #### Creating files inside of the directory
 
@@ -124,5 +122,4 @@ You are able to use `$updateCommands` when updating commands in your directory. 
 [3]: #final-steps
 [4]: #updating-your-commands-without-restart
 [directory-setup-preview-1]: https://cdn.discordapp.com/attachments/901271834589278228/1059592951304556664/image.png
-[directory-sub-directory-preview-2]: https://cdn.discordapp.com/attachments/901271834589278228/1059592950998368336/image_1.png
 [directory-create-file-3]: https://cdn.discordapp.com/attachments/901271834589278228/1059598511278137455/image_2.png
