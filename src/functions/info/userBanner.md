@@ -4,7 +4,7 @@ description: $userBanner will return the profile banner of a specific user.
 id: userBanner
 ---
 
-`$userBanner` will return the profile picture of a specific user.
+`$userBanner` will return the profile banner of a specific user.
 
 ## Usage
 
