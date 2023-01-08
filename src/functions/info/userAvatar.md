@@ -25,13 +25,13 @@ $userAvatar[userID?;size?;dynamic?;format?]
 
 ## Example
 
-This will return your profile picture with the size of `2048x2048`:
+This will return your profile picture:
 
 ```javascript
 bot.command({
   name: 'userAvatar',
   code: `
-  $userAvatar[$guildID;$authorID;2048;yes;url]
+  $userAvatar[$guildID;$authorID;2048;yes;webp]
   `
 });
 ```
