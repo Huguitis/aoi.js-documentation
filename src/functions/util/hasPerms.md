@@ -32,7 +32,7 @@ $hasPerms[guildID;userID;...perms]
 | ban                     | Permission to ban guild members                                 |
 | administrator           | Administrator Permissions                                       |
 | managechannel           | Permission to manage guild channels                             |
-| manageserver            | Permissions to modify server settings                           |
+| manageguild             | Permissions to modify server settings                           |
 | addreactions            | Permissions to add reactions                                    |
 | viewauditlog            | Permission to view the guild's audit log                        |
 | priorityspeaker         | Priority Speaker                                                |
