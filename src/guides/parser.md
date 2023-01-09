@@ -4,21 +4,19 @@ description: Embed parser - How to use it.
 id: parser
 ---
 
-## Parsers
+## Embed Parser
 
 #### This guide will be covering everything you need to know about parsers.
 
 ### Table of Content
-  - **[Embed Parsers][1]**
+  - **[Embed Parser][1]**
     - **[Basics][1]**
     - **[Examples][1]**
 
-#### **JSON Parsers currently only work in the github version ([aoi.js@6.0.3][aoi-github])**
-
 ---
 
-### Embed Parsers
-#### Embed Parsers are quite easy to use once you know how, this section will be covering the basics about embed parsers and some examples for you to work with.
+### Embed Parser
+#### Embed Parser are quite easy to use once you know how, this section will be covering the basics about embed parsers and some examples for you to work with.
 
 To use embed parsers we have to understand the basics first.
 
