@@ -24,6 +24,3 @@ $awaitComponents[messageID;userFilter;customID;commands;errorMsg?;uses?;data?]
 | errorMsg?    | string  | error message when command expires                             | no      |
 | uses?    | integer  | error message when command expires                             | no      |
 | data?    | string  | awaited data                             | no      |
-
-
-#### Make sure you have `bot.onInteraction();` in your main file.
