@@ -10,8 +10,8 @@ id: parser
 
 ### Table of Content
   - **[Embed Parsers][1]**
-    - **[Basics][1.1]**
-    - **[Examples][1.2]**
+    - **[Basics][1]**
+    - **[Examples][1]**
   - **[JSON Parsers][2]**
     - **[Installing Packages][2.1]**
     - **[Basics][2.2]**
@@ -72,7 +72,7 @@ Your result looks like this if you did everything correct:
 
 ---
 
-### JSON Parsers
+### Parsers
 #### **Parsers currently only work in the github version ([aoi.js@6.0.3][aoi-github])**
 
 ### Installing Packages
@@ -94,17 +94,57 @@ Util.parsers.ErrorHandler = parse;
 
 You're now able to use parsers.
 
+### Basic Parser Examples
 
+#### This is mainly used to add Message Components such as buttons, select menus and text inputs. This guide will *only* cover buttons.
 
+Lets start with the structure, you need `{actionRow:}`, no matter what you do. Inside of it are going to be our components later on.
+
+```js
+{button:Button Label:Type:Custom ID:disabled}
+```
+
+```js
+{button:Example Button!:1:exampleButton:no}
+```
+<details>
+  <summary> <h3> Button Types </h3></summary>
+
+| Name      | ID  |  Color  |
+| --------- | :-: | :-----: |
+| Primary   |	1 	| blurple |	
+| Secondary |	2	  | grey    |	
+| Success   |	3   |	green   |	
+| Danger    |	4   |	red     |
+| Link	    | 5  	| grey    |
+
+  ### Make sure to use the ID as button style.
+
+</details>
+
+### Parser Examples
+
+```js
+{actionRow:{actionRow:{button:Example Button!:1:exampleButton1:no}} //adds one button
+```
+```js
+{actionRow:{actionRow:{button:Example Button!:1:exampleButton1:no}{button:Example Button!:2:exampleButton2:no}} //adds two buttons in the same row
+```
+```js
+{actionRow:{actionRow:{button:Example Button!:1:exampleButton1:no}}{actionRow:{button:Example Button!:2:exampleButton2:no}} //adds two buttons in two different rows
+```
+
+Add all buttons for example: (make sure to escape the colon, stated in the embed parser guide)
+```js
+{actionRow:{button:Example Button!:1:exampleButton1:no}{button:Example Button!:2:exampleButton2:no}{button:Example Button!:4:exampleButton3:no}{button:Example Button!:3:exampleButton4:no}{button:Example Button!:5:https://discord.com:no}}{actionRow:{button:Example Button!:1:exampleButton1.1:yes}{button:Example Button!:2:exampleButton2.1:yes}{button:Example Button!:4:exampleButton3.1:yes}{button:Example Button!:3:exampleButton4.1:yes}{button:Example Button!:5:https://discord.com:yes}}
+```
 
 <!--- links -->
-[1]: #embed-parser
-[1.1]: #embed-parser
-[1.2]: #embed-parser-examples
-[2]: #json-parser
+[1]: #embed-parsers
+[2]: #parsers
 [2.1]: #installing-packages
-[2.2]: #starting-off-with-modifying-your-main-file
-[2.3]: #starting-off-with-modifying-your-main-file
+[2.2]: #basic-parser-examples
+[2.3]: #parser-examples
 [embed-example]: https://cdn.discordapp.com/attachments/1061712111052521493/1061764337691279460/image_3.png
 [aoi-github]: https://github.com/akaruidevelopment/aoi.js#v6
-[ayaka-parser]: https://github.com/usersatoshi/parsers#main 
+[ayaka-parser]: https://github.com/usersatoshi/parsers#main
