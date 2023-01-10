@@ -4,7 +4,7 @@ description: $interactionEdit will return edit an interaction.
 id: interactionEdit
 ---
 
-`$roleCount` will return edit an interaction.
+`$interactionEdit` will return edit an interaction.
 
 ## Usage
 
