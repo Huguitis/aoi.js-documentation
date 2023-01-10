@@ -9,7 +9,7 @@ id: newVariable
 ## Usage
 
 ```php
-$newVariable[option]
+$newVariable[option;sep?]
 ```
 
 ## Parameters 
@@ -18,3 +18,4 @@ $newVariable[option]
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
 | option    | string  | option <br> 1. **name**                            | yes      |
+| sep    | string  | seperator                           | no      |
