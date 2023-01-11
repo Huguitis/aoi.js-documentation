@@ -21,20 +21,23 @@ $randomChannelID[guildID/global?;type?]
 | type?           | string  | channel type              | no       |
 
 <details open>
-  <summary> <h3> Channel Types </h3></summary>
+  <summary><h3> Channel Types </h3></summary>
 
-| Channel Type         |                |
-| -------------------- | -------------- |
-| Text Channel         | Text           |
-| Voice Channel        | Voice          |
-| Category             | Category       |
-| Stage Channel        | Stage          |
-| Private Thread       | PrivateThread  |
-| Public Thread        | PublicThread   |
-| Announcement Thread  | NewsThread     |
-| Announcement Channel | News           |
-| Home                 | GuildDirectory |
-| all types            | all            |
+| Channel Type         |                    |
+| -------------------- | ------------------ |
+| Text Channel         | Text               |
+| Voice Channel        | Voice              |
+| Category             | Category           |
+| Stage Channel        | Stage              |
+| Private Thread       | PrivateThread      |
+| Public Thread        | PublicThread       |
+| Forum                | Forum              |
+| Announcement Thread  | AnnouncementThread |
+| Announcement Channel | Announcement       |
+| Home                 | GuildDirectory     |
+| NSFW Channel         | NSFW               |
+| Direct Message       | DM                 |
+| All Channel Types    | all                |
 
 #### Note: all channel types are **case-sensitive**.
 
