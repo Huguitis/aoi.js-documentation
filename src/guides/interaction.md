@@ -7,9 +7,15 @@ id: intcommands
 ## Interaction Commands
 
 ### Table of Content
-  - **[Gateaway Intents][1]**
-  - **[Permissions][2]**
-  - **[Discord Developer Portal - Documentation][3]**
+  - **[Introduction][introduction]**
+  - **[Getting Started][getting-started]**
+     - **[Inviting your bot with correct permissions][getting-started-sub-inviting-your-bot-with-correct-permissions]**
+     - **[Discord Developer Portal - Documentation][3]**
+  - **[Important][important]**
+  - **[Creating Application Commands][creating-application-commands]**
+  - **[Using Application Commands][using-application-commands]**
+  - **[Application Command Option Type][application-command-option-type]**
+  - **[Interaction Functions][interaction-functions]**
 ---
 
 ## Introduction
@@ -173,6 +179,12 @@ module.exports = [{
 * **$getApplicationCommandID[name;guildID/global (optional : global as default)]**
 
 <!--- links -->
-[1]: #discord-gateaway-intents
-[2]: #discord-api-permissions
+[introduction]: #introduction
+[getting-started]: #getting-started
+[getting-started-sub-inviting-your-bot-with-correct-permissions]: #inviting-your-bot-with-correct-permissions
+[important]: #important
+[creating-application-commands]: #creating-application-commands
+[using-application-commands]: #using-application-commands
+[application-command-option-type]: #application-command-option-type
+[interaction-functions]: #interaction-functions
 [3]: https://discord.com/developers/docs/topics/gateway#list-of-intents
