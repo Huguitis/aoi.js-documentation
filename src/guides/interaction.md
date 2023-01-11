@@ -15,6 +15,7 @@ id: intcommands
   - **[Creating Application Commands][creating-application-commands]**
   - **[Using Application Commands][using-application-commands]**
   - **[Application Command Option Type][application-command-option-type]**
+     - **[Discord Developer Portal - Documentation][4]**
   - **[Interaction Functions][interaction-functions]**
 ---
 
@@ -188,3 +189,4 @@ module.exports = [{
 [application-command-option-type]: #application-command-option-type
 [interaction-functions]: #interaction-functions
 [3]: https://discord.com/developers/docs/topics/gateway#list-of-intents
+[4]: https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type
