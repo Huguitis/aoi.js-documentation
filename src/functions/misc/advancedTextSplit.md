@@ -1,10 +1,10 @@
 ---
 title: $advancedTextSplit 
-description: $advancedTextSplit will return the guild's role count.
+description: $advancedTextSplit will split multiple given arguments.
 id: advancedTextSplit
 ---
 
-`$advancedTextSplit` will return the guild's role count.
+`$advancedTextSplit` will split multiple given arguments.
 
 ## Usage
 
