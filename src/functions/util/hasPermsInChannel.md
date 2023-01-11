@@ -37,7 +37,7 @@ $hasPermsInChannel[channelID;userorroleID;...perms]
 | priorityspeaker         | Priority Speaker                                                |
 | stream                  | Permission to stream in voice channels                          |
 | viewchannel             | Permission to view a certain channel                            |
-| sendmessage             | Permission to send messages in a certain channel                |
+| sendmessages            | Permission to send messages in a certain channel                |
 | sendtts                 | Permission to send Text-To-Speech messages                      |
 | managemessages          | Permission to manage messages                                   |
 | embedlinks              | Permission to embed links                                       |
