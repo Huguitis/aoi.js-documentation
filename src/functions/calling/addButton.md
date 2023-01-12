@@ -25,13 +25,13 @@ $addButton[index;label;style;customID;disabled?;emoji?]
 <details open>
   <summary><h3> Button Types </h3></summary>
 
-| Name      | Value | Color                    |
-| --------- | ----- | ------------------------ |
-| Primary   | 1     | blurple                  |
-| Secondary | 2     | grey                     |
-| Success   | 3     | green                    |
-| Danger    | 4     | red                      |
-| Link      | 5     | grey, navigates to a URL |
+| Name      | Value | Color                    |                                                            |
+| --------- | ----- | ------------------------ | ---------------------------------------------------------- |
+| Primary   | 1     | blurple                  | `$addButton[1;Example Button!;primary;customID;no]`        |
+| Secondary | 2     | grey                     | `$addButton[1;Example Button!;secondary;customID;no]`      |
+| Success   | 3     | green                    | `$addButton[1;Example Button!;success;customID;no]`        |
+| Danger    | 4     | red                      | `$addButton[1;Example Button!;danger;customID;no]`         |
+| Link      | 5     | grey, navigates to a URL | `$addButton[1;Example Button!;link;https://discord.gg;no]` |
   
 </details>
 
