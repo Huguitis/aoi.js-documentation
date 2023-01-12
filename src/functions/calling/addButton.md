@@ -4,6 +4,8 @@ description: $addButton will add a button to the bot's message.
 id: addButton
 ---
 
+`$addButton` will add a button to the bot's message.
+
 ## Usage
 
 ```php
