@@ -4,7 +4,7 @@ coverY: -4.149292149292149
 slug: /
 ---
 
-![aoijs](https://cdn.discordapp.com/attachments/804813961190572093/1013150967379808296/aoijs-v6.png)
+![aoijs](https://camo.githubusercontent.com/aaf8a38df828f097ecddcd3e4e72441a5d9a66d032e2a7a0b42f68c2ad708c79/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313035383834333432383833313632393434332f313036333235313737303232383334323839352f616f696a7362616e6e65722e706e67)
 
 [![NPM version][npm-image]][npm-url]
 [![AoiJS Server][aoijs-server]][aoijs-server-url]
@@ -21,7 +21,7 @@ slug: /
 
 ## Features
 
-- Built-in support of [database](https://www.npmjs.com/package/dbdjs.db) by default and ready for multipurpose.
+- Built-in support of [database](https://www.npmjs.com/package/aoi.db) by default and ready for multipurpose.
 - Built-in 600+ functions, simple and easy to learn.
 - Simple to learn, all in string-based and compact.
 - Support of extensions available to be used by the community.
