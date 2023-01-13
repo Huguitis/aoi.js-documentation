@@ -53,41 +53,42 @@ yarn add aoi.js
 ## Setup
 
 ```javascript
-const aoijs = require("aoi.js")
+const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
 token: "Discord Bot Token",
 prefix: "Discord Bot Prefix",
 intents: ["MessageContent", "Guilds", "GuildMessages"]
-})
+});
 
-//Events
-bot.onMessage()
+// Events, required for the bot to read and send messages.
+bot.onMessage();
 
-//Command Example (ping)
+// Ping Command Example
 bot.command({
 name: "ping",
 code: `Pong! $pingms`
-})
+});
 
-//Slash Interaction Command Example (ping)
-/*MUST EXECUTE FUNCTION FOR IT TO WORK
+// Slash Interaction Command Example (ping)
+/* You must execute the function below for the slash command to work:
 $createApplicationCommand[$guildID;ping;Pong!;true;slash]
 */
 bot.interactionCommand({
   name: "ping",
-  prototype: 'slash',
-  code: `$interactionReply[Pong! $pingms]`
-})
+  prototype: "slash",
+  code: `$interactionReply[Pong! $pingms;;;;everyone]`
+});
 ```
     
 ## Disclaimer
     
-aoi.js is not affiliated or associated with Discord or any other services.
+**[aoi.js](https://www.npmjs.com/package/aoi.js)** is not affiliated or associated with Discord or any other services.
     
 ## Links
 - [Website](https://aoi.js.org)
+- [Documentation](https://aoi.js.org/docs/)
 - [NPM](https://www.npmjs.com/package/aoi.js)
 - [Github](https://github.com/AkaruiDevelopment/aoi.js)
 - [Discord Support Server](https://discord.gg/HMUfMXDQsV)
-- [Documentation](https://aoi.js.org/docs/)
+
