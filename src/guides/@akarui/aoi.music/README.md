@@ -10,8 +10,8 @@ id: akarui/aoi.music
 
 | Name | Description | Link |
 | -------- | -------- | -------- |
-| Functions | All aoi.js extension functions | [link](/src/guides/@akarui/aoi.music/funcs.md) | 
 | Options | Dev, Search & Request Options | [link](/src/guides/@akarui/aoi.music/options.md) | 
+| Functions | All aoi.js extension functions | [link](/src/guides/@akarui/aoi.music/funcs.md) | 
 
 
 
@@ -54,3 +54,5 @@ const voice = new AoiVoice(bot, {
     },
 });
 ```
+
+
