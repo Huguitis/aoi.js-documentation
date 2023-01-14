@@ -1,3 +1,9 @@
+---
+title: akarui/aoi.panel
+description: Setting up aoi.panel with ease.
+id: akarui/aoi.panel
+---
+
 # @akarui/aoi.panel Documentation
 
 ## Table Of Contents
