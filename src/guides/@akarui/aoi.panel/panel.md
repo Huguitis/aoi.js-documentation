@@ -1,3 +1,9 @@
+---
+title: akarui/aoi.panel
+description: All about aoi.panel's Panel class.
+id: akarui/aoi.panel-panelClass
+---
+
 # The Panel Class
 
 ```javascript
