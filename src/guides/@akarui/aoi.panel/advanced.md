@@ -1,3 +1,9 @@
+---
+title: akarui/aoi.panel
+description: All about aoi.panel's advanced features.
+id: akarui/aoi.panel-advanced
+---
+
 
 # Advanced Usage
 
