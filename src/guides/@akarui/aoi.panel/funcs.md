@@ -1,3 +1,10 @@
+---
+title: akarui/aoi.panel
+description: All about aoi.panel's functions.
+id: akarui/aoi.panel-functions
+---
+
+
 # Panel Functions 
 
 ### 1) `loadPanel` : This Function loads the panel. The panel will not work without this! It has no parameters.
