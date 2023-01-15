@@ -24,7 +24,7 @@ $author[index?;name;iconURL?]
 
 ## Example
 
-This will return the amount of roles of your guild:
+This will create an embed with description and author title:
 
 ```javascript
 bot.command({
