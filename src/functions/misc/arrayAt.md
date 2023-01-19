@@ -4,6 +4,9 @@ description: $arrayAt choose the index (position) of the array element to be ret
 id: arrayAt
 ---
 
+
+`$arrayAt` choose the index (position) of the array element to be returned. Returns nothing if the given index can not be found.
+
 ## Usage
 
 ```php
