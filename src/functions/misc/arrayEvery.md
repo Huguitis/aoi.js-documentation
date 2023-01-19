@@ -36,8 +36,6 @@ $arrayEvery[name;query;queryType?]
 
 ## Example
 
-This will return `This is a test`:
-
 ```javascript
 bot.command({
   name: "array-every", 
