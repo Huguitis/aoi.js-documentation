@@ -4,7 +4,7 @@ description: $createScheduledEvent will create a scheduled event.
 id: createScheduledEvent
 ---
 
-`$roleCount` will create a scheduled event.
+`$createScheduledEvent` will create a scheduled event.
 
 ## Usage
 
