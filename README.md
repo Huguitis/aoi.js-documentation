@@ -25,8 +25,8 @@
 
 ## Features
 
-- Built-in support of [database](https://www.npmjs.com/package/dbdjs.db) by default and ready for multipurpose.
-- Built-in 600+ functions, simple and easy to learn.
+- Built-in support of [database](https://www.npmjs.com/package/aoi.db) by default and ready for multipurpose.
+- Built-in 620+ functions, simple and easy to learn.
 - Simple to learn, all in string-based and compact.
 - Support of extensions available to be used by the community.
 
@@ -45,22 +45,22 @@ yarn add aoi.js
 ## Setup
 
 ```javascript
-const aoijs = require("aoi.js")
+const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
-token: "Discord Bot Token",
-prefix: "Discord Bot Prefix",
-intents: ["MessageContent", "Guilds", "GuildMessages"]
-})
+  token: "Discord Bot Token",
+  prefix: "Discord Bot Prefix",
+  intents: ["MessageContent", "Guilds", "GuildMessages"]
+});
 
 //Events
-bot.onMessage()
+bot.onMessage();
 
 //Command Example (ping)
 bot.command({
-name: "ping",
-code: `Pong! $pingms`
-})
+  name: "ping",
+  code: `Pong! $pingms`
+});
 
 //Slash Interaction Command Example (ping)
 /*MUST EXECUTE FUNCTION FOR IT TO WORK
@@ -70,7 +70,7 @@ bot.interactionCommand({
   name: "ping",
   prototype: 'slash',
   code: `$interactionReply[Pong! $pingms]`
-})
+});
 ```
     
 ## Disclaimer
