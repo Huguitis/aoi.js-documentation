@@ -4,6 +4,9 @@ description: $argsCount will return the amount of given arguments.
 id: argsCount
 ---
 
+
+`$argsCount` will return the amount of given arguments.
+
 ## Usage
 
 ```php
