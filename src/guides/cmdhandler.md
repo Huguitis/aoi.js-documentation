@@ -95,14 +95,14 @@ module.exports = [{
   aliases: ["helpcmd", "helpme"],
   code: `
 $title[Help Command!]
-$thumbnail[$authorAvatar] 
+$thumbnail[$userAvatar[$authorID]] 
 $description[Any text you like can go here!]
 $footer[Even footers!]`
 }, {
   type: "join",
   channel: "any channel ID",
   code: `
-$title[Someone joined!!]
+$title[Someone joined!]
 $description[Welcome to this server <@$authorID>!]`
 }]
 ```
