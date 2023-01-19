@@ -8,7 +8,7 @@
 
 <div align="center">
 
-**The most powerful string package to create a simple and fast Discord Bot.**
+**The official Documentation of the aoi.js NPM package.**
   
 [![NPM downloads][download-image]][download-url]
 [![AoiJS Server][aoijs-server]][aoijs-server-url]
