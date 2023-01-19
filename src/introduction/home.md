@@ -15,7 +15,7 @@ slug: /
 
 <div align="center">
 
-**The most powerful string package to create a simple and fast Discord Bot.**
+**The official Documentation of the aoi.js NPM package.**
   
 [![NPM downloads][download-image]][download-url]
 [![AoiJS Server][aoijs-server]][aoijs-server-url]
@@ -33,7 +33,7 @@ slug: /
 
 ## Features
 
-- Built-in support of **[database](https://www.npmjs.com/package/dbdjs.db)** by default and ready for multipurpose.
+- Built-in support of **[database](https://www.npmjs.com/package/aoi.db)** by default and ready for multipurpose.
 - Built-in **630+** functions, simple and easy to learn.
 - Simple to learn, all in string-based and compact.
 - Support of extensions available to be used by the community.
@@ -56,9 +56,9 @@ yarn add aoi.js
 const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
-token: "Discord Bot Token",
-prefix: "Discord Bot Prefix",
-intents: ["MessageContent", "Guilds", "GuildMessages"]
+  token: "Discord Bot Token",
+  prefix: "Discord Bot Prefix",
+  intents: ["MessageContent", "Guilds", "GuildMessages"]
 });
 
 // Events, required for the bot to read and send messages.
@@ -66,8 +66,8 @@ bot.onMessage();
 
 // Ping Command Example
 bot.command({
-name: "ping",
-code: `Pong! $pingms`
+  name: "ping",
+  code: `Pong! $pingms`
 });
 
 // Slash Interaction Command Example (ping)
