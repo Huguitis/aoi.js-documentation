@@ -47,16 +47,16 @@ const bot = new aoijs.AoiClient({
 token: "Discord Bot Token",
 prefix: "Discord Bot Prefix",
 intents: ["MessageContent", "Guilds", "GuildMessages"]
-})
+});
 
 //Events
-bot.onMessage()
+bot.onMessage();
 
 //Command Example (ping)
 bot.command({
 name: "ping",
 code: `Pong! $pingms`
-})
+});
 ```
     
 ## Disclaimer
