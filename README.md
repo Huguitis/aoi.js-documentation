@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://aoi.js.org">
-    <img width="500" src="https://cdn.discordapp.com/attachments/1058843428831629443/1063251770228342895/aoijsbanner.png" alt="aoijs">
+    <img width="650" src="https://camo.githubusercontent.com/aaf8a38df828f097ecddcd3e4e72441a5d9a66d032e2a7a0b42f68c2ad708c79/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313035383834333432383833313632393434332f313036333235313737303232383334323839352f616f696a7362616e6e65722e706e67" alt="aoijs">
   </a>
 </p>
 
@@ -8,20 +8,18 @@
 
 <div align="center">
 
-**The most powerful string package to create a simple and fast Discord Bot.**
-
-[![NPM version][npm-image]][npm-url]
-[![AoiJS Server][aoijs-server]][aoijs-server-url]
+**The official Documentation of the aoi.js NPM package.**
+  
 [![NPM downloads][download-image]][download-url]
+[![AoiJS Server][aoijs-server]][aoijs-server-url]
+[![NPM version][npm-image]][npm-url]
 
-[npm-image]: http://img.shields.io/npm/v/aoi.js.svg
+[npm-image]: http://img.shields.io/npm/v/aoi.js.svg?color=42cfff
 [npm-url]: http://npmjs.org/package/aoi.js
-[download-image]: https://img.shields.io/npm/dt/aoi.js.svg
+[download-image]: https://img.shields.io/npm/dt/aoi.js.svg?color=3182b0
 [download-url]: https://npmjs.org/package/aoi.js
 [aoijs-server]: https://img.shields.io/discord/773352845738115102?color=5865F2&logo=discord&logoColor=white
 [aoijs-server-url]: https://aoi.js.org/invite
-
-[Preview](https://aoi.js.org/docs/guides/setup)
 
 </div>
 
