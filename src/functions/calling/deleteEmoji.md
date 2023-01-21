@@ -9,7 +9,7 @@ id: deleteEmoji
 ## Usage
 
 ```php
-$deleteEmoji[guildID?;fetchFirst?]
+$deleteEmoji[emoji]
 ```
 
 ## Parameters 
