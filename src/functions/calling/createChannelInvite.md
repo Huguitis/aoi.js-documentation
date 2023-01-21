@@ -17,8 +17,8 @@ $createChannelInvite[channelID?;...options]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
-| channelID?    | integer  | channel ID                             | yes      |
-| options?    | integer  | json objects                             | yes      |
+| channelID?    | integer  | channel ID                             | no      |
+| options?    | string  | json objects                             | no      |
 
 <details>
   <summary><h3> Invite Target Types </h3></summary>
