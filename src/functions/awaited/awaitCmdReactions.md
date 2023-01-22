@@ -17,7 +17,7 @@ $awaitCmdReactions[userfilter;time;reactions;commands;errorMsg?;awaitData?]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
-| userfilter   | string  | to what the bot will reply <br> 1. **everyone** <br> 2. **specific user ID** - any user ID  | yes      |
+| userfilter   | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID  | yes      |
 | time    | integer  | how long the command will last / when the command expires| yes      |
 | reactions    | string  | reactions the bot will be listening to, you can seperate multiple emojis with a comma ( `,` )                             | yes      |
 | commands    | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )                               | yes      |
