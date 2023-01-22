@@ -87,8 +87,7 @@ bot.interactionCommand({
     
 ## Links
 - [Website](https://aoi.js.org)
-- [Documentation](https://aoi.js.org/docs/)
 - [NPM](https://www.npmjs.com/package/aoi.js)
 - [Github](https://github.com/AkaruiDevelopment/aoi.js)
 - [Discord Support Server](https://discord.gg/HMUfMXDQsV)
-
+- [Documentation](https://aoi.js.org/docs/)
