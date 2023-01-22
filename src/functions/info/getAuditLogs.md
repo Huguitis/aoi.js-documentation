@@ -1,6 +1,6 @@
 ---
 title: $getAuditLogs 
-description: $title: $getAuditLogs will retrieve guild audit logs according to the given arguments.
+description: $getAuditLogs will retrieve guild audit logs according to the given arguments.
 id: getAuditLogs
 ---
 
