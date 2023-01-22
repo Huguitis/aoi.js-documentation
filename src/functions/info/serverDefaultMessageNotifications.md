@@ -9,7 +9,7 @@ id: serverDefaultMessageNotifications
 ## Usage
 
 ```php
-$serverDefaultMessageNotifications[guild?]
+$serverDefaultMessageNotifications[guildID?]
 ```
 
 ## Parameters 
