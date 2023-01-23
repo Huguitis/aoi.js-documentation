@@ -137,7 +137,7 @@ $createApplicationCommand[$guildID;say;say command;true;slash;[{
   "description": "Text you want to say!",
   "required": true,
   "type": 3
-}]
+}]]
 // make sure to eval the code above
 ```
 ```js
@@ -145,7 +145,7 @@ module.exports = [{
   name: "say",
   prototype : "slash",
   type: "interaction", 
-  code: `$interactionReply[You said: $slashOption[text]!]`
+  code: `$interactionReply[You said: $slashOption[text]!;;;everyone]`
 }]
 ```
 
