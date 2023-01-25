@@ -12,6 +12,7 @@ id: others
   - **[Command Aliases][1]**
     - **[Way more possibilities][1.1]**  
   - **[Hyperlinks][2]**
+    - **[Tool Tips](#hovering-text)**
 
 ---
 
@@ -70,6 +71,12 @@ module.exports = [{
   You said: "$message"!
   `
 }];
+```
+
+And the great thing is you can get that information using `$commandInfo`!
+
+```php
+$commandInfo[say;category]
 ```
 
 ---

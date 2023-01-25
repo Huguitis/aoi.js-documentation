@@ -14,67 +14,67 @@ id: permissionsandintents
 
 ### Discord Gateaway Intents
 
-> * **MessageContent** <br>
-> * **Guilds** <br>
-> * **GuildMessages** <br>
-> * **GuildMembers** <br>
-> * **GuildBans** <br>
-> * **GuildEmojisAndStickers** <br>
-> * **GuildIntegrations** <br>
-> * **GuildWebhooks** <br>
-> * **GuildInvites** <br>
-> * **GuildVoiceStates** <br>
-> * **GuildPresences** <br>
-> * **GuildMessageReactions** <br>
-> * **GuildMessageTyping** <br>
-> * **DirectMessages** <br>
-> * **DirectMessageReactions** <br>
+> * **MessageContent**   
+> * **Guilds**   
+> * **GuildMessages**   
+> * **GuildMembers**   
+> * **GuildBans**   
+> * **GuildEmojisAndStickers**   
+> * **GuildIntegrations**   
+> * **GuildWebhooks**   
+> * **GuildInvites**   
+> * **GuildVoiceStates**   
+> * **GuildPresences**   
+> * **GuildMessageReactions**   
+> * **GuildMessageTyping**   
+> * **DirectMessages**   
+> * **DirectMessageReactions**   
 > * **DirectMessageTyping**
 
 
 ### Discord API Permissions
 
-> * **createinstantinvite** <br>
-> * **kickmembers** <br>
-> * **banmembers** <br>
-> * **administrator** <br>
-> * **managechannels** <br>
-> * **manageguild** <br>
-> * **addreactions** <br>
-> * **viewauditlog** <br>
-> * **priorityspeaker** <br>
-> * **stream** <br>
-> * **viewchannel** <br>
-> * **sendmessages** <br>
-> * **sendttsmessages** <br>
-> * **managemessages** <br>
-> * **embedlinks** <br>
-> * **attachfiles** <br>
-> * **readmessagehistory** <br>
-> * **mentioneveryone** <br>
-> * **useexternalemojis** <br>
-> * **viewguildinsights** <br>
-> * **connect** <br>
-> * **speak** <br>
-> * **mutemembers** <br>
-> * **deafenmembers** <br>
-> * **movemembers** <br>
-> * **usevad** <br>
-> * **changenickname** <br>
-> * **managenicknames** <br>
-> * **manageroles** <br>
-> * **managewebhooks** <br>
-> * **manageemojisandstickers** <br>
-> * **useapplicationcommands** <br>
-> * **requesttospeak** <br>
-> * **manageevents** <br>
-> * **managethreads** <br>
-> * **createpublicthreads** <br>
-> * **createprivatethreads** <br>
-> * **useexternalstickers** <br>
-> * **sendmessagesinthreads** <br>
-> * **useembeddedactivities** <br>
-> * **moderatemembers** <br>
+> * **createinstantinvite**  
+> * **kickmembers**  
+> * **banmembers**  
+> * **administrator**   
+> * **managechannels**   
+> * **manageguild**   
+> * **addreactions**   
+> * **viewauditlog**   
+> * **priorityspeaker**   
+> * **stream**   
+> * **viewchannel**   
+> * **sendmessages**   
+> * **sendttsmessages**   
+> * **managemessages**   
+> * **embedlinks**   
+> * **attachfiles**   
+> * **readmessagehistory**   
+> * **mentioneveryone**   
+> * **useexternalemojis**   
+> * **viewguildinsights**   
+> * **connect**   
+> * **speak**   
+> * **mutemembers**   
+> * **deafenmembers**   
+> * **movemembers**   
+> * **usevad**   
+> * **changenickname**   
+> * **managenicknames**   
+> * **manageroles**   
+> * **managewebhooks**   
+> * **manageemojisandstickers**   
+> * **useapplicationcommands**   
+> * **requesttospeak**   
+> * **manageevents**   
+> * **managethreads**   
+> * **createpublicthreads**   
+> * **createprivatethreads**   
+> * **useexternalstickers**   
+> * **sendmessagesinthreads**   
+> * **useembeddedactivities**   
+> * **moderatemembers**   
 
 
 <!--- links -->

@@ -9,10 +9,10 @@ id: cmdhandler
 ### Storing your commands in your main file may seem fine, but after a certain amount of commands it can get hard to find and update commands. Therefore you should use the Command Handler to keep your main file neat and save yourself from the clutter.  
 
 ### Table of Content
-  - [Modifying your main file][1]
-  - [Creating folders and files][2]
-  - [Using multiple commands in one file][3]
-  - [Updating commands without restarting your Discord Bot][4]
+  - **[Modifying your main file][1]**
+  - **[Creating folders and files][2]**
+  - **[Using multiple commands in one file][3]**
+    - **[Updating commands without restarting your Discord Bot][4]**
 
 ---
 
@@ -107,9 +107,8 @@ $description[Welcome to this server <@$authorID>!]`
 }]
 ```
 
-> ⚠ Make sure you have the required intents and `bot.onJoin();` in your `index.js` or else this won't work!
->
-> Required intents: `guildMembers`
+Make sure you have the required intents and `bot.onJoin();` in your `index.js` or else this won't work!  
+> **Required intents: `guildMembers`**
 
 ### Updating your commands without restart!
 
