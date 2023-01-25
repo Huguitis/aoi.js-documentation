@@ -22,7 +22,9 @@ id: intcommands
 
 ## Introduction
 
-Slash Commands are the new and exciting way to create and interact with applications on Discord. With Slash Commands, all you need to do is type `/` and you'll be able to use your favourite bot. Users can easily learn what your bot can do, and discover new features as they are added. Validation, error states, and user-friendly interface guides them through your commands, so they can get it right the first time, especially on mobile. You now have an additional tool to combat your phone's autocorrect. Slash Commands set your users up for success instead of confusion and frustration. They separate how users think and how your code works, meaning no matter how complex your codebase and commands may become, people who love your bot will find it easy to use and accessible.
+Slash Commands are the new and exciting way to create and interact with applications on Discord. With Slash Commands, all you need to do is type `/` and you'll be able to use your favourite bot. 
+
+Users can easily learn what your bot can do, and discover new features as they are added. Validation, error states, and user-friendly interface guides them through your commands, so they can get it right the first time, especially on mobile. Slash Commands set your users up for success instead of confusion and frustration. They separate how users think and how your code works, meaning no matter how complex your codebase and commands may become, people who love your bot will find it easy to use and accessible.
 
 ![slash](https://cdn.discordapp.com/attachments/1061712111052521493/1062518328268169306/image_4.png)
 
@@ -41,7 +43,6 @@ In order to use Application Commands, your bot needs the `application.commands` 
 * You require `bot.onInteractionCreate();` in your main file.
 
 ![slash.example](https://cdn.discordapp.com/attachments/1061712111052521493/1062559509601591427/image_6.png)
-
 ## Creating Application Commands
 
 ```js
@@ -146,18 +147,28 @@ module.exports = [{
   name: "say",
   prototype : "slash",
   type: "interaction", 
-  code: `$interactionReply[You said: $slashOption[text]!]`
+  code: `$interactionReply[You said: $slashOption[text]!;;;;everyone]`
 }]
 ```
 
 
-### AutoCompleteRespond Commands
+### AutoCompleteRespond Functions & Examples
+
+There are multiple ways of using `$autoCompleteRespond`, you can either use JSON or the simple aoi.js way.
+
+#### Usage
 
 ```php
-$autoCompleteRespond[json]
+$autoCompleteRespond[OptionName;OptionReply;...]
 ```
 ```php
-$autoCompleteRespond[OptionName;OptionReply;...]
+$autoCompleteRespond[[{ 
+    "name" : "Option Name One",
+    "value" : "Option Reply 1"
+  }, {
+    "name" : "Option Name Two",
+    "value" : "Option Reply 2"
+  }]]
 ```
 
 Create the slash-commands: (please note that you require the `bot.onInteractionCreate()` callback in your main file)
@@ -166,13 +177,12 @@ bot.command({
   name: 'createSlashCommand',
   code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
-  "name": "option", // slash command name
-  "description": "test", // slash command description
-  "required": false, // true or false, depending on if its required or not
-  "type": 3, // string type
-  "autocomplete": true // enable auto complete for the slash command
-}]
-  `
+  "name": "option", 
+  "description": "test",
+  "required": false,
+  "type": 3, 
+  "autocomplete": true
+}]]`
 });
 ```
 Checking if autoComplete equals `true`, if so it will respond with the given respond (addition of the code above):
@@ -198,18 +208,17 @@ bot.command({
   name: 'createSlashCommand',
   code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
-  "name": "option", // slash command name
-  "description": "test", // slash command description
-  "required": false, // true or false, depending on if its required or not
-  "type": 3, // string type
-  "autocomplete": true // enable auto complete for the slash command
+  "name": "option",
+  "description": "test",
+  "required": false, 
+  "type": 3,
+  "autocomplete": true 
 }, {
-  "name": "anotheroption", // slash command name
-  "description": "test", // slash command description
-  "required": false, // true or false, depending on if its required or not
-  "type": 3, // string type
-}]
-  `
+  "name": "anotheroption",
+  "description": "test",
+  "required": false,
+  "type": 3
+}]]`
 });
 ```
 
@@ -263,11 +272,11 @@ bot.command({
 * **[$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]](../functions/events/interactionUpdate.md)**
 * **[$slashOption[option]](../functions/events/slashOption.md)**
 * **[$deleteApplicationCommand[guildID/global;id]](../functions/calling/deleteApplicationCommand.md)**
-* **$modifyApplicationCommand[guildID/global;commandID;name;description;type(optional);options (optional);defaultPermission(optional)]**
-* **$getApplicationCommandOptions[name;guildID/global (optional : global as default)]**
-* **$getApplicationCommandID[name;guildID/global (optional : global as default)]**
+* **[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](## "adding later")**
+* **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](## "adding later")**
+* **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/calling/autoCompleteRespond.md)**
-* **$isAutocomplete**
+* **[$isAutocomplete](## "adding later")**
 
 <!--- links -->
 [introduction]: #introduction
@@ -280,4 +289,4 @@ bot.command({
 [interaction-functions]: #interaction-functions
 [3]: https://discord.com/developers/docs/topics/gateway#list-of-intents
 [4]: https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type
-[6]: #autocompleterespond-commands
+[6]: #autocompleterespond-functions--examples
