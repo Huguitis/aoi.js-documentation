@@ -18,8 +18,8 @@ $deleteInvite[guildID;inviteCode;reason?]
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
 | guildID    | integer  | guild ID                             | yes      |
-| inviteCode    | integer  | invite code                             | yes      |
-| reason?    | integer  | reason that will be displayed in the guild's audit logs                             | no      |
+| inviteCode    | string  | invite code                             | yes      |
+| reason?    | string  | reason that will be displayed in the guild's audit logs                             | no      |
 
 
 ## Example
