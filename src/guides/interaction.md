@@ -14,6 +14,7 @@ id: intcommands
   - **[Important][important]**
   - **[Creating Application Commands][creating-application-commands]**
   - **[Using Application Commands][using-application-commands]**
+    - **[Auto Complete Respond][6]**
   - **[Application Command Option Type][application-command-option-type]**
      - **[Discord Developer Portal - Documentation][4]**
   - **[Interaction Functions][interaction-functions]**
@@ -137,7 +138,7 @@ $createApplicationCommand[$guildID;say;say command;true;slash;[{
   "description": "Text you want to say!",
   "required": true,
   "type": 3
-}]]
+}]
 // make sure to eval the code above
 ```
 ```js
@@ -145,39 +146,128 @@ module.exports = [{
   name: "say",
   prototype : "slash",
   type: "interaction", 
-  code: `$interactionReply[You said: $slashOption[text]!;;;everyone]`
+  code: `$interactionReply[You said: $slashOption[text]!]`
 }]
 ```
 
+
+### AutoCompleteRespond Commands
+
+```php
+$autoCompleteRespond[json]
+```
+```php
+$autoCompleteRespond[OptionName;OptionReply;...]
+```
+
+Create the slash-commands: (please note that you require the `bot.onInteractionCreate()` callback in your main file)
+```javascript
+bot.command({
+  name: 'createSlashCommand',
+  code: `
+  $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
+  "name": "option", // slash command name
+  "description": "test", // slash command description
+  "required": false, // true or false, depending on if its required or not
+  "type": 3, // string type
+  "autocomplete": true // enable auto complete for the slash command
+}]
+  `
+});
+```
+Checking if autoComplete equals `true`, if so it will respond with the given respond (addition of the code above):
+```javascript
+bot.command({
+  name: "example",
+  prototype: "slash",
+  $if: "old",
+  code: `
+  $if[$isAutocomplete==true]
+  $autoCompleteRespond[First option;You selected the first option, therefore I'm responding with this!;Second option;You selected the first second, therefore I'm responding with this!]
+  $else
+  $interactionReply[$slashOption[option];;;;everyone]
+  $endif
+  `
+});
+```
+
+Create the slash-commands: (please note that you require the `bot.onInteractionCreate()` callback in your main file)
+
+```javascript
+bot.command({
+  name: 'createSlashCommand',
+  code: `
+  $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
+  "name": "option", // slash command name
+  "description": "test", // slash command description
+  "required": false, // true or false, depending on if its required or not
+  "type": 3, // string type
+  "autocomplete": true // enable auto complete for the slash command
+}, {
+  "name": "anotheroption", // slash command name
+  "description": "test", // slash command description
+  "required": false, // true or false, depending on if its required or not
+  "type": 3, // string type
+}]
+  `
+});
+```
+
+Using JSON and checking if autoComplete equals `true`, if so it will respond with the given respond (addition of the code above):
+
+```javascript
+bot.command({
+  name: "example",
+  prototype: "slash",
+  $if: "old",
+  code: `
+  $if[$isAutocomplete==true]
+  $autoCompleteRespond[[{ 
+    "name" : "First Option",
+    "value" : "You selected the first option, therefore I\'m responding with this!"
+  }, {
+    "name" : "Second Option",
+    "value" : "You selected the second option, therefore I\'m responding with this!"
+  }]]
+  $else
+  $interactionReply[$slashOption[option] - autocomplete #SEMI# $slashOption[anotheroption] - no autocomplete;;;;everyone]
+  $endif
+  `
+});
+```
+
+
 ## [Application Command Option Type](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type)
 
-| NAME              | ID | NOTE                                                                                         |
-|-------------------|----|----------------------------------------------------------------------------------------------|
-| SUB_COMMAND       | 1  |                                                                                              |
-| SUB_COMMAND_GROUP | 2  |                                                                                              |
-| STRING            | 3  |                                                                                              |
-| INTEGER           | 4  | Any Integer between -2^53 and 2^53                                                           |
-| BOOLEAN           | 5  |                                                                                              |
-| USER              | 6  |                                                                                              |
-| CHANNEL           | 7  | Includes all channel types + categories                                                      |
-| ROLE              | 8  |                                                                                              |
-| MENTIONABLE       | 9  | Includes users and roles                                                                     |
-| NUMBER            | 10 | Any double between -2^53 and 2^53                                                            |
-| ATTACHMENT        | 11 | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
+| NAME              | ID  | NOTE                                                                                         |
+| ----------------- | --- | -------------------------------------------------------------------------------------------- |
+| SUB_COMMAND       | 1   |                                                                                              |
+| SUB_COMMAND_GROUP | 2   |                                                                                              |
+| STRING            | 3   |                                                                                              |
+| INTEGER           | 4   | Any Integer between -2^53 and 2^53                                                           |
+| BOOLEAN           | 5   |                                                                                              |
+| USER              | 6   |                                                                                              |
+| CHANNEL           | 7   | Includes all channel types + categories                                                      |
+| ROLE              | 8   |                                                                                              |
+| MENTIONABLE       | 9   | Includes users and roles                                                                     |
+| NUMBER            | 10  | Any double between -2^53 and 2^53                                                            |
+| ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
 
 ## Interaction Functions
-* **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/no)]](../src/functions/events/interactionReply.md)**
-* **[$interactionDefer[ephemeral]](../src/functions/events/interactionDefer.md)**
-* **[$interactionDeferUpdate[ephemeral]](../src/functions/events/interactionDeferUpdate.md)**
-* **[$interactionDelete](../src/functions/events/interactionDelete.md)**
-* **[$interactionEdit[content?;embeds?;components?;files?;allowed mentions?]](../src/functions/events/interactionEdit.md)**
-* **[$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]](../src/functions/events/interactionFollowUp.md)**
-* **[$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]](../src/functions/events/interactionUpdate.md)**
-* **[$slashOption[option]](../src/functions/events/interactionUpdate.md)**
-* **$deleteSlashCommand[guildID/global;id]**
+* **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/no)]](../functions/events/interactionReply.md)**
+* **[$interactionDefer[ephemeral]](../functions/events/interactionDefer.md)**
+* **[$interactionDeferUpdate[ephemeral]](../functions/events/interactionDeferUpdate.md)**
+* **[$interactionDelete](../functions/events/interactionDelete.md)**
+* **[$interactionEdit[content?;embeds?;components?;files?;allowed mentions?]](../functions/events/interactionEdit.md)**
+* **[$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]](../functions/events/interactionFollowUp.md)**
+* **[$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]](../functions/events/interactionUpdate.md)**
+* **[$slashOption[option]](../functions/events/slashOption.md)**
+* **[$deleteApplicationCommand[guildID/global;id]](../functions/calling/deleteApplicationCommand.md)**
 * **$modifyApplicationCommand[guildID/global;commandID;name;description;type(optional);options (optional);defaultPermission(optional)]**
 * **$getApplicationCommandOptions[name;guildID/global (optional : global as default)]**
 * **$getApplicationCommandID[name;guildID/global (optional : global as default)]**
+* **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/calling/autoCompleteRespond.md)**
+* **$isAutocomplete**
 
 <!--- links -->
 [introduction]: #introduction
@@ -190,3 +280,4 @@ module.exports = [{
 [interaction-functions]: #interaction-functions
 [3]: https://discord.com/developers/docs/topics/gateway#list-of-intents
 [4]: https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type
+[6]: #autocompleterespond-commands
