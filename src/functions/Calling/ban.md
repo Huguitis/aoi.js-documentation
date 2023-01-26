@@ -4,7 +4,7 @@ description: $ban will ban a user of a guild.
 id: ban
 ---
 
-`$roleCount` will ban a user of a guild.
+`$ban` will ban a user of a guild.
 
 ## Usage
 
