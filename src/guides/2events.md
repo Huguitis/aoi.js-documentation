@@ -29,7 +29,7 @@ It's worth bearing in mind that in order to utilise certain events, you'll need 
 
 ### Server based events:
 * **bot.onLeave()** => for logging members once they leave servers
-* **bot.onJoined()** => for logging members once they join servers
+* **bot.onJoin()** => for logging members once they join servers
 * **bot.onBanAdd()** => for logging members once they get banned in servers
 * **bot.onBanRemove()** => for logging members once they get unbanned inservers
 * **bot.onChannelCreate()** => for logging channels once they get created
@@ -72,7 +72,7 @@ const bot = new aoijs.Bot({
 });
  
 bot.onMessage(); // Mandatory, always use this event (only if you have the required intents)
-bot.onJoined(); // Allows to log users who join servers
+bot.onJoin(); // Allows to log users who join servers
 bot.onLeave(); // Allows to log users who leave servers
 bot.onBanAdd(); // Allows to log users who get banned from servers
 bot.onBanRemove(); // Allows to log users who get unbanned from servers

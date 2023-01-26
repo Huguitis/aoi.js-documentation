@@ -9,7 +9,7 @@ id: interactionEdit
 ## Usage
 
 ```php
-$interactionEdit[content?;embeds?;components?;files?;allowed mentions?]
+$interactionEdit[content?;embeds?;components?;files?;allowedMentions]
 ```
 
 ## Parameters 
@@ -21,7 +21,7 @@ $interactionEdit[content?;embeds?;components?;files?;allowed mentions?]
 | embeds?    | string  | embed                             | no      |
 | components?    | string  | components                             | no      |
 | files?    | string  | files                             | no      |
-| allowed mentions?    | string  | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone**                             | no      |
+| allowedMentions    | string  | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone**                             | yes      |
 
 
 ## Example
@@ -31,9 +31,9 @@ bot.interactionCommand({
   name: "interactionEdit",
   prototype: 'slash',
   code: `
-  $interactionEdit[Bye, World!]
+  $interactionEdit[Bye, World!;;;;everyone;no]
   $wait[5s]
-  $interactionReply[Hello, World!]
+  $interactionReply[Hello, World!;;;;everyone;no]
   `
 });
 ```
