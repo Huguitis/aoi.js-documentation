@@ -1,10 +1,10 @@
 ---
 title: $createApplicationCommand 
 description: $createApplicationCommand will create an application command.
-id: roleCount
+id: createApplicationCommand
 ---
 
-`$roleCount` will create an application command.
+`$createApplicationCommand` will create an application command.
 
 ## Usage
 
