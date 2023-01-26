@@ -21,7 +21,7 @@ $channelCount[guildID?;type?]
 | type?    | string  | type you want the amount of                                    |    no    |
 
 
-<details open>
+<details>
   <summary><h3> Channel Types </h3></summary>
 
 | Channel Type         |                    |

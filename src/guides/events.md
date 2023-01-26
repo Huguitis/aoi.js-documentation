@@ -71,7 +71,7 @@ const bot = new aoijs.Bot({
   intents: ["Guilds", "GuildMessages"]
 });
  
-bot.onMessage(); // Mandatory, always use this event (only if you have the require intent)
+bot.onMessage(); // Mandatory, always use this event (only if you have the required intents)
 bot.onJoined(); // Allows to log users who join servers
 bot.onLeave(); // Allows to log users who leave servers
 bot.onBanAdd(); // Allows to log users who get banned from servers

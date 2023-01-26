@@ -4,13 +4,14 @@ description: Status - How to use bot statuses.
 id: status
 ---
 
-## Parsers
+## Client Statuses
 
-#### This guide will be covering statuses.
+#### This guide will be covering statuses and client presences.
 
 ### Table of Content
   - **[Statuses][1]**
-    - **[Status Types][2]**  
+  - **[Client Presence][2]** 
+    -  **[Mobile Presence](#client-presence)**
 
 ---
 
@@ -75,14 +76,14 @@ There are multiple types of presences:
 > * **idle**
 > * **dnd** 
 > * **invisible**
-> * **mobilePresence** <br>
+> * **mobilePresence**  
   > To use the mobile presence you have to setup something in your main file:
 >  ```js
 >  const aoijs = require("aoi.js")
 >  const bot = new aoijs.AoiClient({
 >  token: "DISCORD BOT TOKEN",
 >  prefix: "DISCORD BOT PREFIX",
->  intents: ["Guilds", "GuildMessages"],
+>  intents: ["MessageContent", "Guilds", "GuildMessages"],
 >  mobilePlatform: true
 > });
 > ```
