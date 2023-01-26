@@ -35,5 +35,4 @@ bot.command({
   `
   // Returns "Aoi.dashboard"
 });
-});
 ```

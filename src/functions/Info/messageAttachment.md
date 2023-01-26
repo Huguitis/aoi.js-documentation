@@ -1,7 +1,7 @@
 ---
 title: $messageAttachment 
 description: $messageAttachment will return a message attachment depending on the given index.
-id: message
+id: messageAttachment
 ---
 
 `$messageAttachment` will return a message attachment depending on the given index.

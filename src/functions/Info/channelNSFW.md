@@ -1,5 +1,5 @@
 ---
-title: $channelName 
+title: $channelNSFW 
 description: $channelNSFW will return true or false depending if the given channel is marked as NSFW or not.
 id: channelNSFW
 ---
