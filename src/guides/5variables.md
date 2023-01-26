@@ -46,18 +46,18 @@ And that's it, you have a working variable handler!
 
 ### Variable Functions:
 
-* [$getGlobalUserVar](../functions/misc/getGlobalUserVar)
-* [$getChannelVar](../functions/misc/getChannelVar)
-* [$getMessageVar](../functions/misc/getGlobalUserVar)
-* [$getServerVar](../functions/misc/getServerVar)
-* [$getUserVar](../functions/misc/getUserVar)
-* [$getVar](../functions/misc/getVar)
-* [$setGlobalUserVar](../functions/misc/setGlobalUserVar)
-* [$setChannelVar](../functions/misc/setChannelVar)
-* [$setMessageVar](../functions/misc/setMessageVar)
-* [$setServerVar](../functions/misc/setServerVar)
-* [$setUserVar](../functions/misc/setUserVar)
-* [$setVar](../functions/misc/setVar)
+* [$getGlobalUserVar](../functions/Misc/getGlobalUserVar)
+* [$getChannelVar](../functions/Misc/getChannelVar)
+* [$getMessageVar](../functions/Misc/getGlobalUserVar)
+* [$getServerVar](../functions/Misc/getServerVar)
+* [$getUserVar](../functions/Misc/getUserVar)
+* [$getVar](../functions/Misc/getVar)
+* [$setGlobalUserVar](../functions/Misc/setGlobalUserVar)
+* [$setChannelVar](../functions/Misc/setChannelVar)
+* [$setMessageVar](../functions/Misc/setMessageVar)
+* [$setServerVar](../functions/Misc/setServerVar)
+* [$setUserVar](../functions/Misc/setUserVar)
+* [$setVar](../functions/Misc/setVar)
 
 
 <!--- links -->

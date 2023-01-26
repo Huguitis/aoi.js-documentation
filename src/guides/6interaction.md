@@ -261,19 +261,19 @@ bot.command({
 | ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
 
 ## Interaction Functions
-* **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/no)]](../functions/events/interactionReply.md)**
-* **[$interactionDefer[ephemeral]](../functions/events/interactionDefer.md)**
-* **[$interactionDeferUpdate[ephemeral]](../functions/events/interactionDeferUpdate.md)**
-* **[$interactionDelete](../functions/events/interactionDelete.md)**
-* **[$interactionEdit[content?;embeds?;components?;files?;allowed mentions?]](../functions/events/interactionEdit.md)**
-* **[$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]](../functions/events/interactionFollowUp.md)**
-* **[$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]](../functions/events/interactionUpdate.md)**
-* **[$slashOption[option]](../functions/events/slashOption.md)**
-* **[$deleteApplicationCommand[guildID/global;id]](../functions/calling/deleteApplicationCommand.md)**
+* **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/no)]](../functions/Events/interactionReply.md)**
+* **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
+* **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
+* **[$interactionDelete](../functions/Events/interactionDelete.md)**
+* **[$interactionEdit[content?;embeds?;components?;files?;allowed mentions?]](../functions/Events/interactionEdit.md)**
+* **[$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]](../functions/Events/interactionFollowUp.md)**
+* **[$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]](../functions/Events/interactionUpdate.md)**
+* **[$slashOption[option]](../functions/Events/slashOption.md)**
+* **[$deleteApplicationCommand[guildID/global;id]](../functions/Calling/deleteApplicationCommand.md)**
 * **[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](## "adding later")**
 * **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](## "adding later")**
-* **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/calling/autoCompleteRespond.md)**
+* **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/Calling/autoCompleteRespond.md)**
 * **[$isAutocomplete](## "adding later")**
 
 <!--- links -->

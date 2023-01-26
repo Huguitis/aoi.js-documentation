@@ -12,7 +12,7 @@ id: shardID
 $shardID
 ```
 
-#### Note that this won't work without sharding. If you're unsure, review the [sharding guide](../guides/sharding.md).
+#### Note that this won't work without sharding. If you're unsure, review the [sharding guide](../../guides/7sharding.md).
 
 ## Example
 
