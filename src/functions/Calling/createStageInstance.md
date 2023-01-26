@@ -4,7 +4,7 @@ description: $createStageInstance will start a stage.
 id: createStageInstance
 ---
 
-`$createChannelInvite` will start a stage.
+`$createStageInstance` will start a stage.
 
 ## Usage
 
