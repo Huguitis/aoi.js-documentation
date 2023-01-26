@@ -9,7 +9,7 @@ id: interactionUpdate
 ## Usage
 
 ```php
-$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]
+$interactionUpdate[content?;embeds?;components?;files?]
 ```
 
 ## Parameters 
@@ -21,7 +21,6 @@ $interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]
 | embeds?    | string  | embed                             | no      |
 | components?    | string  | components                             | no      |
 | files?    | string  | files                             | no      |
-| allowed mentions?    | string  | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone**                             | no      |
 
 
 ## Example
@@ -33,7 +32,7 @@ bot.interactionCommand({
   code: `
   $interactionUpdate[Bye, World!]
   $wait[5s]
-  $interactionReply[Hello, World!]
+  $interactionReply[Hello, World!;;;;everyone;no]
   `
 });
 ```
