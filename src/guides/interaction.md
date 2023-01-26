@@ -4,8 +4,6 @@ description: Everything you need to know about slash commands.
 id: intcommands
 ---
 
-## Interaction Commands
-
 ### Table of Content
   - **[Introduction][introduction]**
   - **[Getting Started][getting-started]**

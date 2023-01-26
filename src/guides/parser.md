@@ -1,7 +1,7 @@
 ---
-title: Parser 
+title: Embed Parser 
 description: Embed parser - How to use it.
-id: parser
+id: embedparser
 ---
 
 ## Embed Parser

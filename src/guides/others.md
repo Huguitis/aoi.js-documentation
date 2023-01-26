@@ -1,5 +1,5 @@
 ---
-title: others 
+title: Others 
 description: others - aliases and hyperlinks
 id: others
 ---

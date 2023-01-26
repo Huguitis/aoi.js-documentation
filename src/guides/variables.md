@@ -1,10 +1,8 @@
 ---
-title: variables 
+title: Variables 
 description: variables
 id: variables
 ---
-
-## Variables
 
 #### This guide will be covering everything you need to know about variables.
 

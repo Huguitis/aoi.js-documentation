@@ -1,10 +1,10 @@
 ---
-title: Command Handlers 
+title: Command Handlers
 description: Command Handler Setup - How to use it.
-id: cmdhandler
+id: commandhandler
 ---
 
-## Why should you use Command Handlers?
+## Why should you use Command Handler?
 
 ### Storing your commands in your main file may seem fine, but after a certain amount of commands it can get hard to find and update commands. Therefore you should use the Command Handler to keep your main file neat and save yourself from the clutter.  
 

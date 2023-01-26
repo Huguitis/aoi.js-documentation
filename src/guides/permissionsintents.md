@@ -4,8 +4,6 @@ description: All permissions and intents.
 id: permissionsandintents
 ---
 
-## Permissions and Intents
-
 ### Table of Content
   - **[Gateaway Intents][1]**
   - **[Permissions][2]**

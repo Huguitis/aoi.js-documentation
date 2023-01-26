@@ -1,5 +1,5 @@
 ---
-title: Using Events 
+title: Client Events 
 description: How to use Events correctly.
 id: events
 ---

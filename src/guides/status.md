@@ -4,8 +4,6 @@ description: Status - How to use bot statuses.
 id: status
 ---
 
-## Client Statuses
-
 #### This guide will be covering statuses and client presences.
 
 ### Table of Content
