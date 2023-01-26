@@ -1,7 +1,7 @@
 ---
 title: $botCount 
 description: $botCount will return the amount of Bots in your guild.
-id: banCount
+id: botCount
 ---
 
 `$botCount` will return the amount of Bots in your guild.
