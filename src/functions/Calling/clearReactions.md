@@ -4,7 +4,7 @@ description: $clearReactions will remove a given or all reactions of a message.
 id: clearReactions
 ---
 
-`$clearReaction` will remove a given or all reactions of a message.
+`$clearReactions` will remove a given or all reactions of a message.
 
 ## Usage
 
