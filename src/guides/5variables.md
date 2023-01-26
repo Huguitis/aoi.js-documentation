@@ -43,23 +43,6 @@ module.exports = {
 
 And that's it, you have a working variable handler!
 
-
-### Variable Functions:
-
-* [$getGlobalUserVar](../functions/Misc/getGlobalUserVar)
-* [$getChannelVar](../functions/Misc/getChannelVar)
-* [$getMessageVar](../functions/Misc/getGlobalUserVar)
-* [$getServerVar](../functions/Misc/getServerVar)
-* [$getUserVar](../functions/Misc/getUserVar)
-* [$getVar](../functions/Misc/getVar)
-* [$setGlobalUserVar](../functions/Misc/setGlobalUserVar)
-* [$setChannelVar](../functions/Misc/setChannelVar)
-* [$setMessageVar](../functions/Misc/setMessageVar)
-* [$setServerVar](../functions/Misc/setServerVar)
-* [$setUserVar](../functions/Misc/setUserVar)
-* [$setVar](../functions/Misc/setVar)
-
-
 <!--- links -->
 [1]: #using-variables
 [2]: #variable-handler
