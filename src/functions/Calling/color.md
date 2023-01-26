@@ -9,7 +9,7 @@ id: color
 ## Usage
 
 ```php
-$roleCount[index?;hex]
+$color[index?;hex]
 ```
 
 ## Parameters 

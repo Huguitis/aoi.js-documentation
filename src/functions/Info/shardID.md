@@ -4,7 +4,7 @@ description: $shardID will return the current shard ID.
 id: shardID
 ---
 
-`$roleCount` will return the current shard ID.
+`$shardID` will return the current shard ID.
 
 ## Usage
 

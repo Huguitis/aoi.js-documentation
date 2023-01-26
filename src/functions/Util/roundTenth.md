@@ -9,7 +9,7 @@ id: roundTenth
 ## Usage
 
 ```php
-$roundTenth[number;decimalPosition?]
+$roundTenth[number;decimalPosition]
 ```
 
 ## Parameters 
@@ -18,7 +18,7 @@ $roundTenth[number;decimalPosition?]
 | Field            | Type    | Description                           | Required |
 | ---------------- | ------- | ------------------------------------- | -------- |
 | number           | number  | number to round                       | yes      |
-| decimalPosition? | integer | how many numbers after the comma come | no       |
+| decimalPosition | integer | how many numbers after the comma come | yes       |
 
 
 ## Example

@@ -1,7 +1,7 @@
 ---
 title: $readyTimestamp 
 description: $readyTimestamp will return the timestamp of when the bot was ready.
-id: argsCheck
+id: readyTimestamp
 ---
 
 `$argsSlice` will return the timestamp of when the bot was ready.

@@ -9,7 +9,7 @@ id: nickname
 ## Usage
 
 ```php
-$argsSlice[userID?;guildID?;returnUser?]
+$nickname[userID?;guildID?;returnUser?]
 ```
 
 ## Parameters 

@@ -9,7 +9,7 @@ id: createScheduledEvent
 ## Usage
 
 ```php
-$roleCount[channelID;name;description;starTime;endTime?;entityType?;entityMetadata?;image?;reason?]
+$createScheduledEvent[channelID;name;description;starTime;endTime?;entityType?;entityMetadata?;image?;reason?]
 ```
 
 ## Parameters 

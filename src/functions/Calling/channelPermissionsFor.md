@@ -28,7 +28,7 @@ This will return your permissions in the channel where you execute the command:
 
 ```javascript
 bot.command({
-  name: 'roleCount',
+  name: 'channelPermissionsFor',
   code: `
   $channelPermissionsFor[$authorID;$channelID;, ]
   `

@@ -26,7 +26,7 @@ This will delete the sent message after five seconds:
 
 ```javascript
 bot.command({
-  name: 'editIn',
+  name: 'deleteIn',
   code: `
   $deleteIn[5s]
   I'll delete this message in 5 seconds!
