@@ -4,7 +4,7 @@ description: $botTyping will make your bot type in a channel (show that it's typ
 id: botTyping
 ---
 
-`$roleCount` will make your bot type in a channel (show that it's typing).
+`$botTyping` will make your bot type in a channel (show that it's typing).
 
 ## Usage
 
