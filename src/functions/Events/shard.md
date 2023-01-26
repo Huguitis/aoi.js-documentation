@@ -1,7 +1,7 @@
 ---
 title: $shard 
 description: $shard returns the shard ID.
-id: oldEmoji
+id: shard
 ---
 
 `$shard` returns the shard ID.
