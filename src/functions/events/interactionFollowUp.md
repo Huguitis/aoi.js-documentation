@@ -22,7 +22,7 @@ $interactionFollowUp[content?;embeds?;components?;files?;ephemeral ?]
 | embeds?    | string  | embed                             | no      |
 | components?    | string  | components                             | no      |
 | files?    | string  | files                             | no      |
-| ephemeral ?    | string  | visible to the command author only? <br> 1. **yes** <br> 2. **no** (default)                             | no      |
+| ephemeral ?    | string  | visible to the command author only? <br /> 1. **yes** <br /> 2. **no** (default)                             | no      |
 
 
 ## Example

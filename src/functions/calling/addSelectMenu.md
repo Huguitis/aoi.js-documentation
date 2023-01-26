@@ -22,7 +22,7 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 | placeHolder       | string  | select menu placeholder text                | yes      |
 | minValues       | integer  | select menu min value                                             | yes      |
 | maxValues       | integer  | select menu max value                                          | yes      |
-| disabled       | string  | disabled? <br> 1. **yes** <br> 2. **no** (default)                                          | yes      |
+| disabled       | string  | disabled? <br /> 1. **yes** <br /> 2. **no** (default)                                          | yes      |
 | options       | string  | options                                          | yes      |
 
 

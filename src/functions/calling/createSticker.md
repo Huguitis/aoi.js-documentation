@@ -20,7 +20,7 @@ $createSticker[guildid;url;name;returnSticker?;tags;description;reason]
 | guildID    | integer  | guild ID                             | yes      |
 | url    | string  | image URL (**png only**)                             | yes      |
 | name    | string  | sticker name                             | yes      |
-| returnSticker?    | string | return the sticker after creation <br> 1. **yes** <br> 2. **no** (default)                             | no      |
+| returnSticker?    | string | return the sticker after creation <br /> 1. **yes** <br /> 2. **no** (default)                             | no      |
 | tags    | string  | sticker tags                             | yes      |
 | description    | string  | sticker description                             | yes      |
 | reason    | string  | reason that will be displayed in the server's audit logs                             | yes      |

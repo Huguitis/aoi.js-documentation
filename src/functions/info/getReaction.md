@@ -20,8 +20,8 @@ $getReaction[channelID;messageID;reaction;force?;option?]
 | channelID | integer | channel ID of where the message is located in                                                                                                              |   yes    |
 | messageID | integer | message ID of the message                                                                                                                                  |   yes    |
 | reaction  | string  | the reaction its information will be returned of                                                                                                           |   yes    |
-| force?    | string  | force the action <br> 1. **yes** (default) <br> 2. **no**                                                                                                  |    no    |
-| option?   | string  | how it will return the users who reacted to that message <br> 1. **username** (default) - returns the usernames   <br> 2. **mention** - mentions the users |    no    |
+| force?    | string  | force the action <br /> 1. **yes** (default) <br /> 2. **no**                                                                                                  |    no    |
+| option?   | string  | how it will return the users who reacted to that message <br /> 1. **username** (default) - returns the usernames   <br /> 2. **mention** - mentions the users |    no    |
 
 
 #### Please note that this won't work without the `GuildMessageReactions` intent.

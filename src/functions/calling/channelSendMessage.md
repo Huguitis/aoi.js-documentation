@@ -19,7 +19,7 @@ $channelSendMessage[channelID;message;returnID?]
 |-----------|---------|----------------------------------------------------| :------: |
 | channelID    | integer  | channel ID                             | yes      |
 | message     | string  | message to send                             | yes      |
-| returnID?    | integer  | return the message ID <br> 1. **yes** <br> 2. **no** (default)  | no      |
+| returnID?    | integer  | return the message ID <br /> 1. **yes** <br /> 2. **no** (default)  | no      |
 
 
 ## Example

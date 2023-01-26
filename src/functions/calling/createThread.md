@@ -19,8 +19,8 @@ $createThread[channelID;name;archive;type;startMessage;returnId?]
 |-----------|---------|----------------------------------------------------| :------: |
 | channelID    | integer  | guild ID                             | yes      |
 | name    | string  | thread name                             | yes      |
-| archieve    | string  | achieve after how much time <br> 1. **MAX** (default) <br> 2. *time in ms*                             | yes      |
-| type    | string  | thread type <br> 1. **1** - public (default) <br> 2. **2** - private                             | yes      |
+| archieve    | string  | achieve after how much time <br /> 1. **MAX** (default) <br /> 2. *time in ms*                             | yes      |
+| type    | string  | thread type <br /> 1. **1** - public (default) <br /> 2. **2** - private                             | yes      |
 | startMessage    | string  | thread start message ID                             | yes      |
 | returnId?    | string  | return thread ID                             | no      |
 

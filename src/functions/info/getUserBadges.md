@@ -18,7 +18,7 @@ $getUserBadges[userId?;sep?]
 | Field   | Type    | Description                                                          | Required |
 | ------- | ------- | -------------------------------------------------------------------- | :------: |
 | userId? | integer | the id of the user you want the badges of                            |    no    |
-| sep?    | string  | seperator to split multiple badges from eachother <br> `,` (default) |    no    |
+| sep?    | string  | seperator to split multiple badges from eachother <br /> `,` (default) |    no    |
 
 
 ## Example

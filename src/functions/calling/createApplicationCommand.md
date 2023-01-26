@@ -19,7 +19,7 @@ $createApplicationCommand[guildID/global;name;description;defaultPermission(true
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
 | guildID?    | integer  | guild ID                             | yes      |
-| fetchFirst?     | number  | fetch the roles first before returning them?  <br> 1. **yes** <br> 2. **no** (default)          | no       |
+| fetchFirst?     | number  | fetch the roles first before returning them?  <br /> 1. **yes** <br /> 2. **no** (default)          | no       |
 
 <details>
   <summary><h3> Application Command Option Type </h3></summary>

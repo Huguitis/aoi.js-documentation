@@ -18,7 +18,7 @@ $highestGuildRole[guildID?;option?]
 | Field    | Type    | Description                                        | Required  |
 |----------|---------|----------------------------------------------------| :-------: |
 | guildID? | integer | the ID of the guild                                | no        |
-| option?  | string  | the option on how to return the role <br> 1. **name** (default) <br> 2. **id** <br> 3. **mention**        | no       |
+| option?  | string  | the option on how to return the role <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention**        | no       |
 
 
 ## Example

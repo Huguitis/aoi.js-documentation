@@ -21,7 +21,7 @@ $addButton[index;label;style;customID;disabled?;emoji?]
 | label       | string  | the text that will be displayed on the button                                          | yes      |
 | style       | string  | the button **[style][dp]**                 | yes      |
 | customID       | string  | button custom ID                                          | yes      |
-| disabled?       | string  | disabled? <br> 1. **yes** <br> 2. **no** (default)                                          | no      |
+| disabled?       | string  | disabled? <br /> 1. **yes** <br /> 2. **no** (default)                                          | no      |
 | emoji?       | string  | emoji                                          | no      |
 
 <details open>

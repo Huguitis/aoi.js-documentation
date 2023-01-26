@@ -19,7 +19,7 @@ $argsSlice[userID?;guildID?;returnUser?]
 |-----------|---------|----------------------------------------------------|----------|
 | guildID?      | integer  | id of the guild                             | no      |
 | userID?     | integer  | user ID of the person who you want the nickname of          | no       |
-| returnUser?        | string  | return the username <br> 1. **yes** <br> 2. **no** (default)                    | no      |
+| returnUser?        | string  | return the username <br /> 1. **yes** <br /> 2. **no** (default)                    | no      |
 
 
 ## Example

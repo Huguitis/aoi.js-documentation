@@ -18,4 +18,4 @@ $newChannel[option]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | option <br> 1. **name**                            | yes      |
+| option    | string  | option <br /> 1. **name**                            | yes      |

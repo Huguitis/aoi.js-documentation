@@ -18,7 +18,7 @@ $awaitMessages[channelID;filter;time;replies;cmds;errorMessage?;data?;dm?]
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
 | channelID    | integer  | channel ID                             | yes      |
-| filter    | integer  | user filter <br> 1. **everyone** <br> 2. **specific user** - any user ID                             | yes      |
+| filter    | integer  | user filter <br /> 1. **everyone** <br /> 2. **specific user** - any user ID                             | yes      |
 | time    | string  | how long the command lasts / when it expires                            | yes      |
 | replies    | string  | to what the bot will be reponding to, multiple words can be seperated with a comma  (or use "everything" to respond to everything)                           | yes      |
 | cmds    | string  | commands that will be executed, multiple commands can be seperated with a comma                             | yes      |

@@ -19,7 +19,7 @@ $userBanner[userID?;size?;dynamic?;format?]
 | -------- | ------- | ------------------------------------------------------ | :------: |
 | userID?  | integer | the ID of the user                                     |    no    |
 | size?    | integer | the size of the image                                  |    no    |
-| dynamic? | string  | dynamic image <br> 1. **yes** (default) <br> 2. **no** |    no    |
+| dynamic? | string  | dynamic image <br /> 1. **yes** (default) <br /> 2. **no** |    no    |
 | format?  | string  |                                                        |    no    |
 
 

@@ -17,7 +17,7 @@ $shardGuilds[option?;sep?;shardId]
 
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
-| option?    | integer  | option to return the guilds in <br> 1. **id** (default) <br> 2. **name**                             | no      |
+| option?    | integer  | option to return the guilds in <br /> 1. **id** (default) <br /> 2. **name**                             | no      |
 | sep?     | string  | seperator to seperate multiple guilds          | no       |
 | shardId     | integer  |   the shard ID        | yes       |
 

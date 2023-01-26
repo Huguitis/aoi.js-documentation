@@ -18,8 +18,8 @@ $membersCount[guildID?;presence?;countBot?]
 | Field     | Type    | Description                                                                                                                 | Required |
 | --------- | ------- | --------------------------------------------------------------------------------------------------------------------------- | :------: |
 | guildID?  | integer | the ID of the guild                                                                                                         |    no    |
-| presence? | string  | the presence of the users <br> 1. **all** (default) <br> 2. **dnd** <br> 3. **idle** <br> 4. **offline** <br> 5. **online** |    no    |
-| countBot? | string  | count bots? <br> 1. **yes** (default) <br> 2. **no**                                                                                                       |    no    |
+| presence? | string  | the presence of the users <br /> 1. **all** (default) <br /> 2. **dnd** <br /> 3. **idle** <br /> 4. **offline** <br /> 5. **online** |    no    |
+| countBot? | string  | count bots? <br /> 1. **yes** (default) <br /> 2. **no**                                                                                                       |    no    |
 
 
 ## Example

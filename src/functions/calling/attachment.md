@@ -19,7 +19,7 @@ $attachment[attachment;name;type?]
 |-----------|---------|----------------------------------------------------| :------: |
 | attachment    | string  | attachment                             | yes      |
 | name    | string  | attachment name                            | yes      |
-| type?    | string  | attachment type <br> 1. **url** (default)                            | no      |
+| type?    | string  | attachment type <br /> 1. **url** (default)                            | no      |
 
 
 ## Example

@@ -20,7 +20,7 @@ $memberAvatar[guildID?;userID?;size?;dynamic?;format?]
 | guildID? | integer | the ID of the guild                                    |    no    |
 | userID?  | integer | the ID of the member                                   |    no    |
 | size?    | integer | the size of the image                                  |    no    |
-| dynamic? | string  | dynamic image <br> 1. **yes** (default) <br> 2. **no** |    no    |
+| dynamic? | string  | dynamic image <br /> 1. **yes** (default) <br /> 2. **no** |    no    |
 | format?  | string  |                                                        |    no    |
 
 

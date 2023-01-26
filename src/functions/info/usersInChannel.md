@@ -18,7 +18,7 @@ $usersInChannel[channelID;option?;sep?]
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
 | channelID    | integer  | voice channel ID                             | yes      |
-| option?    | string  | how to return the users <br> 1. **id** (default) <br> 2. **user** - mentions the users | no      |
+| option?    | string  | how to return the users <br /> 1. **id** (default) <br /> 2. **user** - mentions the users | no      |
 | sep?    | string  | seperator                             | no      |
 
 

@@ -18,8 +18,8 @@ $usersBanned[guildID?;force?;option?;sep?]
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
 | guildID?    | integer  | guild ID                             | no      |
-| force?    | string  | 1. **yes** <br> 2. **no** (default)                             | no      |
-| option?    | string  | how to return the banned users <br> 1. **id** (default) <br> 1. **username** <br> 1. **mention** | no      |
+| force?    | string  | 1. **yes** <br /> 2. **no** (default)                             | no      |
+| option?    | string  | how to return the banned users <br /> 1. **id** (default) <br /> 1. **username** <br /> 1. **mention** | no      |
 | sep?    | string  | seperator to seperate multiple arguments                            | no      |
 
 

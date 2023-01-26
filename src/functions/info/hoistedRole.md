@@ -19,7 +19,7 @@ $hoistedRole[userID?;guildID?;option?]
 | -------- | ------- | --------------------------------------------------------------------------------------------------- | :------: |
 | userID?  | integer | the ID of the user                                                                                  |    no    |
 | guildID? | integer | the ID of the guild                                                                                 |    no    |
-| option?  | string  | the option on how to return the role <br> 1. **name** <br> 2. **id**  (default) <br> 3. **mention** |    no    |
+| option?  | string  | the option on how to return the role <br /> 1. **name** <br /> 2. **id**  (default) <br /> 3. **mention** |    no    |
 
 
 ## Example
