@@ -1,7 +1,6 @@
 ---
 title: $newApplicationCmd 
 description: $newApplicationCmd gets the data from application Callbacks (update and create one).
-
 id: newApplicationCmd
 ---
 
