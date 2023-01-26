@@ -18,7 +18,7 @@ $customEmoji[emoji;id?]
 | Field     | Type    | Description                                        | Required |
 |-----------|---------|----------------------------------------------------| :------: |
 | emoji    | string  | emoji name or id                           | yes      |
-| id?     | string  | where the emoji is from <br> 1. **global** <br> 2. **guildID** - replace with guild ID          | no       |
+| id?     | string  | where the emoji is from <br /> 1. **global** <br /> 2. **guildID** - replace with guild ID          | no       |
 
 
 ## Example
