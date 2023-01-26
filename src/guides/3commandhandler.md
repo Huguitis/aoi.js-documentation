@@ -108,7 +108,7 @@ $description[Welcome to this server <@$authorID>!]`
 ```
 
 Make sure you have the required intents and `bot.onJoin();` in your `index.js` or else this won't work!  
-> **Required intents: `guildMembers`**
+> **Required intents: `GuildMembers`**
 
 ### Updating your commands without restart!
 
