@@ -82,7 +82,7 @@ bot.command({
 Example created by dodoGames#7509. */
 ```
 
-Adding **sub command groups** to the application command:
+Adding **sub command** to the application command:
 ```js
 bot.command({
   name: "createApplicationCommand",

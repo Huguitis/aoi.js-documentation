@@ -77,7 +77,7 @@ module.exports = [{
   aliases: ["helpcmd", "helpme"],
   code: `
 $title[Help Command!]
-$thumbnail[$authorAvatar] 
+$thumbnail[$userAvatar[$authorID]] 
 $description[Any text you like can go here!]
 $footer[Even footers!]`
 }];
