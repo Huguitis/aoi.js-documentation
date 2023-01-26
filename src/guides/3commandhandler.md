@@ -1,5 +1,5 @@
 ---
-title: Command Handlers
+title: Command Handler
 description: Command Handler Setup - How to use it.
 id: commandhandler
 ---

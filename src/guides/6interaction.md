@@ -1,7 +1,7 @@
 ---
 title: Interaction Commands 
 description: Everything you need to know about slash commands.
-id: intcommands
+id: interactioncommands
 ---
 
 ### Table of Content
