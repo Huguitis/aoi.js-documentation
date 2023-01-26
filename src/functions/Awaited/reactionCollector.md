@@ -4,7 +4,7 @@ description: $reactionCollector will create a reaction collector on a given mess
 id: reactionCollector
 ---
 
-`$roleCount` will create a reaction collector on a given message.
+`$reactionCollector` will create a reaction collector on a given message.
 
 ## Usage
 
@@ -34,7 +34,7 @@ This will send a message when you add a reaction:
 
 ```js
 bot.command({
-  name: "exampleCommand",
+  name: "reactionCollector",
   code: `
   $reactionCollector[$channelID;$splitText[1];$authorID;10m;👀;awaitReaction;yes]
   $textSplit[$sendMessage[React with "👀" for something special!;yes]; ]
