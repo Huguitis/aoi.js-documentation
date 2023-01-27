@@ -1,7 +1,7 @@
 ---
 title: $botLeave 
 description: $botLeave will make your bot leave a specific server.
-id: roleCount
+id: botLeave
 ---
 
 `$botLeave` will make your bot leave a specific server.
