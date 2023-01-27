@@ -1,15 +1,15 @@
 ---
 title: $activity 
-description: $activity will return a users current voice channel activity.
+description: $activity will return a user activity.
 id: activity
 ---
 
-`$activity` will return a users current activity.
+`$activity` will return a user current activity.
 
 ## Usage
 
 ```php
-$activity[id?;guildID?]
+$activity[guildID;id?]
 ```
 
 ## Parameters 
@@ -17,19 +17,19 @@ $activity[id?;guildID?]
 
 | Field  | Type    | Description | Required |
 | ------ | ------- | ----------- | -------- |
-| id?    | integer | user id     | yes      |
-| guild? | integer | guild id    | no       |
+| guildID? | integer | guild id    | yes       |
+| id?    | integer | user id     | no      |
 
 
 ## Example
 
-This will return your current voice channel Activity:
+This will return your current Activity:
 
 ```javascript
 bot.command({
   name: 'activity',
   code: `
-  $activity[$authorID;$guildID]
+  $activity[$guildID;$authorID]
   `
 });
 ```
