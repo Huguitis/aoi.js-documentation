@@ -10,7 +10,7 @@ id: interactionReply
 ## Usage
 
 ```php
-$interactionReply[content?;embeds?;components?;files?;allowed mentions?;ephemeral?]
+$interactionReply[content?;embeds?;components?;files?;allowedMentions;ephemeral?]
 ```
 
 ## Parameters 

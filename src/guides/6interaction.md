@@ -265,9 +265,9 @@ bot.command({
 * **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
 * **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
 * **[$interactionDelete](../functions/Events/interactionDelete.md)**
-* **[$interactionEdit[content?;embeds?;components?;files?;allowed mentions?]](../functions/Events/interactionEdit.md)**
+* **[$interactionEdit[content?;embeds?;components?;files?;allowedMentions]](../functions/Events/interactionEdit.md)**
 * **[$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]](../functions/Events/interactionFollowUp.md)**
-* **[$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]](../functions/Events/interactionUpdate.md)**
+* **[$interactionUpdate[content?;embeds?;components?;files?;allowedMentions]](../functions/Events/interactionUpdate.md)**
 * **[$slashOption[option]](../functions/Events/slashOption.md)**
 * **[$deleteApplicationCommand[guildID/global;id]](../functions/Calling/deleteApplicationCommand.md)**
 * **[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](## "adding later")**
