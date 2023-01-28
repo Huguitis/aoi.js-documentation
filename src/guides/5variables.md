@@ -9,7 +9,6 @@ id: variables
 ### Table of Content
   - **[Using Variables][1]**
   - **[Variable Handler][2]**
-  - **[Variable Functions][3]**
 ---
 
 ### Using Variables

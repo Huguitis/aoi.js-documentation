@@ -1,7 +1,7 @@
 ---
 title: $channelType 
 description: $channelType will return the given channel's type.
-id: channelTopic
+id: channelType
 ---
 
 `$channelType` will return the given channel's type.
