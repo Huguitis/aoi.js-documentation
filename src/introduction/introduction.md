@@ -40,7 +40,7 @@ slug: /
 
 ## Installation
 
-**node.js 16.9.0 or newer is required.**
+**node.js 17.0.0 or newer is required.**
 
 ```bash
 npm install aoi.js
@@ -58,11 +58,9 @@ const aoijs = require("aoi.js");
 const bot = new aoijs.AoiClient({
   token: "Discord Bot Token",
   prefix: "Discord Bot Prefix",
-  intents: ["MessageContent", "Guilds", "GuildMessages"]
+  intents: ["MessageContent", "Guilds", "GuildMessages"],
+  events: ["onMessage", "onInteractionCreate"]
 });
-
-// Events, required for the bot to read and send messages.
-bot.onMessage();
 
 // Ping Command Example
 bot.command({
