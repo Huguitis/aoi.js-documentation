@@ -37,7 +37,7 @@ bot.command({
   code:`
   Select an option.
   
-  $addSelectMenu[1;helpCustomID;This placeholder won't show up cause we have selected default field as yes;1;1;no;A Option:Description of A option:Example2:no:👋;B Option::Example1:true]
+  $addSelectMenu[1;helpCustomID;This placeholder won't show up cause we have selected default field as yes;1;1;no;A Option:Description of A option:Example2:false:👋;B Option::Example1:true]
   `
 });
 
