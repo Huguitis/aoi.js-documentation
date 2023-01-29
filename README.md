@@ -32,7 +32,7 @@
 
 ## Installation
 
-**node.js 16.9.0 or newer is required.**
+**node.js 17.0.0 or newer is required.**
 
 ```bash
 npm install aoi.js
@@ -42,20 +42,19 @@ yarn add aoi.js
 ## Setup
 
 ```javascript
-const aoijs = require("aoi.js")
+const aoijs = require("aoi.js");
+
 const bot = new aoijs.AoiClient({
-token: "Discord Bot Token",
-prefix: "Discord Bot Prefix",
-intents: ["MessageContent", "Guilds", "GuildMessages"]
+  token: "Discord Bot Token",
+  prefix: "Discord Bot Prefix",
+  intents: ["MessageContent", "Guilds", "GuildMessages"],
+  events: ["onMessage"]
 });
 
-//Events
-bot.onMessage();
-
-//Command Example (ping)
+// Ping Command Example
 bot.command({
-name: "ping",
-code: `Pong! $pingms`
+  name: "ping",
+  code: `Pong! $pingms`
 });
 ```
     
