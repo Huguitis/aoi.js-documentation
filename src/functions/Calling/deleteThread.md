@@ -15,11 +15,11 @@ $deleteThread[channelID;threadID;reason?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | ID of the channel where the thread exists in                             | yes      |
-| threadID    | integer  | thread ID                             | yes      |
-| reason?    | string  | guild ID                             | no      |
+| Field     | Type    | Description                                  | Required |
+| --------- | ------- | -------------------------------------------- |:--------:|
+| channelID | integer | ID of the channel where the thread exists in |    yes   |
+| threadID  | integer | thread ID                                    |    yes   |
+| reason?   | string  | guild ID                                     |    no    |
 
 
 ## Example

@@ -15,11 +15,11 @@ $addField[fieldTitle;fieldDescription;inline?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| fieldTitle?    | string  | title                             | yes      |
-| fieldDescription?    | string  | description                             | yes      |
-| inline?    | string  | inline                             | no      |
+| Field             | Type   | Description | Required |
+| ----------------- | ------ | ----------- |:--------:|
+| fieldTitle?       | string | title       |    yes   |
+| fieldDescription? | string | description |    yes   |
+| inline?           | string | inline      |    no    |
 
 ## Example
 
@@ -29,7 +29,7 @@ This will return the amount of roles of your guild:
 bot.command({
   name: 'addField',
   code: `
-  $addField[Example;Look at this!;no]
+  $addField[Example;Look at this!;false]
   $description[Hello!]
   `
 });

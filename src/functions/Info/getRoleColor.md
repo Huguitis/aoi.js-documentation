@@ -16,8 +16,8 @@ $getRoleColor[roleId;guildId?]
 
 
 | Field    | Type    | Description                                   | Required |
-| -------- | ------- | --------------------------------------------- | :------: |
-| roleId   | integer | the role Id of the role you want the color of |   yes    |
+| -------- | ------- | --------------------------------------------- |:--------:|
+| roleId   | integer | the role Id of the role you want the color of |    yes   |
 | guildId? | integer | the guild Id of where the role was created in |    no    |
 
 

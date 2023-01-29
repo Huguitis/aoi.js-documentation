@@ -29,7 +29,7 @@ This will search for a user called Ferel, if it wont find the user then it'll re
 bot.command({
   name: 'findUser',
   code: `
-  $findUser[Ferel;yes]
+  $findUser[Ferel;true]
   `
 });
 ```

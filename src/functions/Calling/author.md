@@ -15,11 +15,11 @@ $author[index?;name;iconURL?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| index?    | integer  | embed index                             | no      |
-| name    | string  | author title that will be displayed                             | yes      |
-| iconURL?   | string  | icon url which will be displayed next to the author title    | no       |
+| Field    | Type    | Description                                               | Required |
+| -------- | ------- | --------------------------------------------------------- |:--------:|
+| index?   | integer | embed index                                               |    no    |
+| name     | string  | author title that will be displayed                       |    yes   |
+| iconURL? | string  | icon url which will be displayed next to the author title |    no    |
 
 
 ## Example

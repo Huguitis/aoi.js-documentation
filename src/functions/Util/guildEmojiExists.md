@@ -1,15 +1,15 @@
 ---
-title: $serverEmojiExists 
-description: $serverEmojiExists will check if the given emoji exists in the given guild.
-id: serverEmojiExists
+title: $guildEmojiExists 
+description: $guildEmojiExists will check if the given emoji exists in the given guild.
+id: guildEmojiExists
 ---
 
-`$serverEmojiExists` will check if the given emoji exists in the given guild.
+`$guildEmojiExists` will check if the given emoji exists in the given guild.
 
 ## Usage
 
 ```php
-$serverEmojiExists[emoji;guildId?]
+$guildEmojiExists[emoji;guildId?]
 ```
 
 ## Parameters 
@@ -20,7 +20,7 @@ $serverEmojiExists[emoji;guildId?]
 | emoji    | string  | emoji you want to check if it exists         | yes      |
 | guildId? | integer | guild id of the guild where the emoji exists | no       |
 
-### Please note that your bot has to be present in the guild where the emoji is in.
+**Please note that your bot has to be present in the guild where the emoji is in, only exception are webhooks.**
 
 ## Example
 
@@ -28,9 +28,9 @@ This will return `true` as the ![emoji](https://cdn.discordapp.com/emojis/100336
 
 ```javascript
 bot.command({
-  name: 'serverEmojiExists',
+  name: 'guildEmojiExists',
   code: `
-  $serverEmojiExists[<:LerefMoney:1003365344724910191>;$guildID]
+  $guildEmojiExists[<:LerefMoney:1003365344724910191>;$guildID]
   `
 });
 ```

@@ -15,9 +15,9 @@ $botLeave[guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| guildID?    | integer  | guild ID                             | no      |
+| Field    | Type    | Description | Required |
+| -------- | ------- | ----------- |:--------:|
+| guildID? | integer | guild ID    |    no    |
 
 
 ## Example

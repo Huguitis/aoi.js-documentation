@@ -15,6 +15,6 @@ $reactionData[option]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | option <br /> 1. **usernames** <br /> 2. **userIds** <br /> 1. **tags**        | yes      |
+| Field  | Type   | Description                                                             | Required |
+| ------ | ------ | ----------------------------------------------------------------------- |:--------:|
+| option | string | option <br /> 1. **usernames** <br /> 2. **userIds** <br /> 3. **tags** |    yes   |

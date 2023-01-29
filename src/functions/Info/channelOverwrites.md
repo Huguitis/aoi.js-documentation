@@ -16,7 +16,7 @@ $channelOverwrites[channelID?;response?;sep?]
 
 
 | Field      | Type    | Description                                                         | Required |
-| ---------- | ------- | ------------------------------------------------------------------- | :------: |
+| ---------- | ------- | ------------------------------------------------------------------- |:--------:|
 | channelID? | integer | channel ID of the channel you want the channel overwrites of        |    no    |
 | response?  | string  | the format the channel overwrites will be returned in               |    no    |
 | sep?       | string  | the seperator to split the channel overwrites if there are multiple |    no    |

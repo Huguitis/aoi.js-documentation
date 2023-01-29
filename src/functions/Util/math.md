@@ -9,15 +9,15 @@ id: math
 ## Usage
 
 ```php
-$math[calc]
+$math[calculation]
 ```
 
 ## Parameters 
 
 
-| Field | Type   | Description | Required |
-| ----- | ------ | ----------- | -------- |
-| calc  | string | calculation | yes      |
+| Field       | Type   | Description          | Required |
+| ----------- | ------ | -------------------- | -------- |
+| calculation | string | calculation (/*-+()) | yes      |
 
 
 ## Example

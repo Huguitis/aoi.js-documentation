@@ -13,7 +13,6 @@ $channelUsed
 ```
 
 
-
 ## Example
 
 This will return the amount of roles of your guild:

@@ -9,19 +9,19 @@ id: interactionEdit
 ## Usage
 
 ```php
-$interactionEdit[content?;embeds?;components?;files?;allowedMentions]
+$interactionEdit[content?;embeds?;components?;files?;allowedMentions?]
 ```
 
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| content?    | string  | message content                             | no      |
-| embeds?    | string  | embed                             | no      |
-| components?    | string  | components                             | no      |
-| files?    | string  | files                             | no      |
-| allowedMentions    | string  | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone**                             | yes      |
+| Field           | Type   | Description                                                                     | Required |
+| --------------- | ------ | ------------------------------------------------------------------------------- |:--------:|
+| content?        | string | message content                                                                 |    no    |
+| embeds?         | string | embed                                                                           |    no    |
+| components?     | string | components                                                                      |    no    |
+| files?          | string | files                                                                           |    no    |
+| allowedMentions | string | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone** |    no    |
 
 
 ## Example
@@ -31,9 +31,9 @@ bot.interactionCommand({
   name: "interactionEdit",
   prototype: 'slash',
   code: `
-  $interactionEdit[Bye, World!;;;;everyone;no]
+  $interactionEdit[Bye, World!;;;;everyone]
   $wait[5s]
-  $interactionReply[Hello, World!;;;;everyone;no]
+  $interactionReply[Hello, World!;;;;everyone;false]
   `
 });
 ```

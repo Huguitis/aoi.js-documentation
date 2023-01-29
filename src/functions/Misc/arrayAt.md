@@ -16,10 +16,10 @@ $arrayAt[name;index]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| name      | string  | name of the array                                  | yes      |
-| index     | string  | The position of the element                        | yes      |
+| Field | Type   | Description                 | Required |
+| ----- | ------ | --------------------------- |:--------:|
+| name  | string | name of the array           |    yes   |
+| index | string | The position of the element |    yes   |
 
 ## Example
 

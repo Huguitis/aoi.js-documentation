@@ -15,15 +15,15 @@ $uptime[option?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option?    | string  | how the uptime will be returned | no      |
+| Field   | Type   | Description                     | Required |
+| ------- | ------ | ------------------------------- |:--------:|
+| option? | string | how the uptime will be returned |    no    |
 
-| Option     | Output    | 
-|-----------|---------|
-| full **(default)**  | 19 minutes, 21 seconds  |
-| humanize   | 19m 21s  |
-| ms   | 1165980  |
+| Option             | Output                 |
+| ------------------ | ---------------------- |
+| full **(default)** | 19 minutes, 21 seconds |
+| humanize           | 19m 21s                |
+| ms                 | 1165980                |
 
 ## Example
 

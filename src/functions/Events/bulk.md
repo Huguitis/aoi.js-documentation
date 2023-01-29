@@ -15,6 +15,6 @@ $bulk[option]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option?    | string  |                              | yes      |
+| Field   | Type   | Description | Required |
+| ------- | ------ | ----------- |:--------:|
+| option? | string |             |    yes   |

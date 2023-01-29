@@ -16,11 +16,11 @@ $arrayEvery[name;query;queryType?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| name      | string  | seperator                                          | yes      |
-| query     | element | The element we will be queering for every element inside the array | yes      |
-| queryType | operator| The comparison operator | no |
+| Field     | Type     | Description                                                        | Required |
+| --------- | -------- | ------------------------------------------------------------------ |:--------:|
+| name      | string   | seperator                                                          |    yes   |
+| query     | element  | The element we will be queering for every element inside the array |    yes   |
+| queryType | operator | The comparison operator                                            |    no    |
 
 ## Comparison Operators
 
@@ -41,7 +41,6 @@ bot.command({
   name: "array-every", 
   code: `
   $arrayEvery[array;30;==]
-
   $createArray[array;1;2;3;0;30]
   `
   // It will return "false". Cause 1 ≠ 30. You can think it as "and (&&)" logical operator.

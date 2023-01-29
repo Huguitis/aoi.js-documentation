@@ -15,10 +15,10 @@ $mutualServers[userID?;sep?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| userID?      | integer  | the ID of the user                             | no      |
-| sep?     | string  | the seperator to seperate the returned guilds          | no       |
+| Field   | Type    | Description                                   | Required |
+| ------- | ------- | --------------------------------------------- | -------- |
+| userID? | integer | the ID of the user                            | no       |
+| sep?    | string  | the seperator to seperate the returned guilds | no       |
 
 
 ## Example

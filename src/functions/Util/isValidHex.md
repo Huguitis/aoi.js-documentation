@@ -33,7 +33,7 @@ bot.command({
 });
 ```
 
-This will return `true` as well as `80` is an valid hexadecimal  color:
+This will return `true` as well as `80` is an valid hexadecimal color:
 
 
 ```javascript

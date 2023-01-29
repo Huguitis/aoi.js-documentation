@@ -1,15 +1,15 @@
 ---
-title: $serverExists 
-description: $serverExists will check if the given guild exists.
-id: serverExists
+title: $guildExists 
+description: $guildExists will check if the given guild exists.
+id: guildExists
 ---
 
-`$serverExists` will check if the given guild exists.
+`$guildExists` will check if the given guild exists.
 
 ## Usage
 
 ```php
-$serverExists[guildId]
+$guildExists[guildId]
 ```
 
 ## Parameters 
@@ -26,9 +26,9 @@ This will return `true` your guild exists:
 
 ```javascript
 bot.command({
-  name: 'serverExists',
+  name: 'guildExists',
   code: `
-  $serverExists[$guildID]
+  $guildExists[$guildID]
   `
 });
 ```

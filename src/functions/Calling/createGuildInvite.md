@@ -1,10 +1,10 @@
 ---
 title: $createServerInvite 
-description: $createServerInvite will create a channel invite.
+description: $createServerInvite will create a guild invite.
 id: createServerInvite
 ---
 
-`$createServerInvite` will create a channel invite.
+`$createServerInvite` will create a guild invite.
 
 ## Usage
 
@@ -15,18 +15,18 @@ $createServerInvite[guildID?;...options]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| guildID?    | integer  | guild ID                             | no      |
-| options?    | string  | json objects                             | no      |
+| Field    | Type    | Description  | Required |
+| -------- | ------- | ------------ |:--------:|
+| guildID? | integer | guild ID     |    no    |
+| options? | string  | json objects |    no    |
 
 <details>
   <summary><h3> Invite Target Types </h3></summary>
 
-| TYPE         |   VALUE      |
-| -------------------- | ------------------ |
-| STREAM         | 1               |
-| EMBEDDED_APPLICATION        | 2              |
+| TYPE                 | VALUE |
+| -------------------- | ----- |
+| STREAM               | 1     |
+| EMBEDDED_APPLICATION | 2     |
 
 </details>
 

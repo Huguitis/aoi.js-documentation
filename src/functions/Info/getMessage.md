@@ -9,17 +9,17 @@ id: getMessage
 ## Usage
 
 ```php
-$getMessage[channelID?;messageID?;option?]
+$getMessage[channelID;messageID;option?]
 ```
 
 ## Parameters 
 
 
-| Field     | Type    | Description                              | Required |
-| --------- | ------- | ---------------------------------------- | -------- |
-| channelID | integer | channel ID of the embed                  | yes      |
-| messageID | integer | message ID of the embed                  | yes      |
-| option    | string  | which part will be returned of the embed | yes      |
+| Field     | Type    | Description                                | Required |
+| --------- | ------- | ------------------------------------------ | -------- |
+| channelID | integer | channel ID of the embed                    | yes      |
+| messageID | integer | message ID of the embed                    | yes      |
+| option?   | string  | which part will be returned of the message | no       |
 
 <details open>
   <summary><h3> Options </h3></summary>

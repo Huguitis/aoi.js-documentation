@@ -7,14 +7,14 @@ id: addApplicationCommandPermissions
 ## Usage
 
 ```php
-$addApplicationCommandPermissions[guildID?;id;...perms]
+$addApplicationCommandPermissions[guildID/global?;id;...perms]
 ```
 
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| guildID?       | string  | global or guildID                                          | no      |
-| id      | integer  | application command ID                                 | yes      |
-| ...perms      | string  | permissions                                 | yes      |
+| Field          | Type    | Description            | Required |
+| -------------- | ------- | ---------------------- |:--------:|
+| guildID/global | string  | global or guildID      |    yes   |
+| id             | integer | application command ID |    yes   |
+| ...perms       | string  | permissions            |    yes   |

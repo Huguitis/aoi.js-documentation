@@ -15,10 +15,10 @@ $roleMembersCount[roleID;guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| roleID    | integer  | role ID                                           | yes      |
-| guildID?    | integer  | guild ID                                        | no      |
+| Field    | Type    | Description | Required |
+| -------- | ------- | ----------- |:--------:|
+| roleID   | integer | role ID     |    yes   |
+| guildID? | integer | guild ID    |    no    |
 
 
 ## Example

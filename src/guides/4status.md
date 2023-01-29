@@ -77,12 +77,14 @@ There are multiple types of presences:
 > * **mobilePresence**  
   > To use the mobile presence you have to setup something in your main file:
 >  ```js
->  const aoijs = require("aoi.js")
->  const bot = new aoijs.AoiClient({
->  token: "DISCORD BOT TOKEN",
->  prefix: "DISCORD BOT PREFIX",
->  intents: ["MessageContent", "Guilds", "GuildMessages"],
->  mobilePlatform: true
+> const aoijs = require("aoi.js");
+> 
+> const bot = new aoijs.Bot({
+>   token: "DISCORD BOT TOKEN",
+>   prefix: "DISCORD BOT PREFIX",
+>   intents: ["Guilds", "GuildMessages", "MessageContent"],
+>   events: ["onMessage"],
+>   mobilePlatform: true
 > });
 > ```
 

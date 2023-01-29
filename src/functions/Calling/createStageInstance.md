@@ -15,19 +15,19 @@ $createStageInstance[channelID;topic;type?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | stage voice ID                             | yes      |
-| topic    | string  | stage topic                             | yes      |
-| type?    | string  | stage type                              | no      |
+| Field     | Type    | Description    | Required |
+| --------- | ------- | -------------- |:--------:|
+| channelID | integer | stage voice ID |    yes   |
+| topic     | string  | stage topic    |    yes   |
+| type?     | string  | stage type     |    no    |
 
 <details>
   <summary><h3> Invite Target Types </h3></summary>
 
-| TYPE         |   VALUE      |
-| -------------------- | ------------------ |
-| PUBLIC         | 1               |
-| PRIVATE        | 2              |
+| TYPE    | VALUE |
+| ------- | ----- |
+| PUBLIC  | 1     |
+| PRIVATE | 2     |
 
 </details>
 

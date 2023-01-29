@@ -1,26 +1,24 @@
 ---
-title: $serverCooldown 
-description: $serverCooldown will set a cooldown for the guild after being used.
-id: serverCooldown
+title: $guildCooldown 
+description: $guildCooldown will set a cooldown for the guild after being used.
+id: guildCooldown
 ---
 
-`$serverCooldown` will set a guild-based cooldown.
+`$guildCooldown` will set a guild-based cooldown.
 
 ## Usage
 
 ```php
-$serverCooldown[time;errorMessage?]
+$guildCooldown[time;errorMessage?]
 ```
-* You are able to retrieve the remaining cooldown in the `$serverCooldown` function by using **`%time%`**.
+* You are able to retrieve the remaining cooldown in the `$guildCooldown` function by using **`%time%`**.
 
 ## Parameters 
-
 
 | Field         | Type   | Description                                                | Required |
 | ------------- | ------ | ---------------------------------------------------------- | -------- |
 | time          | number | the duration of the cooldown                               | yes      |
 | errorMessage? | string | error message when there's remaining time for the cooldown | no       |
-
 
 ## Example
 
@@ -28,10 +26,10 @@ This will set a cooldown for a command which applies to the guild only and retur
 
 ```javascript
 bot.command({
-  name: 'serverCooldown',
+  name: 'guildCooldown',
   code: `
   hello
-  $serverCooldown[2m;Please wait %time% to execute this command again.]
+  $guildCooldown[2m;Please wait %time% to execute this command again.]
   `
 });
 ```

@@ -15,9 +15,9 @@ $dm[userID]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| userID    | integer  | user ID                           | yes      |
+| Field  | Type    | Description | Required |
+| ------ | ------- | ----------- |:--------:|
+| userID | integer | user ID     |    yes   |
 
 
 ## Example

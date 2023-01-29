@@ -14,53 +14,57 @@ id: events
      - **[Client based events][2.3]**
      - **[Command & message based events][2.4]**
   - **[Example Usage][3]**
-     - **[Using Events in your main file][3.1]**
 ---
 
 **aoi.js** has various event listeners, known as "events", that cater to the majority of events provided by the Discord API.
 
 Each of them has its own usage and command type for executing specific tasks (for example, for logging purposes).
 
-The events are not mandatory, apart from **`bot.onMessage()`** (which is require for the bot to read and send messages), but if you wish to utilise them, they must be included in your primary file, in order for the bot to listen for those events. This is necessary in order to make use of the different command types.
+The events are not mandatory, apart from **`onMessage`** (which is required for the bot to read and send messages), but if you wish to utilise them, they must be included in your main file, in order for the bot to listen for those events. This is necessary in order to make use of the different command types.
 
 It's worth bearing in mind that in order to utilise certain events, you'll need to activate your intents on the Discord Developer Portal.
 
 ## Types of Events
 
 ### Server based events:
-* **bot.onLeave()** => for logging members once they leave servers
-* **bot.onJoin()** => for logging members once they join servers
-* **bot.onBanAdd()** => for logging members once they get banned in servers
-* **bot.onBanRemove()** => for logging members once they get unbanned inservers
-* **bot.onChannelCreate()** => for logging channels once they get created
-* **bot.onChannelDelete()** => for logging channels once they get deleted
-* **bot.onChannelUpdate()** => for logging channels once they get updated
-* **bot.onRoleCreate()** => for logging roles once they get created
-* **bot.onRoleDelete()** => for logging roles once they get deleted
-* **bot.onRoleUpdate()** => for logging roles once they get updated
+* **onLeave** => for logging members once they leave servers
+* **onJoin** => for logging members once they join servers
+* **onBanAdd** => for logging members once they get banned in servers
+* **onBanRemove** => for logging members once they get unbanned in servers
+* **onChannelCreate** => for logging channels once they get created
+* **onChannelDelete** => for logging channels once they get deleted
+* **onChannelUpdate** => for logging channels once they get updated
+* **onThreadCreate** => for logging threads once they get created
+* **onThreadDelete** => for logging threads once they get deleted
+* **onThreadUpdate** => for logging threads once they get updated
+* **onRoleCreate** => for logging roles once they get created
+* **onRoleDelete** => for logging roles once they get deleted
+* **onRoleUpdate** => for logging roles once they get updated
+* **onStageInstanceCreate** => for logging stage instance creations
+* **onStageInstanceUpdate** => for logging stage instance updates
+* **onStageInstanceDelete** => for logging stage instance deletions
+* **onWebhookUpdate** => for logging webhook updates
 
 ### User based events:
-* **bot.onUserUpdate()** => for logging users updating their profile
-* **bot.onMemberUpdate()** => for logging members updates in a server
-* **bot.onPresenceUpdate()** => for logging presence updates of users
-* **bot.onVoiceStateUpdate()** => for logging voice state updates of members in a server
+* **onUserUpdate** => for logging users updating their profile
+* **onMemberUpdate** => for logging members updates in a server
+* **onPresenceUpdate** => for logging presence updates of users
+* **onVoiceStateUpdate** => for logging voice state updates of members in a server
 
 ### Client based events:
-* **bot.onRateLimit()** => for logging rate limits of the bot
-* **bot.onGuildJoin()** => for logging what servers the bot joins
-* **bot.onGuildLeave()** => for logging what servers the bot leaves
+* **onRateLimit** => for logging rate limits of the bot
+* **onGuildJoin** => for logging what servers the bot joins
+* **onGuildLeave** => for logging what servers the bot leaves
 
 ### Command & message based events:
-* **bot.onMessage()** => for logging & responding to messages
-* **bot.onMessageDelete()** => for logging messages they get deleted
-* **bot.onMessageUpdate()** => for logging messages they get updated
-* **bot.onInteractionCreate()** => for using slash commands
-* **bot.onReactionAdd()** => for logging reactions on messages
-* **bot.onReactionRemove()** => for logging removed reactions on messages
+* **onMessage** => for logging & responding to messages
+* **onMessageDelete** => for logging messages which get deleted
+* **onMessageUpdate** => for logging messages they get updated
+* **onInteractionCreate** => for using slash commands
+* **onReactionAdd** => for logging reactions on messages
+* **onReactionRemove** => for logging removed reactions on messages
 
 ## Example Usage of Events
-
-### Using Events in your main file
 
 ```js
 const aoijs = require("aoi.js");
@@ -68,14 +72,9 @@ const aoijs = require("aoi.js");
 const bot = new aoijs.Bot({
   token: "DISCORD BOT TOKEN",
   prefix: "DISCORD BOT PREFIX",
-  intents: ["Guilds", "GuildMessages"]
+  intents: ["Guilds", "GuildMessages", "MessageContent"],
+  events: ["onMessage", "onJoin", "onLeave", "onBanAdd", "onBanRemove"]
 });
- 
-bot.onMessage(); // Mandatory, always use this event (only if you have the required intents)
-bot.onJoin(); // Allows to log users who join servers
-bot.onLeave(); // Allows to log users who leave servers
-bot.onBanAdd(); // Allows to log users who get banned from servers
-bot.onBanRemove(); // Allows to log users who get unbanned from servers
 ```
 
 
@@ -87,4 +86,3 @@ bot.onBanRemove(); // Allows to log users who get unbanned from servers
 [2.3]: #client-based-events
 [2.4]: #command--message-based-events
 [3]: #example-usage-of-events
-[3.1]: #using-events-in-your-main-file

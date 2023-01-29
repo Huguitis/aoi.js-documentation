@@ -15,10 +15,10 @@ $cacheMembers[guildID?;returnCount?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| guildID?    | integer  | guild ID                             | yes      |
-| returnCount?    | integer  | return the cached member count <br /> 1. **yes** <br /> 2. **no** (default)  | yes      |
+| Field        | Type    | Description                                                                     | Required |
+| ------------ | ------- | ------------------------------------------------------------------------------- |:--------:|
+| guildID?     | integer | guild ID                                                                        |    yes   |
+| returnCount? | integer | return the cached member count <br /> 1. **true** <br /> 2. **false** (default) |    yes   |
 
 
 ## Example
@@ -29,7 +29,7 @@ This will cache all members of the current guild and return the amount of the ca
 bot.command({
   name: 'cacheMembers',
   code: `
-  $cacheMembers[$guildID;yes]
+  $cacheMembers[$guildID;true]
   `
 });
 ```

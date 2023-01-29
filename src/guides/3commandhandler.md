@@ -24,7 +24,8 @@ In this step we'll take a look at your main file also known as `index.js`. We ad
 const bot = new aoijs.AoiClient({
   token: "DISCORD BOT TOKEN",
   prefix: "DISCORD BOT PREFIX",
-  intents: ["Guilds", "GuildMessages", "MessageContent"]
+  intents: ["Guilds", "GuildMessages", "MessageContent"],
+  events: ["onMessage"]
 });
 
 bot.onMessage(); //required for your bot to detect prefix commands
@@ -107,7 +108,7 @@ $description[Welcome to this server <@$authorID>!]`
 }]
 ```
 
-Make sure you have the required intents and `bot.onJoin();` in your `index.js` or else this won't work!  
+Make sure you have the required intents and `onJoin` in the `events` property in your `index.js` or else this won't work!  
 > **Required intents: `GuildMembers`**
 
 ### Updating your commands without restart!

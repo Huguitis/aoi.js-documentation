@@ -1,15 +1,15 @@
 ---
-title: $findServerChannel 
-description: $findServerChannel will search a server channel within a guild.
-id: findServerChannel
+title: $findGuildChannel 
+description: $findGuildChannel will search a guild channel within a guild.
+id: findGuildChannel
 ---
 
-`$findServerChannel` will search a server channel within a guild.
+`$findGuildChannel` will search a guild channel within a guild.
 
 ## Usage
 
 ```php
-$findServerChannel[channelResolver;returnSelf?;guildID?]
+$findGuildChannel[channelResolver;returnSelf?;guildID?]
 ```
 
 ## Parameters 
@@ -28,9 +28,9 @@ This will return the channel ID of an channel called `#rules`
 
 ```javascript
 bot.command({
-  name: 'findServerChannel',
+  name: 'findGuildChannel',
   code: `
-  $findServerChannel[rules;no;$guildID]
+  $findGuildChannel[rules;false;$guildID]
   `
 });
 ```

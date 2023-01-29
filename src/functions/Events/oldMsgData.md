@@ -15,6 +15,6 @@ $oldMsgData[option]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | option <br /> 1. **cleanContent**                    | yes      |
+| Field  | Type   | Description                       | Required |
+| ------ | ------ | --------------------------------- |:--------:|
+| option | string | option <br /> 1. **cleanContent** |    yes   |

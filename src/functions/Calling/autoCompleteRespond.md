@@ -17,10 +17,10 @@ $autoCompleteRespond[OptionName;OptionReply;...]
 
 ## Parameters 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| OptionName     | string  | name of the auto-complete option                                          | yes      |
-| OptionReply    | string  | the reply that will be sent if the auto-complete option was selected      | yes      |
+| Field       | Type   | Description                                                          | Required |
+| ----------- | ------ | -------------------------------------------------------------------- |:--------:|
+| OptionName  | string | name of the auto-complete option                                     |    yes   |
+| OptionReply | string | the reply that will be sent if the auto-complete option was selected |    yes   |
 
 
 ## Examples

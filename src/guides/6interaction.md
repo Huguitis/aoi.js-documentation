@@ -82,7 +82,7 @@ bot.command({
 Example created by dodoGames#7509. */
 ```
 
-Adding **sub command** to the application command:
+Adding **sub commands** to the application command:
 ```js
 bot.command({
   name: "createApplicationCommand",
@@ -169,7 +169,7 @@ $autoCompleteRespond[[{
   }]]
 ```
 
-Create the slash-commands: (please note that you require the `bot.onInteractionCreate()` callback in your main file)
+Create the slash-commands: (please note that you require the `onInteractionCreate` in the `events` property in your main file)
 ```javascript
 bot.command({
   name: 'createSlashCommand',
@@ -199,7 +199,7 @@ bot.command({
 });
 ```
 
-Create the slash-commands: (please note that you require the `bot.onInteractionCreate()` callback in your main file)
+Create the slash-commands: (please note that you require the `onInteractionCreate` in the `events` property in your main file)
 
 ```javascript
 bot.command({

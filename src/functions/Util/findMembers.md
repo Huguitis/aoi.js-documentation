@@ -38,7 +38,7 @@ This will return twenty members with `Leref` in their username:
 bot.command({
   name: 'findMembers',
   code: `
-  $findMembers[Leref;20;startsWith;yes;{position}) {username}#{tag}]
+  $findMembers[Leref;20;startsWith;true;{position}) {username}#{tag}]
   `
 });
 ```

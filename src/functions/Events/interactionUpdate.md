@@ -15,12 +15,12 @@ $interactionUpdate[content?;embeds?;components?;files?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| content?    | string  | message content                             | no      |
-| embeds?    | string  | embed                             | no      |
-| components?    | string  | components                             | no      |
-| files?    | string  | files                             | no      |
+| Field       | Type   | Description     | Required |
+| ----------- | ------ | --------------- |:--------:|
+| content?    | string | message content |    no    |
+| embeds?     | string | embed           |    no    |
+| components? | string | components      |    no    |
+| files?      | string | files           |    no    |
 
 
 ## Example
@@ -32,7 +32,7 @@ bot.interactionCommand({
   code: `
   $interactionUpdate[Bye, World!]
   $wait[5s]
-  $interactionReply[Hello, World!;;;;everyone;no]
+  $interactionReply[Hello, World!;;;;everyone;false]
   `
 });
 ```

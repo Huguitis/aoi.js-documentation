@@ -15,10 +15,10 @@ $messageType[messageID?;channelID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|:----------:|
-| messageID?      | integer  | id of the message                             | no      |
-| channelID?      | integer  | channel ID of where the message is located in                             | no      |
+| Field      | Type    | Description                                   | Required |
+| ---------- | ------- | --------------------------------------------- |:--------:|
+| messageID? | integer | id of the message                             |    no    |
+| channelID? | integer | channel ID of where the message is located in |    no    |
 
 
 ## Example

@@ -80,9 +80,8 @@ const bot = new Bot({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages","MessageContent"],
+    events: ["onMessage"]
 });
-
-bot.onMessage();
 
 bot.command({
     name: "ping",

@@ -15,18 +15,18 @@ $createChannelInvite[channelID?;...options]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID?    | integer  | channel ID                             | no      |
-| options?    | string  | json objects                             | no      |
+| Field      | Type    | Description  | Required |
+| ---------- | ------- | ------------ |:--------:|
+| channelID? | integer | channel ID   |    no    |
+| options?   | string  | json objects |    no    |
 
 <details>
   <summary><h3> Invite Target Types </h3></summary>
 
-| TYPE         |   VALUE      |
-| -------------------- | ------------------ |
-| STREAM         | 1               |
-| EMBEDDED_APPLICATION        | 2              |
+| TYPE                 | VALUE |
+| -------------------- | ----- |
+| STREAM               | 1     |
+| EMBEDDED_APPLICATION | 2     |
 
 </details>
 

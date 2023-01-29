@@ -15,12 +15,12 @@ $getReaction[channelID;messageID;reaction;force?;option?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                                                                                                                                | Required |
-| --------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
-| channelID | integer | channel ID of where the message is located in                                                                                                              |   yes    |
-| messageID | integer | message ID of the message                                                                                                                                  |   yes    |
-| reaction  | string  | the reaction its information will be returned of                                                                                                           |   yes    |
-| force?    | string  | force the action <br /> 1. **yes** (default) <br /> 2. **no**                                                                                                  |    no    |
+| Field     | Type    | Description                                                                                                                                                    | Required |
+| --------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |:--------:|
+| channelID | integer | channel ID of where the message is located in                                                                                                                  |    yes   |
+| messageID | integer | message ID of the message                                                                                                                                      |    yes   |
+| reaction  | string  | the reaction its information will be returned of                                                                                                               |    yes   |
+| force?    | string  | force the action <br /> 1. **true** (default) <br /> 2. **false**                                                                                                  |    no    |
 | option?   | string  | how it will return the users who reacted to that message <br /> 1. **username** (default) - returns the usernames   <br /> 2. **mention** - mentions the users |    no    |
 
 
@@ -35,7 +35,7 @@ This will mention all users that reacted to your message, in this case, only you
 bot.command({
   name: 'getReaction',
   code: `
-$getReaction[$channelID;$messageID;👋;yes;mention]
+$getReaction[$channelID;$messageID;👋;true;mention]
 $addClientReactions[👋]
   `
 });

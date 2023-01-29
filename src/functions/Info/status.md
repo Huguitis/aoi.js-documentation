@@ -15,10 +15,10 @@ $status[userId?;guildId?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| userId?    | integer  | user ID                             | no      |
-| guildId?    | integer  | guild ID                             | no      |
+| Field    | Type    | Description | Required |
+| -------- | ------- | ----------- |:--------:|
+| userId?  | integer | user ID     |    no    |
+| guildId? | integer | guild ID    |    no    |
 
 
 ## Example

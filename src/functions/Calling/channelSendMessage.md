@@ -15,11 +15,11 @@ $channelSendMessage[channelID;message;returnID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | channel ID                             | yes      |
-| message     | string  | message to send                             | yes      |
-| returnID?    | integer  | return the message ID <br /> 1. **yes** <br /> 2. **no** (default)  | no      |
+| Field     | Type    | Description                                                            | Required |
+| --------- | ------- | ---------------------------------------------------------------------- |:--------:|
+| channelID | integer | channel ID                                                             |    yes   |
+| message   | string  | message to send                                                        |    yes   |
+| returnID? | integer | return the message ID <br /> 1. **true** <br /> 2. **false** (default) |    no    |
 
 
 ## Example
@@ -43,7 +43,7 @@ This will send an embed with description and footer:
 bot.command({
   name: 'channelSendMessage',
   code: `
-  $channelSendMessage[$channelID;{newEmbed:{title:Hello}{footer:Bye}}]
+  $channelSendMessage[$channelID;{newEmbed:{title:Hello}{footer:Bye}};false]
   `
 });
 ```

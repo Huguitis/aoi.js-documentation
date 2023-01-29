@@ -15,9 +15,9 @@ $getAttachment[channelID;messageID;index?;option?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | guild ID                           | yes      |
-| messageID    | integer  | message ID                           | yes      |
-| index?    | number  | attachment index                           | no      |
-| option?    | string  | property                           | no      |
+| Field     | Type    | Description      | Required |
+| --------- | ------- | ---------------- |:--------:|
+| channelID | integer | guild ID         |    yes   |
+| messageID | integer | message ID       |    yes   |
+| index?    | number  | attachment index |    no    |
+| option?   | string  | property         |    no    |

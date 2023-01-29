@@ -15,12 +15,12 @@ $addThreadMember[channelID;threadID;userID;reason]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | channel ID                             | yes      |
-| threadID    | integer  | thread ID                             | yes      |
-| userID    | integer  | user id                             | yes      |
-| reason    | string  | reason to display in audit logs                             | yes      |
+| Field     | Type    | Description                     | Required |
+| --------- | ------- | ------------------------------- |:--------:|
+| channelID | integer | channel ID                      |    yes   |
+| threadID  | integer | thread ID                       |    yes   |
+| userID    | integer | user id                         |    yes   |
+| reason    | string  | reason to display in audit logs |    yes   |
 
 
 ## Example
@@ -32,7 +32,7 @@ bot.command({
   name: 'addThreadMember',
   code: `
   $addThreadMember[$channelID;$get[id];$randomUserID;testing]
-  $let[id;$createThread[$channelID;example;1440;public;$messageID;yes]]  
+  $let[id;$createThread[$channelID;example;1440;public;$messageID;true]]  
   `
 });
 ```

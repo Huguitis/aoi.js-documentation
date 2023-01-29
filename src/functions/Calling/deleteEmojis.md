@@ -15,9 +15,9 @@ $deleteEmojis[...emojis]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| emojis     | string  | emoji name, id or full form                        | yes      |
+| Field  | Type   | Description                 | Required |
+| ------ | ------ | --------------------------- |:--------:|
+| emojis | string | emoji name, id or full form |    yes   |
 
 
 ## Example

@@ -10,19 +10,19 @@ id: interactionFollowUp
 ## Usage
 
 ```php
-$interactionFollowUp[content?;embeds?;components?;files?;ephemeral ?]
+$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]
 ```
 
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| content?    | string  | message content                             | no      |
-| embeds?    | string  | embed                             | no      |
-| components?    | string  | components                             | no      |
-| files?    | string  | files                             | no      |
-| ephemeral ?    | string  | visible to the command author only? <br /> 1. **yes** <br /> 2. **no** (default)                             | no      |
+| Field       | Type   | Description                                                                      | Required |
+| ----------- | ------ | -------------------------------------------------------------------------------- |:--------:|
+| content?    | string | message content                                                                  |    no    |
+| embeds?     | string | embed                                                                            |    no    |
+| components? | string | components                                                                       |    no    |
+| files?      | string | files                                                                            |    no    |
+| ephemeral? | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |    no    |
 
 
 ## Example

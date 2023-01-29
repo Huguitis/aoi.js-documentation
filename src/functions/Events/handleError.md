@@ -15,9 +15,9 @@ $handleError[option]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | what to return <br /> 1. **function** - function name <br /> 2. **command** - command name <br /> 3. **error** - error that occured                            | yes      |
+| Field  | Type   | Description                                                                                                                         | Required |
+| ------ | ------ | ----------------------------------------------------------------------------------------------------------------------------------- |:--------:|
+| option | string | what to return <br /> 1. **function** - function name <br /> 2. **command** - command name <br /> 3. **error** - error that occured |    yes   |
 
 
 ## Example

@@ -15,9 +15,9 @@ $userExists[userID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| userID?    | integer  | user ID                             | no      |
+| Field   | Type    | Description | Required |
+| ------- | ------- | ----------- |:--------:|
+| userID? | integer | user ID     |    no    |
 
 
 ## Example

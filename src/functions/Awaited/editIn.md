@@ -15,10 +15,10 @@ $editIn[time;content]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| time    | string  | after how much time the message gets edited                             | yes      |
-| content     | string  | what the new message should be  | yes       |
+| Field   | Type   | Description                                 | Required |
+| ------- | ------ | ------------------------------------------- |:--------:|
+| time    | string | after how much time the message gets edited |    yes   |
+| content | string | what the new message should be              |    yes   |
 
 
 ## Example

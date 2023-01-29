@@ -16,7 +16,7 @@ $channelNSFW[channelID?]
 
 
 | Field      | Type    | Description                                                              | Required |
-| ---------- | ------- | ------------------------------------------------------------------------ | :------: |
+| ---------- | ------- | ------------------------------------------------------------------------ |:--------:|
 | channelID? | integer | channel ID of the channel you want to check if its marked as NSFW or not |    no    |
 
 

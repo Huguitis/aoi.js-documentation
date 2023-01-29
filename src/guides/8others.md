@@ -72,10 +72,28 @@ module.exports = [{
 }];
 ```
 
+```js
+module.exports = [{
+  name: "say",
+  aliases: ["repeat"],
+  info: {
+    name: "say",
+    category: "misc",
+    usage: "[prefix]say <message>"
+  },
+  code: `
+  You said: "$message"!
+  `
+}];
+```
+
+
 And the great thing is you can get that information using `$commandInfo`!
 
 ```php
-$commandInfo[say;category]
+$commandInfo[commandName;property]
+
+$commandInfo[commandName;property.sub]
 ```
 
 ---

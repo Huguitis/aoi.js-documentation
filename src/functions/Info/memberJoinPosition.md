@@ -15,10 +15,10 @@ $memberJoinPosition[userID?;guildID?]
 ## Parameters 
 
 
-| Field    | Type    | Description                                            | Required |
-| -------- | ------- | ------------------------------------------------------ | :------: |
-| userID?  | integer | the ID of the member                                   |    no    |
-| guildID? | integer | the ID of the guild                                    |    no    |
+| Field    | Type    | Description          | Required |
+| -------- | ------- | -------------------- |:--------:|
+| userID?  | integer | the ID of the member |    no    |
+| guildID? | integer | the ID of the guild  |    no    |
 
 
 ## Example

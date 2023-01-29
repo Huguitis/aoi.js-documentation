@@ -1,10 +1,10 @@
 ---
 title: $interactionDeferUpdate 
-description: $interactionDeferUpdate defers the interaction message will be updated.
+description: $interactionDeferUpdate defers the interaction message that will be updated.
 id: interactionDeferUpdate
 ---
 
-`$interactionDeferUpdate` defers the interaction message will be updated.
+`$interactionDeferUpdate` defers the interaction message that will be updated.
 
 ## Usage
 
@@ -15,6 +15,6 @@ $interactionDeferUpdate[ephemeral]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| ephemeral    | integer  | visible to the command author only? yes/no                             | yes      |
+| Field     | Type    | Description                                    | Required |
+| --------- | ------- | ---------------------------------------------- |:--------:|
+| ephemeral | integer | visible to the command author only? true/false |    yes   |
