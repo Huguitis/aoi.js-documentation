@@ -11,6 +11,8 @@ id: interactioncommands
      - **[Discord Developer Portal - Documentation][3]**
   - **[Important][important]**
   - **[Creating Application Commands][creating-application-commands]**
+    - **[Application Types](#application-types)**
+    - **[Multiple Examples of creating Application Commands](#examples-of-creating-application-commands)**
   - **[Using Application Commands][using-application-commands]**
     - **[Auto Complete Respond][6]**
   - **[Application Command Option Type][application-command-option-type]**
@@ -47,6 +49,12 @@ In order to use Application Commands, your bot needs the `application.commands` 
 $createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]
 ```
 
+#### Application Types
+> * `message` — Creates an Application Command as slash command.
+> * `slash` — Creates an Application Command that can be executed on a message.
+> * `user` — Creates an Application Command that can be executed on a user.
+
+### Examples of creating Application Commands
 ```js
 bot.command({
   name: "createApplicationCommand",
