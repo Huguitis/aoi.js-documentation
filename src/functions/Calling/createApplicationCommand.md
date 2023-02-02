@@ -18,7 +18,7 @@ $createApplicationCommand[guildID/global;name;description;defaultPermission;type
 
 | Field              | Type    | Description                     | Required |
 | ------------------ | ------- | ------------------------------- |:--------:|
-| guildID/global     | integer | guild ID                        |    yes   |
+| guildID/global     | string  | guild ID                        |    yes   |
 | name               | string  | application command name        |    yes   |
 | description        | string  | application command description |    yes   |
 | defaultPermissions | string  | true/false                      |    yes   |
@@ -42,7 +42,7 @@ $createApplicationCommand[guildID/global;name;description;defaultPermission;type
 | NUMBER            | 10  | Any double between -2^53 and 2^53                                                            |
 | ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
   
-  #### You can find more information in the [offical documention of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).
+  #### You can find more information in the [official documention of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).
   
 </details>
 
