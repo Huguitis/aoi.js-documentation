@@ -40,7 +40,7 @@ slug: /
 
 ## Installation
 
-**node.js 17.0.0 or newer is required.**
+**node.js 16.9.0 or newer is required.**
 
 ```bash
 npm install aoi.js
