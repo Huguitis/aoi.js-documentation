@@ -27,7 +27,7 @@ This will return your join date in MS:
 
 ```javascript
 bot.command({
-  name: 'memberJoinPosition',
+  name: 'memberJoinedDate',
   code: `
   $memberJoinedDate[$authorID;$guildID]
   `
