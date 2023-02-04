@@ -23,13 +23,13 @@ $memberJoinedDate[userID?;guildID?]
 
 ## Example
 
-This will return your join date in MS:
+This will return your join date in MS and parsed date:
 
 ```javascript
 bot.command({
   name: 'memberJoinedDate',
   code: `
-  $memberJoinedDate[$authorID;$guildID]
+  $memberJoinedDate[$authorID;$guildID] -> $parseDate[$memberJoinedDate[$authorID;$guildID]]
   `
 });
 ```
