@@ -21,7 +21,7 @@ const bot = new aoijs.AoiClient({
   token: "Discord Bot Token",
   prefix: "Discord Bot Prefix",
   intents: ["MessageContent", "Guilds", "GuildMessages"],
-  events: ["onMessage"]
+  events: ["onMessage", "onInteractionCreate"]
 });
 
 //Command Example (ping)
@@ -37,6 +37,6 @@ $createApplicationCommand[$guildID;ping;Pong!;true;slash]
 bot.interactionCommand({
   name: "ping",
   prototype: 'slash',
-  code: `$interactionReply[Pong! $pingms;;;everyone;false]`
+  code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
 });
 ```

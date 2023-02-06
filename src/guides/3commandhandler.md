@@ -25,7 +25,7 @@ const bot = new aoijs.AoiClient({
   token: "DISCORD BOT TOKEN",
   prefix: "DISCORD BOT PREFIX",
   intents: ["Guilds", "GuildMessages", "MessageContent"],
-  events: ["onMessage"]
+  events: ["onMessage", "onInteractionCreate"]
 });
 
 
@@ -41,12 +41,6 @@ Once you're done with your main file, we'll move on onto files, in order for thi
 1. Create directories and sub-directories where your commands go.
 2. And create a file to test out if everything worked well.
 
-#### Creating directory
-
-Your created directory should look like that:
-
-![commands][directory-setup-preview-1]
-
 
 #### Creating sub directories
 
@@ -57,8 +51,6 @@ If you want to have your commands and files more organised then use sub director
 
 You can create as many files as you want in your directories as long as they have `.js` at the end of their file name it'll work without issues. For now, create a file called `help.js`.
 
-![example][directory-create-file-3]
-
 ## Final Steps
 
 ### Change of creating commands
@@ -67,6 +59,7 @@ From now on you have to use:
 
 ```javascript
 module.exports = [{...}]
+module.exports = ({...})
 ```
 
 Open your `help.js` and copy & paste the following code snippet: 

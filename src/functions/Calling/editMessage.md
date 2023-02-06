@@ -32,7 +32,7 @@ bot.command({
   code: `
   $editMessage[$get[id];Bye!]
   $wait[5s]
-  $let[id;$sendMessage[Hello!;yes]]
+  $let[id;$sendMessage[Hello!;true]]
   `
 });
 ```

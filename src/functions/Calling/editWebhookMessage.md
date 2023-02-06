@@ -20,4 +20,4 @@ $editWebhookMessage[webhookID;webhookToken;messageID;returnID?]
 | webhookID    | integer | message ID                                                          |    yes   |
 | webhookToken | string  | new message                                                         |    yes   |
 | messageID    | integer | channel ID                                                          |    yes   |
-| returnID?    | string  | return the message ID? <br /> 1. **yes** (default) <br /> 2. **no** |    no    |
+| returnID?    | string  | return the message ID? <br /> 1. **true** (default) <br /> 2. **false** |    no    |

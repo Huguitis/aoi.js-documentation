@@ -31,7 +31,7 @@ This will clone the current channel and name it "new channel":
 bot.command({
   name: 'cloneChannel',
   code: `
-  $cloneChannel[$channelID;new channel;no]
+  $cloneChannel[$channelID;new channel;false]
   `
 });
 ```

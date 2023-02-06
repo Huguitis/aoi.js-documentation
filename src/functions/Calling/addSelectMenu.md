@@ -45,7 +45,7 @@ bot.interactionCommand({
   name: "yourCustomID",
   prototype: "selectMenu", 
   code: `
-  $interactionReply[Hello! :);;;;everyone;no]
+  $interactionReply[Hello! :);;;;everyone;false]
   $onlyIf[$interactionData[values[0]]==anotherCustomID;]
   `
 });
@@ -54,7 +54,7 @@ bot.interactionCommand({
   name: "yourCustomID",
   prototype: "selectMenu", 
   code: `
-  $interactionReply[Hello! :);;;;everyone;no]
+  $interactionReply[Hello! :);;;;everyone;false]
   $onlyIf[$interactionData[values[0]]==andAnotherCustomID;]
   `
 });
@@ -82,14 +82,14 @@ module.exports = [{
     type: "interaction", // clarifying that this command is an Interaction
     prototype: "selectMenu",
     code: `
-     $interactionReply[Hello! :);;;;everyone;no]
+     $interactionReply[Hello! :);;;;everyone;false]
      $onlyIf[$interactionData[values[0]]==anotherCustomID;]`
 }, {
     name: "yourCustomID",
     type: "interaction", // clarifying that this command is an Interaction
     prototype: "selectMenu", 
     code: `
-     $interactionReply[Bye! :(;;;;everyone;no]
+     $interactionReply[Bye! :(;;;;everyone;false]
      $onlyIf[$interactionData[values[0]]==andAnotherCustomID;]`
 }]
 ```

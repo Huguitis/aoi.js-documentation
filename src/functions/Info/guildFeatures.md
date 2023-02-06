@@ -28,7 +28,7 @@ This will return the unlocked guild features of a guild:
 bot.command({
   name: 'guildFeatures',
   code: `
-  $guildFeatures[$guildID;yes]
+  $guildFeatures[$guildID;true]
   `
 });
 ```
