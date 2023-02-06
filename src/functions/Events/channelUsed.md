@@ -12,12 +12,11 @@ id: channelUsed
 $channelUsed
 ```
 
-
 ## Example
 
 This will return the amount of roles of your guild:
 
-#### You require `bot.onMessageDelete();` in your main file in order to use this example!
+#### You require `onMessageDelete` in your main file in order to use this example!
 
 ```javascript
 bot.deletedCommand({

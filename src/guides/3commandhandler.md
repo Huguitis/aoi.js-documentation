@@ -28,7 +28,6 @@ const bot = new aoijs.AoiClient({
   events: ["onMessage"]
 });
 
-bot.onMessage(); //required for your bot to detect prefix commands
 
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./commands/") //you can change this to any directory you want
