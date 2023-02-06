@@ -1,7 +1,7 @@
 ---
-title: $createServerInvite 
-description: $createServerInvite will create a guild invite.
-id: createServerInvite
+title: $getGuildInvite 
+description: $getGuildInvite will create a guild invite.
+id: getGuildInvite
 ---
 
 `$createServerInvite` will create a guild invite.
@@ -9,7 +9,7 @@ id: createServerInvite
 ## Usage
 
 ```php
-$createServerInvite[guildID?;...options]
+$getGuildInvite[guildID?;...options]
 ```
 
 ## Parameters 
@@ -38,7 +38,7 @@ This will create an invite of the channel where the command is executed in:
 bot.command({
   name: 'createServerInvite',
   code: `
-  $createServerInvite[$guildID]
+  $getGuildInvite[$guildID]
   `
 });
 ```
@@ -49,9 +49,9 @@ Create Temporary Invites with limited uses:
 
 ```javascript
 bot.command({
-  name: 'createServerInvite',
+  name: 'getGuildInvite',
   code: `
-  $createServerInvite[$guildID;{
+  $getGuildInvite[$guildID;{
             "temporary": true,
             "maxAge": 650,
             "maxUses": 25,

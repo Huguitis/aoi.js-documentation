@@ -48,7 +48,7 @@ $createApplicationCommand[guildID/global;name;description;defaultPermission;type
 
 ## Example
 #### Check the Slash Command/Interaction guide for more information about slash commands
-This will create a global slash command:
+This will create a slash command without options:
 
 ```js
 bot.command({

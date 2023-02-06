@@ -1,15 +1,15 @@
 ---
-title: $isServerMuted 
-description: $isServerMuted is similar but not to confuse with `$isMuted`, this will check if the user is server muted.
-id: isServerMuted
+title: $isGuildMuted 
+description: $isGuildMuted is similar but not to confuse with `$isMuted`, this will check if the user is server muted.
+id: isGuildMuted
 ---
 
-`$isServerMuted` is similar but not to confuse with `$isMuted`, this will check if the user is server muted.
+`$isGuildMuted` is similar but not to confuse with `$isMuted`, this will check if the user is server muted.
 
 ## Usage
 
 ```php
-$isServerMuted[userid?;guildid?]
+$isGuildMuted[userid?;guildid?]
 ```
 
 ## Parameters 
@@ -27,9 +27,9 @@ This will return either `true` or `false` depending on if you're server muted or
 
 ```javascript
 bot.command({
-  name: 'isServerMuted',
+  name: 'isGuildMuted',
   code: `
-  $isServerMuted
+  $isGuildMuted[$authorID;$guildID]
   `
 });
 ```

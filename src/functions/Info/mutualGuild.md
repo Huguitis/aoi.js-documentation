@@ -1,15 +1,15 @@
 ---
-title: $mutualServers 
-description: $mutualServers will return the mutual servers with a given user and the bot.
-id: mutualServers
+title: $mutualGuilds
+description: $mutualGuilds will return the mutual servers with a given user and the bot.
+id: mutualGuilds
 ---
 
-`$mutualServers` will return the mutual servers with a given user and the bot.
+`$mutualGuilds` will return the mutual servers with a given user and the bot.
 
 ## Usage
 
 ```php
-$mutualServers[userID?;sep?]
+$mutualGuilds[userID?;sep?]
 ```
 
 ## Parameters 
@@ -27,9 +27,9 @@ This will return the mutual servers of you and the bot:
 
 ```javascript
 bot.command({
-  name: 'mutualServers',
+  name: 'mutualGuilds',
   code: `
-  $mutualServers[$authorID;, ]
+  $mutualGuilds[$authorID;, ]
   `
 });
 ```

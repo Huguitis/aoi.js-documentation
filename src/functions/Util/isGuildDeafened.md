@@ -1,7 +1,7 @@
 ---
-title: $isServerDeafened 
-description: $isServerDeafened is similar but not to confuse with `$isDeafen`, this will check if the user is server deafened.
-id: isServerDeafened
+title: $isGuildDeafened 
+description: $isGuildDeafened is similar but not to confuse with `$isDeafen`, this will check if the user is server deafened.
+id: isGuildDeafened
 ---
 
 `$isServerDeafened` is similar but not to confuse with `$isDeafen`, this will check if the user is server deafened.
@@ -9,7 +9,7 @@ id: isServerDeafened
 ## Usage
 
 ```php
-$isServerDeafened[userid?;guildid?]
+$isGuildDeafened[userid?;guildid?]
 ```
 
 ## Parameters 
@@ -27,9 +27,9 @@ This will return either `true` or `false` depending on if you're server deafened
 
 ```javascript
 bot.command({
-  name: 'isServerDeafened',
+  name: 'isGuildDeafened',
   code: `
-  $isServerDeafened
+  $isGuildDeafened
   `
 });
 ```
