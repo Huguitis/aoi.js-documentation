@@ -69,7 +69,7 @@ It's worth bearing in mind that in order to utilise certain events, you'll need 
 ```js
 const aoijs = require("aoi.js");
 
-const bot = new aoijs.Bot({
+const bot = new aoijs.AoiClient({
   token: "DISCORD BOT TOKEN",
   prefix: "DISCORD BOT PREFIX",
   intents: ["Guilds", "GuildMessages", "MessageContent"],
