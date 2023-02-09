@@ -9,10 +9,11 @@ id: events
 ### Table of Content
   - **[Understanding Events][1]**
   - **[Types of Events][2]**
-     - **[Server based events][2.1]**
-     - **[User based events][2.2]**
-     - **[Client based events][2.3]**
-     - **[Command & message based events][2.4]**
+     - **[Message Based-Events][2.1]**
+     - **[Guild Based-Events][2.2]**
+     - **[Guild Members Based-Events][2.3]**
+     - **[User Based-Events][2.4]**
+     - **[User Based-Events][2.5]**
   - **[Example Usage][3]**
 ---
 
@@ -136,8 +137,9 @@ const bot = new aoijs.AoiClient({
 <!--- links -->
 [1]: #table-of-content
 [2]: #types-of-events
-[2.1]: #server-based-events
-[2.2]: #user-based-events
-[2.3]: #client-based-events
-[2.4]: #command--message-based-events
+[2.1]: #message-based-Events
+[2.2]: #guild-based-events
+[2.3]: #guild-members-based-events
+[2.4]: #user-based-events
+[2.5]: #custom-events
 [3]: #example-usage-of-events
