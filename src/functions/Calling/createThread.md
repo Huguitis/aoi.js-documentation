@@ -19,11 +19,15 @@ $createThread[channelID;name;archive;type;startMessage;returnId?]
 | ------------ | ------- | ------------------------------------------------------------------------------ |:--------:|
 | channelID    | integer | guild ID                                                                       |    yes   |
 | name         | string  | thread name                                                                    |    yes   |
-| archieve     | string  | achieve after how much time <br /> 1. **MAX** (default) <br /> 2. *time in ms* |    yes   |
-| type         | string  | thread type <br /> 1. **1** - public (default) <br /> 2. **2** - private       |    yes   |
+| archieve     | string  | achieve after how much time  <br /> 1. *time in ms* |    yes   |
+| type         | string  | thread type <br /> 1. **public** (default) <br /> 2. **private**               |    yes   |
 | startMessage | string  | thread start message ID                                                        |    yes   |
 | returnId?    | string  | return thread ID                                                               |    no    |
 
+* **60 —** This option makes the thread stays active for **1 hour**. 
+* **1140 —** This option makes the thread stays active for **1 day**.
+* **4320 —** This option makes the thread stays active for **3 days**.
+* **10080 —** This option makes the thread stays active for **1 week**.
 
 ## Example
 
@@ -33,7 +37,7 @@ This will create a thread in the current channel:
 bot.command({
   name: 'createThread',
   code: `
-  $createThread[$channelID;Example!;MAX;1;$messageID;false]
+  $createThread[$channelID;Example!;60;public;$messageID;false]
   `
 });
 ```

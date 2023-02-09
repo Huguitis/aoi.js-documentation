@@ -4,7 +4,7 @@ description: $getGuildInvite will create a guild invite.
 id: getGuildInvite
 ---
 
-`$createServerInvite` will create a guild invite.
+`$getGuildInvite` will create a guild invite.
 
 ## Usage
 
@@ -36,7 +36,7 @@ This will create an invite of the channel where the command is executed in:
 
 ```javascript
 bot.command({
-  name: 'createServerInvite',
+  name: 'getGuildInvite',
   code: `
   $getGuildInvite[$guildID]
   `
