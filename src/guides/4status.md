@@ -8,7 +8,7 @@ id: status
 
 ### Table of Content
   - **[Statuses][1]**
-  - **[Client Presence][2]** 
+  - **[Client Presence][2]**
     -  **[Mobile Presence](#client-presence)**
 
 ---
