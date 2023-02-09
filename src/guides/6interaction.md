@@ -283,7 +283,7 @@ bot.command({
 * **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/Calling/autoCompleteRespond.md)**
-* **[$isAutocomplete](## "adding later")**
+* **[$isAutoComplete](../functions/Calling/isAutoComplete.md)**
 
 <!--- links -->
 [introduction]: #introduction

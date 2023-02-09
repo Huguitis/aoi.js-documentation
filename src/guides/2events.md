@@ -26,43 +26,98 @@ It's worth bearing in mind that in order to utilise certain events, you'll need 
 
 ## Types of Events
 
-### Server based events:
-* **onLeave** => for logging members once they leave servers
-* **onJoin** => for logging members once they join servers
-* **onBanAdd** => for logging members once they get banned in servers
-* **onBanRemove** => for logging members once they get unbanned in servers
-* **onChannelCreate** => for logging channels once they get created
-* **onChannelDelete** => for logging channels once they get deleted
-* **onChannelUpdate** => for logging channels once they get updated
-* **onThreadCreate** => for logging threads once they get created
-* **onThreadDelete** => for logging threads once they get deleted
-* **onThreadUpdate** => for logging threads once they get updated
-* **onRoleCreate** => for logging roles once they get created
-* **onRoleDelete** => for logging roles once they get deleted
-* **onRoleUpdate** => for logging roles once they get updated
-* **onStageInstanceCreate** => for logging stage instance creations
-* **onStageInstanceUpdate** => for logging stage instance updates
-* **onStageInstanceDelete** => for logging stage instance deletions
-* **onWebhookUpdate** => for logging webhook updates
+### Message Based-Events
+* **onMessage** &rarr; (requires **[message content intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever a message is sent.
+* **onMessageDelete** &rarr; Emitted whenever a message is deleted.
+* **onMessageUpdate** &rarr; Emitted whenever a message is updated (for example, embed or content change).
+  - `$oldMessage` &rarr; Retrieves the old message from the client's cache. (if any)
+  - `$message` &rarr; Retrieves the new message. (if any)
+* **onMessageDeleteBulk** &rarr; Emitted whenever messages are deleted in bulk.
+* **onReactionAdd** &rarr; Emitted whenever a reaction is added to a message.
+* **onReactionRemove** &rarr; Emitted whenever a reaction is removed from a message.
+* **onReactionRemoveAll** &rarr; Emitted whenever all reactions are removed from a message.
+* **onReactionRemoveEmoji** &rarr; Emitted when a bot removes an emoji reaction from a cached message.
 
-### User based events:
-* **onUserUpdate** => for logging users updating their profile
-* **onMemberUpdate** => for logging members updates in a server
-* **onPresenceUpdate** => for logging presence updates of users
-* **onVoiceStateUpdate** => for logging voice state updates of members in a server
+### Guild Based-Events
+* **onGuildJoin** &rarr; Emitted whenever the client joins a guild.
+* **onGuildLeave** &rarr; Emitted whenever the client leaves a guild.
+* **onGuildUpdate** &rarr; Emitted whenever a guild gets updated (for example, name change).
+  * `$oldGuild[option?]` &rarr; Retrieves data of the old guild. (if any)
+  * `$newGuild[option?]` &rarr; Retrieves data of the new/updated guild. (if any)
+* **onGuildUnavailable** &rarr; Emitted whenever a guild becomes unavailable, likely due to a server outage.
+* **onRoleCreate** &rarr; Emitted whenever a role is created.
+* **onRoleUpdate** &rarr; Emitted whenever a role gets updated (for example, color change).
+  * `$oldRole[option?]` &rarr; Retrieves data of the old role. (if any)
+  * `$newRole[option?]` &rarr; Retrieves data of the new/updated role. (if any)
+* **onRoleDelete** &rarr; Emitted whenever a role is deleted.
+* **onChannelCreate** &rarr; Emitted whenever a channel is created.
+* **onChannelUpdate** &rarr; Emitted whenever a channel gets updated. (for example, topic change).
+  * `$oldChannel[option?]` &rarr; Retrieves data of the old channel. (if any)
+  * `$newChannel[option?]` &rarr; Retrieves data of the new/updated channel. (if any)
+* **onChannelDelete** &rarr; Emitted whenever a channel is deleted.
+* **onChannelPinsUpdate** &rarr; Emitted whenever the pins of a channel are updated.
+* **onStageInstanceCreate** &rarr; Emitted whenever a stage instance is created.
+* **onStageInstanceUpdate** &rarr; Emitted whenever a stage instance gets updated.
+* **onStageInstanceDelete** &rarr; Emitted whenever a stage instance is deleted.
+* **onThreadCreate** &rarr; Emitted whenever a thread is created.
+* **onThreadUpdate** &rarr; Emitted whenever a thread gets updated.
+* **onThreadDelete** &rarr; Emitted whenever a thread is deleted.
+* **onThreadListSync** &rarr; Emitted whenever the client user gains access to a text or news channel that contains threads.
+* **onThreadMemberUpdate** &rarr; Emitted whenever the client user's thread member is updated.
+* **onThreadMembersUpdate** &rarr; (requires **[guild members intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever members are added or removed from a thread. 
+* **onEmojiCreate** &rarr; Emitted whenever a custom emoji is created in a guild.
+* **onEmojiDelete** &rarr; Emitted whenever a custom emoji is deleted in a guild.
+* **onEmojiUpdate** &rarr; Emitted whenever a custom guild emoji is updated.
+  * `$oldEmoji[option?]` &rarr; Retrieves data of the old emoji. (if any)
+  * `$newEmoji[option?]` &rarr; Retrieves data of the new emoji. (if any)
+* **onStickerCreate** &rarr; Emitted whenever a custom sticker is created in a guild.
+* **onStickerDelete** &rarr; Emitted whenever a custom sticker gets deleted in a guild.
+* **onStickerUpdate** &rarr; Emitted whenever a custom sticker is updated in a guild.
+  * `$oldEmoji[option?]` &rarr; Retrieves data of the old sticker. (if any)
+  * `$newEmoji[option?]` &rarr; Retrieves data of the new sticker. (if any)
+* **onBanAdd** &rarr; Emitted whenever a member is banned from a guild.
+* **onBanRemove** &rarr; Emitted whenever a member is unbanned from a guild.
+* **onVoiceStateUpdate** &rarr; Emitted whenever a user changes voice state (for example, joins/leaves a channel, mutes/unmutes).
+  * `$oldState[option?]` &rarr; Retrieves data of the old voice state. (if any)
+  * `$newState[option?]` &rarr; Retrieves data of the new voice state. (if any)
+* **onWebhookUpdate** &rarr; Emitted whenever a channel has its webhooks changed.
+* 
+### Guild Members Based-Events
+* **onJoin** &rarr; Emitted whenever a user joins a guild.
+* **onLeave** &rarr; Emitted whenever a member leaves a guild, or is kicked.
+* **onMemberUpdate** &rarr; Emitted whenever a guild member changes (for example, new role, removed role, nickname).
+  * `$oldMember[option?]` &rarr; Retrieves data of the old member. (if any)
+  * `$newMember[option?]` &rarr; Retrieves data of the new/updated member. (if any)
+* **onMemberAvailable** &rarr; Emitted whenever a member becomes available in a large guild.
+* **onMembersChunk** &rarr; Emitted whenever a chunk of guild members is received (all members come from the same guild).
+ 
 
-### Client based events:
-* **onRateLimit** => for logging rate limits of the bot
-* **onGuildJoin** => for logging what servers the bot joins
-* **onGuildLeave** => for logging what servers the bot leaves
+### User Based-Events
+* **onPresenceUpdate** &rarr; Emitted whenever a guild member's presence changes, or they change one of their details.
+  * `$oldPresence[option]` &rarr; Retrieves data of the old presence. (if any)
+  * `$newPresence[option]` &rarr; Retrieves data of the new presence. (if any)
+* **onTypingStart** &rarr; Emitted whenever a user starts typing in a channel.
+* **onUserUpdate** &rarr; Emitted whenever a user's details (for example, username) are changed.
+  * `$oldUser[option]` &rarr; Retrieves data of the old user. (if any)
+  * `$newUser[option]` &rarr; Retrieves data of the updated/new user. (if any)
 
-### Command & message based events:
-* **onMessage** => for logging & responding to messages
-* **onMessageDelete** => for logging messages which get deleted
-* **onMessageUpdate** => for logging messages they get updated
-* **onInteractionCreate** => for using slash commands
-* **onReactionAdd** => for logging reactions on messages
-* **onReactionRemove** => for logging removed reactions on messages
+### Custom Events
+* **onInteractionCreate** &rarr; Emitted whenever a Interaction is created.
+* **onApplicationCmdDelete** &rarr; Emitted whenever a Application Command gets deleted.
+* **onApplicationCmdUpdate** &rarr; Emitted whenever a Application Command gets updated (for example, name).
+  * `$oldApplicationCmd[option?]` &rarr; Retrieves data of the old application command.
+  * `$newApplicationCmd[option?]` &rarr; Retrieves data of the updated application command.
+* **onVariableCreate** &rarr; Emitted whenever a variable is created.
+* **onVariableDelete** &rarr; Emitted whenever a variable gets deleted.
+* **onVariableUpdate** &rarr; Emitted whenever a variable gets updated.
+  * `$oldVariable[opt;seperator?]` &rarr; Retrieves the old data of the variable. (if any)
+  * `$newVariable[opt;seperator?]` &rarr; Retrieves the new/updated data of the variable. (if any)
+* **onRateLimit** &rarr; Emitted whenever **[exceeding Discord's ratelimit](https://discord.com/developers/docs/topics/rate-limits#exceeding-a-rate-limit)**.
+* **onShardDisconnect** &rarr; Emitted whenever the client's shard disconnects.
+* **onShardError** &rarr; Emitted whenever a shard of the client returns an error.
+* **onShardReady** &rarr; Emitted whenever a shard of the client is ready.
+* **onShardReconnecting** &rarr; Emitted whenever a shard of the client is currently reconnecting.
+* **onShardResume** &rarr; Emitted whenever the shard resumed operations.
 
 ## Example Usage of Events
 

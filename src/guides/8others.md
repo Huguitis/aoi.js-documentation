@@ -1,6 +1,6 @@
 ---
 title: Others 
-description: others - aliases and hyperlinks
+description: Multiple useful tips.
 id: others
 ---
 
@@ -11,7 +11,6 @@ id: others
     - **[Way more possibilities][1.1]**  
   - **[Hyperlinks][2]**
     - **[Tool Tips](#hovering-text)**
-  - **[Locales](#list-of-locales)**
 
 ---
 
