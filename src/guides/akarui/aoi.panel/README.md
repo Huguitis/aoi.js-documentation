@@ -29,11 +29,13 @@ const {Panel} = require("@akarui/aoi.panel")
 
 const {AoiClient} = require("aoi.js")
 
+
 const bot = new AoiClient({
-    token: "DISCORD BOT TOKEN",
-    prefix: "DISCORD BOT PREFIX",
-    intents: ["GUILDS", "GUILD_MESSAGES"]
-})
+  token: "Discord Bot Token",
+  prefix: "Discord Bot Prefix",
+  intents: ["MessageContent", "Guilds", "GuildMessages"],
+  events: ["onMessage"]
+});
 
 const panel = new Panel({
     username: "your-username",//username for logging in
