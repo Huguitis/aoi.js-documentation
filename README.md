@@ -67,4 +67,3 @@ Aoi.js is not affiliated or associated with Discord or any other services.
 - [NPM](https://www.npmjs.com/package/aoi.js)
 - [Github](https://github.com/AkaruiDevelopment/aoi.js)
 - [Discord Support Server](https://discord.gg/HMUfMXDQsV)
-- [Documentation](https://aoi.js.org/docs/)
