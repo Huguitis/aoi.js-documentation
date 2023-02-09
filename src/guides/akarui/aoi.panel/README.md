@@ -51,7 +51,6 @@ panel.loadPanel()//Load The Panel
 
 panel.onError()//Will detect errors, and send it to aoi.panel's error page.
 
-bot.onMessage() //Will detect messages, and send it to aoi.js core to send messages.
 ```
 LOGIN PAGE
 ![image](https://user-images.githubusercontent.com/85351846/203999818-50ff6898-fdee-49c8-8ade-0f94df4c0248.png)
