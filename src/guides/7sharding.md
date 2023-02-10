@@ -75,8 +75,8 @@ sharder.startProcess();
 This is is your main file which is the source running your Discord Bot, it's typically your `index.js`:
 
 ```js
-const { Bot } = require("aoi.js");
-const bot = new Bot({
+const aoijs = require("aoi.js");
+const bot = new aoijs.AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages","MessageContent"],
