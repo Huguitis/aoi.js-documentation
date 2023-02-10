@@ -79,7 +79,7 @@ const aoijs = require("aoi.js");
 const bot = new aoijs.AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
-    intents: ["Guilds", "GuildMessages","MessageContent"],
+    intents: ["Guilds", "GuildMessages", "MessageContent"],
     events: ["onMessage"]
 });
 
