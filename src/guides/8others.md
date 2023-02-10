@@ -1,6 +1,6 @@
 ---
 title: Others 
-description: Multiple useful tips.
+description: This section is covering, client options, databases, command aliases and hyperlinks.
 id: others
 ---
 
@@ -46,9 +46,9 @@ const bot = new aoijs.AoiClient({
     suppressAllErrors: boolean,
     errorMessage: string,
     respondOnEdit: {
-       command: boolean,
+       commands: boolean,
        alwaysExecute: boolean,
-       nonPrefixed: boolean
+       nonPrefixed: boolean,
        time: number
     },
     mobilePlatform: boolean,
