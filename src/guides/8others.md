@@ -52,7 +52,7 @@ const bot = new aoijs.AoiClient({
        time: number
     },
     mobilePlatform: boolean,
-    plugins: ['./path"],
+    plugins: ["./path"],
     disableLogs: boolean
 });
 ```
