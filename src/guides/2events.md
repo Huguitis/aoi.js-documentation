@@ -1,6 +1,6 @@
 ---
 title: Client Events 
-description: How to use Events correctly.
+description: This section will be covering everything you need to know about events and their usage.
 id: events
 ---
 
