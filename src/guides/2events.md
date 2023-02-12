@@ -82,7 +82,7 @@ It's worth bearing in mind that in order to utilise certain events, you'll need 
   * `$oldState[option?]` &rarr; Retrieves data of the old voice state. (if any)
   * `$newState[option?]` &rarr; Retrieves data of the new voice state. (if any)
 * **onWebhookUpdate** &rarr; Emitted whenever a channel has its webhooks changed.
-* 
+ 
 ### Guild Members Based-Events
 * **onJoin** &rarr; Emitted whenever a user joins a guild.
 * **onLeave** &rarr; Emitted whenever a member leaves a guild, or is kicked.
