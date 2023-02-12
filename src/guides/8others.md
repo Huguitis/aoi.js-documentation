@@ -28,6 +28,7 @@ const bot = new aoijs.AoiClient({
     prefix: string,
     intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage", "onJoin", "onLeave"],
+    respondToBots: boolean,
     disableFunctions: ["$function", "$function"],
     autoUpdate: boolean,
     cache: {
