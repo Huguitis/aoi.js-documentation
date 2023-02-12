@@ -26,7 +26,7 @@ const aoijs = require("aoi.js");
 const bot = new aoijs.AoiClient({
     token: string,
     prefix: string,
-    intents: ["Guilds", "GuildMessages", "MessageContent"],
+    intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage", "onJoin", "onLeave"],
     disableFunctions: ["$function", "$function"],
     autoUpdate: boolean,
@@ -45,6 +45,8 @@ const bot = new aoijs.AoiClient({
       }, // Example refers to aoi.db, other databases are not included in this Example.
     suppressAllErrors: boolean,
     errorMessage: string,
+    aoiWarning: boolean,
+    aoiLogs: boolean,
     respondOnEdit: {
        commands: boolean,
        alwaysExecute: boolean,
@@ -53,7 +55,6 @@ const bot = new aoijs.AoiClient({
     },
     mobilePlatform: boolean,
     plugins: ["./path"],
-    disableLogs: boolean
 });
 ```
 
