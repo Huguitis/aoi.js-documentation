@@ -9,7 +9,6 @@ id: others
 ### Table of Content
   - **[Client Options](#client-options)**
   - **[Databases](#databases)**
-    - **[MongoDB](#mongodb)**
     - **[aoi.db](#aoidb)**
   - **[Command Aliases][1]**
     - **[Way more possibilities][1.1]**  
@@ -60,39 +59,6 @@ const bot = new aoijs.AoiClient({
 ```
 
 ### Databases
-
-#### mongodb
-
-Assuming you've setup your cluster and have basic knowledge about mongodb:
-
-First of all, install two packages.
-```typescript
-npm i aoimongo
-npm i mongodb
-```
-
-Change your setup to the following:
-```js
-const aoijs = require("aoi.js")
-const aoimongo = require("aoi.mongo")
-
-const bot = new aoijs.AoiClient({
-   token: "DISCORD BOT TOKEN",
-   prefix: "DISCORD BOT PREFIX",
-   intents: ["Guilds", "GuildMessages", "MessageContent"],
-   events: ["onMessage"],
-   database: {
-     db: aoimongo,
-     type: "aoi.mongo",
-     path: "mongo cluster url"
-   }
-});
-```
-
-Your cluster URL should be built like this:
-`mongodb+srv://<username>:<password>@<?>.<?>.mongodb.net/?w=majority&retryWrites=true`
-
---- 
 
 #### aoi.db
 
