@@ -23,7 +23,7 @@ $addField[fieldTitle;fieldDescription;inline?]
 
 ## Example
 
-This will return the amount of roles of your guild:
+This will send an embed with a field and description:
 
 ```javascript
 bot.command({
