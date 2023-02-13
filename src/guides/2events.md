@@ -13,7 +13,7 @@ id: events
      - **[Guild Based-Events][2.2]**
      - **[Guild Members Based-Events][2.3]**
      - **[User Based-Events][2.4]**
-     - **[User Based-Events][2.5]**
+     - **[Custom Events][2.5]**
   - **[Example Usage][3]**
 ---
 
