@@ -1,15 +1,15 @@
 ---
 title: $componentCollector 
-description: $componentCollector will create a collector for the given customIDs.
+description: $componentCollector will create a collector for the given components.
 id: componentCollector
 ---
 
-`$componentCollector` will create a collector for the given customIDs.
+`$componentCollector` will create a collector for the given components.
 
 ## Usage
 
 ```php
-$componentCollector[messageID;filter;time;customIDs;commands;errorMsg?;endcommand?;awaitData?]
+$componentCollector[messageID;userFilter;time;customIDs;commands;errorMsg?;endcommand?;awaitData?]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $componentCollector[messageID;filter;time;customIDs;commands;errorMsg?;endcomman
 | Field       | Type    | Description                                                                                    | Required |
 | ----------- | ------- | ---------------------------------------------------------------------------------------------- |:--------:|
 | messageID   | integer | message ID                                                                                     |    yes   |
-| userfilter  | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |    yes   |
+| userFilter  | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |    yes   |
 | time        | string  | when the command ends/expires                                                                  |    yes   |
 | customID    | string  | custom ID                                                                                      |    yes   |
 | commands    | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |    yes   |
