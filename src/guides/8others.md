@@ -1,6 +1,6 @@
 ---
 title: Others 
-description: This section is covering, client options, databases, command aliases and hyperlinks.
+description: This section is covering, command aliases and hyperlinks.
 id: others
 ---
 
