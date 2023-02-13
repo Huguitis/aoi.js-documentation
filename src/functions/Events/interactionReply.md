@@ -10,7 +10,7 @@ id: interactionReply
 ## Usage
 
 ```php
-$interactionReply[content?;embeds?;components?;files?;allowedMention?s;ephemeral?]
+$interactionReply[content?;embeds?;components?;files?;allowedMentions?;ephemeral?]
 ```
 
 ## Parameters 
@@ -22,7 +22,7 @@ $interactionReply[content?;embeds?;components?;files?;allowedMention?s;ephemeral
 | embeds?          | string | embed                                                                                             |    no    |
 | components?      | string | components                                                                                        |    no    |
 | files?           | string | files                                                                                             |    no    |
-| allowed mentions | string | what can be mentioned in the reply <br /> 1. **everyone** <br /> 2. **roles** <br /> 3. **users** |    no    |
+| allowedMentions? | string | what can be mentioned in the reply <br /> 1. **everyone** <br /> 2. **roles** <br /> 3. **users** |    no    |
 | ephemeral?       | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default)              |    no    |
 
 
@@ -31,7 +31,7 @@ $interactionReply[content?;embeds?;components?;files?;allowedMention?s;ephemeral
 ```javascript
 bot.interactionCommand({
   name: "interactionReply",
-  prototype: 'slash',
+  prototype: "slash", // button/selectMenu/slash
   code: `
   $interactionReply[Hello, world!;;;;everyone;false]
   `
