@@ -43,7 +43,7 @@ const bot = new aoijs.AoiClient({
        tables: ["main"],
        path: "./database/",
        extraOptions: {
-       dbType: "keyValue",
+       dbType: "KeyValue",
         }
       }, // Example refers to aoi.db, other databases are not included in this Example.
     suppressAllErrors: boolean,
