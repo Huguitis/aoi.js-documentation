@@ -63,11 +63,12 @@ const bot = new aoijs.AoiClient({
 
 #### aoi.db
 
-Same here, make sure you have **aoi.db** installed:
+Install **aoi.db**:
 ```typescript
 npm i aoi.db
 ```
 
+Usage of aoi.db in your main file:
 ```js
 const aoijs = require("aoi.js");
 
@@ -82,7 +83,7 @@ const bot = new aoijs.AoiClient({
        tables: ["main"],
        path: "./database/",
        extraOptions: {
-       dbType: "keyValue",
+       dbType: "KeyValue",
         }
 });
 ```
