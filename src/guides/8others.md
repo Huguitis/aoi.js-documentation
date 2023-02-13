@@ -1,18 +1,93 @@
 ---
 title: Others 
-description: This section is covering, command aliases and hyperlinks.
+description: This section is covering, client options, databases, command aliases and hyperlinks.
 id: others
 ---
 
 #### This guide will be covering every question you may have.
 
 ### Table of Content
+  - **[Client Options](#client-options)**
+  - **[Database](#databases)**
+    - **[aoi.db](#aoidb)**
   - **[Command Aliases][1]**
     - **[Way more possibilities][1.1]**  
   - **[Hyperlinks][2]**
     - **[Tool Tips](#hovering-text)**
 
 ---
+
+## Client Options
+
+```typescript
+const aoijs = require("aoi.js");
+
+const bot = new aoijs.AoiClient({
+    token: string,
+    prefix: string,
+    intents: ["MessageContent", "Guilds", "GuildMessages"],
+    events: ["onMessage", "onJoin", "onLeave"],
+    respondToBots: boolean,
+    guildOnly: boolean,
+    disableFunctions: ["$function", "$function"],
+    autoUpdate: boolean,
+    cache: {
+        users: number,
+        messages: number,
+     },
+    database: {
+       type: "aoi.db",
+       db: require("aoi.db"),
+       tables: ["main"],
+       path: "./database/",
+       extraOptions: {
+       dbType: "keyValue",
+        }
+      }, // Example refers to aoi.db, other databases are not included in this Example.
+    suppressAllErrors: boolean,
+    errorMessage: string,
+    aoiWarning: boolean,
+    aoiLogs: boolean,
+    respondOnEdit: {
+       commands: boolean,
+       alwaysExecute: boolean,
+       nonPrefixed: boolean,
+       time: number
+    },
+    mobilePlatform: boolean,
+    plugins: ["./path"],
+});
+```
+
+### Databases
+
+#### aoi.db
+
+Same here, make sure you have **aoi.db** installed:
+```typescript
+npm i aoi.db
+```
+
+```js
+const aoijs = require("aoi.js");
+
+const bot = new aoijs.AoiClient({
+    token: "DISCORD BOT TOKEN",
+    prefix: "DISCORD BOT PREFIX",
+    intents: ["Guilds", "GuildMessages", "MessageContent"],
+    events: ["onMessage"],
+    database: {
+       type: "aoi.db",
+       db: require("aoi.db"),
+       tables: ["main"],
+       path: "./database/",
+       extraOptions: {
+       dbType: "keyValue",
+        }
+});
+```
+
+In case this doesn't work, make sure you have a directory called "database", inside it a directory called "main" and a file called "main_scheme_1.sql" with the content of "{}".
 
 ## Command Aliases
 
