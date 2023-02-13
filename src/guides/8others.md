@@ -27,10 +27,12 @@ const bot = new aoijs.AoiClient({
     prefix: string,
     intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage", "onJoin", "onLeave"],
+    disableFunctions: ["$function", "$function"],
+    plugins: ["./path"],
     respondToBots: boolean,
     guildOnly: boolean,
-    disableFunctions: ["$function", "$function"],
     autoUpdate: boolean,
+    mobilePlatform: boolean,
     cache: {
         users: number,
         messages: number,
@@ -54,8 +56,6 @@ const bot = new aoijs.AoiClient({
        nonPrefixed: boolean,
        time: number
     },
-    mobilePlatform: boolean,
-    plugins: ["./path"],
 });
 ```
 
