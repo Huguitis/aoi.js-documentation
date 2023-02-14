@@ -22,10 +22,8 @@ const bot = new aoijs.AoiClient({
     token: "Discord Bot Token",
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages", "GuildVoiceStates"],
+    events: ["onMessage", "onInteractionCreate"]
 });
-
-//Events
-bot.onMessage();
 
 //Command Example (ping)
 bot.command({
@@ -35,7 +33,7 @@ bot.command({
 
 const voice = new AoiVoice(bot, {
     searchOptions: {
-        soundcloudClientId: "Sound Cloud Id",
+     // soundcloudClientId: "Sound Cloud Id",
         youtubegl: "US",
     },
     requestOptions: {
@@ -92,7 +90,7 @@ devOptions?: {
 <table>
   <tr>
     <th>Usage</th>
-    <td style="display:flex;flex-direction: row;justify-content:flex-start;align-items: flex-start;width:100%;">$joinVc[<details><summary>voice/stage id</summary>Voice/Stage Channel ID</details>;<details><summary>selfDeaf?</summary>Whether the bot should deafen itself (default: true)</details>;<details><summary>selfMute?</summary>Whether the bot should mute itself (default: false)</details>;<details><summary>speaker?</summary>Whether the bot should be speaker on stage channel (default: true)</details>;<details><summary>debug?</summary>Whether to enable debug mode (default: false)</details>]</td>
+    <td style="display:flex;flex-direction: row;justify-content:flex-start;align-items: flex-start;width:100%;">$joinVc[<details><summary>voice/stage id</summary>Voice/Stage Channel ID</details>;<details><summary>selfDeaf?</summary>Whether the bot should deafen itself (default: yes)</details>;<details><summary>selfMute?</summary>Whether the bot should mute itself (default: no)</details>;<details><summary>speaker?</summary>Whether the bot should be speaker on stage channel (default: yes)</details>;<details><summary>debug?</summary>Whether to enable debug mode (default: no)</details>]</td>
   </tr>
   <tr>
     <th>Example</th>
