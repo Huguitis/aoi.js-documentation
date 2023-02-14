@@ -17,7 +17,7 @@ $truncate[number]
 
 | Field  | Type   | Description       | Required |
 | ------ | ------ | ----------------- | -------- |
-| number | number | value to truncate | yes      |
+| number | number | value to truncate | true      |
 
 
 ## Example

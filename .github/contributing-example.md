@@ -18,7 +18,7 @@ $function[param1;param2]
 
 | Field  | Type    | Description     | Required |
 |--------|---------|-----------------|----------|
-| param1 | string  | it shows param1 | yes      |
+| param1 | string  | it shows param1 | true      |
 | param2 | integer | it shows param2 | false       |
 
 ### Parameter Types

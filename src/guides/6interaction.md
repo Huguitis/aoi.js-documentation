@@ -270,7 +270,7 @@ bot.command({
 
 ## Interaction Functions
 * **[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Events/createApplicationCommand.md)**
-* **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/false)]](../functions/Events/interactionReply.md)**
+* **[$interactionReply[message;embeds?;components?;files?;ephemeral(true/false)]](../functions/Events/interactionReply.md)**
 * **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
 * **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
 * **[$interactionDelete](../functions/Events/interactionDelete.md)**

@@ -17,7 +17,7 @@ $messageExists[messageid;channelid?]
 
 | Field      | Type    | Description                                 | Required |
 | ---------- | ------- | ------------------------------------------- | -------- |
-| messageid  | integer | the id of the message                       | yes      |
+| messageid  | integer | the id of the message                       | true      |
 | channelid? | integer | the channel id where the message is located | false       |
 
 

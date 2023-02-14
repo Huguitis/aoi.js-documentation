@@ -17,7 +17,7 @@ $isValidLink[url]
 
 | Field | Type   | Description      | Required |
 | ----- | ------ | ---------------- | -------- |
-| url   | string | any kind of link | yes      |
+| url   | string | any kind of link | true      |
 
 
 ## Example

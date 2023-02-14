@@ -31,7 +31,7 @@ const sharder: ClientShard = new ClientShard(
   </tr>
     <tr>
     <th>Required</th>
-    <td>yes</td>
+    <td>true</td>
   </tr>
   <tr>
     <th>Default</th>

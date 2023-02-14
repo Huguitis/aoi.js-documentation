@@ -17,7 +17,7 @@ $mentionedChannels[index;returnSelf?]
 
 | Field       | Type   | Description                                                                               | Required |
 | ----------- | ------ | ----------------------------------------------------------------------------------------- | -------- |
-| index       | number | the index of the argument                                                                 | yes      |
+| index       | number | the index of the argument                                                                 | true      |
 | returnSelf? | string | return the id of the channel where the command was executed in when channel was not found | false       |
 
 

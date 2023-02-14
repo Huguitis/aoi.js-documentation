@@ -17,7 +17,7 @@ $textTrim[text]
 
 | Field | Type   | Description            | Required |
 | ----- | ------ | ---------------------- | -------- |
-| text  | string | the text to be trimmed | yes      |
+| text  | string | the text to be trimmed | true      |
 
 
 ## Example

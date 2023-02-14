@@ -17,7 +17,7 @@ $isValidInvite[url]
 
 | Field | Type   | Description      | Required |
 | ----- | ------ | ---------------- | -------- |
-| url   | string | guild invite url | yes      |
+| url   | string | guild invite url | true      |
 
 
 ## Example

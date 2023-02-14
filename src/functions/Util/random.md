@@ -17,8 +17,8 @@ $random[num1;num2;allow?;random?]
 
 | Field                         | Type   | Description                           | Required |
 | ----------------------------- | ------ | ------------------------------------- | -------- |
-| num1                          | number | start of the span                     | yes      |
-| num2                          | number | end of the span                       | yes      |
+| num1                          | number | start of the span                     | true      |
+| num2                          | number | end of the span                       | true      |
 | allow?                        | string | allows returning of decimal numbers   | false       |
 | [random?](#advanced-examples) | string | if the returned number will be random | false       |
 

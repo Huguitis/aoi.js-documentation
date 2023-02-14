@@ -17,8 +17,8 @@ $sum[num1;num2]
 
 | Field | Type   | Description | Required |
 | ----- | ------ | ----------- | -------- |
-| num1  | number |             | yes      |
-| num2  | number |             | yes      |
+| num1  | number |             | true      |
+| num2  | number |             | true      |
 
 ## Example
 
