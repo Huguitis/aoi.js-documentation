@@ -15,10 +15,10 @@ $userRoleColor[userID?;guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| userID?    | integer  | user ID                             | no      |
-| guildID?    | integer  | guild ID                             | no      |
+| Field    | Type    | Description | Required |
+| -------- | ------- | ----------- |:--------:|
+| userID?  | integer | user ID     |    no    |
+| guildID? | integer | guild ID    |    no    |
 
 
 ## Example

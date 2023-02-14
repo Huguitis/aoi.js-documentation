@@ -11,6 +11,8 @@ id: interactioncommands
      - **[Discord Developer Portal - Documentation][3]**
   - **[Important][important]**
   - **[Creating Application Commands][creating-application-commands]**
+    - **[Application Types](#application-types)**
+    - **[Multiple Examples of creating Application Commands](#examples-of-creating-application-commands)**
   - **[Using Application Commands][using-application-commands]**
     - **[Auto Complete Respond][6]**
   - **[Application Command Option Type][application-command-option-type]**
@@ -47,6 +49,12 @@ In order to use Application Commands, your bot needs the `application.commands` 
 $createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]
 ```
 
+#### Application Types
+> * `message` — Creates an Application Command as slash command.
+> * `slash` — Creates an Application Command that can be executed on a message.
+> * `user` — Creates an Application Command that can be executed on a user.
+
+### Examples of creating Application Commands
 ```js
 bot.command({
   name: "createApplicationCommand",
@@ -82,7 +90,7 @@ bot.command({
 Example created by dodoGames#7509. */
 ```
 
-Adding **sub command** to the application command:
+Adding **sub commands** to the application command:
 ```js
 bot.command({
   name: "createApplicationCommand",
@@ -169,7 +177,7 @@ $autoCompleteRespond[[{
   }]]
 ```
 
-Create the slash-commands: (please note that you require the `bot.onInteractionCreate()` callback in your main file)
+Create the slash-commands: (please note that you require the `onInteractionCreate` in the `events` property in your main file)
 ```javascript
 bot.command({
   name: 'createSlashCommand',
@@ -199,7 +207,7 @@ bot.command({
 });
 ```
 
-Create the slash-commands: (please note that you require the `bot.onInteractionCreate()` callback in your main file)
+Create the slash-commands: (please note that you require the `onInteractionCreate` in the `events` property in your main file)
 
 ```javascript
 bot.command({
@@ -261,20 +269,21 @@ bot.command({
 | ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
 
 ## Interaction Functions
+* **[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Events/createApplicationCommand.md)**
 * **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/no)]](../functions/Events/interactionReply.md)**
 * **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
 * **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
 * **[$interactionDelete](../functions/Events/interactionDelete.md)**
-* **[$interactionEdit[content?;embeds?;components?;files?;allowed mentions?]](../functions/Events/interactionEdit.md)**
+* **[$interactionEdit[content?;embeds?;components?;files?;allowedMentions]](../functions/Events/interactionEdit.md)**
 * **[$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]](../functions/Events/interactionFollowUp.md)**
-* **[$interactionUpdate[content?;embeds?;components?;files?;allowed mentions?]](../functions/Events/interactionUpdate.md)**
+* **[$interactionUpdate[content?;embeds?;components?;files?;allowedMentions]](../functions/Events/interactionUpdate.md)**
 * **[$slashOption[option]](../functions/Events/slashOption.md)**
 * **[$deleteApplicationCommand[guildID/global;id]](../functions/Calling/deleteApplicationCommand.md)**
 * **[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](## "adding later")**
 * **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/Calling/autoCompleteRespond.md)**
-* **[$isAutocomplete](## "adding later")**
+* **[$isAutoComplete](../functions/Calling/isAutoComplete.md)**
 
 <!--- links -->
 [introduction]: #introduction

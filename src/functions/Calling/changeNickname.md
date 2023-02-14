@@ -15,11 +15,11 @@ $changeNickname[userID;nick;reason?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| userID    | integer  | user ID                             | yes      |
-| nick    | integer  | new nickname                             | yes      |
-| reason?    | integer  | reason which will be displayed in the server's audit logs   | no      |
+| Field   | Type    | Description                                               | Required |
+| ------- | ------- | --------------------------------------------------------- |:--------:|
+| userID  | integer | user ID                                                   |    yes   |
+| nick    | integer | new nickname                                              |    yes   |
+| reason? | integer | reason which will be displayed in the server's audit logs |    no    |
 
 
 ## Example

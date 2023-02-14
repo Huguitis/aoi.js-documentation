@@ -15,6 +15,6 @@ $shard[option]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | option                                             | yes      |
+| Field  | Type   | Description | Required |
+| ------ | ------ | ----------- |:--------:|
+| option | string | option      |    yes   |

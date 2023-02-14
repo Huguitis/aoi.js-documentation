@@ -9,42 +9,46 @@ id: createApplicationCommand
 ## Usage
 
 ```js
-$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]
+$createApplicationCommand[guildID/global;name;description;defaultPermission;type?;options?]
 ```
 
 
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| guildID?    | integer  | guild ID                             | yes      |
-| fetchFirst?     | number  | fetch the roles first before returning them?  <br /> 1. **yes** <br /> 2. **no** (default)          | no       |
+| Field              | Type    | Description                     | Required |
+| ------------------ | ------- | ------------------------------- |:--------:|
+| guildID/global     | string  | guild ID                        |    yes   |
+| name               | string  | application command name        |    yes   |
+| description        | string  | application command description |    yes   |
+| defaultPermissions | string  | true/false                      |    yes   |
+| type?              | string  | (slash/user/message)            |    no    |
+| options?           | string  | slash command options           |    no    |
 
 <details>
   <summary><h3> Application Command Option Type </h3></summary>
   
-| NAME              | ID | NOTE                                                                                         |
-|-------------------|----|----------------------------------------------------------------------------------------------|
-| SUB_COMMAND       | 1  |                                                                                              |
-| SUB_COMMAND_GROUP | 2  |                                                                                              |
-| STRING            | 3  |                                                                                              |
-| INTEGER           | 4  | Any Integer between -2^53 and 2^53                                                           |
-| BOOLEAN           | 5  |                                                                                              |
-| USER              | 6  |                                                                                              |
-| CHANNEL           | 7  | Includes all channel types + categories                                                      |
-| ROLE              | 8  |                                                                                              |
-| MENTIONABLE       | 9  | Includes users and roles                                                                     |
-| NUMBER            | 10 | Any double between -2^53 and 2^53                                                            |
-| ATTACHMENT        | 11 | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
+| NAME              | ID  | NOTE                                                                                         |
+| ----------------- | --- | -------------------------------------------------------------------------------------------- |
+| SUB_COMMAND       | 1   |                                                                                              |
+| SUB_COMMAND_GROUP | 2   |                                                                                              |
+| STRING            | 3   |                                                                                              |
+| INTEGER           | 4   | Any Integer between -2^53 and 2^53                                                           |
+| BOOLEAN           | 5   |                                                                                              |
+| USER              | 6   |                                                                                              |
+| CHANNEL           | 7   | Includes all channel types + categories                                                      |
+| ROLE              | 8   |                                                                                              |
+| MENTIONABLE       | 9   | Includes users and roles                                                                     |
+| NUMBER            | 10  | Any double between -2^53 and 2^53                                                            |
+| ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
   
-  #### You can find more information in the [offical documention of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).
+  #### You can find more information in the [official documention of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).
   
 </details>
 
 ## Example
 #### Check the Slash Command/Interaction guide for more information about slash commands
-This will create a global slash command:
+This will create a slash command without options:
 
 ```js
 bot.command({

@@ -12,7 +12,7 @@ id: permissionsandintents
 
 ### Discord Gateaway Intents
 
-> * **MessageContent**   
+> * **MessageContent** 
 > * **Guilds**   
 > * **GuildMessages**   
 > * **GuildMembers**   

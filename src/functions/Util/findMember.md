@@ -30,7 +30,7 @@ This will return your ID as `Leref` was not found in the given guild:
 bot.command({
   name: 'findMember',
   code: `
-  $findMember[Leref;yes;$guildID]
+  $findMember[Leref;true;$guildID]
   `
 });
 ```

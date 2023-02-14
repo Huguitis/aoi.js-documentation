@@ -15,23 +15,23 @@ $editChannel[channelID;name?;type?;position?;topic?;nsfw?;bitrate?;userlimit?;pa
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | channel ID                           | yes      |
-| name?    | string  | new channel name                           | no      |
-| type?    | string  | channel type                           | no      |
-| position?    | string  | channel position                           | no      |
-| topic?    | string  | channel topic                           | no      |
-| nsfw?    | string  | mark channel as nsfw                           | no      |
-| bitrate?    | integer  | voice channel bitrate                           | no      |
-| userlimit?    | number  | voice channel userlimit                           | no      |
-| parent?    | integer  | channel parent (Category)                           | no      |
-| lockPermissions?    | string  | channels lock permissions                           | no      |
-| permissionOverwrites?    | string  | channels overwrites                           | no      |
-| rateLimitPerUser?    | number  | channel slowmode                           | no      |
-| defaultAutoArchiveDuration?    | number  | thread/forum archive duration (in ms)                           | no      |
-| rtcRegion?    | string  | voice channel rtc region                           | no      |
-| reason?    | string  | reason that will be displayed in the guild's audit logs                           | no      |
+| Field                       | Type    | Description                                             | Required |
+| --------------------------- | ------- | ------------------------------------------------------- |:--------:|
+| channelID                   | integer | channel ID                                              |    yes   |
+| name?                       | string  | new channel name                                        |    no    |
+| type?                       | string  | channel type                                            |    no    |
+| position?                   | string  | channel position                                        |    no    |
+| topic?                      | string  | channel topic                                           |    no    |
+| nsfw?                       | string  | mark channel as nsfw                                    |    no    |
+| bitrate?                    | integer | voice channel bitrate                                   |    no    |
+| userlimit?                  | number  | voice channel userlimit                                 |    no    |
+| parent?                     | integer | channel parent (Category)                               |    no    |
+| lockPermissions?            | string  | channels lock permissions                               |    no    |
+| permissionOverwrites?       | string  | channels overwrites                                     |    no    |
+| rateLimitPerUser?           | number  | channel slowmode                                        |    no    |
+| defaultAutoArchiveDuration? | number  | thread/forum archive duration (in ms)                   |    no    |
+| rtcRegion?                  | string  | voice channel rtc region                                |    no    |
+| reason?                     | string  | reason that will be displayed in the guild's audit logs |    no    |
 
 ### Note: you can use `$default` to keep the current property.
 

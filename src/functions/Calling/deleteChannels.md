@@ -1,10 +1,10 @@
 ---
 title: $deleteChannels 
-description: $deleteChannels will delete a multiple channels.
+description: $deleteChannels will delete multiple channels.
 id: deleteChannels
 ---
 
-`$deleteChannels` will delete a multiple channels.
+`$deleteChannels` will delete multiple channels.
 
 ## Usage
 
@@ -15,9 +15,9 @@ $deleteChannels[...channels]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channels    | integer  | channel IDs                             | yes      |
+| Field    | Type    | Description | Required |
+| -------- | ------- | ----------- |:--------:|
+| channels | integer | channel IDs |    yes   |
 
 
 ## Example

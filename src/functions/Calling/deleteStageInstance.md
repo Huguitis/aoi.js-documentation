@@ -1,10 +1,10 @@
 ---
 title: $deleteStageInstance 
-description: $deleteStageInstance will delete an existing stage instance.
+description: $deleteStageInstance will end  an existing stage instance.
 id: deleteStageInstance
 ---
 
-`$deleteStageInstance` will delete an existing stage instance.
+`$deleteStageInstance` will end an existing stage instance.
 
 ## Usage
 
@@ -15,9 +15,9 @@ $deleteStageInstance[channelID]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | channel ID                             | yes      |
+| Field     | Type    | Description | Required |
+| --------- | ------- | ----------- |:--------:|
+| channelID | integer | channel ID  |    yes   |
 
 
 ## Example

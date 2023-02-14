@@ -22,7 +22,7 @@ This will return the latency of an interaction:
 bot.command({
   name: 'interactionPing',
   code: `
- $addbutton[1;test;primary;testButton;no]
+ $addbutton[1;test;primary;testButton;false]
  Click me!
   `
 });

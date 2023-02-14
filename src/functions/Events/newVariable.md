@@ -15,7 +15,7 @@ $newVariable[option;sep?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | option <br /> 1. **name**                            | yes      |
-| sep    | string  | seperator                           | no      |
+| Field  | Type   | Description               | Required |
+| ------ | ------ | ------------------------- |:--------:|
+| option | string | option <br /> 1. **name** |    yes   |
+| sep    | string | seperator                 |    no    |

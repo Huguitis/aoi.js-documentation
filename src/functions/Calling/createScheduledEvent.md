@@ -15,14 +15,14 @@ $createScheduledEvent[channelID;name;description;starTime;endTime?;entityType?;e
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | channel ID                             | yes      |
-| name    | string  | event name                             | yes      |
-| description    | string  | event description                             | yes      |
-| starTime    | string  | event start time                             | yes      |
-| endTime?    | string  | event end time                             | yes      |
-| entityType?    | string  | event type                             | yes      |
-| entityMetadata?    | string  | metadata                             | yes      |
-| image?    | string  | image                             | yes      |
-| reason?    | string  | reason                             | yes      |
+| Field           | Type    | Description       | Required |
+| --------------- | ------- | ----------------- |:--------:|
+| channelID       | integer | channel ID        |    yes   |
+| name            | string  | event name        |    yes   |
+| description     | string  | event description |    yes   |
+| starTime        | string  | event start time  |    yes   |
+| endTime?        | string  | event end time    |    no   |
+| entityType?     | string  | event type        |    no   |
+| entityMetadata? | string  | metadata          |    no   |
+| image?          | string  | image             |    no   |
+| reason?         | string  | reason            |    no   |

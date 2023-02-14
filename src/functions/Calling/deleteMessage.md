@@ -15,10 +15,10 @@ $deleteMessage[messageID;channelID]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| messageID    | integer  | guild ID                             | yes      |
-| channelID     | integer  | channel ID        | no       |
+| Field     | Type    | Description | Required |
+| --------- | ------- | ----------- |:--------:|
+| messageID | integer | guild ID    |    yes   |
+| channelID | integer | channel ID  |    no    |
 
 
 ## Example
@@ -30,7 +30,7 @@ bot.command({
   name: 'deleteMessage',
   code: `
   $deleteMessage[$get[id];$channelID]
-  $let[id;$sendMessage[Hello!;yes]]
+  $let[id;$sendMessage[Hello!;true]]
   `
 });
 ```

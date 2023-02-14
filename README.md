@@ -26,7 +26,7 @@
 ## Features
 
 - Built-in support of [database](https://www.npmjs.com/package/aoi.db) by default and ready for multipurpose.
-- Built-in 600+ functions, simple and easy to learn.
+- Built-in **630+** functions, simple and easy to learn.
 - Simple to learn, all in string-based and compact.
 - Support of extensions available to be used by the community.
 
@@ -42,20 +42,19 @@ yarn add aoi.js
 ## Setup
 
 ```javascript
-const aoijs = require("aoi.js")
+const aoijs = require("aoi.js");
+
 const bot = new aoijs.AoiClient({
-token: "Discord Bot Token",
-prefix: "Discord Bot Prefix",
-intents: ["MessageContent", "Guilds", "GuildMessages"]
+  token: "Discord Bot Token",
+  prefix: "Discord Bot Prefix",
+  intents: ["MessageContent", "Guilds", "GuildMessages"],
+  events: ["onMessage"]
 });
 
-//Events
-bot.onMessage();
-
-//Command Example (ping)
+// Ping Command Example
 bot.command({
-name: "ping",
-code: `Pong! $pingms`
+  name: "ping",
+  code: `Pong! $pingms`
 });
 ```
     
@@ -68,4 +67,3 @@ Aoi.js is not affiliated or associated with Discord or any other services.
 - [NPM](https://www.npmjs.com/package/aoi.js)
 - [Github](https://github.com/AkaruiDevelopment/aoi.js)
 - [Discord Support Server](https://discord.gg/HMUfMXDQsV)
-- [Documentation](https://aoi.js.org/docs/)

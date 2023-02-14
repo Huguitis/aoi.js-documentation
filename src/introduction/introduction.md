@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: The beginning process of how to use aoi.js
+description: The beginning process of how to use aoi.js and all its features.
 coverY: -4.149292149292149
 slug: /
 ---
@@ -56,13 +56,11 @@ yarn add aoi.js
 const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
-  token: "Discord Bot Token",
-  prefix: "Discord Bot Prefix",
-  intents: ["MessageContent", "Guilds", "GuildMessages"]
+  token: "DISCORD BOT TOKEN",
+  prefix: "DISCORD BOT PREFIX",
+  intents: ["MessageContent", "Guilds", "GuildMessages"],
+  events: ["onMessage", "onInteractionCreate"]
 });
-
-// Events, required for the bot to read and send messages.
-bot.onMessage();
 
 // Ping Command Example
 bot.command({
@@ -77,17 +75,16 @@ $createApplicationCommand[$guildID;ping;Pong!;true;slash]
 bot.interactionCommand({
   name: "ping",
   prototype: "slash",
-  code: `$interactionReply[Pong! $pingms;;;;everyone]`
+  code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
 });
 ```
     
 ## Disclaimer
     
-**[aoi.js](https://www.npmjs.com/package/aoi.js)** is not affiliated or associated with Discord or any other services.
+**[Aoi.js](https://www.npmjs.com/package/aoi.js)** is not affiliated or associated with Discord or any other services.
     
 ## Links
 - [Website](https://aoi.js.org)
 - [NPM](https://www.npmjs.com/package/aoi.js)
 - [Github](https://github.com/AkaruiDevelopment/aoi.js)
 - [Discord Support Server](https://discord.gg/HMUfMXDQsV)
-- [Documentation](https://aoi.js.org/docs/)

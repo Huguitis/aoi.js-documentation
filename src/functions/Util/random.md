@@ -44,7 +44,7 @@ This will return a random decimal number between `25` and `50`:
 bot.command({
   name: 'random',
   code: `
-  $random[25;50;yes]  
+  $random[25;50;true]  
   `
 });
 ```
@@ -55,8 +55,8 @@ This will return a random integer between `20` and `250` and the second `$random
 bot.command({
   name: 'random',
   code: `
-  $random[45;65;no;yes]
-  $random[45;65;no;yes]
+  $random[45;65;false;true]
+  $random[45;65;false;true]
   `
 });
 ```

@@ -16,7 +16,7 @@ $channelID[name?]
 
 
 | Field | Type    | Description                                            | Required |
-| ----- | ------- | ------------------------------------------------------ | :------: |
+| ----- | ------- | ------------------------------------------------------ |:--------:|
 | name? | integer | channel name of the channel you want the channel ID of |    no    |
 
 

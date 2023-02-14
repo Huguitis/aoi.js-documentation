@@ -15,11 +15,11 @@ $attachment[attachment;name;type?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| attachment    | string  | attachment                             | yes      |
-| name    | string  | attachment name                            | yes      |
-| type?    | string  | attachment type <br /> 1. **url** (default)                            | no      |
+| Field      | Type   | Description                                 | Required |
+| ---------- | ------ | ------------------------------------------- |:--------:|
+| attachment | string | attachment                                  |    yes   |
+| name       | string | attachment name                             |    yes   |
+| type?      | string | attachment type <br /> 1. **url** (default) |    no    |
 
 
 ## Example

@@ -15,10 +15,10 @@ $color[index?;hex]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| index?    | integer  | embed index                             | yes      |
-| hex    | string  | hex color                             | no      |
+| Field  | Type    | Description | Required |
+| ------ | ------- | ----------- |:--------:|
+| index? | integer | embed index |    yes   |
+| hex    | string  | hex color   |    no    |
 
 <details>
   <summary><h3> Embed Colors </h3></summary>

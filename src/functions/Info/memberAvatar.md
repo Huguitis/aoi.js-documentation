@@ -20,7 +20,7 @@ $memberAvatar[guildID?;userID?;size?;dynamic?;format?]
 | guildID? | integer | the ID of the guild                                    |    no    |
 | userID?  | integer | the ID of the member                                   |    no    |
 | size?    | integer | the size of the image                                  |    no    |
-| dynamic? | string  | dynamic image <br /> 1. **yes** (default) <br /> 2. **no** |    no    |
+| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |    no    |
 | format?  | string  |                                                        |    no    |
 
 
@@ -32,7 +32,7 @@ This will return your profile picture:
 bot.command({
   name: 'memberAvatar',
   code: `
-  $memberAvatar[$guildID;$authorID;2048;yes;webp]
+  $memberAvatar[$guildID;$authorID;2048;true;webp]
   `
 });
 ```

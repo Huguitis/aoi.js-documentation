@@ -1,7 +1,7 @@
 ---
 title: $channelType 
 description: $channelType will return the given channel's type.
-id: channelTopic
+id: channelType
 ---
 
 `$channelType` will return the given channel's type.
@@ -16,7 +16,7 @@ $channelType[channelID?]
 
 
 | Field      | Type    | Description                                            | Required |
-| ---------- | ------- | ------------------------------------------------------ | :------: |
+| ---------- | ------- | ------------------------------------------------------ |:--------:|
 | channelID? | integer | channel ID of the channel you want the channel type of |    no    |
 
 

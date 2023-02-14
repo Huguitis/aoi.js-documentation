@@ -29,7 +29,7 @@ This will return the ID of the **first** mention if you attempt to mention someo
 bot.command({
   name: 'mentioned',
   code: `
-  $mentioned[1;yes]
+  $mentioned[1;true]
   `
 });
 ```

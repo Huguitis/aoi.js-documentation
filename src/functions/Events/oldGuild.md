@@ -15,6 +15,6 @@ $oldGuild[option]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | option <br /> 1. **name**                            | yes      |
+| Field  | Type   | Description               | Required |
+| ------ | ------ | ------------------------- |:--------:|
+| option | string | option <br /> 1. **name** |    yes   |

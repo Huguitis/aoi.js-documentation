@@ -15,19 +15,19 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| index       | integer  | in which row the button appears                    | yes      |
-| customID       | string  | button custom ID                                          | yes      |
-| placeHolder       | string  | select menu placeholder text                | yes      |
-| minValues       | integer  | select menu min value                                             | yes      |
-| maxValues       | integer  | select menu max value                                          | yes      |
-| disabled       | string  | disabled? <br /> 1. **yes** <br /> 2. **no** (default)                                          | yes      |
-| options       | string  | options                                          | yes      |
+| Field       | Type    | Description                                                | Required |
+| ----------- | ------- | ---------------------------------------------------------- |:--------:|
+| index       | integer | in which row the button appears                            |    yes   |
+| customID    | string  | custom ID                                                  |    yes   |
+| placeHolder | string  | select menu placeholder text                               |    yes   |
+| minValues   | integer | select menu min value                                      |    yes   |
+| maxValues   | integer | select menu max value                                      |    yes   |
+| disabled    | string  | disabled? <br /> 1. **true** <br /> 2. **false** (default) |    yes   |
+| options     | string  | options                                                    |    yes   |
 
 
 
-## Example
+## Example(s)
 
 This adds a primary and link button to the bot's message:
 
@@ -37,29 +37,61 @@ bot.command({
   code:`
   Select an option.
   
-  $addSelectMenu[1;helpCustomID;This placeholder won't show up cause we have selected default field as yes;1;1;no;A Option:Description of A option:helpValue0:no:👋;B Option::helpValue1:yes]
+  $addSelectMenu[1;yourCustomID;This is a placeholder!;1;1;false;A Option:Description of option B:anotherCustomID:false;B Option:Description of option B:andAnotherCustomID:true]
   `
 });
 
 bot.interactionCommand({
-  name: "helpCustomID",
+  name: "yourCustomID",
   prototype: "selectMenu", 
   code: `
-  $interactionUpdate[A option's response.;;{actionRow:{selectMenu:helpCustomID:Menu has been disabled:1:1:yes:{selectMenuOptions:This won't show up:helpValue0:Either this.:false}{selectMenuOptions:This won't show up either.:helpValue1:cause menu disabled.:false}}}]
-
-  $onlyIf[$interactionData[values[0]]==0;]
+  $interactionReply[Hello! :);;;;everyone;false]
+  $onlyIf[$interactionData[values[0]]==anotherCustomID;]
   `
 });
 
 bot.interactionCommand({
-  name: "helpCustomID",
+  name: "yourCustomID",
   prototype: "selectMenu", 
   code: `
-  $interactionUpdate[B option's response.;;{actionRow:{selectMenu:helpCustomID:Menu has been disabled:1:1:yes:{selectMenuOptions:This won't show up:helpValue0:Either this.:false}{selectMenuOptions:This won't show up either.:helpValue1:cause menu disabled.:false}}}]
-
-  $onlyIf[$interactionData[values[0]]==1;]
+  $interactionReply[Hello! :);;;;everyone;false]
+  $onlyIf[$interactionData[values[0]]==andAnotherCustomID;]
   `
 });
+
+
+
+/* 
+We use "$onlyIf[$interactionData[values[0]]==customID;]" to make sure this only will be triggered for the according select menu option.
+
+Also ensure that you have the "onMessage" event in your main file (index.js in most cases).
+*/
+```
+
+Handler Example
+
+```js
+module.exports = [{
+    name: "add-select-menu",
+    code: `
+     Select an option.
+     $addSelectMenu[1;yourCustomID;This is a placeholder!;1;1;false;A Option:Description of option B:anotherCustomID:false;B Option:Description of option B:andAnotherCustomID:true]
+  `
+}, {
+    name: "yourCustomID",
+    type: "interaction", // clarifying that this command is an Interaction
+    prototype: "selectMenu",
+    code: `
+     $interactionReply[Hello! :);;;;everyone;false]
+     $onlyIf[$interactionData[values[0]]==anotherCustomID;]`
+}, {
+    name: "yourCustomID",
+    type: "interaction", // clarifying that this command is an Interaction
+    prototype: "selectMenu", 
+    code: `
+     $interactionReply[Bye! :(;;;;everyone;false]
+     $onlyIf[$interactionData[values[0]]==andAnotherCustomID;]`
+}]
 ```
 
 [dp]: https://discord.com/developers/docs/interactions/message-components#button-object-button-styles

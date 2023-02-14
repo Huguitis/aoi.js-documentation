@@ -15,10 +15,10 @@ $deleteSticker[guildID;sticker]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| guildID    | integer  | guild ID                             | yes      |
-| sticker    | string  | name of the sticker                             | yes      |
+| Field   | Type    | Description         | Required |
+| ------- | ------- | ------------------- |:--------:|
+| guildID | integer | guild ID            |    yes   |
+| sticker | string  | name of the sticker |    yes   |
 
 
 ## Example
@@ -29,7 +29,7 @@ This will delete a sticker of your guild ( make sure to provide an actual sticke
 bot.command({
   name: 'deleteSticker',
   code: `
-  $deleteSticker[$guildID;stickerName]
+  $deleteSticker[$guildID;sticker]
   `
 });
 ```

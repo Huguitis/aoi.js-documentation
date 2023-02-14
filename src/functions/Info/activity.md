@@ -1,24 +1,24 @@
 ---
 title: $activity 
-description: $activity will return a user activity.
+description: $activity will return a user's activity.
 id: activity
 ---
 
-`$activity` will return a user current activity.
+`$activity` will return a user's current activity.
 
 ## Usage
 
 ```php
-$activity[guildID;id?]
+$activity[guildID?;userID?]
 ```
 
 ## Parameters 
 
 
-| Field  | Type    | Description | Required |
-| ------ | ------- | ----------- | -------- |
-| guildID? | integer | guild id    | yes       |
-| id?    | integer | user id     | no      |
+| Field    | Type    | Description | Required |
+| -------- | ------- | ----------- | -------- |
+| guildID? | integer | guild id    | no       |
+| userID?  | integer | user id     | no       |
 
 
 ## Example

@@ -15,22 +15,20 @@ npm install aoi.js
 ## Example
 
 ```javascript
-const aoijs = require("aoi.js")
+const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
-token: "Discord Bot Token",
-prefix: "Discord Bot Prefix",
-intents: ["MessageContent", "Guilds", "GuildMessages"]
-})
-
-//Events
-bot.onMessage()
+  token: "Discord Bot Token",
+  prefix: "Discord Bot Prefix",
+  intents: ["MessageContent", "Guilds", "GuildMessages"],
+  events: ["onMessage", "onInteractionCreate"]
+});
 
 //Command Example (ping)
 bot.command({
-name: "ping",
-code: `Pong! $pingms`
-})
+  name: "ping",
+  code: `Pong! $pingms`
+});
 
 //Slash Interaction Command Example (ping)
 /*MUST EXECUTE FUNCTION FOR IT TO WORK
@@ -39,6 +37,6 @@ $createApplicationCommand[$guildID;ping;Pong!;true;slash]
 bot.interactionCommand({
   name: "ping",
   prototype: 'slash',
-  code: `$interactionReply[Pong! $pingms]`
-})
+  code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
+});
 ```

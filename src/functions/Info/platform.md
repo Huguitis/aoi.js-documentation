@@ -15,11 +15,11 @@ $platform[userID?;guildID?;sep?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------|----------|
-| userID?      | integer  | ID of the user                             | no      |
-| guildID?     | integer  | the guild ID          | no       |
-| sep?        | string  | the seperator to split multiple arguments                   | no      |
+| Field    | Type    | Description                               | Required |
+| -------- | ------- | ----------------------------------------- | -------- |
+| userID?  | integer | ID of the user                            | no       |
+| guildID? | integer | the guild ID                              | no       |
+| sep?     | string  | the seperator to split multiple arguments | no       |
 
 
 ## Example

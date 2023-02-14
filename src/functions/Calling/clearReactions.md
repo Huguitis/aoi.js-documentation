@@ -15,11 +15,11 @@ $clearReactions[channelID;messageID;emoji]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| channelID    | integer  | channel ID                             | yes      |
-| messageID    | integer  | message ID                             | yes      |
-| emoji    | string  | emoji to remove <br /> 1. **all** (default) <br /> 2. **emoji** - any emoji                          | yes      |
+| Field     | Type    | Description                                                                 | Required |
+| --------- | ------- | --------------------------------------------------------------------------- |:--------:|
+| channelID | integer | channel ID                                                                  |    yes   |
+| messageID | integer | message ID                                                                  |    yes   |
+| emoji     | string  | emoji to remove <br /> 1. **all** (default) <br /> 2. **emoji** - any emoji |    yes   |
 
 
 ## Example

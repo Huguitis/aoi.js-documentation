@@ -1,10 +1,10 @@
 ---
 title: $interactionDefer 
-description: $interactionDefer delays messages for the last 15 minutes, which works well for $interactionFollowUp functions.
+description: $interactionDefer defers an Interaction of the last 15 minutes.
 id: interactionDefer
 ---
 
-`$interactionDefer` delays messages for the last 15 minutes, which works well for $interactionFollowUp functions.
+`$interactionDefer` defers an Interaction of the last 15 minutes.
 
 ## Usage
 
@@ -15,6 +15,6 @@ $interactionDefer[ephemeral]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| ephemeral    | integer  | visible to the command author only? yes/no                             | yes      |
+| Field     | Type    | Description                                    | Required |
+| --------- | ------- | ---------------------------------------------- |:--------:|
+| ephemeral | integer | visible to the command author only? true/false |    yes   |

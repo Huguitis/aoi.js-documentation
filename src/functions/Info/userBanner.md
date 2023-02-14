@@ -15,12 +15,12 @@ $userBanner[userID?;size?;dynamic?;format?]
 ## Parameters 
 
 
-| Field    | Type    | Description                                            | Required |
-| -------- | ------- | ------------------------------------------------------ | :------: |
-| userID?  | integer | the ID of the user                                     |    no    |
-| size?    | integer | the size of the image                                  |    no    |
-| dynamic? | string  | dynamic image <br /> 1. **yes** (default) <br /> 2. **no** |    no    |
-| format?  | string  |                                                        |    no    |
+| Field    | Type    | Description                                                    | Required |
+| -------- | ------- | -------------------------------------------------------------- |:--------:|
+| userID?  | integer | the ID of the user                                             |    no    |
+| size?    | integer | the size of the image                                          |    no    |
+| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |    no    |
+| format?  | string  |                                                                |    no    |
 
 
 ## Example
@@ -31,7 +31,7 @@ This will return your profile banner:
 bot.command({
   name: 'userBanner',
   code: `
-  $userBanner[$authorID;4096;yes;webp]
+  $userBanner[$authorID;4096;true;webp]
   `
 });
 ```

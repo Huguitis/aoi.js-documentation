@@ -15,10 +15,10 @@ $addObjectProperty[name;value]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| name    | string  | name of the propery                             | yes      |
-| value     | string  | value of the property          | yes       |
+| Field | Type   | Description           | Required |
+| ----- | ------ | --------------------- |:--------:|
+| name  | string | name of the propery   |    yes   |
+| value | string | value of the property |    yes   |
 
 
 ## Example

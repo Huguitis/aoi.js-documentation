@@ -15,12 +15,12 @@ $clear[amount;filter?;returnCount?;channelID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| amount    | integer  | amount of messages to clear  | yes      |
-| filter?    | string  | filter the messages which are to delete <br /> 1. **everyone** (default) <br /> 2. **unPins** <br /> 3. **bot** <br /> 4.**userID**   | no      |
-| returnCount?    | string  | return the count of deleted messages <br /> 1. **no** (default) <br /> 2. **yes**                             | no      |
-| channelID?    | integer  | channel ID                             | no      |
+| Field        | Type    | Description                                                                                                                         | Required |
+| ------------ | ------- | ----------------------------------------------------------------------------------------------------------------------------------- |:--------:|
+| amount       | integer | amount of messages to clear                                                                                                         |    yes   |
+| filter?      | string  | filter the messages which are to delete <br /> 1. **everyone** (default) <br /> 2. **unPins** <br /> 3. **bot** <br /> 4.**userID** |    no    |
+| returnCount? | string  | return the count of deleted messages <br /> 1. **false** (default) <br /> 2. **true**                                               |    no    |
+| channelID?   | integer | channel ID                                                                                                                          |    no    |
 
 
 ## Example
@@ -31,7 +31,7 @@ This will delete the most recent fifty messages which are not pinned:
 bot.command({
   name: 'clear',
   code: `
-  $clear[50;unPins;no;$channelID]
+  $clear[50;unPins;false;$channelID]
   `
 });
 ```

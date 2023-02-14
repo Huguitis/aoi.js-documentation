@@ -15,6 +15,6 @@ $newApplicationCmd[name]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| name    | string  | application command name                             | yes      |
+| Field | Type   | Description              | Required |
+| ----- | ------ | ------------------------ |:--------:|
+| name  | string | application command name |    yes   |

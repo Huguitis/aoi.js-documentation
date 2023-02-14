@@ -1,0 +1,34 @@
+---
+title: $guildNames 
+description: $guildNames will return the guide names your bot is in.
+id: guildNames
+---
+
+`$guildNames` will return the guide names your bot is in.
+
+## Usage
+
+```php
+$guildNames[sep?]
+```
+
+## Parameters 
+
+
+| Field | Type   | Description                              | Required |
+| ----- | ------ | ---------------------------------------- |:--------:|
+| sep?  | string | seperator to seperate multiple arguments |    no    |
+
+
+## Example
+
+This will return the names of the guilds your bot is in and seperate it by a comma:
+
+```javascript
+bot.command({
+  name: 'guildNames',
+  code: `
+  $guildNames[, ]
+  `
+});
+```

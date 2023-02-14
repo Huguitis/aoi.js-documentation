@@ -13,7 +13,7 @@ id: clientToken
 $clientToken
 ```
 
-> #### ⚠ You should never give your Discord Bot Token to anyone.
+> ** ⚠ You should never share your Discord Bot Token with anyone.**
 
 ## Example
 

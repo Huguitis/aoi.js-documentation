@@ -15,11 +15,11 @@ $rolePerms[roleID;sep?;guildID?]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| roleID    | integer  | role ID                             | yes      |
-| sep?    | integer  | seperator to seperate multiple arguments                             | no      |
-| guildID?    | integer  | guild ID                             | no      |
+| Field    | Type    | Description                              | Required |
+| -------- | ------- | ---------------------------------------- |:--------:|
+| roleID   | integer | role ID                                  |    yes   |
+| sep?     | integer | seperator to seperate multiple arguments |    no    |
+| guildID? | integer | guild ID                                 |    no    |
 
 
 ## Example

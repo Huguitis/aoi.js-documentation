@@ -24,10 +24,10 @@ In this step we'll take a look at your main file also known as `index.js`. We ad
 const bot = new aoijs.AoiClient({
   token: "DISCORD BOT TOKEN",
   prefix: "DISCORD BOT PREFIX",
-  intents: ["Guilds", "GuildMessages", "MessageContent"]
+  intents: ["Guilds", "GuildMessages", "MessageContent"],
+  events: ["onMessage", "onInteractionCreate"]
 });
 
-bot.onMessage(); //required for your bot to detect prefix commands
 
 const loader = new aoijs.LoadCommands(bot)
 loader.load(bot.cmd,"./commands/") //you can change this to any directory you want
@@ -41,12 +41,6 @@ Once you're done with your main file, we'll move on onto files, in order for thi
 1. Create directories and sub-directories where your commands go.
 2. And create a file to test out if everything worked well.
 
-#### Creating directory
-
-Your created directory should look like that:
-
-![commands][directory-setup-preview-1]
-
 
 #### Creating sub directories
 
@@ -57,8 +51,6 @@ If you want to have your commands and files more organised then use sub director
 
 You can create as many files as you want in your directories as long as they have `.js` at the end of their file name it'll work without issues. For now, create a file called `help.js`.
 
-![example][directory-create-file-3]
-
 ## Final Steps
 
 ### Change of creating commands
@@ -67,6 +59,7 @@ From now on you have to use:
 
 ```javascript
 module.exports = [{...}]
+module.exports = ({...})
 ```
 
 Open your `help.js` and copy & paste the following code snippet: 
@@ -107,7 +100,7 @@ $description[Welcome to this server <@$authorID>!]`
 }]
 ```
 
-Make sure you have the required intents and `bot.onJoin();` in your `index.js` or else this won't work!  
+Make sure you have the required intents and `onJoin` in the `events` property in your `index.js` or else this won't work!  
 > **Required intents: `GuildMembers`**
 
 ### Updating your commands without restart!

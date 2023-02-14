@@ -15,9 +15,9 @@ $addCmdReactions[...reactions]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| reactions       | string  | reactions to add                             | yes      |
+| Field     | Type   | Description      | Required |
+| --------- | ------ | ---------------- |:--------:|
+| reactions | string | reactions to add |    yes   |
 
 ## Example
 

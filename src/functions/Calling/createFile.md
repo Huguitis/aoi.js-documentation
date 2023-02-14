@@ -15,10 +15,10 @@ $createFile[attachment;name]
 ## Parameters 
 
 
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| attachment    | string  | content of the file                 | yes      |
-| name    | string  | name of the file                             | yes      |
+| Field      | Type   | Description         | Required |
+| ---------- | ------ | ------------------- |:--------:|
+| attachment | string | content of the file |    yes   |
+| name       | string | name of the file    |    yes   |
 
 
 ## Example
