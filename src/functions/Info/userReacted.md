@@ -17,10 +17,10 @@ $userReacted[channelID;messageID;userID;emoji]
 
 | Field     | Type    | Description        | Required |
 | --------- | ------- | ------------------ |:--------:|
-| guildID   | integer | guild ID           |    yes   |
-| messageID | integer | message ID         |    yes   |
-| userID    | integer | user ID            |    yes   |
-| emoji     | string  | emoji to check for |    yes   |
+| guildID   | integer | guild ID           |    true   |
+| messageID | integer | message ID         |    true   |
+| userID    | integer | user ID            |    true   |
+| emoji     | string  | emoji to check for |    true   |
 
 
 ## Example

@@ -20,7 +20,7 @@ $replaceText[text;replacer;replaceTo;times?]
 | text      | string | text you want to modify                        | yes      |
 | replacer  | string | the text that will be replaced                 | yes      |
 | replaceTo | string | the text that will replace `replacer`          | yes      |
-| times?    | number | how many times `replaceTo` replaces `replacer` | no       |
+| times?    | number | how many times `replaceTo` replaces `replacer` | false       |
 
 ## Examples
 

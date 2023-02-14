@@ -17,10 +17,10 @@ $usersWithRole[roleID;guildID?;option?;sep?]
 
 | Field    | Type    | Description                                                              | Required |
 | -------- | ------- | ------------------------------------------------------------------------ |:--------:|
-| roleID   | integer | role ID                                                                  |    yes   |
-| guildID? | integer | guild ID                                                                 |    no    |
-| option?  | string  | how to return the users <br /> 1. **id** (default) <br /> 2. **mention** |    no    |
-| sep?     | string  | seperator to seperate multiple arguments                                 |    no    |
+| roleID   | integer | role ID                                                                  |    true   |
+| guildID? | integer | guild ID                                                                 |    false    |
+| option?  | string  | how to return the users <br /> 1. **id** (default) <br /> 2. **mention** |    false    |
+| sep?     | string  | seperator to seperate multiple arguments                                 |    false    |
 
 
 ## Example

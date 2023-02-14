@@ -17,7 +17,7 @@ $findSpecialChars[text]
 
 | Field | Type   | Description                                    | Required |
 | ----- | ------ | ---------------------------------------------- | -------- |
-| text  | string | text where you want to find special characters | yes      |
+| text  | string | text where you want to find special characters | true      |
 
 
 ## Example

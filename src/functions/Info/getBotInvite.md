@@ -17,7 +17,7 @@ $getBotInvite[...perms?]
 
 | Field  | Type   | Description                                       | Required |
 | ------ | ------ | ------------------------------------------------- | -------- |
-| perms? | string | permissions you want to be included in the invite | no       |
+| perms? | string | permissions you want to be included in the invite | false       |
 
 
 <details>

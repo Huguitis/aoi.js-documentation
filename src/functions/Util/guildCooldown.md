@@ -17,8 +17,8 @@ $guildCooldown[time;errorMessage?]
 
 | Field         | Type   | Description                                                | Required |
 | ------------- | ------ | ---------------------------------------------------------- | -------- |
-| time          | number | the duration of the cooldown                               | yes      |
-| errorMessage? | string | error message when there's remaining time for the cooldown | no       |
+| time          | number | the duration of the cooldown                               | true      |
+| errorMessage? | string | error message when there's remaining time for the cooldown | false       |
 
 ## Example
 

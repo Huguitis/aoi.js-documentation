@@ -17,7 +17,7 @@ $isUnicodeEmoji[emoji]
 
 | Field | Type   | Description   | Required |
 | ----- | ------ | ------------- | -------- |
-| emoji | string | unicode emoji | yes      |
+| emoji | string | unicode emoji | true      |
 
 
 ## Example

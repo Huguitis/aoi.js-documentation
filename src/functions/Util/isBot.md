@@ -16,7 +16,7 @@ $isBot[userID?]
 
 | Field   | Type    | Description                       | Required |
 | ------- | ------- | --------------------------------- | -------- |
-| userID? | integer | user id to check if they're a bot | no       |
+| userID? | integer | user id to check if they're a bot | false       |
 
 
 ## Example

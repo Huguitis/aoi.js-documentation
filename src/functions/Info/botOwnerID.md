@@ -17,7 +17,7 @@ $botOwnerID[seperator?]
 
 | Field      | Type    | Description                                 | Required |
 | ---------- | ------- | ------------------------------------------- |:--------:|
-| seperator? | string | seperator to split user ids (default: `, `) |    no    |
+| seperator? | string | seperator to split user ids (default: `, `) |    false    |
 
 
 ## Example

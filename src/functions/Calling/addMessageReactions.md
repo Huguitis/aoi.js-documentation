@@ -17,9 +17,9 @@ $addMessageReactions[channelID;messageID;...reactions]
 
 | Field     | Type    | Description | Required |
 | --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    yes   |
-| messageID | integer | message ID  |    yes   |
-| reactions | string  | reactions   |    yes   |
+| channelID | integer | channel ID  |    true   |
+| messageID | integer | message ID  |    true   |
+| reactions | string  | reactions   |    true   |
 
 
 ## Example

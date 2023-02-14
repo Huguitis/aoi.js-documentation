@@ -17,9 +17,9 @@ $addField[fieldTitle;fieldDescription;inline?]
 
 | Field             | Type   | Description | Required |
 | ----------------- | ------ | ----------- |:--------:|
-| fieldTitle?       | string | title       |    yes   |
-| fieldDescription? | string | description |    yes   |
-| inline?           | string | inline      |    no    |
+| fieldTitle?       | string | title       |    true   |
+| fieldDescription? | string | description |    true   |
+| inline?           | string | inline      |    false    |
 
 ## Example
 

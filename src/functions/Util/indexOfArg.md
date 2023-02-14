@@ -17,8 +17,8 @@ $indexOfArg[string;query]
 
 | Field  | Type   | Description                                    | Required |
 | ------ | ------ | ---------------------------------------------- | -------- |
-| string | string | the text the bot will be checking the index of | yes      |
-| query  | string | the query the bot will be checking for         | yes      |
+| string | string | the text the bot will be checking the index of | true      |
+| query  | string | the query the bot will be checking for         | true      |
 
 
 ## Example

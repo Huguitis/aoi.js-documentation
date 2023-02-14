@@ -17,10 +17,10 @@ $userRoles[userID?;guildID?;option?;sep?]
 
 | Field    | Type    | Description                                                                                  | Required |
 | -------- | ------- | -------------------------------------------------------------------------------------------- |:--------:|
-| userID?  | integer | user ID                                                                                      |    no    |
-| guildID? | integer | guild ID                                                                                     |    no    |
-| option?  | string  | how to returnt the roles <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |    no    |
-| sep?     | string  | seperator to seperate multiple arguments                                                     |    no    |
+| userID?  | integer | user ID                                                                                      |    false    |
+| guildID? | integer | guild ID                                                                                     |    false    |
+| option?  | string  | how to returnt the roles <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |    false    |
+| sep?     | string  | seperator to seperate multiple arguments                                                     |    false    |
 
 
 ## Example

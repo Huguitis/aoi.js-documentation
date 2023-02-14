@@ -17,7 +17,7 @@ $disableMentionType[type]
 
 | Field | Type   | Description                         | Required |
 | ----- | ------ | ----------------------------------- | -------- |
-| type  | string | type of mention you want to disable | yes      |
+| type  | string | type of mention you want to disable | true      |
 
 
 <details>

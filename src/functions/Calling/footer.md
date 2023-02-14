@@ -17,9 +17,9 @@ $footer[index?;text;iconURL?]
 
 | Field    | Type   | Description                     | Required |
 | -------- | ------ | ------------------------------- |:--------:|
-| index?   | number | embed index/position            |    no    |
-| text     | string | content of the footer           |    yes   |
-| iconURL? | string | footer Icon (bottom left image) |    no    |
+| index?   | number | embed index/position            |    false    |
+| text     | string | content of the footer           |    true   |
+| iconURL? | string | footer Icon (bottom left image) |    false    |
 
 ## Example
 

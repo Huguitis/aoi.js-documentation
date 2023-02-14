@@ -17,4 +17,4 @@ $rateLimit[option]
 
 | Field  | Type   | Description               | Required |
 | ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> (x) => x == |    yes   |
+| option | string | option <br /> (x) => x == |    true   |

@@ -24,7 +24,7 @@ id: interactioncommands
 
 Slash Commands are the new and exciting way to create and interact with applications on Discord. With Slash Commands, all you need to do is type `/` and you'll be able to use your favourite bot. 
 
-Users can easily learn what your bot can do, and discover new features as they are added. Validation, error states, and user-friendly interface guides them through your commands, so they can get it right the first time, especially on mobile. Slash Commands set your users up for success instead of confusion and frustration. They separate how users think and how your code works, meaning no matter how complex your codebase and commands may become, people who love your bot will find it easy to use and accessible.
+Users can easily learn what your bot can do, and discover new features as they are added. Validation, error states, and user-friendly interface guides them through your commands, so they can get it right the first time, especially on mobile. Slash Commands set your users up for success instead of confusion and frustration. They separate how users think and how your code works, meaning false matter how complex your codebase and commands may become, people who love your bot will find it easy to use and accessible.
 
 ![slash](https://cdn.discordapp.com/attachments/1061712111052521493/1062518328268169306/image_4.png)
 
@@ -245,7 +245,7 @@ bot.command({
     "value" : "You selected the second option, therefore I\'m responding with this!"
   }]]
   $else
-  $interactionReply[$slashOption[option] - autocomplete #SEMI# $slashOption[anotheroption] - no autocomplete;;;;everyone]
+  $interactionReply[$slashOption[option] - autocomplete #SEMI# $slashOption[anotheroption] - false autocomplete;;;;everyone]
   $endif
   `
 });
@@ -270,7 +270,7 @@ bot.command({
 
 ## Interaction Functions
 * **[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Events/createApplicationCommand.md)**
-* **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/no)]](../functions/Events/interactionReply.md)**
+* **[$interactionReply[message;embeds?;components?;files?;ephemeral(yes/false)]](../functions/Events/interactionReply.md)**
 * **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
 * **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
 * **[$interactionDelete](../functions/Events/interactionDelete.md)**

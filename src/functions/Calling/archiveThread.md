@@ -17,10 +17,10 @@ $archiveThread[threadID;channelID?;archive?;reason?]
 
 | Field      | Type    | Description                     | Required |
 | ---------- | ------- | ------------------------------- |:--------:|
-| threadID   | integer | thread ID                       |    yes   |
-| channelID? | integer | channel ID                      |    no    |
-| archive?   | integer | archive thread?                 |    no    |
-| reason?    | string  | reason to display in audit logs |    no    |
+| threadID   | integer | thread ID                       |    true   |
+| channelID? | integer | channel ID                      |    false    |
+| archive?   | integer | archive thread?                 |    false    |
+| reason?    | string  | reason to display in audit logs |    false    |
 
 
 ## Example

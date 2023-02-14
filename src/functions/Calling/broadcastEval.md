@@ -17,7 +17,7 @@ $broadcastEval[func]
 
 | Field | Type   | Description              | Required |
 | ----- | ------ | ------------------------ |:--------:|
-| func  | string | function or code to eval |    yes   |
+| func  | string | function or code to eval |    true   |
 
 
 ## Example

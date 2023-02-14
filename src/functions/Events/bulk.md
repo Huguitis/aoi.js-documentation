@@ -17,4 +17,4 @@ $bulk[option]
 
 | Field   | Type   | Description | Required |
 | ------- | ------ | ----------- |:--------:|
-| option? | string |             |    yes   |
+| option? | string |             |    true   |

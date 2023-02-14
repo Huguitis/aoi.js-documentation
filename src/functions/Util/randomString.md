@@ -18,7 +18,7 @@ $randomString[range;diffExec?]
 | Field     | Type   | Description                          | Required |
 | --------- | ------ | ------------------------------------ | -------- |
 | range     | number | range of the random generated string | yes      |
-| diffExec? | string |                                      | no       |
+| diffExec? | string |                                      | false       |
 
 
 ## Example

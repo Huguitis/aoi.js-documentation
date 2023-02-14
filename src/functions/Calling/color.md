@@ -17,8 +17,8 @@ $color[index?;hex]
 
 | Field  | Type    | Description | Required |
 | ------ | ------- | ----------- |:--------:|
-| index? | integer | embed index |    yes   |
-| hex    | string  | hex color   |    no    |
+| index? | integer | embed index |    true   |
+| hex    | string  | hex color   |    false    |
 
 <details>
   <summary><h3> Embed Colors </h3></summary>

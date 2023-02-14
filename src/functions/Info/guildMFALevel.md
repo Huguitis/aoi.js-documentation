@@ -17,11 +17,11 @@ $guildMFALevel[guildID?]
 
 | Field    | Type    | Description | Required |
 | -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    no    |
+| guildID? | integer | guild ID    |    false    |
 
 | Type |                                                         |
 | ---- | ------------------------------------------------------- |
-| 0    | guild has no MFA/2FA requirement for moderation actions |
+| 0    | guild has false MFA/2FA requirement for moderation actions |
 | 1    | guild has a 2FA requirement for moderation actions      |
 
 ## Example

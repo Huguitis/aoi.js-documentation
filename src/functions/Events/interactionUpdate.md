@@ -17,10 +17,10 @@ $interactionUpdate[content?;embeds?;components?;files?]
 
 | Field       | Type   | Description     | Required |
 | ----------- | ------ | --------------- |:--------:|
-| content?    | string | message content |    no    |
-| embeds?     | string | embed           |    no    |
-| components? | string | components      |    no    |
-| files?      | string | files           |    no    |
+| content?    | string | message content |    false    |
+| embeds?     | string | embed           |    false    |
+| components? | string | components      |    false    |
+| files?      | string | files           |    false    |
 
 
 ## Example

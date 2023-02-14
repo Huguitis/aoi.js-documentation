@@ -17,7 +17,7 @@ $randomUserID[global/guildID?]
 
 | Field           | Type   | Description                                                             | Required |
 | --------------- | ------ | ----------------------------------------------------------------------- | -------- |
-| global/guildID? | string | return a random user out of all guild or out of one specific guild only | no       |
+| global/guildID? | string | return a random user out of all guild or out of one specific guild only | false       |
 
 
 ## Example

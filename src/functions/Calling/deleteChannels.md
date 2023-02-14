@@ -17,7 +17,7 @@ $deleteChannels[...channels]
 
 | Field    | Type    | Description | Required |
 | -------- | ------- | ----------- |:--------:|
-| channels | integer | channel IDs |    yes   |
+| channels | integer | channel IDs |    true   |
 
 
 ## Example

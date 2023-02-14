@@ -17,7 +17,7 @@ $channelCategoryID[channelID?]
 
 | Field      | Type    | Description                                                         | Required |
 | ---------- | ------- | ------------------------------------------------------------------- |:--------:|
-| channelID? | integer | channel ID of a channel of which you want to retrieve its parent of |    no    |
+| channelID? | integer | channel ID of a channel of which you want to retrieve its parent of |    false    |
 
 
 ## Example

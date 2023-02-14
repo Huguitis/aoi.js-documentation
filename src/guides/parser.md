@@ -61,7 +61,7 @@ Your result looks like this if you did everything correct:
 ##### Embed with title, footer, image and field.
 
 ```js 
-{newEmbed:{title:Another Awesome Example!}{image:https\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{field:This is a field title!:And a field description which is not inline!:no}{footer:Example #2}}
+{newEmbed:{title:Another Awesome Example!}{image:https\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{field:This is a field title!:And a field description which is not inline!:false}{footer:Example #2}}
 ``` 
 
 

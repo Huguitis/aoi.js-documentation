@@ -17,7 +17,7 @@ $message[index?]
 
 | Field  | Type    | Description                                                   | Required |
 | ------ | ------- | ------------------------------------------------------------- |:--------:|
-| index? | integer | which message to return, leave empty to return every argument |    no    |
+| index? | integer | which message to return, leave empty to return every argument |    false    |
 
 
 ## Example

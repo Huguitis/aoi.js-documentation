@@ -20,7 +20,7 @@ $replaceTextWithRegex[text;reg;flags;newT]
 | text  | string | text you want to modify          | yes      |
 | reg   | string | the regex that will be replaced  | yes      |
 | flags | string | [flags](#flags)                  | yes      |
-| newT  | string | the text that will replace `reg` | no       |
+| newT  | string | the text that will replace `reg` | false       |
 
 <details open>
   <summary><h2> Flags </h2></summary>

@@ -16,8 +16,8 @@ $fetch[method;query;...query]
 
 | Field  | Type   | Description           | Required |
 | ------ | ------ | --------------------- | -------- |
-| method | string | method (listed below) | yes      |
-| query  | string | input for the method  | yes      |
+| method | string | method (listed below) | true      |
+| query  | string | input for the method  | true      |
 
 
 <details>

@@ -17,9 +17,9 @@ $reactionCount[channelID;messageID;emoji]
 
 | Field     | Type    | Description                                      | Required |
 | --------- | ------- | ------------------------------------------------ |:--------:|
-| channelID | integer | the channel ID                                   |    yes   |
-| messageID | integer | the message ID                                   |    yes   |
-| emoji     | string  | the emoji its reaction count will be returned of |    yes   |
+| channelID | integer | the channel ID                                   |    true   |
+| messageID | integer | the message ID                                   |    true   |
+| emoji     | string  | the emoji its reaction count will be returned of |    true   |
 
 
 ## Example

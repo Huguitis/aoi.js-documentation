@@ -17,8 +17,8 @@ $formatDate[date;format?]
 
 | Field   | Type   | Description                                      | Required |
 | ------- | ------ | ------------------------------------------------ | -------- |
-| date    | number | the date you want to format                      | yes      |
-| format? | string | the format that will be used to display the date | no       |
+| date    | number | the date you want to format                      | true      |
+| format? | string | the format that will be used to display the date | false       |
 
 
 <details open>

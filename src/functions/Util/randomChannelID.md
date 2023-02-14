@@ -17,8 +17,8 @@ $randomChannelID[guildID/global?;type?]
 
 | Field           | Type    | Description               | Required |
 | --------------- | ------- | ------------------------- | -------- |
-| guildID/global? | integer | guild ID or global search | no       |
-| type?           | string  | channel type              | no       |
+| guildID/global? | integer | guild ID or global search | false       |
+| type?           | string  | channel type              | false       |
 
 <details open>
   <summary><h3> Channel Types </h3></summary>

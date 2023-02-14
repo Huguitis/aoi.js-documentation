@@ -17,8 +17,8 @@ $isDeafen[userID?;guildID?]
 
 | Field    | Type    | Description                                              | Required |
 | -------- | ------- | -------------------------------------------------------- | -------- |
-| userID?  | integer | user ID you want to check if they're deafened            | no       |
-| guildID? | integer | the guild ID where you want to check if they're deafened | no       |
+| userID?  | integer | user ID you want to check if they're deafened            | false       |
+| guildID? | integer | the guild ID where you want to check if they're deafened | false       |
 
 
 ## Example

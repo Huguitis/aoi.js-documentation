@@ -17,7 +17,7 @@ $isInteger[number]
 
 | Field  | Type   | Description                                       | Required |
 | ------ | ------ | ------------------------------------------------- | -------- |
-| number | number | number you want to check if its an integer or not | yes      |
+| number | number | number you want to check if its an integer or not | true      |
 
 
 ## Example

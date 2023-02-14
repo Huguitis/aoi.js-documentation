@@ -17,4 +17,4 @@ $interactionDefer[ephemeral]
 
 | Field     | Type    | Description                                    | Required |
 | --------- | ------- | ---------------------------------------------- |:--------:|
-| ephemeral | integer | visible to the command author only? true/false |    yes   |
+| ephemeral | integer | visible to the command author only? true/false |    true   |

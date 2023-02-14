@@ -17,7 +17,7 @@ $divide[...numbers;...numbers]
 
 | Field   | Type   | Description                | Required |
 | ------- | ------ | -------------------------- | -------- |
-| numbers | number | numbers you want to divide | yes      |
+| numbers | number | numbers you want to divide | true      |
 
 
 ## Example

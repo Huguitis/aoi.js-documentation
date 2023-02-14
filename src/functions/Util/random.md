@@ -19,8 +19,8 @@ $random[num1;num2;allow?;random?]
 | ----------------------------- | ------ | ------------------------------------- | -------- |
 | num1                          | number | start of the span                     | yes      |
 | num2                          | number | end of the span                       | yes      |
-| allow?                        | string | allows returning of decimal numbers   | no       |
-| [random?](#advanced-examples) | string | if the returned number will be random | no       |
+| allow?                        | string | allows returning of decimal numbers   | false       |
+| [random?](#advanced-examples) | string | if the returned number will be random | false       |
 
 
 ## Examples

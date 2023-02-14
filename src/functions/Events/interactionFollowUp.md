@@ -18,11 +18,11 @@ $interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]
 
 | Field       | Type   | Description                                                                      | Required |
 | ----------- | ------ | -------------------------------------------------------------------------------- |:--------:|
-| content?    | string | message content                                                                  |    no    |
-| embeds?     | string | embed                                                                            |    no    |
-| components? | string | components                                                                       |    no    |
-| files?      | string | files                                                                            |    no    |
-| ephemeral? | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |    no    |
+| content?    | string | message content                                                                  |    false    |
+| embeds?     | string | embed                                                                            |    false    |
+| components? | string | components                                                                       |    false    |
+| files?      | string | files                                                                            |    false    |
+| ephemeral? | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |    false    |
 
 
 ## Example
@@ -33,7 +33,7 @@ bot.interactionCommand({
   prototype: 'slash',
   code: `
   $interactionFollowUp[Bye, world!]
-  $interactionDefer[yes]
+  $interactionDefer[true]
   `
 });
 ```

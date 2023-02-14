@@ -17,8 +17,8 @@ $memberJoinPosition[userID?;guildID?]
 
 | Field    | Type    | Description          | Required |
 | -------- | ------- | -------------------- |:--------:|
-| userID?  | integer | the ID of the member |    no    |
-| guildID? | integer | the ID of the guild  |    no    |
+| userID?  | integer | the ID of the member |    false    |
+| guildID? | integer | the ID of the guild  |    false    |
 
 
 ## Example

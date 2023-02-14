@@ -15,8 +15,8 @@ $arrayConcat[sep;name]
 
 | Field | Type   | Description       | Required |
 | ----- | ------ | ----------------- |:--------:|
-| sep   | string | seperator         |    yes   |
-| name  | string | name of the array |    yes   |
+| sep   | string | seperator         |    true   |
+| name  | string | name of the array |    true   |
 
 ## Example
 

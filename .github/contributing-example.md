@@ -19,7 +19,7 @@ $function[param1;param2]
 | Field  | Type    | Description     | Required |
 |--------|---------|-----------------|----------|
 | param1 | string  | it shows param1 | yes      |
-| param2 | integer | it shows param2 | no       |
+| param2 | integer | it shows param2 | false       |
 
 ### Parameter Types
 > *Required if the parameter has other options*

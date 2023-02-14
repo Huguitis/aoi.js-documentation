@@ -17,8 +17,8 @@ $deafenUser[userID;deaf?]
 
 | Field  | Type    | Description                                                                | Required |
 | ------ | ------- | -------------------------------------------------------------------------- |:--------:|
-| userID | integer | user ID                                                                    |    yes   |
-| deaf?  | string  | deafen or undeafen a user <br /> 1. **true** (default) <br /> 2. **false** |    no    |
+| userID | integer | user ID                                                                    |    true   |
+| deaf?  | string  | deafen or undeafen a user <br /> 1. **true** (default) <br /> 2. **false** |    false    |
 
 
 ## Example

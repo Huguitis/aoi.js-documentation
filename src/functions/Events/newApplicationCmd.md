@@ -17,4 +17,4 @@ $newApplicationCmd[name]
 
 | Field | Type   | Description              | Required |
 | ----- | ------ | ------------------------ |:--------:|
-| name  | string | application command name |    yes   |
+| name  | string | application command name |    true   |

@@ -17,14 +17,14 @@ $awaitMessageReactions[channelID;messageID;userFilter;time;reactions;commands;er
 
 | Field         | Type    | Description                                                                                    | Required |
 |---------------|---------|------------------------------------------------------------------------------------------------|:--------:|
-| channelID     | integer | message ID                                                                                     |   yes    |
-| messageID     | integer | message ID                                                                                     |   yes    |
-| userFilter    | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   yes    |
-| time          | string  | how long the command will last / when the command expires                                      |   yes    |
-| reactions     | string  | reactions, you can add multiple by seperating them with commas ( `,` )                         |   yes    |
-| commands      | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |   yes    |
-| errorMessage? | string  | error message when command expires                                                             |    no    |
-| awaitData?    | string  | awaited data                                                                                   |    no    |
+| channelID     | integer | message ID                                                                                     |   true    |
+| messageID     | integer | message ID                                                                                     |   true    |
+| userFilter    | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true    |
+| time          | string  | how long the command will last / when the command expires                                      |   true    |
+| reactions     | string  | reactions, you can add multiple by seperating them with commas ( `,` )                         |   true    |
+| commands      | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |   true    |
+| errorMessage? | string  | error message when command expires                                                             |    false    |
+| awaitData?    | string  | awaited data                                                                                   |    false    |
 
 #### Make sure you have `GuildMessageReactions` as intent in your main file.
 

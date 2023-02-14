@@ -17,7 +17,7 @@ $deleteIn[time]
 
 | Field | Type   | Description                                  | Required |
 | ----- | ------ | -------------------------------------------- |:--------:|
-| time  | string | after how much time the message gets deleted |    yes   |
+| time  | string | after how much time the message gets deleted |    true   |
 
 
 ## Example

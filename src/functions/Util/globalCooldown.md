@@ -18,8 +18,8 @@ $globalCooldown[time;errorMessage?]
 
 | Field         | Type   | Description                                                     | Required |
 | ------------- | ------ | --------------------------------------------------------------- | -------- |
-| time          | string | the duration of the cooldown                                    | yes      |
-| errorMessage? | string | error message given when there's remaining time of the cooldown | no       |
+| time          | string | the duration of the cooldown                                    | true      |
+| errorMessage? | string | error message given when there's remaining time of the cooldown | false       |
 
 
 ## Example

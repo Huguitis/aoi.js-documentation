@@ -17,8 +17,8 @@ $description[index?;description]
 
 | Field       | Type   | Description                        | Required |
 | ----------- | ------ | ---------------------------------- |:--------:|
-| index?      | number | embed index                        |    no    |
-| description | string | content of the embed's description |    yes   |
+| index?      | number | embed index                        |    false    |
+| description | string | content of the embed's description |    true   |
 
 
 ## Example

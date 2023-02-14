@@ -17,7 +17,7 @@ $get[var]
 
 | Field | Type   | Description                             | Required |
 | ----- | ------ | --------------------------------------- | -------- |
-| var   | string | temporary variable you want to retrieve | yes      |
+| var   | string | temporary variable you want to retrieve | true      |
 
 ## Example
 

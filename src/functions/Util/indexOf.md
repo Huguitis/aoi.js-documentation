@@ -17,8 +17,8 @@ $indexOf[string;char]
 
 | Field  | Type   | Description                                    | Required |
 | ------ | ------ | ---------------------------------------------- | -------- |
-| string | string | the text the bot will be checking the index of | yes      |
-| char   | string | the character the bot will be checking for     | yes      |
+| string | string | the text the bot will be checking the index of | true      |
+| char   | string | the character the bot will be checking for     | true      |
 
 
 ## Example

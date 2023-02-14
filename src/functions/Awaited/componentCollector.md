@@ -16,11 +16,11 @@ $componentCollector[messageID;userFilter;time;customIDs;commands;errorMsg?;endco
 
 | Field       | Type    | Description                                                                                    | Required |
 | ----------- | ------- | ---------------------------------------------------------------------------------------------- |:--------:|
-| messageID   | integer | message ID                                                                                     |    yes   |
-| userFilter  | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |    yes   |
-| time        | string  | when the command ends/expires                                                                  |    yes   |
-| customID    | string  | custom ID                                                                                      |    yes   |
-| commands    | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |    yes   |
-| errorMsg?   | string  | error message when command expires                                                             |    no    |
-| endcommand? | integer | end command                                                                                    |    no    |
-| data?       | string  | awaited data                                                                                   |    no    |
+| messageID   | integer | message ID                                                                                     |    true   |
+| userFilter  | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |    true   |
+| time        | string  | when the command ends/expires                                                                  |    true   |
+| customID    | string  | custom ID                                                                                      |    true   |
+| commands    | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |    true   |
+| errorMsg?   | string  | error message when command expires                                                             |    false    |
+| endcommand? | integer | end command                                                                                    |    false    |
+| data?       | string  | awaited data                                                                                   |    false    |

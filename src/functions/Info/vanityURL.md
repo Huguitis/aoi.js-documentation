@@ -17,7 +17,7 @@ $vanityURL[guildID?]
 
 | Field    | Type    | Description | Required |
 | -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    no    |
+| guildID? | integer | guild ID    |    false    |
 
 
 ## Example

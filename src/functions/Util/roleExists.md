@@ -18,7 +18,7 @@ $roleExists[roleId;guildId?]
 | Field    | Type    | Description                                 | Required |
 | -------- | ------- | ------------------------------------------- | -------- |
 | roleId   | integer | role ID you want to check if it exists      | yes      |
-| guildId? | integer | guild ID of the guild where the role exists | no       |
+| guildId? | integer | guild ID of the guild where the role exists | false       |
 
 
 ## Example

@@ -13,4 +13,4 @@ id: commandCode
 $commandCode
 ```
 
-> There's no example as it's self-explanatory.
+> There's false example as it's self-explanatory.

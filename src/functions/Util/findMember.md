@@ -17,9 +17,9 @@ $findMember[user;returnSelf?;guildID?]
 
 | Field       | Type    | Description                                  | Required |
 | ----------- | ------- | -------------------------------------------- | -------- |
-| user        | string  | user you want to find                        | yes      |
-| returnSelf? | string  | return the author's id if user was not found | no       |
-| guildID?    | integer | guild ID where the user is present in        | no       |
+| user        | string  | user you want to find                        | true      |
+| returnSelf? | string  | return the author's id if user was not found | false       |
+| guildID?    | integer | guild ID where the user is present in        | false       |
 
 
 ## Example

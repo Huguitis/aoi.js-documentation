@@ -17,8 +17,8 @@ $guildEmojiExists[emoji;guildId?]
 
 | Field    | Type    | Description                                  | Required |
 | -------- | ------- | -------------------------------------------- | -------- |
-| emoji    | string  | emoji you want to check if it exists         | yes      |
-| guildId? | integer | guild id of the guild where the emoji exists | no       |
+| emoji    | string  | emoji you want to check if it exists         | true      |
+| guildId? | integer | guild id of the guild where the emoji exists | false       |
 
 **Please note that your bot has to be present in the guild where the emoji is in, only exception are webhooks.**
 

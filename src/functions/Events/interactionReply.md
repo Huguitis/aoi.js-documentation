@@ -18,12 +18,12 @@ $interactionReply[content?;embeds?;components?;files?;allowedMentions?;ephemeral
 
 | Field            | Type   | Description                                                                                       | Required |
 | ---------------- | ------ | ------------------------------------------------------------------------------------------------- |:--------:|
-| content?         | string | message content                                                                                   |    no    |
-| embeds?          | string | embed                                                                                             |    no    |
-| components?      | string | components                                                                                        |    no    |
-| files?           | string | files                                                                                             |    no    |
-| allowedMentions? | string | what can be mentioned in the reply <br /> 1. **everyone** <br /> 2. **roles** <br /> 3. **users** |    no    |
-| ephemeral?       | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default)              |    no    |
+| content?         | string | message content                                                                                   |    false    |
+| embeds?          | string | embed                                                                                             |    false    |
+| components?      | string | components                                                                                        |    false    |
+| files?           | string | files                                                                                             |    false    |
+| allowedMentions? | string | what can be mentioned in the reply <br /> 1. **everyone** <br /> 2. **roles** <br /> 3. **users** |    false    |
+| ephemeral?       | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default)              |    false    |
 
 
 ## Example

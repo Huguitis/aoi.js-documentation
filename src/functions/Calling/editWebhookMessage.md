@@ -17,7 +17,7 @@ $editWebhookMessage[webhookID;webhookToken;messageID;returnID?]
 
 | Field        | Type    | Description                                                         | Required |
 | ------------ | ------- | ------------------------------------------------------------------- |:--------:|
-| webhookID    | integer | message ID                                                          |    yes   |
-| webhookToken | string  | new message                                                         |    yes   |
-| messageID    | integer | channel ID                                                          |    yes   |
-| returnID?    | string  | return the message ID? <br /> 1. **true** (default) <br /> 2. **false** |    no    |
+| webhookID    | integer | message ID                                                          |    true   |
+| webhookToken | string  | new message                                                         |    true   |
+| messageID    | integer | channel ID                                                          |    true   |
+| returnID?    | string  | return the message ID? <br /> 1. **true** (default) <br /> 2. **false** |    false    |

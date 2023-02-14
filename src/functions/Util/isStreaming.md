@@ -17,8 +17,8 @@ $isStreaming[userid?;guildid?]
 
 | Field    | Type    | Description                                                    | Required |
 | -------- | ------- | -------------------------------------------------------------- | -------- |
-| userid?  | integer | the user id of the user you want to check if they're streaming | no       |
-| guildid? | integer | the guild id of where they're streaming in                     | no       |
+| userid?  | integer | the user id of the user you want to check if they're streaming | false       |
+| guildid? | integer | the guild id of where they're streaming in                     | false       |
 
 
 ## Example

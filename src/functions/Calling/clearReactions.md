@@ -17,9 +17,9 @@ $clearReactions[channelID;messageID;emoji]
 
 | Field     | Type    | Description                                                                 | Required |
 | --------- | ------- | --------------------------------------------------------------------------- |:--------:|
-| channelID | integer | channel ID                                                                  |    yes   |
-| messageID | integer | message ID                                                                  |    yes   |
-| emoji     | string  | emoji to remove <br /> 1. **all** (default) <br /> 2. **emoji** - any emoji |    yes   |
+| channelID | integer | channel ID                                                                  |    true   |
+| messageID | integer | message ID                                                                  |    true   |
+| emoji     | string  | emoji to remove <br /> 1. **all** (default) <br /> 2. **emoji** - any emoji |    true   |
 
 
 ## Example

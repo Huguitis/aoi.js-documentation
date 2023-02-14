@@ -17,8 +17,8 @@ $guildChannelExists[channel;guildID?]
 
 | Field   | Type    | Description                                        | Required |
 | ------- | ------- | -------------------------------------------------- | -------- |
-| channel | string  | channel ID or name of the guild channel           | yes      |
-| guildId | integer | id of the guild where the guild channel exists in | yes      |
+| channel | string  | channel ID or name of the guild channel           | true      |
+| guildId | integer | id of the guild where the guild channel exists in | true      |
 
 
 ## Example

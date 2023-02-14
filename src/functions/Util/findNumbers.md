@@ -17,7 +17,7 @@ $findNumbers[text]
 
 | Field | Type   | Description                         | Required |
 | ----- | ------ | ----------------------------------- | -------- |
-| text  | string | text where you want to find numbers | yes      |
+| text  | string | text where you want to find numbers | true      |
 
 
 ## Example

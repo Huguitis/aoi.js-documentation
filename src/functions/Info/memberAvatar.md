@@ -17,11 +17,11 @@ $memberAvatar[guildID?;userID?;size?;dynamic?;format?]
 
 | Field    | Type    | Description                                            | Required |
 | -------- | ------- | ------------------------------------------------------ | :------: |
-| guildID? | integer | the ID of the guild                                    |    no    |
-| userID?  | integer | the ID of the member                                   |    no    |
-| size?    | integer | the size of the image                                  |    no    |
-| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |    no    |
-| format?  | string  |                                                        |    no    |
+| guildID? | integer | the ID of the guild                                    |    false    |
+| userID?  | integer | the ID of the member                                   |    false    |
+| size?    | integer | the size of the image                                  |    false    |
+| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |    false    |
+| format?  | string  |                                                        |    false    |
 
 
 ## Example

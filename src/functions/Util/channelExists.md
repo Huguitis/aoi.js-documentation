@@ -17,7 +17,7 @@ $channelExists[channel]
 
 | Field   | Type   | Description                | Required |
 | ------- | ------ | -------------------------- | -------- |
-| channel | string | channel ID or channel name | yes      |
+| channel | string | channel ID or channel name | true      |
 
 ## Example
 

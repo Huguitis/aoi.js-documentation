@@ -17,10 +17,10 @@ $ban[guildID?;userID;days?;reason?]
 
 | Field    | Type    | Description                                                      | Required |
 | -------- | ------- | ---------------------------------------------------------------- |:--------:|
-| guildID? | integer | guild ID                                                         |    no    |
-| userID   | integer | user ID to ban                                                   |    yes   |
-| days?    | string  | days of message history to delete, cannot be higher than 14 days |    no    |
-| reason?  | string  | ban reason                                                       |    no    |
+| guildID? | integer | guild ID                                                         |    false    |
+| userID   | integer | user ID to ban                                                   |    true   |
+| days?    | string  | days of message history to delete, cannot be higher than 14 days |    false    |
+| reason?  | string  | ban reason                                                       |    false    |
 
 
 ## Example

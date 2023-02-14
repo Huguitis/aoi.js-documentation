@@ -17,8 +17,8 @@ $isTimeout[guildid?;userid?]
 
 | Field    | Type    | Description                                | Required |
 | -------- | ------- | ------------------------------------------ | -------- |
-| guildid? | integer | the guild id of where they're timeouted in | no       |
-| userid?  | integer | the user id of the user that's timeouted   | no       |
+| guildid? | integer | the guild id of where they're timeouted in | false       |
+| userid?  | integer | the user id of the user that's timeouted   | false       |
 
 
 ## Example

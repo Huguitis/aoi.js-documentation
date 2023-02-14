@@ -17,8 +17,8 @@ $activity[guildID?;userID?]
 
 | Field    | Type    | Description | Required |
 | -------- | ------- | ----------- | -------- |
-| guildID? | integer | guild id    | no       |
-| userID?  | integer | user id     | no       |
+| guildID? | integer | guild id    | false       |
+| userID?  | integer | user id     | false       |
 
 
 ## Example

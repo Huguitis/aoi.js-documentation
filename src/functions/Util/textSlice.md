@@ -18,7 +18,7 @@ $textSlice[text;from?;to]
 | Field | Type   | Description                               | Required |
 | ----- | ------ | ----------------------------------------- | -------- |
 | text  | string | text you want to slice                    | yes      |
-| from? | number | starting point where to slice the message | no       |
+| from? | number | starting point where to slice the message | false       |
 | to    | number | ending point where slicing ends           | yes      |
 
 

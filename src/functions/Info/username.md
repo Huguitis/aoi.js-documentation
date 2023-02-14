@@ -17,7 +17,7 @@ $username[userID?]
 
 | Field   | Type    | Description | Required |
 | ------- | ------- | ----------- |:--------:|
-| userID? | integer | user ID     |    no    |
+| userID? | integer | user ID     |    false    |
 
 
 ## Example

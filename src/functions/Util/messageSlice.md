@@ -18,7 +18,7 @@ $messageSlice[from;to?]
 | Field | Type   | Description                               | Required |
 | ----- | ------ | ----------------------------------------- | -------- |
 | from  | number | starting point where to slice the message | yes      |
-| to?   | number | ending point where slicing ends           | no       |
+| to?   | number | ending point where slicing ends           | false       |
 
 
 ## Example

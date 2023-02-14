@@ -17,8 +17,8 @@ $creationDate[id;format?]
 
 | Field   | Type    | Description                                         | Required |
 | ------- | ------- | --------------------------------------------------- | -------- |
-| id      | integer | user ID of who you want to get the creation date of | yes      |
-| format? | string  | the format of the creation date                     | no       |
+| id      | integer | user ID of who you want to get the creation date of | true      |
+| format? | string  | the format of the creation date                     | false       |
 
 ### Format Input
 

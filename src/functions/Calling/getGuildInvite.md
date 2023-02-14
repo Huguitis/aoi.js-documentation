@@ -17,8 +17,8 @@ $getGuildInvite[guildID?;...options]
 
 | Field    | Type    | Description  | Required |
 | -------- | ------- | ------------ |:--------:|
-| guildID? | integer | guild ID     |    no    |
-| options? | string  | json objects |    no    |
+| guildID? | integer | guild ID     |    false    |
+| options? | string  | json objects |    false    |
 
 <details>
   <summary><h3> Invite Target Types </h3></summary>
