@@ -113,7 +113,6 @@ It's worth bearing in mind that in order to utilise certain events, you'll need 
 * **onVariableUpdate** &rarr; Emitted whenever a variable gets updated.
   * `$oldVariable[opt;seperator?]` &rarr; Retrieves the old data of the variable. (if any)
   * `$newVariable[opt;seperator?]` &rarr; Retrieves the new/updated data of the variable. (if any)
-* **onRateLimit** &rarr; Emitted whenever **[exceeding Discord's ratelimit](https://discord.com/developers/docs/topics/rate-limits#exceeding-a-rate-limit)**.
 * **onShardDisconnect** &rarr; Emitted whenever the client's shard disconnects.
 * **onShardError** &rarr; Emitted whenever a shard of the client returns an error.
 * **onShardReady** &rarr; Emitted whenever a shard of the client is ready.
