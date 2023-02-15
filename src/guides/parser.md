@@ -1,6 +1,6 @@
 ---
 title: Parser 
-description: Parser - embed parsers, component parsers, including basics and examples.
+description: This guide explains how to properly use embed parsers and component parsers. Including basics and examples.
 id: parser
 ---
 
