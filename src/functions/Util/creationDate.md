@@ -24,6 +24,7 @@ $creationDate[id;format?]
 
 | Format        | Output                                                     |
 | ------------- | ---------------------------------------------------------- |
+| ms            | 1522158545409                                              |
 | date          | 3/27/2018, 1:49:05 PM                                      |
 | time          | 4 years, 9 months, 6 days, 2 hours, 17 minutes, 33 seconds |
 | time-full     | 4 years, 9 months, 6 days, 2 hours, 17 minutes, 33 seconds |
