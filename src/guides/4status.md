@@ -1,6 +1,6 @@
 ---
 title: Client Status 
-description: Status - How to use bot statuses.
+description: This guide will be covering the functionality and usage of client statuses.
 id: status
 ---
 
