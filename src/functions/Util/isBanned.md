@@ -30,7 +30,7 @@ This will return `false` as you're not banned in this guild:
 bot.command({
   name: 'isBanned',
   code: `
-  $isBanned[$authorID;$authorID]
+  $isBanned[$guildID;$authorID]
   `
 });
 ```
