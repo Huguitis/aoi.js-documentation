@@ -26,7 +26,7 @@ $interactionModal[title;customID;components]
 
 This will create a button and modal which will send the entered data to the same channel and give an ephemeral response to the user who submitted the form: 
 
-Please note that you require "**onInteraction**" in your main file (also known as, in most cases, index.js)
+Please note that you require "**events: ["onMessage", "onInteractionCreate"]**" in your main file (also known as, in most cases, index.js)
 
 ```js
 bot.command({

@@ -40,7 +40,7 @@ In order to use Application Commands, your bot needs the `application.commands` 
 * Due to Discord's Limitation you can only have up to **50 slash commands** in your bot / per guild.
 * Two Application commands can **not have the same name** in the same guild.
 * Application command names can **not contain special symbols** and must be shorter than **32 characters**.
-* You require `bot.onInteractionCreate();` in your main file.
+* You require `events: ["onMessage", "onInteractionCreate"]` in your main file.
 
 ![slash.example](https://cdn.discordapp.com/attachments/1061712111052521493/1062559509601591427/image_6.png)
 ## Creating Application Commands
