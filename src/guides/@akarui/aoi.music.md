@@ -1,6 +1,7 @@
 ---
-id: aoi.music-setup
-title: Aoi.Music
+title: akarui/aoi.music
+description: How to integrate aoi.music into your Discord Bot with ease.
+id: akarui/aoi.music
 ---
 
 ### Installation
@@ -11,11 +12,6 @@ title: Aoi.Music
 npm install @akarui/aoi.music
 ```
 
-```bash
-# for Edge
-npm install @akarui/aoi.music@dev
-# or
-npm install https://github.com/akaruidevelopment/music#main
 ```
 
 ## Example
