@@ -17,4 +17,4 @@ $webhookUpdate[option]
 
 | Field  | Type   | Description | Required |
 | ------ | ------ | ----------- |:--------:|
-| option | string | option      |    yes   |
+| option | string | option      |    true   |

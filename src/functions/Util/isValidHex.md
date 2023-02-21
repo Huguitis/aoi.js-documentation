@@ -17,7 +17,7 @@ $isValidHex[color/int]
 
 | Field     | Type           | Description                | Required |
 | --------- | -------------- | -------------------------- | -------- |
-| color/int | string/integer | hex / decimal color string | yes      |
+| color/int | string/integer | hex / decimal color string | true      |
 
 
 ## Example

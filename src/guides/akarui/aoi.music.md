@@ -22,10 +22,8 @@ const bot = new aoijs.AoiClient({
     token: "Discord Bot Token",
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages", "GuildVoiceStates"],
+    events: ["onMessage", "onInteractionCreate"]
 });
-
-//Events
-bot.onMessage();
 
 //Command Example (ping)
 bot.command({
@@ -35,7 +33,7 @@ bot.command({
 
 const voice = new AoiVoice(bot, {
     searchOptions: {
-        soundcloudClientId: "Sound Cloud Id",
+     // soundcloudClientId: "Sound Cloud Id",
         youtubegl: "US",
     },
     requestOptions: {

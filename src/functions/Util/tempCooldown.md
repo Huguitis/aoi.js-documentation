@@ -18,9 +18,9 @@ $tempCooldown[time;id;errorMessage?]
 
 | Field         | Type   | Description                                                | Required |
 | ------------- | ------ | ---------------------------------------------------------- | -------- |
-| time          | string | the duration of the cooldown                               | yes      |
-| id            | string |                                                            | yes      |
-| errorMessage? | string | error message when there's remaining time for the cooldown | no       |
+| time          | string | the duration of the cooldown                               | true      |
+| id            | string |                                                            | true      |
+| errorMessage? | string | error message when there's remaining time for the cooldown | false       |
 
 
 ## Example

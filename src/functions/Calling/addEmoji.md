@@ -17,12 +17,12 @@ $addEmoji[guildID;url;name;returnEmoji?;reason?;...roles?]
 
 | Field        | Type    | Description                                              | Required |
 | ------------ | ------- | -------------------------------------------------------- |:--------:|
-| guildID      | integer | guild ID                                                 |    yes   |
-| url          | string  | valid image URL                                          |    yes   |
-| name         | string  | emoji name                                               |    yes   |
-| returnEmoji? | string  | return the created emoji?                                |    no    |
-| reason?      | string  | reason which will be displayed in the guild's audit logs |    no    |
-| roles?       | integer | useable by the given role only?                          |    no    |
+| guildID      | integer | guild ID                                                 |    true   |
+| url          | string  | valid image URL                                          |    true   |
+| name         | string  | emoji name                                               |    true   |
+| returnEmoji? | string  | return the created emoji?                                |    false    |
+| reason?      | string  | reason which will be displayed in the guild's audit logs |    false    |
+| roles?       | integer | useable by the given role only?                          |    false    |
 
 
 ## Example

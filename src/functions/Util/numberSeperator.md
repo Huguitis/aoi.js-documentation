@@ -17,8 +17,8 @@ $numberSeperator[num;sep?]
 
 | Field | Type   | Description                                                        | Required |
 | ----- | ------ | ------------------------------------------------------------------ | -------- |
-| num   | number | number you want to seperate                                        | yes      |
-| sep?  | string | seperator which will be used to seperate the numbers, default: `,` | no       |
+| num   | number | number you want to seperate                                        | true      |
+| sep?  | string | seperator which will be used to seperate the numbers, default: `,` | false       |
 
 
 ## Example

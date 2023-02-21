@@ -17,7 +17,7 @@ $checkCondition[condition]
 
 | Field     | Type   | Description                 | Required |
 | --------- | ------ | --------------------------- | -------- |
-| condition | string | condition you want to check | yes      |
+| condition | string | condition you want to check | true      |
 
 #### Valid Mathematical Operators
  

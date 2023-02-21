@@ -17,9 +17,9 @@ $appendFile[file;text;encode?]
 
 | Field   | Type    | Description                              | Required |
 | ------- | ------- | ---------------------------------------- |:--------:|
-| file    | integer | file location                            |    yes   |
-| text    | integer | text to add to the file                  |    yes   |
-| encode? | integer | encode type <br /> 1. **utf8** (default) |    no    |
+| file    | integer | file location                            |    true   |
+| text    | integer | text to add to the file                  |    true   |
+| encode? | integer | encode type <br /> 1. **utf8** (default) |    false    |
 
 
 ## Example

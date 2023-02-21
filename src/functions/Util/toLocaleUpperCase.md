@@ -17,7 +17,7 @@ $toLocaleUpperCase[text]
 
 | Field | Type   | Description | Required |
 | ----- | ------ | ----------- | -------- |
-| text  | string |             | yes      |
+| text  | string |             | true      |
 
 
 ## Example

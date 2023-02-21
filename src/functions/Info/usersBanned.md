@@ -17,10 +17,10 @@ $usersBanned[guildID?;force?;option?;sep?]
 
 | Field    | Type    | Description                                                                                            | Required |
 | -------- | ------- | ------------------------------------------------------------------------------------------------------ |:--------:|
-| guildID? | integer | guild ID                                                                                               |    no    |
-| force?   | string  | 1. **true** <br /> 2. **false** (default)                                                              |    no    |
-| option?  | string  | how to return the banned users <br /> 1. **id** (default) <br /> 1. **username** <br /> 1. **mention** |    no    |
-| sep?     | string  | seperator to seperate multiple arguments                                                               |    no    |
+| guildID? | integer | guild ID                                                                                               |    false    |
+| force?   | string  | 1. **true** <br /> 2. **false** (default)                                                              |    false    |
+| option?  | string  | how to return the banned users <br /> 1. **id** (default) <br /> 1. **username** <br /> 1. **mention** |    false    |
+| sep?     | string  | seperator to seperate multiple arguments                                                               |    false    |
 
 
 ## Example

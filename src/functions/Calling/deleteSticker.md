@@ -17,8 +17,8 @@ $deleteSticker[guildID;sticker]
 
 | Field   | Type    | Description         | Required |
 | ------- | ------- | ------------------- |:--------:|
-| guildID | integer | guild ID            |    yes   |
-| sticker | string  | name of the sticker |    yes   |
+| guildID | integer | guild ID            |    true   |
+| sticker | string  | name of the sticker |    true   |
 
 
 ## Example

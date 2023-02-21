@@ -16,13 +16,13 @@ $hasEmbeds[messageID;channelID]
 
 | Field     | Type    | Description                                             | Required |
 | --------- | ------- | ------------------------------------------------------- | -------- |
-| messageID | integer | message ID of the embed                                 | yes      |
-| channelID | integer | channel ID of the channel where the embed is present in | yes      |
+| messageID | integer | message ID of the embed                                 | true      |
+| channelID | integer | channel ID of the channel where the embed is present in | true      |
 
 
 ## Example
 
-This will return `false` as there are no embeds attached to your message:
+This will return `false` as there are false embeds attached to your message:
 
 ```javascript
 bot.command({

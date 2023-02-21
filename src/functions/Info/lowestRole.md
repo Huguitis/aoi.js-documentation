@@ -17,8 +17,8 @@ $lowestRole[userID?;guildID?]
 
 | Field    | Type    | Description                                     | Required |
 | -------- | ------- | ----------------------------------------------- |:--------:|
-| userID?  | integer | user if of the user you want the lowest role of |    no    |
-| guildID? | integer | the ID of the guild                             |    no    |
+| userID?  | integer | user if of the user you want the lowest role of |    false    |
+| guildID? | integer | the ID of the guild                             |    false    |
 
 
 ## Example

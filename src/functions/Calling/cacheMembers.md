@@ -17,8 +17,8 @@ $cacheMembers[guildID?;returnCount?]
 
 | Field        | Type    | Description                                                                     | Required |
 | ------------ | ------- | ------------------------------------------------------------------------------- |:--------:|
-| guildID?     | integer | guild ID                                                                        |    yes   |
-| returnCount? | integer | return the cached member count <br /> 1. **true** <br /> 2. **false** (default) |    yes   |
+| guildID?     | integer | guild ID                                                                        |    true   |
+| returnCount? | integer | return the cached member count <br /> 1. **true** <br /> 2. **false** (default) |    true   |
 
 
 ## Example

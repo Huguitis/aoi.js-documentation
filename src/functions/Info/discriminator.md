@@ -17,7 +17,7 @@ $discriminator[userId?]
 
 | Field   | Type    | Description                                           | Required |
 | ------- | ------- | ----------------------------------------------------- | -------- |
-| userId? | integer | the user id of the user you want the discriminator of | no       |
+| userId? | integer | the user id of the user you want the discriminator of | false       |
 
 
 ## Example

@@ -17,7 +17,7 @@ $math[calculation]
 
 | Field       | Type   | Description          | Required |
 | ----------- | ------ | -------------------- | -------- |
-| calculation | string | calculation (/*-+()) | yes      |
+| calculation | string | calculation (/*-+()) | true      |
 
 
 ## Example

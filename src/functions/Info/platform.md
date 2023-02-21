@@ -17,9 +17,9 @@ $platform[userID?;guildID?;sep?]
 
 | Field    | Type    | Description                               | Required |
 | -------- | ------- | ----------------------------------------- | -------- |
-| userID?  | integer | ID of the user                            | no       |
-| guildID? | integer | the guild ID                              | no       |
-| sep?     | string  | the seperator to split multiple arguments | no       |
+| userID?  | integer | ID of the user                            | false       |
+| guildID? | integer | the guild ID                              | false       |
+| sep?     | string  | the seperator to split multiple arguments | false       |
 
 
 ## Example

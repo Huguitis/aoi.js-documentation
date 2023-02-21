@@ -17,7 +17,7 @@ $userID[user]
 
 | Field | Type   | Description                     | Required |
 | ----- | ------ | ------------------------------- |:--------:|
-| user  | string | user you want to have the ID of |    yes   |
+| user  | string | user you want to have the ID of |    true   |
 
 
 ## Example

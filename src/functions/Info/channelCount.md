@@ -17,8 +17,8 @@ $channelCount[guildID?;type?]
 
 | Field    | Type    | Description                                                    | Required |
 | -------- | ------- | -------------------------------------------------------------- |:--------:|
-| guildID? | integer | guild id of the guild where you want the amount of channels of |    no    |
-| type?    | string  | type you want the amount of                                    |    no    |
+| guildID? | integer | guild id of the guild where you want the amount of channels of |    false    |
+| type?    | string  | type you want the amount of                                    |    false    |
 
 
 <details>

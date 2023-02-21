@@ -17,5 +17,5 @@ $deleteApplicationCommand[guildID;id]
 
 | Field   | Type            | Description        | Required |
 | ------- | --------------- | ------------------ |:--------:|
-| guildID | string, integer | guild ID or global |    yes   |
-| id      | integer         | slash command id   |    yes   |
+| guildID | string, integer | guild ID or global |    true   |
+| id      | integer         | slash command id   |    true   |

@@ -17,8 +17,8 @@ $isVideoOn[userid?;guildid?]
 
 | Field    | Type    | Description                                                             | Required |
 | -------- | ------- | ----------------------------------------------------------------------- | -------- |
-| userid?  | integer | user id of the user who turned video on                                 | no       |
-| guildid? | integer | the guild ID of the guild you want to check if they have their video on | no       |
+| userid?  | integer | user id of the user who turned video on                                 | false       |
+| guildid? | integer | the guild ID of the guild you want to check if they have their video on | false       |
 
 
 ## Example

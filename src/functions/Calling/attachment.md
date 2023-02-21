@@ -17,9 +17,9 @@ $attachment[attachment;name;type?]
 
 | Field      | Type   | Description                                 | Required |
 | ---------- | ------ | ------------------------------------------- |:--------:|
-| attachment | string | attachment                                  |    yes   |
-| name       | string | attachment name                             |    yes   |
-| type?      | string | attachment type <br /> 1. **url** (default) |    no    |
+| attachment | string | attachment                                  |    true   |
+| name       | string | attachment name                             |    true   |
+| type?      | string | attachment type <br /> 1. **url** (default) |    false    |
 
 
 ## Example

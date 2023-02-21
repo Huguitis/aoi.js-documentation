@@ -17,7 +17,7 @@ $userBannerColor[userID?]
 
 | Field   | Type    | Description        | Required |
 | ------- | ------- | ------------------ |:--------:|
-| userID? | integer | the ID of the user |    no    |
+| userID? | integer | the ID of the user |    false    |
 
 
 ## Example

@@ -17,8 +17,8 @@ $getBanReason[guildID?;userID?]
 
 | Field    | Type    | Description                                                 | Required |
 | -------- | ------- | ----------------------------------------------------------- | -------- |
-| guildID? | integer | the guild ID                                                | no       |
-| userID?  | integer | the user ID of the user you want to check the ban reason of | no       |
+| guildID? | integer | the guild ID                                                | false       |
+| userID?  | integer | the user ID of the user you want to check the ban reason of | false       |
 
 
 #### Please note that your bot requires `VIEW_AUDIT_LOG` permissions

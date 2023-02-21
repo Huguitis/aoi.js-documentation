@@ -17,7 +17,7 @@ $channelType[channelID?]
 
 | Field      | Type    | Description                                            | Required |
 | ---------- | ------- | ------------------------------------------------------ |:--------:|
-| channelID? | integer | channel ID of the channel you want the channel type of |    no    |
+| channelID? | integer | channel ID of the channel you want the channel type of |    false    |
 
 
 ## Example

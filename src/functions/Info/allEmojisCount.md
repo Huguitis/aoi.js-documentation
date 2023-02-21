@@ -17,7 +17,7 @@ $allEmojisCount[type?]
 
 | Field | Type   | Description                 | Required |
 | ----- | ------ | --------------------------- | -------- |
-| type? | string | type you want the amount of | no       |
+| type? | string | type you want the amount of | false       |
 
 
 | Emoji Type      |          |

@@ -85,7 +85,7 @@ bot.command({
     "value" : "You selected the second option, therefore I\'m responding with this!"
   }]]
   $else
-  $interactionReply[$slashOption[option] - autocomplete #SEMI# $slashOption[anotheroption] - no autocomplete;;;;everyone]
+  $interactionReply[$slashOption[option] - autocomplete #SEMI# $slashOption[anotheroption] - false autocomplete;;;;everyone]
   $endif
   `
 });

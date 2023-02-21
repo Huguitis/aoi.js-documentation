@@ -17,7 +17,7 @@ $getChannelSlowmode[channelID?]
 
 | Field      | Type    | Description                                                      | Required |
 | ---------- | ------- | ---------------------------------------------------------------- | -------- |
-| channelID? | integer | channel ID of the channel where you want the channel slowmode of | no       |
+| channelID? | integer | channel ID of the channel where you want the channel slowmode of | false       |
 
 
 ## Example

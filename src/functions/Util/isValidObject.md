@@ -17,7 +17,7 @@ $isValidObject[json]
 
 | Field | Type   | Description | Required |
 | ----- | ------ | ----------- | -------- |
-| json  | string | json object | yes      |
+| json  | string | json object | true      |
 
 ### This function will only work if it's a JSON Object
 

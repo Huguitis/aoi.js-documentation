@@ -17,8 +17,8 @@ $fetchActiveThreads[channelID;option?]
 
 | Field     | Type    | Description                                                                    | Required |
 | --------- | ------- | ------------------------------------------------------------------------------ |:--------:|
-| channelID | integer | channel ID                                                                     |    yes   |
-| option?   | string  | how to return the active threads <br /> 1. **name** (default) <br /> 2. **id** |    no    |
+| channelID | integer | channel ID                                                                     |    true   |
+| option?   | string  | how to return the active threads <br /> 1. **name** (default) <br /> 2. **id** |    false    |
 
 ## Example
 

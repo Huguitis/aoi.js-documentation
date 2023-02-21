@@ -17,7 +17,7 @@ $uptime[option?]
 
 | Field   | Type   | Description                     | Required |
 | ------- | ------ | ------------------------------- |:--------:|
-| option? | string | how the uptime will be returned |    no    |
+| option? | string | how the uptime will be returned |    false    |
 
 | Option             | Output                 |
 | ------------------ | ---------------------- |

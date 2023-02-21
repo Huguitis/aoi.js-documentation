@@ -17,8 +17,8 @@ $deleteMessage[messageID;channelID]
 
 | Field     | Type    | Description | Required |
 | --------- | ------- | ----------- |:--------:|
-| messageID | integer | guild ID    |    yes   |
-| channelID | integer | channel ID  |    no    |
+| messageID | integer | guild ID    |    true   |
+| channelID | integer | channel ID  |    false    |
 
 
 ## Example

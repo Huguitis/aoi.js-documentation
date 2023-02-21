@@ -17,8 +17,8 @@ $mutualGuilds[userID?;sep?]
 
 | Field   | Type    | Description                                   | Required |
 | ------- | ------- | --------------------------------------------- | -------- |
-| userID? | integer | the ID of the user                            | no       |
-| sep?    | string  | the seperator to seperate the returned guilds | no       |
+| userID? | integer | the ID of the user                            | false       |
+| sep?    | string  | the seperator to seperate the returned guilds | false       |
 
 
 ## Example

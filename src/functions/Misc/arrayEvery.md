@@ -18,9 +18,9 @@ $arrayEvery[name;query;queryType?]
 
 | Field     | Type     | Description                                                        | Required |
 | --------- | -------- | ------------------------------------------------------------------ |:--------:|
-| name      | string   | seperator                                                          |    yes   |
-| query     | element  | The element we will be queering for every element inside the array |    yes   |
-| queryType | operator | The comparison operator                                            |    no    |
+| name      | string   | seperator                                                          |    true   |
+| query     | element  | The element we will be queering for every element inside the array |    true   |
+| queryType | operator | The comparison operator                                            |    false    |
 
 ## Comparison Operators
 

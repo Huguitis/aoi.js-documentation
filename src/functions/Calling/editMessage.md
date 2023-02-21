@@ -17,9 +17,9 @@ $editMessage[messageID;msg;channelID?]
 
 | Field      | Type    | Description | Required |
 | ---------- | ------- | ----------- |:--------:|
-| messageID  | integer | message ID  |    yes   |
-| msg        | string  | new message |    yes   |
-| channelID? | integer | channel ID  |    no    |
+| messageID  | integer | message ID  |    true   |
+| msg        | string  | new message |    true   |
+| channelID? | integer | channel ID  |    false    |
 
 
 ## Example

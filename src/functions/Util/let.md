@@ -17,8 +17,8 @@ $let[varname;value]
 
 | Field   | Type   | Description                                      | Required |
 | ------- | ------ | ------------------------------------------------ | -------- |
-| varname | string | name of the temporary variable                   | yes      |
-| value   | string | value of the temporary variable you want to save | yes      |
+| varname | string | name of the temporary variable                   | true      |
+| value   | string | value of the temporary variable you want to save | true      |
 
 ## Example
 

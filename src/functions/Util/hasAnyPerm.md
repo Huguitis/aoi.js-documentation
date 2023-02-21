@@ -17,9 +17,9 @@ $hasAnyPerm[guildID;userID;...perms]
 
 | Field   | Type    | Description                                             | Required |
 | ------- | ------- | ------------------------------------------------------- | -------- |
-| guildID | integer | ID of the guild where the client checks the permissions | yes      |
-| userID  | integer | ID of the user                                          | no       |
-| perms   | string  | permissions needed                                      | yes      |
+| guildID | integer | ID of the guild where the client checks the permissions | true      |
+| userID  | integer | ID of the user                                          | false       |
+| perms   | string  | permissions needed                                      | true      |
 
 <details>
   <summary> <h3> Discord API Permissions </h3></summary>

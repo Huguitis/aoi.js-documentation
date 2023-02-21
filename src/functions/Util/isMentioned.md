@@ -17,7 +17,7 @@ $isMentioned[query]
 
 | Field | Type   | Description                                                  | Required |
 | ----- | ------ | ------------------------------------------------------------ | -------- |
-| query | string | where you want to check if a user/role/channel was mentioned | yes      |
+| query | string | where you want to check if a user/role/channel was mentioned | true      |
 
 
 ## Example

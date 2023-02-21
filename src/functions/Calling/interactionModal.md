@@ -17,9 +17,9 @@ $interactionModal[title;customID;components]
 
 | Field      | Type   | Description                                    | Required |
 | ---------- | ------ | ---------------------------------------------- |:--------:|
-| title      | string | modal title which will be displayed at the top |    yes   |
-| customID   | string | modal custom ID                                |    yes   |
-| components | string | modal components                               |    yes   |
+| title      | string | modal title which will be displayed at the top |    true   |
+| customID   | string | modal custom ID                                |    true   |
+| components | string | modal components                               |    true   |
 
 
 ## Example

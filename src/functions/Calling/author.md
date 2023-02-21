@@ -17,9 +17,9 @@ $author[index?;name;iconURL?]
 
 | Field    | Type    | Description                                               | Required |
 | -------- | ------- | --------------------------------------------------------- |:--------:|
-| index?   | integer | embed index                                               |    no    |
-| name     | string  | author title that will be displayed                       |    yes   |
-| iconURL? | string  | icon url which will be displayed next to the author title |    no    |
+| index?   | integer | embed index                                               |    false    |
+| name     | string  | author title that will be displayed                       |    true   |
+| iconURL? | string  | icon url which will be displayed next to the author title |    false    |
 
 
 ## Example

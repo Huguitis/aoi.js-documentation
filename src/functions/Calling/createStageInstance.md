@@ -17,9 +17,9 @@ $createStageInstance[channelID;topic;type?]
 
 | Field     | Type    | Description    | Required |
 | --------- | ------- | -------------- |:--------:|
-| channelID | integer | stage voice ID |    yes   |
-| topic     | string  | stage topic    |    yes   |
-| type?     | string  | stage type     |    no    |
+| channelID | integer | stage voice ID |    true   |
+| topic     | string  | stage topic    |    true   |
+| type?     | string  | stage type     |    false    |
 
 <details>
   <summary><h3> Invite Target Types </h3></summary>

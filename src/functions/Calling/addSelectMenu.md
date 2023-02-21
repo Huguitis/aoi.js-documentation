@@ -17,13 +17,13 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 
 | Field       | Type    | Description                                                | Required |
 | ----------- | ------- | ---------------------------------------------------------- |:--------:|
-| index       | integer | in which row the button appears                            |    yes   |
-| customID    | string  | custom ID                                                  |    yes   |
-| placeHolder | string  | select menu placeholder text                               |    yes   |
-| minValues   | integer | select menu min value                                      |    yes   |
-| maxValues   | integer | select menu max value                                      |    yes   |
-| disabled    | string  | disabled? <br /> 1. **true** <br /> 2. **false** (default) |    yes   |
-| options     | string  | options                                                    |    yes   |
+| index       | integer | in which row the button appears                            |    true   |
+| customID    | string  | custom ID                                                  |    true   |
+| placeHolder | string  | select menu placeholder text                               |    true   |
+| minValues   | integer | select menu min value                                      |    true   |
+| maxValues   | integer | select menu max value                                      |    true   |
+| disabled    | string  | disabled? <br /> 1. **true** <br /> 2. **false** (default) |    true   |
+| options     | string  | options                                                    |    true   |
 
 
 

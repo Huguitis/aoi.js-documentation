@@ -16,8 +16,8 @@ $argsCheck[condition;errorMessage?]
 
 | Field         | Type   | Description                             | Required |
 | ------------- | ------ | --------------------------------------- | -------- |
-| condition     | string | condition to be made                    | yes      |
-| errorMessage? | string | error message if condition did not meet | no       |
+| condition     | string | condition to be made                    | true      |
+| errorMessage? | string | error message if condition did not meet | false       |
 
 #### Valid Mathematical Operators
  

@@ -1,6 +1,6 @@
 ---
 title: Variables 
-description: variables
+description: This Guide will be covering variables, their usag and how to store variables in other files.
 id: variables
 ---
 

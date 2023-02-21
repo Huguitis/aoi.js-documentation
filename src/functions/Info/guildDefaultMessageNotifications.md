@@ -17,7 +17,7 @@ $guildDefaultMessageNotifications[guildID?]
 
 | Field    | Type    | Description                                                | Required |
 | -------- | ------- | ---------------------------------------------------------- |:--------:|
-| guildID? | integer | guild id you want the default message notification type of |    no    |
+| guildID? | integer | guild id you want the default message notification type of |    false    |
 
 
 ## Example

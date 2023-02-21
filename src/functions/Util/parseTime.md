@@ -17,7 +17,7 @@ $parseTime[time]
 
 | Field | Type   | Description                             | Required |
 | ----- | ------ | --------------------------------------- | -------- |
-| time  | string | the time that will be converted to `ms` | yes      |
+| time  | string | the time that will be converted to `ms` | true      |
 
 
 ## Examples

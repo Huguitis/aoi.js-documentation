@@ -17,8 +17,8 @@ $mentioned[index;returnSelf?]
 
 | Field       | Type   | Description                                  | Required |
 | ----------- | ------ | -------------------------------------------- | -------- |
-| index       | number | the index of the argument                    | yes      |
-| returnSelf? | string | return the author's id if user was not found | no       |
+| index       | number | the index of the argument                    | true      |
+| returnSelf? | string | return the author's id if user was not found | false       |
 
 
 ## Example

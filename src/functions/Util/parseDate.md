@@ -17,8 +17,8 @@ $parseDate[ms;type?]
 
 | Field | Type   | Description                                           | Required |
 | ----- | ------ | ----------------------------------------------------- | -------- |
-| ms    | string | time in ms you want to parse                          | yes      |
-| type? | string | the type in which the parsed date will be returned in | no       |
+| ms    | string | time in ms you want to parse                          | true      |
+| type? | string | the type in which the parsed date will be returned in | false       |
 
 ### Types
 | Type | Format                                                   |

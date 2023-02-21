@@ -17,9 +17,9 @@ $messageFlags[messageID;sep?;channelID?]
 
 | Field      | Type    | Description                                   | Required |
 | ---------- | ------- | --------------------------------------------- |:--------:|
-| messageID  | integer | message id to return flags of                 |    yes   |
-| sep?       | string  | seperator to seperate returned arguments      |    no    |
-| channelID? | integer | channel id of where the message is located in |    no    |
+| messageID  | integer | message id to return flags of                 |    true   |
+| sep?       | string  | seperator to seperate returned arguments      |    false    |
+| channelID? | integer | channel id of where the message is located in |    false    |
 
 
 ## Example

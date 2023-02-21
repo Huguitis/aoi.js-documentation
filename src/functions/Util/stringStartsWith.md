@@ -17,8 +17,8 @@ $stringStartsWith[text;check]
 
 | Field | Type   | Description                                                             | Required |
 | ----- | ------ | ----------------------------------------------------------------------- | -------- |
-| text  | string | the text that will be checked                                           | yes      |
-| check | string | the argument that will check if the text starts with something specific | yes      |
+| text  | string | the text that will be checked                                           | true      |
+| check | string | the argument that will check if the text starts with something specific | true      |
 
 ## Example
 

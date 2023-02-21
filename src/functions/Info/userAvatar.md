@@ -17,10 +17,10 @@ $userAvatar[userID?;size?;dynamic?;format?]
 
 | Field    | Type    | Description                                                    | Required |
 | -------- | ------- | -------------------------------------------------------------- |:--------:|
-| userID?  | integer | the ID of the user                                             |    no    |
-| size?    | integer | the size of the image                                          |    no    |
-| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |    no    |
-| format?  | string  |                                                                |    no    |
+| userID?  | integer | the ID of the user                                             |    false    |
+| size?    | integer | the size of the image                                          |    false    |
+| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |    false    |
+| format?  | string  |                                                                |    false    |
 
 
 ## Example

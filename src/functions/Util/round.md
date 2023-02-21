@@ -17,7 +17,7 @@ $round[number]
 
 | Field  | Type   | Description     | Required |
 | ------ | ------ | --------------- | -------- |
-| number | number | number to round | yes      |
+| number | number | number to round | true      |
 
 
 ## Example

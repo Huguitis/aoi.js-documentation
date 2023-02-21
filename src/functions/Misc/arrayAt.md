@@ -18,8 +18,8 @@ $arrayAt[name;index]
 
 | Field | Type   | Description                 | Required |
 | ----- | ------ | --------------------------- |:--------:|
-| name  | string | name of the array           |    yes   |
-| index | string | The position of the element |    yes   |
+| name  | string | name of the array           |    true   |
+| index | string | The position of the element |    true   |
 
 ## Example
 

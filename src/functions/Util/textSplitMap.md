@@ -17,7 +17,7 @@ $textSplit[awaited]
 
 | Field   | Type   | Description                 | Required |
 | ------- | ------ | --------------------------- | -------- |
-| awaited | string | name of the awaited command | yes      |
+| awaited | string | name of the awaited command | true      |
 
 
 ## Example

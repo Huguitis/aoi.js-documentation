@@ -17,14 +17,14 @@ $nickname[userID?;guildID?;returnUser?]
 
 | Field       | Type    | Description                                                      | Required |
 | ----------- | ------- | ---------------------------------------------------------------- | -------- |
-| guildID?    | integer | id of the guild                                                  | no       |
-| userID?     | integer | user ID of the person who you want the nickname of               | no       |
-| returnUser? | string  | return the username <br /> 1. **true** <br /> 2. **false** (default) | no       |
+| guildID?    | integer | id of the guild                                                  | false       |
+| userID?     | integer | user ID of the person who you want the nickname of               | false       |
+| returnUser? | string  | return the username <br /> 1. **true** <br /> 2. **false** (default) | false       |
 
 
 ## Example
 
-This will return your nickname, if you have none then it'll return your Discord username as `$nickname` returns nothing when the user has no nickname:
+This will return your nickname, if you have none then it'll return your Discord username as `$nickname` returns nothing when the user has false nickname:
 
 ```javascript
 bot.command({

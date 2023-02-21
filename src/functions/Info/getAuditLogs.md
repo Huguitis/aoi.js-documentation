@@ -17,11 +17,11 @@ $getAuditLogs[limit?;userID?;action?;guildID?;format?]
 
 | Field    | Type    | Description                                                                                                                                                              | Required |
 | -------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |:--------:|
-| limit?   | integer | the maximum of audit logs it will return                                                                                                                                 |    no    |
-| userID?  | integer | the user who executed the action stated in audit logs                                                                                                                    |    no    |
-| action?  | integer | the action that was executed  <br /> 1. **all** (default) will retrieve all actions without filtering <br /> 2. You can find all permissions [here][discord-permissions] |    no    |
-| guildID? | integer | guild ID                                                                                                                                                                 |    no    |
-| format?  | integer | the format to return the audit logs in                                                                                                                                   |    no    |
+| limit?   | integer | the maximum of audit logs it will return                                                                                                                                 |    false    |
+| userID?  | integer | the user who executed the action stated in audit logs                                                                                                                    |    false    |
+| action?  | integer | the action that was executed  <br /> 1. **all** (default) will retrieve all actions without filtering <br /> 2. You can find all permissions [here][discord-permissions] |    false    |
+| guildID? | integer | guild ID                                                                                                                                                                 |    false    |
+| format?  | integer | the format to return the audit logs in                                                                                                                                   |    false    |
 
 
 | Format              |                                                                   |

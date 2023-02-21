@@ -17,7 +17,7 @@ $isThread[channelID?]
 
 | Field      | Type    | Description                              | Required |
 | ---------- | ------- | ---------------------------------------- | -------- |
-| channelID? | integer | ID of the channel that you want to check | no       |
+| channelID? | integer | ID of the channel that you want to check | false       |
 
 
 ## Example

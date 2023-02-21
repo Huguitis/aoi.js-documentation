@@ -17,9 +17,9 @@ $channelPermissionsFor[userorroleID?;channelID?;sep?]
 
 | Field         | Type    | Description     | Required |
 | ------------- | ------- | --------------- |:--------:|
-| userorroleID? | integer | user or role ID |    yes   |
-| channelID?    | integer | channel ID      |    yes   |
-| sep?          | integer | guild ID        |    yes   |
+| userorroleID? | integer | user or role ID |    true   |
+| channelID?    | integer | channel ID      |    true   |
+| sep?          | integer | guild ID        |    true   |
 
 
 ## Example

@@ -19,8 +19,8 @@ $autoCompleteRespond[OptionName;OptionReply;...]
 
 | Field       | Type   | Description                                                          | Required |
 | ----------- | ------ | -------------------------------------------------------------------- |:--------:|
-| OptionName  | string | name of the auto-complete option                                     |    yes   |
-| OptionReply | string | the reply that will be sent if the auto-complete option was selected |    yes   |
+| OptionName  | string | name of the auto-complete option                                     |    true   |
+| OptionReply | string | the reply that will be sent if the auto-complete option was selected |    true   |
 
 
 ## Examples
@@ -96,7 +96,7 @@ bot.command({
     "value" : "You selected the second option, therefore I\'m responding with this!"
   }]]
   $else
-  $interactionReply[$slashOption[option] - autocomplete #SEMI# $slashOption[anotheroption] - no autocomplete;;;;everyone]
+  $interactionReply[$slashOption[option] - autocomplete #SEMI# $slashOption[anotheroption] - false autocomplete;;;;everyone]
   $endif
   `
 });

@@ -17,7 +17,7 @@ $modulo[...numbers;...numbers]
 
 | Field   | Type   | Description    | Required |
 | ------- | ------ | -------------- | -------- |
-| numbers | number | math operation | yes      |
+| numbers | number | math operation | true      |
 
 
 ## Example

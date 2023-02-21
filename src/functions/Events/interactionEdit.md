@@ -17,11 +17,11 @@ $interactionEdit[content?;embeds?;components?;files?;allowedMentions?]
 
 | Field            | Type   | Description                                                                     | Required |
 | ---------------- | ------ | ------------------------------------------------------------------------------- |:--------:|
-| content?         | string | message content                                                                 |    no    |
-| embeds?          | string | embed                                                                           |    no    |
-| components?      | string | components                                                                      |    no    |
-| files?           | string | files                                                                           |    no    |
-| allowedMentions? | string | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone** |    no    |
+| content?         | string | message content                                                                 |    false    |
+| embeds?          | string | embed                                                                           |    false    |
+| components?      | string | components                                                                      |    false    |
+| files?           | string | files                                                                           |    false    |
+| allowedMentions? | string | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone** |    false    |
 
 
 ## Example

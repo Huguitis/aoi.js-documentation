@@ -17,8 +17,8 @@ $findUser[userResolver;returnSelf?]
 
 | Field        | Type   | Description                                                                          | Required |
 | ------------ | ------ | ------------------------------------------------------------------------------------ | -------- |
-| userResolver | string | query which is used to find the user                                                 | yes      |
-| returnSelf?  | string | will return the user id of the user who executed the command when user was not found | no       |
+| userResolver | string | query which is used to find the user                                                 | true      |
+| returnSelf?  | string | will return the user id of the user who executed the command when user was not found | false       |
 
 
 ## Example

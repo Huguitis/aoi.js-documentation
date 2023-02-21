@@ -17,8 +17,8 @@ $deleteRoles[guildID;...roles]
 
 | Field   | Type    | Description     | Required |
 | ------- | ------- | --------------- |:--------:|
-| guildID | integer | guild ID        |    yes   |
-| roles   | string  | id of the roles |    yes   |
+| guildID | integer | guild ID        |    true   |
+| roles   | string  | id of the roles |    true   |
 
 
 ## Example

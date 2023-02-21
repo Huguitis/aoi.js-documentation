@@ -17,12 +17,12 @@ $addButton[index;label;style;customID;disabled?;emoji?]
 
 | Field     | Type   | Description                                                | Required |
 | --------- | ------ | ---------------------------------------------------------- |:--------:|
-| index     | number | in which row the button appears                            |    yes   |
-| label     | string | the text that will be displayed on the button              |    yes   |
-| style     | string | the button **[style][dp]**                                 |    yes   |
-| customID  | string | button custom ID                                           |    yes   |
-| disabled? | string | disabled? <br /> 1. **true** <br /> 2. **false** (default) |    no    |
-| emoji?    | string | emoji                                                      |    no    |
+| index     | number | in which row the button appears                            |    true   |
+| label     | string | the text that will be displayed on the button              |    true   |
+| style     | string | the button **[style][dp]**                                 |    true   |
+| customID  | string | button custom ID                                           |    true   |
+| disabled? | string | disabled? <br /> 1. **true** <br /> 2. **false** (default) |    false    |
+| emoji?    | string | emoji                                                      |    false    |
 
 <details open>
   <summary><h3> Button Types </h3></summary>

@@ -17,8 +17,8 @@ $roleCount[guildID?;fetchFirst?]
 
 | Field       | Type    | Description                                                                                | Required |
 | ----------- | ------- | ------------------------------------------------------------------------------------------ |:--------:|
-| guildID?    | integer | guild ID                                                                                   |    no    |
-| fetchFirst? | number  | fetch the roles first before returning them?  <br /> 1. **true** <br /> 2. **false** (default) |    no    |
+| guildID?    | integer | guild ID                                                                                   |    false    |
+| fetchFirst? | number  | fetch the roles first before returning them?  <br /> 1. **true** <br /> 2. **false** (default) |    false    |
 
 
 ## Example

@@ -17,7 +17,7 @@ $ordinal[number]
 
 | Field  | Type   | Description                                        | Required |
 | ------ | ------ | -------------------------------------------------- | -------- |
-| number | number | number which will add `st`, `nd`, `rd`, `th` to it | yes      |
+| number | number | number which will add `st`, `nd`, `rd`, `th` to it | true      |
 
 ## Example
 

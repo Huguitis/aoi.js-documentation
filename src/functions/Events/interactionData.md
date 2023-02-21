@@ -17,4 +17,4 @@ $interactionData[data]
 
 | Field | Type    | Description      | Required |
 | ----- | ------- | ---------------- |:--------:|
-| data  | integer | data to retrieve |    yes   |
+| data  | integer | data to retrieve |    true   |

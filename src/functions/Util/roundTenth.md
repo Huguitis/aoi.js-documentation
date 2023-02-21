@@ -17,8 +17,8 @@ $roundTenth[number;decimalPosition]
 
 | Field           | Type    | Description                           | Required |
 | --------------- | ------- | ------------------------------------- | -------- |
-| number          | number  | number to round                       | yes      |
-| decimalPosition | integer | how many numbers after the comma come | yes      |
+| number          | number  | number to round                       | true      |
+| decimalPosition | integer | how many numbers after the comma come | true      |
 
 
 ## Example

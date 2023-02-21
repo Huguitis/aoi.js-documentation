@@ -17,10 +17,10 @@ $addThreadMember[channelID;threadID;userID;reason]
 
 | Field     | Type    | Description                     | Required |
 | --------- | ------- | ------------------------------- |:--------:|
-| channelID | integer | channel ID                      |    yes   |
-| threadID  | integer | thread ID                       |    yes   |
-| userID    | integer | user id                         |    yes   |
-| reason    | string  | reason to display in audit logs |    yes   |
+| channelID | integer | channel ID                      |    true   |
+| threadID  | integer | thread ID                       |    true   |
+| userID    | integer | user id                         |    true   |
+| reason    | string  | reason to display in audit logs |    true   |
 
 
 ## Example

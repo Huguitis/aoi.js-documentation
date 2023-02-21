@@ -17,9 +17,9 @@ $channelSendMessage[channelID;message;returnID?]
 
 | Field     | Type    | Description                                                            | Required |
 | --------- | ------- | ---------------------------------------------------------------------- |:--------:|
-| channelID | integer | channel ID                                                             |    yes   |
-| message   | string  | message to send                                                        |    yes   |
-| returnID? | integer | return the message ID <br /> 1. **true** <br /> 2. **false** (default) |    no    |
+| channelID | integer | channel ID                                                             |    true   |
+| message   | string  | message to send                                                        |    true   |
+| returnID? | string  | return the message ID <br /> 1. **true** <br /> 2. **false** (default) |    false    |
 
 
 ## Example

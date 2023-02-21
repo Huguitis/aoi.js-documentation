@@ -17,8 +17,8 @@ $joinThread[channelID;threadID]
 
 | Field     | Type    | Description | Required |
 | --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    yes   |
-| threadID  | integer | thread ID   |    yes   |
+| channelID | integer | channel ID  |    true   |
+| threadID  | integer | thread ID   |    true   |
 
 ## Example
 
@@ -29,7 +29,7 @@ bot.command({
   name: 'joinThread',
   code: `
   $joinThread[$get[threadID]]
-  $let[threadID;$createThread[$channelID;Example!;1440;public;$messageID;yes]]
+  $let[threadID;$createThread[$channelID;Example!;1440;public;$messageID;true]]
   `
 });
 ```

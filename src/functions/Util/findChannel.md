@@ -17,8 +17,8 @@ $findChannel[channel;returnSelf?]
 
 | Field       | Type   | Description                                                                                            | Required |
 | ----------- | ------ | ------------------------------------------------------------------------------------------------------ | -------- |
-| channel     | string | channel name of the channel you want to find                                                           | yes      |
-| returnSelf? | string | will return the channel where the command is executed in by default if the given channel was not found | no       |
+| channel     | string | channel name of the channel you want to find                                                           | true      |
+| returnSelf? | string | will return the channel where the command is executed in by default if the given channel was not found | false       |
 
 
 ## Example

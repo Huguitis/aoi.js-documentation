@@ -17,8 +17,8 @@ $abbreviate[num;dec?]
 
 | Field | Type    | Description                    | Required |
 | ----- | ------- | ------------------------------ | -------- |
-| num   | integer | number to abbreviate           | yes      |
-| dec?  | integer | decimal between the abbreviate | no       |
+| num   | integer | number to abbreviate           | true      |
+| dec?  | integer | decimal between the abbreviate | false       |
 
 ## Example(s)
 

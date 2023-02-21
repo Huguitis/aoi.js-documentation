@@ -17,7 +17,7 @@ $deleteChannel[channelID]
 
 | Field     | Type    | Description | Required |
 | --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    yes   |
+| channelID | integer | channel ID  |    true   |
 
 
 ## Example

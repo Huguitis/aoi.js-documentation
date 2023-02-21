@@ -17,8 +17,8 @@ $roleId[roleResolver;guildID?]
 
 | Field        | Type   | Description                                   | Required |
 | ------------ | ------ | --------------------------------------------- | -------- |
-| roleResolver | string | name of the role                              | yes      |
-| guildID?     | string | id of the guild where the role was created in | no       |
+| roleResolver | string | name of the role                              | true      |
+| guildID?     | string | id of the guild where the role was created in | false       |
 
 
 ## Example

@@ -17,9 +17,9 @@ $getMessage[channelID;messageID;option?]
 
 | Field     | Type    | Description                                | Required |
 | --------- | ------- | ------------------------------------------ | -------- |
-| channelID | integer | channel ID of the embed                    | yes      |
-| messageID | integer | message ID of the embed                    | yes      |
-| option?   | string  | which part will be returned of the message | no       |
+| channelID | integer | channel ID of the embed                    | true      |
+| messageID | integer | message ID of the embed                    | true      |
+| option?   | string  | which part will be returned of the message | false       |
 
 <details open>
   <summary><h3> Options </h3></summary>

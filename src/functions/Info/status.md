@@ -17,8 +17,8 @@ $status[userId?;guildId?]
 
 | Field    | Type    | Description | Required |
 | -------- | ------- | ----------- |:--------:|
-| userId?  | integer | user ID     |    no    |
-| guildId? | integer | guild ID    |    no    |
+| userId?  | integer | user ID     |    false    |
+| guildId? | integer | guild ID    |    false    |
 
 
 ## Example

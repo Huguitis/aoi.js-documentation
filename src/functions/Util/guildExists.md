@@ -17,7 +17,7 @@ $guildExists[guildId]
 
 | Field   | Type    | Description | Required |
 | ------- | ------- | ----------- | -------- |
-| guildId | integer | guild id    | yes      |
+| guildId | integer | guild id    | true      |
 
 
 ## Example

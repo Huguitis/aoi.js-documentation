@@ -17,8 +17,8 @@ $messageWebhookID[messageID?;channelID?]
 
 | Field      | Type    | Description                                   | Required |
 | ---------- | ------- | --------------------------------------------- |:--------:|
-| messageID? | integer | id of the message                             |    no    |
-| channelID? | integer | channel ID of where the message is located in |    no    |
+| messageID? | integer | id of the message                             |    false    |
+| channelID? | integer | channel ID of where the message is located in |    false    |
 
 
 ## Example

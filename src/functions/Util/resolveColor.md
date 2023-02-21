@@ -17,9 +17,9 @@ $resolveColor[type;returnAs?;...datas]
 
 | Field     | Type   | Description                               | Required |
 | --------- | ------ | ----------------------------------------- | -------- |
-| type      | string | which type the input is                   | yes      |
-| returnAs? | string | as what the color will be returned        | no       |
-| datas     | string | the data of the rgb or decimal color data | yes      |
+| type      | string | which type the input is                   | true      |
+| returnAs? | string | as what the color will be returned        | false       |
+| datas     | string | the data of the rgb or decimal color data | true      |
 
 
 ### Types

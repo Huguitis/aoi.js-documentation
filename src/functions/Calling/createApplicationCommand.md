@@ -18,12 +18,12 @@ $createApplicationCommand[guildID/global;name;description;defaultPermission;type
 
 | Field              | Type    | Description                     | Required |
 | ------------------ | ------- | ------------------------------- |:--------:|
-| guildID/global     | string  | guild ID                        |    yes   |
-| name               | string  | application command name        |    yes   |
-| description        | string  | application command description |    yes   |
-| defaultPermissions | string  | true/false                      |    yes   |
-| type?              | string  | (slash/user/message)            |    no    |
-| options?           | string  | slash command options           |    no    |
+| guildID/global     | string  | guild ID                        |    true   |
+| name               | string  | application command name        |    true   |
+| description        | string  | application command description |    true   |
+| defaultPermissions | string  | true/false                      |    true   |
+| type?              | string  | (slash/user/message)            |    false    |
+| options?           | string  | slash command options           |    false    |
 
 <details>
   <summary><h3> Application Command Option Type </h3></summary>

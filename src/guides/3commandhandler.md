@@ -1,6 +1,6 @@
 ---
 title: Command Handler
-description: Command Handler Setup - How to use it.
+description: This guide will be covering how to start using command handlers, creating multiple commands in one file and updating commands without restarting your Discord Bot.
 id: commandhandler
 ---
 

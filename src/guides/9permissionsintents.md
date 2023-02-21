@@ -1,6 +1,6 @@
 ---
 title: Permissions & Intents 
-description: All permissions and intents.
+description: This page is covering all permissions and intents.
 id: permissionsandintents
 ---
 

@@ -17,7 +17,7 @@ $systemChannelID[guildID?]
 
 | Field    | Type    | Description | Required |
 | -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    yes   |
+| guildID? | integer | guild ID    |    true   |
 
 
 ## Example

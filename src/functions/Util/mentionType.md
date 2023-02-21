@@ -17,7 +17,7 @@ $mentionType[mention]
 
 | Field   | Type   | Description         | Required |
 | ------- | ------ | ------------------- | -------- |
-| mention | string | any type of mention | yes      |
+| mention | string | any type of mention | true      |
 
 <details open>
   <summary> <h3> Available Types </h3></summary>

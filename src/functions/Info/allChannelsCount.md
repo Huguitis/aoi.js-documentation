@@ -17,7 +17,7 @@ $allChannelsCount[type?]
 
 | Field | Type   | Description                 | Required |
 | ----- | ------ | --------------------------- | -------- |
-| type? | string | type you want the amount of | no       |
+| type? | string | type you want the amount of | false       |
 
 <details open>
   <summary><h3> Channel Types </h3></summary>

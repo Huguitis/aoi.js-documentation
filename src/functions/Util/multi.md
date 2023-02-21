@@ -17,7 +17,7 @@ $multi[...numbers;...numbers]
 
 | Field   | Type   | Description                  | Required |
 | ------- | ------ | ---------------------------- | -------- |
-| numbers | number | numbers you want to multiply | yes      |
+| numbers | number | numbers you want to multiply | true      |
 
 ## Example
 

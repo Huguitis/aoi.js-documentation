@@ -17,9 +17,9 @@ $cloneChannel[channelID;name;returnID?]
 
 | Field     | Type    | Description                | Required |
 | --------- | ------- | -------------------------- |:--------:|
-| channelID | integer | channel ID to clone        |    yes   |
-| name      | string  | name of the cloned channel |    yes   |
-| returnID? | string  | return channel ID          |    no    |
+| channelID | integer | channel ID to clone        |    true   |
+| name      | string  | name of the cloned channel |    true   |
+| returnID? | string  | return channel ID          |    false    |
 
 ### It won't clone any messages of that channel.
 

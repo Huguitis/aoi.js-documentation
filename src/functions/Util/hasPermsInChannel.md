@@ -17,9 +17,9 @@ $hasPermsInChannel[channelID;userorroleID;...perms]
 
 | Field        | Type    | Description                                               | Required |
 | ------------ | ------- | --------------------------------------------------------- | -------- |
-| channelD     | integer | ID of the channel where the client checks the permissions | yes      |
-| userorroleID | integer | ID of the user or role                                    | yes      |
-| perms        | string  | permissions needed                                        | yes      |
+| channelD     | integer | ID of the channel where the client checks the permissions | true      |
+| userorroleID | integer | ID of the user or role                                    | true      |
+| perms        | string  | permissions needed                                        | true      |
 
 <details>
   <summary> <h3> Discord API Permissions </h3></summary>

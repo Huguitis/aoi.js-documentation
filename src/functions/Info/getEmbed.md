@@ -17,10 +17,10 @@ $getEmbed[channelID?;messageID?;index?;option?]
 
 | Field     | Type    | Description                                         | Required |
 | --------- | ------- | --------------------------------------------------- | -------- |
-| channelID | integer | channel ID of the embed                             | yes      |
-| messageID | integer | message ID of the embed                             | yes      |
-| index     | integer | index of the embed, 1 first embed, 2 second embed.. | yes      |
-| option    | string  | which part will be returned of the embed            | yes      |
+| channelID | integer | channel ID of the embed                             | true      |
+| messageID | integer | message ID of the embed                             | true      |
+| index     | integer | index of the embed, 1 first embed, 2 second embed.. | true      |
+| option    | string  | which part will be returned of the embed            | true      |
 
 <details>
   <summary><h3> Options </h3></summary>

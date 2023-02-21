@@ -17,8 +17,8 @@ $roleName[roleID;guildID?]
 
 | Field    | Type    | Description | Required |
 | -------- | ------- | ----------- |:--------:|
-| roleID   | integer | role ID     |    yes   |
-| guildID? | integer | guild ID    |    no    |
+| roleID   | integer | role ID     |    true   |
+| guildID? | integer | guild ID    |    false    |
 
 
 ## Example

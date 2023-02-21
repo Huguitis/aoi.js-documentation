@@ -17,8 +17,8 @@ $image[index?;url]
 
 | Field  | Type   | Description              | Required |
 | ------ | ------ | ------------------------ |:--------:|
-| index? | number | embed index/position     |    no    |
-| url    | string | image (bottom big image) |    yes   |
+| index? | number | embed index/position     |    false    |
+| url    | string | image (bottom big image) |    true   |
 
 ## Example
 

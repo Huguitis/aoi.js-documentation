@@ -17,11 +17,11 @@ $createWebhook[channelID;name;avatar;reason;separator?]
 
 | Field      | Type    | Description                                             | Required |
 | ---------- | ------- | ------------------------------------------------------- |:--------:|
-| channelID  | integer | channel ID where the webhook will be created in         |    yes   |
-| name       | string  | webhook display name                                    |    yes   |
-| avatar     | string  | webhook avatar                                          |    yes   |
-| reason     | string  | reason that will be displayed in the guild's audit logs |    yes   |
-| seperator? | string  | seperator to seperate webhook token, id, etc.           |    no    |
+| channelID  | integer | channel ID where the webhook will be created in         |    true   |
+| name       | string  | webhook display name                                    |    true   |
+| avatar     | string  | webhook avatar                                          |    true   |
+| reason     | string  | reason that will be displayed in the guild's audit logs |    true   |
+| seperator? | string  | seperator to seperate webhook token, id, etc.           |    false    |
 
 
 ## Example

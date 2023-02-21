@@ -17,8 +17,8 @@ $addObjectProperty[name;value]
 
 | Field | Type   | Description           | Required |
 | ----- | ------ | --------------------- |:--------:|
-| name  | string | name of the propery   |    yes   |
-| value | string | value of the property |    yes   |
+| name  | string | name of the propery   |    true   |
+| value | string | value of the property |    true   |
 
 
 ## Example

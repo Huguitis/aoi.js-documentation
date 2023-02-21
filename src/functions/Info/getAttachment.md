@@ -17,7 +17,7 @@ $getAttachment[channelID;messageID;index?;option?]
 
 | Field     | Type    | Description      | Required |
 | --------- | ------- | ---------------- |:--------:|
-| channelID | integer | guild ID         |    yes   |
-| messageID | integer | message ID       |    yes   |
-| index?    | number  | attachment index |    no    |
-| option?   | string  | property         |    no    |
+| channelID | integer | guild ID         |    true   |
+| messageID | integer | message ID       |    true   |
+| index?    | number  | attachment index |    false    |
+| option?   | string  | property         |    false    |
