@@ -269,7 +269,7 @@ bot.command({
 | ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
 
 ## Interaction Functions
-* **[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Events/createApplicationCommand.md)**
+* **[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Calling/createApplicationCommand.md)**
 * **[$interactionReply[message;embeds?;components?;files?;ephemeral(true/false)]](../functions/Events/interactionReply.md)**
 * **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
 * **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
