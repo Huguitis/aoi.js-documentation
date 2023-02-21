@@ -22,16 +22,21 @@ npm install https://github.com/akaruidevelopment/music#main
 
 ```javascript
 const aoijs = require("aoi.js");
-const { AoiVoice } = require("@akarui/aoi.music");
+const {
+    AoiVoice,
+    PlayerEvents,
+    PluginName,
+    Cacher,
+    Filter,
+} = require(`@akarui/aoi.music`);
 
 const bot = new aoijs.AoiClient({
     token: "Discord Bot Token",
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages", "GuildVoiceStates"],
+    events: ["onMessage"]
 });
 
-//Events
-bot.onMessage();
 
 //Command Example (ping)
 bot.command({
@@ -49,6 +54,19 @@ const voice = new AoiVoice(bot, {
         soundcloudLikeTrackLimit: 200,
     },
 });
+// adds a cacher plugin
+voice.addPlugin(PluginName.Cacher, new Cacher("memory" /* or "disk" */));
+// adds a filter plugin
+voice.addPlugin(
+    PluginName.Filter,
+    new Filter({
+        filterFromStart: false,
+    }),
+);
+
+voice.bindExecutor(client.functionManager.interpreter);
+
+voice.addEvent(PlayerEvents.TRACK_START);
 ```
 
 ## All Available Options
