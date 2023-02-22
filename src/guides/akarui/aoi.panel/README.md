@@ -1,5 +1,5 @@
 ---
-title: akarui/aoi.panel
+title: aoi.panel
 description: Setting up aoi.panel with ease.
 id: aoi.panel
 ---
