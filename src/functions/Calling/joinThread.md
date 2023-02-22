@@ -16,9 +16,9 @@ $joinThread[channelID;threadID]
 
 
 | Field     | Type    | Description | Required |
-| --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    true   |
-| threadID  | integer | thread ID   |    true   |
+|-----------|---------|-------------|:--------:|
+| channelID | integer | channel ID  |   true   |
+| threadID  | integer | thread ID   |   true   |
 
 ## Example
 

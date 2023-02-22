@@ -36,12 +36,12 @@ bot.command({
   name: "awaitCmdReaction",
   code: `
   React with "❤️" for a surprise! 
-  $awaitCmdReactions[$authorID;10s;❤️;awaitedCommandExample;Whoops! You didn't react in time..]
+  $awaitCmdReactions[$authorID;10s;❤️;awaitedcommandexample;Whoops! You didn't react in time..]
   `
 });
 
 bot.awaitedCommand({
-  name: "awaitedCommandExample",
+  name: "awaitedcommandexample",
   code: `
   Nice, you reacted with ❤️.
   `

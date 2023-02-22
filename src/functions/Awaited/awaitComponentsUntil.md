@@ -1,10 +1,10 @@
 ---
 title: $awaitComponentsUntil 
-description: $awaitComponentsUntil awaits message components.
+description: $awaitComponentsUntil awaits message components until a specific time and makes in unuseable after that time.
 id: awaitComponentsUntil
 ---
 
-`$awaitComponentsUntil` awaits message components.
+`$awaitComponentsUntil` awaits message components until a specific time and makes in unuseable after that time.
 
 ## Usage
 

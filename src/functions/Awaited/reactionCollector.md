@@ -36,13 +36,13 @@ This will send a message when you add a reaction:
 bot.command({
   name: "reactionCollector",
   code: `
-  $reactionCollector[$channelID;$splitText[1];$authorID;10m;👀;awaitReaction;true]
+  $reactionCollector[$channelID;$splitText[1];$authorID;10m;👀;awaitreaction;true]
   $textSplit[$sendMessage[React with "👀" for something special!;true]; ]
   `
 });
 
 bot.awaitedCommand({
-  name: "awaitReaction",
+  name: "awaitreaction",
   code: `
   $sendMessage[👀 what's this?]
   `

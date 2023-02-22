@@ -29,7 +29,7 @@ This will return the amount of servers your bot is in:
 bot.command({
   name: 'broadcastEval',
   code: `
-  $broadcastEval[$serverCount]
+  $broadcastEval[$guildCount]
   `
 });
 ```

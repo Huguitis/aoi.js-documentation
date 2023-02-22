@@ -1,0 +1,33 @@
+---
+title: $killShard
+description: $killShard will kill a given shard.
+id: killShard
+---
+
+`$killShard` $killShard will kill a given shard. (requires sharding)
+
+## Usage
+
+```php
+$killShard[shardID]
+```
+
+## Parameters 
+
+
+| Field   | Type   | Description | Required |
+|---------|--------|-------------|:--------:|
+| shardID | number | shard ID    |   true   |
+
+## Example
+
+This will kill the current shard ( requires **sharding** ):
+
+```javascript
+bot.command({
+  name: 'killShard',
+  code: `
+  $killShard[$shardID]
+  `
+});
+```

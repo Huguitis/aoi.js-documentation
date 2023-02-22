@@ -19,10 +19,10 @@ $createThread[channelID;name;archive;type;startMessage;returnId?]
 | ------------ | ------- | ------------------------------------------------------------------------------ |:--------:|
 | channelID    | integer | guild ID                                                                       |    true   |
 | name         | string  | thread name                                                                    |    true   |
-| archieve     | string  | achieve after how much time  <br /> 1. *time in ms* |    true   |
+| archieve     | string  | achieve after how much time  <br /> 1. *time in ms*                            |    true   |
 | type         | string  | thread type <br /> 1. **public** (default) <br /> 2. **private**               |    true   |
 | startMessage | string  | thread start message ID                                                        |    true   |
-| returnId?    | string  | return thread ID                                                               |    false    |
+| returnId?    | string  | return thread ID                                                               |    false  |
 
 * **60 —** This option makes the thread stays active for **1 hour**. 
 * **1140 —** This option makes the thread stays active for **1 day**.

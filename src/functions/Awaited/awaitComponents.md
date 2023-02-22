@@ -12,8 +12,7 @@ id: awaitComponents
 $awaitComponents[messageID;userFilter;customID;commands;errorMsg?;uses?;data?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                                                                    | Required |
 | ---------- | ------- | ---------------------------------------------------------------------------------------------- |:--------:|

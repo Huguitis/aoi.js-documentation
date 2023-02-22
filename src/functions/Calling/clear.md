@@ -31,6 +31,7 @@ This will delete the most recent fifty messages which are not pinned:
 bot.command({
   name: 'clear',
   code: `
+  Purged 50 messages!
   $clear[50;unPins;false;$channelID]
   `
 });
