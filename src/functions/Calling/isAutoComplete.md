@@ -16,7 +16,7 @@ $isAutoComplete
 
 This will create a slash command with the "autoComplete" feature: 
 
-Please note that you require "**onInteraction**" in your main file (also known as, in most cases, index.js)
+Please note that you require "**events: ["onMessage", "onInteractionCreate"]**" in your main file (also known as, in most cases, index.js)
 
 ```javascript
 bot.command({

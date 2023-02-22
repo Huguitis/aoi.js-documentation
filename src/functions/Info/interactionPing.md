@@ -12,7 +12,7 @@ id: interactionPing
 $interactionPing
 ```
 
-#### Please note that you require `bot.onInteractionCreate();` to be in your main file.
+#### Please note that you require `events: ["onMessage", "onInteractionCreate"]` to be in your main file.
 
 ## Example
 

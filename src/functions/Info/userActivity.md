@@ -1,15 +1,15 @@
 ---
-title: $activity 
+title: $userActivity 
 description: $activity will return a user's activity.
-id: activity
+id: userActivity
 ---
 
-`$activity` will return a user's current activity.
+`$userActivity` will return a user's current activity.
 
 ## Usage
 
 ```php
-$activity[guildID?;userID?]
+$userActivity[guildID?;userID?]
 ```
 
 ## Parameters 
@@ -27,9 +27,9 @@ This will return your current Activity:
 
 ```javascript
 bot.command({
-  name: 'activity',
+  name: 'useractivity',
   code: `
-  $activity[$guildID;$authorID]
+  $userActivity[$guildID;$authorID]
   `
 });
 ```

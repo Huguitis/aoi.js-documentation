@@ -25,8 +25,8 @@ $autoCompleteRespond[OptionName;OptionReply;...]
 
 ## Examples
 
-Create the slash-commands: (please note that you require the `onInteractionCreate` callback (`events: ["onMessage", "onInteractionCreate"]`) in your main file)
 
+Create the slash-commands: (please note that you require the `events: ["onMessage", "onInteractionCreate"]` callback in your main file)
 ```javascript
 bot.command({
   name: 'createSlashCommand',
@@ -58,7 +58,7 @@ bot.command({
 
 ### Advanced Example
 
-Create the slash-commands: (please note that you require the `onInteractionCreate` callback (`events: ["onMessage", "onInteractionCreate"]`) in your main file)
+Create the slash-commands: (please note that you require the `events: ["onMessage", "onInteractionCreate"]` callback in your main file)
 
 ```javascript
 bot.command({

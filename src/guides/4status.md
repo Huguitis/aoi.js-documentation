@@ -18,31 +18,34 @@ id: status
 #### This section will cover how to customize your bot's status.
 
 First of all we have to add the following piece of code to our main file:
-```js
+
+```javascript
 bot.status({
   text: "Example Text!",
   type: "PLAYING",
   time: 12
 });
 ```
+
 This will display the text "Example Text!" as bot status, of course you can modify it.
 
 If you want to have multiple statuses just add multiple `bot.status({...})`, simple do the following:
-```js
+
+```javascript
 bot.status({
-  text: "Example Text!",
+  text: "Example Text one!",
   type: "PLAYING",
   time: 12
 });
 
 bot.status({
-  text: "Example Text!",
+  text: "Example Text two!",
   type: "WATCHING",
   time: 20
 });
 
 bot.status({
-  text: "Example Text!",
+  text: "Example Text three!",
   type: "STEAMING",
   url: "URL"
 });
@@ -50,16 +53,17 @@ bot.status({
 
 There are various types of statuses:
 
-> * **PLAYING**
-> * **WATCHING**
-> * **STREAMING** 
-> * **LISTENING**
-> * **COMPETING**
+ * **PLAYING**
+ * **WATCHING**
+ * **STREAMING** 
+ * **LISTENING**
+ * **COMPETING**
 
 ### Client Presence 
 
 You can also set the bot's presence, by adding the `status` property, for example:
-```js
+
+```javascript
 bot.status({
   text: "Example Text!",
   type: "PLAYING",
@@ -76,17 +80,18 @@ There are multiple types of presences:
 > * **invisible**
 > * **mobilePlatform**  
   > To use the mobile presence you have to change your setup in your main file and add `mobilePlatform: true`:
-  ```js
- const aoijs = require("aoi.js");
+  
+```javascript
+const aoijs = require("aoi.js");
  
- const bot = new aoijs.AoiClient({
+const bot = new aoijs.AoiClient({
    token: "DISCORD BOT TOKEN",
    prefix: "DISCORD BOT PREFIX",
    intents: ["Guilds", "GuildMessages", "MessageContent"],
    events: ["onMessage"],
    mobilePlatform: true
- });
- ```
+})
+```
 
 <!--- links -->
 [1]: #bot-status
