@@ -12,13 +12,12 @@ id: abbreviate
 $abbreviate[num;dec?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type    | Description                    | Required |
-| ----- | ------- | ------------------------------ | -------- |
-| num   | integer | number to abbreviate           | true      |
-| dec?  | integer | decimal between the abbreviate | false       |
+|-------|---------|--------------------------------|----------|
+| num   | integer | number to abbreviate           | true     |
+| dec?  | integer | decimal between the abbreviate | false    |
 
 ## Example(s)
 
@@ -26,8 +25,8 @@ This returns: `20k`
 
 ```javascript
 bot.command({
-  name: 'abbreviate',
-  code: `
+    name: 'abbreviate',
+    code: `
   $abbreviate[20000]
   `
 });
@@ -37,8 +36,8 @@ This returns: `20.0k`
 
 ```javascript
 bot.command({
-  name: 'abbreviate',
-  code: `
+    name: 'abbreviate',
+    code: `
   $abbreviate[20000;1]
   `
 });

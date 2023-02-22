@@ -1,11 +1,10 @@
 ---
-title: $hasPerms 
+title: $hasPerms
 description: $hasPerms will check if the user has the required permission.
 id: hasPerms
 ---
 
 `$hasPerms` will check if the user has the required permission.
-
 
 ## Usage
 
@@ -13,20 +12,19 @@ id: hasPerms
 $hasPerms[guildID;userID;...perms]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description                                             | Required |
-| ------- | ------- | ------------------------------------------------------- | -------- |
-| guildID | integer | ID of the guild where the client checks the permissions | true      |
-| userID  | integer | ID of the user                                          | false       |
-| perms   | string  | permissions needed                                      | true      |
+|---------|---------|---------------------------------------------------------|----------|
+| guildID | integer | ID of the guild where the client checks the permissions | true     |
+| userID  | integer | ID of the user                                          | false    |
+| perms   | string  | permissions needed                                      | true     |
 
 <details>
   <summary> <h3> Discord API Permissions </h3></summary>
 
 | Permission              |                                                                 |
-| ----------------------- | --------------------------------------------------------------- |
+|-------------------------|-----------------------------------------------------------------|
 | createinvite            | Permission to create guild invites                              |
 | kickmembers             | Permission to kick guild members                                |
 | banmembers              | Permission to ban guild members                                 |
@@ -78,8 +76,8 @@ This will return `true` when the author has `kick` permissions and return `false
 
 ```javascript
 bot.command({
-  name: 'hasPerms',
-  code: `
+    name: 'hasPerms',
+    code: `
   $hasPerms[$guildID;$authorID;kick]
   `
 });

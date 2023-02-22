@@ -1,5 +1,5 @@
 ---
-title: $newPresence 
+title: $newPresence
 description: $newPresence holds data of the updated presence.
 id: newPresence
 ---
@@ -12,9 +12,8 @@ id: newPresence
 $newPresence[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

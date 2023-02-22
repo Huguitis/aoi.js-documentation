@@ -1,5 +1,5 @@
 ---
-title: $autoCompleteRespond 
+title: $autoCompleteRespond
 description: $autoCompleteRespond is used to auto-complete slash options.
 id: autoCompleteRespond
 ---
@@ -11,26 +11,27 @@ id: autoCompleteRespond
 ```php
 $autoCompleteRespond[json]
 ```
+
 ```php
 $autoCompleteRespond[OptionName;OptionReply;...]
 ```
 
-## Parameters 
+## Parameters
 
 | Field       | Type   | Description                                                          | Required |
-| ----------- | ------ | -------------------------------------------------------------------- |:--------:|
-| OptionName  | string | name of the auto-complete option                                     |    true   |
-| OptionReply | string | the reply that will be sent if the auto-complete option was selected |    true   |
-
+|-------------|--------|----------------------------------------------------------------------|:--------:|
+| OptionName  | string | name of the auto-complete option                                     |   true   |
+| OptionReply | string | the reply that will be sent if the auto-complete option was selected |   true   |
 
 ## Examples
 
+Create the slash-commands: (please note that you require the `events: ["onMessage", "onInteractionCreate"]` callback in
+your main file)
 
-Create the slash-commands: (please note that you require the `events: ["onMessage", "onInteractionCreate"]` callback in your main file)
 ```javascript
 bot.command({
-  name: 'createSlashCommand',
-  code: `
+    name: 'createSlashCommand',
+    code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
   "name": "option", // slash command name
   "description": "test", // slash command description
@@ -41,12 +42,14 @@ bot.command({
   `
 });
 ```
+
 Interaction Command:
+
 ```javascript
 bot.command({
-  name: "test",
-  prototype: "slash",
-  code: `
+    name: "test",
+    prototype: "slash",
+    code: `
   $if[$isAutocomplete==true]
   $autoCompleteRespond[First option;You selected the first option, therefore I'm responding with this!;Second option;You selected the first second, therefore I'm responding with this!]
   $else
@@ -58,12 +61,13 @@ bot.command({
 
 ### Advanced Example
 
-Create the slash-commands: (please note that you require the `events: ["onMessage", "onInteractionCreate"]` callback in your main file)
+Create the slash-commands: (please note that you require the `events: ["onMessage", "onInteractionCreate"]` callback in
+your main file)
 
 ```javascript
 bot.command({
-  name: 'createSlashCommand',
-  code: `
+    name: 'createSlashCommand',
+    code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
   "name": "option", // slash command name
   "description": "test", // slash command description
@@ -84,10 +88,10 @@ Interaction Command:
 
 ```javascript
 bot.command({
-  name: "test",
-  prototype: "slash",
-  $if: "old",
-  code: `
+    name: "test",
+    prototype: "slash",
+    $if: "old",
+    code: `
   $if[$isAutocomplete==true]
   $autoCompleteRespond[[{ 
     "name" : "First Option",

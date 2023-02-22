@@ -1,5 +1,5 @@
 ---
-title: $isValidHex 
+title: $isValidHex
 description: $isValidHex will check if the given hex / decimal color is valid.
 id: isValidHex
 ---
@@ -12,13 +12,11 @@ id: isValidHex
 $isValidHex[color/int]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type           | Description                | Required |
-| --------- | -------------- | -------------------------- | -------- |
-| color/int | string/integer | hex / decimal color string | true      |
-
+|-----------|----------------|----------------------------|----------|
+| color/int | string/integer | hex / decimal color string | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` as `#30dbd8` is an valid hex color:
 
 ```javascript
 bot.command({
-  name: 'isValidHex',
-  code: `
+    name: 'isValidHex',
+    code: `
   $isValidHex[#30dbd8]
   `
 });
@@ -35,11 +33,10 @@ bot.command({
 
 This will return `true` as well as `80` is an valid hexadecimal color:
 
-
 ```javascript
 bot.command({
-  name: 'isValidHex',
-  code: `
+    name: 'isValidHex',
+    code: `
   $isValidHex[80]
   `
 });

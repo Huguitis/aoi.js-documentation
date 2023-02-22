@@ -1,5 +1,5 @@
 ---
-title: $shard 
+title: $shard
 description: $shard returns the shard ID.
 id: shard
 ---
@@ -12,9 +12,8 @@ id: shard
 $shard[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description | Required |
-| ------ | ------ | ----------- |:--------:|
-| option | string | option      |    true   |
+|--------|--------|-------------|:--------:|
+| option | string | option      |   true   |

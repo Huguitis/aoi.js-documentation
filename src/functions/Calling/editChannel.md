@@ -1,5 +1,5 @@
 ---
-title: $editChannel 
+title: $editChannel
 description: $editChannel will edit a channel.
 id: editChannel
 ---
@@ -12,26 +12,25 @@ id: editChannel
 $editChannel[channelID;name?;type?;position?;topic?;nsfw?;bitrate?;userlimit?;parent?;lockPermissions?;permissionOverwrites?;rateLimitPerUser?;defaultAutoArchiveDuration?;rtcRegion?;reason?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field                       | Type    | Description                                             | Required |
-| --------------------------- | ------- | ------------------------------------------------------- |:--------:|
-| channelID                   | integer | channel ID                                              |    true   |
-| name?                       | string  | new channel name                                        |    false    |
-| type?                       | string  | channel type                                            |    false    |
-| position?                   | string  | channel position                                        |    false    |
-| topic?                      | string  | channel topic                                           |    false    |
-| nsfw?                       | string  | mark channel as nsfw                                    |    false    |
-| bitrate?                    | integer | voice channel bitrate                                   |    false    |
-| userlimit?                  | number  | voice channel userlimit                                 |    false    |
-| parent?                     | integer | channel parent (Category)                               |    false    |
-| lockPermissions?            | string  | channels lock permissions                               |    false    |
-| permissionOverwrites?       | string  | channels overwrites                                     |    false    |
-| rateLimitPerUser?           | number  | channel slowmode                                        |    false    |
-| defaultAutoArchiveDuration? | number  | thread/forum archive duration (in ms)                   |    false    |
-| rtcRegion?                  | string  | voice channel rtc region                                |    false    |
-| reason?                     | string  | reason that will be displayed in the guild's audit logs |    false    |
+|-----------------------------|---------|---------------------------------------------------------|:--------:|
+| channelID                   | integer | channel ID                                              |   true   |
+| name?                       | string  | new channel name                                        |  false   |
+| type?                       | string  | channel type                                            |  false   |
+| position?                   | string  | channel position                                        |  false   |
+| topic?                      | string  | channel topic                                           |  false   |
+| nsfw?                       | string  | mark channel as nsfw                                    |  false   |
+| bitrate?                    | integer | voice channel bitrate                                   |  false   |
+| userlimit?                  | number  | voice channel userlimit                                 |  false   |
+| parent?                     | integer | channel parent (Category)                               |  false   |
+| lockPermissions?            | string  | channels lock permissions                               |  false   |
+| permissionOverwrites?       | string  | channels overwrites                                     |  false   |
+| rateLimitPerUser?           | number  | channel slowmode                                        |  false   |
+| defaultAutoArchiveDuration? | number  | thread/forum archive duration (in ms)                   |  false   |
+| rtcRegion?                  | string  | voice channel rtc region                                |  false   |
+| reason?                     | string  | reason that will be displayed in the guild's audit logs |  false   |
 
 ### Note: you can use `$default` to keep the current property.
 
@@ -39,7 +38,7 @@ $editChannel[channelID;name?;type?;position?;topic?;nsfw?;bitrate?;userlimit?;pa
   <summary><h3> Channel Types </h3></summary>
 
 | Channel Type         |                    |
-| -------------------- | ------------------ |
+|----------------------|--------------------|
 | Text Channel         | Text               |
 | Voice Channel        | Voice              |
 | Category             | Category           |
@@ -60,8 +59,8 @@ This will change the current channel name to "I love aoi.js" and move it to the 
 
 ```javascript
 bot.command({
-  name: 'editChannel',
-  code: `
+    name: 'editChannel',
+    code: `
   $editChannel[$channelID;I love aoi.js;$default;1]
   `
 });

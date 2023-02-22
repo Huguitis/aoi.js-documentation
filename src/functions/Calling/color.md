@@ -1,5 +1,5 @@
 ---
-title: $color 
+title: $color
 description: $color will change the color to an embed.
 id: color
 ---
@@ -12,13 +12,12 @@ id: color
 $color[index?;hex]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type    | Description | Required |
-| ------ | ------- | ----------- |:--------:|
-| index? | integer | embed index |    false   |
-| hex    | string  | hex color   |    true    |
+|--------|---------|-------------|:--------:|
+| index? | integer | embed index |  false   |
+| hex    | string  | hex color   |   true   |
 
 <details>
   <summary><h3> Embed Colors </h3></summary>
@@ -54,9 +53,8 @@ $color[index?;hex]
 ![c](https://placehold.co/15x15/2C2F33/2C2F33.png) DarkButNotBlack <br />
 ![c](https://placehold.co/15x15/23272A/23272A.png) NotQuiteBlack <br />
 ![c](https://placehold.co/15x15/000000/000000.png) Random
-  
-</details>
 
+</details>
 
 ## Example
 
@@ -64,8 +62,8 @@ This will return a red embed:
 
 ```javascript
 bot.command({
-  name: 'color',
-  code: `
+    name: 'color',
+    code: `
   $description[What a nice color!]
   $color[Red]
   `
@@ -74,8 +72,8 @@ bot.command({
 
 ```javascript
 bot.command({
-  name: 'color',
-  code: `
+    name: 'color',
+    code: `
   $description[What a nice color!]
   $color[ED4245]
   `

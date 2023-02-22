@@ -1,10 +1,12 @@
 ---
-title: $newMember 
-description: $newMember holds data for the member after the update, might be a good idea to check partial option before accessing any property. (memberUpdate callback)
+title: $newMember
+description: $newMember holds data for the member after the update, might be a good idea to check partial option before
+accessing any property. (memberUpdate callback)
 id: newMember
 ---
 
-`$newMember` holds data for the member after the update, might be a good idea to check partial option before accessing any property. (memberUpdate callback)
+`$newMember` holds data for the member after the update, might be a good idea to check partial option before accessing
+any property. (memberUpdate callback)
 
 ## Usage
 
@@ -12,9 +14,8 @@ id: newMember
 $newMember[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

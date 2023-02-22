@@ -1,5 +1,5 @@
 ---
-title: $isContextMenuInteraction 
+title: $isContextMenuInteraction
 description: $isContextMenuInteraction will return either true or false depending on the type of the interaction.
 id: isContextMenuInteraction
 ---

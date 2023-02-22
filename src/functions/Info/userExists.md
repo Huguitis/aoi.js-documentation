@@ -1,5 +1,5 @@
 ---
-title: $userExists 
+title: $userExists
 description: $userExists will check if a given user exists.
 id: userExists
 ---
@@ -12,22 +12,21 @@ id: userExists
 $userExists[userID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description | Required |
-| ------- | ------- | ----------- |:--------:|
-| userID? | integer | user ID     |    false    |
-
+|---------|---------|-------------|:--------:|
+| userID? | integer | user ID     |  false   |
 
 ## Example
 
-This will return either `true` or `false` depending on if the user exists, in this example below it will return `true` as you exist as Discord user:
+This will return either `true` or `false` depending on if the user exists, in this example below it will return `true`
+as you exist as Discord user:
 
 ```javascript
 bot.command({
-  name: 'userExists',
-  code: `
+    name: 'userExists',
+    code: `
   $userExists[$authorID]
   `
 });

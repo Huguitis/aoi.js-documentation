@@ -1,10 +1,10 @@
 ---
-title: $textSplit 
+title: $textSplit
 description: $textSplit
 id: textSplit
 ---
 
-`$textSplit` 
+`$textSplit`
 
 ## Usage
 
@@ -12,23 +12,21 @@ id: textSplit
 $textSplit[text;sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                      | Required |
-| ----- | ------ | -------------------------------- | -------- |
-| text  | string | query of arguments               | true      |
-| sep?  | string | seperator for the text arguments | false       |
-
+|-------|--------|----------------------------------|----------|
+| text  | string | query of arguments               | true     |
+| sep?  | string | seperator for the text arguments | false    |
 
 ## Example
 
-This will return `hello, how are you`: 
+This will return `hello, how are you`:
 
 ```javascript
 bot.command({
-  name: 'textSplit',
-  code: `
+    name: 'textSplit',
+    code: `
   $splitText[1] $splitText[3] $splitText[6] $splitText[7]
   $textSplit[hello,__blurr__how__ayaka__leref__are__you;__]
   `

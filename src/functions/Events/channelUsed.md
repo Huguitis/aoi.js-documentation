@@ -1,5 +1,5 @@
 ---
-title: $channelUsed 
+title: $channelUsed
 description: $channelUsed will return the channel ID of where the callback was triggered.
 id: channelUsed
 ---
@@ -20,7 +20,7 @@ This will return the amount of roles of your guild:
 
 ```javascript
 bot.deletedCommand({
-  channel: "channelID",
-  code: `$userTag deleted a message in <#$channelUsed>!`
+    channel: "channelID",
+    code: `$userTag deleted a message in <#$channelUsed>!`
 });
 ```

@@ -1,5 +1,5 @@
 ---
-title: $oldMsgData 
+title: $oldMsgData
 description: $oldMsgData holds data of the old message.
 id: oldMsgData
 ---
@@ -12,9 +12,8 @@ id: oldMsgData
 $oldMsgData[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                       | Required |
-| ------ | ------ | --------------------------------- |:--------:|
-| option | string | option <br /> 1. **cleanContent** |    true   |
+|--------|--------|-----------------------------------|:--------:|
+| option | string | option <br /> 1. **cleanContent** |   true   |

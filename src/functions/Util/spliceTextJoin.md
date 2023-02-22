@@ -1,10 +1,10 @@
 ---
-title: $spliceTextJoin 
-description: $spliceTextJoin 
+title: $spliceTextJoin
+description: $spliceTextJoin
 id: spliceTextJoin
 ---
 
-`$spliceTextJoin` 
+`$spliceTextJoin`
 
 ## Usage
 
@@ -12,12 +12,11 @@ id: spliceTextJoin
 $spliceTextJoin[text;splitter;sep1?;sep2?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type   | Description | Required |
-| -------- | ------ | ----------- | -------- |
-| text     | string |             | true      |
-| splitter | string |             | true      |
-| sep1     | string |             | false       |
-| sep2     | string |             | false       |
+|----------|--------|-------------|----------|
+| text     | string |             | true     |
+| splitter | string |             | true     |
+| sep1     | string |             | false    |
+| sep2     | string |             | false    |

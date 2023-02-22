@@ -1,5 +1,5 @@
 ---
-title: $fetchArchivedThreads 
+title: $fetchArchivedThreads
 description: $fetchArchivedThreads will return all archived threads of a given channel.
 id: fetchArchivedThreads
 ---
@@ -12,13 +12,12 @@ id: fetchArchivedThreads
 $fetchArchivedThreads[channelID;option?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description                                                                    | Required |
-| --------- | ------- | ------------------------------------------------------------------------------ |:--------:|
-| channelID | integer | channel ID                                                                     |    true   |
-| option?   | string  | how to return the active threads <br /> 1. **name** (default) <br /> 2. **id** |    false    |
+|-----------|---------|--------------------------------------------------------------------------------|:--------:|
+| channelID | integer | channel ID                                                                     |   true   |
+| option?   | string  | how to return the active threads <br /> 1. **name** (default) <br /> 2. **id** |  false   |
 
 ## Example
 
@@ -26,8 +25,8 @@ This will return all archived threads, if any:
 
 ```javascript
 bot.command({
-  name: 'fetchArchivedThreads',
-  code: `
+    name: 'fetchArchivedThreads',
+    code: `
   $fetchArchivedThreads[$channelID;name]
   `
 });

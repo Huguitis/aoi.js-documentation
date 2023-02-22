@@ -1,5 +1,5 @@
 ---
-title: $deleteIn 
+title: $deleteIn
 description: $deleteIn will delete a message after a given time.
 id: deleteIn
 ---
@@ -12,13 +12,11 @@ id: deleteIn
 $deleteIn[time]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                  | Required |
-| ----- | ------ | -------------------------------------------- |:--------:|
-| time  | string | after how much time the message gets deleted |    true   |
-
+|-------|--------|----------------------------------------------|:--------:|
+| time  | string | after how much time the message gets deleted |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will delete the sent message after five seconds:
 
 ```javascript
 bot.command({
-  name: 'deleteIn',
-  code: `
+    name: 'deleteIn',
+    code: `
   $deleteIn[5s]
   I'll delete this message in 5 seconds!
   `

@@ -1,5 +1,5 @@
 ---
-title: $channelCooldown 
+title: $channelCooldown
 description: $channelCooldown will set a cooldown bound to a specific channel after execution of the command.
 id: channelCooldown
 ---
@@ -11,25 +11,25 @@ id: channelCooldown
 ```php
 $channelCooldown[time;errorMessage?]
 ```
+
 * You are able to retrieve the remaining cooldown in the `$channelCooldown` function by using **`%time%`**.
 
-## Parameters 
-
+## Parameters
 
 | Field         | Type   | Description                                             | Required |
-| ------------- | ------ | ------------------------------------------------------- | -------- |
-| time          | string | timer of the cooldown                                   | true      |
-| errorMessage? | string | error message when given cooldown timer is still active | false       |
-
+|---------------|--------|---------------------------------------------------------|----------|
+| time          | string | timer of the cooldown                                   | true     |
+| errorMessage? | string | error message when given cooldown timer is still active | false    |
 
 ## Example
 
-This will set a cooldown for a command in the channel where the command was executed in and returns the remaining cooldown:
+This will set a cooldown for a command in the channel where the command was executed in and returns the remaining
+cooldown:
 
 ```javascript
 bot.command({
-  name: 'channelCooldown',
-  code: `
+    name: 'channelCooldown',
+    code: `
   hello
   $channelCooldown[2m;Please wait %time% to execute this command again.]
   `

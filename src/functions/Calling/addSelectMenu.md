@@ -1,5 +1,5 @@
 ---
-title: $addSelectMenu 
+title: $addSelectMenu
 description: $addSelectMenu will add a select menu to the bot's message.
 id: addSelectMenu
 ---
@@ -12,8 +12,7 @@ id: addSelectMenu
 $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:description:value:default?:emoji?;...]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field       | Type    | Description                                                | Required |
 | ----------- | ------- | ---------------------------------------------------------- |:--------:|
@@ -26,15 +25,14 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 | options     | string  | options                                                    |    true   |
 
 
-
 ## Example(s)
 
 This adds a select menu with two functions:
 
 ```javascript
 bot.command({
-  name: "add-select-menu",
-  code:`
+    name: "add-select-menu",
+    code: `
   Select an option.
   
   $addSelectMenu[1;yourCustomID;This is a placeholder!;1;1;false;A Option:Description of option B:anotherCustomID:false;B Option:Description of option B:andAnotherCustomID:true]
@@ -42,23 +40,22 @@ bot.command({
 });
 
 bot.interactionCommand({
-  name: "yourCustomID",
-  prototype: "selectMenu", 
-  code: `
+    name: "yourCustomID",
+    prototype: "selectMenu",
+    code: `
   $interactionReply[Hello! :);;;;everyone;false]
   $onlyIf[$interactionData[values[0]]==anotherCustomID;]
   `
 });
 
 bot.interactionCommand({
-  name: "yourCustomID",
-  prototype: "selectMenu", 
-  code: `
+    name: "yourCustomID",
+    prototype: "selectMenu",
+    code: `
   $interactionReply[Hello! :);;;;everyone;false]
   $onlyIf[$interactionData[values[0]]==andAnotherCustomID;]
   `
 });
-
 
 
 /* 
@@ -87,7 +84,7 @@ module.exports = [{
 }, {
     name: "yourCustomID",
     type: "interaction", // clarifying that this command is an Interaction
-    prototype: "selectMenu", 
+    prototype: "selectMenu",
     code: `
      $interactionReply[Bye! :(;;;;everyone;false]
      $onlyIf[$interactionData[values[0]]==andAnotherCustomID;]`

@@ -1,5 +1,5 @@
 ---
-title: $guildBoostCount 
+title: $guildBoostCount
 description: $guildBoostCount will return the guild's boost count.
 id: guildBoostCount
 ---
@@ -12,13 +12,11 @@ id: guildBoostCount
 $guildBoostCount[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the amount of boosts a specific guild has:
 
 ```javascript
 bot.command({
-  name: 'guildBoostCount',
-  code: `
+    name: 'guildBoostCount',
+    code: `
   $guildBoostCount[$guildID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $indexOf 
+title: $indexOf
 description: $indexOf will return the index of the given character.
 id: indexOf
 ---
@@ -12,14 +12,12 @@ id: indexOf
 $indexOf[string;char]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                    | Required |
-| ------ | ------ | ---------------------------------------------- | -------- |
-| string | string | the text the bot will be checking the index of | true      |
-| char   | string | the character the bot will be checking for     | true      |
-
+|--------|--------|------------------------------------------------|----------|
+| string | string | the text the bot will be checking the index of | true     |
+| char   | string | the character the bot will be checking for     | true     |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `8` as it's the first occuring position of the character `w`:
 
 ```javascript
 bot.command({
-  name: 'indexOf',
-  code: `
+    name: 'indexOf',
+    code: `
   $indexOf[Hello, what is wrong with you?;w]
   `
 });

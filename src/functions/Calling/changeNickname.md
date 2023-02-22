@@ -1,5 +1,5 @@
 ---
-title: $changeNickname 
+title: $changeNickname
 description: $changeNickname will change a nickname of a guild member.
 id: changeNickname
 ---
@@ -12,15 +12,13 @@ id: changeNickname
 $changeNickname[userID;nick;reason?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description                                               | Required |
-| ------- | ------- | --------------------------------------------------------- |:--------:|
-| userID  | integer | user ID                                                   |    true   |
-| nick    | integer | new nickname                                              |    true   |
-| reason? | integer | reason which will be displayed in the server's audit logs |    false    |
-
+|---------|---------|-----------------------------------------------------------|:--------:|
+| userID  | integer | user ID                                                   |   true   |
+| nick    | integer | new nickname                                              |   true   |
+| reason? | integer | reason which will be displayed in the server's audit logs |  false   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will change your nickname to "I love aoi.js": (wont work if you're the guil
 
 ```javascript
 bot.command({
-  name: 'changeNickname',
-  code: `
+    name: 'changeNickname',
+    code: `
   $changeNickname[$authorID;I love aoi.js;They simply love aoi.js]
   `
 });

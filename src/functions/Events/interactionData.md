@@ -1,5 +1,5 @@
 ---
-title: $interactionData 
+title: $interactionData
 description: $interactionData will return given arguments of an interaction.
 id: interactionData
 ---
@@ -12,9 +12,8 @@ id: interactionData
 $interactionData[data]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type    | Description      | Required |
-| ----- | ------- | ---------------- |:--------:|
-| data  | integer | data to retrieve |    true   |
+|-------|---------|------------------|:--------:|
+| data  | integer | data to retrieve |   true   |

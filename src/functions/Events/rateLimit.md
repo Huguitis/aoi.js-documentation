@@ -1,5 +1,5 @@
 ---
-title: $rateLimit 
+title: $rateLimit
 description: $rateLimit holds data for the rate limit callback.
 id: rateLimit
 ---
@@ -12,9 +12,8 @@ id: rateLimit
 $rateLimit[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> (x) => x == |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> (x) => x == |   true   |

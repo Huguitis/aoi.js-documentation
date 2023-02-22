@@ -1,5 +1,5 @@
 ---
-title: $isBoosting 
+title: $isBoosting
 description: $isBoosting will check if the given user is boosting the given guild.
 id: isBoosting
 ---
@@ -12,13 +12,12 @@ id: isBoosting
 $isBoosting[userID?;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                   | Required |
-| -------- | ------- | --------------------------------------------- | -------- |
-| userID?  | integer | user id to check if they're boosting          | false       |
-| guildID? | integer | the guild id of where they boosted the server | false       |
+|----------|---------|-----------------------------------------------|----------|
+| userID?  | integer | user id to check if they're boosting          | false    |
+| guildID? | integer | the guild id of where they boosted the server | false    |
 
 ### Please note that your bot has to be present in the server where you're going to check for an users boosting status.
 
@@ -28,8 +27,8 @@ This will return `false` or `true` depending on if you boosted this server:
 
 ```javascript
 bot.command({
-  name: 'isBoosting',
-  code: `
+    name: 'isBoosting',
+    code: `
   $isBoosting[$authorID;$guildID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $lowestGuildRole 
+title: $lowestGuildRole
 description: $lowestGuildRole will return the lowest role of a specific guild.
 id: lowestGuildRole
 ---
@@ -12,13 +12,11 @@ id: lowestGuildRole
 $lowestGuildRole[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description         | Required |
-| -------- | ------- | ------------------- |:--------:|
-| guildID? | integer | the ID of the guild |    false    |
-
+|----------|---------|---------------------|:--------:|
+| guildID? | integer | the ID of the guild |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the ID of the lowest guild role:
 
 ```javascript
 bot.command({
-  name: 'lowestGuildRole',
-  code: `
+    name: 'lowestGuildRole',
+    code: `
   $lowestGuildRole[$guildID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $channelPermissionsFor 
+title: $channelPermissionsFor
 description: $channelPermissionsFor will return the channel permissions of a specific user or role.
 id: channelPermissionsFor
 ---
@@ -12,15 +12,13 @@ id: channelPermissionsFor
 $channelPermissionsFor[userorroleID?;channelID?;sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field         | Type    | Description     | Required |
-| ------------- | ------- | --------------- |:--------:|
-| userorroleID? | integer | user or role ID |    true   |
-| channelID?    | integer | channel ID      |    true   |
-| sep?          | integer | guild ID        |    true   |
-
+|---------------|---------|-----------------|:--------:|
+| userorroleID? | integer | user or role ID |   true   |
+| channelID?    | integer | channel ID      |   true   |
+| sep?          | integer | guild ID        |   true   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will return your permissions in the channel where you execute the command:
 
 ```javascript
 bot.command({
-  name: 'channelPermissionsFor',
-  code: `
+    name: 'channelPermissionsFor',
+    code: `
   $channelPermissionsFor[$authorID;$channelID;, ]
   `
 });

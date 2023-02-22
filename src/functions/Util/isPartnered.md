@@ -1,5 +1,5 @@
 ---
-title: $isPartnered 
+title: $isPartnered
 description: $isPartnered checks if the given guild is partnered with Discord.
 id: isPartnered
 ---
@@ -12,13 +12,11 @@ id: isPartnered
 $isPartnered[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                           | Required |
-| -------- | ------- | --------------------------------------------------------------------- | -------- |
-| guildID? | integer | the guild ID of the guild you want to check its partnership status of | true      |
-
+|----------|---------|-----------------------------------------------------------------------|----------|
+| guildID? | integer | the guild ID of the guild you want to check its partnership status of | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will check if your server is partnered and return either `true` or `false`:
 
 ```javascript
 bot.command({
-  name: 'isPartnered',
-  code: `
+    name: 'isPartnered',
+    code: `
   $isPartnered[$guildID]
   `
 });

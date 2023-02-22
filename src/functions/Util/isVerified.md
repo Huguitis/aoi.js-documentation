@@ -1,5 +1,5 @@
 ---
-title: $isVerified 
+title: $isVerified
 description: $isVerified checks if the given guild is verified by Discord.
 id: isVerified
 ---
@@ -12,13 +12,11 @@ id: isVerified
 $isVerified[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                            | Required |
-| -------- | ------- | ---------------------------------------------------------------------- | -------- |
-| guildID? | integer | the guild ID of the guild you want to check its verification status of | false       |
-
+|----------|---------|------------------------------------------------------------------------|----------|
+| guildID? | integer | the guild ID of the guild you want to check its verification status of | false    |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will check if your server is verified and return either `true` or `false`:
 
 ```javascript
 bot.command({
-  name: 'isVerified',
-  code: `
+    name: 'isVerified',
+    code: `
   $isVerified[$guildID]
   `
 });

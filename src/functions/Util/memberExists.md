@@ -1,5 +1,5 @@
 ---
-title: $memberExists 
+title: $memberExists
 description: $memberExists check if a given user is member of the given guild.
 id: memberExists
 ---
@@ -12,14 +12,12 @@ id: memberExists
 $memberExists[userid;guildid?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                                        | Required |
-| -------- | ------- | ---------------------------------------------------------------------------------- | -------- |
-| userid   | integer | id of the user you want to check if they're currently a member of the given server | true      |
-| guildid? | integer | the server where the user is present in                                            | false       |
-
+|----------|---------|------------------------------------------------------------------------------------|----------|
+| userid   | integer | id of the user you want to check if they're currently a member of the given server | true     |
+| guildid? | integer | the server where the user is present in                                            | false    |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `true` as you're currently in this guild:
 
 ```javascript
 bot.command({
-  name: 'memberExists',
-  code: `
+    name: 'memberExists',
+    code: `
   $memberExists[$authorid;$guildid]
   `
 });

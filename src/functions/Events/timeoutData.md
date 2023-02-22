@@ -1,6 +1,7 @@
 ---
-title: $timeoutData 
-description: $timeoutData holds data for $setTimeout data parameters, this will be empty if used outside timeoutCommand codes.
+title: $timeoutData
+description: $timeoutData holds data for $setTimeout data parameters, this will be empty if used outside timeoutCommand
+codes.
 id: timeoutData
 ---
 
@@ -12,9 +13,8 @@ id: timeoutData
 $timeoutData[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description | Required |
-| ------ | ------ | ----------- |:--------:|
-| option | string | option name |    true   |
+|--------|--------|-------------|:--------:|
+| option | string | option name |   true   |

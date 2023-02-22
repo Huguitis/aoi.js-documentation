@@ -1,5 +1,5 @@
 ---
-title: $channelOverwrites 
+title: $channelOverwrites
 description: $channelOverwrites will return the given channel's overwrites.
 id: channelOverwrites
 ---
@@ -12,23 +12,20 @@ id: channelOverwrites
 $channelOverwrites[channelID?;response?;sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                                         | Required |
-| ---------- | ------- | ------------------------------------------------------------------- |:--------:|
-| channelID? | integer | channel ID of the channel you want the channel overwrites of        |    false    |
-| response?  | string  | the format the channel overwrites will be returned in               |    false    |
-| sep?       | string  | the seperator to split the channel overwrites if there are multiple |    false    |
-
+|------------|---------|---------------------------------------------------------------------|:--------:|
+| channelID? | integer | channel ID of the channel you want the channel overwrites of        |  false   |
+| response?  | string  | the format the channel overwrites will be returned in               |  false   |
+| sep?       | string  | the seperator to split the channel overwrites if there are multiple |  false   |
 
 |    Type     | Output                         |
-| :---------: | ------------------------------ |
+|:-----------:|--------------------------------|
 | `{mention}` | Mentions the role or user      |
 |  `{type}`   | Returns the type, user or role |
 |  `{allow}`  | The granted permissions        |
 |  `{deny}`   | The denied permissions         |
-
 
 ## Example
 
@@ -36,8 +33,8 @@ This will return the channel overwrites of the channel where you execute the com
 
 ```javascript
 bot.command({
-  name: 'channelOverwrites',
-  code: `
+    name: 'channelOverwrites',
+    code: `
   $channelOverwrites[$channelID;{mention} {type} {allow} {deny};, ]
   `
 });

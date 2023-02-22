@@ -1,5 +1,5 @@
 ---
-title: $guildNSFWLevel 
+title: $guildNSFWLevel
 description: $guildNSFWLevel will return the guild's NSFW level.
 id: guildNSFWLevel
 ---
@@ -12,13 +12,11 @@ id: guildNSFWLevel
 $guildNSFWLevel[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    true   |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the guild's NSFW level:
 
 ```javascript
 bot.command({
-  name: 'guildNSFWLevel',
-  code: `
+    name: 'guildNSFWLevel',
+    code: `
   $guildNSFWLevel[$guildID]
   `
 });

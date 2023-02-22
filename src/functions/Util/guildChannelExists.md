@@ -1,5 +1,5 @@
 ---
-title: $guildChannelExists 
+title: $guildChannelExists
 description: $guildChannelExists will check if the given guild channel exists.
 id: guildChannelExists
 ---
@@ -12,14 +12,12 @@ id: guildChannelExists
 $guildChannelExists[channel;guildID?]
 ```
 
-## Parameters 
+## Parameters
 
-
-| Field   | Type    | Description                                        | Required |
-| ------- | ------- | -------------------------------------------------- | -------- |
-| channel | string  | channel ID or name of the guild channel           | true      |
-| guildId | integer | id of the guild where the guild channel exists in | true      |
-
+| Field   | Type    | Description                                       | Required |
+|---------|---------|---------------------------------------------------|----------|
+| channel | string  | channel ID or name of the guild channel           | true     |
+| guildId | integer | id of the guild where the guild channel exists in | true     |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will check if a guild channel with the name `rules` exists, alternatively y
 
 ```javascript
 bot.command({
-  name: 'guildChannelExists',
-  code: `
+    name: 'guildChannelExists',
+    code: `
   $guildChannelExists[rules]
   `
 });

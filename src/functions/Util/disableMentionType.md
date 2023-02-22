@@ -1,5 +1,5 @@
 ---
-title: $disableMentionType 
+title: $disableMentionType
 description: $disableMentionType will disable a specific mention type.
 id: disableMentionType
 ---
@@ -12,24 +12,22 @@ id: disableMentionType
 $disableMentionType[type]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                         | Required |
-| ----- | ------ | ----------------------------------- | -------- |
-| type  | string | type of mention you want to disable | true      |
-
+|-------|--------|-------------------------------------|----------|
+| type  | string | type of mention you want to disable | true     |
 
 <details>
   <summary> <h2> Available Types </h2></summary>
 
 | Type     | Description                      |
-| -------- | -------------------------------- |
+|----------|----------------------------------|
 | everyone | `@everyone` and `@here` mentions |
 | users    | all user mentions                |
 | roles    | all role mentions                |
 | all      | everything listed above          |
- 
+
 </details>
 
 ## Example(s)
@@ -38,8 +36,8 @@ This will stop the bot from mentioning you:
 
 ```javascript
 bot.command({
-  name: 'mention',
-  code: `
+    name: 'mention',
+    code: `
 <@$authorID>
 $disableMentionType[users] 
   `
@@ -50,8 +48,8 @@ This will stop the bot from mentioning anyone or anything:
 
 ```javascript
 bot.command({
-  name: 'mention',
-  code: `
+    name: 'mention',
+    code: `
 <@$authorID>
 $disableMentionType[all] 
   `

@@ -1,5 +1,5 @@
 ---
-title: $banCount 
+title: $banCount
 description: $banCount will return the amount of banned users of a specific guild.
 id: banCount
 ---
@@ -12,12 +12,11 @@ id: banCount
 $banCount[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                           | Required |
-| -------- | ------- | --------------------------------------------------------------------- | -------- |
-| guildID? | integer | guild id of the guild you want to retrieve the amount of banned users | false       |
+|----------|---------|-----------------------------------------------------------------------|----------|
+| guildID? | integer | guild id of the guild you want to retrieve the amount of banned users | false    |
 
 #### Please note that your bot requires permissions to `VIEW_AUDIT_LOG`
 
@@ -27,8 +26,8 @@ This will return the amount of banned users in your guild:
 
 ```javascript
 bot.command({
-  name: 'banCount',
-  code: `
+    name: 'banCount',
+    code: `
   $banCount
   `
 });

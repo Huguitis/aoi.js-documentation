@@ -1,5 +1,5 @@
 ---
-title: $createWebhook 
+title: $createWebhook
 description: $createWebhook will create a webhook.
 id: createWebhook
 ---
@@ -12,17 +12,15 @@ id: createWebhook
 $createWebhook[channelID;name;avatar;reason;separator?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                             | Required |
-| ---------- | ------- | ------------------------------------------------------- |:--------:|
-| channelID  | integer | channel ID where the webhook will be created in         |    true   |
-| name       | string  | webhook display name                                    |    true   |
-| avatar     | string  | webhook avatar                                          |    true   |
-| reason     | string  | reason that will be displayed in the guild's audit logs |    true   |
-| seperator? | string  | seperator to seperate webhook token, id, etc.           |    false    |
-
+|------------|---------|---------------------------------------------------------|:--------:|
+| channelID  | integer | channel ID where the webhook will be created in         |   true   |
+| name       | string  | webhook display name                                    |   true   |
+| avatar     | string  | webhook avatar                                          |   true   |
+| reason     | string  | reason that will be displayed in the guild's audit logs |   true   |
+| seperator? | string  | seperator to seperate webhook token, id, etc.           |  false   |
 
 ## Example
 
@@ -30,8 +28,8 @@ This will create a webhook in the current channel:
 
 ```javascript
 bot.command({
-  name: 'createWebhook',
-  code: `
+    name: 'createWebhook',
+    code: `
   $createWebhook[$channelID;aoi.js is great;$userAvatar[$authorID];Just testing.;, ]
   `
 });

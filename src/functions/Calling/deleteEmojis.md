@@ -12,13 +12,11 @@ id: deleteEmojis
 $deleteEmojis[...emojis]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                 | Required |
-| ------ | ------ | --------------------------- |:--------:|
-| emojis | string | emoji name, id or full form |    true   |
-
+|--------|--------|-----------------------------|:--------:|
+| emojis | string | emoji name, id or full form |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will delete two random emojis of your guild:
 
 ```javascript
 bot.command({
-  name: 'deleteEmojis',
-  code: `
+    name: 'deleteEmojis',
+    code: `
   $deleteEmojis[$randomEmoji;$randomEmoji]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $image 
+title: $image
 description: $image will add an image to an embed.
 id: image
 ---
@@ -12,13 +12,12 @@ id: image
 $image[index?;url]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description              | Required |
-| ------ | ------ | ------------------------ |:--------:|
-| index? | number | embed index/position     |    false    |
-| url    | string | image (bottom big image) |    true   |
+|--------|--------|--------------------------|:--------:|
+| index? | number | embed index/position     |  false   |
+| url    | string | image (bottom big image) |   true   |
 
 ## Example
 
@@ -26,8 +25,8 @@ This will create an embed with an image, title and footer:
 
 ```javascript
 bot.command({
-  name: 'embed',
-  code: `
+    name: 'embed',
+    code: `
   $title[Hello!]
   $image[$userAvatar]
   $footer[Hello again!;$userAvatar]

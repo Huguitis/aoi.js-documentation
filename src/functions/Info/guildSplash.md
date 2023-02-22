@@ -1,5 +1,5 @@
 ---
-title: $guildSplash 
+title: $guildSplash
 description: $guildSplash will return a guild's invite background (if unlocked).
 id: guildSplash
 ---
@@ -12,13 +12,11 @@ id: guildSplash
 $guildSplash[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the guild's invite background (if unlocked):
 
 ```javascript
 bot.command({
-  name: 'guildSplash',
-  code: `
+    name: 'guildSplash',
+    code: `
   $guildSplash[$guildID]
   `
 });

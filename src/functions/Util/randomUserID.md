@@ -1,5 +1,5 @@
 ---
-title: $randomUserID 
+title: $randomUserID
 description: $randomUserID will return a random username.
 id: randomUserID
 ---
@@ -12,13 +12,11 @@ id: randomUserID
 $randomUserID[global/guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field           | Type   | Description                                                             | Required |
-| --------------- | ------ | ----------------------------------------------------------------------- | -------- |
-| global/guildID? | string | return a random user out of all guild or out of one specific guild only | false       |
-
+|-----------------|--------|-------------------------------------------------------------------------|----------|
+| global/guildID? | string | return a random user out of all guild or out of one specific guild only | false    |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return a random user id:
 
 ```javascript
 bot.command({
-  name: 'randomUserID',
-  code: `
+    name: 'randomUserID',
+    code: `
   $randomUserID[global]
   `
 });

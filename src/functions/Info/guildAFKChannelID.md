@@ -1,5 +1,5 @@
 ---
-title: $guildAFKChannelID 
+title: $guildAFKChannelID
 description: $guildAFKChannelID will return a guild's AFK voice channel.
 id: guildAFKChannelID
 ---
@@ -12,13 +12,11 @@ id: guildAFKChannelID
 $guildAFKChannelID[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    true   |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the AFK voice channel of your guild:
 
 ```javascript
 bot.command({
-  name: 'guildAFKChannelID',
-  code: `
+    name: 'guildAFKChannelID',
+    code: `
   $guildAFKChannelID
   `
 });

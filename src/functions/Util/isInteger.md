@@ -1,5 +1,5 @@
 ---
-title: $isInteger 
+title: $isInteger
 description: $isInteger will check if the given number is an integer or not.
 id: isInteger
 ---
@@ -12,13 +12,11 @@ id: isInteger
 $isInteger[number]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                       | Required |
-| ------ | ------ | ------------------------------------------------- | -------- |
-| number | number | number you want to check if its an integer or not | true      |
-
+|--------|--------|---------------------------------------------------|----------|
+| number | number | number you want to check if its an integer or not | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This checks if your message contains an integer and returns `true` or `false`:
 
 ```javascript
 bot.command({
-  name: 'isInteger',
-  code: `
+    name: 'isInteger',
+    code: `
   $isInteger[$message]
   `
 });

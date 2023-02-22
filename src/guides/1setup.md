@@ -18,16 +18,16 @@ npm install aoi.js
 const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
-  token: "Discord Bot Token",
-  prefix: "Discord Bot Prefix",
-  intents: ["MessageContent", "Guilds", "GuildMessages"],
-  events: ["onMessage", "onInteractionCreate"]
+    token: "Discord Bot Token",
+    prefix: "Discord Bot Prefix",
+    intents: ["MessageContent", "Guilds", "GuildMessages"],
+    events: ["onMessage", "onInteractionCreate"]
 });
 
 //Command Example (ping)
 bot.command({
-  name: "ping",
-  code: `Pong! $pingms`
+    name: "ping",
+    code: `Pong! $pingms`
 });
 
 //Slash Interaction Command Example (ping)
@@ -35,8 +35,8 @@ bot.command({
 $createApplicationCommand[$guildID;ping;Pong!;true;slash]
 */
 bot.interactionCommand({
-  name: "ping",
-  prototype: 'slash',
-  code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
+    name: "ping",
+    prototype: 'slash',
+    code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
 });
 ```

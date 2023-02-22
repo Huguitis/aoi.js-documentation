@@ -1,5 +1,5 @@
 ---
-title: $channelNSFW 
+title: $channelNSFW
 description: $channelNSFW will return true or false depending if the given channel is marked as NSFW or not.
 id: channelNSFW
 ---
@@ -12,22 +12,21 @@ id: channelNSFW
 $channelNSFW[channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                                              | Required |
-| ---------- | ------- | ------------------------------------------------------------------------ |:--------:|
-| channelID? | integer | channel ID of the channel you want to check if its marked as NSFW or not |    false    |
-
+|------------|---------|--------------------------------------------------------------------------|:--------:|
+| channelID? | integer | channel ID of the channel you want to check if its marked as NSFW or not |  false   |
 
 ## Example
 
-This will return either `true` or `false` depending on if the channel where you execute the command is marked as NSFW or not:
+This will return either `true` or `false` depending on if the channel where you execute the command is marked as NSFW or
+not:
 
 ```javascript
 bot.command({
-  name: 'channelNSFW',
-  code: `
+    name: 'channelNSFW',
+    code: `
   $channelNSFW[$channelID]
   `
 });

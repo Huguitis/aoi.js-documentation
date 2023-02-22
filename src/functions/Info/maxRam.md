@@ -1,5 +1,5 @@
 ---
-title: $maxRam 
+title: $maxRam
 description: $maxRam will return the bot's maximum amount of Ram.
 id: maxRam
 ---
@@ -18,8 +18,8 @@ This will your bot's maximum amount of available Ram:
 
 ```javascript
 bot.command({
-  name: 'maxRam',
-  code: `
+    name: 'maxRam',
+    code: `
   $maxRam
   `
 });

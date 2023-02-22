@@ -1,10 +1,12 @@
 ---
-title: $newChannel 
-description: $newChannel holds data of the updated channel, used in channel update, delete and create callbacks, or else any data will be empty.
+title: $newChannel
+description: $newChannel holds data of the updated channel, used in channel update, delete and create callbacks, or else
+any data will be empty.
 id: newChannel
 ---
 
-`$newChannel` holds data of the updated channel, used in channel update, delete and create callbacks, or else any data will be empty.
+`$newChannel` holds data of the updated channel, used in channel update, delete and create callbacks, or else any data
+will be empty.
 
 ## Usage
 
@@ -12,9 +14,8 @@ id: newChannel
 $newChannel[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

@@ -1,5 +1,5 @@
 ---
-title: $let 
+title: $let
 description: $let is used for storing temporary variables.
 id: let
 ---
@@ -12,13 +12,12 @@ id: let
 $let[varname;value]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type   | Description                                      | Required |
-| ------- | ------ | ------------------------------------------------ | -------- |
-| varname | string | name of the temporary variable                   | true      |
-| value   | string | value of the temporary variable you want to save | true      |
+|---------|--------|--------------------------------------------------|----------|
+| varname | string | name of the temporary variable                   | true     |
+| value   | string | value of the temporary variable you want to save | true     |
 
 ## Example
 
@@ -26,8 +25,8 @@ This will return `Ayaka` from `$get`:
 
 ```javascript
 bot.command({
-  name: 'let',
-  code: `
+    name: 'let',
+    code: `
 $get[genius]
 $let[genius;Ayaka]
 `

@@ -1,5 +1,5 @@
 ---
-title: $oldUser 
+title: $oldUser
 description: $oldUser holds data of the old user, used in update user callback, or else any data will be empty.
 id: oldUser
 ---
@@ -12,9 +12,8 @@ id: oldUser
 $oldUser[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

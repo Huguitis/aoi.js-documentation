@@ -1,5 +1,5 @@
 ---
-title: $interactionDelete 
+title: $interactionDelete
 description: $interactionDelete will delete a reply of an interaction.
 id: interactionDelete
 ---

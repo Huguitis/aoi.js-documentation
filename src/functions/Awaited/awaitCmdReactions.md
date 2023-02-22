@@ -1,5 +1,5 @@
 ---
-title: $awaitCmdReactions 
+title: $awaitCmdReactions
 description: $awaitCmdReactions will respond when a user reacts to the initial command message with a specific emoji.
 id: awaitCmdReactions
 ---
@@ -12,18 +12,16 @@ id: awaitCmdReactions
 $awaitCmdReactions[userFilter;time;reactions;commands;errorMsg?;awaitData?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type   | Description                                                                                    | Required |
 |------------|--------|------------------------------------------------------------------------------------------------|:--------:|
-| userFilter | string | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true    |
-| time       | string | how long the command will last / when the command expires                                      |   true    |
-| reactions  | string | reactions the bot will be listening to, you can seperate multiple emojis with a comma ( `,` )  |   true    |
-| commands   | string | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |   true    |
-| errorMsg?  | string | error message when command expires                                                             |    false    |
-| awaitData? | string | awaited data                                                                                   |    false    |
-
+| userFilter | string | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true   |
+| time       | string | how long the command will last / when the command expires                                      |   true   |
+| reactions  | string | reactions the bot will be listening to, you can seperate multiple emojis with a comma ( `,` )  |   true   |
+| commands   | string | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |   true   |
+| errorMsg?  | string | error message when command expires                                                             |  false   |
+| awaitData? | string | awaited data                                                                                   |  false   |
 
 #### Make sure you have `GuildMessageReactions` as intent in your main file.
 
@@ -33,8 +31,8 @@ This will reply to you when you react with the "❤️" emoji to your initial co
 
 ```js
 bot.command({
-  name: "awaitCmdReaction",
-  code: `
+    name: "awaitCmdReaction",
+    code: `
   React with "❤️" for a surprise! 
   $awaitCmdReactions[$authorID;10s;❤️;awaitedcommandexample;Whoops! You didn't react in time..]
   `

@@ -1,5 +1,5 @@
 ---
-title: $shardID 
+title: $shardID
 description: $shardID will return the current shard ID.
 id: shardID
 ---
@@ -20,8 +20,8 @@ This will return the current shard ID:
 
 ```javascript
 bot.command({
-  name: 'shardID',
-  code: `
+    name: 'shardID',
+    code: `
   I'm currently on shard $shardID!
   `
 });

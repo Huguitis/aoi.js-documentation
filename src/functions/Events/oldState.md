@@ -1,5 +1,5 @@
 ---
-title: $oldState 
+title: $oldState
 description: $oldState holds data for the user voice state before it was updated (voiceStateUpdate callback).
 id: oldState
 ---
@@ -12,9 +12,8 @@ id: oldState
 $oldState[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

@@ -1,5 +1,5 @@
 ---
-title: Client Status 
+title: Client Status
 description: This guide will be covering the functionality and usage of client statuses.
 id: status
 ---
@@ -7,9 +7,10 @@ id: status
 #### This guide will be covering statuses and client presences.
 
 ### Table of Content
-  - **[Statuses][1]**
-  - **[Client Presence][2]**
-    -  **[Mobile Presence](#client-presence)**
+
+- **[Statuses][1]**
+- **[Client Presence][2]**
+    - **[Mobile Presence](#client-presence)**
 
 ---
 
@@ -21,9 +22,9 @@ First of all we have to add the following piece of code to our main file:
 
 ```javascript
 bot.status({
-  text: "Example Text!",
-  type: "PLAYING",
-  time: 12
+    text: "Example Text!",
+    type: "PLAYING",
+    time: 12
 });
 ```
 
@@ -33,42 +34,42 @@ If you want to have multiple statuses just add multiple `bot.status({...})`, sim
 
 ```javascript
 bot.status({
-  text: "Example Text one!",
-  type: "PLAYING",
-  time: 12
+    text: "Example Text one!",
+    type: "PLAYING",
+    time: 12
 });
 
 bot.status({
-  text: "Example Text two!",
-  type: "WATCHING",
-  time: 20
+    text: "Example Text two!",
+    type: "WATCHING",
+    time: 20
 });
 
 bot.status({
-  text: "Example Text three!",
-  type: "STEAMING",
-  url: "URL"
+    text: "Example Text three!",
+    type: "STEAMING",
+    url: "URL"
 });
 ```
 
 There are various types of statuses:
 
- * **PLAYING**
- * **WATCHING**
- * **STREAMING** 
- * **LISTENING**
- * **COMPETING**
+* **PLAYING**
+* **WATCHING**
+* **STREAMING**
+* **LISTENING**
+* **COMPETING**
 
-### Client Presence 
+### Client Presence
 
 You can also set the bot's presence, by adding the `status` property, for example:
 
 ```javascript
 bot.status({
-  text: "Example Text!",
-  type: "PLAYING",
-  status: "dnd",
-  time: 12
+    text: "Example Text!",
+    type: "PLAYING",
+    status: "dnd",
+    time: 12
 });
 ```
 
@@ -83,16 +84,17 @@ There are multiple types of presences:
   
 ```javascript
 const aoijs = require("aoi.js");
- 
+
 const bot = new aoijs.AoiClient({
-   token: "DISCORD BOT TOKEN",
-   prefix: "DISCORD BOT PREFIX",
-   intents: ["Guilds", "GuildMessages", "MessageContent"],
-   events: ["onMessage"],
-   mobilePlatform: true
-})
+    token: "DISCORD BOT TOKEN",
+    prefix: "DISCORD BOT PREFIX",
+    intents: ["Guilds", "GuildMessages", "MessageContent"],
+    events: ["onMessage"],
+    mobilePlatform: true
+});
 ```
 
 <!--- links -->
+
 [1]: #bot-status
 [2]: #client-presence

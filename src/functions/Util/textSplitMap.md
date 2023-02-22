@@ -1,5 +1,5 @@
 ---
-title: $textSplitMap 
+title: $textSplitMap
 description: $textSplitMap will create a loop over all values that are stored within $textSplit
 id: textSplitMap
 ---
@@ -12,17 +12,15 @@ id: textSplitMap
 $textSplit[awaited]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type   | Description                 | Required |
-| ------- | ------ | --------------------------- | -------- |
-| awaited | string | name of the awaited command | true      |
-
+|---------|--------|-----------------------------|----------|
+| awaited | string | name of the awaited command | true     |
 
 ## Example
 
-This will return the arguments within `$textSplit` and send all of them seperately: 
+This will return the arguments within `$textSplit` and send all of them seperately:
 
 ```php
 bot.command({

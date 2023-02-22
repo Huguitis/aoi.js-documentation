@@ -1,6 +1,6 @@
 ---
-title: $deleteStageInstance 
-description: $deleteStageInstance will end  an existing stage instance.
+title: $deleteStageInstance
+description: $deleteStageInstance will end an existing stage instance.
 id: deleteStageInstance
 ---
 
@@ -12,13 +12,11 @@ id: deleteStageInstance
 $deleteStageInstance[channelID]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description | Required |
-| --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    true   |
-
+|-----------|---------|-------------|:--------:|
+| channelID | integer | channel ID  |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will end the current stage instance: ( make sure to replace stageID with an
 
 ```javascript
 bot.command({
-  name: 'deleteStageInstance',
-  code: `
+    name: 'deleteStageInstance',
+    code: `
   $deleteStageInstance[stageInstance]
   `
 });

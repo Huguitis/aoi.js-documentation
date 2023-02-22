@@ -1,5 +1,5 @@
 ---
-title: $deleteInvite 
+title: $deleteInvite
 description: $deleteInvite will delete a specific guild invite.
 id: deleteInvite
 ---
@@ -12,15 +12,13 @@ id: deleteInvite
 $deleteInvite[guildID;inviteCode;reason?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                             | Required |
-| ---------- | ------- | ------------------------------------------------------- |:--------:|
-| guildID    | integer | guild ID                                                |    true   |
-| inviteCode | string  | invite code                                             |    true   |
-| reason?    | string  | reason that will be displayed in the guild's audit logs |    false    |
-
+|------------|---------|---------------------------------------------------------|:--------:|
+| guildID    | integer | guild ID                                                |   true   |
+| inviteCode | string  | invite code                                             |   true   |
+| reason?    | string  | reason that will be displayed in the guild's audit logs |  false   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will delete an invite (wont work as the invite code doesnt exit):
 
 ```javascript
 bot.command({
-  name: 'deleteInvite',
-  code: `
+    name: 'deleteInvite',
+    code: `
   $deleteInvite[$guildID;ifawd9a;Testing!]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $userTag 
+title: $userTag
 description: $userTag will return a user's username and discriminator.
 id: userTag
 ---
@@ -12,13 +12,11 @@ id: userTag
 $userTag[userID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description | Required |
-| ------- | ------- | ----------- |:--------:|
-| userID? | integer | user ID     |    false    |
-
+|---------|---------|-------------|:--------:|
+| userID? | integer | user ID     |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return your username and discriminator:
 
 ```javascript
 bot.command({
-  name: 'userTag',
-  code: `
+    name: 'userTag',
+    code: `
   $userTag[$authorID]
   `
 });

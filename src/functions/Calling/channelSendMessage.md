@@ -1,5 +1,5 @@
 ---
-title: $channelSendMessage 
+title: $channelSendMessage
 description: $channelSendMessage will send a message in a specific channel.
 id: channelSendMessage
 ---
@@ -12,15 +12,13 @@ id: channelSendMessage
 $channelSendMessage[channelID;message;returnID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description                                                            | Required |
-| --------- | ------- | ---------------------------------------------------------------------- |:--------:|
-| channelID | integer | channel ID                                                             |    true   |
-| message   | string  | message to send                                                        |    true   |
-| returnID? | string  | return the message ID <br /> 1. **true** <br /> 2. **false** (default) |    false    |
-
+|-----------|---------|------------------------------------------------------------------------|:--------:|
+| channelID | integer | channel ID                                                             |   true   |
+| message   | string  | message to send                                                        |   true   |
+| returnID? | string  | return the message ID <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will send "Hello":
 
 ```javascript
 bot.command({
-  name: 'channelSendMessage',
-  code: `
+    name: 'channelSendMessage',
+    code: `
   $channelSendMessage[$channelID;Hello]
   `
 });
@@ -41,8 +39,8 @@ This will send an embed with description and footer:
 
 ```javascript
 bot.command({
-  name: 'channelSendMessage',
-  code: `
+    name: 'channelSendMessage',
+    code: `
   $channelSendMessage[$channelID;{newEmbed:{title:Hello}{footer:Bye}};false]
   `
 });

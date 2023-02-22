@@ -1,5 +1,5 @@
 ---
-title: $isValidInvite 
+title: $isValidInvite
 description: $isValidInvite will check if the given invite is valid.
 id: isValidInvite
 ---
@@ -12,22 +12,21 @@ id: isValidInvite
 $isValidInvite[url]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description      | Required |
-| ----- | ------ | ---------------- | -------- |
-| url   | string | guild invite url | true      |
-
+|-------|--------|------------------|----------|
+| url   | string | guild invite url | true     |
 
 ## Example
 
-This will return `true` as `https://discord.gg/aoi-js-server-akarui-development-team-773352845738115102` is an valid invite:
+This will return `true` as `https://discord.gg/aoi-js-server-akarui-development-team-773352845738115102` is an valid
+invite:
 
 ```javascript
 bot.command({
-  name: 'isValidInvite',
-  code: `
+    name: 'isValidInvite',
+    code: `
   $isValidInvite[https://discord.gg/aoi-js-server-akarui-development-team-773352845738115102]
   `
 });

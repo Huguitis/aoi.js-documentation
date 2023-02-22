@@ -16,7 +16,7 @@ npm install @akarui/aoi.music
 
 ```javascript
 const aoijs = require("aoi.js");
-const { AoiVoice } = require("@akarui/aoi.music");
+const {AoiVoice} = require("@akarui/aoi.music");
 
 const bot = new aoijs.AoiClient({
     token: "Discord Bot Token",
@@ -33,7 +33,7 @@ bot.command({
 
 const voice = new AoiVoice(bot, {
     searchOptions: {
-     // soundcloudClientId: "Sound Cloud Id",
+        // soundcloudClientId: "Sound Cloud Id",
         youtubegl: "US",
     },
     requestOptions: {
@@ -49,9 +49,9 @@ const voice = new AoiVoice(bot, {
 <summary>Voice#devOptions</summary>
 
 ```typescript
-devOptions?: {
-        debug: boolean;
-    };
+devOptions ? : {
+    debug: boolean;
+};
 ```
 
 </details>
@@ -59,13 +59,13 @@ devOptions?: {
 <summary>Voice#searchOptions</summary>
 
 ```typescript
-    searchOptions?: {
-        soundcloudClientId?: string;
-        youtubeCookie?: string;
-        youtubeAuth?: PathLike;
-        youtubegl?: string;
-        youtubeClient?: "WEB" | "ANDROID" | "YTMUSIC";
-    };
+    searchOptions ? : {
+    soundcloudClientId? : string;
+    youtubeCookie? : string;
+    youtubeAuth? : PathLike;
+    youtubegl? : string;
+    youtubeClient? : "WEB" | "ANDROID" | "YTMUSIC";
+};
 ```
 
 </details>
@@ -73,17 +73,18 @@ devOptions?: {
 <summary>Voice#requestOptions</summary>
 
 ```typescript
-    requestOptions?: {
-        offsetTimeout?: number;
-        soundcloudLikeTrackLimit?: number;
-        youtubePlaylistLimit?: number;
-        spotifyPlaylistLimit?: number;
-    };
+    requestOptions ? : {
+    offsetTimeout? : number;
+    soundcloudLikeTrackLimit? : number;
+    youtubePlaylistLimit? : number;
+    spotifyPlaylistLimit? : number;
+};
 ```
 
 </details>
 
 ## Functions
+
 <!-- $joinVc -->
 <details>
 <summary>$joinVc</summary>

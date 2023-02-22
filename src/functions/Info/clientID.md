@@ -1,11 +1,10 @@
 ---
-title: $clientID 
+title: $clientID
 description: $clientID will return the client's Discord User ID.
 id: clientID
 ---
 
 `$clientID` will return the client's Discord User ID.
-
 
 ## Usage
 
@@ -13,15 +12,14 @@ id: clientID
 $clientID
 ```
 
-
 ## Example
 
 This will return the client's ID:
 
 ```javascript
 bot.command({
-  name: 'clientID',
-  code: `
+    name: 'clientID',
+    code: `
   $clientID
   `
 });

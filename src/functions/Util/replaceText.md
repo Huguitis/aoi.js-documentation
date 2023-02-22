@@ -1,5 +1,5 @@
 ---
-title: $replaceText 
+title: $replaceText
 description: $replaceText will replace specific segments of text.
 id: replaceText
 ---
@@ -12,15 +12,14 @@ id: replaceText
 $replaceText[text;replacer;replaceTo;times?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type   | Description                                    | Required |
-| --------- | ------ | ---------------------------------------------- | -------- |
-| text      | string | text you want to modify                        | true      |
-| replacer  | string | the text that will be replaced                 | true      |
-| replaceTo | string | the text that will replace `replacer`          | true      |
-| times?    | number | how many times `replaceTo` replaces `replacer` | false       |
+|-----------|--------|------------------------------------------------|----------|
+| text      | string | text you want to modify                        | true     |
+| replacer  | string | the text that will be replaced                 | true     |
+| replaceTo | string | the text that will replace `replacer`          | true     |
+| times?    | number | how many times `replaceTo` replaces `replacer` | false    |
 
 ## Examples
 
@@ -28,8 +27,8 @@ This will replace `M` with `D` and the output will be `Donkey`:
 
 ```javascript
 bot.command({
-  name: 'replaceText',
-  code: `
+    name: 'replaceText',
+    code: `
   $replaceText[Monkey;M;D]
   `
 });
@@ -37,12 +36,12 @@ bot.command({
 
 ### Advanced Examples
 
-This will replace the word `coffee` two times using the last [field](#parameters) of `$replaceText`: 
+This will replace the word `coffee` two times using the last [field](#parameters) of `$replaceText`:
 
 ```javascript
 bot.command({
-  name: 'replaceText',
-  code: `
+    name: 'replaceText',
+    code: `
   $replaceText[I love drinking Coffee, Coffee gives me power! Coffee is bad for my health.;Coffee;orange juice;2]
   `
 });
@@ -52,8 +51,8 @@ This will replace `Ferel` and `are` using multiple `$replaceText`:
 
 ```javascript
 bot.command({
-  name: 'replaceText',
-  code: `
+    name: 'replaceText',
+    code: `
   $replaceText[$replaceText[Leref and Ferel are the same person.;Ferel;Ayaka];are;are not]
   `
 });

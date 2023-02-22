@@ -1,5 +1,5 @@
 ---
-title: $getAttachment 
+title: $getAttachment
 description: $getAttachment will return the properties of an attachment.
 id: getAttachment
 ---
@@ -12,8 +12,7 @@ id: getAttachment
 $getAttachment[channelID;messageID;index?;option?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description      | Required |
 | --------- | ------- | ---------------- |:--------:|

@@ -1,5 +1,5 @@
 ---
-title: $newState 
+title: $newState
 description: $newState holds data for the user voice state after the update (voiceStateUpdate callback).
 id: newState
 ---
@@ -12,9 +12,8 @@ id: newState
 $newState[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

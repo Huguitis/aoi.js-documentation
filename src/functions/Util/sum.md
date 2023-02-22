@@ -1,5 +1,5 @@
 ---
-title: $sum 
+title: $sum
 description: $sum will sum-up two given numbers.
 id: sum
 ---
@@ -12,22 +12,21 @@ id: sum
 $sum[num1;num2]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description | Required |
-| ----- | ------ | ----------- | -------- |
-| num1  | number |             | true      |
-| num2  | number |             | true      |
+|-------|--------|-------------|----------|
+| num1  | number |             | true     |
+| num2  | number |             | true     |
 
 ## Example
 
-This will return `75` as `70+5` equals `75`: 
+This will return `75` as `70+5` equals `75`:
 
 ```javascript
 bot.command({
-  name: 'sum',
-  code: `
+    name: 'sum',
+    code: `
   $sum[70+5]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $addTimestamp 
+title: $addTimestamp
 description: $addTimestamp will add a timestamp to an embed.
 id: addTimestamp
 ---
@@ -12,13 +12,11 @@ id: addTimestamp
 $addTimestamp[ms?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type    | Description | Required |
-| ----- | ------- | ----------- |:--------:|
-| ms    | integer | epoch time  |    false    |
-
+|-------|---------|-------------|:--------:|
+| ms    | integer | epoch time  |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will create a embed with timestamp and description:
 
 ```javascript
 bot.command({
-  name: 'addTimestamp',
-  code: `
+    name: 'addTimestamp',
+    code: `
   $description[Hello!]
   $addTimestamp
   `

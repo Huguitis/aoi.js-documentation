@@ -1,5 +1,5 @@
 ---
-title: $channelName 
+title: $channelName
 description: $channelName will return the channel name of the given channel.
 id: channelName
 ---
@@ -12,13 +12,11 @@ id: channelName
 $channelName[channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                            | Required |
-| ---------- | ------- | ------------------------------------------------------ |:--------:|
-| channelID? | integer | channel ID of the channel you want the channel name of |    false    |
-
+|------------|---------|--------------------------------------------------------|:--------:|
+| channelID? | integer | channel ID of the channel you want the channel name of |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the channel name of the channel where you executed the command 
 
 ```javascript
 bot.command({
-  name: 'channelName',
-  code: `
+    name: 'channelName',
+    code: `
   $channelName[$channelID]
   `
 });

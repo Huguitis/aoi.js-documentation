@@ -1,5 +1,5 @@
 ---
-title: $globalCooldown 
+title: $globalCooldown
 description: $globalCooldown will set a global-based cooldown for a command.
 id: globalCooldown
 ---
@@ -11,16 +11,15 @@ id: globalCooldown
 ```php
 $globalCooldown[time;errorMessage?]
 ```
+
 * You are able to retrieve the remaining cooldown in the `$globalCooldown` function by using **`%time%`**.
 
-## Parameters 
-
+## Parameters
 
 | Field         | Type   | Description                                                     | Required |
-| ------------- | ------ | --------------------------------------------------------------- | -------- |
-| time          | string | the duration of the cooldown                                    | true      |
-| errorMessage? | string | error message given when there's remaining time of the cooldown | false       |
-
+|---------------|--------|-----------------------------------------------------------------|----------|
+| time          | string | the duration of the cooldown                                    | true     |
+| errorMessage? | string | error message given when there's remaining time of the cooldown | false    |
 
 ## Example
 
@@ -28,8 +27,8 @@ This will return `Hello` and stop anyone from executing the command again for an
 
 ```javascript
 bot.command({
-  name: 'globalCooldown',
-  code: `
+    name: 'globalCooldown',
+    code: `
   Hello
   $globalCooldown[5m;Please wait %time% to execute this command again.]
   `

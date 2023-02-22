@@ -1,5 +1,5 @@
 ---
-title: $getBanReason 
+title: $getBanReason
 description: $getBanReason will return a ban reason of an specific user.
 id: getBanReason
 ---
@@ -12,14 +12,12 @@ id: getBanReason
 $getBanReason[guildID?;userID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                 | Required |
-| -------- | ------- | ----------------------------------------------------------- | -------- |
-| guildID? | integer | the guild ID                                                | false       |
-| userID?  | integer | the user ID of the user you want to check the ban reason of | false       |
-
+|----------|---------|-------------------------------------------------------------|----------|
+| guildID? | integer | the guild ID                                                | false    |
+| userID?  | integer | the user ID of the user you want to check the ban reason of | false    |
 
 #### Please note that your bot requires `VIEW_AUDIT_LOG` permissions
 
@@ -29,8 +27,8 @@ This will return the ban reason of whoever you'd like:
 
 ```javascript
 bot.command({
-  name: 'getBanReason',
-  code: `
+    name: 'getBanReason',
+    code: `
   $getBanReason[$guildID;userID] //make sure to replace "userID" with an actual user ID
   `
 });

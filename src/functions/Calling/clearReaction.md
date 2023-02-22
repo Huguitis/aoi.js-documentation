@@ -12,16 +12,14 @@ id: clearReaction
 $clearReaction[channelID;messageID;userID;emoji]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description                         | Required |
-| --------- | ------- | ----------------------------------- |:--------:|
-| channelID | integer | channel ID                          |    true   |
-| messageID | integer | message ID                          |    true   |
-| userID    | integer | user ID to remove from the reaction |    true   |
-| emoji     | string  | emoji to remove                     |    true   |
-
+|-----------|---------|-------------------------------------|:--------:|
+| channelID | integer | channel ID                          |   true   |
+| messageID | integer | message ID                          |   true   |
+| userID    | integer | user ID to remove from the reaction |   true   |
+| emoji     | string  | emoji to remove                     |   true   |
 
 ## Example
 
@@ -29,8 +27,8 @@ This will add and remove the bot's reaction after two seconds:
 
 ```javascript
 bot.command({
-  name: 'clearReaction',
-  code: `
+    name: 'clearReaction',
+    code: `
   $clearReaction[$channelID;$messageID;$clientID;🥱]
   $wait[2s]
   $addCmdReactions[🥱]

@@ -1,5 +1,5 @@
 ---
-title: $pinsUpdate 
+title: $pinsUpdate
 description: $pinsUpdate holds data for the channel the channel pins were updated in. (channelPinsUpdate callback)
 id: pinsUpdate
 ---
@@ -12,9 +12,8 @@ id: pinsUpdate
 $pinsUpdate[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

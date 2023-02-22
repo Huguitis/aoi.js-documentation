@@ -1,5 +1,5 @@
 ---
-title: $randomChannelID 
+title: $randomChannelID
 description: $randomChannelID will return a random channel ID of all guilds or of a specific guild.
 id: randomChannelID
 ---
@@ -12,19 +12,18 @@ id: randomChannelID
 $randomChannelID[guildID/global?;type?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field           | Type    | Description               | Required |
-| --------------- | ------- | ------------------------- | -------- |
-| guildID/global? | integer | guild ID or global search | false       |
-| type?           | string  | channel type              | false       |
+|-----------------|---------|---------------------------|----------|
+| guildID/global? | integer | guild ID or global search | false    |
+| type?           | string  | channel type              | false    |
 
 <details open>
   <summary><h3> Channel Types </h3></summary>
 
 | Channel Type         |                    |
-| -------------------- | ------------------ |
+|----------------------|--------------------|
 | Text Channel         | Text               |
 | Voice Channel        | Voice              |
 | Category             | Category           |
@@ -49,8 +48,8 @@ This will return a random channel ID of your guild:
 
 ```javascript
 bot.command({
-  name: 'randomChannelID',
-  code: `
+    name: 'randomChannelID',
+    code: `
   <#$randomChannelID[$guildID;all]>
   `
 });

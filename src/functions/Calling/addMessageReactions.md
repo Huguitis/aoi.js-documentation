@@ -1,5 +1,5 @@
 ---
-title: $addMessageReactions 
+title: $addMessageReactions
 description: $addMessageReactions will add a reaction to a specific message.
 id: addMessageReactions
 ---
@@ -12,15 +12,13 @@ id: addMessageReactions
 $addMessageReactions[channelID;messageID;...reactions]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description | Required |
-| --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    true   |
-| messageID | integer | message ID  |    true   |
-| reactions | string  | reactions   |    true   |
-
+|-----------|---------|-------------|:--------:|
+| channelID | integer | channel ID  |   true   |
+| messageID | integer | message ID  |   true   |
+| reactions | string  | reactions   |   true   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will add the given reactions to your message:
 
 ```javascript
 bot.command({
-  name: 'addMessageReactions',
-  code: `
+    name: 'addMessageReactions',
+    code: `
  $addMessageReactions[$channelID;$messageID;✅;❌]
   `
 });

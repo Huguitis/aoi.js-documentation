@@ -1,5 +1,5 @@
 ---
-title: $resolveEmojiID 
+title: $resolveEmojiID
 description: $resolveEmojiID will resolve a certain emoji.
 id: resolveEmojiID
 ---
@@ -12,15 +12,13 @@ id: resolveEmojiID
 $resolveEmojiID[emoji]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description | Required |
-| ----- | ------ | ----------- | -------- |
-| emoji | string | emoji name  | true      |
+|-------|--------|-------------|----------|
+| emoji | string | emoji name  | true     |
 
 ### Please note that your bot has to be present in the guild where the emoji is in.
-
 
 ## Example
 
@@ -28,8 +26,8 @@ This will return `<:LerefMoney:1003365344724910191>`:
 
 ```javascript
 bot.command({
-  name: 'resolveEmojiID',
-  code: `
+    name: 'resolveEmojiID',
+    code: `
   $resolveEmojiID[LerefMoney]
   `
 });

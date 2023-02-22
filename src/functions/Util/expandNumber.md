@@ -1,5 +1,5 @@
 ---
-title: $expandNumber 
+title: $expandNumber
 description: $expandNumber will expand the given number.
 id: expandNumber
 ---
@@ -12,13 +12,11 @@ id: expandNumber
 $expandNumber[abbrNumber]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type   | Description               | Required |
-| ---------- | ------ | ------------------------- | -------- |
-| abbrNumber | string | number you want to expand | true      |
-
+|------------|--------|---------------------------|----------|
+| abbrNumber | string | number you want to expand | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `1300000`:
 
 ```javascript
 bot.command({
-  name: 'expandNumber',
-  code: `
+    name: 'expandNumber',
+    code: `
   $expandNumber[1.3m]`
 });
 ```

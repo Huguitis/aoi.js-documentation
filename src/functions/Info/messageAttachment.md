@@ -1,5 +1,5 @@
 ---
-title: $messageAttachment 
+title: $messageAttachment
 description: $messageAttachment will return a message attachment depending on the given index.
 id: messageAttachment
 ---
@@ -12,13 +12,11 @@ id: messageAttachment
 $messageAttachment[index?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type    | Description                                                | Required |
-| ------ | ------- | ---------------------------------------------------------- |:--------:|
-| index? | integer | which message attachment to return, <br /> **1** - default |    false    |
-
+|--------|---------|------------------------------------------------------------|:--------:|
+| index? | integer | which message attachment to return, <br /> **1** - default |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return your given attachment:
 
 ```javascript
 bot.command({
-  name: 'messageAttachment',
-  code: `
+    name: 'messageAttachment',
+    code: `
   You had the following attachment in your message: $messageAttachment
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $randomRoleID 
+title: $randomRoleID
 description: $randomRoleID will return a random role ID of a given guild.
 id: randomRoleID
 ---
@@ -12,13 +12,11 @@ id: randomRoleID
 $randomRoleID[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                  | Required |
-| -------- | ------- | -------------------------------------------- | -------- |
-| guildID? | integer | where it will return the random role ID from | true      |
-
+|----------|---------|----------------------------------------------|----------|
+| guildID? | integer | where it will return the random role ID from | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return a random role ID of your guild:
 
 ```javascript
 bot.command({
-  name: 'randomRoleID',
-  code: `
+    name: 'randomRoleID',
+    code: `
   $randomRoleID[$guildID]
   `
 });

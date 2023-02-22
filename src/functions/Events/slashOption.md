@@ -1,5 +1,5 @@
 ---
-title: $slashOption 
+title: $slashOption
 description: $slashOption returns data of a slash command option.
 id: slashOption
 ---
@@ -12,9 +12,8 @@ id: slashOption
 $slashOption[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description | Required |
-| ------ | ------ | ----------- |:--------:|
-| option | string | option name |    true   |
+|--------|--------|-------------|:--------:|
+| option | string | option name |   true   |

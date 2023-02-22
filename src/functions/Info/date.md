@@ -1,5 +1,5 @@
 ---
-title: $date 
+title: $date
 description: $date will return the day of the month.
 id: date
 ---
@@ -18,8 +18,8 @@ This will return day of the month, for example, `28`:
 
 ```javascript
 bot.command({
-  name: 'date',
-  code: `
+    name: 'date',
+    code: `
   $date
   `
 });

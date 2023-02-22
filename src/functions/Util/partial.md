@@ -1,5 +1,5 @@
 ---
-title: $partial 
+title: $partial
 description: $partial checks if the object structure is partial.
 id: partial
 ---

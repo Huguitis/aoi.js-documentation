@@ -1,5 +1,5 @@
 ---
-title: $reactionData 
+title: $reactionData
 description: $reactionData holds data of a reaction.
 id: reactionData
 ---
@@ -12,9 +12,8 @@ id: reactionData
 $reactionData[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                                             | Required |
-| ------ | ------ | ----------------------------------------------------------------------- |:--------:|
-| option | string | option <br /> 1. **usernames** <br /> 2. **userIds** <br /> 3. **tags** |    true   |
+|--------|--------|-------------------------------------------------------------------------|:--------:|
+| option | string | option <br /> 1. **usernames** <br /> 2. **userIds** <br /> 3. **tags** |   true   |

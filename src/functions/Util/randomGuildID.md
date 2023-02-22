@@ -1,5 +1,5 @@
 ---
-title: $randomGuildID 
+title: $randomGuildID
 description: $randomGuildID will return a random guild ID.
 id: randomChannelID
 ---
@@ -18,8 +18,8 @@ This will return a random server name using the `$randomGuildID` and `$serverNam
 
 ```javascript
 bot.command({
-  name: 'randomGuildID',
-  code: `
+    name: 'randomGuildID',
+    code: `
   $serverName[$randomGuildID]
   `
 });

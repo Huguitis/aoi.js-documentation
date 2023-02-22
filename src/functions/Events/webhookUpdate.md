@@ -1,5 +1,5 @@
 ---
-title: $webhookUpdate 
+title: $webhookUpdate
 description: $webhookUpdate holds data for the channel the webhook was updated in. (webhookUpdate callback)
 id: webhookUpdate
 ---
@@ -12,9 +12,8 @@ id: webhookUpdate
 $webhookUpdate[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description | Required |
-| ------ | ------ | ----------- |:--------:|
-| option | string | option      |    true   |
+|--------|--------|-------------|:--------:|
+| option | string | option      |   true   |

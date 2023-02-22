@@ -1,5 +1,5 @@
 ---
-title: $allMembersCount 
+title: $allMembersCount
 description: $allMembersCount will return the amount of members in your guild.
 id: allMembersCount
 ---
@@ -18,8 +18,8 @@ This will return the amount of members in your guild:
 
 ```javascript
 bot.command({
-  name: 'allMembersCount',
-  code: `
+    name: 'allMembersCount',
+    code: `
   $allMembersCount
   `
 });

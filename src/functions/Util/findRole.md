@@ -1,5 +1,5 @@
 ---
-title: $findRole 
+title: $findRole
 description: $findRole will search and return a given role of a certain guild.
 id: findRole
 ---
@@ -12,24 +12,23 @@ id: findRole
 $findRole[roleResolver;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field        | Type    | Description                           | Required |
-| ------------ | ------- | ------------------------------------- | -------- |
-| roleResolver | string  | name of the role you want to find     | true      |
-| guildID?     | integer | guild ID where the role is present in | false       |
-
+|--------------|---------|---------------------------------------|----------|
+| roleResolver | string  | name of the role you want to find     | true     |
+| guildID?     | integer | guild ID where the role is present in | false    |
 
 ## Example
 
 This will return the role ID of the role `Owner` if it exists:
+
 ### Note that this example won't work if your bot is not in the guild where the role is in.
 
 ```javascript
 bot.command({
-  name: 'findRole',
-  code: `
+    name: 'findRole',
+    code: `
   $findRole[Owner;773352845738115102]
   `
 });

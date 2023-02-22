@@ -1,5 +1,5 @@
 ---
-title: $oldEmoji 
+title: $oldEmoji
 description: $oldEmoji holds data for the emoji before it was updated/ deleted. (emojiUpdate and emojiDelete callback)
 id: oldEmoji
 ---
@@ -12,9 +12,8 @@ id: oldEmoji
 $oldEmoji[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

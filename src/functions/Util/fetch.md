@@ -1,5 +1,5 @@
 ---
-title: $fetch 
+title: $fetch
 description: $fetch will fetch information about a given method using Discord's API.
 id: fetch
 ---
@@ -11,20 +11,19 @@ id: fetch
 ```php
 $fetch[method;query;...query]
 ```
-## Parameters 
 
+## Parameters
 
 | Field  | Type   | Description           | Required |
-| ------ | ------ | --------------------- | -------- |
-| method | string | method (listed below) | true      |
-| query  | string | input for the method  | true      |
-
+|--------|--------|-----------------------|----------|
+| method | string | method (listed below) | true     |
+| query  | string | input for the method  | true     |
 
 <details>
   <summary><h3> Methods </h3></summary>
 
 | Method              |
-| ------------------- |
+|---------------------|
 | message             |
 | channel             |
 | user                |
@@ -47,11 +46,11 @@ This will display information about the message using the `fetch` function:
 
 ```javascript
 bot.command({
-  name: 'fetch',
-  code: `
+    name: 'fetch',
+    code: `
   \`\`\`
   $fetch[message;$messageID]
   \`\`\`
-  ` 
+  `
 });
 ```

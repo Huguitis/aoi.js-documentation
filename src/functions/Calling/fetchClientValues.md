@@ -1,5 +1,5 @@
 ---
-title: $fetchClientValues 
+title: $fetchClientValues
 description: $fetchClientValues will return data of all client shards.
 id: fetchClientValues
 ---
@@ -12,8 +12,7 @@ id: fetchClientValues
 $fetchClientValues[func]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description         | Required |
 | ----- | ------ | ------------------- |:--------:|

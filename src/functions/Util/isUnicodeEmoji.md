@@ -1,5 +1,5 @@
 ---
-title: $isUnicodeEmoji 
+title: $isUnicodeEmoji
 description: $isUnicodeEmoji will check if the given emoji is an unicode emoji.
 id: isUnicodeEmoji
 ---
@@ -12,13 +12,11 @@ id: isUnicodeEmoji
 $isUnicodeEmoji[emoji]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description   | Required |
-| ----- | ------ | ------------- | -------- |
-| emoji | string | unicode emoji | true      |
-
+|-------|--------|---------------|----------|
+| emoji | string | unicode emoji | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` as "🤓" is an valid unicode emoji:
 
 ```javascript
 bot.command({
-  name: 'isUnicodeEmoji',
-  code: `
+    name: 'isUnicodeEmoji',
+    code: `
   $isUnicodeEmoji[🤓]
   `
 });

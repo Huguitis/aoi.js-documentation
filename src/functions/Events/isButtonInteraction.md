@@ -1,5 +1,5 @@
 ---
-title: $isButtonInteraction 
+title: $isButtonInteraction
 description: $isButtonInteraction will return either true or false depending on the type of the interaction.
 id: isButtonInteraction
 ---

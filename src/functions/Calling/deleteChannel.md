@@ -1,5 +1,5 @@
 ---
-title: $deleteChannel 
+title: $deleteChannel
 description: $deleteChannel will delete a specific channel.
 id: deleteChannel
 ---
@@ -12,13 +12,11 @@ id: deleteChannel
 $deleteChannel[channelID]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description | Required |
-| --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    true   |
-
+|-----------|---------|-------------|:--------:|
+| channelID | integer | channel ID  |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will delete the channel where the command was executed in:
 
 ```javascript
 bot.command({
-  name: 'deleteChannel',
-  code: `
+    name: 'deleteChannel',
+    code: `
   $deleteChannel[$channelID]
   `
 });

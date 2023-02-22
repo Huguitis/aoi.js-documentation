@@ -1,5 +1,5 @@
 ---
-title: $getUserBadges 
+title: $getUserBadges
 description: $getUserBadges will return the given users' badges.
 id: getUserBadges
 ---
@@ -12,14 +12,12 @@ id: getUserBadges
 $getUserBadges[userId?;sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description                                                            | Required |
-| ------- | ------- | ---------------------------------------------------------------------- |:--------:|
-| userId? | integer | the id of the user you want the badges of                              |    false    |
-| sep?    | string  | seperator to split multiple badges from eachother <br /> `,` (default) |    false    |
-
+|---------|---------|------------------------------------------------------------------------|:--------:|
+| userId? | integer | the id of the user you want the badges of                              |  false   |
+| sep?    | string  | seperator to split multiple badges from eachother <br /> `,` (default) |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return your Discord Badges seperated by a comma:
 
 ```javascript
 bot.command({
-  name: 'getUserBadges',
-  code: `
+    name: 'getUserBadges',
+    code: `
   $getUserBadges[$authorID;, ]
   `
 });

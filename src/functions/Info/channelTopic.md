@@ -1,5 +1,5 @@
 ---
-title: $channelTopic 
+title: $channelTopic
 description: $channelTopic will return the given channel's topic.
 id: channelTopic
 ---
@@ -12,13 +12,11 @@ id: channelTopic
 $channelTopic[channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                             | Required |
-| ---------- | ------- | ------------------------------------------------------- |:--------:|
-| channelID? | integer | channel ID of the channel you want the channel topic of |    false    |
-
+|------------|---------|---------------------------------------------------------|:--------:|
+| channelID? | integer | channel ID of the channel you want the channel topic of |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the channel topic of the channel where you execute the command 
 
 ```javascript
 bot.command({
-  name: 'channelTopic',
-  code: `
+    name: 'channelTopic',
+    code: `
   $channelTopic[$channelID]
   `
 });

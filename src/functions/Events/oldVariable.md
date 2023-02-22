@@ -1,5 +1,5 @@
 ---
-title: $oldVariable 
+title: $oldVariable
 description: $oldVariable gets the data from variable Callbacks (update and delete one)
 id: oldVariable
 ---
@@ -12,10 +12,9 @@ id: oldVariable
 $oldVariable[option;sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                                                                                                                          | Required |
-| ------ | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |:--------:|
-| option | string | option <br /> 1. **variable** <br /> 2. **key** <br /> 3. **value** <br /> 4. **guild** <br /> 5. **for** <br /> 6. **type** <br /> 7. **timestamp** |    true   |
-| sep?   | string | seperator                                                                                                                                            |    false    |
+|--------|--------|------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
+| option | string | option <br /> 1. **variable** <br /> 2. **key** <br /> 3. **value** <br /> 4. **guild** <br /> 5. **for** <br /> 6. **type** <br /> 7. **timestamp** |   true   |
+| sep?   | string | seperator                                                                                                                                            |  false   |

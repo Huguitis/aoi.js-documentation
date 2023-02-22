@@ -1,5 +1,5 @@
 ---
-title: $interactionModal 
+title: $interactionModal
 description: $interactionModal create an user interactive modal.
 id: interactionModal
 ---
@@ -12,21 +12,21 @@ id: interactionModal
 $interactionModal[title;customID;components]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type   | Description                                    | Required |
-| ---------- | ------ | ---------------------------------------------- |:--------:|
-| title      | string | modal title which will be displayed at the top |    true   |
-| customID   | string | modal custom ID                                |    true   |
-| components | string | modal components                               |    true   |
-
+|------------|--------|------------------------------------------------|:--------:|
+| title      | string | modal title which will be displayed at the top |   true   |
+| customID   | string | modal custom ID                                |   true   |
+| components | string | modal components                               |   true   |
 
 ## Example
 
-This will create a button and modal which will send the entered data to the same channel and give an ephemeral response to the user who submitted the form: 
+This will create a button and modal which will send the entered data to the same channel and give an ephemeral response
+to the user who submitted the form:
 
-Please note that you require "**events: ["onMessage", "onInteractionCreate"]**" in your main file (also known as, in most cases, index.js)
+Please note that you require "**events: ["onMessage", "onInteractionCreate"]**" in your main file (also known as, in
+most cases, index.js)
 
 ```js
 bot.command({

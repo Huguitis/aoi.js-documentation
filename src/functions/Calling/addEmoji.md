@@ -1,10 +1,12 @@
 ---
-title: $addEmoji 
-description: $addEmoji will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by users with one of provided role IDs
+title: $addEmoji
+description: $addEmoji will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by
+users with one of provided role IDs
 id: addEmoji
 ---
 
-`$addEmoji` will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by users with one of provided role IDs
+`$addEmoji` will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by users with one
+of provided role IDs
 
 ## Usage
 
@@ -12,18 +14,16 @@ id: addEmoji
 $addEmoji[guildID;url;name;returnEmoji?;reason?;...roles?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field        | Type    | Description                                              | Required |
-| ------------ | ------- | -------------------------------------------------------- |:--------:|
-| guildID      | integer | guild ID                                                 |    true   |
-| url          | string  | valid image URL                                          |    true   |
-| name         | string  | emoji name                                               |    true   |
-| returnEmoji? | string  | return the created emoji?                                |    false    |
-| reason?      | string  | reason which will be displayed in the guild's audit logs |    false    |
-| roles?       | integer | useable by the given role only?                          |    false    |
-
+|--------------|---------|----------------------------------------------------------|:--------:|
+| guildID      | integer | guild ID                                                 |   true   |
+| url          | string  | valid image URL                                          |   true   |
+| name         | string  | emoji name                                               |   true   |
+| returnEmoji? | string  | return the created emoji?                                |  false   |
+| reason?      | string  | reason which will be displayed in the guild's audit logs |  false   |
+| roles?       | integer | useable by the given role only?                          |  false   |
 
 ## Example
 
@@ -31,8 +31,8 @@ This will create an emoji:
 
 ```javascript
 bot.command({
-  name: 'addEmoji',
-  code: `
+    name: 'addEmoji',
+    code: `
   $addEmoji[$guildID;https://cdn.discordapp.com/emojis/1010320053687832586.webp?size=96&quality=lossless;leref;false]
   `
 });

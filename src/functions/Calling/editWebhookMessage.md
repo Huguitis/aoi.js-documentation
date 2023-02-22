@@ -1,5 +1,5 @@
 ---
-title: $editWebhookMessage 
+title: $editWebhookMessage
 description: $editWebhookMessage will edit a given webhook message.
 id: editWebhookMessage
 ---
@@ -12,8 +12,7 @@ id: editWebhookMessage
 $editWebhookMessage[webhookID;webhookToken;messageID;returnID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field        | Type    | Description                                                         | Required |
 | ------------ | ------- | ------------------------------------------------------------------- |:--------:|

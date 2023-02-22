@@ -1,5 +1,5 @@
 ---
-title: $isRoleManaged 
+title: $isRoleManaged
 description: $isRoleManaged will check if a certain role is managed by Discord.
 id: isRoleManaged
 ---
@@ -12,13 +12,12 @@ id: isRoleManaged
 $isRoleManaged[roleID;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                             | Required |
-| -------- | ------- | ----------------------------------------------------------------------- | -------- |
-| roleID   | integer | role ID of the role you want to check if it's managed by Discord or not | true      |
-| guildID? | integer | guild ID of where the role exists                                       | false       |
+|----------|---------|-------------------------------------------------------------------------|----------|
+| roleID   | integer | role ID of the role you want to check if it's managed by Discord or not | true     |
+| guildID? | integer | guild ID of where the role exists                                       | false    |
 
 ### Please note that your bot has to be in the same server as the role or else this function will not work.
 
@@ -28,8 +27,8 @@ This will check if a role called `Server Booster` is managed by Discord and retu
 
 ```javascript
 bot.command({
-  name: 'isRoleManaged',
-  code: `
+    name: 'isRoleManaged',
+    code: `
   $isRoleManaged[$findRole[Server Booster];$guildID]
   `
 });

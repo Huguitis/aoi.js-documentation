@@ -1,5 +1,5 @@
 ---
-title: $botCount 
+title: $botCount
 description: $botCount will return the amount of Bots in your guild.
 id: botCount
 ---
@@ -12,13 +12,11 @@ id: botCount
 $botCount[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                   | Required |
-| -------- | ------- | ------------------------------------------------------------- |:--------:|
-| guildID? | integer | guild id of the guild you want to retrieve the amount of bots |    false    |
-
+|----------|---------|---------------------------------------------------------------|:--------:|
+| guildID? | integer | guild id of the guild you want to retrieve the amount of bots |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the amount of bots in your guild:
 
 ```javascript
 bot.command({
-  name: 'botCount',
-  code: `
+    name: 'botCount',
+    code: `
   $botCount
   `
 });

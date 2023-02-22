@@ -1,5 +1,5 @@
 ---
-title: $uptime 
+title: $uptime
 description: $uptime will return the bot's uptime.
 id: uptime
 ---
@@ -12,15 +12,14 @@ id: uptime
 $uptime[option?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type   | Description                     | Required |
-| ------- | ------ | ------------------------------- |:--------:|
-| option? | string | how the uptime will be returned |    false    |
+|---------|--------|---------------------------------|:--------:|
+| option? | string | how the uptime will be returned |  false   |
 
 | Option             | Output                 |
-| ------------------ | ---------------------- |
+|--------------------|------------------------|
 | full **(default)** | 19 minutes, 21 seconds |
 | humanize           | 19m 21s                |
 | ms                 | 1165980                |
@@ -31,8 +30,8 @@ This will return the time of how long your bot is online for:
 
 ```javascript
 bot.command({
-  name: 'uptime',
-  code: `
+    name: 'uptime',
+    code: `
   I've been up for $uptime[full]!
   `
 });

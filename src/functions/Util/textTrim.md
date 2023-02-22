@@ -1,6 +1,7 @@
 ---
-title: $textTrim 
-description: $textTrim will remove all extra spaces, multiple spaces after one space, and replaces those with one single space.
+title: $textTrim
+description: $textTrim will remove all extra spaces, multiple spaces after one space, and replaces those with one single
+space.
 id: textTrim
 ---
 
@@ -12,17 +13,15 @@ id: textTrim
 $textTrim[text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description            | Required |
-| ----- | ------ | ---------------------- | -------- |
-| text  | string | the text to be trimmed | true      |
-
+|-------|--------|------------------------|----------|
+| text  | string | the text to be trimmed | true     |
 
 ## Example
 
-This will remove any extra spaces of the given text, in this case it would return `Imagine a string package.`: 
+This will remove any extra spaces of the given text, in this case it would return `Imagine a string package.`:
 
 ```php
 bot.command({

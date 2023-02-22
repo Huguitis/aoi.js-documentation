@@ -1,5 +1,5 @@
 ---
-title: $channelExists 
+title: $channelExists
 description: $channelExists will check if the given channel exists.
 id: channelExists
 ---
@@ -12,12 +12,11 @@ id: channelExists
 $channelExists[channel]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type   | Description                | Required |
-| ------- | ------ | -------------------------- | -------- |
-| channel | string | channel ID or channel name | true      |
+|---------|--------|----------------------------|----------|
+| channel | string | channel ID or channel name | true     |
 
 ## Example
 
@@ -25,8 +24,8 @@ This will check if a channel with the name `general` exists, alternatively you c
 
 ```javascript
 bot.command({
-  name: 'channelExists',
-  code: `
+    name: 'channelExists',
+    code: `
   $channelExists[general]
   `
 });
