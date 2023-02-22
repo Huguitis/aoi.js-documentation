@@ -1,5 +1,5 @@
 ---
-title: akarui/aoi.panel
+title: Functions - aoi.panel
 description: All about aoi.panel's functions.
 id: aoi.panel-functions
 ---
