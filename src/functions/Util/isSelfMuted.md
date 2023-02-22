@@ -1,7 +1,7 @@
 ---
 title: $isSelfMuted 
 description: $isSelfMuted is similar but not to confuse with `$isMuted`, this will check if the user muted themselves.
-id: isSelfDeafened
+id: isSelfMuted
 ---
 
 $isSelfMuted is similar but not to confuse with `$isMuted`, this will check if the user muted themselves.
