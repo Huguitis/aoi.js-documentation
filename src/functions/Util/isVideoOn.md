@@ -1,5 +1,5 @@
 ---
-title: $isVideoOn 
+title: $isVideoOn
 description: $isVideoOn checks if the given user has their video on in a voice channel.
 id: isVideoOn
 ---
@@ -12,14 +12,12 @@ id: isVideoOn
 $isVideoOn[userid?;guildid?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                             | Required |
-| -------- | ------- | ----------------------------------------------------------------------- | -------- |
-| userid?  | integer | user id of the user who turned video on                                 | false       |
-| guildid? | integer | the guild ID of the guild you want to check if they have their video on | false       |
-
+|----------|---------|-------------------------------------------------------------------------|----------|
+| userid?  | integer | user id of the user who turned video on                                 | false    |
+| guildid? | integer | the guild ID of the guild you want to check if they have their video on | false    |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will check if you're currently using the video feature in a voice channel:
 
 ```javascript
 bot.command({
-  name: 'isVideoOn',
-  code: `
+    name: 'isVideoOn',
+    code: `
   $isVideoOn[$authorID;$guildID]
   `
 });

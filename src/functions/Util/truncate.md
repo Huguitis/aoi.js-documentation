@@ -1,5 +1,5 @@
 ---
-title: $truncate 
+title: $truncate
 description: $truncate will remove all values after a decimal point.
 id: truncate
 ---
@@ -12,13 +12,11 @@ id: truncate
 $truncate[number]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description       | Required |
-| ------ | ------ | ----------------- | -------- |
-| number | number | value to truncate | true      |
-
+|--------|--------|-------------------|----------|
+| number | number | value to truncate | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `775` and remove `.9723` from the given value:
 
 ```javascript
 bot.command({
-  name: 'truncate',
-  code: `
+    name: 'truncate',
+    code: `
   $truncate[775.9723]
   `
 });

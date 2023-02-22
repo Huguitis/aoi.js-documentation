@@ -1,5 +1,5 @@
 ---
-title: $stringStartsWith 
+title: $stringStartsWith
 description: $stringStartsWith will check if the given argument starts with something specific.
 id: stringStartsWith
 ---
@@ -12,22 +12,21 @@ id: stringStartsWith
 $stringStartsWith[text;check]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                                             | Required |
-| ----- | ------ | ----------------------------------------------------------------------- | -------- |
-| text  | string | the text that will be checked                                           | true      |
-| check | string | the argument that will check if the text starts with something specific | true      |
+|-------|--------|-------------------------------------------------------------------------|----------|
+| text  | string | the text that will be checked                                           | true     |
+| check | string | the argument that will check if the text starts with something specific | true     |
 
 ## Example
 
-This will return `true` as `aoi.js` starts with `aoi`: 
+This will return `true` as `aoi.js` starts with `aoi`:
 
 ```javascript
 bot.command({
-  name: 'stringStartsWith',
-  code: `
+    name: 'stringStartsWith',
+    code: `
   $stringStartsWith[aoi.js;aoi]
   `
 });

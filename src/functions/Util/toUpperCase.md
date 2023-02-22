@@ -1,5 +1,5 @@
 ---
-title: $toUpperCase 
+title: $toUpperCase
 description: $toUpperCase will change the given text from lowercase to uppercase.
 id: toUpperCase
 ---
@@ -12,17 +12,15 @@ id: toUpperCase
 $toUpperCase[text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description | Required |
-| ----- | ------ | ----------- | -------- |
-| text  | string |             | true      |
-
+|-------|--------|-------------|----------|
+| text  | string |             | true     |
 
 ## Example
 
-This will everything given to uppercase, in this case it would return `THIS IS AN EXAMPLE`: 
+This will everything given to uppercase, in this case it would return `THIS IS AN EXAMPLE`:
 
 ```php
 bot.command({

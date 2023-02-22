@@ -1,5 +1,5 @@
 ---
-title: $dm 
+title: $dm
 description: $dm will send a message to an users Direct Messages.
 id: dm
 ---
@@ -12,13 +12,11 @@ id: dm
 $dm[userID]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type    | Description | Required |
-| ------ | ------- | ----------- |:--------:|
-| userID | integer | user ID     |    true   |
-
+|--------|---------|-------------|:--------:|
+| userID | integer | user ID     |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will send an DM to you containing "Hello! Did you really think this works?"
 
 ```javascript
 bot.command({
-  name: 'dm',
-  code: `
+    name: 'dm',
+    code: `
   Hello! Did you really think this works?
   $dm[$authorID]
   `

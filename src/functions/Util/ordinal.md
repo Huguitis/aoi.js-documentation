@@ -1,5 +1,5 @@
 ---
-title: $ordinal 
+title: $ordinal
 description: $ordinal adds st, nd, rd, th to a number such as 1st, 2nd, 3rd, 4th.
 id: ordinal
 ---
@@ -12,19 +12,18 @@ id: ordinal
 $ordinal[number]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                        | Required |
-| ------ | ------ | -------------------------------------------------- | -------- |
-| number | number | number which will add `st`, `nd`, `rd`, `th` to it | true      |
+|--------|--------|----------------------------------------------------|----------|
+| number | number | number which will add `st`, `nd`, `rd`, `th` to it | true     |
 
 ## Example
 
 ```javascript
 bot.command({
-  name: 'ordinal',
-  code: `
+    name: 'ordinal',
+    code: `
   $ordinal[12] // Returns 12nd 
   $ordinal[50] // Returns 50th
   $ordinal[11] // Returns 11st

@@ -1,5 +1,5 @@
 ---
-title: $guildPreferredLocale 
+title: $guildPreferredLocale
 description: $guildPreferredLocale will return a guild's set locale.
 id: guildPreferredLocale
 ---
@@ -12,13 +12,11 @@ id: guildPreferredLocale
 $guildPreferredLocale[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the guild's preferred locale:
 
 ```javascript
 bot.command({
-  name: 'guildPreferredLocale',
-  code: `
+    name: 'guildPreferredLocale',
+    code: `
   $guildPreferredLocale[$guildID]
   `
 });

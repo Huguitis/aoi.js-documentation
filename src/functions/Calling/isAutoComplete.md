@@ -1,10 +1,12 @@
 ---
-title: $isAutoComplete 
-description: $isAutoComplete will return either true or false depending on the entered slash command option being auto completed or not. (autoCompleteRespond function)
+title: $isAutoComplete
+description: $isAutoComplete will return either true or false depending on the entered slash command option being auto
+completed or not. (autoCompleteRespond function)
 id: isAutoComplete
 ---
 
-`$isAutoComplete` will return either true or false depending on the entered slash command option being auto completed or not. (autoCompleteRespond function)
+`$isAutoComplete` will return either true or false depending on the entered slash command option being auto completed or
+not. (autoCompleteRespond function)
 
 ## Usage
 
@@ -14,14 +16,15 @@ $isAutoComplete
 
 ## Examples
 
-This will create a slash command with the "autoComplete" feature: 
+This will create a slash command with the "autoComplete" feature:
 
-Please note that you require "**events: ["onMessage", "onInteractionCreate"]**" in your main file (also known as, in most cases, index.js)
+Please note that you require "**events: ["onMessage", "onInteractionCreate"]**" in your main file (also known as, in
+most cases, index.js)
 
 ```javascript
 bot.command({
-  name: 'createSlashCommand',
-  code: `
+    name: 'createSlashCommand',
+    code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
   "name": "option", 
   "description": "test",
@@ -31,13 +34,15 @@ bot.command({
 }]]`
 });
 ```
+
 Checking if autoComplete equals `true`, if so it will respond with the given respond (addition of the code above):
+
 ```javascript
 bot.command({
-  name: "example",
-  prototype: "slash",
-  $if: "old",
-  code: `
+    name: "example",
+    prototype: "slash",
+    $if: "old",
+    code: `
   $if[$isAutocomplete==true]
   $autoCompleteRespond[First option;You selected the first option, therefore I'm responding with this!;Second option;You selected the first second, therefore I'm responding with this!]
   $else
@@ -51,8 +56,8 @@ Create the slash-commands with another option:
 
 ```javascript
 bot.command({
-  name: 'createSlashCommand',
-  code: `
+    name: 'createSlashCommand',
+    code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
   "name": "option",
   "description": "test",
@@ -68,14 +73,15 @@ bot.command({
 });
 ```
 
-Using JSON and checking if autoComplete equals `true`, if so it will respond with the given respond (addition of the code above):
+Using JSON and checking if autoComplete equals `true`, if so it will respond with the given respond (addition of the
+code above):
 
 ```javascript
 bot.command({
-  name: "example",
-  prototype: "slash",
-  $if: "old",
-  code: `
+    name: "example",
+    prototype: "slash",
+    $if: "old",
+    code: `
   $if[$isAutocomplete==true]
   $autoCompleteRespond[[{ 
     "name" : "First Option",

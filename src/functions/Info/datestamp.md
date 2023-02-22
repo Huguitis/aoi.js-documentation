@@ -1,5 +1,5 @@
 ---
-title: $datestamp 
+title: $datestamp
 description: $datestamp will return the day in MS.
 id: datestamp
 ---
@@ -18,8 +18,8 @@ This will return day of the month, in MS ( we're using $humanizeMS to make it re
 
 ```javascript
 bot.command({
-  name: 'datestamp',
-  code: `
+    name: 'datestamp',
+    code: `
   $humanizeMS[$datestamp]
   `
 });

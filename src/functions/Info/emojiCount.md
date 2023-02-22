@@ -1,5 +1,5 @@
 ---
-title: $emojiCount 
+title: $emojiCount
 description: $emojiCount will return the emoji count of a guild.
 id: emojiCount
 ---
@@ -12,12 +12,11 @@ id: emojiCount
 $emojiCount[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -25,8 +24,8 @@ This will return the emoji count of your guild:
 
 ```javascript
 bot.command({
-  name: 'emojiCount',
-  code: `
+    name: 'emojiCount',
+    code: `
   You have $emojiCount emojis in your guild!
   `
 });

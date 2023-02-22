@@ -1,5 +1,5 @@
 ---
-title: $roleExists 
+title: $roleExists
 description: $roleExists will check if a certain role exists within a certain guild.
 id: roleExists
 ---
@@ -12,23 +12,21 @@ id: roleExists
 $roleExists[roleId;guildId?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                 | Required |
-| -------- | ------- | ------------------------------------------- | -------- |
-| roleId   | integer | role ID you want to check if it exists      | true      |
-| guildId? | integer | guild ID of the guild where the role exists | false       |
-
+|----------|---------|---------------------------------------------|----------|
+| roleId   | integer | role ID you want to check if it exists      | true     |
+| guildId? | integer | guild ID of the guild where the role exists | false    |
 
 ## Example
 
-This will return `false` as the role doesn't exist in your guide: 
+This will return `false` as the role doesn't exist in your guide:
 
 ```javascript
 bot.command({
-  name: 'roleExists',
-  code: `
+    name: 'roleExists',
+    code: `
   $roleExists[900004369355931729;$guildID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $deleteWebhook 
+title: $deleteWebhook
 description: $deleteWebhook will delete a Webhook.
 id: deleteWebhook
 ---
@@ -12,13 +12,11 @@ id: deleteWebhook
 $deleteWebhook[webhookID;webhookToken]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field        | Type    | Description   | Required |
-| ------------ | ------- | ------------- |:--------:|
-| webhookID    | integer | webhook ID    |    true   |
-| webhookToken | string  | webhook Token |    true   |
-
+|--------------|---------|---------------|:--------:|
+| webhookID    | integer | webhook ID    |   true   |
+| webhookToken | string  | webhook Token |   true   |
 
 *No example as it's self-explanatory.*

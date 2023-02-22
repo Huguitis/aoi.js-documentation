@@ -1,5 +1,5 @@
 ---
-title: $hasRoles 
+title: $hasRoles
 description: $hasRoles check if the provided user has the roles listed in the roles argument.
 id: hasRoles
 ---
@@ -12,15 +12,13 @@ id: hasRoles
 $hasRoles[guildID;userID;...roles]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description                             | Required |
-| ------- | ------- | --------------------------------------- | -------- |
-| guildID | integer | guild ID where the roles are present in | true      |
-| userID  | integer | user ID of the user which has the roles | true      |
-| roles   | integer | the roles that will be checked for      | true      |
-
+|---------|---------|-----------------------------------------|----------|
+| guildID | integer | guild ID where the roles are present in | true     |
+| userID  | integer | user ID of the user which has the roles | true     |
+| roles   | integer | the roles that will be checked for      | true     |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will return `true` when the user has the listed roles:
 
 ```javascript
 bot.command({
-  name: 'hasRoles',
-  code: `
+    name: 'hasRoles',
+    code: `
   $hasRoles[$guildID;$authorID;$findRole[Owner]]
   `
 });

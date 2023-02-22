@@ -1,5 +1,5 @@
 ---
-title: $giveRole 
+title: $giveRole
 description: $giveRole will give an specific user a specific role.
 id: giveRole
 ---
@@ -12,14 +12,13 @@ id: giveRole
 $giveRole[guildID;userID;roleID]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description | Required |
-| ------- | ------- | ----------- |:--------:|
-| guildID | integer | guild ID    |    true   |
-| userID  | integer | user ID     |    true   |
-| roleID  | integer | role ID     |    true   |
+|---------|---------|-------------|:--------:|
+| guildID | integer | guild ID    |   true   |
+| userID  | integer | user ID     |   true   |
+| roleID  | integer | role ID     |   true   |
 
 Please note that the bots **highest** role must be above the role you're trying to assign.
 
@@ -29,8 +28,8 @@ This will assign you a role called "Admin" (if present):
 
 ```javascript
 bot.command({
-  name: 'giveRole',
-  code: `
+    name: 'giveRole',
+    code: `
   $giveRole[$guildID;$authorID;$findRole[Admin]]
   `
 });

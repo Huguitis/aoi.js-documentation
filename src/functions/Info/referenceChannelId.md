@@ -1,5 +1,5 @@
 ---
-title: $referenceChannelId 
+title: $referenceChannelId
 description: $referenceChannelId will return the channel ID of where the user replied in.
 id: referenceChannelId
 ---

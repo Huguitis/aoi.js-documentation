@@ -1,5 +1,5 @@
 ---
-title: $deleteEmoji 
+title: $deleteEmoji
 description: $deleteEmoji will delete a specific emoji.
 id: deleteEmoji
 ---
@@ -12,13 +12,11 @@ id: deleteEmoji
 $deleteEmoji[emoji]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                 | Required |
-| ----- | ------ | --------------------------- |:--------:|
-| emoji | string | emoji name, id or full form |    true   |
-
+|-------|--------|-----------------------------|:--------:|
+| emoji | string | emoji name, id or full form |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will delete a random emoji of your guild:
 
 ```javascript
 bot.command({
-  name: 'deleteEmoji',
-  code: `
+    name: 'deleteEmoji',
+    code: `
   $deleteEmoji[$randomEmoji]
   `
 });

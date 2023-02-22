@@ -1,5 +1,5 @@
 ---
-title: $guildNames 
+title: $guildNames
 description: $guildNames will return the guide names your bot is in.
 id: guildNames
 ---
@@ -12,13 +12,11 @@ id: guildNames
 $guildNames[sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                              | Required |
-| ----- | ------ | ---------------------------------------- |:--------:|
-| sep?  | string | seperator to seperate multiple arguments |    false    |
-
+|-------|--------|------------------------------------------|:--------:|
+| sep?  | string | seperator to seperate multiple arguments |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the names of the guilds your bot is in and seperate it by a com
 
 ```javascript
 bot.command({
-  name: 'guildNames',
-  code: `
+    name: 'guildNames',
+    code: `
   $guildNames[, ]
   `
 });

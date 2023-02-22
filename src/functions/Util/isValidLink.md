@@ -1,5 +1,5 @@
 ---
-title: $isValidLink 
+title: $isValidLink
 description: $isValidLink will check if the given link is valid.
 id: isValidLink
 ---
@@ -12,13 +12,11 @@ id: isValidLink
 $isValidLink[url]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description      | Required |
-| ----- | ------ | ---------------- | -------- |
-| url   | string | any kind of link | true      |
-
+|-------|--------|------------------|----------|
+| url   | string | any kind of link | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` as the given link is valid:
 
 ```javascript
 bot.command({
-  name: 'isValidLink',
-  code: `
+    name: 'isValidLink',
+    code: `
   $isValidLink[https://aoi.js.org/docs/]
   `
 });

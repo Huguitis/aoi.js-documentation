@@ -1,11 +1,13 @@
 ---
-title: $interactionFollowUp 
-description: $interactionFollowUp can be used for JSON requests, song informations or playing tracks, since these things takes more than 3 seconds.
+title: $interactionFollowUp
+description: $interactionFollowUp can be used for JSON requests, song informations or playing tracks, since these things
+takes more than 3 seconds.
 
 id: interactionFollowUp
 ---
 
-`$interactionFollowUp` can be used for JSON requests, song informations or playing tracks, since these things takes more than 3 seconds.
+`$interactionFollowUp` can be used for JSON requests, song informations or playing tracks, since these things takes more
+than 3 seconds.
 
 ## Usage
 
@@ -13,25 +15,23 @@ id: interactionFollowUp
 $interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]
 ```
 
-## Parameters 
+## Parameters
 
-
-| Field       | Type   | Description                                                                      | Required |
-| ----------- | ------ | -------------------------------------------------------------------------------- |:--------:|
-| content?    | string | message content                                                                  |    false    |
-| embeds?     | string | embed                                                                            |    false    |
-| components? | string | components                                                                       |    false    |
-| files?      | string | files                                                                            |    false    |
-| ephemeral? | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |    false    |
-
+| Field       | Type   | Description                                                                          | Required |
+|-------------|--------|--------------------------------------------------------------------------------------|:--------:|
+| content?    | string | message content                                                                      |  false   |
+| embeds?     | string | embed                                                                                |  false   |
+| components? | string | components                                                                           |  false   |
+| files?      | string | files                                                                                |  false   |
+| ephemeral?  | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example
 
 ```javascript
 bot.interactionCommand({
-  name: "interactionFollowUp",
-  prototype: 'slash',
-  code: `
+    name: "interactionFollowUp",
+    prototype: 'slash',
+    code: `
   $interactionFollowUp[Bye, world!]
   $interactionDefer[true]
   `

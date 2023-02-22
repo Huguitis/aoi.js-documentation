@@ -1,5 +1,5 @@
 ---
-title: $reverse 
+title: $reverse
 description: $reverse will reverse given text.
 id: reverse
 ---
@@ -12,22 +12,20 @@ id: reverse
 $reverse[text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description              | Required |
-| ----- | ------ | ------------------------ | -------- |
-| text  | string | text you want to reverse | true      |
-
+|-------|--------|--------------------------|----------|
+| text  | string | text you want to reverse | true     |
 
 ## Example
 
-This will the following text readable: 
+This will the following text readable:
 
 ```javascript
 bot.command({
-  name: 'reverse',
-  code: `
+    name: 'reverse',
+    code: `
   $reverse[!snoitalutargnoc neht ,siht daer ot elba er'uoy fi ,desrever si txet sihT]
   `
 });

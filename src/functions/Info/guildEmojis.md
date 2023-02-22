@@ -1,5 +1,5 @@
 ---
-title: $guildEmojis 
+title: $guildEmojis
 description: $guildEmojis will return the emojis of a specific guild.
 id: guildEmojis
 ---
@@ -12,14 +12,12 @@ id: guildEmojis
 $guildEmojis[sep?;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                   | Required |
-| -------- | ------- | --------------------------------------------- |:--------:|
-| sep?     | string  | the seperator to seperate the returned emojis |    false    |
-| guildID? | integer | guild ID                                      |    false    |
-
+|----------|---------|-----------------------------------------------|:--------:|
+| sep?     | string  | the seperator to seperate the returned emojis |  false   |
+| guildID? | integer | guild ID                                      |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the emojis of your guild:
 
 ```javascript
 bot.command({
-  name: 'guildEmojis',
-  code: `
+    name: 'guildEmojis',
+    code: `
   $guildEmojis[, ;$guildID]
   `
 });

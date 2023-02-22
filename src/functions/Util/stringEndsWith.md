@@ -1,5 +1,5 @@
 ---
-title: $stringEndsWith 
+title: $stringEndsWith
 description: $stringEndsWith will check if the given argument ends with something specific.
 id: stringEndsWith
 ---
@@ -12,22 +12,21 @@ id: stringEndsWith
 $stringEndsWith[text;check]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                                           | Required |
-| ----- | ------ | --------------------------------------------------------------------- | -------- |
-| text  | string | the text that will be checked                                         | true      |
-| check | string | the argument that will check if the text ends with something specific | true      |
+|-------|--------|-----------------------------------------------------------------------|----------|
+| text  | string | the text that will be checked                                         | true     |
+| check | string | the argument that will check if the text ends with something specific | true     |
 
 ## Example
 
-This will return `true` as `aoi.js` ends with `js`: 
+This will return `true` as `aoi.js` ends with `js`:
 
 ```javascript
 bot.command({
-  name: 'stringEndsWith',
-  code: `
+    name: 'stringEndsWith',
+    code: `
   $stringEndsWith[aoi.js;js]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $findSpecialChars 
+title: $findSpecialChars
 description: $findSpecialChars will return all special characters of the given argument.
 id: findSpecialChars
 ---
@@ -12,13 +12,11 @@ id: findSpecialChars
 $findSpecialChars[text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                    | Required |
-| ----- | ------ | ---------------------------------------------- | -------- |
-| text  | string | text where you want to find special characters | true      |
-
+|-------|--------|------------------------------------------------|----------|
+| text  | string | text where you want to find special characters | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `######`:
 
 ```javascript
 bot.command({
-  name: 'findSpecialChars',
-  code: `
+    name: 'findSpecialChars',
+    code: `
   $findSpecialChars[Aoi.js is ###### great]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $rolePerms 
+title: $rolePerms
 description: $rolePerms will return all given permissions of a role.
 id: rolePerms
 ---
@@ -12,15 +12,13 @@ id: rolePerms
 $rolePerms[roleID;sep?;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                              | Required |
-| -------- | ------- | ---------------------------------------- |:--------:|
-| roleID   | integer | role ID                                  |    true   |
-| sep?     | integer | seperator to seperate multiple arguments |    false    |
-| guildID? | integer | guild ID                                 |    false    |
-
+|----------|---------|------------------------------------------|:--------:|
+| roleID   | integer | role ID                                  |   true   |
+| sep?     | integer | seperator to seperate multiple arguments |  false   |
+| guildID? | integer | guild ID                                 |  false   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will return the permissions for the `@everyone` role:
 
 ```javascript
 bot.command({
-  name: 'rolePerms',
-  code: `
+    name: 'rolePerms',
+    code: `
   $rolePerms[$guildID;, ;$guildID]
   `
 });

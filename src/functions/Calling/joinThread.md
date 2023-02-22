@@ -1,5 +1,5 @@
 ---
-title: $joinThread 
+title: $joinThread
 description: $joinThread will make the bot join a specific thread.
 id: joinThread
 ---
@@ -12,13 +12,12 @@ id: joinThread
 $joinThread[channelID;threadID]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description | Required |
-| --------- | ------- | ----------- |:--------:|
-| channelID | integer | channel ID  |    true   |
-| threadID  | integer | thread ID   |    true   |
+|-----------|---------|-------------|:--------:|
+| channelID | integer | channel ID  |   true   |
+| threadID  | integer | thread ID   |   true   |
 
 ## Example
 
@@ -26,8 +25,8 @@ This will create a thread in the current channel and add the bot to it:
 
 ```javascript
 bot.command({
-  name: 'joinThread',
-  code: `
+    name: 'joinThread',
+    code: `
   $joinThread[$get[threadID]]
   $let[threadID;$createThread[$channelID;Example!;1440;public;$messageID;true]]
   `

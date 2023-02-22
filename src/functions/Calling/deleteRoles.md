@@ -1,5 +1,5 @@
 ---
-title: $deleteRoles 
+title: $deleteRoles
 description: $deleteRoles will delete one or multiple roles.
 id: deleteRoles
 ---
@@ -12,14 +12,12 @@ id: deleteRoles
 $deleteRoles[guildID;...roles]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description     | Required |
-| ------- | ------- | --------------- |:--------:|
-| guildID | integer | guild ID        |    true   |
-| roles   | string  | id of the roles |    true   |
-
+|---------|---------|-----------------|:--------:|
+| guildID | integer | guild ID        |   true   |
+| roles   | string  | id of the roles |   true   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will delete roles of your guilds ( make sure to add actual IDs )
 
 ```javascript
 bot.command({
-  name: 'deleteRoles',
-  code: `
+    name: 'deleteRoles',
+    code: `
   Deleted three roles!
   $deleteRoles[$guildID;roleID1;roleID2;roleID3]
   `

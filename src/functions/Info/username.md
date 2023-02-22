@@ -1,5 +1,5 @@
 ---
-title: $username 
+title: $username
 description: $username will return a user's username.
 id: username
 ---
@@ -12,13 +12,11 @@ id: username
 $username[userID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description | Required |
-| ------- | ------- | ----------- |:--------:|
-| userID? | integer | user ID     |    false    |
-
+|---------|---------|-------------|:--------:|
+| userID? | integer | user ID     |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return your username:
 
 ```javascript
 bot.command({
-  name: 'username',
-  code: `
+    name: 'username',
+    code: `
   $username[$authorID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $isMentioned 
+title: $isMentioned
 description: $isMentioned checks if the query contains a mention.
 id: isMentioned
 ---
@@ -12,13 +12,11 @@ id: isMentioned
 $isMentioned[query]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                                  | Required |
-| ----- | ------ | ------------------------------------------------------------ | -------- |
-| query | string | where you want to check if a user/role/channel was mentioned | true      |
-
+|-------|--------|--------------------------------------------------------------|----------|
+| query | string | where you want to check if a user/role/channel was mentioned | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` as you were mentioned within the message:
 
 ```javascript
 bot.command({
-  name: 'isMentioned',
-  code: `
+    name: 'isMentioned',
+    code: `
   $isMentioned[<@$authorID>]
   `
 });

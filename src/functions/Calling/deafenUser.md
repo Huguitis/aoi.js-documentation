@@ -1,5 +1,5 @@
 ---
-title: $deafenUser 
+title: $deafenUser
 description: $deafenUser will deafen a user.
 id: deafenUser
 ---
@@ -12,14 +12,12 @@ id: deafenUser
 $deafenUser[userID;deaf?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type    | Description                                                                | Required |
-| ------ | ------- | -------------------------------------------------------------------------- |:--------:|
-| userID | integer | user ID                                                                    |    true   |
-| deaf?  | string  | deafen or undeafen a user <br /> 1. **true** (default) <br /> 2. **false** |    false    |
-
+|--------|---------|----------------------------------------------------------------------------|:--------:|
+| userID | integer | user ID                                                                    |   true   |
+| deaf?  | string  | deafen or undeafen a user <br /> 1. **true** (default) <br /> 2. **false** |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will deafen yourself:
 
 ```javascript
 bot.command({
-  name: 'deafen',
-  code: `
+    name: 'deafen',
+    code: `
   $deafen[$authorID;true]
   `
 });

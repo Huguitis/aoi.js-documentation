@@ -1,5 +1,5 @@
 ---
-title: $userRoleColor 
+title: $userRoleColor
 description: $userRoleColor will return the role color of your highest assigned role.
 id: userRoleColor
 ---
@@ -12,14 +12,12 @@ id: userRoleColor
 $userRoleColor[userID?;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| userID?  | integer | user ID     |    false    |
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| userID?  | integer | user ID     |  false   |
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the color of your highest role:
 
 ```javascript
 bot.command({
-  name: 'userRoleColor',
-  code: `
+    name: 'userRoleColor',
+    code: `
   $userRoleColor[$authorID;$guildID]
   `
 });

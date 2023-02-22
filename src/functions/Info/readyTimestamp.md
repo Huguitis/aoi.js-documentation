@@ -1,5 +1,5 @@
 ---
-title: $readyTimestamp 
+title: $readyTimestamp
 description: $readyTimestamp will return the timestamp of when the bot was ready.
 id: readyTimestamp
 ---
@@ -18,8 +18,8 @@ This will return the last time your bot when online:
 
 ```javascript
 bot.command({
-  name: 'readyTimestamp',
-  code: `
+    name: 'readyTimestamp',
+    code: `
   $readyTimestamp
   `
 });

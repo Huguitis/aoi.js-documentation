@@ -1,5 +1,5 @@
 ---
-title: $getEmbed 
+title: $getEmbed
 description: $getEmbed will return properties about an given embed.
 id: getEmbed
 ---
@@ -12,21 +12,20 @@ id: getEmbed
 $getEmbed[channelID?;messageID?;index?;option?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description                                         | Required |
-| --------- | ------- | --------------------------------------------------- | -------- |
-| channelID | integer | channel ID of the embed                             | true      |
-| messageID | integer | message ID of the embed                             | true      |
-| index     | integer | index of the embed, 1 first embed, 2 second embed.. | true      |
-| option    | string  | which part will be returned of the embed            | true      |
+|-----------|---------|-----------------------------------------------------|----------|
+| channelID | integer | channel ID of the embed                             | true     |
+| messageID | integer | message ID of the embed                             | true     |
+| index     | integer | index of the embed, 1 first embed, 2 second embed.. | true     |
+| option    | string  | which part will be returned of the embed            | true     |
 
 <details>
   <summary><h3> Options </h3></summary>
 
 | Type        | Description                     |
-| ----------- | ------------------------------- |
+|-------------|---------------------------------|
 | title       | title of the embed              |
 | description | description of the embed        |
 | url         | the url in the title            |
@@ -46,15 +45,14 @@ $getEmbed[channelID?;messageID?;index?;option?]
 
 </details>
 
-
 ## Example
 
 This will return the description of an embed:
 
 ```javascript
 bot.command({
-  name: 'getEmbed',
-  code: `
+    name: 'getEmbed',
+    code: `
 $getEmbed[$channelID;messageID;1;description] //make sure to replace messageID with the actual message ID 
   `
 });

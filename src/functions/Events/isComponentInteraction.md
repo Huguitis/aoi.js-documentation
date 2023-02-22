@@ -1,5 +1,5 @@
 ---
-title: $isComponentInteraction 
+title: $isComponentInteraction
 description: $isComponentInteraction will return either true or false depending on the type of the interaction.
 id: isComponentInteraction
 ---

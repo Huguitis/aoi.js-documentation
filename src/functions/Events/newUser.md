@@ -1,5 +1,5 @@
 ---
-title: $newUser 
+title: $newUser
 description: $newUser holds data of the updated user.
 id: newUser
 ---
@@ -12,9 +12,8 @@ id: newUser
 $newUser[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

@@ -1,5 +1,5 @@
 ---
-title: $deleteSticker 
+title: $deleteSticker
 description: $deleteSticker will delete a given sticker.
 id: deleteSticker
 ---
@@ -12,14 +12,12 @@ id: deleteSticker
 $deleteSticker[guildID;sticker]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description         | Required |
-| ------- | ------- | ------------------- |:--------:|
-| guildID | integer | guild ID            |    true   |
-| sticker | string  | name of the sticker |    true   |
-
+|---------|---------|---------------------|:--------:|
+| guildID | integer | guild ID            |   true   |
+| sticker | string  | name of the sticker |   true   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will delete a sticker of your guild ( make sure to provide an actual sticke
 
 ```javascript
 bot.command({
-  name: 'deleteSticker',
-  code: `
+    name: 'deleteSticker',
+    code: `
   $deleteSticker[$guildID;sticker]
   `
 });

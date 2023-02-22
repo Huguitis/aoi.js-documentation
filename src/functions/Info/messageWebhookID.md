@@ -1,5 +1,5 @@
 ---
-title: $messageWebhookID 
+title: $messageWebhookID
 description: $messageWebhookID will return the ID of the webhook which sent the given message.
 id: messageWebhookID
 ---
@@ -12,14 +12,12 @@ id: messageWebhookID
 $messageWebhookID[messageID?;channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                   | Required |
-| ---------- | ------- | --------------------------------------------- |:--------:|
-| messageID? | integer | id of the message                             |    false    |
-| channelID? | integer | channel ID of where the message is located in |    false    |
-
+|------------|---------|-----------------------------------------------|:--------:|
+| messageID? | integer | id of the message                             |  false   |
+| channelID? | integer | channel ID of where the message is located in |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the ID of a webhook, make sure to replace "messageID" with an a
 
 ```javascript
 bot.command({
-  name: 'messageWebhookID',
-  code: `
+    name: 'messageWebhookID',
+    code: `
   $messageWebhookID[messageID;$channelID] //replace messageID
   `
 });

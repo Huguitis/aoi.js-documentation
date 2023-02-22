@@ -1,5 +1,5 @@
 ---
-title: $vanityUses 
+title: $vanityUses
 description: $vanityUses will return the uses of a vanity URL.
 id: vanityUses
 ---
@@ -12,13 +12,11 @@ id: vanityUses
 $vanityUses[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the uses of your guild's vanity URL, if you have one:
 
 ```javascript
 bot.command({
-  name: 'vanityUses',
-  code: `
+    name: 'vanityUses',
+    code: `
   $vanityUses[$guildID]
   `
 });

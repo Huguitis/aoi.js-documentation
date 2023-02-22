@@ -1,5 +1,5 @@
 ---
-title: $isThread 
+title: $isThread
 description: $isThread will check if the given channel is a thread or not.
 id: isThread
 ---
@@ -12,13 +12,11 @@ id: isThread
 $isThread[channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                              | Required |
-| ---------- | ------- | ---------------------------------------- | -------- |
-| channelID? | integer | ID of the channel that you want to check | false       |
-
+|------------|---------|------------------------------------------|----------|
+| channelID? | integer | ID of the channel that you want to check | false    |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return either `true` or `false` depending on if you're executing the c
 
 ```javascript
 bot.command({
-  name: 'isThread',
-  code: `
+    name: 'isThread',
+    code: `
   $isThread[$channelID]
   `
 });

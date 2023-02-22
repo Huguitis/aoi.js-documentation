@@ -1,5 +1,5 @@
 ---
-title: $toLocaleUpperCase 
+title: $toLocaleUpperCase
 description: $toLocaleUpperCase will change the first character of every word to uppercase.
 id: toLocaleUpperCase
 ---
@@ -12,17 +12,15 @@ id: toLocaleUpperCase
 $toLocaleUpperCase[text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description | Required |
-| ----- | ------ | ----------- | -------- |
-| text  | string |             | true      |
-
+|-------|--------|-------------|----------|
+| text  | string |             | true     |
 
 ## Example
 
-This will change every first character of a word to uppercase, in this case it would return `Hello, I'm Happy.`: 
+This will change every first character of a word to uppercase, in this case it would return `Hello, I'm Happy.`:
 
 ```php
 bot.command({

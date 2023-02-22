@@ -1,5 +1,5 @@
 ---
-title: $userID 
+title: $userID
 description: $userID will return a given user's ID.
 id: userID
 ---
@@ -12,13 +12,11 @@ id: userID
 $userID[user]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                     | Required |
-| ----- | ------ | ------------------------------- |:--------:|
-| user  | string | user you want to have the ID of |    true   |
-
+|-------|--------|---------------------------------|:--------:|
+| user  | string | user you want to have the ID of |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return your user ID:
 
 ```javascript
 bot.command({
-  name: 'userID',
-  code: `
+    name: 'userID',
+    code: `
   $userID[$username]
   `
 });

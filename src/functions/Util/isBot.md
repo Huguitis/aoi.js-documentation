@@ -1,5 +1,5 @@
 ---
-title: $isBot 
+title: $isBot
 description: $isBot will check if the given user is a bot.
 id: isBot
 ---
@@ -12,12 +12,11 @@ id: isBot
 $isBot[userID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field   | Type    | Description                       | Required |
-| ------- | ------- | --------------------------------- | -------- |
-| userID? | integer | user id to check if they're a bot | false       |
-
+|---------|---------|-----------------------------------|----------|
+| userID? | integer | user id to check if they're a bot | false    |
 
 ## Example
 
@@ -25,8 +24,8 @@ This will return `true` as your bot is, obviously, a bot:
 
 ```javascript
 bot.command({
-  name: 'isBot',
-  code: `
+    name: 'isBot',
+    code: `
   $isBot[$clientID]
   `
 });

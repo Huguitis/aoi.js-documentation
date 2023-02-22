@@ -1,5 +1,5 @@
 ---
-title: $bulk 
+title: $bulk
 description: $bulk will hold data for the bulk delete command. (messageDeleteBulk callback)
 id: bulk
 ---
@@ -12,9 +12,8 @@ id: bulk
 $bulk[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type   | Description | Required |
-| ------- | ------ | ----------- |:--------:|
-| option? | string |             |    true   |
+|---------|--------|-------------|:--------:|
+| option? | string |             |   true   |

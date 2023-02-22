@@ -1,5 +1,5 @@
 ---
-title: $nonEscape 
+title: $nonEscape
 description: $nonEscape will stop escaping special characters.
 id: nonEscape
 ---
@@ -12,13 +12,11 @@ id: nonEscape
 $nonEscape[message]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type   | Description                      | Required |
-| ------- | ------ | -------------------------------- | -------- |
-| message | string | text you dont want to be escaped | true      |
-
+|---------|--------|----------------------------------|----------|
+| message | string | text you dont want to be escaped | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will stop from escaping certain characters:
 
 ```javascript
 bot.command({
-  name: 'nonEscape',
-  code: `
+    name: 'nonEscape',
+    code: `
   $nonEscape[Hello [;)]]
   `
 });

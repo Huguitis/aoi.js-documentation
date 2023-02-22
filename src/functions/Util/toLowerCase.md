@@ -1,5 +1,5 @@
 ---
-title: $toLowerCase 
+title: $toLowerCase
 description: $toLowerCase will change the given text from uppercase to lowercase.
 id: toLowerCase
 ---
@@ -12,17 +12,15 @@ id: toLowerCase
 $toLowerCase[text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description | Required |
-| ----- | ------ | ----------- | -------- |
-| text  | string |             | true      |
-
+|-------|--------|-------------|----------|
+| text  | string |             | true     |
 
 ## Example
 
-This will everything given to lowercase, in this case it would return `aoi.js is great.`: 
+This will everything given to lowercase, in this case it would return `aoi.js is great.`:
 
 ```php
 bot.command({

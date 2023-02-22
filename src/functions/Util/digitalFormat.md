@@ -1,5 +1,5 @@
 ---
-title: $digitalFormat 
+title: $digitalFormat
 description: $digitalFormat will return a digital formatted time converted from ms.
 id: digitalFormat
 ---
@@ -12,13 +12,11 @@ id: digitalFormat
 $digitalFormat[ms]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                             | Required |
-| ----- | ------ | --------------------------------------- | -------- |
-| ms    | number | time in miliseconds you wish to convert | true      |
-
+|-------|--------|-----------------------------------------|----------|
+| ms    | number | time in miliseconds you wish to convert | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `00:04:00` as `240000ms` are four minutes:
 
 ```javascript
 bot.command({
-  name: 'digitalFormat',
-  code: `
+    name: 'digitalFormat',
+    code: `
   $digitalFormat[240000]
   `
 });

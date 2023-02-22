@@ -1,5 +1,5 @@
 ---
-title: $rolePosition 
+title: $rolePosition
 description: $rolePosition will return the role position of a specific role.
 id: rolePosition
 ---
@@ -12,14 +12,12 @@ id: rolePosition
 $rolePosition[roleID;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| roleID   | integer | role ID     |    true   |
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| roleID   | integer | role ID     |   true   |
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the role position of any role you might like, for this example,
 
 ```javascript
 bot.command({
-  name: 'rolePosition',
-  code: `
+    name: 'rolePosition',
+    code: `
   $rolePosition[$guildID]
   `
 });

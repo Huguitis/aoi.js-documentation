@@ -1,5 +1,5 @@
 ---
-title: $vanityURL 
+title: $vanityURL
 description: $vanityURL will return a guild's vanity URL.
 id: vanityURL
 ---
@@ -12,13 +12,11 @@ id: vanityURL
 $vanityURL[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the vanity URL of your guild, if you have one:
 
 ```javascript
 bot.command({
-  name: 'vanityURL',
-  code: `
+    name: 'vanityURL',
+    code: `
   $vanityURL[$guildID]
   `
 });

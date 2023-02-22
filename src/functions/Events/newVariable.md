@@ -1,5 +1,5 @@
 ---
-title: $newVariable 
+title: $newVariable
 description: $newVariable gets the data from variable callbacks.
 id: newVariable
 ---
@@ -12,10 +12,9 @@ id: newVariable
 $newVariable[option;sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
-| sep    | string | seperator                 |    false    |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |
+| sep    | string | seperator                 |  false   |

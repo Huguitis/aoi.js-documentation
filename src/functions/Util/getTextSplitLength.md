@@ -1,5 +1,5 @@
 ---
-title: $getTextSplitLength 
+title: $getTextSplitLength
 description: $getTextSplitLength will return the amount of split arguments in $textSplit
 id: getTextSplitLength
 ---
@@ -18,8 +18,8 @@ This will return `5` as there are five arguments seperated by commas given in `$
 
 ```javascript
 bot.command({
-  name: 'getTextSplitLength',
-  code: `
+    name: 'getTextSplitLength',
+    code: `
   $getTextSplitLength
   $textSplit[Hello, my, name, is, Leref;, ]
   `

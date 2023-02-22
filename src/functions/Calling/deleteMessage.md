@@ -1,5 +1,5 @@
 ---
-title: $deleteMessage 
+title: $deleteMessage
 description: $deleteMessage will delete a specific message.
 id: deleteMessage
 ---
@@ -12,23 +12,22 @@ id: deleteMessage
 $deleteMessage[messageID;channelID]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description | Required |
-| --------- | ------- | ----------- |:--------:|
-| messageID | integer | guild ID    |    true   |
-| channelID | integer | channel ID  |    false    |
-
+|-----------|---------|-------------|:--------:|
+| messageID | integer | guild ID    |   true   |
+| channelID | integer | channel ID  |  false   |
 
 ## Example
 
-This will send and delete the sent message after 15 seconds ( we are using $let and $get to temporary store the message ID ):
+This will send and delete the sent message after 15 seconds ( we are using $let and $get to temporary store the message
+ID ):
 
 ```javascript
 bot.command({
-  name: 'deleteMessage',
-  code: `
+    name: 'deleteMessage',
+    code: `
   $deleteMessage[$get[id];$channelID]
   $let[id;$sendMessage[Hello!;true]]
   `

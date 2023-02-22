@@ -1,5 +1,5 @@
 ---
-title: $messageExists 
+title: $messageExists
 description: $messageExists will check if a specific message exists.
 id: messageExists
 ---
@@ -12,14 +12,12 @@ id: messageExists
 $messageExists[messageid;channelid?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                 | Required |
-| ---------- | ------- | ------------------------------------------- | -------- |
-| messageid  | integer | the id of the message                       | true      |
-| channelid? | integer | the channel id where the message is located | false       |
-
+|------------|---------|---------------------------------------------|----------|
+| messageid  | integer | the id of the message                       | true     |
+| channelid? | integer | the channel id where the message is located | false    |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `false` as the message doesn't exist in the given channel:
 
 ```javascript
 bot.command({
-  name: 'messageExists',
-  code: `
+    name: 'messageExists',
+    code: `
   $messageExists[1058998634823299143;$channelID]
   `
 });

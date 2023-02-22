@@ -1,5 +1,5 @@
 ---
-title: $round 
+title: $round
 description: $round will round to the next whole number.
 id: round
 ---
@@ -12,13 +12,11 @@ id: round
 $round[number]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description     | Required |
-| ------ | ------ | --------------- | -------- |
-| number | number | number to round | true      |
-
+|--------|--------|-----------------|----------|
+| number | number | number to round | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `555` as it's the next number to `555.78`:
 
 ```javascript
 bot.command({
-  name: 'round',
-  code: `
+    name: 'round',
+    code: `
   $round[555.78]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $cropText 
+title: $cropText
 description: $cropText will crop given text.
 id: cropText
 ---
@@ -12,15 +12,13 @@ id: cropText
 $cropText[text;limit;start?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                                             | Required |
-| ------ | ------ | ----------------------------------------------------------------------- | -------- |
-| text   | string | text you want to slice                                                  | true      |
-| limit  | number | limit of the cropped text/will start to crop any text coming after that | true      |
-| start? | number | where cropping should start                                             | false       |
-
+|--------|--------|-------------------------------------------------------------------------|----------|
+| text   | string | text you want to slice                                                  | true     |
+| limit  | number | limit of the cropped text/will start to crop any text coming after that | true     |
+| start? | number | where cropping should start                                             | false    |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will return `bye` and remove `hello and` from the given text:
 
 ```javascript
 bot.command({
-  name: 'cropText',
-  code: `
+    name: 'cropText',
+    code: `
 $cropText[hello and bye;20;9]
   `
 });

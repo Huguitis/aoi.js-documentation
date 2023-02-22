@@ -1,5 +1,5 @@
 ---
-title: $isTimeout 
+title: $isTimeout
 description: $isTimeout will check if the user is timeouted with Discord's built-in timeout feature.
 id: isTimeout
 ---
@@ -12,14 +12,12 @@ id: isTimeout
 $isTimeout[guildid?;userid?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                | Required |
-| -------- | ------- | ------------------------------------------ | -------- |
-| guildid? | integer | the guild id of where they're timeouted in | false       |
-| userid?  | integer | the user id of the user that's timeouted   | false       |
-
+|----------|---------|--------------------------------------------|----------|
+| guildid? | integer | the guild id of where they're timeouted in | false    |
+| userid?  | integer | the user id of the user that's timeouted   | false    |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will check if you're timeouted and either return `true` or `false`:
 
 ```javascript
 bot.command({
-  name: 'isTimeout',
-  code: `
+    name: 'isTimeout',
+    code: `
   $isTimeout[$guildID;$authorID]
   `
 });

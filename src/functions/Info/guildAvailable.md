@@ -1,5 +1,5 @@
 ---
-title: $guildAvailable 
+title: $guildAvailable
 description: $guildAvailable will return if the given guild is available on Discord.
 id: guildAvailable
 ---
@@ -12,13 +12,11 @@ id: guildAvailable
 $guildAvailable[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` or `false` depending on if the guild is available:
 
 ```javascript
 bot.command({
-  name: 'guildAvailable',
-  code: `
+    name: 'guildAvailable',
+    code: `
   $guildAvailable[$guildID]
   `
 });

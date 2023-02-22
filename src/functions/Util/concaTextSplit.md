@@ -1,5 +1,5 @@
 ---
-title: $concatTextSplit 
+title: $concatTextSplit
 description: $concatTextSplit will concatenates the text with the given separator.
 id: concatTextSplit
 ---
@@ -12,13 +12,11 @@ id: concatTextSplit
 $concatTextSplit[...text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description          | Required |
-| ----- | ------ | -------------------- | -------- |
-| text  | string | text to be seperated | true      |
-
+|-------|--------|----------------------|----------|
+| text  | string | text to be seperated | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will add `Hello, Bye` to the already used `$textSplit` argument:
 
 ```javascript
 bot.command({
-  name: 'concatTextSplit',
-  code: `
+    name: 'concatTextSplit',
+    code: `
   $concatTextSplit[Hello;Bye]
   $textSplit[Goodmorning, Goodnight;, ]
   `

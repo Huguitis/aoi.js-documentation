@@ -1,5 +1,5 @@
 ---
-title: $roleName 
+title: $roleName
 description: $roleName will return the name of a specific role.
 id: roleName
 ---
@@ -12,14 +12,12 @@ id: roleName
 $roleName[roleID;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| roleID   | integer | role ID     |    true   |
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| roleID   | integer | role ID     |   true   |
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the role name of any role you may like, in this case, It would 
 
 ```javascript
 bot.command({
-  name: 'roleName',
-  code: `
+    name: 'roleName',
+    code: `
   \`$roleName[$guildID]\`
   `
 });

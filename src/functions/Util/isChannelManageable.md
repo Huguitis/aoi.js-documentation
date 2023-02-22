@@ -1,5 +1,5 @@
 ---
-title: $isChannelManageable 
+title: $isChannelManageable
 description: $isChannelManageable will check if the channel is manageable or not.
 id: isChannelManageable
 ---
@@ -12,13 +12,11 @@ id: isChannelManageable
 $isChannelManageable[channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                                   | Required |
-| ---------- | ------- | ------------------------------------------------------------- | -------- |
-| channelID? | integer | channel id where to check if the channel is manageable or not | false       |
-
+|------------|---------|---------------------------------------------------------------|----------|
+| channelID? | integer | channel id where to check if the channel is manageable or not | false    |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` or `false` depending on if the channel you're executing 
 
 ```javascript
 bot.command({
-  name: 'isChannelManageable',
-  code: `
+    name: 'isChannelManageable',
+    code: `
   $isChannelManageable[$channelID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $guildIcon 
+title: $guildIcon
 description: $guildIcon will return the guild's icon.
 id: guildIcon
 ---
@@ -12,13 +12,11 @@ id: guildIcon
 $guildIcon[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    true   |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |   true   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the icon of the guild:
 
 ```javascript
 bot.command({
-  name: 'guildIcon',
-  code: `
+    name: 'guildIcon',
+    code: `
   $guildIcon[$guildID]
   `
 });

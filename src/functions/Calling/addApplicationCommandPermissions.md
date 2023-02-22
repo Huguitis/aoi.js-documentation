@@ -1,5 +1,5 @@
 ---
-title: $addApplicationCommandPermissions 
+title: $addApplicationCommandPermissions
 description: $addApplicationCommandPermissions will change permissions of a slash command.
 id: addApplicationCommandPermissions
 ---
@@ -10,11 +10,10 @@ id: addApplicationCommandPermissions
 $addApplicationCommandPermissions[guildID/global?;id;...perms]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field          | Type    | Description            | Required |
-| -------------- | ------- | ---------------------- |:--------:|
-| guildID/global | string  | global or guildID      |    true   |
-| id             | integer | application command ID |    true   |
-| ...perms       | string  | permissions            |    true   |
+|----------------|---------|------------------------|:--------:|
+| guildID/global | string  | global or guildID      |   true   |
+| id             | integer | application command ID |   true   |
+| ...perms       | string  | permissions            |   true   |

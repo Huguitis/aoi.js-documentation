@@ -1,5 +1,5 @@
 ---
-title: $repeatMessage 
+title: $repeatMessage
 description: $repeatMessage will repeat the given text for given amount of times.
 id: repeatMessage
 ---
@@ -12,14 +12,12 @@ id: repeatMessage
 $repeatMessage[time;text]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type    | Description                                | Required |
-| ----- | ------- | ------------------------------------------ | -------- |
-| time  | integer | the amount of times the text gets repeated | true      |
-| text  | string  | the text that will get repeated            | true      |
-
+|-------|---------|--------------------------------------------|----------|
+| time  | integer | the amount of times the text gets repeated | true     |
+| text  | string  | the text that will get repeated            | true     |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `Hello ` twenty times:
 
 ```javascript
 bot.command({
-  name: 'repeatMessage',
-  code: `
+    name: 'repeatMessage',
+    code: `
   $repeatMessage[20;Hello ]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $channelType 
+title: $channelType
 description: $channelType will return the given channel's type.
 id: channelType
 ---
@@ -12,13 +12,11 @@ id: channelType
 $channelType[channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                            | Required |
-| ---------- | ------- | ------------------------------------------------------ |:--------:|
-| channelID? | integer | channel ID of the channel you want the channel type of |    false    |
-
+|------------|---------|--------------------------------------------------------|:--------:|
+| channelID? | integer | channel ID of the channel you want the channel type of |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the channel type of the channel where you execute the command i
 
 ```javascript
 bot.command({
-  name: 'channelType',
-  code: `
+    name: 'channelType',
+    code: `
   $channelType[$channelID]
   `
 });

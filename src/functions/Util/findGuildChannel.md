@@ -1,5 +1,5 @@
 ---
-title: $findGuildChannel 
+title: $findGuildChannel
 description: $findGuildChannel will search a guild channel within a guild.
 id: findGuildChannel
 ---
@@ -12,15 +12,13 @@ id: findGuildChannel
 $findGuildChannel[channelResolver;returnSelf?;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field           | Type    | Description                                                             | Required |
-| --------------- | ------- | ----------------------------------------------------------------------- | -------- |
-| channelResolver | string  | name of the channel you are trying to find                              | true      |
-| returnSelf?     | string  | return the channel where the command got executed in when nothing found | false       |
-| guildID?        | integer | guild ID where the channel is present in                                | false       |
-
+|-----------------|---------|-------------------------------------------------------------------------|----------|
+| channelResolver | string  | name of the channel you are trying to find                              | true     |
+| returnSelf?     | string  | return the channel where the command got executed in when nothing found | false    |
+| guildID?        | integer | guild ID where the channel is present in                                | false    |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will return the channel ID of an channel called `#rules`
 
 ```javascript
 bot.command({
-  name: 'findGuildChannel',
-  code: `
+    name: 'findGuildChannel',
+    code: `
   $findGuildChannel[rules;false;$guildID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $hasAnyPerm 
+title: $hasAnyPerm
 description: $hasAnyPerm will check if the user has one of the required permissions.
 id: hasAnyPerm
 ---
@@ -12,20 +12,19 @@ id: hasAnyPerm
 $hasAnyPerm[guildID;userID;...perms]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description                                             | Required |
-| ------- | ------- | ------------------------------------------------------- | -------- |
-| guildID | integer | ID of the guild where the client checks the permissions | true      |
-| userID  | integer | ID of the user                                          | false       |
-| perms   | string  | permissions needed                                      | true      |
+|---------|---------|---------------------------------------------------------|----------|
+| guildID | integer | ID of the guild where the client checks the permissions | true     |
+| userID  | integer | ID of the user                                          | false    |
+| perms   | string  | permissions needed                                      | true     |
 
 <details>
   <summary> <h3> Discord API Permissions </h3></summary>
 
 | Permission              |                                                                 |
-| ----------------------- | --------------------------------------------------------------- |
+|-------------------------|-----------------------------------------------------------------|
 | createinvite            | Permission to create guild invites                              |
 | kick                    | Permission to kick guild members                                |
 | ban                     | Permission to ban guild members                                 |
@@ -73,12 +72,13 @@ $hasAnyPerm[guildID;userID;...perms]
 
 ## Example
 
-This will return `true` when the author has `manage messages` or `kick` permissions and return `false` when they don't have any of those:
+This will return `true` when the author has `manage messages` or `kick` permissions and return `false` when they don't
+have any of those:
 
 ```javascript
 bot.command({
-  name: 'hasAnyPerm',
-  code: `
+    name: 'hasAnyPerm',
+    code: `
   $hasAnyPerm[$guildID;$authorID;kick;managemessages]
   `
 });

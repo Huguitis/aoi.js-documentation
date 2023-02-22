@@ -1,5 +1,5 @@
 ---
-title: $interactionPing 
+title: $interactionPing
 description: $interactionPing will return the latency of an interaction.
 id: interactionPing
 ---
@@ -20,17 +20,17 @@ This will return the latency of an interaction:
 
 ```javascript
 bot.command({
-  name: 'interactionPing',
-  code: `
+    name: 'interactionPing',
+    code: `
  $addbutton[1;test;primary;testButton;false]
  Click me!
   `
 });
 
 bot.interactionCommand({
-  name: 'testButton',
-  prototype: 'button',
-  code: `
+    name: 'testButton',
+    prototype: 'button',
+    code: `
   $interactionUpdate[This took me: $interactionPing MS!] //will edit the button message and return the latency
   `
 });

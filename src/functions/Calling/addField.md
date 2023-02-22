@@ -1,5 +1,5 @@
 ---
-title: $addField 
+title: $addField
 description: $addField will add a field in an embed.
 id: addField
 ---
@@ -12,14 +12,13 @@ id: addField
 $addField[fieldTitle;fieldDescription;inline?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field             | Type   | Description | Required |
-| ----------------- | ------ | ----------- |:--------:|
-| fieldTitle?       | string | title       |    true   |
-| fieldDescription? | string | description |    true   |
-| inline?           | string | inline      |    false    |
+|-------------------|--------|-------------|:--------:|
+| fieldTitle?       | string | title       |   true   |
+| fieldDescription? | string | description |   true   |
+| inline?           | string | inline      |  false   |
 
 ## Example
 
@@ -27,8 +26,8 @@ This will send an embed with a field and description:
 
 ```javascript
 bot.command({
-  name: 'addField',
-  code: `
+    name: 'addField',
+    code: `
   $addField[Example;Look at this!;false]
   $description[Hello!]
   `

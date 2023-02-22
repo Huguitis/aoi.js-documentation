@@ -1,5 +1,5 @@
 ---
-title: $textInputValue 
+title: $textInputValue
 description: $textInputValue returns data of a context menu option.
 id: textInputValue
 ---
@@ -12,9 +12,8 @@ id: textInputValue
 $textInputValue[option]
 ```
 
-## Parameters 
+## Parameters
 
-
-| Field     | Type    | Description                                        | Required |
-|-----------|---------|----------------------------------------------------| :------: |
-| option    | string  | option <br /> 1. **name**                            | true      |
+| Field  | Type   | Description               | Required |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

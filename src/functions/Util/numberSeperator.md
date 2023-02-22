@@ -1,5 +1,5 @@
 ---
-title: $numberSeperator 
+title: $numberSeperator
 description: $numberSeperator will seperate numbers and make them readable.
 id: numberSeperator
 ---
@@ -12,14 +12,12 @@ id: numberSeperator
 $numberSeperator[num;sep?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                                        | Required |
-| ----- | ------ | ------------------------------------------------------------------ | -------- |
-| num   | number | number you want to seperate                                        | true      |
-| sep?  | string | seperator which will be used to seperate the numbers, default: `,` | false       |
-
+|-------|--------|--------------------------------------------------------------------|----------|
+| num   | number | number you want to seperate                                        | true     |
+| sep?  | string | seperator which will be used to seperate the numbers, default: `,` | false    |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `1,000,000`:
 
 ```javascript
 bot.command({
-  name: 'numberSeperator',
-  code: `
+    name: 'numberSeperator',
+    code: `
   $numberSeperator[1000000;,]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $oldMessage 
+title: $oldMessage
 description: $oldMessage holds the content of the message before it was updated. (if any)
 id: oldMessage
 ---
@@ -12,9 +12,8 @@ id: oldMessage
 $oldMessage[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

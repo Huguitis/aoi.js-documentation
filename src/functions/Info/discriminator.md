@@ -1,5 +1,5 @@
 ---
-title: $discriminator 
+title: $discriminator
 description: $discriminator will return a user's discriminator.
 id: discriminator
 ---
@@ -12,13 +12,11 @@ id: discriminator
 $discriminator[userId?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description                                           | Required |
-| ------- | ------- | ----------------------------------------------------- | -------- |
-| userId? | integer | the user id of the user you want the discriminator of | false       |
-
+|---------|---------|-------------------------------------------------------|----------|
+| userId? | integer | the user id of the user you want the discriminator of | false    |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return your Discord User Discriminator, for example `0000`:
 
 ```javascript
 bot.command({
-  name: 'discriminator',
-  code: `
+    name: 'discriminator',
+    code: `
   $discriminator[$authorID] // your discriminator
   $discriminator[$clientID] // the bot's discriminator
   `

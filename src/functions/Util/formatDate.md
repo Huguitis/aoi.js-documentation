@@ -1,5 +1,5 @@
 ---
-title: $formatDate 
+title: $formatDate
 description: $formatDate will format a given date.
 id: formatDate
 ---
@@ -12,20 +12,18 @@ id: formatDate
 $formatDate[date;format?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type   | Description                                      | Required |
-| ------- | ------ | ------------------------------------------------ | -------- |
-| date    | number | the date you want to format                      | true      |
-| format? | string | the format that will be used to display the date | false       |
-
+|---------|--------|--------------------------------------------------|----------|
+| date    | number | the date you want to format                      | true     |
+| format? | string | the format that will be used to display the date | false    |
 
 <details open>
   <summary> <h2> Possible formatting </h2></summary>
 
 | Format |                                                            |
-| ------ | ---------------------------------------------------------- |
+|--------|------------------------------------------------------------|
 | dddd   | Returns the weekday, Monday, Tuesday, Wednesday ...        |
 | dd     | Returns the abbreviation of the weekday, Mon, Tue, Wed ... |
 | DD     | Returns the day of the month                               |
@@ -44,8 +42,8 @@ This will return your current date in the `dddd, DD MMMM YYYY` format:
 
 ```javascript
 bot.command({
-  name: 'formatDate',
-  code: `
+    name: 'formatDate',
+    code: `
   $formatDate[$dateStamp;dddd, DD MMMM YYYY]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $oldApplicationCmd 
+title: $oldApplicationCmd
 description: $oldApplicationCmd gets the data from application Callbacks (update and delete one)
 id: oldApplicationCmd
 ---
@@ -12,9 +12,8 @@ id: oldApplicationCmd
 $oldApplicationCmd[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

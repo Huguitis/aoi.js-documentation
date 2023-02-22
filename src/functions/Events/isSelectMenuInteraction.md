@@ -1,5 +1,5 @@
 ---
-title: $isSelectMenuInteraction 
+title: $isSelectMenuInteraction
 description: $isSelectMenuInteraction will return either true or false depending on the type of the interaction.
 id: isSelectMenuInteraction
 ---

@@ -12,14 +12,12 @@ id: roundTenth
 $roundTenth[number;decimalPosition]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field           | Type    | Description                           | Required |
-| --------------- | ------- | ------------------------------------- | -------- |
-| number          | number  | number to round                       | true      |
-| decimalPosition | integer | how many numbers after the comma come | true      |
-
+|-----------------|---------|---------------------------------------|----------|
+| number          | number  | number to round                       | true     |
+| decimalPosition | integer | how many numbers after the comma come | true     |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `503.70` as it's the nearest number to `503.6972`:
 
 ```javascript
 bot.command({
-  name: 'roundTenth',
-  code: `
+    name: 'roundTenth',
+    code: `
   $roundTenth[503.6972]
   `
 });

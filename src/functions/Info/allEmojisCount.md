@@ -1,5 +1,5 @@
 ---
-title: $allEmojisCount 
+title: $allEmojisCount
 description: $allEmojisCount will return the amount of emojis of a given type.
 id: allEmojisCount
 ---
@@ -12,19 +12,16 @@ id: allEmojisCount
 $allEmojisCount[type?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                 | Required |
-| ----- | ------ | --------------------------- | -------- |
-| type? | string | type you want the amount of | false       |
-
+|-------|--------|-----------------------------|----------|
+| type? | string | type you want the amount of | false    |
 
 | Emoji Type      |          |
-| --------------- | -------- |
+|-----------------|----------|
 | Animated Emojis | animated |
 | Stable Emojis   | normal   |
-
 
 ## Example
 
@@ -32,8 +29,8 @@ This will return the amount of emojis in your guild:
 
 ```javascript
 bot.command({
-  name: 'allEmojisCount',
-  code: `
+    name: 'allEmojisCount',
+    code: `
   $allEmojisCount
   `
 });

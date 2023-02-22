@@ -1,5 +1,5 @@
 ---
-title: $deleteApplicationCommand 
+title: $deleteApplicationCommand
 description: $deleteApplicationCommand will delete an application command.
 id: deleteApplicationCommand
 ---
@@ -12,10 +12,9 @@ id: deleteApplicationCommand
 $deleteApplicationCommand[guildID;id]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type            | Description        | Required |
-| ------- | --------------- | ------------------ |:--------:|
-| guildID | string, integer | guild ID or global |    true   |
-| id      | integer         | slash command id   |    true   |
+|---------|-----------------|--------------------|:--------:|
+| guildID | string, integer | guild ID or global |   true   |
+| id      | integer         | slash command id   |   true   |

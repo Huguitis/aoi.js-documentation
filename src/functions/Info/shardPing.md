@@ -1,5 +1,5 @@
 ---
-title: $shardPing 
+title: $shardPing
 description: $shardPing will return the latency of a specific shard.
 id: shardPing
 ---
@@ -12,12 +12,11 @@ id: shardPing
 $shardPing[shardId?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| shardId? | integer | shard ID    |    false    |
+|----------|---------|-------------|:--------:|
+| shardId? | integer | shard ID    |  false   |
 
 #### Note that this won't work without sharding. If you're unsure, review the [sharding guide](../../guides/7sharding.md).
 
@@ -27,8 +26,8 @@ This will return the shard latency of the current shard:
 
 ```javascript
 bot.command({
-  name: 'shardPing',
-  code: `
+    name: 'shardPing',
+    code: `
   $shardPing[$shardId]MS
   `
 });

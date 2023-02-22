@@ -1,5 +1,5 @@
 ---
-title: $roleId 
+title: $roleId
 description: $roleId will return the ID of a role.
 id: roleId
 ---
@@ -12,14 +12,12 @@ id: roleId
 $roleId[roleResolver;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field        | Type   | Description                                   | Required |
-| ------------ | ------ | --------------------------------------------- | -------- |
-| roleResolver | string | name of the role                              | true      |
-| guildID?     | string | id of the guild where the role was created in | false       |
-
+|--------------|--------|-----------------------------------------------|----------|
+| roleResolver | string | name of the role                              | true     |
+| guildID?     | string | id of the guild where the role was created in | false    |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the role ID of a role called `Owner` (this example won't work i
 
 ```javascript
 bot.command({
-  name: 'roleId',
-  code: `
+    name: 'roleId',
+    code: `
   $roleId[Owner;$guildID]
   `
 });

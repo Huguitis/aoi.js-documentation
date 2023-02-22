@@ -1,6 +1,7 @@
 ---
-title: $isSelfDeafened 
-description: $isSelfDeafened is similar but not to confuse with `$isDeafen`, this will check if the user deafened themselves.
+title: $isSelfDeafened
+description: $isSelfDeafened is similar but not to confuse with `$isDeafen`, this will check if the user deafened
+themselves.
 id: isSelfDeafened
 ---
 
@@ -12,14 +13,12 @@ id: isSelfDeafened
 $isSelfDeafened[userid?;guildid?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                   | Required |
-| -------- | ------- | ------------------------------------------------------------- | -------- |
-| userid?  | integer | the user id of the user you want to check if they're deafened | false       |
-| guildid? | integer | the guild id of the guild where they're deafened in           | false       |
-
+|----------|---------|---------------------------------------------------------------|----------|
+| userid?  | integer | the user id of the user you want to check if they're deafened | false    |
+| guildid? | integer | the guild id of the guild where they're deafened in           | false    |
 
 ## Example
 
@@ -27,8 +26,8 @@ This will return either `true` or `false` depending on if you're deafened or not
 
 ```javascript
 bot.command({
-  name: 'isSelfDeafened',
-  code: `
+    name: 'isSelfDeafened',
+    code: `
   $isSelfDeafened
   `
 });

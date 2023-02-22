@@ -1,5 +1,5 @@
 ---
-title: $roleMembersCount 
+title: $roleMembersCount
 description: $roleMembersCount will return the amount of members who have a specific role.
 id: roleMembersCount
 ---
@@ -12,14 +12,12 @@ id: roleMembersCount
 $roleMembersCount[roleID;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| roleID   | integer | role ID     |    true   |
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| roleID   | integer | role ID     |   true   |
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the amount of users who have a specific role:
 
 ```javascript
 bot.command({
-  name: 'roleMembersCount',
-  code: `
+    name: 'roleMembersCount',
+    code: `
   $roleMembersCount[$guildID;$guildID] //you can replace the first $guildID with any role ID you like
   `
 });

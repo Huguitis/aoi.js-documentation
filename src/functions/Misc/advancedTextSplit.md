@@ -1,5 +1,5 @@
 ---
-title: $advancedTextSplit 
+title: $advancedTextSplit
 description: $advancedTextSplit will split multiple given arguments.
 id: advancedTextSplit
 ---
@@ -12,15 +12,13 @@ id: advancedTextSplit
 $advancedTextSplit[text;sep;index;sep?;index?..]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type    | Description                                   | Required |
-| ----- | ------- | --------------------------------------------- |:--------:|
-| text  | string  | text to split                                 |    true   |
-| sep   | string  | seperator                                     |    true   |
-| index | integer | the position of the text you want to seperate |    true   |
-
+|-------|---------|-----------------------------------------------|:--------:|
+| text  | string  | text to split                                 |   true   |
+| sep   | string  | seperator                                     |   true   |
+| index | integer | the position of the text you want to seperate |   true   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will split `Hello.`, `Bye.` and `Ok.` and return `Bye.`:
 
 ```javascript
 bot.command({
-  name: 'advancedTextSplit',
-  code: `
+    name: 'advancedTextSplit',
+    code: `
   $advancedTextSplit[Hello./Bye.|Ok.;/;2;|;1]
   `
 });

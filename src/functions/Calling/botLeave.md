@@ -1,5 +1,5 @@
 ---
-title: $botLeave 
+title: $botLeave
 description: $botLeave will make your bot leave a specific server.
 id: botLeave
 ---
@@ -12,13 +12,11 @@ id: botLeave
 $botLeave[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will make your bot leave the current guild:
 
 ```javascript
 bot.command({
-  name: 'botLeave',
-  code: `
+    name: 'botLeave',
+    code: `
   $botLeave[$guildID]
   $wait[2s]
   $sendMessage[Bye, I'm leaving!]

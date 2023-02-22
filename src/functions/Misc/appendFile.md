@@ -1,5 +1,5 @@
 ---
-title: $appendFile 
+title: $appendFile
 description: $appendFile will add given text to a specific file.
 id: appendFile
 ---
@@ -12,15 +12,13 @@ id: appendFile
 $appendFile[file;text;encode?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description                              | Required |
-| ------- | ------- | ---------------------------------------- |:--------:|
-| file    | integer | file location                            |    true   |
-| text    | integer | text to add to the file                  |    true   |
-| encode? | integer | encode type <br /> 1. **utf8** (default) |    false    |
-
+|---------|---------|------------------------------------------|:--------:|
+| file    | integer | file location                            |   true   |
+| text    | integer | text to add to the file                  |   true   |
+| encode? | integer | encode type <br /> 1. **utf8** (default) |  false   |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will add a comment to your main file:
 
 ```javascript
 bot.command({
-  name: 'appendFile',
-  code: `
+    name: 'appendFile',
+    code: `
   $appendFile[./index.js;// Hello!]
   `
 });

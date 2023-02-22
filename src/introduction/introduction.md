@@ -16,20 +16,24 @@ slug: /
 <div align="center">
 
 **The official Documentation of the aoi.js NPM package.**
-  
+
 [![NPM downloads][download-image]][download-url]
 [![AoiJS Server][aoijs-server]][aoijs-server-url]
 [![NPM version][npm-image]][npm-url]
 
 [npm-image]: http://img.shields.io/npm/v/aoi.js.svg?color=42cfff
+
 [npm-url]: http://npmjs.org/package/aoi.js
+
 [download-image]: https://img.shields.io/npm/dt/aoi.js.svg?color=3182b0
+
 [download-url]: https://npmjs.org/package/aoi.js
+
 [aoijs-server]: https://img.shields.io/discord/773352845738115102?color=5865F2&logo=discord&logoColor=white
+
 [aoijs-server-url]: https://aoi.js.org/invite
 
 </div>
-
 
 ## Features
 
@@ -56,16 +60,16 @@ yarn add aoi.js
 const aoijs = require("aoi.js");
 
 const bot = new aoijs.AoiClient({
-  token: "DISCORD BOT TOKEN",
-  prefix: "DISCORD BOT PREFIX",
-  intents: ["MessageContent", "Guilds", "GuildMessages"],
-  events: ["onMessage", "onInteractionCreate"]
+    token: "DISCORD BOT TOKEN",
+    prefix: "DISCORD BOT PREFIX",
+    intents: ["MessageContent", "Guilds", "GuildMessages"],
+    events: ["onMessage", "onInteractionCreate"]
 });
 
 // Ping Command Example
 bot.command({
-  name: "ping",
-  code: `Pong! $pingms`
+    name: "ping",
+    code: `Pong! $pingms`
 });
 
 // Slash Interaction Command Example (ping)
@@ -73,17 +77,18 @@ bot.command({
 $createApplicationCommand[$guildID;ping;Pong!;true;slash]
 */
 bot.interactionCommand({
-  name: "ping",
-  prototype: "slash",
-  code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
+    name: "ping",
+    prototype: "slash",
+    code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
 });
 ```
-    
+
 ## Disclaimer
-    
+
 **[Aoi.js](https://www.npmjs.com/package/aoi.js)** is not affiliated or associated with Discord or any other services.
-    
+
 ## Links
+
 - [Website](https://aoi.js.org)
 - [NPM](https://www.npmjs.com/package/aoi.js)
 - [Github](https://github.com/AkaruiDevelopment/aoi.js)

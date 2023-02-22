@@ -1,5 +1,5 @@
 ---
-title: $roleCount 
+title: $roleCount
 description: $roleCount will return the guild's role count.
 id: roleCount
 ---
@@ -12,14 +12,12 @@ id: roleCount
 $roleCount[guildID?;fetchFirst?]
 ```
 
-## Parameters 
+## Parameters
 
-
-| Field       | Type    | Description                                                                                | Required |
-| ----------- | ------- | ------------------------------------------------------------------------------------------ |:--------:|
-| guildID?    | integer | guild ID                                                                                   |    false    |
-| fetchFirst? | number  | fetch the roles first before returning them?  <br /> 1. **true** <br /> 2. **false** (default) |    false    |
-
+| Field       | Type    | Description                                                                                    | Required |
+|-------------|---------|------------------------------------------------------------------------------------------------|:--------:|
+| guildID?    | integer | guild ID                                                                                       |  false   |
+| fetchFirst? | number  | fetch the roles first before returning them?  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return the amount of roles of your guild:
 
 ```javascript
 bot.command({
-  name: 'roleCount',
-  code: `
+    name: 'roleCount',
+    code: `
   $roleCount[$guildID;true]
   `
 });

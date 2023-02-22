@@ -1,5 +1,5 @@
 ---
-title: $isNumber 
+title: $isNumber
 description: $isNumber will check if the given argument is a number.
 id: isNumber
 ---
@@ -12,13 +12,11 @@ id: isNumber
 $isNumber[num]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                | Required |
-| ----- | ------ | ------------------------------------------ | -------- |
-| num   | number | argument you want to check if its a number | true      |
-
+|-------|--------|--------------------------------------------|----------|
+| num   | number | argument you want to check if its a number | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` as `255` is a valid number:
 
 ```javascript
 bot.command({
-  name: 'isNumber',
-  code: `
+    name: 'isNumber',
+    code: `
   $isNumber[255]
   `
 });

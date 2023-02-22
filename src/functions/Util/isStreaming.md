@@ -1,5 +1,5 @@
 ---
-title: $isStreaming 
+title: $isStreaming
 description: $isStreaming will check if one user is streaming in a voice channel.
 id: isStreaming
 ---
@@ -12,14 +12,12 @@ id: isStreaming
 $isStreaming[userid?;guildid?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                    | Required |
-| -------- | ------- | -------------------------------------------------------------- | -------- |
-| userid?  | integer | the user id of the user you want to check if they're streaming | false       |
-| guildid? | integer | the guild id of where they're streaming in                     | false       |
-
+|----------|---------|----------------------------------------------------------------|----------|
+| userid?  | integer | the user id of the user you want to check if they're streaming | false    |
+| guildid? | integer | the guild id of where they're streaming in                     | false    |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return either `true` or `false` depending on if you're streaming (voic
 
 ```javascript
 bot.command({
-  name: 'isStreaming',
-  code: `
+    name: 'isStreaming',
+    code: `
   $isStreaming[$authorID;$guildid]
   `
 });

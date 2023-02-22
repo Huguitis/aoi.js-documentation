@@ -12,9 +12,11 @@ aoi.js has `ClientShard` class to handle `Sharding` for your Discord Bot.
 
 ```ts
 const sharder: ClientShard = new ClientShard(
-    file: string,
-    sharderOptions?: ShardOption,
-    spawnOptions?: SpawnOption
+    file
+:
+string,
+    sharderOptions ? : ShardOption,
+    spawnOptions ? : SpawnOption
 )
 ```
 
@@ -41,31 +43,31 @@ const sharder: ClientShard = new ClientShard(
 
 ### sharderOptions
 
-| Property         | Type               | Description                                              | Required | Default |
-| ---------------- | ------------------ | -------------------------------------------------------- | -------- | ------- |
-| **_totalShard_** | string \| number   | number of total Shards                                   | false       | auto    |
-| **_shardList_**  | string \| number[] | List of Shards to spawn                                  | false       | auto    |
-| **_mode_**       | process \| worker  | type of Sharding Mode (child_process \| worker_threads ) | false       | process |
-| **_respawn_**    | boolean            | whether to respawn shards on exiting                     | false       | true    |
-| token            | string             | token to use for shard count                             | false       | none    |
+| Property         | Type      | Description                          | Required                               | Default          |
+|------------------|-----------|--------------------------------------|----------------------------------------|------------------|
+| **_totalShard_** | string \  | number                               | number of total Shards                 | false            | auto    |
+| **_shardList_**  | string \  | number[]                             | List of Shards to spawn                | false            | auto    |
+| **_mode_**       | process \ | worker                               | type of Sharding Mode (child_process \ | worker_threads ) | false       | process |
+| **_respawn_**    | boolean   | whether to respawn shards on exiting | false                                  | true             |
+| token            | string    | token to use for shard count         | false                                  | none             |
 
 ### spawnOptions
 
-| Property      | Type             | Description                                                                     | Required | Default                   |
-| ------------- | ---------------- | ------------------------------------------------------------------------------- | -------- | ------------------------- |
-| **_amount_**  | string \| number | number of shards to spawn                                                       | false       | `ClientShard#totalShards` |
-| **_delay_**   | number           | delay for spawning each shard ( `in ms` )                                       | false       | 5500                      |
-| **_timeout_** | number           | The amount in milliseconds to wait until the `Bot` has become ready ( `in ms` ) | false       | 30000                     |
+| Property      | Type     | Description                                                                     | Required                  | Default |
+|---------------|----------|---------------------------------------------------------------------------------|---------------------------|---------|
+| **_amount_**  | string \ | number                                                                          | number of shards to spawn | false   | `ClientShard#totalShards` |
+| **_delay_**   | number   | delay for spawning each shard ( `in ms` )                                       | false                     | 5500    |
+| **_timeout_** | number   | The amount in milliseconds to wait until the `Bot` has become ready ( `in ms` ) | false                     | 30000   |
 
 ## Example
 
 This should be a new file, for example `shard.js`:
 
 ```js
-const { ClientShard } = require("aoi.js");
+const {ClientShard} = require("aoi.js");
 
-const sharder = new ClientShard("./index.js",{
-  token : "DISCORD BOT TOKEN"
+const sharder = new ClientShard("./index.js", {
+    token: "DISCORD BOT TOKEN"
 });
 
 

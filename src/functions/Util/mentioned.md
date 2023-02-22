@@ -1,5 +1,5 @@
 ---
-title: $mentioned 
+title: $mentioned
 description: $mentioned will return the ID of an user of the mention.
 id: mentioned
 ---
@@ -12,23 +12,22 @@ id: mentioned
 $mentioned[index;returnSelf?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field       | Type   | Description                                  | Required |
-| ----------- | ------ | -------------------------------------------- | -------- |
-| index       | number | the index of the argument                    | true      |
-| returnSelf? | string | return the author's id if user was not found | false       |
-
+|-------------|--------|----------------------------------------------|----------|
+| index       | number | the index of the argument                    | true     |
+| returnSelf? | string | return the author's id if user was not found | false    |
 
 ## Example
 
-This will return the ID of the **first** mention if you attempt to mention someone in this command, or else it will return your ID:
+This will return the ID of the **first** mention if you attempt to mention someone in this command, or else it will
+return your ID:
 
 ```javascript
 bot.command({
-  name: 'mentioned',
-  code: `
+    name: 'mentioned',
+    code: `
   $mentioned[1;true]
   `
 });

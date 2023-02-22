@@ -1,5 +1,5 @@
 ---
-title: $getChannelSlowmode 
+title: $getChannelSlowmode
 description: $getChannelSlowmode will return a channel's slowmode in seconds.
 id: getChannelSlowmode
 ---
@@ -12,13 +12,11 @@ id: getChannelSlowmode
 $getChannelSlowmode[channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description                                                      | Required |
-| ---------- | ------- | ---------------------------------------------------------------- | -------- |
-| channelID? | integer | channel ID of the channel where you want the channel slowmode of | false       |
-
+|------------|---------|------------------------------------------------------------------|----------|
+| channelID? | integer | channel ID of the channel where you want the channel slowmode of | false    |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the slowmode of the channel where you execute the command in:
 
 ```javascript
 bot.command({
-  name: 'getChannelSlowmode',
-  code: `
+    name: 'getChannelSlowmode',
+    code: `
   The current channel slowmode is: $getChannelSlowmode[$channelID] seconds!
   `
 });

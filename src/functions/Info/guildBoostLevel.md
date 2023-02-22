@@ -1,5 +1,5 @@
 ---
-title: $guildBoostLevel 
+title: $guildBoostLevel
 description: $guildBoostLevel will return the guild's boost level.
 id: guildBoostLevel
 ---
@@ -12,13 +12,11 @@ id: guildBoostLevel
 $guildBoostLevel[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the boost level of a specific guild:
 
 ```javascript
 bot.command({
-  name: 'guildBoostLevel',
-  code: `
+    name: 'guildBoostLevel',
+    code: `
   $guildBoostLevel[$guildID]
   `
 });

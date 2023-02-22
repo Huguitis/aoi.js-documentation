@@ -12,14 +12,12 @@ id: indexOfArg
 $indexOfArg[string;query]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                    | Required |
-| ------ | ------ | ---------------------------------------------- | -------- |
-| string | string | the text the bot will be checking the index of | true      |
-| query  | string | the query the bot will be checking for         | true      |
-
+|--------|--------|------------------------------------------------|----------|
+| string | string | the text the bot will be checking the index of | true     |
+| query  | string | the query the bot will be checking for         | true     |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `3` as `great` is the third argument in the query:
 
 ```javascript
 bot.command({
-  name: 'indexOfArgs',
-  code: `
+    name: 'indexOfArgs',
+    code: `
   $indexOfArgs[aoi.js is great for users who are new to Discord's API!;great]
   `
 });

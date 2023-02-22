@@ -1,5 +1,5 @@
 ---
-title: $isValidObject 
+title: $isValidObject
 description: $isValidObject checks if the given json is a valid object.
 id: isValidObject
 ---
@@ -12,12 +12,11 @@ id: isValidObject
 $isValidObject[json]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description | Required |
-| ----- | ------ | ----------- | -------- |
-| json  | string | json object | true      |
+|-------|--------|-------------|----------|
+| json  | string | json object | true     |
 
 ### This function will only work if it's a JSON Object
 
@@ -27,8 +26,8 @@ This will return `true` as the given object is an valid json object:
 
 ```javascript
 bot.command({
-  name: 'isValidObject',
-  code: `
+    name: 'isValidObject',
+    code: `
   $isValidObject[{"name":"Leref", "aoijs":"nice"}]
   `
 });

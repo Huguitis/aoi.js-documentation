@@ -1,5 +1,5 @@
 ---
-title: $botTyping 
+title: $botTyping
 description: $botTyping will make your bot type in a channel (show that it's typing).
 id: botTyping
 ---
@@ -18,8 +18,8 @@ This will display your bot as typing and send "Hello!" as message:
 
 ```javascript
 bot.command({
-  name: 'botTyping',
-  code: `
+    name: 'botTyping',
+    code: `
   Hello!
   $botTyping
   `

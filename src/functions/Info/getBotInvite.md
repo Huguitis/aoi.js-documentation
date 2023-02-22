@@ -1,5 +1,5 @@
 ---
-title: $getBotInvite 
+title: $getBotInvite
 description: $getBotInvite will return your bot's invite with specified permissions.
 id: getBotInvite
 ---
@@ -12,19 +12,17 @@ id: getBotInvite
 $getBotInvite[...perms?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description                                       | Required |
-| ------ | ------ | ------------------------------------------------- | -------- |
-| perms? | string | permissions you want to be included in the invite | false       |
-
+|--------|--------|---------------------------------------------------|----------|
+| perms? | string | permissions you want to be included in the invite | false    |
 
 <details>
   <summary><h3> Discord API Permissions </h3></summary>
 
 | Permission              |                                                                 |
-| ----------------------- | --------------------------------------------------------------- |
+|-------------------------|-----------------------------------------------------------------|
 | createinvite            | Permission to create guild invites                              |
 | kick                    | Permission to kick guild members                                |
 | ban                     | Permission to ban guild members                                 |
@@ -76,8 +74,8 @@ This will return your bot's invite with administrator privileges:
 
 ```javascript
 bot.command({
-  name: 'getBotInvite',
-  code: `
+    name: 'getBotInvite',
+    code: `
   Invite me here: $getBotInvite[administrator]
   `
 });

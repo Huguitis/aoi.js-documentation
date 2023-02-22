@@ -1,5 +1,5 @@
 ---
-title: $guildName 
+title: $guildName
 description: $guildName will return a guild's name.
 id: guildName
 ---
@@ -12,13 +12,11 @@ id: guildName
 $guildName[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the name of your guild:
 
 ```javascript
 bot.command({
-  name: 'guildName',
-  code: `
+    name: 'guildName',
+    code: `
   $guildName[$guildID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $get 
+title: $get
 description: $get is used for retrieving temporary variables.
 id: get
 ---
@@ -12,12 +12,11 @@ id: get
 $get[var]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                             | Required |
-| ----- | ------ | --------------------------------------- | -------- |
-| var   | string | temporary variable you want to retrieve | true      |
+|-------|--------|-----------------------------------------|----------|
+| var   | string | temporary variable you want to retrieve | true     |
 
 ## Example
 
@@ -25,8 +24,8 @@ This will return `Leref` from `$let`:
 
 ```javascript
 bot.command({
-  name: 'get',
-  code: `
+    name: 'get',
+    code: `
 Aoi.js developer: $get[developer]
 $let[developer;Leref]
 `

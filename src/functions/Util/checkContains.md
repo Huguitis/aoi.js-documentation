@@ -1,5 +1,5 @@
 ---
-title: $checkContains 
+title: $checkContains
 description: $checkContains will check if the given arguments are present within a text.
 id: checkContains
 ---
@@ -12,14 +12,12 @@ id: checkContains
 $checkContains[text;...chars]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                                      | Required |
-| ----- | ------ | ------------------------------------------------ | -------- |
-| text  | string | text you want to check                           | true      |
-| chars | string | text you want to check for in the first argument | true      |
-
+|-------|--------|--------------------------------------------------|----------|
+| text  | string | text you want to check                           | true     |
+| chars | string | text you want to check for in the first argument | true     |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will return `true` as `easy` and/or `simple` are present in the given text:
 
 ```javascript
 bot.command({
-  name: 'checkContains',
-  code: `
+    name: 'checkContains',
+    code: `
   $checkContains[aoi.js is easy and simple to use for beginners;easy;simple]
   `
 });

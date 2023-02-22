@@ -1,5 +1,5 @@
 ---
-title: $status 
+title: $status
 description: $status will a user's presence.
 id: status
 ---
@@ -12,14 +12,12 @@ id: status
 $status[userId?;guildId?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| userId?  | integer | user ID     |    false    |
-| guildId? | integer | guild ID    |    false    |
-
+|----------|---------|-------------|:--------:|
+| userId?  | integer | user ID     |  false   |
+| guildId? | integer | guild ID    |  false   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will either return `idle`, `online`, `invisible` or `dnd` depending on your
 
 ```javascript
 bot.command({
-  name: 'status',
-  code: `
+    name: 'status',
+    code: `
   $status[$authorID;$guildID]
   `
 });

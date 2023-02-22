@@ -1,5 +1,5 @@
 ---
-title: $isMuted 
+title: $isMuted
 description: $isMuted will check if a specific user is muted within a voice channel.
 id: isMuted
 ---
@@ -12,14 +12,12 @@ id: isMuted
 $isMuted[userID?;guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                       | Required |
-| -------- | ------- | ------------------------------------------------- | -------- |
-| userID   | integer | id of the user you want to check if they're muted | true      |
-| guildID? | integer | guild id of where the user is muted in            | true      |
-
+|----------|---------|---------------------------------------------------|----------|
+| userID   | integer | id of the user you want to check if they're muted | true     |
+| guildID? | integer | guild id of where the user is muted in            | true     |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will check if you're currently muted in a voice channel and returns either 
 
 ```javascript
 bot.command({
-  name: 'isMuted',
-  code: `
+    name: 'isMuted',
+    code: `
   $isMuted[$authorID;$guildID]
   `
 });

@@ -1,5 +1,5 @@
 ---
-title: $userBannerColor 
+title: $userBannerColor
 description: $userBannerColor will return the profile banner color.
 id: userBannerColor
 ---
@@ -12,13 +12,11 @@ id: userBannerColor
 $userBannerColor[userID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description        | Required |
-| ------- | ------- | ------------------ |:--------:|
-| userID? | integer | the ID of the user |    false    |
-
+|---------|---------|--------------------|:--------:|
+| userID? | integer | the ID of the user |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return your profile banner color:
 
 ```javascript
 bot.command({
-  name: 'userBanner',
-  code: `
+    name: 'userBanner',
+    code: `
   $userBannerColor[$authorID]
   `
 });

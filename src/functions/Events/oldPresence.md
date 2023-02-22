@@ -1,6 +1,7 @@
 ---
-title: $oldPresence 
-description: $oldPresence holds old data of the user's presence, used in update presence callback, or else any data will be empty
+title: $oldPresence
+description: $oldPresence holds old data of the user's presence, used in update presence callback, or else any data will
+be empty
 id: oldPresence
 ---
 
@@ -12,9 +13,8 @@ id: oldPresence
 $oldPresence[option]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field  | Type   | Description               | Required |
-| ------ | ------ | ------------------------- |:--------:|
-| option | string | option <br /> 1. **name** |    true   |
+|--------|--------|---------------------------|:--------:|
+| option | string | option <br /> 1. **name** |   true   |

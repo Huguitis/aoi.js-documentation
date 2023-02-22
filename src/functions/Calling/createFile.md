@@ -1,5 +1,5 @@
 ---
-title: $createFile 
+title: $createFile
 description: $createFile will create a file.
 id: createFile
 ---
@@ -12,14 +12,12 @@ id: createFile
 $createFile[attachment;name]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type   | Description         | Required |
-| ---------- | ------ | ------------------- |:--------:|
-| attachment | string | content of the file |    true   |
-| name       | string | name of the file    |    true   |
-
+|------------|--------|---------------------|:--------:|
+| attachment | string | content of the file |   true   |
+| name       | string | name of the file    |   true   |
 
 ## Example
 
@@ -27,8 +25,8 @@ This will create a text file called **`example.txt`** with the text "This is an 
 
 ```javascript
 bot.command({
-  name: 'createFile',
-  code: `
+    name: 'createFile',
+    code: `
   $createFile[This is an example!;example.txt]
   `
 });

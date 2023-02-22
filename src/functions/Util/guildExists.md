@@ -1,5 +1,5 @@
 ---
-title: $guildExists 
+title: $guildExists
 description: $guildExists will check if the given guild exists.
 id: guildExists
 ---
@@ -12,13 +12,11 @@ id: guildExists
 $guildExists[guildId]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field   | Type    | Description | Required |
-| ------- | ------- | ----------- | -------- |
-| guildId | integer | guild id    | true      |
-
+|---------|---------|-------------|----------|
+| guildId | integer | guild id    | true     |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return `true` your guild exists:
 
 ```javascript
 bot.command({
-  name: 'guildExists',
-  code: `
+    name: 'guildExists',
+    code: `
   $guildExists[$guildID]
   `
 });

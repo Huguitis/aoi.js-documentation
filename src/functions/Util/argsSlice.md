@@ -1,5 +1,5 @@
 ---
-title: $argsSlice 
+title: $argsSlice
 description: $argsSlice will slice the given argument depending on the users input.
 id: argsSlice
 ---
@@ -12,15 +12,13 @@ id: argsSlice
 $argsSlice[text;from?;to] 
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                               | Required |
-| ----- | ------ | ----------------------------------------- | -------- |
-| text  | string | text you want to slice                    | true      |
-| from? | number | starting point where to slice the message | false       |
-| to    | number | ending point where slicing ends           | true      |
-
+|-------|--------|-------------------------------------------|----------|
+| text  | string | text you want to slice                    | true     |
+| from? | number | starting point where to slice the message | false    |
+| to    | number | ending point where slicing ends           | true     |
 
 ## Example
 
@@ -28,8 +26,8 @@ This will return `Bye` and remove `Hello` from the given text:
 
 ```javascript
 bot.command({
-  name: 'slice',
-  code: `
+    name: 'slice',
+    code: `
   $argsSlice[Hello Bye;1;5]
   `
 });

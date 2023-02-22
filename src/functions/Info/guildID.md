@@ -1,5 +1,5 @@
 ---
-title: $guildID 
+title: $guildID
 description: $guildID will return the guild ID of a given guild.
 id: guildID
 ---
@@ -12,13 +12,11 @@ id: guildID
 $guildID[name?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field | Type   | Description                         | Required |
-| ----- | ------ | ----------------------------------- |:--------:|
-| name? | string | guild name you want the guild ID of |    false    |
-
+|-------|--------|-------------------------------------|:--------:|
+| name? | string | guild name you want the guild ID of |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return your guild ID:
 
 ```javascript
 bot.command({
-  name: 'guildID',
-  code: `
+    name: 'guildID',
+    code: `
   $guildID
   `
 });

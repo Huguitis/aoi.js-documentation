@@ -1,5 +1,5 @@
 ---
-title: $guildMFALevel 
+title: $guildMFALevel
 description: $guildMFALevel will return the guild's MFA Level.
 id: guildMFALevel
 ---
@@ -12,17 +12,16 @@ id: guildMFALevel
 $guildMFALevel[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description | Required |
-| -------- | ------- | ----------- |:--------:|
-| guildID? | integer | guild ID    |    false    |
+|----------|---------|-------------|:--------:|
+| guildID? | integer | guild ID    |  false   |
 
-| Type |                                                         |
-| ---- | ------------------------------------------------------- |
+| Type |                                                            |
+|------|------------------------------------------------------------|
 | 0    | guild has false MFA/2FA requirement for moderation actions |
-| 1    | guild has a 2FA requirement for moderation actions      |
+| 1    | guild has a 2FA requirement for moderation actions         |
 
 ## Example
 
@@ -30,8 +29,8 @@ This will return the guild's MFA Level:
 
 ```javascript
 bot.command({
-  name: 'guildMFALevel',
-  code: `
+    name: 'guildMFALevel',
+    code: `
   $guildMFALevel[$guildID]
   `
 });

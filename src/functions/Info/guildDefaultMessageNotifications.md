@@ -1,7 +1,7 @@
 ---
 title: $guildDefaultMessageNotifications  
 description: $guildDefaultMessageNotifications will return given guild's default message notification type.
-id: guildDefaultMessageNotifications 
+id: guildDefaultMessageNotifications
 ---
 
 `$guildDefaultMessageNotifications ` will return given guild's default message notification type.
@@ -12,13 +12,11 @@ id: guildDefaultMessageNotifications
 $guildDefaultMessageNotifications[guildID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                                | Required |
-| -------- | ------- | ---------------------------------------------------------- |:--------:|
-| guildID? | integer | guild id you want the default message notification type of |    false    |
-
+|----------|---------|------------------------------------------------------------|:--------:|
+| guildID? | integer | guild id you want the default message notification type of |  false   |
 
 ## Example
 
@@ -26,8 +24,8 @@ This will return the guild's default message notification type:
 
 ```javascript
 bot.command({
-  name: 'guildDefaultMessageNotifications',
-  code: `
+    name: 'guildDefaultMessageNotifications',
+    code: `
   $guildDefaultMessageNotifications
   `
 });

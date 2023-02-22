@@ -1,5 +1,5 @@
 ---
-title: $hasPermsInChannel 
+title: $hasPermsInChannel
 description: $hasPermsInChannel will check if the user has one of the required permission in the given channel.
 id: hasPermsInChannel
 ---
@@ -12,20 +12,19 @@ id: hasPermsInChannel
 $hasPermsInChannel[channelID;userorroleID;...perms]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field        | Type    | Description                                               | Required |
-| ------------ | ------- | --------------------------------------------------------- | -------- |
-| channelD     | integer | ID of the channel where the client checks the permissions | true      |
-| userorroleID | integer | ID of the user or role                                    | true      |
-| perms        | string  | permissions needed                                        | true      |
+|--------------|---------|-----------------------------------------------------------|----------|
+| channelD     | integer | ID of the channel where the client checks the permissions | true     |
+| userorroleID | integer | ID of the user or role                                    | true     |
+| perms        | string  | permissions needed                                        | true     |
 
 <details>
   <summary> <h3> Discord API Permissions </h3></summary>
 
 | Permission              |                                                                 |
-| ----------------------- | --------------------------------------------------------------- |
+|-------------------------|-----------------------------------------------------------------|
 | createinvite            | Permission to create guild invites                              |
 | kickmembers             | Permission to kick guild members                                |
 | banmembers              | Permission to ban guild members                                 |
@@ -77,8 +76,8 @@ This will return `true` when the author has `send messages` permissions and retu
 
 ```javascript
 bot.command({
-  name: 'hasPermsInChannel',
-  code: `
+    name: 'hasPermsInChannel',
+    code: `
   $hasPermsInChannel[$channelID;$authorID;sendmessages]
   `
 });
