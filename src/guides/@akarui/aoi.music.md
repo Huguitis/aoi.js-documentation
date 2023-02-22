@@ -50,8 +50,10 @@ const voice = new AoiVoice(bot, {
         soundcloudLikeTrackLimit: 200,
     },
 });
+
 // adds a cacher plugin
-voice.addPlugin(PluginName.Cacher, new Cacher("memory" /* or "disk" */));
+voice.addPlugin( PluginName.Cacher, new Cacher( "memory" /* or "disk" */ ) ); 
+
 // adds a filter plugin
 voice.addPlugin(
     PluginName.Filter,
