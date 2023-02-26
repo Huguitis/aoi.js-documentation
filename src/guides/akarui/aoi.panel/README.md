@@ -10,9 +10,9 @@ id: aoi.panel
 
 | Name | Description | Link |
 | -------- | -------- | -------- |
-| The panel Class | The panel Class and its parameters | [link](/src/guides/@akarui/aoi.panel/panel.md) | 
-| Functions | loadPanel and onError | [link](/src/guides/@akarui/aoi.panel/funcs.md) | 
-| Advanced Features | Multiple accounts, custom pages, etc. | [link](/src/guides/@akarui/aoi.panel/advanced.md) | 
+| The panel Class | The panel Class and its parameters | [link](/src/guides/akarui/aoi.panel/panel.md) | 
+| Functions | loadPanel and onError | [link](/src/guides/akarui/aoi.panel/funcs.md) | 
+| Advanced Features | Multiple accounts, custom pages, etc. | [link](/src/guides/akarui/aoi.panel/advanced.md) | 
 
 ## To View Examples Click [here](https://github.com/AkaruiDevelopment/panel/blob/main/examples/)
 
