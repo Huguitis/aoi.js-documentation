@@ -83,7 +83,7 @@ const bot = new aoijs.AoiClient({
 * **sendmessagesinthreads** &rarr; Allows for sending messages in threads. 
 * **moderatemembers** &rarr; Allows for timing out users to prevent them from sending or reacting to messages in chat and threads, and from speaking in voice and stage channels
 
-## Voice Permissions
+### Voice Permissions
 
 * **priorityspeaker** &rarr; Allows for using priority speaker in a voice channel.
 * **stream** &rarr; Allows the user to go live.
