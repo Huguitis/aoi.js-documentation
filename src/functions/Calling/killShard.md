@@ -4,7 +4,7 @@ description: $killShard will kill a given shard.
 id: killShard
 ---
 
-`$killShard` $killShard will kill a given shard. (requires sharding)
+`$killShard` will kill a given shard. (requires sharding)
 
 ## Usage
 

@@ -1,18 +1,19 @@
 ---
-title: $joinThread
-description: $joinThread will make the bot join a specific thread.
-id: joinThread
+title: $leaveThread
+description: $leaveThread will make the bot leave a specific thread.
+id: leaveThread
 ---
 
-`$joinThread` will make the bot join a specific thread.
+`$killShard` will make the bot leave a specific thread.
 
 ## Usage
 
 ```php
-$joinThread[channelID;threadID]
+$leaveThread[channelID;threadID]
 ```
 
-## Parameters
+## Parameters 
+
 
 | Field     | Type    | Description | Required |
 |-----------|---------|-------------|:--------:|
@@ -21,13 +22,13 @@ $joinThread[channelID;threadID]
 
 ## Example
 
-This will create a thread in the current channel and add the bot to it:
+This will create a thread and make the bot leave after creation:
 
 ```javascript
 bot.command({
-    name: 'joinThread',
+    name: 'leaveThread',
     code: `
-  $joinThread[$channelID;$get[threadID]]
+  $leaveThread[$channelID;$get[threadID]]
   $let[threadID;$createThread[$channelID;Example!;1440;public;$messageID;true]]
   `
 });

@@ -1,10 +1,10 @@
 ---
 title: Others
-description: This guide is covering, client options, databases, command aliases and hyperlinks.
+description: This guide is covering, client options, databases, command aliases, hyperlinks and how to retrieve emoji IDs.
 id: others
 ---
 
-#### This guide will be covering every question you may have.
+**This guide will be covering every question you may have about client options, databases, command aliases, hyperlinks and emoji IDs.**
 
 ### Table of Content
 
@@ -15,6 +15,7 @@ id: others
     - **[Way more possibilities][1.1]**
 - **[Hyperlinks][2]**
     - **[Tool Tips](#hovering-text)**
+- **[Retrieve Emoji IDs](#emoji-ids)**
 
 ---
 
@@ -93,12 +94,11 @@ const bot = new aoijs.AoiClient({
     });
 ```
 
-In case this doesn't work, make sure you have a directory called "database", inside it a directory called "main" and a
-file called "main_scheme_1.sql" with the content of "{}".
+In case this doesn't work, make sure you have a directory called "database", inside it a directory called "main" and a file called "main_scheme_1.sql" with the content of "{}".
 
 ## Command Aliases
 
-#### Command aliases work just like command names, but they will also trigger the same command!
+**Command aliases work just like command names, but they will also trigger the same command!**
 
 ```js
 aliases: ["alias1", "alias2"],
@@ -128,7 +128,7 @@ module.exports = [{
 
 ### Way more possibilities
 
-#### You could add even more than just aliases to your command, things like descriptions, categories.. everything is possible.
+**You could add even more than just aliases to your command, things like descriptions, categories.. everything is possible.**
 
 ```js
 bot.command({
@@ -179,7 +179,7 @@ $commandInfo[commandName;property.sub]
 
 ## Hyperlinks
 
-#### Hyperlinks are pretty useful to link other websites in embeds or interactions.
+**Hyperlinks are pretty useful to link other websites in embeds or interactions.**
 
 Please note that this only works in embeds and interactions. Meaning it won't work in regular messages.
 
@@ -187,20 +187,14 @@ Please note that this only works in embeds and interactions. Meaning it won't wo
 
 Lets say we want to embed the https://aoi.js.org link in our embed, first of all we have to look at the formatting:
 
-```js
-[aoi.js is great!](https
-://aoi.js.org)
+```
+[aoi.js is great!](https://aoi.js.org)
 ```
 
 That will make sure that out link is embedded in "aoi.js is great!". As next we add the embed:
 
-```js
-$description[Want
-to
-learn
-more
-about
-aoi.js ? Click [here](https ://aoi.js.org)!]
+```
+$description[Want to learn more about aoi.js? Click[here](https://aoi.js.org)!]
 ```
 
 This will embed the link in the word "here" and redirect you to the website when you click the word.
@@ -209,21 +203,40 @@ This will embed the link in the word "here" and redirect you to the website when
 
 Want to have hovering text when hovering over the word? Simple!
 
-```js
-[aoi.js is great!](https
-://aoi.js.org "not everyone sees this" )
+```
+[aoi.js is great!](https://aoi.js.org "not everyone sees this" )
 ```
 
 This will add the label "not everyone sees this" when you hover over the text for a while.
 
-```js
-$description[Want
-to
-learn
-more
-about
-aoi.js ? Click [here](https ://aoi.js.org "aoi.js is great")!]
 ```
+$description[Want to learn more about aoi.js? Click[here](https://aoi.js.org "aoi.js is great")!]
+```
+
+## Emoji IDs
+
+There are multiple ways of retrieving emoji IDs, the easiest way would be
+
+`\:emoji:` which will send the emoji as `<:name:id>`.
+
+Well however, if you don't have the possibility to use animate emojis there are other ways..
+
+1. Using `$customEmoji`, it sends the full emoji just by it's name. 
+
+```js
+`$customEmoji[name]`
+```
+
+2. Using the Developer Console, complicated but works fine.
+
+First choose the one you want from the emoji panel. 
+
+Then, open the Developer Console by pressing Ctrl-Shift-I and Ctrl-Shift-C. (wont work in the public discord version) 
+
+Next, click on the emoji you chose, and look for a long link starting with "https://cdn.discordapp.com/emojis/" and ending with the emoji's extension (like .gif or .png). 
+
+Copy the numbers between **"emojis/"** and the extension.
+
 
 <!--- links -->
 

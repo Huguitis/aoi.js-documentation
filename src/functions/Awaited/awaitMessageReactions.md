@@ -16,7 +16,7 @@ $awaitMessageReactions[channelID;messageID;userFilter;time;reactions;commands;er
 
 | Field         | Type    | Description                                                                                    | Required |
 |---------------|---------|------------------------------------------------------------------------------------------------|:--------:|
-| channelID     | integer | message ID                                                                                     |   true   |
+| channelID     | integer | channel ID                                                                                     |   true   |
 | messageID     | integer | message ID                                                                                     |   true   |
 | userFilter    | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true   |
 | time          | string  | how long the command will last / when the command expires                                      |   true   |
@@ -25,7 +25,7 @@ $awaitMessageReactions[channelID;messageID;userFilter;time;reactions;commands;er
 | errorMessage? | string  | error message when command expires                                                             |  false   |
 | awaitData?    | string  | awaited data                                                                                   |  false   |
 
-#### Make sure you have `GuildMessageReactions` as intent in your main file.
+**Make sure you have `GuildMessageReactions` as intent in your main file.**
 
 ## Example
 
@@ -36,12 +36,12 @@ bot.command({
     name: "awaitMessageReactions",
     code: `
   React with "❤️" for a surprise! 
-  $awaitMessageReactions[$channelID;$messageID;$authorID;10s;❤️;awaitedCommandExample;Whoops! You didn't react in time..]
+  $awaitMessageReactions[$channelID;$messageID;$authorID;10s;❤️;awaitedcommandexample;Whoops! You didn't react in time..]
   `
 });
 
 bot.awaitedCommand({
-    name: "awaitedCommandExample",
+    name: "awaitedcommandexample",
     code: `
   Nice, you reacted with ❤️.
   `
