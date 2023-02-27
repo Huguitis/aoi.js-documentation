@@ -20,7 +20,7 @@ $broadcastEval[func]
 
 ## Example
 
-#### Requires Sharding - Review the Sharding Guide if you need explanation
+**Requires Sharding - Review the Sharding Guide if you need explanation**
 
 This will return the amount of servers your bot is in:
 
