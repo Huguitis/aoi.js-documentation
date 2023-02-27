@@ -17,7 +17,7 @@ $modifyChannelPerms[roruId;channelID;...perms]
 
 | Field     | Type    | Description     | Required |
 |-----------|---------|-----------------|:--------:|
-| roruId    | integer | role or user ID |   true   |
+| roruId    | integer | role or user ID / `$guildID` represents the `@everyone` role |   true   |
 | channelID | integer | channel ID      |   true   |
 | ...perms  | string  | permissions     |   true   |
 
@@ -39,6 +39,5 @@ bot.command({
     code: `
   $modifyChannelPerms[$guildID;$channelID;+sendmessages;+addreactions]
   `
-  // $guildID represents the @everyone role.
 });
 ```
