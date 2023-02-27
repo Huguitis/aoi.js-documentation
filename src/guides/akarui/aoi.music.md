@@ -1,8 +1,8 @@
 ---
 
-title: akarui/aoi.music
+title: aoi.music
 description: How to integrate aoi.music into your Discord Bot with ease.
-id: akarui/aoi.music
+id: aoi.music
 
 ---
 
@@ -74,7 +74,6 @@ voice.addEvent(PlayerEvents.TRACK_START);
 <summary>Voice#devOptions</summary>
 
 ```typescript
-
 devOptions ? : {
     debug: boolean;
 };
