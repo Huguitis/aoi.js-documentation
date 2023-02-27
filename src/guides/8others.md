@@ -22,9 +22,9 @@ id: others
 ## Client Options
 
 ```typescript
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: string,
     prefix: string,
     intents: ["MessageContent", "Guilds", "GuildMessages"],
@@ -74,9 +74,9 @@ npm i aoi.db
 Usage of aoi.db in your main file:
 
 ```js
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
@@ -89,7 +89,8 @@ const bot = new aoijs.AoiClient({
         extraOptions: {
             dbType: "KeyValue",
         }
-    });
+    }
+});
 ```
 
 If you encounter any errors ensure you have a directory called `database`, inside of it another directory called `main` and inside of that a file called `main_scheme_1.sql` with the content of `{}`.

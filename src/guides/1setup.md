@@ -15,9 +15,9 @@ npm install aoi.js
 ## Example
 
 ```javascript
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: "Discord Bot Token",
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages"],

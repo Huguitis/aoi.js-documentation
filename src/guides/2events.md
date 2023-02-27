@@ -138,9 +138,9 @@ Developer Portal.
 ## Example Usage of Events
 
 ```js
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages", "MessageContent"],

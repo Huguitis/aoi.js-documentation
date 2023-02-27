@@ -24,15 +24,16 @@ In this step we'll take a look at your main file also known as `index.js`. We ad
 the bot to understand where our files are.
 
 ```javascript
-const bot = new aoijs.AoiClient({
+const { AoiClient, LoadCommands } = require("aoi.js");
+
+const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
     events: ["onMessage", "onInteractionCreate"]
 });
 
-
-const loader = new aoijs.LoadCommands(bot)
+const loader = new LoadCommands(bot);
 loader.load(bot.cmd, "./commands/") //you can change this to any directory you want
 ```
 
@@ -117,13 +118,8 @@ to any files outside of the directory.
 <!--- links -->
 
 [1]: #starting-off-with-modifying-your-main-file
-
 [2]: #setting-everything-up-with-folders-and-files
-
 [3]: #final-steps
-
 [4]: #updating-your-commands-without-restart
-
 [directory-setup-preview-1]: https://cdn.discordapp.com/attachments/901271834589278228/1059592951304556664/image.png
-
 [directory-create-file-3]: https://cdn.discordapp.com/attachments/901271834589278228/1059598511278137455/image_2.png

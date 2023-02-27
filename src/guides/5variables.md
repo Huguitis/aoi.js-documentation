@@ -53,13 +53,8 @@ And that's it, you have a working variable handler!
 <!--- links -->
 
 [1]: #using-variables
-
 [2]: #variable-handler
-
 [3]: #variable-functions
-
 [embed-example]: https://cdn.discordapp.com/attachments/1061712111052521493/1061764337691279460/image_3.png
-
 [aoi-github]: https://github.com/akaruidevelopment/aoi.js#v6
-
 [ayaka-parser]: https://github.com/usersatoshi/parsers#main
