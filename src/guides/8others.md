@@ -187,13 +187,13 @@ Please note that this only works in embeds and interactions. Meaning it won't wo
 
 Lets say we want to embed the https://aoi.js.org link in our embed, first of all we have to look at the formatting:
 
-```
+```php
 [aoi.js is great!](https://aoi.js.org)
 ```
 
 That will make sure that out link is embedded in "aoi.js is great!". As next we add the embed:
 
-```
+```php
 $description[Want to learn more about aoi.js? Click[here](https://aoi.js.org)!]
 ```
 
@@ -203,13 +203,13 @@ This will embed the link in the word "here" and redirect you to the website when
 
 Want to have hovering text when hovering over the word? Simple!
 
-```
+```php
 [aoi.js is great!](https://aoi.js.org "not everyone sees this" )
 ```
 
 This will add the label "not everyone sees this" when you hover over the text for a while.
 
-```
+```php
 $description[Want to learn more about aoi.js? Click[here](https://aoi.js.org "aoi.js is great")!]
 ```
 
@@ -241,7 +241,5 @@ Copy the numbers between **"emojis/"** and the extension.
 <!--- links -->
 
 [1]: #command-aliases
-
 [1.1]: #way-more-possibilities
-
 [2]: #hyperlinks
