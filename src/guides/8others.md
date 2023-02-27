@@ -68,9 +68,7 @@ const bot = new aoijs.AoiClient({
 Install **aoi.db**:
 
 ```typescript
-npm
-i
-aoi.db
+npm i aoi.db
 ```
 
 Usage of aoi.db in your main file:
@@ -94,7 +92,7 @@ const bot = new aoijs.AoiClient({
     });
 ```
 
-In case this doesn't work, make sure you have a directory called "database", inside it a directory called "main" and a file called "main_scheme_1.sql" with the content of "{}".
+If you encounter any errors ensure you have a directory called `database`, inside of it another directory called `main` and inside of that a file called `main_scheme_1.sql` with the content of `{}`.
 
 ## Command Aliases
 
