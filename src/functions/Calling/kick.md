@@ -12,8 +12,7 @@ id: kick
 $kick[userID;guildID?;reason?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field    | Type    | Description                                             | Required |
 |----------|---------|---------------------------------------------------------|:--------:|
