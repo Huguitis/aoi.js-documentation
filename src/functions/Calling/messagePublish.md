@@ -12,8 +12,7 @@ id: messagePublish
 $messagePublish[messageID;channelID?]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field      | Type    | Description | Required |
 |------------|---------|-------------|:--------:|
