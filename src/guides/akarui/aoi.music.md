@@ -16,7 +16,15 @@ npm install @akarui/aoi.music
 
 ```javascript
 const aoijs = require("aoi.js");
-const {AoiVoice} = require("@akarui/aoi.music");
+
+const {
+    AoiVoice,
+    PlayerEvents,
+    PluginName,
+    Cacher,
+    Filter,
+} = require(`@akarui/aoi.music`);
+
 
 const bot = new aoijs.AoiClient({
     token: "Discord Bot Token",
@@ -41,6 +49,21 @@ const voice = new AoiVoice(bot, {
         soundcloudLikeTrackLimit: 200,
     },
 });
+
+// adds a cacher plugin
+voice.addPlugin( PluginName.Cacher, new Cacher( "memory" /* or "disk" */ ) ); 
+
+// adds a filter plugin
+voice.addPlugin(
+    PluginName.Filter,
+    new Filter({
+        filterFromStart: false,
+    }),
+);
+
+voice.bindExecutor(client.functionManager.interpreter);
+
+voice.addEvent(PlayerEvents.TRACK_START);
 ```
 
 ## All Available Options
@@ -49,7 +72,7 @@ const voice = new AoiVoice(bot, {
 <summary>Voice#devOptions</summary>
 
 ```typescript
-devOptions ? : {
+devOptions?: {
     debug: boolean;
 };
 ```
@@ -59,12 +82,12 @@ devOptions ? : {
 <summary>Voice#searchOptions</summary>
 
 ```typescript
-    searchOptions ? : {
-    soundcloudClientId? : string;
-    youtubeCookie? : string;
-    youtubeAuth? : PathLike;
-    youtubegl? : string;
-    youtubeClient? : "WEB" | "ANDROID" | "YTMUSIC";
+    searchOptions?: {
+    soundcloudClientId?: string;
+    youtubeCookie?: string;
+    youtubeAuth?: PathLike;
+    youtubegl?: string;
+    youtubeClient?: "WEB" | "ANDROID" | "YTMUSIC";
 };
 ```
 
@@ -73,11 +96,11 @@ devOptions ? : {
 <summary>Voice#requestOptions</summary>
 
 ```typescript
-    requestOptions ? : {
-    offsetTimeout? : number;
-    soundcloudLikeTrackLimit? : number;
-    youtubePlaylistLimit? : number;
-    spotifyPlaylistLimit? : number;
+    requestOptions?: {
+    offsetTimeout?: number;
+    soundcloudLikeTrackLimit?: number;
+    youtubePlaylistLimit?: number;
+    spotifyPlaylistLimit?: number;
 };
 ```
 
