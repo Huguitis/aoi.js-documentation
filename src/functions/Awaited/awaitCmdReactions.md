@@ -23,7 +23,7 @@ $awaitCmdReactions[userFilter;time;reactions;commands;errorMsg?;awaitData?]
 | errorMsg?  | string | error message when command expires                                                             |  false   |
 | awaitData? | string | awaited data                                                                                   |  false   |
 
-#### Make sure you have `GuildMessageReactions` as intent in your main file.
+**Make sure you have `GuildMessageReactions` as intent in your main file.**
 
 ## Example
 
