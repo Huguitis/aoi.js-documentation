@@ -14,15 +14,12 @@ $modifyEmoji[guildID;emojiID;name;...roles?]
 
 ## Parameters 
 
-
 | Field     | Type    | Description                               | Required |
 |-----------|---------|-------------------------------------------|:--------:|
 | guildID   | integer | guild ID                                  |   true   |
 | emojiID   | integer | emoji ID                                  |   true   |
 | name      | string  | new emoji name                            |   true   |
 | ...roles? | integer | roles that will be able to use that emoji |  false   |
-
-
 
 ## Example
 
