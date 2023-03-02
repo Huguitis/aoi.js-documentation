@@ -16,8 +16,8 @@ $clear[amount;filter?;returnCount?;channelID?]
 
 | Field        | Type    | Description                                                                                                                         | Required |
 |--------------|---------|-------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| amount       | integer | amount of messages to clear                                                                                                         |   true   |
-| filter?      | string  | filter the messages which are to delete <br /> 1. **everyone** (default) <br /> 2. **unPins** <br /> 3. **bot** <br /> 4.**userID** |  false   |
+| amount       | number | amount of messages to clear                                                                                                         |   true   |
+| filter?      | string  | filter the messages which are to delete <br /> 1. **everyone** (default) <br /> 2. **unPins** <br /> 3. **bot** <br /> 4. **userID** |  false   |
 | returnCount? | string  | return the count of deleted messages <br /> 1. **false** (default) <br /> 2. **true**                                               |  false   |
 | channelID?   | integer | channel ID                                                                                                                          |  false   |
 
