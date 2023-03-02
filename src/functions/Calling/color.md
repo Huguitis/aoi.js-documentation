@@ -1,10 +1,10 @@
 ---
 title: $color
-description: $color will change the color to an embed.
+description: $color will change the color of an embed.
 id: color
 ---
 
-`$color` will change the color to an embed
+`$color` will change the color of an embed
 
 ## Usage
 
