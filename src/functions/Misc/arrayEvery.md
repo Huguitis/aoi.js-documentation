@@ -1,10 +1,10 @@
 ---
 title: $arrayEvery
-description: $arrayEvery function tests whether all elements in the array pass the condition. It returns boolean value.
+description: $arrayEvery will test whether all elements in the array pass the condition.
 id: arrayEvery
 ---
 
-`$arrayEvery` function tests whether all elements in the array pass the condition. It returns boolean value.
+`$arrayEvery` will test whether all elements in the array pass the condition.
 
 ## Usage
 
@@ -16,9 +16,9 @@ $arrayEvery[name;query;queryType?]
 
 | Field     | Type     | Description                                                        | Required |
 |-----------|----------|--------------------------------------------------------------------|:--------:|
-| name      | string   | seperator                                                          |   true   |
-| query     | element  | The element we will be queering for every element inside the array |   true   |
-| queryType | operator | The comparison operator                                            |  false   |
+| name      | string   | array name                                                          |   true   |
+| query     | string  | The element we will be queering for every element inside the array |   true   |
+| queryType | string | The comparison operator                                            |  false   |
 
 ## Comparison Operators
 

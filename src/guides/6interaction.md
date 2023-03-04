@@ -306,12 +306,14 @@ bot.command({
 * **[$slashOption[option]](../functions/Events/slashOption.md)**
 * **[$deleteApplicationCommand[guildID/global;id]](../functions/Calling/deleteApplicationCommand.md)**
 * **[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](../functions/Calling/modifyApplicationCommand.md)**
+* **[$removeApplicationCommandPermissions[guildID/global (optional : global as default);id;roruids]](../functions/Calling/removeApplicationCommandPermissions.md)**
 * **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/Calling/autoCompleteRespond.md)**
 * **[$isAutoComplete](../functions/Calling/isAutoComplete.md)**
 
-<!--- links -->
+
+
 
 [introduction]: #introduction
 [getting-started]: #getting-started
