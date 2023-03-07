@@ -17,7 +17,7 @@ $djsEval[code;returnCode?]
 | Field     | Type     | Description                                                        | Required |
 |-----------|----------|--------------------------------------------------------------------|:--------:|
 | code    | string   | discord.js code                                                         |   true   |
-| returnCode?    | string   | 1. **true** <br /> 2. **false** (default)                                                         |   false   |
+| returnCode?    | string   | return code <br /> 1. **true** <br /> 2. **false** (default)     |   false   |
 
 ## Example
 

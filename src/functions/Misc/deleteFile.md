@@ -1,10 +1,10 @@
 ---
 title: $deleteFile
-description: $deleteFile will delete a given file of your directory.
+description: $deleteFile will delete a given file.
 id: deleteFile
 ---
 
-`$deleteFile` will delete a given file of your directory.
+`$deleteFile` will delete a given file.
 
 ## Usage
 
