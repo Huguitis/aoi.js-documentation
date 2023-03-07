@@ -8,14 +8,13 @@ id: aoi.panel
 
 ## Table Of Contents
 
-| Name | Description | Link |
-| -------- | -------- | -------- |
-| The panel Class | The panel Class and its parameters | [link](/src/guides/akarui/aoi.panel/panel.md) | 
-| Functions | loadPanel and onError | [link](/src/guides/akarui/aoi.panel/funcs.md) | 
+| Name              | Description                           | Link                                             |
+|-------------------|---------------------------------------|--------------------------------------------------|
+| The panel Class   | The panel Class and its parameters    | [link](/src/guides/akarui/aoi.panel/panel.md)    | 
+| Functions         | loadPanel and onError                 | [link](/src/guides/akarui/aoi.panel/funcs.md)    | 
 | Advanced Features | Multiple accounts, custom pages, etc. | [link](/src/guides/akarui/aoi.panel/advanced.md) | 
 
 ## To View Examples Click [here](https://github.com/AkaruiDevelopment/panel/blob/main/examples/)
-
 
 ## Installation
 
@@ -24,6 +23,7 @@ npm i @akarui/aoi.panel
 ```
 
 ## Basic Usage (aoi.js v5):
+
 ```javascript
 const {Panel} = require("@akarui/aoi.panel")
 
@@ -31,10 +31,10 @@ const {AoiClient} = require("aoi.js")
 
 
 const bot = new AoiClient({
-  token: "Discord Bot Token",
-  prefix: "Discord Bot Prefix",
-  intents: ["MessageContent", "Guilds", "GuildMessages"],
-  events: ["onMessage"]
+    token: "Discord Bot Token",
+    prefix: "Discord Bot Prefix",
+    intents: ["MessageContent", "Guilds", "GuildMessages"],
+    events: ["onMessage"]
 });
 
 const panel = new Panel({
@@ -45,13 +45,14 @@ const panel = new Panel({
     bot: bot,//your aoi.js client
     mainFile: "index.js",//Main file where code is running.Not required, default taken from package.json
     commands: "./commands",// folder name in which all the edit needing files are there.
-    interaction:"./interactions"//interactions folder
+    interaction: "./interactions"//interactions folder
 })
 panel.loadPanel()//Load The Panel
 
 panel.onError()//Will detect errors, and send it to aoi.panel's error page.
 
 ```
+
 LOGIN PAGE
 ![image](https://user-images.githubusercontent.com/85351846/203999818-50ff6898-fdee-49c8-8ade-0f94df4c0248.png)
 

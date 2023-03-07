@@ -307,12 +307,18 @@ bot.command({
 
 ## Interaction Functions
 
-* *
-  *[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Calling/createApplicationCommand.md)
-  **
-* *
-  *[$interactionReply[message;embeds?;components?;files?;ephemeral(true/false)]](../functions/Events/interactionReply.md)
-  **
+*
+    *
+
+*[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Calling/createApplicationCommand.md)
+**
+
+*
+    *
+
+*[$interactionReply[message;embeds?;components?;files?;ephemeral(true/false)]](../functions/Events/interactionReply.md)
+**
+
 * **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
 * **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
 * **[$interactionDelete](../functions/Events/interactionDelete.md)**
@@ -322,9 +328,12 @@ bot.command({
   **
 * **[$slashOption[option]](../functions/Events/slashOption.md)**
 * **[$deleteApplicationCommand[guildID/global;id]](../functions/Calling/deleteApplicationCommand.md)**
-* *
-  *[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](## "adding later")
-  **
+*
+    *
+
+*[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](## "adding later")
+**
+
 * **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](## "adding later")**
 * **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/Calling/autoCompleteRespond.md)**
