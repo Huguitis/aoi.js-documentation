@@ -51,7 +51,7 @@ const voice = new AoiVoice(bot, {
 });
 
 // adds a cacher plugin
-voice.addPlugin( PluginName.Cacher, new Cacher( "memory" /* or "disk" */ ) ); 
+voice.addPlugin(PluginName.Cacher, new Cacher("memory" /* or "disk" */));
 
 // adds a filter plugin
 voice.addPlugin(
@@ -72,7 +72,7 @@ voice.addEvent(PlayerEvents.TRACK_START);
 <summary>Voice#devOptions</summary>
 
 ```typescript
-devOptions?: {
+devOptions ? : {
     debug: boolean;
 };
 ```
@@ -82,12 +82,12 @@ devOptions?: {
 <summary>Voice#searchOptions</summary>
 
 ```typescript
-    searchOptions?: {
-    soundcloudClientId?: string;
-    youtubeCookie?: string;
-    youtubeAuth?: PathLike;
-    youtubegl?: string;
-    youtubeClient?: "WEB" | "ANDROID" | "YTMUSIC";
+    searchOptions ? : {
+    soundcloudClientId? : string;
+    youtubeCookie? : string;
+    youtubeAuth? : PathLike;
+    youtubegl? : string;
+    youtubeClient? : "WEB" | "ANDROID" | "YTMUSIC";
 };
 ```
 
@@ -96,11 +96,11 @@ devOptions?: {
 <summary>Voice#requestOptions</summary>
 
 ```typescript
-    requestOptions?: {
-    offsetTimeout?: number;
-    soundcloudLikeTrackLimit?: number;
-    youtubePlaylistLimit?: number;
-    spotifyPlaylistLimit?: number;
+    requestOptions ? : {
+    offsetTimeout? : number;
+    soundcloudLikeTrackLimit? : number;
+    youtubePlaylistLimit? : number;
+    spotifyPlaylistLimit? : number;
 };
 ```
 
