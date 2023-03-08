@@ -9,7 +9,7 @@ id: removeApplicationCommandPermissions
 ## Usage
 
 ```php
-$pruneMembers[guildID/global;id;roruids]
+$removeApplicationCommandPermissions[guildID/global;id;roruids]
 ```
 
 ## Parameters 
