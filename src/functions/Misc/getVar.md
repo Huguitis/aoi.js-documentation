@@ -1,0 +1,33 @@
+---
+title: $getVar
+description: $getVar will return the value of a global variable.
+id: getVar
+---
+
+`$getVar` will return the value of a global variable
+
+## Usage
+
+```php
+$getVar[varname;table?]
+```
+
+## Parameters
+
+| Field     | Type     | Description                                                        | Required |
+|-----------|----------|--------------------------------------------------------------------|:--------:|
+| varname    | string   | variable name                                                         |   true   |
+| table?    | string   | variable table                                                         |   false   |
+
+## Example
+
+This will return the value of a variable called "Example":
+
+```javascript
+bot.command({
+    name: "getVar",
+    code: `
+    $getVar[Example;main]
+    `
+});
+```
