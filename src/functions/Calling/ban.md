@@ -1,6 +1,6 @@
 ---
 title: $ban
-description: $ban will ban a user of a guild.
+description: $ban will ban a user of a given guild.
 id: ban
 ---
 
