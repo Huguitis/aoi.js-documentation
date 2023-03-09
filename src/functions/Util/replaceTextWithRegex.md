@@ -47,7 +47,7 @@ bot.command({
 
 ### Advanced Example
 
-This will replace `more` with `less`:
+This will replace `less` with `more`:
 
 ```javascript
 bot.command({

@@ -14,7 +14,7 @@ id: aoi.panel
 | Functions         | loadPanel and onError                 | [link](/src/guides/akarui/aoi.panel/funcs.md)    | 
 | Advanced Features | Multiple accounts, custom pages, etc. | [link](/src/guides/akarui/aoi.panel/advanced.md) | 
 
-## To View Examples Click [here](https://github.com/AkaruiDevelopment/panel/blob/main/examples/)
+## To View Examples Click **[here](https://github.com/AkaruiDevelopment/panel/blob/main/examples/)**
 
 ## Installation
 
@@ -25,40 +25,45 @@ npm i @akarui/aoi.panel
 ## Basic Usage (aoi.js v5):
 
 ```javascript
-const {Panel} = require("@akarui/aoi.panel")
+const { Panel } = require("@akarui/aoi.panel");
 
-const {AoiClient} = require("aoi.js")
+const { AoiClient } = require("aoi.js");
 
 
 const bot = new AoiClient({
     token: "Discord Bot Token",
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages"],
-    events: ["onMessage"]
+    events: ["onMessage", "onInteractionCreate"]
 });
 
 const panel = new Panel({
-    username: "your-username",//username for logging in
-    password: "password-here",//password for logging in
-    secret: require('crypto').randomBytes(16).toString("hex"),//session secret
-    port: 3000,//port on which website is hosted, Not required! Default 3000
-    bot: bot,//your aoi.js client
-    mainFile: "index.js",//Main file where code is running.Not required, default taken from package.json
-    commands: "./commands",// folder name in which all the edit needing files are there.
-    interaction: "./interactions"//interactions folder
-})
-panel.loadPanel()//Load The Panel
+    username: "your-username", //username for logging in
+    password: "password-here", //password for logging in
+    secret: require('crypto').randomBytes(16).toString("hex"), //session secret
+    port: 3000, //port on which website is hosted, Not required! Default 3000
+    bot: bot, //your aoi.js client
+    mainFile: "index.js", //Main file where code is running.Not required, default taken from package.json
+    commands: "./commands", // folder name in which all the edit needing files are there.
+    interaction: "./interactions" //interactions folder
+});
+panel.loadPanel(); //Load The Panel
 
-panel.onError()//Will detect errors, and send it to aoi.panel's error page.
-
+panel.onError(); //Will detect errors, and send it to aoi.panel's error page.
 ```
 
-LOGIN PAGE
-![image](https://user-images.githubusercontent.com/85351846/203999818-50ff6898-fdee-49c8-8ade-0f94df4c0248.png)
+* Panel Login Page
 
-MAIN PANEL PAGE
-![image](https://user-images.githubusercontent.com/85351846/204000002-d2de03e3-d4cd-4791-80b3-afbbc8225863.png)
+![image](https://cdn.discordapp.com/attachments/1082168708866244648/1083399286517149746/YAAAAASUVORK5CYII.png)
 
-GUILDS PAGE
-![image](https://user-images.githubusercontent.com/85351846/204000224-d1ff27f2-ed6d-4da4-8f93-27ece09d09a4.png)
+* Main Panel Page
 
+![image](https://cdn.discordapp.com/attachments/1082168708866244648/1083399889544822885/vw6MvGAAAAAElFTkSuQmCC.png)
+
+* Guilds Page
+
+![image](https://cdn.discordapp.com/attachments/1082168708866244648/1083400360418357272/27v8HACxCKBCoV2wAAAAASUVORK5CYII.png)
+
+* Command Editor
+
+![image](https://cdn.discordapp.com/attachments/1082168708866244648/1083400876028334191/wNA32SssHUi2AAAAABJRU5ErkJggg.png)

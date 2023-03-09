@@ -9,7 +9,7 @@ id: aoi.panel-advanced
 ## Multiple users login
 
 ```javascript
-const {Panel} = require("@akarui/aoi.panel")
+const { Panel } = require("@akarui/aoi.panel")
 
 const panel = new Panel({
     username: ["your-username-1", "your-username-2", "and so on"],
@@ -19,8 +19,8 @@ const panel = new Panel({
     bot: bot,
     mainFile: "index.js",
     commands: "commands"
-})
-panel.loadPanel()
+});
+panel.loadPanel();
 ```
 
 While using multiple users, you need the number of usernames equal to the number of passwords.

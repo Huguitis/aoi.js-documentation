@@ -8,9 +8,9 @@ id: status
 
 ### Table of Content
 
-- **[Statuses][1]**
-- **[Client Presence][2]**
-    - **[Mobile Presence](#client-presence)**
+- **[Statuses](#bot-status)**
+- **[Client Presence](#client-presence)**
+    - **[Mobile Presence](#mobile-platform-presence)**
 
 ---
 
@@ -22,9 +22,22 @@ First of all we have to add the following piece of code to our main file:
 
 ```javascript
 bot.status({
-    text: "Example Text!",
-    type: "PLAYING",
-    time: 12
+    text: string,
+    type: string,
+    time: number,
+    url?: string,
+    afk?: boolean
+});
+```
+
+When you use sharding you can individually change the status of each shard:
+
+```javascript
+bot.status({
+    text: string,
+    type: string,
+    time: number,
+    shard: number
 });
 ```
 
@@ -40,15 +53,9 @@ bot.status({
 });
 
 bot.status({
-    text: "Example Text two!",
-    type: "WATCHING",
-    time: 20
-});
-
-bot.status({
     text: "Example Text three!",
     type: "STEAMING",
-    url: "URL"
+    url: "some URL"
 });
 ```
 
@@ -79,8 +86,10 @@ There are multiple types of presences:
 > * **idle**
 > * **dnd** 
 > * **invisible**
-> * **mobilePlatform**  
-  > To use the mobile presence you have to change your setup in your main file and add `mobilePlatform: true`:
+
+#### Mobile Platform Presence
+> Please note that using this will apply the mobile platform presence to __ALL__ statuses.
+> To use the mobile presence you have to change your setup in your main file and add `mobilePlatform: true`:
   
 ```javascript
 const { AoiClient } = require("aoi.js");
@@ -89,12 +98,7 @@ const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
-    events: ["onMessage"],
+    events: ["onMessage", "onInteractionCreate"],
     mobilePlatform: true
 });
 ```
-
-<!--- links -->
-
-[1]: #bot-status
-[2]: #client-presence

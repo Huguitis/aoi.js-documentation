@@ -15,25 +15,17 @@ npm install @akarui/aoi.music
 ## Example
 
 ```javascript
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
+const { AoiVoice, PlayerEvents, PluginName, Cacher, Filter } = require ("@akarui/aoi.music");
 
-const {
-    AoiVoice,
-    PlayerEvents,
-    PluginName,
-    Cacher,
-    Filter,
-} = require(`@akarui/aoi.music`);
-
-
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: "Discord Bot Token",
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages", "GuildVoiceStates"],
     events: ["onMessage", "onInteractionCreate"]
 });
 
-//Command Example (ping)
+// Ping Command Example
 bot.command({
     name: "ping",
     code: `Pong! $pingms`,
@@ -50,10 +42,10 @@ const voice = new AoiVoice(bot, {
     },
 });
 
-// adds a cacher plugin
+// Adds a cacher plugin
 voice.addPlugin(PluginName.Cacher, new Cacher("memory" /* or "disk" */));
 
-// adds a filter plugin
+// Adds a filter plugin
 voice.addPlugin(
     PluginName.Filter,
     new Filter({
@@ -62,7 +54,6 @@ voice.addPlugin(
 );
 
 voice.bindExecutor(client.functionManager.interpreter);
-
 voice.addEvent(PlayerEvents.TRACK_START);
 ```
 
@@ -82,7 +73,7 @@ devOptions ? : {
 <summary>Voice#searchOptions</summary>
 
 ```typescript
-    searchOptions ? : {
+    searchOptions? : {
     soundcloudClientId? : string;
     youtubeCookie? : string;
     youtubeAuth? : PathLike;
@@ -96,7 +87,7 @@ devOptions ? : {
 <summary>Voice#requestOptions</summary>
 
 ```typescript
-    requestOptions ? : {
+    requestOptions? : {
     offsetTimeout? : number;
     soundcloudLikeTrackLimit? : number;
     youtubePlaylistLimit? : number;

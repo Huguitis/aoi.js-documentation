@@ -7,20 +7,20 @@ id: commandhandler
 
 ## Why should you use Command Handler?
 
-### Storing your commands in your main file may seem fine, but after a certain amount of commands it can get hard to find and update commands. Therefore you should use the Command Handler to keep your main file neat and save yourself from the clutter.
+Storing your commands in your main file may seem fine, but after a certain amount of commands it can get hard to find and update commands. Therefore you should use the Command Handler to keep your main file neat and save yourself from the clutter.
 
 ### Table of Content
 
-- **[Modifying your main file][1]**
-- **[Creating folders and files][2]**
-- **[Using multiple commands in one file][3]**
-    - **[Updating commands without restarting your Discord Bot][4]**
+- **[Modifying your main file](#starting-off-with-modifying-your-main-file)**
+- **[Creating folders and files](#final-steps)**
+- **[Using multiple commands in one file](#multiple-commands-in-one-file)**
+    - **[Updating commands without restarting your Discord Bot](#updating-your-commands-without-restart)**
 
 ---
 
 ### Starting off with modifying your main file
 
-In this step we'll take a look at your main file also known as `index.js`. We add `aoijs.LoadCommands(bot)` in order for
+In this step we'll take a look at your main file also known as `index.js`. We add `LoadCommands` in order for
 the bot to understand where our files are.
 
 ```javascript
@@ -42,12 +42,19 @@ loader.load(bot.cmd, "./commands/") //you can change this to any directory you w
 Once you're done with your main file, we'll move on onto files, in order for this to work we need to do two things.
 
 1. Create directories and sub-directories where your commands go.
+
+![p2](https://cdn.discordapp.com/attachments/1082168708866244648/1083390579402088458/HwYiJqoeF9SAAAAAElFTkSuQmCC.png)
+
 2. And create a file to test out if everything worked well.
+
+![p2](https://cdn.discordapp.com/attachments/1082168708866244648/1083390890405543976/Awoopj94LkCqAAAAAElFTkSuQmCC.png)
 
 #### Creating sub directories
 
 If you want to have your commands and files more organised then use sub directories, simply click on the **commands**
-directory you created earlier and create as many sub directories as you want inside of it, for example, music commands:
+directory you created earlier and create as many sub directories as you want inside of it, for example, music commands.
+
+![p3](https://cdn.discordapp.com/attachments/1082168708866244648/1083391154227261540/e0P4fAZqcEmh2npQAAAAASUVORK5CYII.png)
 
 #### Creating files inside of the directory
 
@@ -113,13 +120,3 @@ work!
 
 You are able to use `$updateCommands` when updating commands in your directory. Please note that this does **not** apply
 to any files outside of the directory.
-
-
-<!--- links -->
-
-[1]: #starting-off-with-modifying-your-main-file
-[2]: #setting-everything-up-with-folders-and-files
-[3]: #final-steps
-[4]: #updating-your-commands-without-restart
-[directory-setup-preview-1]: https://cdn.discordapp.com/attachments/901271834589278228/1059592951304556664/image.png
-[directory-create-file-3]: https://cdn.discordapp.com/attachments/901271834589278228/1059598511278137455/image_2.png

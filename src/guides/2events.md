@@ -151,17 +151,10 @@ const bot = new AoiClient({
 <!--- links -->
 
 [1]: #table-of-content
-
 [2]: #types-of-events
-
 [2.1]: #message-based-Events
-
 [2.2]: #guild-based-events
-
 [2.3]: #guild-members-based-events
-
 [2.4]: #user-based-events
-
 [2.5]: #custom-events
-
 [3]: #example-usage-of-events

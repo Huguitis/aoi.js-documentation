@@ -21,6 +21,8 @@ id: others
 
 ## Client Options
 
+You can find here all aoi.js client options and what their input expects:
+
 ```typescript
 const { AoiClient } = require("aoi.js");
 
@@ -62,6 +64,8 @@ const bot = new AoiClient({
 ```
 
 ### Databases
+
+This section covers the usage of external databases in aoi.js
 
 #### aoi.db
 
@@ -212,7 +216,9 @@ This will add the label "not everyone sees this" when you hover over the text fo
 $description[Want to learn more about aoi.js? Click[here](https://aoi.js.org "aoi.js is great")!]
 ```
 
-## Emoji IDs
+## Discord IDs
+
+### Copying Emoji IDs
 
 There are multiple ways of retrieving emoji IDs, the easiest way would be
 
@@ -236,9 +242,29 @@ Next, click on the emoji you chose, and look for a long link starting with "http
 
 Copy the numbers between **"emojis/"** and the extension.
 
+### Mentioning Roles, Users and Channels
+
+To mention channels, roles or users in your code you simply follow these formats:
+
+Channels/Categories/Forums:
+```ts
+<#channelID>
+```
+
+Users:
+```ts
+<@userID> 
+``` 
+```ts
+<@!userID>
+```
+
+Roles: 
+```ts
+<@&roleID>
+```
 
 <!--- links -->
-
 [1]: #command-aliases
 [1.1]: #way-more-possibilities
 [2]: #hyperlinks

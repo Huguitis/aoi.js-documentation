@@ -24,19 +24,19 @@ const bot = new AoiClient({
     events: ["onMessage", "onInteractionCreate"]
 });
 
-//Command Example (ping)
+// Ping Command Example
 bot.command({
     name: "ping",
     code: `Pong! $pingms`
 });
 
-//Slash Interaction Command Example (ping)
-/*MUST EXECUTE FUNCTION FOR IT TO WORK
+// Slash Interaction Command Example (ping)
+/* You must execute the function below for the slash command to work:
 $createApplicationCommand[$guildID;ping;Pong!;true;slash]
 */
 bot.interactionCommand({
     name: "ping",
-    prototype: 'slash',
+    prototype: "slash",
     code: `$interactionReply[Pong! $pingms;;;;everyone;false]`
 });
 ```
