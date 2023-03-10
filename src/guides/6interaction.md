@@ -1,7 +1,6 @@
 ---
 title: Interaction Commands
-description: This guide will be covering the basics about Slash Commands and their functionality. As well as everything
-else you might need to know.
+description: This guide will be covering the basics about Slash Commands and their functionality. As well as everything else you might need to know.
 id: interactioncommands
 ---
 
