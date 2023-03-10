@@ -12,7 +12,7 @@ id: emojisFromMessage
 $emojisFromMessage
 ```
 
-### Please note that your bot has to be present in the guild where the emoji is in.
+**Please note that your bot has to be present in the guild where the emoji is in.**
 
 ## Example
 
