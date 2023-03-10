@@ -74,8 +74,7 @@ Developer Portal.
 * **onThreadListSync** &rarr; Emitted whenever the client user gains access to a text or news channel that contains
   threads.
 * **onThreadMemberUpdate** &rarr; Emitted whenever the client user's thread member is updated.
-* **onThreadMembersUpdate** &rarr; (requires *
-  *[guild members intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever members are
+* **onThreadMembersUpdate** &rarr; (requires **[guild members intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever members are
   added or removed from a thread.
 * **onEmojiCreate** &rarr; Emitted whenever a custom emoji is created in a guild.
 * **onEmojiDelete** &rarr; Emitted whenever a custom emoji is deleted in a guild.
