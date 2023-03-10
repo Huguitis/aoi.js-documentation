@@ -35,8 +35,7 @@ Developer Portal.
 
 ### Message Based-Events
 
-* **onMessage** &rarr; (requires **[message content intent](https://discord.com/developers/docs/topics/gateway#caveats)
-  **) Emitted whenever a message is sent.
+* **onMessage** &rarr; (requires **[message content intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever a message is sent.
 * **onMessageDelete** &rarr; Emitted whenever a message is deleted.
 * **onMessageUpdate** &rarr; Emitted whenever a message is updated (for example, embed or content change).
     - `$oldMessage` &rarr; Retrieves the old message from the client's cache. (if any)
