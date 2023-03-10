@@ -1,10 +1,10 @@
 ---
 title: $addCmdReactions
-description: $addCmdReactions will add a reaction to the bot's message.
+description: $addCmdReactions will react with given emojis to the author's message.
 id: addCmdReactions
 ---
 
-`$addCmdReactions` will add a reaction to the bot's message.
+`$addCmdReactions` will react with given emojis to the author's message.
 
 ## Usage
 
@@ -20,7 +20,7 @@ $addCmdReactions[...reactions]
 
 ## Example
 
-This will add the given emojis to the bot's response ("Hello!"):
+This will add the given emojis to the author's response ("Hello!"):
 
 ```javascript
 bot.command({

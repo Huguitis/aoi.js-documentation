@@ -26,8 +26,8 @@ This will add the given emojis to the bot's response ("Hello!"):
 bot.command({
     name: 'addClientReactions',
     code: `
-Hello!
-$addClientReactions[🧡;❤]
+    Hello!
+    $addClientReactions[🧡;❤]
   `
 });
 ```

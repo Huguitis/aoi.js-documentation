@@ -44,9 +44,9 @@ This adds a primary and link button to the bot's message:
 bot.command({
     name: 'addButton',
     code: `
-Hello!
-$addButton[1;Example Button!;primary;exampleButton;false;💔]
-$addButton[1;Example Button!;link;https://discord.gg;false]
+    Hello!
+    $addButton[1;Example Button!;primary;exampleButton;false;💔]
+    $addButton[1;Example Button!;link;https://discord.gg;false]
   `
 });
 ```
