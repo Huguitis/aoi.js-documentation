@@ -52,9 +52,9 @@ yarn add aoi.js
 ## Setup
 
 ```javascript
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["MessageContent", "Guilds", "GuildMessages"],
