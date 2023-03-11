@@ -16,7 +16,7 @@ $editIn[time;content]
 
 | Field   | Type   | Description                                 | Required |
 |---------|--------|---------------------------------------------|:--------:|
-| time    | string | after how much time the message gets edited |   true   |
+| time    | string, number | after how much time the message will be edited |   true   |
 | content | string | what the new message should be              |   true   |
 
 ## Example
