@@ -4,7 +4,6 @@ description: $arrayAt will choose the index (position) of the array element to b
 id: arrayAt
 ---
 
-
 `$arrayAt` will choose the index (position) of the array element to be returned. Returns nothing if the given index can not
 be found.
 
