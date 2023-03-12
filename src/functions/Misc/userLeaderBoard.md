@@ -9,7 +9,7 @@ id: userLeaderBoard
 ## Usage
 
 ```php
-$userLeaderBoard[guildID;variable;type?;custom?;list?;page?;table?]
+$userLeaderBoard[guildID;variable;order?;custom?;list?;page?;table?]
 ```
 
 ## Parameters
@@ -18,7 +18,7 @@ $userLeaderBoard[guildID;variable;type?;custom?;list?;page?;table?]
 |-----------|----------|--------------------------------------------------------------------|:--------:|
 | guildID    | integer   | guild ID                                                         |   true   |
 | variable    | string   | variable name                                                         |   true   |
-| type    | string   | in which order it will be returned <br /> 1. **asc** (ascending / default) <br /> 2. **dsc** (descending) |   false   |
+| type?    | string   | in which order it will be returned <br /> 1. **asc** (ascending / default) <br /> 2. **dsc** (descending) |   false   |
 | custom?    | string   | formatting                                                        |   false   |
 | list?    | number   | how many to list                                                         |   false   |
 | page?    | number   | which page to list                                                         |   false   |
