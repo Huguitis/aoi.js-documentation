@@ -14,7 +14,7 @@ $readyTimestamp
 
 ## Example
 
-This will return the last time your bot when online:
+This will return the last time your bot started/was ready:
 
 ```javascript
 bot.command({
