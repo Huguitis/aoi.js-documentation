@@ -28,6 +28,8 @@ bot.variables({
 
 This is the easiest out of two ways to use variables, you would put that code snippet in your main file (in most cases named `index.js`).
 
+---
+
 ### Variable Handler
 
 Another way, which will keep your main file clean, are variable handlers (stored in another file).
@@ -42,10 +44,10 @@ bot.variables(require("./handler/variables.js"));
 Now go to your `variables.js` file and paste the following:
 
 ```js
-module.exports = {
+module.exports = [{
     varname: "varvalue",
     varname2: "varvalue2"
-}
+}]
 ```
 
 And that's it, you have a working variable handler and your main file will be clean.

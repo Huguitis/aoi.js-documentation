@@ -89,17 +89,17 @@ bot.command({
   "description": "options example",
   "required": true,
   "type": 3,
-"choices" : [{
-"name" : "test1",
-"value" : "value1"
-},{
-"name" : "test2",
-"value" : "value2"
-},{
-"name" : "test3",
-"value" : "value3"
-}]
-}]`
+  "choices" : [{
+  "name" : "test1",
+  "value" : "value1"
+  }, {
+  "name" : "test2",
+  "value" : "value2"
+  }, {
+  "name" : "test3",
+  "value" : "value3"
+  }]
+}]]`
 });
 /* You can choose between global/$guildID to create a command globally or only for a specific guild.
 Example created by dodoGames#7509. */
@@ -123,7 +123,7 @@ bot.command({
           "required": true, 
           "type": 6
         }
-        ]
+  ]
 }]`
 });
 /* You can choose between global/$guildID to create a command globally or only for a specific guild.
