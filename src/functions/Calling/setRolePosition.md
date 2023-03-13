@@ -14,11 +14,11 @@ $setRolePosition[roleID;position;guildID?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| roleID  | integer | role ID        |   true   |
-| position  | number | new role position (1 being the very bottom)        |   true   |
-| guildID?  | integer | guild ID        |   false   |
+| Field    | Type    | Description                                 | Required |
+|----------|---------|---------------------------------------------|:--------:|
+| roleID   | integer | role ID                                     |   true   |
+| position | number  | new role position (1 being the very bottom) |   true   |
+| guildID? | integer | guild ID                                    |  false   |
 
 ## Example
 

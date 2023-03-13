@@ -14,10 +14,10 @@ $setGuildIcon[icon;guildID?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| icon  | string | new guild icon        |   true   |
-| guildID?  | integer | guild ID        |   false   |
+| Field    | Type    | Description    | Required |
+|----------|---------|----------------|:--------:|
+| icon     | string  | new guild icon |   true   |
+| guildID? | integer | guild ID       |  false   |
 
 ## Example
 

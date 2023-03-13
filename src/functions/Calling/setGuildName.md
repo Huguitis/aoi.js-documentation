@@ -14,10 +14,10 @@ $setGuildName[name;guildID?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| name  | string | new guild name        |   true   |
-| guildID?  | integer | guild ID        |   false   |
+| Field    | Type    | Description    | Required |
+|----------|---------|----------------|:--------:|
+| name     | string  | new guild name |   true   |
+| guildID? | integer | guild ID       |  false   |
 
 ## Example
 

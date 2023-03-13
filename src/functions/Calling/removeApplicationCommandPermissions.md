@@ -14,8 +14,8 @@ $removeApplicationCommandPermissions[guildID/global;id;roruids]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID/global  | integer | global / guildID        |   true   |
-| id  | integer | application command ID        |   true   |
-| roruids  | integer, string | roles/users to modify permissions of, splitted by commas        |   true   |
+| Field          | Type            | Description                                              | Required |
+|----------------|-----------------|----------------------------------------------------------|:--------:|
+| guildID/global | integer         | global / guildID                                         |   true   |
+| id             | integer         | application command ID                                   |   true   |
+| roruids        | integer, string | roles/users to modify permissions of, splitted by commas |   true   |

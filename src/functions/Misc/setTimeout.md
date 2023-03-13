@@ -14,13 +14,13 @@ $setTimeout[name;duration;timeoutData;returnId?;pulse?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| name    | string   | awaited command name                                                         |   true   |
-| duration    | string, number   | after how much time it will execute / this cannot go over **21 days** |   true   |
-| timeoutData    | integer   | timeout data                                                         |   true   |
-| returnId?    | string   | return message ID                                                         |   false   |
-| pulse?    | number   | delay                                                         |   false   |
+| Field       | Type           | Description                                                           | Required |
+|-------------|----------------|-----------------------------------------------------------------------|:--------:|
+| name        | string         | awaited command name                                                  |   true   |
+| duration    | string, number | after how much time it will execute / this cannot go over **21 days** |   true   |
+| timeoutData | integer        | timeout data                                                          |   true   |
+| returnId?   | string         | return message ID                                                     |  false   |
+| pulse?      | number         | delay                                                                 |  false   |
 
 You can retrieve timeout data using `$timeoutData[name]`.
 * Note that the duration may not go over **21 days**.

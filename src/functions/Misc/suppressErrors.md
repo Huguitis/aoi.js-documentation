@@ -14,9 +14,9 @@ $suppressErrors[errorMsg?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| errorMsg    | string, integer, number   | error message to return                                                         |   false   |
+| Field    | Type                    | Description             | Required |
+|----------|-------------------------|-------------------------|:--------:|
+| errorMsg | string, integer, number | error message to return |  false   |
 
 ## Example
 

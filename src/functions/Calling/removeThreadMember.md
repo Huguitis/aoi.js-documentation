@@ -14,12 +14,12 @@ $removeThreadMember[channelID;threadID;userID;reason?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| channelID  | integer | channel ID        |   true   |
-| threadID  | integer | thread ID        |   true   |
-| userID  | integer | user ID        |   true   |
-| reason?   | string | reason to display in the guilds audit logs        |   false   |
+| Field     | Type    | Description                                | Required |
+|-----------|---------|--------------------------------------------|:--------:|
+| channelID | integer | channel ID                                 |   true   |
+| threadID  | integer | thread ID                                  |   true   |
+| userID    | integer | user ID                                    |   true   |
+| reason?   | string  | reason to display in the guilds audit logs |  false   |
 
 ## Example
 

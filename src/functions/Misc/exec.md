@@ -14,9 +14,9 @@ $exec[code]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| code      | string   | code to execute in your console                                    |   true   |
+| Field | Type   | Description                     | Required |
+|-------|--------|---------------------------------|:--------:|
+| code  | string | code to execute in your console |   true   |
 
 ## Example
 

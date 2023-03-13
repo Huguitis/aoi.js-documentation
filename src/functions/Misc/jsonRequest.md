@@ -14,12 +14,12 @@ $jsonRequest[url;property?;error?;headerName:headerValue?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| url    | string   | url you want to get/send data to/from                                                         |   true   |
-| property?    | string   | property to return (get method)                                                         |   false   |
-| error?    | string   | error to return when request fails                                                         |   false   |
-| ...header    | string   | headerName, headerValue                                                         |   true   |
+| Field     | Type   | Description                           | Required |
+|-----------|--------|---------------------------------------|:--------:|
+| url       | string | url you want to get/send data to/from |   true   |
+| property? | string | property to return (get method)       |  false   |
+| error?    | string | error to return when request fails    |  false   |
+| ...header | string | headerName, headerValue               |   true   |
 
 ## Example
 

@@ -14,9 +14,9 @@ $spawnShard[shard]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| shard  | number | shard        |   true   |
+| Field | Type   | Description | Required |
+|-------|--------|-------------|:--------:|
+| shard | number | shard       |   true   |
 
 ## Example
 

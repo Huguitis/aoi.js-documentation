@@ -14,12 +14,12 @@ $setGlobalUserVar[varname;value;userID?;table?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| varname    | string   | variable name                                                         |   true   |
-| value    | string, integer, number   | variable table                                                         |   true   |
-| userID?    | integer   | user ID                                                         |   false   |
-| table?    | string   | variable table                                                         |   false   |
+| Field   | Type                    | Description    | Required |
+|---------|-------------------------|----------------|:--------:|
+| varname | string                  | variable name  |   true   |
+| value   | string, integer, number | variable table |   true   |
+| userID? | integer                 | user ID        |  false   |
+| table?  | string                  | variable table |  false   |
 
 ## Example
 

@@ -14,9 +14,9 @@ $deleteFile[path]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| path    | string   | file path                                                         |   true   |
+| Field | Type   | Description | Required |
+|-------|--------|-------------|:--------:|
+| path  | string | file path   |   true   |
 
 ## Example
 

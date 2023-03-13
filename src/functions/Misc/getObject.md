@@ -14,9 +14,9 @@ $getObject[format?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| format?    | string   | format the output <br /> 1. **true** (default) 2. **false**       |   false   |
+| Field   | Type   | Description                                                 | Required |
+|---------|--------|-------------------------------------------------------------|:--------:|
+| format? | string | format the output <br /> 1. **true** (default) 2. **false** |  false   |
 
 ## Example
 

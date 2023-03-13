@@ -14,10 +14,10 @@ $removeContains[text;...words]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| text      | string   | text where to remove the words from                                |   true   |
-| ...words  | string   | word to remove from the text                                       |   true   |
+| Field    | Type   | Description                         | Required |
+|----------|--------|-------------------------------------|:--------:|
+| text     | string | text where to remove the words from |   true   |
+| ...words | string | word to remove from the text        |   true   |
 
 ## Example
 

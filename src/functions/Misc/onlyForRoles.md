@@ -14,10 +14,10 @@ $onlyForRoles[...roleIds;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| ...roleIds    | string, integer   | roles you want to limit the command to                                                    |   true   |
-| error?    | string   | error to return when the command was not executed by any user with the listed roles |   false   |
+| Field      | Type            | Description                                                                         | Required |
+|------------|-----------------|-------------------------------------------------------------------------------------|:--------:|
+| ...roleIds | string, integer | roles you want to limit the command to                                              |   true   |
+| error?     | string          | error to return when the command was not executed by any user with the listed roles |  false   |
 
 ## Examples
 

@@ -12,10 +12,10 @@ $arrayConcat[seperator;name]
 
 ## Parameters
 
-| Field | Type   | Description       | Required |
-|-------|--------|-------------------|:--------:|
-| seperator   | string | seperator         |   true   |
-| name  | string | name of the array |   true   |
+| Field     | Type   | Description       | Required |
+|-----------|--------|-------------------|:--------:|
+| seperator | string | seperator         |   true   |
+| name      | string | name of the array |   true   |
 
 ## Example
 

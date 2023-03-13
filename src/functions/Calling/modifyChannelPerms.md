@@ -15,11 +15,11 @@ $modifyChannelPerms[roruId;channelID;...perms]
 ## Parameters 
 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
+| Field     | Type    | Description                                                  | Required |
+|-----------|---------|--------------------------------------------------------------|:--------:|
 | roruId    | integer | role or user ID / `$guildID` represents the `@everyone` role |   true   |
-| channelID | integer | channel ID      |   true   |
-| ...perms  | string  | permissions     |   true   |
+| channelID | integer | channel ID                                                   |   true   |
+| ...perms  | string  | permissions                                                  |   true   |
 
 |     | Description                                          |
 |-----|------------------------------------------------------|

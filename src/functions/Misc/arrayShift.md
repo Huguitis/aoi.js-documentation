@@ -14,9 +14,9 @@ $arrayShift[name]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| name      | string   | array name                                                          |   true   |
+| Field | Type   | Description | Required |
+|-------|--------|-------------|:--------:|
+| name  | string | array name  |   true   |
 
 ## Example
 

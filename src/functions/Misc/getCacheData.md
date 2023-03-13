@@ -14,9 +14,9 @@ $getCacheData[type;name;key;option?]
 
 ## Parameters
 
-| Field     | Type     | Description             | Required |
-|-----------|----------|-------------------------|:--------:|
-| type      | string   |                |   true   |
-| name      | string   |                |   true   |
-| key      | string   |                |   true   |
-| option?      | string   | 1. **$default** (default)               |   false   |
+| Field   | Type   | Description | Required |
+|---------|--------|-------------|:--------:|
+| type    | string |             |   true   |
+| name    | string |             |   true   |
+| key     | string |             |   true   |
+| option? | string |             |  false   |

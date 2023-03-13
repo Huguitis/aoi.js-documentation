@@ -14,11 +14,11 @@ $setRoles[guildID;memberID;...roleIDs]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID  | integer | guild ID        |   true   |
-| memberID  | integer | member ID        |   true   |
-| ...roleIDs  | integer | role IDs        |   true   |
+| Field      | Type    | Description | Required |
+|------------|---------|-------------|:--------:|
+| guildID    | integer | guild ID    |   true   |
+| memberID   | integer | member ID   |   true   |
+| ...roleIDs | integer | role IDs    |   true   |
 
 ## Example
 

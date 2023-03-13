@@ -14,10 +14,10 @@ $onlyForIDs[...userIds;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| ...userIds    | string, integer   | users you want to limit the command to                                                    |   true   |
-| error?    | string   | error to return when the command was not executed by and of the listed users     |   false   |
+| Field      | Type            | Description                                                                  | Required |
+|------------|-----------------|------------------------------------------------------------------------------|:--------:|
+| ...userIds | string, integer | users you want to limit the command to                                       |   true   |
+| error?     | string          | error to return when the command was not executed by and of the listed users |  false   |
 
 ## Examples
 

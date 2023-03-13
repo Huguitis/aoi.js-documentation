@@ -14,22 +14,9 @@ $isTicket[channelID?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| channelID?    | integer   | channel ID                         |   false   |
-
-#### Valid Mathematical Operators
-
-| Operator | Mathematical Expression  |
-|----------|--------------------------|
-| ==       | equal to                 |
-| !=       | not equal to             |
-| <=       | less than or equal to    |
-| \>=      | greater than or equal to |
-| \>       | greater than             |
-| <        | less than                |
-| \|\|     | logical OR               |
-| &&       | logical conjunction      |
+| Field      | Type    | Description | Required |
+|------------|---------|-------------|:--------:|
+| channelID? | integer | channel ID  |  false   |
 
 ## Example
 

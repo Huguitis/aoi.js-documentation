@@ -14,10 +14,10 @@ $onlyBotPerms[...perms;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| ...perms    | string   | permission the bot requires                                                    |   true   |
-| error?    | string   | error to return when the bot has not the listed permissions                                                    |   false   |
+| Field    | Type   | Description                                                 | Required |
+|----------|--------|-------------------------------------------------------------|:--------:|
+| ...perms | string | permission the bot requires                                 |   true   |
+| error?   | string | error to return when the bot has not the listed permissions |  false   |
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 

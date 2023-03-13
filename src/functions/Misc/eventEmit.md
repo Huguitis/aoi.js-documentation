@@ -14,7 +14,7 @@ $eventEmit[name;...datas]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| name    | string   | custom event name                                                         |   true   |
-| ...datas    | string   | custom event data     |   true   |
+| Field    | Type   | Description       | Required |
+|----------|--------|-------------------|:--------:|
+| name     | string | custom event name |   true   |
+| ...datas | string | custom event data |   true   |

@@ -14,12 +14,12 @@ $muteUser[guildID;userID;mute?;reason?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID   | integer | guild ID        |   true   |
-| userID   | integer | user ID        |   true   |
-| mute?   | integer | mute or unmute <br /> 1. **true** (mute / default) <br /> 2. **false** (unmute)       |   false   |
-| reason?   | string | reason to display in the guilds audit logs        |   false   |
+| Field   | Type    | Description                                                                     | Required |
+|---------|---------|---------------------------------------------------------------------------------|:--------:|
+| guildID | integer | guild ID                                                                        |   true   |
+| userID  | integer | user ID                                                                         |   true   |
+| mute?   | integer | mute or unmute <br /> 1. **true** (mute / default) <br /> 2. **false** (unmute) |  false   |
+| reason? | string  | reason to display in the guilds audit logs                                      |  false   |
 
 ## Example
 

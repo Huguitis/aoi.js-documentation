@@ -14,10 +14,10 @@ $onlyPerms[...perms;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| ...perms    | string   | permission the user requires                                                    |   true   |
-| error?    | string   | error to return when the user has not the listed permissions                                                    |   false   |
+| Field    | Type   | Description                                                  | Required |
+|----------|--------|--------------------------------------------------------------|:--------:|
+| ...perms | string | permission the user requires                                 |   true   |
+| error?   | string | error to return when the user has not the listed permissions |  false   |
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 

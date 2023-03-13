@@ -14,10 +14,10 @@ $setRoleColor[roleID;color]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| roleID  | integer | role ID        |   true   |
-| color  | string | color        |   true   |
+| Field  | Type    | Description | Required |
+|--------|---------|-------------|:--------:|
+| roleID | integer | role ID     |   true   |
+| color  | string  | color       |   true   |
 
 ## Examples
 

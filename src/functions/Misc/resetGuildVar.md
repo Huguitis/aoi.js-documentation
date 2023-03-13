@@ -14,10 +14,10 @@ $resetGuildVar[varname;table?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| varname    | string   | variable name                                                         |   true   |
-| table?    | string   | variable table                                                         |   false   |
+| Field   | Type   | Description    | Required |
+|---------|--------|----------------|:--------:|
+| varname | string | variable name  |   true   |
+| table?  | string | variable table |  false   |
 
 ## Example
 

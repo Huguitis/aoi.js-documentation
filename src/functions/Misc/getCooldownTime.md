@@ -14,12 +14,12 @@ $getCooldownTime[time;type;command;id]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| time    | string   | variable name                                                         |   true   |
-| type    | string   | cooldown type <br /> 1. **globalUser** <br /> 2. **user** <br /> 3. **server** <br /> 4. **channel** <br /> 5. **static** |   true   |
-| command    | string   | command name                                                        |   true   |
-| id    | integer   | user/guild/channel id                                                         |   true   |
+| Field   | Type    | Description                                                                                                               | Required |
+|---------|---------|---------------------------------------------------------------------------------------------------------------------------|:--------:|
+| time    | string  | variable name                                                                                                             |   true   |
+| type    | string  | cooldown type <br /> 1. **globalUser** <br /> 2. **user** <br /> 3. **server** <br /> 4. **channel** <br /> 5. **static** |   true   |
+| command | string  | command name                                                                                                              |   true   |
+| id      | integer | user/guild/channel id                                                                                                     |   true   |
 
 ## Example
 

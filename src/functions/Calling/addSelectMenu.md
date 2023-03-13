@@ -15,15 +15,14 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 ## Parameters
 
 | Field       | Type    | Description                                                | Required |
-| ----------- | ------- | ---------------------------------------------------------- |:--------:|
-| index       | integer | in which row the select menu appears                       |    true   |
-| customID    | string  | custom ID                                                  |    true   |
-| placeHolder | string  | select menu placeholder text                               |    true   |
-| minValues   | integer | select menu min value                                      |    true   |
-| maxValues   | integer | select menu max value                                      |    true   |
-| disabled    | string  | disabled? <br /> 1. **true** <br /> 2. **false** (default) |    true   |
-| options     | string  | options                                                    |    true   |
-
+|-------------|---------|------------------------------------------------------------|:--------:|
+| index       | integer | in which row the select menu appears                       |   true   |
+| customID    | string  | custom ID                                                  |   true   |
+| placeHolder | string  | select menu placeholder text                               |   true   |
+| minValues   | integer | select menu min value                                      |   true   |
+| maxValues   | integer | select menu max value                                      |   true   |
+| disabled    | string  | disabled? <br /> 1. **true** <br /> 2. **false** (default) |   true   |
+| options     | string  | options                                                    |   true   |
 
 ## Example(s)
 
@@ -65,7 +64,7 @@ Also ensure that you have the "onInteractionCreate" event in your main file (ind
 */
 ```
 
-Handler Example
+Handler Example:
 
 ```js
 module.exports = [{

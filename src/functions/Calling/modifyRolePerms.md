@@ -14,11 +14,11 @@ $modifyRolePerms[guildID;roleID;...perms]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID   | integer | guild ID        |   true   |
-| roleID    | integer | role ID / `$guildID` represents the `@everyone` role |   true   |
-| ...perms  | string  | permissions     |   true   |
+| Field    | Type    | Description                                          | Required |
+|----------|---------|------------------------------------------------------|:--------:|
+| guildID  | integer | guild ID                                             |   true   |
+| roleID   | integer | role ID / `$guildID` represents the `@everyone` role |   true   |
+| ...perms | string  | permissions                                          |   true   |
 
 |     | Description                                          |
 |-----|------------------------------------------------------|

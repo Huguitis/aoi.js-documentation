@@ -14,9 +14,9 @@ $onlyNSFW[error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| error?    | string   | error to return when the command was not executed in a NSFW channel  |   false   |
+| Field  | Type   | Description                                                         | Required |
+|--------|--------|---------------------------------------------------------------------|:--------:|
+| error? | string | error to return when the command was not executed in a NSFW channel |  false   |
 
 ## Examples
 

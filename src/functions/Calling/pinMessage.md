@@ -14,10 +14,10 @@ $pinMessage[messageID?;channelID?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| messageID   | integer | message ID        |   false   |
-| channelID   | integer | channel ID        |   false   |
+| Field     | Type    | Description | Required |
+|-----------|---------|-------------|:--------:|
+| messageID | integer | message ID  |  false   |
+| channelID | integer | channel ID  |  false   |
 
 ## Example
 

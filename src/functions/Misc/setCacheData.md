@@ -14,9 +14,9 @@ $setCacheData[type;cacheName;cacheKey;cacheValue]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| type    | string   | cache type                                                         |   true   |
-| cacheName    | string, integer, number   | cache name                                                         |   true   |
-| cacheKey    | string, integer, number   | cache key                                                         |   true   |
-| cacheValue    | string, integer, number   | cache value                                                         |   true   |
+| Field      | Type                    | Description | Required |
+|------------|-------------------------|-------------|:--------:|
+| type       | string                  | cache type  |   true   |
+| cacheName  | string, integer, number | cache name  |   true   |
+| cacheKey   | string, integer, number | cache key   |   true   |
+| cacheValue | string, integer, number | cache value |   true   |

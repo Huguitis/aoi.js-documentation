@@ -14,23 +14,10 @@ $onlyIf[condition;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| condition    | string, integer, number   | condition to check                                                    |   true   |
-| error?    | string   | error to return when condition does not match |   false   |
-
-#### Valid Mathematical Operators
-
-| Operator | Mathematical Expression  |
-|----------|--------------------------|
-| ==       | equal to                 |
-| !=       | not equal to             |
-| <=       | less than or equal to    |
-| \>=      | greater than or equal to |
-| \>       | greater than             |
-| <        | less than                |
-| \|\|     | logical OR               |
-| &&       | logical conjunction      |
+| Field     | Type                    | Description                                   | Required |
+|-----------|-------------------------|-----------------------------------------------|:--------:|
+| condition | string, integer, number | condition to check                            |   true   |
+| error?    | string                  | error to return when condition does not match |  false   |
 
 ## Examples
 

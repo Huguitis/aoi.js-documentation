@@ -14,6 +14,6 @@ $stopTimeout[id]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| id    | string   | timeout command ID                                                         |   true   |
+| Field | Type   | Description        | Required |
+|-------|--------|--------------------|:--------:|
+| id    | string | timeout command ID |   true   |

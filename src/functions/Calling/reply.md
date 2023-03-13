@@ -14,10 +14,10 @@ $reply[messageID?;mentionUser?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| messageID?  | integer | message ID        |   false   |
-| mentionUser?  | string | mention the user in the reply <br /> 1. **true** (default)  <br /> 2. **false**       |   false   |
+| Field        | Type    | Description                                                                     | Required |
+|--------------|---------|---------------------------------------------------------------------------------|:--------:|
+| messageID?   | integer | message ID                                                                      |  false   |
+| mentionUser? | string  | mention the user in the reply <br /> 1. **true** (default)  <br /> 2. **false** |  false   |
 
 ## Example
 

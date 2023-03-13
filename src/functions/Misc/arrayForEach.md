@@ -14,8 +14,8 @@ $arrayForEach[name;awaitedCommand;awaitData?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| name      | string   | array name                                                          |   true   |
-| awaitedCommand | string | awaited command to executed      |  true   |
-| awaitData? | string | awaited data                                            |  false   |
+| Field          | Type   | Description                 | Required |
+|----------------|--------|-----------------------------|:--------:|
+| name           | string | array name                  |   true   |
+| awaitedCommand | string | awaited command to executed |   true   |
+| awaitData?     | string | awaited data                |  false   |

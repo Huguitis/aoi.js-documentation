@@ -14,7 +14,6 @@ $leaveThread[channelID;threadID]
 
 ## Parameters 
 
-
 | Field     | Type    | Description | Required |
 |-----------|---------|-------------|:--------:|
 | channelID | integer | channel ID  |   true   |

@@ -14,8 +14,8 @@ $setApplicationCommandPermissions[guildID/global;ID;...perms]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID/global  | integer, string | application command type        |   true   |
-| ID  | integer | application command ID        |   true   |
-| ...perms  | string | permissions        |   true   |
+| Field          | Type            | Description              | Required |
+|----------------|-----------------|--------------------------|:--------:|
+| guildID/global | integer, string | application command type |   true   |
+| ID             | integer         | application command ID   |   true   |
+| ...perms       | string          | permissions              |   true   |

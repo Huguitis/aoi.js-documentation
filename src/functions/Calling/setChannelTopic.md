@@ -14,10 +14,10 @@ $setChannelTopic[channelID;topic]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| channelID  | integer | channel ID        |   true   |
-| topic  | string | new topic        |   true   |
+| Field     | Type    | Description | Required |
+|-----------|---------|-------------|:--------:|
+| channelID | integer | channel ID  |   true   |
+| topic     | string  | new topic   |   true   |
 
 ## Example
 

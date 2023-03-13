@@ -14,9 +14,9 @@ $log[message]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| message    | string   | message to log                                                    |   true   |
+| Field   | Type   | Description    | Required |
+|---------|--------|----------------|:--------:|
+| message | string | message to log |   true   |
 
 ## Example
 

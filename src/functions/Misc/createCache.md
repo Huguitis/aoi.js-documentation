@@ -14,8 +14,8 @@ $createCache[type;name;options]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| type      | string   | cache type                                                         |   true   |
-| name      | string   | cache name                                                         |   true   |
-| options      | string   | cache options                                                         |   true   |
+| Field   | Type   | Description   | Required |
+|---------|--------|---------------|:--------:|
+| type    | string | cache type    |   true   |
+| name    | string | cache name    |   true   |
+| options | string | cache options |   true   |

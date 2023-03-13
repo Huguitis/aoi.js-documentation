@@ -14,11 +14,11 @@ $title[index?;title;url?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| index?  | number | embed index        |   false   |
-| title  | string | title content        |   true   |
-| url?  | string | hyperlink        |   false   |
+| Field  | Type   | Description                     | Required |
+|--------|--------|---------------------------------|:--------:|
+| index? | number | embed index                     |  false   |
+| title  | string | title content                   |   true   |
+| url?   | string | url which will be the hyperlink |  false   |
 
 ## Example
 

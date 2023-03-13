@@ -14,9 +14,9 @@ $useChannel[channelID]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| channelID | integer   | where to execute the functions                                    |   true   |
+| Field     | Type    | Description                    | Required |
+|-----------|---------|--------------------------------|:--------:|
+| channelID | integer | where to execute the functions |   true   |
 
 ## Examples
 

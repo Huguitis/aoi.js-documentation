@@ -14,10 +14,10 @@ $djsEval[code;returnCode?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| code    | string   | discord.js code                                                         |   true   |
-| returnCode?    | string   | return code <br /> 1. **true** <br /> 2. **false** (default)     |   false   |
+| Field       | Type   | Description                                                  | Required |
+|-------------|--------|--------------------------------------------------------------|:--------:|
+| code        | string | discord.js code                                              |   true   |
+| returnCode? | string | return code <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example
 

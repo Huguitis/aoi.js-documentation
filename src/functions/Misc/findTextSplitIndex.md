@@ -14,9 +14,9 @@ $findTextSplitIndex[query]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| query    | string   | query                                                         |   true   |
+| Field | Type   | Description | Required |
+|-------|--------|-------------|:--------:|
+| query | string | query       |   true   |
 
 ## Example
 

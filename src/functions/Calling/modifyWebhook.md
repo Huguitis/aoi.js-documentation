@@ -14,13 +14,13 @@ $modifyWebhook[webhookID;name;avatar;channelID?;reason?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| webhookID   | integer | webhook ID        |   true   |
-| name        | string | new webhook name        |   true   |
-| avatar  | string | new webhook avatar        |   true   |
-| channelID?   | integer | ID of the channel where the webhook is located in        |   false   |
-| reason?   | string | reason that will be displayed in the guilds audit logs        |   false   |
+| Field      | Type    | Description                                            | Required |
+|------------|---------|--------------------------------------------------------|:--------:|
+| webhookID  | integer | webhook ID                                             |   true   |
+| name       | string  | new webhook name                                       |   true   |
+| avatar     | string  | new webhook avatar                                     |   true   |
+| channelID? | integer | ID of the channel where the webhook is located in      |  false   |
+| reason?    | string  | reason that will be displayed in the guilds audit logs |  false   |
 
 ## Example
 

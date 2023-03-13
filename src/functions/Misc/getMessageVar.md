@@ -14,11 +14,11 @@ $getMessageVar[varname;guildID?;table?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| varname    | string   | variable name                                                         |   true   |
-| messageID?    | integer   | message ID                                                         |   false   |
-| table?    | string   | variable table                                                         |   false   |
+| Field      | Type    | Description    | Required |
+|------------|---------|----------------|:--------:|
+| varname    | string  | variable name  |   true   |
+| messageID? | integer | message ID     |  false   |
+| table?     | string  | variable table |  false   |
 
 ## Example
 

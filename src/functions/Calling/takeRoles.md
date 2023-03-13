@@ -14,11 +14,11 @@ $takeRoles[guildID;userID;...roleIDs]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID  | integer | guild ID        |   true   |
-| userID  | integer | user ID        |   true   |
-| ...roleIDs  | integer | role IDs        |   true   |
+| Field      | Type    | Description | Required |
+|------------|---------|-------------|:--------:|
+| guildID    | integer | guild ID    |   true   |
+| userID     | integer | user ID     |   true   |
+| ...roleIDs | integer | role IDs    |   true   |
 
 ## Example
 

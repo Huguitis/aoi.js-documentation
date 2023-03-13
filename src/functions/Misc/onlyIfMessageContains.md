@@ -14,11 +14,11 @@ $onlyIfMessageContains[message;...text;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| message    | string, integer, number   | message which should contain the given text                                                    |   true   |
-| text    | string, integer, number   | text to check for in the message |   true   |
-| error?    | string   | error to return |   false   |
+| Field   | Type                    | Description                                 | Required |
+|---------|-------------------------|---------------------------------------------|:--------:|
+| message | string, integer, number | message which should contain the given text |   true   |
+| text    | string, integer, number | text to check for in the message            |   true   |
+| error?  | string                  | error to return                             |  false   |
 
 ## Examples
 

@@ -14,12 +14,12 @@ $arrayFilter[name;query;queryType?;seperator?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| name      | string   | array name                                                          |   true   |
-| query     | string  | The element we will be queering for every element inside the array |   true   |
+| Field      | Type   | Description                                                        | Required |
+|------------|--------|--------------------------------------------------------------------|:--------:|
+| name       | string | array name                                                         |   true   |
+| query      | string | The element we will be queering for every element inside the array |   true   |
 | queryType? | string | The comparison operator                                            |  false   |
-| seperator? | string | seperator                                            |  false   |
+| seperator? | string | seperator                                                          |  false   |
 
 ## Comparison Operators
 

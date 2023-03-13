@@ -14,10 +14,10 @@ $slowmode[time;channelID?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| time  | string, number | slowmode time |   true   |
-| channelID?  | integer |  channel ID  |   false   |
+| Field      | Type           | Description   | Required |
+|------------|----------------|---------------|:--------:|
+| time       | string, number | slowmode time |   true   |
+| channelID? | integer        | channel ID    |  false   |
 
 This has a max time of 21600000 seconds (6 hours).
 

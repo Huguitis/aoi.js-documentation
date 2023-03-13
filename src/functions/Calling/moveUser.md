@@ -14,12 +14,12 @@ $moveUser[guildID;userID;channelID;reason?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID   | integer | guild ID        |   true   |
-| userID   | integer | user ID        |   true   |
-| channelID   | integer | voice channel ID        |   true   |
-| reason?   | string | reason to display in the guilds audit logs        |   false   |
+| Field     | Type    | Description                                | Required |
+|-----------|---------|--------------------------------------------|:--------:|
+| guildID   | integer | guild ID                                   |   true   |
+| userID    | integer | user ID                                    |   true   |
+| channelID | integer | voice channel ID                           |   true   |
+| reason?   | string  | reason to display in the guilds audit logs |  false   |
 
 ## Example
 

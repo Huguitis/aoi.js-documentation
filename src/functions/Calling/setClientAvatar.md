@@ -14,9 +14,9 @@ $setClientAvatar[avatar]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| avatar  | string | new avatar URL        |   true   |
+| Field  | Type   | Description    | Required |
+|--------|--------|----------------|:--------:|
+| avatar | string | new avatar URL |   true   |
 
 ## Example
 

@@ -14,9 +14,9 @@ $humanizeMs[time]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| time    | number   | time in MS                                                         |   true   |
+| Field | Type   | Description | Required |
+|-------|--------|-------------|:--------:|
+| time  | number | time in MS  |   true   |
 
 ## Example
 

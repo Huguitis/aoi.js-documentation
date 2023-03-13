@@ -14,11 +14,11 @@ $writeFile[path;text;encoding?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| path | string   | where to create the file                                    |   true   |
-| text | string   | what the content of the file should be                                    |   true   |
-| encoding | string   | text encoding                                    |   false   |
+| Field    | Type   | Description                            | Required |
+|----------|--------|----------------------------------------|:--------:|
+| path     | string | where to create the file               |   true   |
+| text     | string | what the content of the file should be |   true   |
+| encoding | string | text encoding                          |  false   |
 
 ## Examples
 

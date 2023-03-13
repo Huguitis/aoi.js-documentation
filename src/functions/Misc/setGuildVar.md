@@ -14,12 +14,12 @@ $setGuildVar[varname;value;guildID?;table?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| varname    | string   | variable name                                                         |   true   |
-| value    | string, integer, number   | variable table                                                         |   true   |
-| guildID?    | integer   | guild ID                                                         |   false   |
-| table?    | string   | variable table                                                         |   false   |
+| Field    | Type                    | Description    | Required |
+|----------|-------------------------|----------------|:--------:|
+| varname  | string                  | variable name  |   true   |
+| value    | string, integer, number | variable table |   true   |
+| guildID? | integer                 | guild ID       |  false   |
+| table?   | string                  | variable table |  false   |
 
 ## Example
 

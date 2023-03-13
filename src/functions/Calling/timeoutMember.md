@@ -14,13 +14,13 @@ $timeoutMember[guildID;memberID;timer;timeoutEndsAt?;reason?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| guildID  | integer | guild ID        |   true   |
-| memberID | integer | member ID        |   true   |
-| timer  | string, number | duration        |   true   |
-| timeoutEndsAt?  | string | returns time when timeout ends  <br /> 1. **true** <br /> 2. **false** (default)       |   false   |
-| reason?  | string | reason that will be displayed in the guild's audit logs        |   false   |
+| Field          | Type           | Description                                                                      | Required |
+|----------------|----------------|----------------------------------------------------------------------------------|:--------:|
+| guildID        | integer        | guild ID                                                                         |   true   |
+| memberID       | integer        | member ID                                                                        |   true   |
+| timer          | string, number | duration                                                                         |   true   |
+| timeoutEndsAt? | string         | returns time when timeout ends  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
+| reason?        | string         | reason that will be displayed in the guild's audit logs                          |  false   |
 
 ## Example
 

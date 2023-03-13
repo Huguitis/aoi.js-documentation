@@ -14,10 +14,10 @@ $onlyForChannels[...categoryIds;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| ...channelIds    | string, integer   | channels you want to limit the command to                                                    |   true   |
-| error?    | string   | error to return when the command was not executed in any of the listed channels                                                    |   false   |
+| Field         | Type            | Description                                                                     | Required |
+|---------------|-----------------|---------------------------------------------------------------------------------|:--------:|
+| ...channelIds | string, integer | channels you want to limit the command to                                       |   true   |
+| error?        | string          | error to return when the command was not executed in any of the listed channels |  false   |
 
 ## Examples
 

@@ -14,10 +14,10 @@ $onlyForCategories[...categoryIds;error?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| ...categoryIds    | string, integer   | categories you want to limit the command to                                                    |   true   |
-| error?    | string   | error to return when the command was not executed in any of the listed categories                                                    |   false   |
+| Field          | Type            | Description                                                                       | Required |
+|----------------|-----------------|-----------------------------------------------------------------------------------|:--------:|
+| ...categoryIds | string, integer | categories you want to limit the command to                                       |   true   |
+| error?         | string          | error to return when the command was not executed in any of the listed categories |  false   |
 
 ## Examples
 

@@ -14,10 +14,10 @@ $arrayJoin[name;seperator?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| name      | string   | array name                                                          |   true   |
-| seperator?     | string  | seperator |   false   |
+| Field      | Type   | Description | Required |
+|------------|--------|-------------|:--------:|
+| name       | string | array name  |   true   |
+| seperator? | string | seperator   |  false   |
 
 ## Example
 

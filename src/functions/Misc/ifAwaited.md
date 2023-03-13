@@ -14,11 +14,11 @@ $ifAwaited[condition;true;false?]
 
 ## Parameters
 
-| Field     | Type     | Description                                                        | Required |
-|-----------|----------|--------------------------------------------------------------------|:--------:|
-| condition    | string   | condition to check                                                         |   true   |
-| true    | string   | what to return when the condition is true                                                         |   true   |
-| false?    | string   | what to return when the condition is false                         |   false   |
+| Field     | Type   | Description                                | Required |
+|-----------|--------|--------------------------------------------|:--------:|
+| condition | string | condition to check                         |   true   |
+| true      | string | what to return when the condition is true  |   true   |
+| false?    | string | what to return when the condition is false |  false   |
 
 #### Valid Mathematical Operators
 

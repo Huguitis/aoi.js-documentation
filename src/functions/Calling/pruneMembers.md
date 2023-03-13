@@ -14,14 +14,14 @@ $pruneMembers[days?;guildID?;roleIds?;dry?;reason?;count?]
 
 ## Parameters 
 
-| Field     | Type    | Description     | Required |
-|-----------|---------|-----------------|:--------:|
-| days?   | number | number of days to count prune for (1-30, 7 default) |   false   |
-| guildID?  | integer | guild ID        |   false   |
-| roleIds?   | integer, string | roles to include, splitted by commas        |   false   |
-| dry?   | string | 1. **true** <br /> 2. **false** (default)        |   false   |
-| reason?   | string | reason to display in the guilds audit logs        |   false   |
-| count?   | string | return count of pruned members <br /> 1. **true** <br /> 2. **false** (default)        |   false   |
+| Field    | Type            | Description                                                                     | Required |
+|----------|-----------------|---------------------------------------------------------------------------------|:--------:|
+| days?    | number          | number of days to count prune for (1-30, 7 default)                             |  false   |
+| guildID? | integer         | guild ID                                                                        |  false   |
+| roleIds? | integer, string | roles to include, splitted by commas                                            |  false   |
+| dry?     | string          | 1. **true** <br /> 2. **false** (default)                                       |  false   |
+| reason?  | string          | reason to display in the guilds audit logs                                      |  false   |
+| count?   | string          | return count of pruned members <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example
 
