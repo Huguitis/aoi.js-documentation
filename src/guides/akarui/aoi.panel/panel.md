@@ -7,7 +7,7 @@ id: aoi.panel-panelClass
 # The Panel Class
 
 ```javascript
-const {Panel} = require("@akarui/aoi.panel")
+const { Panel } = require("@akarui/aoi.panel")
 
 const panel = new Panel({
     //params here...

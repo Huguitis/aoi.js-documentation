@@ -27,7 +27,7 @@ This will create a thread in the current channel and add the bot to it:
 bot.command({
     name: 'joinThread',
     code: `
-  $joinThread[$get[threadID]]
+  $joinThread[$channelID;$get[threadID]]
   $let[threadID;$createThread[$channelID;Example!;1440;public;$messageID;true]]
   `
 });

@@ -18,7 +18,7 @@ $getAuditLogs[limit?;userID?;action?;guildID?;format?]
 |----------|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
 | limit?   | integer | the maximum of audit logs it will return                                                                                                                                 |  false   |
 | userID?  | integer | the user who executed the action stated in audit logs                                                                                                                    |  false   |
-| action?  | integer | the action that was executed  <br /> 1. **all** (default) will retrieve all actions without filtering <br /> 2. You can find all permissions [here][discord-permissions] |  false   |
+| action?  | integer, string | the action that was executed  <br /> 1. **all** (default) will retrieve all actions without filtering <br /> 2. You can find all flags [here][discord-permissions] |  false   |
 | guildID? | integer | guild ID                                                                                                                                                                 |  false   |
 | format?  | integer | the format to return the audit logs in                                                                                                                                   |  false   |
 
@@ -45,4 +45,4 @@ bot.command({
 });
 ```
 
-[discord-permissions]: https://discord.com/developers/docs/topics/permissions
+[discord-permissions]: https://discord.com/developers/docs/resources/audit-log#audit-log-entry-object-audit-log-events

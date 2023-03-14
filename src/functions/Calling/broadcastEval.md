@@ -20,15 +20,15 @@ $broadcastEval[func]
 
 ## Example
 
-#### Requires Sharding - Review the Sharding Guide if you need explanation
+**Requires Sharding - Review the Sharding Guide if you need explanation**
 
 This will return the amount of servers your bot is in:
 
 ```javascript
 bot.command({
-    name: 'broadcastEval',
-    code: `
-  $broadcastEval[$serverCount]
+  name: 'broadcastEval',
+  code: `
+  $broadcastEval[$guildCount]
   `
 });
 ```

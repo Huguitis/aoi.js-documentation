@@ -1,6 +1,6 @@
 ---
 title: Client Events
-description: This section will be covering everything you need to know about events and their usage.
+description: This guide will be covering everything you need to know about events and their usage.
 id: events
 ---
 
@@ -35,8 +35,7 @@ Developer Portal.
 
 ### Message Based-Events
 
-* **onMessage** &rarr; (requires **[message content intent](https://discord.com/developers/docs/topics/gateway#caveats)
-  **) Emitted whenever a message is sent.
+* **onMessage** &rarr; (requires **[message content intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever a message is sent.
 * **onMessageDelete** &rarr; Emitted whenever a message is deleted.
 * **onMessageUpdate** &rarr; Emitted whenever a message is updated (for example, embed or content change).
     - `$oldMessage` &rarr; Retrieves the old message from the client's cache. (if any)
@@ -75,8 +74,7 @@ Developer Portal.
 * **onThreadListSync** &rarr; Emitted whenever the client user gains access to a text or news channel that contains
   threads.
 * **onThreadMemberUpdate** &rarr; Emitted whenever the client user's thread member is updated.
-* **onThreadMembersUpdate** &rarr; (requires *
-  *[guild members intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever members are
+* **onThreadMembersUpdate** &rarr; (requires **[guild members intent](https://discord.com/developers/docs/topics/gateway#caveats)**) Emitted whenever members are
   added or removed from a thread.
 * **onEmojiCreate** &rarr; Emitted whenever a custom emoji is created in a guild.
 * **onEmojiDelete** &rarr; Emitted whenever a custom emoji is deleted in a guild.
@@ -138,9 +136,9 @@ Developer Portal.
 ## Example Usage of Events
 
 ```js
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
@@ -151,17 +149,10 @@ const bot = new aoijs.AoiClient({
 <!--- links -->
 
 [1]: #table-of-content
-
 [2]: #types-of-events
-
 [2.1]: #message-based-Events
-
 [2.2]: #guild-based-events
-
 [2.3]: #guild-members-based-events
-
 [2.4]: #user-based-events
-
 [2.5]: #custom-events
-
 [3]: #example-usage-of-events

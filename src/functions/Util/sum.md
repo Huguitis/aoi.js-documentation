@@ -27,7 +27,7 @@ This will return `75` as `70+5` equals `75`:
 bot.command({
     name: 'sum',
     code: `
-  $sum[70+5]
+  $sum[70;5]
   `
 });
 ```

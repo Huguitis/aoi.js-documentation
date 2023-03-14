@@ -1,7 +1,6 @@
 ---
 title: Interaction Commands
-description: This guide will be covering the basics about Slash Commands and their functionality. As well as everything
-else you might need to know.
+description: This guide will be covering the basics about Slash Commands and their functionality. As well as everything else you might need to know.
 id: interactioncommands
 ---
 
@@ -58,13 +57,7 @@ anything, simply reinvite it.
 ## Creating Application Commands
 
 ```js
-$createApplicationCommand[guildID / global;
-name;
-description;
-defaultPermission(true / false);
-type(slash / user / message)(optional);
-options(optional)
-]
+$createApplicationCommand[guildID / global;name;description;defaultPermission(true / false);type(slash / user / message)(optional);options(optional)]
 ```
 
 #### Application Types
@@ -96,17 +89,17 @@ bot.command({
   "description": "options example",
   "required": true,
   "type": 3,
-"choices" : [{
-"name" : "test1",
-"value" : "value1"
-},{
-"name" : "test2",
-"value" : "value2"
-},{
-"name" : "test3",
-"value" : "value3"
-}]
-}]`
+  "choices" : [{
+  "name" : "test1",
+  "value" : "value1"
+  }, {
+  "name" : "test2",
+  "value" : "value2"
+  }, {
+  "name" : "test3",
+  "value" : "value3"
+  }]
+}]]`
 });
 /* You can choose between global/$guildID to create a command globally or only for a specific guild.
 Example created by dodoGames#7509. */
@@ -130,7 +123,7 @@ bot.command({
           "required": true, 
           "type": 6
         }
-        ]
+  ]
 }]`
 });
 /* You can choose between global/$guildID to create a command globally or only for a specific guild.
@@ -165,18 +158,12 @@ module.exports = [{
 You can retrive information given in slash commands by using `$slashOption[slashcommandoptionname]`.
 
 ```js
-$createApplicationCommand[$guildID;
-say;
-say
-command;
-true;
-slash;
-[{
+$createApplicationCommand[$guildID;say;saycommand;true;slash;[{
     "name": "text",
     "description": "Text you want to say!",
     "required": true,
     "type": 3
-}]
+}]]
 // make sure to eval the code above
 ```
 
@@ -307,58 +294,31 @@ bot.command({
 
 ## Interaction Functions
 
-*
-    *
-
-*[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Calling/createApplicationCommand.md)
-**
-
-*
-    *
-
-*[$interactionReply[message;embeds?;components?;files?;ephemeral(true/false)]](../functions/Events/interactionReply.md)
-**
-
+* **[$createApplicationCommand[guildID/global;name;description;defaultPermission(true/false);type(slash/user/message) (optional);options (optional)]](../functions/Calling/createApplicationCommand.md)**
+* **[$interactionReply[message;embeds?;components?;files?;ephemeral(true/false)]](../functions/Events/interactionReply.md)**
 * **[$interactionDefer[ephemeral]](../functions/Events/interactionDefer.md)**
 * **[$interactionDeferUpdate[ephemeral]](../functions/Events/interactionDeferUpdate.md)**
 * **[$interactionDelete](../functions/Events/interactionDelete.md)**
 * **[$interactionEdit[content?;embeds?;components?;files?;allowedMentions]](../functions/Events/interactionEdit.md)**
 * **[$interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]](../functions/Events/interactionFollowUp.md)**
-* **[$interactionUpdate[content?;embeds?;components?;files?;allowedMentions]](../functions/Events/interactionUpdate.md)
-  **
+* **[$interactionUpdate[content?;embeds?;components?;files?;allowedMentions]](../functions/Events/interactionUpdate.md)**
 * **[$slashOption[option]](../functions/Events/slashOption.md)**
 * **[$deleteApplicationCommand[guildID/global;id]](../functions/Calling/deleteApplicationCommand.md)**
-*
-    *
-
-*[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](## "adding later")
-**
-
-* **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](## "adding later")**
-* **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](## "adding later")**
+* **[$modifyApplicationCommand[guildID/global;commandID;name;description;type;options (optional);defaultPermission(optional)]](../functions/Calling/modifyApplicationCommand.md)**
+* **[$removeApplicationCommandPermissions[guildID/global (optional : global as default);id;roruids]](../functions/Calling/removeApplicationCommandPermissions.md)**
+* **[$getApplicationCommandOptions[name;guildID/global (optional : global as default)]](../functions/Misc/getApplicationCommandOptions.md)**
+* **[$getApplicationCommandID[name;guildID/global (optional : global as default)]](../functions/Misc/getApplicationCommandID.md)**
 * **[$autoCompleteRespond[OptionName;OptionReply;...]](../functions/Calling/autoCompleteRespond.md)**
 * **[$isAutoComplete](../functions/Calling/isAutoComplete.md)**
 
-<!--- links -->
-
 [introduction]: #introduction
-
 [getting-started]: #getting-started
-
 [getting-started-sub-inviting-your-bot-with-correct-permissions]: #inviting-your-bot-with-correct-permissions
-
 [important]: #important
-
 [creating-application-commands]: #creating-application-commands
-
 [using-application-commands]: #using-application-commands
-
 [application-command-option-type]: #application-command-option-type
-
 [interaction-functions]: #interaction-functions
-
 [3]: https://discord.com/developers/docs/topics/gateway#list-of-intents
-
 [4]: https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type
-
 [6]: #autocompleterespond-functions--examples

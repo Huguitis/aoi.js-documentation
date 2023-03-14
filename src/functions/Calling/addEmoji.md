@@ -1,12 +1,10 @@
 ---
 title: $addEmoji
-description: $addEmoji will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by
-users with one of provided role IDs
+description: $addEmoji will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by users with one of the provided role IDs.
 id: addEmoji
 ---
 
-`$addEmoji` will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by users with one
-of provided role IDs
+`$addEmoji` will add an emoji to the given guild. If role IDs are given, the emoji will only be usable by users with one of the provided role IDs.
 
 ## Usage
 

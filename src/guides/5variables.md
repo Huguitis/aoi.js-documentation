@@ -1,10 +1,10 @@
 ---
 title: Variables
-description: This Guide will be covering variables, their usag and how to store variables in other files.
+description: This Guide will be covering variables, their usage and how to store variables in other files.
 id: variables
 ---
 
-#### This guide will be covering everything you need to know about variables.
+This guide will be covering everything you need to know about variables.
 
 ### Table of Content
 
@@ -15,7 +15,7 @@ id: variables
 
 ### Using Variables
 
-#### Variables are very helpful, and makes devolping a lot easier.
+**Variables are very helpful, and makes devolping a lot easier.**
 
 Before we use variables, we have to learn how to use them.
 
@@ -26,11 +26,13 @@ bot.variables({
 });
 ```
 
-This is the easiest out of two ways to use variables.
+This is the easiest out of two ways to use variables, you would put that code snippet in your main file (in most cases named `index.js`).
+
+---
 
 ### Variable Handler
 
-#### Another way, which will keep your main file clean, are variable handlers.
+Another way, which will keep your main file clean, are variable handlers (stored in another file).
 
 Create a directory called "**handler**" and a file inside of it called "**variables.js**", after you did that, put that
 in your main file:
@@ -42,24 +44,19 @@ bot.variables(require("./handler/variables.js"));
 Now go to your `variables.js` file and paste the following:
 
 ```js
-module.exports = {
+module.exports = [{
     varname: "varvalue",
     varname2: "varvalue2"
-}
+}]
 ```
 
-And that's it, you have a working variable handler!
+And that's it, you have a working variable handler and your main file will be clean.
 
 <!--- links -->
 
 [1]: #using-variables
-
 [2]: #variable-handler
-
 [3]: #variable-functions
-
 [embed-example]: https://cdn.discordapp.com/attachments/1061712111052521493/1061764337691279460/image_3.png
-
 [aoi-github]: https://github.com/akaruidevelopment/aoi.js#v6
-
 [ayaka-parser]: https://github.com/usersatoshi/parsers#main

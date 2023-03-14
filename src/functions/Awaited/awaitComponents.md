@@ -1,15 +1,15 @@
 ---
 title: $awaitComponents
-description: $awaitComponents awaits button for given amount of uses.
+description: $awaitComponents awaits components for given amount of uses.
 id: awaitComponents
 ---
 
-`$awaitComponents` awaits button for given amount of uses.
+`$awaitComponents` awaits components for given amount of uses.
 
 ## Usage
 
 ```php
-$awaitComponents[messageID;userFilter;customID;commands;errorMsg?;uses?;data?]
+$awaitComponents[messageID;userFilter;customID;commands;errorMsg?;uses?;awaitData?]
 ```
 
 ## Parameters
@@ -21,5 +21,5 @@ $awaitComponents[messageID;userFilter;customID;commands;errorMsg?;uses?;data?]
 | customID   | string  | custom ID                                                                                      |   true   |
 | commands   | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |   true   |
 | errorMsg?  | string  | error message when command expires                                                             |  false   |
-| uses?      | integer | error message when command expires                                                             |  false   |
-| data?      | string  | awaited data                                                                                   |  false   |
+| uses?      | integer | how many uses until component stops working                                                    |  false   |
+| awaitData? | string  | awaited data                                                                                   |  false   |

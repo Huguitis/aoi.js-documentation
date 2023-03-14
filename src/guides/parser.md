@@ -29,36 +29,16 @@ require `{newEmbed:{...}}` every time you want to use embed parsers.
 ### Embed Parser Functions
 
 ```ts
-{
-    title:text
-}
-{
-    description:text
-}
-{
-    color:...
-}
-{
-    footer:text:icon ?
-}
-{
-    image:url
-}
-{
-    thumbnail:url
-}
-{
-    author:name:icon ?
-}
-{
-    authorURL:url
-}
-{
-    field:title:value:inline ? (true / false)
-}
-{
-    timestamp:ms ?
-}
+{title:text}
+{description:text}
+{color:...}
+{footer:text:icon?}
+{image:url}
+{thumbnail:url}
+{author:name:icon?}
+{authorURL:url}
+{field:title:value:inline? (true / false)}
+{timestamp:ms?}
 ``` 
 
 ---
@@ -73,9 +53,7 @@ inside of it as components.
 Usage:
 
 ```ts
-{
-    button:label:style:customID:disabled ? (true / false) : emoji ?
-}
+{button:label:style:customID:disabled? (true / false):emoji?}
 ```
 
 <details open>
@@ -94,59 +72,43 @@ Usage:
 
 ### Select Menu Parser
 
-Usage:
+Select Menu Parser Usage:
 
 ```js
-{
-    selectMenu:customID:placeholder:minValue:maxValue:default
-    (true / false)
-:...
-    options
-}
+{selectMenu:customID:placeholder:minValue:maxValue:default(true / false):...options}
 
-{
-    selectMenuOptions:optionName:customID:optionDescription:default
-        ? (true / false) : emoji ?
-}
+{selectMenuOptions:optionName:customID:optionDescription:default? (true / false):emoji?}
 ```
 
 ### Interaction Modal Parser
 
-Usage:
+Interaction Modal Parser Usage:
 
 ```js
-{
-    textInput:label:style:customID:required ? (true / false) : placeholder ? : minLength ? : maxLength ? : defaultValue ?
-}
+{textInput:label:style:customID:required? (true / false):placeholder?:minLength?:maxLength?:defaultValue?}
 ```
 
 ## Parsers Examples
+
+Below are simple examples of each parser and how to use them.
 
 ### Embed Parser
 
 **Embed with title, description, footer, author / author icon and color.**
 
 ```js
-{
-    newEmbed:{
-        author:Aoi.js
-        is
-        great:https\\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{title:Awesome Example!}{description:I love embed parsers!}{footer:Example #1}{color:Blue}}
+{newEmbed:{author:Aoi.js is great:https\\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{title:Awesome Example!}{description:I love embed parsers!}{footer:Example #1}{color:Blue}}
 ```
+
+![p6](https://cdn.discordapp.com/attachments/1082168708866244648/1083396341700509806/FaxNjvTgSgAAAABJRU5ErkJggg.png)
 
 **Embed with title, footer, image and field.**
 
 ```js 
-{
-    newEmbed:{
-        title:Another
-        Awesome
-        Example
-        !
-    }
-    {
-        image:https\\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{field:This is a field title!:And a field description which is not inline!:false}{footer:Example #2}}
+{newEmbed:{title:Another Awesome Example !}{image:https\\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{field:This is a field title!:And a field description which is not inline!:false}{footer:Example #2}}
 ```
+
+![p7](https://cdn.discordapp.com/attachments/1082168708866244648/1083396990748082186/BfoyHlnHsnAAAAABJRU5ErkJggg.png)
 
 ---
 
@@ -157,164 +119,48 @@ Usage:
 **Two buttons each one in a different row.**
 
 ```js
-{
-    actionRow:{
-        button:Button:secondary:button1
-    }
-}
-{
-    actionRow:{
-        button:Button:primary:button2
-    }
-}
+{actionRow:{button:Button:secondary:button1}}{actionRow:{button:Button:primary:button2}}
 ```
 
-**Three buttons one disabled and one with emoji.**
+![p1](https://cdn.discordapp.com/attachments/1082168708866244648/1083392358432907314/dvL1tTWTKr5XAtObQXoDKdAaFBABW0qNRQuS4MfqY3BqCVX3p6DhpdDniKRPAARB6AUtoahKIxkgL6UUCUBSgTlUokGgAJCQlndtfW7v8D2oqgaR3Vc5kAAAAASUVORK5CYII.png)
+
+**Three buttons, one with emoji.**
 
 ```js
-{
-    actionRow:{
-        button:Button:primary:button1:true
-    }
-    {
-        button:Button:primary:button2
-    }
-    {
-        button:Button:danger:button3:false
-    :👋
-    }
-}
+{actionRow:{button:Button:primary:button1:false}{button:Button:primary:button2:false}{button:Button:danger:button3:false:👋}}
 ```
+
+![p2](https://cdn.discordapp.com/attachments/1082168708866244648/1083392751682461726/bib8jCUT87kAAAAASUVORK5CYII.png)
 
 #### Select Menu Parser
 
 **Single-Select Menu with two options**
 
 ```js
-{
-    actionRow:{
-        selectMenu:customID:Placeholder:1
-    :
-        1
-    :
-        false
-    :
-        {
-            selectMenuOptions:Option
-            1
-        :
-            1
-        :
-            Option
-            Description
-            1
-        :
-            false
-        :👋
-        }
-        {
-            selectMenuOptions:Option
-            2
-        :
-            2
-        :
-            Option
-            Description
-            2
-        :
-            false
-        }
-    }
-}
+{actionRow:{selectMenu:customID:Placeholder:1:1:false:{selectMenuOptions:Option1:1:OptionDescription1:false:👋}{selectMenuOptions:Option2:2:OptionDescription2:false}}}
 ```
+
+![p3](https://cdn.discordapp.com/attachments/1082168708866244648/1083394531761852487/BjEAAAAASUVORK5CYII.png)
 
 **Multi-Select Menu with three options and and a maximum of 2 selectable options**
 
 ```js
-{
-    actionRow:{
-        selectMenu:customID:Placeholder:1
-    :
-        2
-    :
-        false
-    :
-        {
-            selectMenuOptions:Option
-            1
-        :
-            1
-        :
-            Option
-            Description
-            1
-        :
-            false
-        :👋
-        }
-        {
-            selectMenuOptions:Option
-            2
-        :
-            2
-        :
-            Option
-            Description
-            2
-        :
-            false
-        }
-        {
-            selectMenuOptions:Option
-            3
-        :
-            3
-        :
-            Option
-            Description
-            3
-        :
-            false
-        }
-    }
-}
+{actionRow:{selectMenu:customID:Placeholder:1:2:false:{selectMenuOptions:Option1:1:OptionDescription1:false:👋}{selectMenuOptions:Option2:2:OptionDescription2:false}{selectMenuOptions:Option3:3:OptionDescription3:false}}}
 ```
+
+![p4](https://cdn.discordapp.com/attachments/1082168708866244648/1083395398644801576/NldoS3qUfRiJnLxWBiKYhLE9RBYxux7SGFaEABShAAQrsSQFtFTDihoG4B4jFYjcuV2vm3z2kNvPDl9SSAAAAAElFTkSuQmCC.png)
 
 #### Interaction Modal Parser
 
 **Modal with two fields one being normal sized and the other being bigger.**
 
 ```js
-{
-    actionRow:{
-        textInput:Example
-        Title
-        1
-    :
-        1
-    :
-        customID1:true
-    }
-}
-{
-    actionRow:{
-        textInput:Example
-        Title
-        2
-    :
-        2
-    :
-        customID2:false
-    }
-}
+{actionRow:{textInput:ExampleTitle1:1:customID1:true}}{actionRow:{textInput:ExampleTitle2:2:customID2:false}}
 ```
 
 <!--- links -->
 
 [1]: #embed-parsers
-
 [embed-example]: https://cdn.discordapp.com/attachments/1061712111052521493/1061764337691279460/image_3.png
-
 [aoi-github]: https://github.com/akaruidevelopment/aoi.js#v6
-
 [ayaka-parser]: https://github.com/usersatoshi/parsers#main

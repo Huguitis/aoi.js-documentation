@@ -1,12 +1,10 @@
 ---
 title: $arrayAt
-description: $arrayAt choose the index (position) of the array element to be returned. Returns nothing if the given
-index can not be found.
+description: $arrayAt will choose the index (position) of the array element to be returned. Returns nothing if the given index can not be found.
 id: arrayAt
 ---
 
-
-`$arrayAt` choose the index (position) of the array element to be returned. Returns nothing if the given index can not
+`$arrayAt` will choose the index (position) of the array element to be returned. Returns nothing if the given index can not
 be found.
 
 ## Usage

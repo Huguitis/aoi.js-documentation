@@ -19,7 +19,7 @@ $createChannelInvite[channelID?;...options]
 | channelID? | integer | channel ID   |  false   |
 | options?   | string  | json objects |  false   |
 
-<details>
+<details open>
   <summary><h3> Invite Target Types </h3></summary>
 
 | TYPE                 | VALUE |

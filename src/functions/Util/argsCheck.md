@@ -31,7 +31,7 @@ $argsCheck[condition;errorMessage?]
 | \>=      | greater than or equal to |
 | \>       | greater than             |
 | <        | less than                |
-| \        | \                        |     | logical OR               |
+| \|\|     | logical OR               |
 | &&       | logical conjunction      |
 
 ## Example

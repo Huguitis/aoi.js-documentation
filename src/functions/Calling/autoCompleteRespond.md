@@ -33,11 +33,11 @@ bot.command({
     name: 'createSlashCommand',
     code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
-  "name": "option", // slash command name
-  "description": "test", // slash command description
-  "required": false, // true or false, depending on if its required or not
-  "type": 3, // string type
-  "autocomplete": true // enable auto complete for the slash command
+  "name": "option",
+  "description": "test",
+  "required": false,
+  "type": 3,
+  "autocomplete": true
 }]
   `
 });
@@ -69,16 +69,16 @@ bot.command({
     name: 'createSlashCommand',
     code: `
   $createApplicationCommand[global;example;Awesome example interaction command with auto-complete!;true;slash;[{
-  "name": "option", // slash command name
-  "description": "test", // slash command description
-  "required": false, // true or false, depending on if its required or not
-  "type": 3, // string type
-  "autocomplete": true // enable auto complete for the slash command
+  "name": "option",
+  "description": "test",
+  "required": false,
+  "type": 3,
+  "autocomplete": true
 }, {
-  "name": "anotheroption", // slash command name
-  "description": "test", // slash command description
-  "required": false, // true or false, depending on if its required or not
-  "type": 3, // string type
+  "name": "anotheroption",
+  "description": "test",
+  "required": false,
+  "type": 3
 }]
   `
 });

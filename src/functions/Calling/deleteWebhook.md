@@ -18,5 +18,3 @@ $deleteWebhook[webhookID;webhookToken]
 |--------------|---------|---------------|:--------:|
 | webhookID    | integer | webhook ID    |   true   |
 | webhookToken | string  | webhook Token |   true   |
-
-*No example as it's self-explanatory.*

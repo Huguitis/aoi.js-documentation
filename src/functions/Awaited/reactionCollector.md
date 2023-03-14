@@ -24,7 +24,7 @@ $reactionCollector[channelID;messageID;userFilters;time;reactions;awaitedCommand
 | awaitedCommands | string  | commands to execute, you can seperate multiple emojis with a comma ( `,` )                     |   true   |
 | removeReaction? | string  | remove the reactions after the commands executed                                               |  false   |
 | awaitData?      | string  | awaited data                                                                                   |  false   |
-| endAwait?       | integer | error message when command expires                                                             |  false   |
+| endAwait?       | string  | end awaited command / awaited command to execute when timer ends                                                            |  false   |
 
 ## Example
 
@@ -32,16 +32,16 @@ This will send a message when you add a reaction:
 
 ```js
 bot.command({
-    name: "reactionCollector",
-    code: `
+  name: "reactionCollector",
+  code: `
   $reactionCollector[$channelID;$splitText[1];$authorID;10m;👀;awaitReaction;true]
   $textSplit[$sendMessage[React with "👀" for something special!;true]; ]
   `
 });
 
 bot.awaitedCommand({
-    name: "awaitReaction",
-    code: `
+  name: "awaitReaction",
+  code: `
   $sendMessage[👀 what's this?]
   `
 });

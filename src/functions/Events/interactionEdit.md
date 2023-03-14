@@ -27,7 +27,7 @@ $interactionEdit[content?;embeds?;components?;files?;allowedMentions?]
 ```javascript
 bot.interactionCommand({
     name: "interactionEdit",
-    prototype: 'slash',
+    prototype: "slash",
     code: `
   $interactionEdit[Bye, World!;;;;everyone]
   $wait[5s]

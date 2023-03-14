@@ -5,7 +5,7 @@ deafened.
 id: isGuildDeafened
 ---
 
-`$isServerDeafened` is similar but not to confuse with `$isDeafen`, this will check if the user is server deafened.
+`$isGuildDeafened` is similar but not to confuse with `$isDeafen`, this will check if the user is server deafened.
 
 ## Usage
 

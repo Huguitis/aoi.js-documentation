@@ -51,7 +51,7 @@ const bot = new aoijs.AoiClient({
   events: ["onMessage"]
 });
 
-// Ping Command Example
+// Ping Command Example 
 bot.command({
   name: "ping",
   code: `Pong! $pingms`

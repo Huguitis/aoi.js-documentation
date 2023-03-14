@@ -16,7 +16,7 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 
 | Field       | Type    | Description                                                | Required |
 |-------------|---------|------------------------------------------------------------|:--------:|
-| index       | integer | in which row the button appears                            |   true   |
+| index       | integer | in which row the select menu appears                       |   true   |
 | customID    | string  | custom ID                                                  |   true   |
 | placeHolder | string  | select menu placeholder text                               |   true   |
 | minValues   | integer | select menu min value                                      |   true   |
@@ -26,7 +26,7 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 
 ## Example(s)
 
-This adds a primary and link button to the bot's message:
+This adds a select menu with two functions:
 
 ```javascript
 bot.command({
@@ -60,11 +60,11 @@ bot.interactionCommand({
 /* 
 We use "$onlyIf[$interactionData[values[0]]==customID;]" to make sure this only will be triggered for the according select menu option.
 
-Also ensure that you have the "onMessage" event in your main file (index.js in most cases).
+Also ensure that you have the "onInteractionCreate" event in your main file (index.js in most cases).
 */
 ```
 
-Handler Example
+Handler Example:
 
 ```js
 module.exports = [{

@@ -26,7 +26,7 @@ $interactionUpdate[content?;embeds?;components?;files?]
 ```javascript
 bot.interactionCommand({
     name: "interactionUpdate",
-    prototype: 'slash',
+    prototype: "slash",
     code: `
   $interactionUpdate[Bye, World!]
   $wait[5s]

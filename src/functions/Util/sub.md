@@ -27,7 +27,7 @@ This will return `65` as `70-5` equals `65`:
 bot.command({
     name: 'sub',
     code: `
-  $sub[70-5]
+  $sub[70;5]
   `
 });
 ```

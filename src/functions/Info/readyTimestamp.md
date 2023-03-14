@@ -4,7 +4,7 @@ description: $readyTimestamp will return the timestamp of when the bot was ready
 id: readyTimestamp
 ---
 
-`$argsSlice` will return the timestamp of when the bot was ready.
+`$readyTimestamp` will return the timestamp of when the bot was ready.
 
 ## Usage
 
@@ -14,7 +14,7 @@ $readyTimestamp
 
 ## Example
 
-This will return the last time your bot when online:
+This will return the last time your bot started/was ready:
 
 ```javascript
 bot.command({

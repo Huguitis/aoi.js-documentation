@@ -1,10 +1,10 @@
 ---
 title: $addObjectProperty
-description: $addObjectProperty will create an object in JSON format.
+description: $addObjectProperty will add a property to an existing object.
 id: addObjectProperty
 ---
 
-`$addObjectProperty` will create an object in JSON format.
+`$addObjectProperty` will add a property to an existing object.
 
 ## Usage
 

@@ -11,7 +11,7 @@ id: aoi.panel-functions
 #### Usage
 
 ```javascript
-panel.loadPanel()
+panel.loadPanel();
 ```
 
 ### 2) `onError` : This Function will listen for errors and send it to the panel page. This function will inadvertently stop the errrors from crashing the code!! It has no parameters.
@@ -19,5 +19,5 @@ panel.loadPanel()
 #### Usage
 
 ```javascript
-panel.onError()
+panel.onError();
 ```
