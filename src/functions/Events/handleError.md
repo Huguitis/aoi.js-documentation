@@ -20,7 +20,7 @@ $handleError[option]
 
 ## Example
 
-#### You require `bot.onFunctionError();` in your main file in order to use this function!
+**You require `events: ["onFunctionError"]` in your main file in order to use this function!**
 
 ```javascript
 bot.functionErrorCommand({
