@@ -17,7 +17,7 @@ $messagePublish[messageID;channelID?]
 | Field      | Type    | Description | Required |
 |------------|---------|-------------|:--------:|
 | messageID  | integer | message ID  |   true   |
-| channelID? | integer | channel ID  |   false  |
+| channelID? | integer | channel ID  |  false   |
 
 ## Example
 

@@ -1,6 +1,7 @@
 ---
 title: $ifAwaited
-description: $ifAwaited will check a condition and executed an awaited command depending on the condition being true or false.
+description: $ifAwaited will check a condition and executed an awaited command depending on the condition being true or
+false.
 id: ifAwaited
 ---
 
@@ -30,7 +31,7 @@ $ifAwaited[condition;true;false?]
 | \>=      | greater than or equal to |
 | \>       | greater than             |
 | <        | less than                |
-| \|\|     | logical OR               |
+| \        | \                        |     | logical OR               |
 | &&       | logical conjunction      |
 
 ## Example

@@ -12,7 +12,7 @@ id: setGuildIcon
 $setGuildIcon[icon;guildID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field    | Type    | Description    | Required |
 |----------|---------|----------------|:--------:|

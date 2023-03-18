@@ -12,7 +12,7 @@ id: killShard
 $killShard[shardID]
 ```
 
-## Parameters 
+## Parameters
 
 | Field   | Type   | Description | Required |
 |---------|--------|-------------|:--------:|
@@ -24,8 +24,8 @@ This will kill the current shard ( requires **sharding** ):
 
 ```javascript
 bot.command({
-  name: 'killShard',
-  code: `
+    name: 'killShard',
+    code: `
   $killShard[$shardID]
   `
 });

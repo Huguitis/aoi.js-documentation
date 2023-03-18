@@ -22,7 +22,7 @@ $fetch[method;query;...query]
 <details>
   <summary><h3> Methods </h3></summary>
 
-| Methods              |
+| Methods             |
 |---------------------|
 | message             |
 | channel             |

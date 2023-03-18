@@ -12,7 +12,7 @@ id: pruneMembers
 $pruneMembers[days?;guildID?;roleIds?;dry?;reason?;count?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field    | Type            | Description                                                                     | Required |
 |----------|-----------------|---------------------------------------------------------------------------------|:--------:|
@@ -25,7 +25,8 @@ $pruneMembers[days?;guildID?;roleIds?;dry?;reason?;count?]
 
 ## Example
 
-This will prune all members who have been inactive for 4 days and return the count of the pruned members that meet those requirements:
+This will prune all members who have been inactive for 4 days and return the count of the pruned members that meet those
+requirements:
 
 ```javascript
 bot.command({

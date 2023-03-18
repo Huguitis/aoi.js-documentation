@@ -12,7 +12,7 @@ id: moveUser
 $moveUser[guildID;userID;channelID;reason?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type    | Description                                | Required |
 |-----------|---------|--------------------------------------------|:--------:|

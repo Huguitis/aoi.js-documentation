@@ -23,6 +23,7 @@ $setTimeout[name;duration;timeoutData;returnId?;pulse?]
 | pulse?      | number         | delay                                                                 |  false   |
 
 You can retrieve timeout data using `$timeoutData[name]`.
+
 * Note that the duration may not go over **21 days**.
 
 ## Example
@@ -31,7 +32,7 @@ This will send "Hello!" after 10 seconds in the command execution channel:
 
 ```javascript
 bot.command({
-    name: "setTimeout", 
+    name: "setTimeout",
     code: `
     $setTimeout[timeoutCommand;10s;{"channelID": "$channelID", "authorID": "$authorID"};false]
     `

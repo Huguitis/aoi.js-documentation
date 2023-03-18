@@ -12,7 +12,7 @@ id: slowmode
 $slowmode[time;channelID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field      | Type           | Description   | Required |
 |------------|----------------|---------------|:--------:|

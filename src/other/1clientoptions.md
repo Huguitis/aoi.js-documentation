@@ -7,24 +7,24 @@ id: clientoptions
 **This page is about all aoi.js Client Options and what they do.**
 
 ```typescript
-const { AoiClient } = require("aoi.js");
+const {AoiClient} = require("aoi.js");
 
 const bot = new AoiClient({
     token: string,
     prefix: string,
     intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage", "onJoin", "onLeave"],
-    disableFunctions?: ["$function", "$function"],
-    plugins?: ["./path"],
-    respondToBots?: boolean,
-    guildOnly?: boolean,
-    autoUpdate?: boolean,
-    mobilePlatform?: boolean,
-    cache?: {
+    disableFunctions? : ["$function", "$function"],
+    plugins? : ["./path"],
+    respondToBots? : boolean,
+    guildOnly? : boolean,
+    autoUpdate? : boolean,
+    mobilePlatform? : boolean,
+    cache? : {
         users: number,
         messages: number,
     },
-    database?: {
+    database? : {
         type: "aoi.db",
         db: require("aoi.db"),
         tables: ["main"],
@@ -33,11 +33,11 @@ const bot = new AoiClient({
             dbType: "KeyValue",
         }
     }, // Example refers to aoi.db, other databases are not included in this Example.
-    suppressAllErrors?: boolean,
-    errorMessage?: string,
-    aoiWarning?: boolean,
-    aoiLogs?: boolean,
-    respondOnEdit?: {
+    suppressAllErrors? : boolean,
+    errorMessage? : string,
+    aoiWarning? : boolean,
+    aoiLogs? : boolean,
+    respondOnEdit? : {
         commands: boolean,
         alwaysExecute: boolean,
         nonPrefixed: boolean,

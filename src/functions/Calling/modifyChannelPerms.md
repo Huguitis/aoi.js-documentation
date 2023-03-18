@@ -12,8 +12,7 @@ id: modifyChannelPerms
 $modifyChannelPerms[roruId;channelID;...perms]
 ```
 
-## Parameters 
-
+## Parameters
 
 | Field     | Type    | Description                                                  | Required |
 |-----------|---------|--------------------------------------------------------------|:--------:|

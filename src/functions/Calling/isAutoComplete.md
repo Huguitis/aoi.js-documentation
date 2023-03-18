@@ -1,6 +1,7 @@
 ---
 title: $isAutoComplete
-description: $isAutoComplete will return either true or false depending on the entered slash command option being auto completed or not. (autoCompleteRespond function)
+description: $isAutoComplete will return either true or false depending on the entered slash command option being auto
+completed or not. (autoCompleteRespond function)
 id: isAutoComplete
 ---
 

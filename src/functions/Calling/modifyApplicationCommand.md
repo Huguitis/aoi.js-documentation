@@ -12,7 +12,7 @@ id: modifyApplicationCommand
 $modifyApplicationCommand[guildID/global;appID;name:description:type:options:defaultPermission;...options]
 ```
 
-## Parameters 
+## Parameters
 
 | Field          | Type            | Description                          | Required |
 |----------------|-----------------|--------------------------------------|:--------:|

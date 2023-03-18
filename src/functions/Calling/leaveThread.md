@@ -12,7 +12,7 @@ id: leaveThread
 $leaveThread[channelID;threadID]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type    | Description | Required |
 |-----------|---------|-------------|:--------:|

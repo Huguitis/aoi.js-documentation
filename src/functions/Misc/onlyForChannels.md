@@ -1,10 +1,12 @@
 ---
 title: $onlyForChannels
-description: $onlyForChannels will check if the command was executed in one of the listed channels and return a error message if not.
+description: $onlyForChannels will check if the command was executed in one of the listed channels and return a error
+message if not.
 id: onlyForChannels
 ---
 
-`$onlyForChannels` will check if the command was executed in one of the listed channels and return a error message if not.
+`$onlyForChannels` will check if the command was executed in one of the listed channels and return a error message if
+not.
 
 ## Usage
 

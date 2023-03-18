@@ -11,9 +11,9 @@ id: commandoptions
 ```js
 module.exports = [{
     name: string,
-    aliases?: string,
-    nonPrefixed?: boolean,
-    executeAt?: string,
+    aliases? : string,
+    nonPrefixed? : boolean,
+    executeAt? : string,
     code: string
 }]
 ```
@@ -25,7 +25,6 @@ module.exports = [{
 | `nonPrefixed` | boolean | Set your command as non prefixed, meaning it can be executed without the actual prefix. |
 | `executeAt`   | string  | Define where it may can get executed in. <br /> 1. **guild** <br /> 2. **dm**           |
 | `code`        | string  | Your command code.                                                                      |
-
 
 ### Event Commands
 
@@ -67,8 +66,8 @@ module.exports = [{
 module.exports = [{
     name: string,
     type: string,
-    channel?: boolean,
-    executeOnStartup?: boolean,
+    channel? : boolean,
+    executeOnStartup? : boolean,
     every: number,
     code: string
 }]

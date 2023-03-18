@@ -1,6 +1,7 @@
 ---
 title: $oldPresence
-description: $oldPresence holds old data of the user's presence, used in update presence callback, or else any data will be empty
+description: $oldPresence holds old data of the user's presence, used in update presence callback, or else any data will
+be empty
 id: oldPresence
 ---
 
