@@ -12,7 +12,7 @@ id: modifyRolePerms
 $modifyRolePerms[guildID;roleID;...perms]
 ```
 
-## Parameters 
+## Parameters
 
 | Field    | Type    | Description                                          | Required |
 |----------|---------|------------------------------------------------------|:--------:|

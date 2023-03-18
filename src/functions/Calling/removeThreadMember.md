@@ -12,7 +12,7 @@ id: removeThreadMember
 $removeThreadMember[channelID;threadID;userID;reason?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type    | Description                                | Required |
 |-----------|---------|--------------------------------------------|:--------:|

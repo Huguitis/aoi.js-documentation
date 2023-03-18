@@ -12,7 +12,7 @@ id: spawnShard
 $spawnShard[shard]
 ```
 
-## Parameters 
+## Parameters
 
 | Field | Type   | Description | Required |
 |-------|--------|-------------|:--------:|

@@ -12,7 +12,7 @@ id: sendWebhookMessage
 $sendWebhookMessage[webhookID;webhookToken;message;returnID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field        | Type    | Description                                                         | Required |
 |--------------|---------|---------------------------------------------------------------------|:--------:|

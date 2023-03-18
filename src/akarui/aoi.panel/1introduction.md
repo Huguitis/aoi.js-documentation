@@ -8,8 +8,8 @@ id: aoipanel-introduction
 
 ## Table Of Contents
 
-| Name              | Description                           | Link                                             |
-|-------------------|---------------------------------------|--------------------------------------------------|
+| Name              | Description                           | Link                  |
+|-------------------|---------------------------------------|-----------------------|
 | The panel Class   | The panel Class and its parameters    | [link](./panel.md)    | 
 | Functions         | loadPanel and onError                 | [link](./funcs.md)    | 
 | Advanced Features | Multiple accounts, custom pages, etc. | [link](./advanced.md) | 
@@ -25,9 +25,9 @@ npm i @akarui/aoi.panel
 ## Basic Usage (aoi.js v5):
 
 ```javascript
-const { Panel } = require("@akarui/aoi.panel");
+const {Panel} = require("@akarui/aoi.panel");
 
-const { AoiClient } = require("aoi.js");
+const {AoiClient} = require("aoi.js");
 
 
 const bot = new AoiClient({

@@ -12,7 +12,7 @@ id: setRoleColor
 $setRoleColor[roleID;color]
 ```
 
-## Parameters 
+## Parameters
 
 | Field  | Type    | Description | Required |
 |--------|---------|-------------|:--------:|

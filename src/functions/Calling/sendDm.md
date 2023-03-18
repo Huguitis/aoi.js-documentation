@@ -12,7 +12,7 @@ id: sendDm
 $sendDm[message;userID?;returnID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type   | Description                                                         | Required |
 |-----------|--------|---------------------------------------------------------------------|:--------:|

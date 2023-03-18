@@ -1,6 +1,7 @@
 ---
 title: $interactionFollowUp
-description: $interactionFollowUp can be used for JSON requests, song informations or playing tracks, since these things takes more than 3 seconds.
+description: $interactionFollowUp can be used for JSON requests, song informations or playing tracks, since these things
+takes more than 3 seconds.
 id: interactionFollowUp
 ---
 

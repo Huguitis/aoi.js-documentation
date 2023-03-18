@@ -14,12 +14,12 @@ $getReactions[channelID;messageID;reaction;force?;option?]
 
 ## Parameters
 
-| Field     | Type    | Description                                                                                                                                                    | Required |
-|-----------|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| channelID | integer | channel ID of where the message is located in                                                                                                                  |   true   |
-| messageID | integer | message ID of the message                                                                                                                                      |   true   |
-| reaction  | string  | the reaction its information will be returned of                                                                                                               |   true   |
-| force?    | string  | force the action <br /> 1. **true** (default) <br /> 2. **false**                                                                                              |  false   |
+| Field     | Type    | Description                                                                                                                                                                                           | Required |
+|-----------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
+| channelID | integer | channel ID of where the message is located in                                                                                                                                                         |   true   |
+| messageID | integer | message ID of the message                                                                                                                                                                             |   true   |
+| reaction  | string  | the reaction its information will be returned of                                                                                                                                                      |   true   |
+| force?    | string  | force the action <br /> 1. **true** (default) <br /> 2. **false**                                                                                                                                     |  false   |
 | option?   | string  | how it will return the users who reacted to that message <br /> 1. **username** (default) - returns the usernames   <br /> 2. **mention** - mentions the users <br /> 3. **id** - returns the user id |  false   |
 
 #### Please note that this won't work without the `GuildMessageReactions` intent.

@@ -12,13 +12,13 @@ id: modifyRole
 $modifyRole[guildID;roleID;...data]
 ```
 
-## Parameters 
+## Parameters
 
-| Field     | Type    | Description                               | Required |
-|-----------|---------|-------------------------------------------|:--------:|
-| guildID   | integer | guild ID                                  |   true   |
-| roleID    | integer | role ID                                   |   true   |
-| ...data   |  string | new role data                             |   true   |
+| Field   | Type    | Description   | Required |
+|---------|---------|---------------|:--------:|
+| guildID | integer | guild ID      |   true   |
+| roleID  | integer | role ID       |   true   |
+| ...data | string  | new role data |   true   |
 
 ## Example
 

@@ -1,6 +1,7 @@
 ---
 title: $onlyForIDs
-description: $onlyForIDs will check if the command was executed by any user of the listed user IDs and return a error if not.
+description: $onlyForIDs will check if the command was executed by any user of the listed user IDs and return a error if
+not.
 id: onlyForIDs
 ---
 

@@ -12,7 +12,7 @@ id: sendMessage
 $sendMessage[message;returnID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type   | Description                                                         | Required |
 |-----------|--------|---------------------------------------------------------------------|:--------:|

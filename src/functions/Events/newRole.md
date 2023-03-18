@@ -1,6 +1,7 @@
 ---
 title: $newRole
-description: $newRole holds data of a role that was created, updated, or deleted. Used in role update / delete / create callbacks, or else it won't give any data.
+description: $newRole holds data of a role that was created, updated, or deleted. Used in role update / delete / create
+callbacks, or else it won't give any data.
 id: newRole
 ---
 

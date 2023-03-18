@@ -1,6 +1,7 @@
 ---
 title: $textTrim
-description: $textTrim will remove all extra spaces, multiple spaces after one space, and replaces those with one single space.
+description: $textTrim will remove all extra spaces, multiple spaces after one space, and replaces those with one single
+space.
 id: textTrim
 ---
 

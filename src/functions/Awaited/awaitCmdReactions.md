@@ -39,8 +39,8 @@ bot.command({
 });
 
 bot.awaitedCommand({
-  name: "awaitedCommandExample",
-  code: `
+    name: "awaitedCommandExample",
+    code: `
   Nice, you reacted with ❤️.
   `
 });

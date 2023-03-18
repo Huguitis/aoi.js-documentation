@@ -12,7 +12,7 @@ id: sendCrosspostingMessage
 $sendCrosspostingMessage[message;...channelIDs]
 ```
 
-## Parameters 
+## Parameters
 
 | Field         | Type    | Description     | Required |
 |---------------|---------|-----------------|:--------:|

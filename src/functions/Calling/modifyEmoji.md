@@ -12,7 +12,7 @@ id: modifyEmoji
 $modifyEmoji[guildID;emojiID;name;...roles?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type    | Description                               | Required |
 |-----------|---------|-------------------------------------------|:--------:|

@@ -12,7 +12,7 @@ id: modifyWebhook
 $modifyWebhook[webhookID;name;avatar;channelID?;reason?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field      | Type    | Description                                            | Required |
 |------------|---------|--------------------------------------------------------|:--------:|

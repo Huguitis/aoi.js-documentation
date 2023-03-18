@@ -6,7 +6,8 @@ id: hyperlinks
 
 **This page is about hyperlinks, what they do and how to use them.**
 
-Hyperlinks are useful to hide long links in text, this has limitation as it only works in Interactions (application commands) and embeds.
+Hyperlinks are useful to hide long links in text, this has limitation as it only works in Interactions (application
+commands) and embeds.
 
 ---
 

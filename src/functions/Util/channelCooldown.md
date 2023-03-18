@@ -12,8 +12,9 @@ id: channelCooldown
 $channelCooldown[time;errorMessage?]
 ```
 
-* You are able to retrieve the remaining cooldown in the `$channelCooldown` function by using **`%time%`** or any of the following below.
-  * `%time%`, `%year%`, `%month%`, `%week%`, `%day%`, `%hour%`, `%min%`, `%sec%`, `%ms%`, `%fullTime%`
+* You are able to retrieve the remaining cooldown in the `$channelCooldown` function by using **`%time%`** or any of the
+  following below.
+    * `%time%`, `%year%`, `%month%`, `%week%`, `%day%`, `%hour%`, `%min%`, `%sec%`, `%ms%`, `%fullTime%`
 
 ## Parameters
 
