@@ -1,7 +1,8 @@
 ---
 title: aoi.panel
 description: Setting up aoi.panel with ease.
-id: aoi.panel
+id: aoipanel
+slug: akarui/aoipanel/introduction
 ---
 
 # @akarui/aoi.panel Documentation
