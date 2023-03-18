@@ -1,7 +1,7 @@
 ---
-title: aoi.panel
+title: Introduction
 description: Setting up aoi.panel with ease.
-id: aoi.panel
+id: aoipanel-introduction
 ---
 
 # @akarui/aoi.panel Documentation
@@ -10,9 +10,9 @@ id: aoi.panel
 
 | Name              | Description                           | Link                                             |
 |-------------------|---------------------------------------|--------------------------------------------------|
-| The panel Class   | The panel Class and its parameters    | [link](/src/guides/akarui/aoi.panel/panel.md)    | 
-| Functions         | loadPanel and onError                 | [link](/src/guides/akarui/aoi.panel/funcs.md)    | 
-| Advanced Features | Multiple accounts, custom pages, etc. | [link](/src/guides/akarui/aoi.panel/advanced.md) | 
+| The panel Class   | The panel Class and its parameters    | [link](./panel.md)    | 
+| Functions         | loadPanel and onError                 | [link](./funcs.md)    | 
+| Advanced Features | Multiple accounts, custom pages, etc. | [link](./advanced.md) | 
 
 ## To View Examples Click **[here](https://github.com/AkaruiDevelopment/panel/blob/main/examples/)**
 

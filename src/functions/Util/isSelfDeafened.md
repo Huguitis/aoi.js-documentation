@@ -1,7 +1,6 @@
 ---
 title: $isSelfDeafened
-description: $isSelfDeafened is similar but not to confuse with `$isDeafen`, this will check if the user deafened
-themselves.
+description: $isSelfDeafened is similar but not to confuse with `$isDeafen`, this will check if the user deafened themselves.
 id: isSelfDeafened
 ---
 
