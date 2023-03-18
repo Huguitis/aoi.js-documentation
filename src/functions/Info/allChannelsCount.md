@@ -37,8 +37,6 @@ $allChannelsCount[type?]
 | Direct Message       | DM                 |
 | All Channel Types    | all                |
 
-#### Note: all channel types are **case-sensitive**.
-
 </details>
 
 ## Example
