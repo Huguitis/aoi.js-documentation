@@ -12,7 +12,7 @@ id: reply
 $reply[messageID?;mentionUser?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field        | Type    | Description                                                                     | Required |
 |--------------|---------|---------------------------------------------------------------------------------|:--------:|

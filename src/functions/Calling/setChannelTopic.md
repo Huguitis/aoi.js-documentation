@@ -12,7 +12,7 @@ id: setChannelTopic
 $setChannelTopic[channelID;topic]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type    | Description | Required |
 |-----------|---------|-------------|:--------:|

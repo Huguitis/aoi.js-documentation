@@ -1,6 +1,7 @@
 ---
 title: $timeoutData
-description: $timeoutData holds data for $setTimeout data parameters, this will be empty if used outside timeoutCommand codes.
+description: $timeoutData holds data for $setTimeout data parameters, this will be empty if used outside timeoutCommand
+codes.
 id: timeoutData
 ---
 
@@ -24,7 +25,7 @@ This will send "Hello!" after 10 seconds in the command execution channel:
 
 ```javascript
 bot.command({
-    name: "setTimeout", 
+    name: "setTimeout",
     code: `
     $setTimeout[timeoutCommand;10s;{"channelID": "$channelID", "authorID": "$authorID"};false]
     `

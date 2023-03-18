@@ -12,7 +12,7 @@ id: pinMessage
 $pinMessage[messageID?;channelID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type    | Description | Required |
 |-----------|---------|-------------|:--------:|

@@ -1,6 +1,6 @@
 ---
 title: $suppressErrors
-description: $suppressErrors will suppress aoi.js function errors. 
+description: $suppressErrors will suppress aoi.js function errors.
 id: suppressErrors
 ---
 

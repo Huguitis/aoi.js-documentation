@@ -14,7 +14,7 @@ There are multiple ways of retrieving emoji IDs, the easiest way would be
 
 Well however, if you don't have the possibility to use animate emojis there are other ways..
 
-1. Using `$customEmoji`, it sends the full emoji just by it's name. 
+1. Using `$customEmoji`, it sends the full emoji just by it's name.
 
 ```php
 `$customEmoji[name]`
@@ -22,11 +22,12 @@ Well however, if you don't have the possibility to use animate emojis there are 
 
 2. Using the Developer Console, complicated but works fine.
 
-First choose the one you want from the emoji panel. 
+First choose the one you want from the emoji panel.
 
-Then, open the Developer Console by pressing Ctrl-Shift-I and Ctrl-Shift-C. (wont work in the public discord version) 
+Then, open the Developer Console by pressing Ctrl-Shift-I and Ctrl-Shift-C. (wont work in the public discord version)
 
-Next, click on the emoji you chose, and look for a long link starting with "https://cdn.discordapp.com/emojis/" and ending with the emoji's extension (like .gif or .png). 
+Next, click on the emoji you chose, and look for a long link starting with "https://cdn.discordapp.com/emojis/" and
+ending with the emoji's extension (like .gif or .png).
 
 Copy the numbers between **"emojis/"** and the extension.
 
@@ -35,11 +36,13 @@ Copy the numbers between **"emojis/"** and the extension.
 To mention channels, roles or users in your code you simply follow these formats:
 
 Channels/Categories/Forums:
+
 ```php
 <#channelID>
 ```
 
 Users:
+
 ```php
 <@userID> 
 ```
@@ -48,7 +51,8 @@ Users:
 <@!userID>
 ```
 
-Roles: 
+Roles:
+
 ```php
 <@&roleID>
 ```

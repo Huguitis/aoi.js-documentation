@@ -9,7 +9,13 @@ id: createApplicationCommand
 ## Usage
 
 ```js
-$createApplicationCommand[guildID/global;name;description;defaultPermission;type?;options?]
+$createApplicationCommand[guildID / global;
+name;
+description;
+defaultPermission;
+type ?;
+options ?
+]
 ```
 
 ## Parameters

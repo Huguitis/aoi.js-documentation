@@ -12,7 +12,7 @@ id: thumbnail
 $thumbnail[index?;url]
 ```
 
-## Parameters 
+## Parameters
 
 | Field  | Type   | Description | Required |
 |--------|--------|-------------|:--------:|

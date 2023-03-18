@@ -12,7 +12,7 @@ id: takeRole
 $takeRole[guildID;userID;roleID]
 ```
 
-## Parameters 
+## Parameters
 
 | Field   | Type    | Description | Required |
 |---------|---------|-------------|:--------:|

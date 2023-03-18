@@ -12,7 +12,7 @@ id: setClientName
 $setClientName[username]
 ```
 
-## Parameters 
+## Parameters
 
 | Field    | Type   | Description         | Required |
 |----------|--------|---------------------|:--------:|

@@ -12,7 +12,7 @@ id: setRolePosition
 $setRolePosition[roleID;position;guildID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field    | Type    | Description                                 | Required |
 |----------|---------|---------------------------------------------|:--------:|

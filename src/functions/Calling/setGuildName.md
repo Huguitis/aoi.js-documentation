@@ -12,7 +12,7 @@ id: setGuildName
 $setGuildName[name;guildID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field    | Type    | Description    | Required |
 |----------|---------|----------------|:--------:|

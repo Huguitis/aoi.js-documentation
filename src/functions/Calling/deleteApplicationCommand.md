@@ -15,16 +15,16 @@ $deleteApplicationCommand[guildID/global;id]
 ## Parameters
 
 | Field   | Type            | Description        | Required |
-| ------- | --------------- | ------------------ |:--------:|
-| guildID | string, integer | guild ID or global |    true   |
-| id      | integer         | slash command id   |    true   |
+|---------|-----------------|--------------------|:--------:|
+| guildID | string, integer | guild ID or global |   true   |
+| id      | integer         | slash command id   |   true   |
 
 ## Example
 
 ```javascript
 bot.command({
-  name: 'deleteApplicationCommand',
-  code: `
+    name: 'deleteApplicationCommand',
+    code: `
   $deleteApplicationCommand[$guildID;$getApplicationCommandID[$guildID;slashcommandname]]
   `
 });

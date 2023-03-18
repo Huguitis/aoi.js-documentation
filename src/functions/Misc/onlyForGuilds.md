@@ -1,6 +1,7 @@
 ---
 title: $onlyForGuilds
-description: $onlyForGuilds will check if the command was executed in one of the listed guilds and return a error message if not.
+description: $onlyForGuilds will check if the command was executed in one of the listed guilds and return a error
+message if not.
 id: onlyForGuilds
 ---
 

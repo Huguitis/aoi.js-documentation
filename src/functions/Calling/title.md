@@ -12,7 +12,7 @@ id: title
 $title[index?;title;url?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field  | Type   | Description                     | Required |
 |--------|--------|---------------------------------|:--------:|

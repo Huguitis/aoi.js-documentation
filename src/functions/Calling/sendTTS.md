@@ -12,7 +12,7 @@ id: sendTTS
 $sendTTS[channelID;message;returnID?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field     | Type    | Description                                                         | Required |
 |-----------|---------|---------------------------------------------------------------------|:--------:|

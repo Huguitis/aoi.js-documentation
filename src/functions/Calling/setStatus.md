@@ -12,7 +12,7 @@ id: setStatus
 $setStatus[name;type;status;url;afk?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field  | Type            | Description                                                                                                             | Required |
 |--------|-----------------|-------------------------------------------------------------------------------------------------------------------------|:--------:|

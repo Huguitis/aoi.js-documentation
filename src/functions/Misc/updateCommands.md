@@ -15,7 +15,7 @@ $updateCommands
 * Will only work if you use a command handler, example below:
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const {AoiClient, LoadCommands} = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",

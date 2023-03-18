@@ -12,7 +12,7 @@ id: setClientAvatar
 $setClientAvatar[avatar]
 ```
 
-## Parameters 
+## Parameters
 
 | Field  | Type   | Description    | Required |
 |--------|--------|----------------|:--------:|

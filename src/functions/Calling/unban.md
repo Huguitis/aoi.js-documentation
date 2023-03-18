@@ -12,7 +12,7 @@ id: unban
 $unban[guildID;userID]
 ```
 
-## Parameters 
+## Parameters
 
 | Field   | Type    | Description | Required |
 |---------|---------|-------------|:--------:|

@@ -12,7 +12,7 @@ id: muteUser
 $muteUser[guildID;userID;mute?;reason?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field   | Type    | Description                                                                     | Required |
 |---------|---------|---------------------------------------------------------------------------------|:--------:|

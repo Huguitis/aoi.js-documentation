@@ -12,7 +12,7 @@ id: timeoutMember
 $timeoutMember[guildID;memberID;timer;timeoutEndsAt?;reason?]
 ```
 
-## Parameters 
+## Parameters
 
 | Field          | Type           | Description                                                                      | Required |
 |----------------|----------------|----------------------------------------------------------------------------------|:--------:|

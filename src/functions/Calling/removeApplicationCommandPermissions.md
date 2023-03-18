@@ -1,6 +1,7 @@
 ---
 title: $removeApplicationCommandPermissions
-description: $removeApplicationCommandPermissions will remove permissions of a user or role of a specific application command.
+description: $removeApplicationCommandPermissions will remove permissions of a user or role of a specific application
+command.
 id: removeApplicationCommandPermissions
 ---
 
@@ -12,7 +13,7 @@ id: removeApplicationCommandPermissions
 $removeApplicationCommandPermissions[guildID/global;id;roruids]
 ```
 
-## Parameters 
+## Parameters
 
 | Field          | Type            | Description                                              | Required |
 |----------------|-----------------|----------------------------------------------------------|:--------:|

@@ -12,7 +12,7 @@ id: setApplicationCommandPermissions
 $setApplicationCommandPermissions[guildID/global;ID;...perms]
 ```
 
-## Parameters 
+## Parameters
 
 | Field          | Type            | Description              | Required |
 |----------------|-----------------|--------------------------|:--------:|
