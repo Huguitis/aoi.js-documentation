@@ -142,8 +142,9 @@ bot.functionManager.createFunction({
     if (!propertyNamesStr) return d.aoiError.fnError(d, 'custom', {}, 'Missing object property names');
     const propertyNames = propertyNamesStr.split(",");
     const object = JSON.parse(objectStr);
-    delete object[propertyName];
-    
+    propertyNames.forEach(propertyName => {
+      delete object[propertyName];
+    });
     data.result = JSON.stringify(object);
     return {
       code: d.util.setCode(data)
