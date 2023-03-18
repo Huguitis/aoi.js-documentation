@@ -1,5 +1,5 @@
 ---
-title: Functions - aoi.panel
+title: Functions
 description: All about aoi.panel's functions.
 id: aoipanel-functions
 ---

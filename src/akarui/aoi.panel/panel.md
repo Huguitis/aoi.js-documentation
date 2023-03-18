@@ -1,5 +1,5 @@
 ---
-title: The Panel Class - aoi.panel
+title: The Panel Class
 description: All about aoi.panel's Panel class.
 id: aoipanel-panel-class
 ---

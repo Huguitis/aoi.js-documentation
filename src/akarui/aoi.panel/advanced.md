@@ -1,5 +1,5 @@
 ---
-title: Advanced Features - aoi.panel
+title: Advanced Features
 description: All about aoi.panel's advanced features.
 id: aoipanel-advanced
 ---
