@@ -52,3 +52,8 @@ Roles:
 ```php
 <@&roleID>
 ```
+
+Slash Commands:
+```php
+</name:id>
+```
