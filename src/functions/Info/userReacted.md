@@ -1,7 +1,6 @@
 ---
 title: $userReacted
-description: $userReacted will check if a specified user reacted with a specific emoji to a specific message and return
-either true or false.
+description: $userReacted will check if a specified user reacted with a specific emoji to a specific message and return either true or false.
 id: userReacted
 ---
 

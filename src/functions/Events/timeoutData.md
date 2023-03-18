@@ -1,7 +1,6 @@
 ---
 title: $timeoutData
-description: $timeoutData holds data for $setTimeout data parameters, this will be empty if used outside timeoutCommand
-codes.
+description: $timeoutData holds data for $setTimeout data parameters, this will be empty if used outside timeoutCommand codes.
 id: timeoutData
 ---
 

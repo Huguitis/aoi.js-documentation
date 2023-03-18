@@ -1,7 +1,6 @@
 ---
 title: $oldGuild
-description: $oldGuild holds data for the guild before it was updated, this is from discord cache and might be empty
-depending on whether it's cached, so use partial option before attempting to access any property. (guildUpdate callback)
+description: $oldGuild holds data for the guild before it was updated, this is from discord cache and might be empty depending on whether it's cached, so use partial option before attempting to access any property. (guildUpdate callback)
 id: oldGuild
 ---
 

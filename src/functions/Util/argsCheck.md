@@ -1,7 +1,6 @@
 ---
 title: $argsCheck
-description: $argsCheck will check the arguments of what the user typed and the required one, if requirements didn't
-meet, it will return an error message.
+description: $argsCheck will check the arguments of what the user typed and the required one, if requirements didn't meet, it will return an error message.
 id: argsCheck
 ---
 
