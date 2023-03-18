@@ -18,13 +18,13 @@ module.exports = [{
 }]
 ```
 
-| OPTION        | INPUT   | EXPLANATION                                                                             |
-|---------------|---------|-----------------------------------------------------------------------------------------|
-| `name`        | string  | Command Name.                                                                           |
-| `aliases`     | string  | Aliases, work the same way as `name`.                                                   |
-| `nonPrefixed` | boolean | Set your command as non prefixed, meaning it can be executed without the actual prefix. |
-| `executeAt`   | string  | Define where it may can get executed in. <br /> 1. **guild** <br /> 2. **dm**           |
-| `code`        | string  | Your command code.                                                                      |
+| OPTION        | INPUT   | EXPLANATION                                                                                      |
+|---------------|---------|--------------------------------------------------------------------------------------------------|
+| `name`        | string  | Command Name.                                                                                    |
+| `aliases`     | string  | Aliases, work the same way as `name`.                                                            |
+| `nonPrefixed` | boolean | Set your command as non prefixed, meaning it can be executed without the actual prefix.          |
+| `executeAt`   | string  | Define where it may can get executed in. <br /> 1. **guild** <br /> 2. **dm** <br /> 3. **both** |
+| `code`        | string  | Your command code.                                                                               |
 
 
 ### Event Commands
