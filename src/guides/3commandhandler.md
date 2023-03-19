@@ -115,22 +115,6 @@ Make sure you have the required intents and `onJoin` in the `events` property in
 work!
 > **Required intents: `GuildMembers`**
 
-## Command Handler Types & Prototypes
-
-| EVENT             | HANDLER TYPE                                                                                 |
-|-------------------|----------------------------------------------------------------------------------------------|
-| SUB_COMMAND       |                                                                                              |
-| SUB_COMMAND_GROUP |                                                                                              |
-| STRING            |                                                                                              |
-| INTEGER           | Any Integer between -2^53 and 2^53                                                           |
-| BOOLEAN           |                                                                                              |
-| USER              |                                                                                              |
-| CHANNEL           | Includes all channel types + categories                                                      |
-| ROLE              |                                                                                              |
-| MENTIONABLE       | Includes users and roles                                                                     |
-| NUMBER            | Any double between -2^53 and 2^53                                                            |
-| ATTACHMENT        | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
-
 ### Updating your commands without restart!
 
 You are able to use `$updateCommands` when updating commands in your directory. Please note that this does **not** apply
