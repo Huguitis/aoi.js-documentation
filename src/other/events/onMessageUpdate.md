@@ -15,9 +15,6 @@ const bot = new AoiClient({
     intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage", "onInteractionCreate", "onMessageUpdate"]
 });
-
-const loader = new LoadCommands(bot);
-loader.load(bot.cmd, "./commands/") // you can change this to any directory you want
 ```
 
 ### Example Usage

@@ -15,9 +15,6 @@ const bot = new AoiClient({
     intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage", "onInteractionCreate", "onMessageDeleteBulk"]
 });
-
-const loader = new LoadCommands(bot);
-loader.load(bot.cmd, "./commands/") // you can change this to any directory you want
 ```
 
 ### Example Usage
@@ -30,7 +27,7 @@ loader.load(bot.cmd, "./commands/") // you can change this to any directory you 
     - **createdAt** &rarr; Will return createdAt of the deleted messages.
     - **userIds** &rarr; Will return the user Ids of the users who sent the deleted messages.
     - **usernames** &rarr; Will return the usernames of the users who sent the deleted messages. 
-    - **userTags** &rarr; Will return the usernames of the username and discriminator who sent the deleted messages. 
+    - **userTags** &rarr; Will return the username and discriminator who sent the deleted messages. 
     - **userMentions** &rarr; Will return the user mention of the users who sent the deleted messages. 
     - **guildID** &rarr; Will return the guild ID of where the messages got deleted from.
     - **guildName** &rarr; Will return the guild name of where the messages got deleted from.
