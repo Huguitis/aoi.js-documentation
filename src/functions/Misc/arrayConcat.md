@@ -7,14 +7,14 @@ id: arrayConcat
 ## Usage
 
 ```php
-$arrayConcat[seperator;name]
+$arrayConcat[separator;name]
 ```
 
 ## Parameters
 
 | Field     | Type   | Description       | Required |
 |-----------|--------|-------------------|:--------:|
-| seperator | string | seperator         |   true   |
+| separator | string | separator         |   true   |
 | name      | string | name of the array |   true   |
 
 ## Example

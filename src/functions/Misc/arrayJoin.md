@@ -1,15 +1,15 @@
 ---
 title: $arrayJoin
-description: $arrayJoin will join the array with a given seperator.
+description: $arrayJoin will join the array with a given separator.
 id: arrayJoin
 ---
 
-`$arrayJoin` will join the array with a given seperator.
+`$arrayJoin` will join the array with a given separator.
 
 ## Usage
 
 ```php
-$arrayJoin[name;seperator?]
+$arrayJoin[name;separator?]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $arrayJoin[name;seperator?]
 | Field      | Type   | Description | Required |
 |------------|--------|-------------|:--------:|
 | name       | string | array name  |   true   |
-| seperator? | string | seperator   |  false   |
+| separator? | string | separator   |  false   |
 
 ## Example
 

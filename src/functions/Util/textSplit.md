@@ -17,7 +17,7 @@ $textSplit[text;sep?]
 | Field | Type   | Description                      | Required |
 |-------|--------|----------------------------------|----------|
 | text  | string | query of arguments               | true     |
-| sep?  | string | seperator for the text arguments | false    |
+| sep?  | string | separator for the text arguments | false    |
 
 ## Example
 

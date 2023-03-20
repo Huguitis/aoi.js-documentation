@@ -19,7 +19,7 @@ $userRoles[userID?;guildID?;option?;sep?]
 | userID?  | integer | user ID                                                                                      |  false   |
 | guildID? | integer | guild ID                                                                                     |  false   |
 | option?  | string  | how to returnt the roles <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |  false   |
-| sep?     | string  | seperator to seperate multiple arguments                                                     |  false   |
+| sep?     | string  | separator to seperate multiple arguments                                                     |  false   |
 
 ## Example
 

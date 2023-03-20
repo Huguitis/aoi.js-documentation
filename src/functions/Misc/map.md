@@ -19,4 +19,4 @@ $map[text;split;awaits;sep?]
 | text   | string | text                       |   true   |
 | split  | string |                            |   true   |
 | awaits | string | Awaited Command to execute |   true   |
-| sep?   | string | seperator                  |  false   |
+| sep?   | string | separator                  |  false   |

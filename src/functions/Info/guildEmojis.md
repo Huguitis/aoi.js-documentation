@@ -16,7 +16,7 @@ $guildEmojis[sep?;guildID?]
 
 | Field    | Type    | Description                                   | Required |
 |----------|---------|-----------------------------------------------|:--------:|
-| sep?     | string  | the seperator to seperate the returned emojis |  false   |
+| sep?     | string  | the separator to seperate the returned emojis |  false   |
 | guildID? | integer | guild ID                                      |  false   |
 
 ## Example

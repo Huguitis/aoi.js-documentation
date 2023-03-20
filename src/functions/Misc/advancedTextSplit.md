@@ -17,7 +17,7 @@ $advancedTextSplit[text;sep;index;sep?;index?..]
 | Field | Type    | Description                                   | Required |
 |-------|---------|-----------------------------------------------|:--------:|
 | text  | string  | text to split                                 |   true   |
-| sep   | string  | seperator                                     |   true   |
+| sep   | string  | separator                                     |   true   |
 | index | integer | the position of the text you want to seperate |   true   |
 
 ## Example

@@ -18,7 +18,7 @@ $categoryChannels[categoryID;option?;sep?]
 |------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
 | categoryID | integer | the ID of the category                                                                                                                        |   true   |
 | option?    | string  | the option the bot will return the channels in <br /> 1. **names** - returns channel names (default)  <br /> 2. **ids** - returns channel IDs |  false   |
-| sep?       | string  | theq seperator to seperate the returned channels                                                                                              |  false   |
+| sep?       | string  | theq separator to seperate the returned channels                                                                                              |  false   |
 
 ## Example
 

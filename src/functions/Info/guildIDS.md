@@ -16,7 +16,7 @@ $guildIDS[sep?]
 
 | Field | Type   | Description                                 | Required |
 |-------|--------|---------------------------------------------|:--------:|
-| sep?  | string | the seperator to seperate multiple argument |  false   |
+| sep?  | string | the separator to seperate multiple argument |  false   |
 
 ## Example
 

@@ -125,8 +125,8 @@ Developer Portal.
 * **onVariableCreate** &rarr; Emitted whenever a variable is created.
 * **onVariableDelete** &rarr; Emitted whenever a variable gets deleted.
 * **onVariableUpdate** &rarr; Emitted whenever a variable gets updated.
-    * `$oldVariable[opt;seperator?]` &rarr; Retrieves the old data of the variable. (if any)
-    * `$newVariable[opt;seperator?]` &rarr; Retrieves the new/updated data of the variable. (if any)
+    * `$oldVariable[opt;separator?]` &rarr; Retrieves the old data of the variable. (if any)
+    * `$newVariable[opt;separator?]` &rarr; Retrieves the new/updated data of the variable. (if any)
 * **onShardDisconnect** &rarr; Emitted whenever the client's shard disconnects.
 * **onShardError** &rarr; Emitted whenever a shard of the client returns an error.
 * **onShardReady** &rarr; Emitted whenever a shard of the client is ready.
