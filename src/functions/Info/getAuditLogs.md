@@ -18,9 +18,9 @@ $getAuditLogs[guildID;userID?;limit?;action?;format?]
 |----------|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
 | guildID  | integer         | guild ID                                                                                                                                                           |  true    |
 | userID?  | integer         | the user who executed the action stated in audit logs                                                                                                              |  false   |
-| limit?   | integer         | the maximum of audit logs it will return                                                                                                                           |  false   |
+| limit?   | number          | the maximum of audit logs it will return                                                                                                                           |  false   |
 | action?  | integer         | the action that was executed                                                                                                                                       |  false   |
-| format?  | integer         | the format to return the audit logs in                                                                                                                             |  false   |
+| format?  | string          | the format to return the audit logs in                                                                                                                             |  false   |
 
 | Format              |                                                                   |
 |---------------------|-------------------------------------------------------------------|
