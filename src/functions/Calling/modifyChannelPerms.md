@@ -9,15 +9,15 @@ id: modifyChannelPerms
 ## Usage
 
 ```php
-$modifyChannelPerms[roruId;channelID;...perms]
+$modifyChannelPerms[channelID?;roruId;...perms]
 ```
 
 ## Parameters
 
 | Field     | Type    | Description                                                  | Required |
 |-----------|---------|--------------------------------------------------------------|:--------:|
+| channelID | integer | channel ID                                                   |   false  |
 | roruId    | integer | role or user ID / `$guildID` represents the `@everyone` role |   true   |
-| channelID | integer | channel ID                                                   |   true   |
 | ...perms  | string  | permissions                                                  |   true   |
 
 |     | Description                                          |
@@ -36,7 +36,7 @@ This will allow `@everyone` to send messages and add reactions in the current ch
 bot.command({
     name: 'modifyChannelPerms',
     code: `
-  $modifyChannelPerms[$guildID;$channelID;+sendmessages;+addreactions]
+  $modifyChannelPerms[$channelID;$guildID;+sendmessages;+addreactions]
   `
 });
 ```
