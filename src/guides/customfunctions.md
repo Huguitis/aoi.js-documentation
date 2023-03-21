@@ -110,7 +110,7 @@ Packages required: `none`
 Difficulty: Beginner
 
 ```js
-bot.functionManager.createCustomFunction({
+bot.functionManager.createFunction({
   name: "$say", 
   params: ["userID", "message"],
   type: "aoi.js", 
