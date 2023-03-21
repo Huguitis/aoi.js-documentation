@@ -1,15 +1,15 @@
 ---
-title: $numberseparator
-description: $numberseparator will seperate numbers and make them readable.
-id: numberseparator
+title: $numberSeparator
+description: $numberSeparator will seperate numbers and make them readable.
+id: numberSeparator
 ---
 
-`$numberseparator` will seperate numbers and make them readable.
+`$numberSeparator` will seperate numbers and make them readable.
 
 ## Usage
 
 ```php
-$numberseparator[num;sep?]
+$numberSeparator[num;sep?]
 ```
 
 ## Parameters
@@ -25,9 +25,9 @@ This will return `1,000,000`:
 
 ```javascript
 bot.command({
-    name: 'numberseparator',
+    name: 'numberSeparator',
     code: `
-  $numberseparator[1000000;,]
+  $numberSeparator[1000000;,]
   `
 });
 ```
