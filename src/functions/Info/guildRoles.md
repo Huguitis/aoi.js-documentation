@@ -18,7 +18,7 @@ $guildRoles[guildID?;option?;sep?]
 |----------|---------|-----------------------------------------------------------------------------------------------------------|:--------:|
 | guildID? | integer | the ID of the guild                                                                                       |  false   |
 | option?  | string  | the option on how to return the roles <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |  false   |
-| sep?     | string  | separator to seperate multiple arguments                                                                  |  false   |
+| sep?     | string  | separator to separate multiple arguments                                                                  |  false   |
 
 ## Example
 

@@ -17,7 +17,7 @@ $shardGuilds[option?;sep?;shardId]
 | Field   | Type    | Description                                                                  | Required |
 |---------|---------|------------------------------------------------------------------------------|:--------:|
 | option? | integer | option to return the guilds in <br /> 1. **id** (default) <br /> 2. **name** |  false   |
-| sep?    | string  | separator to seperate multiple guilds                                        |  false   |
+| sep?    | string  | separator to separate multiple guilds                                        |  false   |
 | shardId | integer | the shard ID                                                                 |   true   |
 
 #### Note that this won't work without sharding. If you're unsure, review the [sharding guide](../../guides/7sharding.md).

@@ -16,14 +16,14 @@ $awaitMessages[channelID;userFilter;time;replies;cmds;errorMessage?;awaitData?;d
 
 | Field         | Type    | Description                                                                                                                        | Required |
 |---------------|---------|------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| channelID     | integer | channel ID                                                                                                                         |   true   |
-| userFilter    | integer | user filter <br /> 1. **everyone** <br /> 2. **specific user** - any user ID                                                       |   true   |
-| time          | string  | how long the command lasts / when it expires                                                                                       |   true   |
-| replies       | string  | to what the bot will be reponding to, multiple words can be seperated with a comma  (or use "everything" to respond to everything) |   true   |
-| cmds          | string  | commands that will be executed, multiple commands can be seperated with a comma                                                    |   true   |
-| errorMessage? | string  | error message when the command expires                                                                                             |  false   |
-| awaitData?    | string  | awaited Data                                                                                                                       |  false   |
-| dm?           | string  | if the command will be executed in DMs or not                                                                                      |  false   |
+| channelID     | integer | Channel ID.                                                                                                                        |   true   |
+| userFilter    | integer | User filter <br /> 1. **everyone** <br /> 2. **specific user** - any user ID                                                       |   true   |
+| time          | string  | How long the command lasts / when it expires.                                                                                      |   true   |
+| replies       | string  | To what the bot will be responding to, multiple words can be separated with a comma  (or use "everything" to respond to everything) |   true   |
+| cmds          | string  | Commands that will be executed, multiple commands can be separated with a comma.                                                   |   true   |
+| errorMessage? | string  | Error message when the command expires.                                                                                            |  false   |
+| awaitData?    | string  | Awaited Data.                                                                                                                      |  false   |
+| dm?           | integer | User ID of where the command may be executed.                                                                                      |  false   |
 
 ## Example
 

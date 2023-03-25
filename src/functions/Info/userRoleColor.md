@@ -21,7 +21,7 @@ $userRoleColor[userID?;guildID?]
 
 ## Example
 
-This will return the color of your highest role:
+This will return the Color of your highest role:
 
 ```javascript
 bot.command({

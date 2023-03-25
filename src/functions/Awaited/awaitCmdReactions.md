@@ -16,12 +16,12 @@ $awaitCmdReactions[userFilter;time;reactions;commands;errorMsg?;awaitData?]
 
 | Field      | Type   | Description                                                                                    | Required |
 |------------|--------|------------------------------------------------------------------------------------------------|:--------:|
-| userFilter | string | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true   |
-| time       | string | how long the command will last / when the command expires                                      |   true   |
-| reactions  | string | reactions the bot will be listening to, you can seperate multiple emojis with a comma ( `,` )  |   true   |
-| commands   | string | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |   true   |
-| errorMsg?  | string | error message when command expires                                                             |  false   |
-| awaitData? | string | awaited data                                                                                   |  false   |
+| userFilter | string | To what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true   |
+| time       | string | How long the command will last / when the command expires.                                     |   true   |
+| reactions  | string | Reactions the bot will be listening to, you can separate multiple emojis with a comma ( `,` )  |   true   |
+| commands   | string | Commands that will be executed, you can separate multiple emojis with a comma ( `,` )          |   true   |
+| errorMsg?  | string | Error message when command expires.                                                            |  false   |
+| awaitData? | string | Awaited Data.                                                                                  |  false   |
 
 **Make sure you have `GuildMessageReactions` as intent in your main file.**
 

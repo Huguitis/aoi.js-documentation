@@ -9,7 +9,7 @@ id: setGuildDiscoverySplash
 ## Usage
 
 ```php
-$setGuildDiscoverySplash[guildID?;url;reason?]
+$setGuildDiscoverySplash[guildID?;URL;reason?]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $setGuildDiscoverySplash[guildID?;url;reason?]
 | Field    | Type    | Description                                              | Required |
 |----------|---------|----------------------------------------------------------|----------|
 | guildID? | integer | Guild ID of the guild.                                   | false    |
-| url      | string  | New discovery splash banner.                             | true     |
+| URL      | string  | New discovery splash banner.                             | true     |
 | reason?  | string  | Reason that will be displayed in the guild's audit logs. | false    |
 
 ## Example

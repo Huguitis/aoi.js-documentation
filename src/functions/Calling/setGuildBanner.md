@@ -9,7 +9,7 @@ id: setGuildBanner
 ## Usage
 
 ```php
-$setGuildBanner[guildID?;url;reason?]
+$setGuildBanner[guildID?;URL;reason?]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $setGuildBanner[guildID?;url;reason?]
 | Field    | Type    | Description                                              | Required |
 |----------|---------|----------------------------------------------------------|----------|
 | guildID? | integer | Guild ID of the guild.                                   | false    |
-| url      | string  | New guild banner.                                        | true     |
+| URL      | string  | New guild banner.                                        | true     |
 | reason?  | string  | Reason that will be displayed in the guild's audit logs. | false    |
 
 ## Example

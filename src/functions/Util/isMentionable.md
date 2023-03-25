@@ -19,8 +19,6 @@ $isMentionable[roleID;guildID?]
 | roleID   | integer | the role id to check if it's mentionable or not | true     |
 | guildID? | integer | guild id where the role is present in           | false    |
 
-### Please note that your bot has to be in the same guild as the role for the function to work.
-
 ## Example
 
 This will check if a role with the name `Owner` is mentionable and returns either `true` or `false`:

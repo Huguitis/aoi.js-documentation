@@ -11,7 +11,7 @@ of the provided role IDs.
 ## Usage
 
 ```php
-$addEmoji[guildID;url;name;returnEmoji?;reason?;...roles?]
+$addEmoji[guildID;URL;name;returnEmoji?;reason?;...roles?]
 ```
 
 ## Parameters
@@ -19,7 +19,7 @@ $addEmoji[guildID;url;name;returnEmoji?;reason?;...roles?]
 | Field        | Type    | Description                                              | Required |
 |--------------|---------|----------------------------------------------------------|:--------:|
 | guildID      | integer | guild ID                                                 |   true   |
-| url          | string  | valid image URL                                          |   true   |
+| URL          | string  | valid image URL                                          |   true   |
 | name         | string  | emoji name                                               |   true   |
 | returnEmoji? | string  | return the created emoji?                                |  false   |
 | reason?      | string  | reason which will be displayed in the guild's audit logs |  false   |

@@ -156,7 +156,7 @@ bot.functionManager.createFunction({
 ---
 
 ```ts
-$sendImage[url]
+$sendImage[URL]
 ```
 
 Packages required: `none`  
@@ -168,9 +168,9 @@ bot.functionManager.createFunction({
   type: "djs",
   code: async d => {
     const data = d.util.aoiFunc(d);
-    const [url] = data.inside.splits;
+    const [URL] = data.inside.splits;
 
-    let image = url;
+    let image = URL;
     const a = await d.message.channel.send({
       files: [{ 
         attachment: image 
@@ -215,7 +215,7 @@ bot.functionManager.createFunction({
       n: 1,
       size: "1024x1024",
     });
-    data.result = response.data.data[0].url;
+    data.result = response.data.data[0].URL;
     console.log(data.result);
     return {
       code: d.util.setCode(data)

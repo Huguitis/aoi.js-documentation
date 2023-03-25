@@ -25,7 +25,7 @@ bot.status({
     text: string,
     type: string,
     time: number,
-    url?: string,
+    URL?: string,
     afk?: boolean
 });
 ```
@@ -55,7 +55,7 @@ bot.status({
 bot.status({
     text: "Example Text three!",
     type: "STEAMING",
-    url: "some URL"
+    URL: "some URL"
 });
 ```
 

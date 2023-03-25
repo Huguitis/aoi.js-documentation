@@ -9,7 +9,7 @@ id: title
 ## Usage
 
 ```php
-$title[index?;title;url?]
+$title[index?;title;URL?]
 ```
 
 ## Parameters
@@ -18,7 +18,7 @@ $title[index?;title;url?]
 |--------|--------|---------------------------------|:--------:|
 | index? | number | embed index                     |  false   |
 | title  | string | title content                   |   true   |
-| url?   | string | url which will be the hyperlink |  false   |
+| URL?   | string | URL which will be the hyperlink |  false   |
 
 ## Example
 

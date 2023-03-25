@@ -9,7 +9,7 @@ id: thumbnail
 ## Usage
 
 ```php
-$thumbnail[index?;url]
+$thumbnail[index?;URL]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $thumbnail[index?;url]
 | Field  | Type   | Description | Required |
 |--------|--------|-------------|:--------:|
 | index? | number | embed index |  false   |
-| url    | string | image URL   |   true   |
+| URL    | string | image URL   |   true   |
 
 ## Example
 

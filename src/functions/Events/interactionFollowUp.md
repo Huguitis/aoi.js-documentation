@@ -1,11 +1,11 @@
 ---
 title: $interactionFollowUp
-description: $interactionFollowUp can be used for JSON requests, song informations or playing tracks, since these things
+description: $interactionFollowUp can be used for JSON requests, song information or playing tracks, since these things
 takes more than 3 seconds.
 id: interactionFollowUp
 ---
 
-`$interactionFollowUp` can be used for JSON requests, song informations or playing tracks, since these things takes more
+`$interactionFollowUp` can be used for JSON requests, song information or playing tracks, since these things takes more
 than 3 seconds.
 
 ## Usage

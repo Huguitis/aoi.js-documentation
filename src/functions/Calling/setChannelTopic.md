@@ -21,7 +21,7 @@ $setChannelTopic[channelID;topic]
 
 ## Example
 
-This will change the topic of the channel where the command is exected in:
+This will change the topic of the channel where the command is executed in:
 
 ```javascript
 bot.command({

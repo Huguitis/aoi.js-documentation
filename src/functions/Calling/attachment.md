@@ -18,7 +18,7 @@ $attachment[attachment;name;type?]
 |------------|--------|---------------------------------------------|:--------:|
 | attachment | string | attachment                                  |   true   |
 | name       | string | attachment name                             |   true   |
-| type?      | string | attachment type <br /> 1. **url** (default) |  false   |
+| type?      | string | attachment type <br /> 1. **URL** (default) |  false   |
 
 ## Example
 
@@ -28,7 +28,7 @@ This will create an attachment:
 bot.command({
     name: 'attachment',
     code: `
-  $attachment[https://cdn.discordapp.com/emojis/1063432790697328710.webp?size=96&quality=lossless;boost-icon.png;url]
+  $attachment[https://cdn.discordapp.com/emojis/1063432790697328710.webp?size=96&quality=lossless;boost-icon.png;URL]
   `
 });
 ```

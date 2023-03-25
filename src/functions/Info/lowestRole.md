@@ -14,10 +14,10 @@ $lowestRole[userID?;guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                                     | Required |
-|----------|---------|-------------------------------------------------|:--------:|
-| userID?  | integer | user if of the user you want the lowest role of |  false   |
-| guildID? | integer | the ID of the guild                             |  false   |
+| Field    | Type    | Description                                                 | Required |
+|----------|---------|-------------------------------------------------------------|:--------:|
+| userID?  | integer | user of the user you want the lowest role to be returned of |  false   |
+| guildID? | integer | the ID of the guild                                         |  false   |
 
 ## Example
 

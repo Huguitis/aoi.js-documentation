@@ -1,10 +1,10 @@
 ---
 title: $numberSeparator
-description: $numberSeparator will seperate numbers and make them readable.
+description: $numberSeparator will separate numbers and make them readable.
 id: numberSeparator
 ---
 
-`$numberSeparator` will seperate numbers and make them readable.
+`$numberSeparator` will separate numbers and make them readable.
 
 ## Usage
 
@@ -16,8 +16,8 @@ $numberSeparator[num;sep?]
 
 | Field | Type   | Description                                                        | Required |
 |-------|--------|--------------------------------------------------------------------|----------|
-| num   | number | number you want to seperate                                        | true     |
-| sep?  | string | separator which will be used to seperate the numbers, default: `,` | false    |
+| num   | number | number you want to separate                                        | true     |
+| sep?  | string | separator which will be used to separate the numbers, default: `,` | false    |
 
 ## Example
 

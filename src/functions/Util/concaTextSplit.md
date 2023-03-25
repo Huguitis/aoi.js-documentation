@@ -16,7 +16,7 @@ $concatTextSplit[...text]
 
 | Field | Type   | Description          | Required |
 |-------|--------|----------------------|----------|
-| text  | string | text to be seperated | true     |
+| text  | string | text to be separated | true     |
 
 ## Example
 

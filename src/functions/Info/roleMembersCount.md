@@ -27,7 +27,7 @@ This will return the amount of users who have a specific role:
 bot.command({
     name: 'roleMembersCount',
     code: `
-  $roleMembersCount[$guildID;$guildID] //you can replace the first $guildID with any role ID you like
+  $roleMembersCount[$guildID;$guildID]
   `
 });
 ```

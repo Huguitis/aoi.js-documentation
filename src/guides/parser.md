@@ -33,10 +33,10 @@ require `{newEmbed:{...}}` every time you want to use embed parsers.
 {description:text}
 {color:...}
 {footer:text:icon?}
-{image:url}
-{thumbnail:url}
+{image:URL}
+{thumbnail:URL}
 {author:name:icon?}
-{authorURL:url}
+{authorURL:URL}
 {field:title:value:inline? (true / false)}
 {timestamp:ms?}
 ``` 

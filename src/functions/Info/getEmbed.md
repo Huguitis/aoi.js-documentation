@@ -24,24 +24,24 @@ $getEmbed[channelID?;messageID?;index?;option?]
 <details>
   <summary><h3> Options </h3></summary>
 
-| Type        | Description                     |
-|-------------|---------------------------------|
-| title       | title of the embed              |
-| description | description of the embed        |
-| url         | the url in the title            |
-| color       | color of the embed              |
-| timestamp   | timestamp located in the footer |
-| fields      | field title                     |
-| fvalue      | field description               |
-| thumbnail   | thumbnail (image top right)     |
-| image       | large image at the bottom       |
-| video       | video/gif                       |
-| author      | author, above title field       |
-| footer      | footer                          |
-| files       | attached files                  |
-| createdAt   | creation date of the embed      |
-| hexColor    | hex color of the embed          |
-| length      | length of the embed             |
+| Type                | Description                     |
+|---------------------|---------------------------------|
+| title               | title of the embed              |
+| description         | description of the embed        |
+| URL                 | the URL in the title            |
+| color               | color of the embed              |
+| timestamp           | timestamp located in the footer |
+| fields[index]       | field title                     |
+| fields.value[index] | field description               |
+| thumbnail           | thumbnail (image top right)     |
+| image               | large image at the bottom       |
+| video               | video/gif                       |
+| author              | author, above title field       |
+| footer              | footer                          |
+| files               | attached files                  |
+| createdAt           | creation date of the embed      |
+| hexColor            | hex color of the embed          |
+| length              | length of the embed             |
 
 </details>
 

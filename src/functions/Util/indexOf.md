@@ -21,7 +21,7 @@ $indexOf[string;char]
 
 ## Example
 
-This will return `8` as it's the first occuring position of the character `w`:
+This will return `8` as it's the first occurring position of the character `w`:
 
 ```javascript
 bot.command({

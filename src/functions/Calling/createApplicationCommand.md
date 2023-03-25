@@ -46,7 +46,7 @@ options ?
 | NUMBER            | 10  | Any double between -2^53 and 2^53                                                            |
 | ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
 
-#### You can find more information in the [official documention of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).
+#### You can find more information in the [official documentation of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).
 
 </details>
 

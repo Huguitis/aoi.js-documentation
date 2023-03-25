@@ -9,7 +9,7 @@ id: createSticker
 ## Usage
 
 ```php
-$createSticker[guildid;url;name;returnSticker?;tags;description;reason]
+$createSticker[guildid;URL;name;returnSticker?;tags;description;reason]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $createSticker[guildid;url;name;returnSticker?;tags;description;reason]
 | Field          | Type    | Description                                                                        | Required |
 |----------------|---------|------------------------------------------------------------------------------------|:--------:|
 | guildID        | integer | guild ID                                                                           |   true   |
-| url            | string  | image URL (**png only**)                                                           |   true   |
+| URL            | string  | image URL (**png only**)                                                           |   true   |
 | name           | string  | sticker name                                                                       |   true   |
 | returnSticker? | string  | return the sticker after creation <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 | tags?          | string  | sticker tags                                                                       |  false   |

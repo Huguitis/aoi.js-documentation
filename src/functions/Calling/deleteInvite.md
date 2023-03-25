@@ -22,7 +22,7 @@ $deleteInvite[guildID;inviteCode;reason?]
 
 ## Example
 
-This will delete an invite (wont work as the invite code doesnt exit):
+This will delete an invite (wont work as the invite code doesn't exist):
 
 ```javascript
 bot.command({

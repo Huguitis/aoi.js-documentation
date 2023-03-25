@@ -19,7 +19,7 @@ $usersWithRole[roleID;guildID?;option?;sep?]
 | roleID   | integer | role ID                                                                  |   true   |
 | guildID? | integer | guild ID                                                                 |  false   |
 | option?  | string  | how to return the users <br /> 1. **id** (default) <br /> 2. **mention** |  false   |
-| sep?     | string  | separator to seperate multiple arguments                                 |  false   |
+| sep?     | string  | separator to separate multiple arguments                                 |  false   |
 
 ## Example
 

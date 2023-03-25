@@ -18,7 +18,7 @@ $author[index?;name;iconURL?]
 |----------|---------|-----------------------------------------------------------|:--------:|
 | index?   | integer | embed index                                               |  false   |
 | name     | string  | author title that will be displayed                       |   true   |
-| iconURL? | string  | icon url which will be displayed next to the author title |  false   |
+| iconURL? | string  | icon URL which will be displayed next to the author title |  false   |
 
 ## Example
 

@@ -9,7 +9,7 @@ id: image
 ## Usage
 
 ```php
-$image[index?;url]
+$image[index?;URL]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $image[index?;url]
 | Field  | Type   | Description              | Required |
 |--------|--------|--------------------------|:--------:|
 | index? | number | embed index/position     |  false   |
-| url    | string | image (bottom big image) |   true   |
+| URL    | string | image (bottom big image) |   true   |
 
 ## Example
 
