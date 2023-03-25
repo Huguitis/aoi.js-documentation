@@ -30,8 +30,9 @@ module.exports = [{
 
 ```js
 module.exports = [{
-    name: string,
-    channel: string,
+    name?: string,
+    channel?: string,
+    type: string,
     code: string,
 }]
 ```
