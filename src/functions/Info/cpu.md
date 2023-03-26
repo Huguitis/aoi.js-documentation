@@ -27,7 +27,7 @@ bot.command({
     name: 'cpu',
     code: `
   OS: $cpu[os] 
-  Process: $cpu[process] // around %0 
+  Process: $cpu[process] 
   `
 });
 ```

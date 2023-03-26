@@ -11,5 +11,3 @@ id: commandName
 ```php
 $commandName
 ```
-
-> There's false example as it's self-explanatory.
