@@ -31,17 +31,18 @@ module.exports = [{
 ```js
 module.exports = [{
     name?: string,
-    channel?: string,
     type: string,
+    channel?: string,
     code: string,
 }]
 ```
 
-| OPTION    | INPUT  | EXPLANATION              |
-|-----------|--------|--------------------------|
-| `name`    | string | Command Name.            |
-| `channel` | string | Where the output may go. |
-| `code`    | string | Your command code.       |
+| OPTION    | INPUT  | EXPLANATION                                                   |
+|-----------|--------|---------------------------------------------------------------|
+| `name`    | string | Command Name.                                                 |
+| `type`    | string | Defines the command type, any event, `interaction` or `loop`. |
+| `channel` | string | Where the output may go.                                      |
+| `code`    | string | Your command code.                                            |
 
 ### Interaction Commands
 
@@ -57,7 +58,7 @@ module.exports = [{
 | OPTION      | INPUT  | EXPLANATION                                                                                                                          |
 |-------------|--------|--------------------------------------------------------------------------------------------------------------------------------------|
 | `name`      | string | Command Name.                                                                                                                        |
-| `type`      | string | Defines the command type, any event, `interaction` or `loop`.                                                                        |
+| `type`      | string | Defines the command type.                                                                                                            |
 | `prototype` | string | Defines what the command will be triggered by. <br /> 1. **button** <br /> 2. **selectMenu** <br /> 4. **slash** <br /> 5. **modal** |
 | `code`      | string | Your command code.                                                                                                                   |
 
