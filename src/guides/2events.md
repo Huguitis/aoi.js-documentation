@@ -118,7 +118,6 @@ Developer Portal.
 ### Custom Events
 
 * **onInteractionCreate** &rarr; Emitted whenever a Interaction is created.
-* **onApplicationCmdDelete** &rarr; Emitted whenever a Application Command gets deleted.
 * **onApplicationCmdUpdate** &rarr; Emitted whenever a Application Command gets updated (for example, name).
     * `$oldApplicationCmd[option?]` &rarr; Retrieves data of the old application command.
     * `$newApplicationCmd[option?]` &rarr; Retrieves data of the updated application command.
