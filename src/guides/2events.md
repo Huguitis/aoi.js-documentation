@@ -143,6 +143,7 @@ const bot = new AoiClient({
     prefix: "DISCORD BOT PREFIX",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
     events: ["onMessage", "onJoin", "onLeave", "onBanAdd", "onBanRemove"]
+    ...
 });
 ```
 

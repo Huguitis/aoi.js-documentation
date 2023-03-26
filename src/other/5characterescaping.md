@@ -1,7 +1,7 @@
 ---
 title: Character Escaping
 description: This page is covering all about character escaping.
-id: escaping
+id: characterescaping
 ---
 
 **This page is about character escaping.**

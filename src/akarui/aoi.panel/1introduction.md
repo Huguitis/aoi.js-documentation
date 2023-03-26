@@ -25,16 +25,25 @@ npm i @akarui/aoi.panel
 ## Basic Usage (aoi.js v5):
 
 ```javascript
-const {Panel} = require("@akarui/aoi.panel");
+const { Panel } = require("@akarui/aoi.panel");
 
-const {AoiClient} = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 
 const bot = new AoiClient({
     token: "Discord Bot Token",
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages"],
-    events: ["onMessage", "onInteractionCreate"]
+    events: ["onMessage", "onInteractionCreate"],
+    database: {
+        type: "aoi.db",
+        db: require("aoi.db"),
+        tables: ["main"],
+        path: "./database/",
+        extraOptions: {
+            dbType: "KeyValue"
+        }
+    }
 });
 
 const panel = new Panel({

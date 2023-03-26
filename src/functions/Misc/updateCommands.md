@@ -21,7 +21,16 @@ const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["GuildMessages", "MessageContent", "Guilds"],
-    events: ["onMessage", "onInteractionCreate"]
+    events: ["onMessage", "onInteractionCreate"],
+    database: {
+        type: "aoi.db",
+        db: require("aoi.db"),
+        tables: ["main"],
+        path: "./database/",
+        extraOptions: {
+            dbType: "KeyValue"
+        }
+    }
 });
 
 const loader = new LoadCommands(bot);

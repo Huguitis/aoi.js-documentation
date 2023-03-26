@@ -44,6 +44,7 @@ const bot = new AoiClient({
     prefix: "Discord Bot Prefix",
     intents: ["MessageContent", "Guilds", "GuildMessages", "GuildBans", "GuildWebhooks", "GuildPresences"],
     events: ["onMessage"],
+    ...
 })
 ```
 

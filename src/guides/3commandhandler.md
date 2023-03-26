@@ -26,10 +26,19 @@ the bot to understand where our files are.
 const { AoiClient, LoadCommands } = require("aoi.js");
 
 const bot = new AoiClient({
-    token: "DISCORD BOT TOKEN",
-    prefix: "DISCORD BOT PREFIX",
+    token: "Discord Bot Token",
+    prefix: "Discord Bot Prefix",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
-    events: ["onMessage", "onInteractionCreate"]
+    events: ["onMessage", "onInteractionCreate"],
+    database: {
+        type: "aoi.db",
+        db: require("aoi.db"),
+        tables: ["main"],
+        path: "./database/",
+        extraOptions: {
+            dbType: "KeyValue"
+        }
+    }
 });
 
 const loader = new LoadCommands(bot);
