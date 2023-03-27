@@ -106,7 +106,7 @@ voice.addPlugin(PluginName.Filter, new Filter({
 ```js
 voice.bindExecutor(bot.functionManager.interpreter);
 
-voice.addEvent(PlayerEvents.EVENT);
+voice.addEvent(PlayerEvents.EVENT_NAME);
 ```
 
 #### List of Callbacks

@@ -1,10 +1,10 @@
 ---
 title: $hasPlayer
-description: $hasPlayer will return either true or false depending on if the current instance has a player.
+description: $hasPlayer will return either true or false depending on if the current instance has a player in the current guild.
 id: hasPlayer
 ---
 
-`$hasPlayer` will return either true or false depending on if the current instance has a player.
+`$hasPlayer` will return either true or false depending on if the current instance has a player in the current guild.
 
 ## Usage
 
@@ -14,7 +14,7 @@ $hasPlayer
 
 ## Example
 
-This will return either true or false depending on if your bot has a player or not:
+This will return either true or false depending on if your bot has a player in the current guild or not:
 
 ```javascript
 bot.command({
