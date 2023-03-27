@@ -12,7 +12,6 @@ id: aoimusic-introduction
     - **[Adding Callbacks](#adding-callbacks)**
     - **[List of Callbacks](#list-of-callbacks)**
     - **[Using Callbacks](#using-callbacks)**
-- **[Soundcloud ID](#getting-your-soundcloud-id)**
 
 ---
 
@@ -105,18 +104,20 @@ voice.addPlugin(PluginName.Filter, new Filter({
 #### Adding Callbacks
 
 ```js
-voice.addEvent("eventName");
+voice.bindExecutor(bot.functionManager.interpreter);
+
+voice.addEvent(PlayerEvents.EVENT);
 ```
 
 #### List of Callbacks
 
-- `trackStart` &rarr; Emitted whenever a track starts. 
-- `trackEnd` &rarr; Emitted whenever a track ends.
-- `queueStart` &rarr; Emitted whenever a queue starts.
-- `queueEnd` &rarr; Emitted whenever a queue ends.
-- `audioError` &rarr; Emitted whenever a audio error occurs.
-- `trackPause` &rarr; Emitted whenever a track pauses.
-- `trackResume` &rarr; Emitted whenever a track resumes.
+- `TRACK_START` &rarr; Emitted whenever a track starts. 
+- `TRACK_END` &rarr; Emitted whenever a track ends.
+- `QUEUE_START` &rarr; Emitted whenever a queue starts.
+- `QUEUE_END` &rarr; Emitted whenever a queue ends.
+- `AUDIO_ERROR` &rarr; Emitted whenever a audio error occurs.
+- `TRACK_PAUSE` &rarr; Emitted whenever a track pauses.
+- `TRACK_RESUME` &rarr; Emitted whenever a track resumes.
 
 ### Using Callbacks
 
@@ -142,17 +143,3 @@ voice.cmds["eventName"].set("name of the command", {
     code: `code to execute here`
 });
 ```
-
-### Getting your SoundCloud ID
-
-Head to the [SoundCloud](https://soundcloud.com/) website and make sure you're logged in.
-
-1. Press <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> or <kbd>F12</kbd>
-
-2. Head to the `Network` tab and refresh the page if necessary.
-
-3. Play a random song and search for a property with `?clientID=`.
-
-4. Copy the characters after that and you're done.
-
-![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089057487690399856/wNZ1ZwP2xFAEAAAAABJRU5ErkJggg.png)

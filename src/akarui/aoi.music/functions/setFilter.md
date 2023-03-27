@@ -33,6 +33,8 @@ $setFilter[filter]
 | FLANGER      | flanger                                    | `{"FLANGER": "value"}`      |
 | PHASER       | aphaser                                    | `{"PHASER": "value"}`       |
 
+aoi.music also supports `ffmpeg` built-in filters in json format.
+
 ## Example
 
 This will set the filter to `NIGHT_CORE` and `BASS_BOOST` filters:
