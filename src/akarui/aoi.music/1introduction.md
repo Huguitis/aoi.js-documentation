@@ -8,10 +8,10 @@ id: aoimusic-introduction
 
 - **[Installation](#installation)**
 - **[Setup](#example-usage)**
-- **[Callbacks](#callbacks)**
-    - **[Adding Callbacks](#adding-callbacks)**
-    - **[List of Callbacks](#list-of-callbacks)**
-    - **[Using Callbacks](#using-callbacks)**
+- **[Events](#events)**
+    - **[Adding Events](#adding-events)**
+    - **[List of Events](#list-of-events)**
+    - **[Using Events](#using-events)**
 
 ---
 
@@ -99,9 +99,9 @@ voice.addPlugin(PluginName.Filter, new Filter({
 }));
 ```
 
-### Callbacks
+### Events
 
-#### Adding Callbacks
+#### Adding Events
 
 ```js
 voice.bindExecutor(bot.functionManager.interpreter);
@@ -109,7 +109,7 @@ voice.bindExecutor(bot.functionManager.interpreter);
 voice.addEvent(PlayerEvents.EVENT_NAME);
 ```
 
-#### List of Callbacks
+#### List of Events
 
 - `TRACK_START` &rarr; Emitted whenever a track starts. 
 - `TRACK_END` &rarr; Emitted whenever a track ends.
@@ -119,7 +119,7 @@ voice.addEvent(PlayerEvents.EVENT_NAME);
 - `TRACK_PAUSE` &rarr; Emitted whenever a track pauses.
 - `TRACK_RESUME` &rarr; Emitted whenever a track resumes.
 
-### Using Callbacks
+### Using Events
 
 ```js
 loader.load(voice.cmds,"./voice/") // loader being the LoadCommands class
