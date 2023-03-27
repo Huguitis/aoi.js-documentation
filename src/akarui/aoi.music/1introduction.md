@@ -8,6 +8,11 @@ id: aoimusic-introduction
 
 - **[Installation](#installation)**
 - **[Setup](#example-usage)**
+- **[Callbacks](#callbacks)**
+    - **[Adding Callbacks](#adding-callbacks)**
+    - **[List of Callbacks](#list-of-callbacks)**
+    - **[Using Callbacks](#using-callbacks)**
+- **[Soundcloud ID](#getting-your-soundcloud-id)**
 
 ---
 
@@ -53,7 +58,7 @@ const voice = new AoiVoice(bot, {
 
 ```javascript
 const { AoiClient } = require("aoi.js");
-const { AoiVoice } = require("@akarui/aoi.music");
+const { AoiVoice, PlayerEvents, PluginName, Cacher, Filter } = require("@akarui/aoi.music");
 
 const bot = new AoiClient({
     token: "Discord Bot Token",
@@ -71,12 +76,6 @@ const bot = new AoiClient({
     }
 });
 
-// Command Example (ping)
-bot.command({
-    name: "ping",
-    code: `Pong! $pingms`,
-});
-
 const voice = new AoiVoice(bot, {
     searchOptions: {
         soundcloudClientId: "Soundcloud ID",
@@ -87,13 +86,68 @@ const voice = new AoiVoice(bot, {
         soundcloudLikeTrackLimit: 200,
     },
 });
+
+// Command Example (ping)
+bot.command({
+    name: "ping",
+    code: `Pong! $pingms`,
+});
+
+// optional (cacher / filter)
+voice.addPlugin(PluginName.Cacher, new Cacher("memory" /* or "disk" */));
+voice.addPlugin(PluginName.Filter, new Filter({
+    filterFromStart: false,
+}));
+```
+
+### Callbacks
+
+#### Adding Callbacks
+
+```js
+voice.addEvent("eventName");
+```
+
+#### List of Callbacks
+
+- `trackStart` &rarr; Emitted whenever a track starts. 
+- `trackEnd` &rarr; Emitted whenever a track ends.
+- `queueStart` &rarr; Emitted whenever a queue starts.
+- `queueEnd` &rarr; Emitted whenever a queue ends.
+- `audioError` &rarr; Emitted whenever a audio error occurs.
+- `trackPause` &rarr; Emitted whenever a track pauses.
+- `trackResume` &rarr; Emitted whenever a track resumes.
+
+### Using Callbacks
+
+```js
+loader.load(voice.cmds,"./voice/") // loader being the LoadCommands class
+```
+
+This should be the content of your `/voice/somefile.js`:
+
+```js
+module.exports = [{
+    channel: "$channelID",
+    type: "eventName",
+    code: `code to execute here`
+}]
+```
+
+If you don't want to use handlers, you can use this instead in your main file:
+
+```js
+voice.cmds["eventName"].set("name of the command", {
+    channel: "$channelID",
+    code: `code to execute here`
+});
 ```
 
 ### Getting your SoundCloud ID
 
 Head to the [SoundCloud](https://soundcloud.com/) website and make sure you're logged in.
 
-1. Press <kbd>CTRL</kbd> / <kbd>⌘</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> or <kbd>F12</kbd>
+1. Press <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>I</kbd> or <kbd>F12</kbd>
 
 2. Head to the `Network` tab and refresh the page if necessary.
 
