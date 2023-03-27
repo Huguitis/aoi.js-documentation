@@ -24,20 +24,20 @@ $songInfo[type?;position?]
 
 | Property          |                                                        | Returns | Supports                                     |
 |-------------------|--------------------------------------------------------|---------|----------------------------------------------|
-| title             | Title                                                  | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
-| channelId         | Channel ID                                             | string  | YouTube                                      |
-| artist            | Artist                                                 | string  | YouTube, Spotify, SoundCloud                 |
-| artistURL         | Artist URL                                             | string  | YouTube, SoundCloud                          |
-| artistAvatar      | Artist Avatar                                          | string  | SoundCloud                                   |
-| duration          | Duration in ms                                         | number  | YouTube, Spotify, SoundCloud, Url, LocalFile |
+| title             | Returns the video/song title                           | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
+| channelId         | Returns the channel id                                 | string  | YouTube                                      |
+| artist            | Returns the Artist                                     | string  | YouTube, Spotify, SoundCloud                 |
+| artistURL         | Returns the Artist URL                                 | string  | YouTube, SoundCloud                          |
+| artistAvatar      | Returns the Artist Avatar                              | string  | SoundCloud                                   |
+| duration          | Returns the track/video duration in ms                 | number  | YouTube, Spotify, SoundCloud, Url, LocalFile |
 | identifier        | soundcloud, youtube, localfile, url, spotify           | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
-| views             | Views/Plays                                            | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
-| likes             | Likes                                                  | number  | YouTube, Spotify, SoundCloud, Url, LocalFile |
-| thumbnail         | Thumbnail                                              | number  | YouTube, Spotify, SoundCloud                 |
-| id                | ID                                                     | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
+| views             | Returns the amount of Views/Plays of the video/song    | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
+| likes             | Returns the amount of likes of the video/song          | number  | YouTube, Spotify, SoundCloud, Url, LocalFile |
+| thumbnail         | Returns the song/video thumbnail                       | number  | YouTube, Spotify, SoundCloud                 |
+| id                | Returns the song/video ID                              | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
 | description       | Description                                            | string  | YouTube, Spotify, SoundCloud                 |
 | createdAt         | Creation Date                                          | string  | YouTube, Spotify, SoundCloud                 |
-| platformType      |                                                        | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
+| platformType      | Returns the platform Type                              | number  | YouTube, Spotify, SoundCloud, Url, LocalFile |
 | rawData           |                                                        | object  | YouTube, Spotify, SoundCloud, Url, LocalFile |
 | formatedPlatforms | SoundCloud, YouTube, Localfile, Url, Spotify           | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
 | requester         | Song Requester (user object, .user.id, .user.name etc) | string  | YouTube, Spotify, SoundCloud, Url, LocalFile |
