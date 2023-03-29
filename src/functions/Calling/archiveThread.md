@@ -21,7 +21,7 @@ $archiveThread[threadID;channelID?;archive?;reason?]
 | archive?   | integer | archive thread?                 |  false   |
 | reason?    | string  | reason to display in audit logs |  false   |
 
-## Example
+## Example(s)
 
 This will archive the created thread:
 

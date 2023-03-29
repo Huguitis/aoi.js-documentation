@@ -18,7 +18,7 @@ $joinSplitText[sep?]
 |-------|---------|-------------|:--------:|
 | sep?  | integer | separator   |  false   |
 
-## Example
+## Example(s)
 
 This will join all text split elements with a comma:
 

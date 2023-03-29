@@ -19,7 +19,7 @@ $deleteMessage[messageID;channelID]
 | messageID | integer | guild ID    |   true   |
 | channelID | integer | channel ID  |  false   |
 
-## Example
+## Example(s)
 
 This will send and delete the sent message after 15 seconds ( we are using $let and $get to temporary store the message
 ID ):

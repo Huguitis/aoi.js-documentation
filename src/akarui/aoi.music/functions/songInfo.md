@@ -45,7 +45,7 @@ $songInfo[type?;position?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return the current track name:
 

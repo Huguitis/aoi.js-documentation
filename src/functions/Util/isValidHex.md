@@ -18,7 +18,7 @@ $isValidHex[color/int]
 |-----------|----------------|----------------------------|----------|
 | color/int | string/integer | hex / decimal color string | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as `#30dbd8` is an valid hex color:
 

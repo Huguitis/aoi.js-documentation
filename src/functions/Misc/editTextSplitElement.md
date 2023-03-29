@@ -19,7 +19,7 @@ $editTextSplitElement[index;text]
 | index | string | index of the text split element |   true   |
 | text  | string | new text split element          |   true   |
 
-## Example
+## Example(s)
 
 This will edit the 3rd text split element and change it to "Goodbye":
 

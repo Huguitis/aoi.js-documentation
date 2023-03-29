@@ -12,7 +12,7 @@ id: mentionedRolesCount
 $mentionedRolesCount
 ```
 
-## Example
+## Example(s)
 
 This will return the amount of role mentions in the given text:
 

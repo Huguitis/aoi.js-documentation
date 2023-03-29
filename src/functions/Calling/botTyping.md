@@ -12,7 +12,7 @@ id: botTyping
 $botTyping
 ```
 
-## Example
+## Example(s)
 
 This will display your bot as typing and send "Hello!" as message:
 

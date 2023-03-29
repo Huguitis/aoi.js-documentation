@@ -20,7 +20,7 @@ $hoistedRole[userID?;guildID?;option?]
 | guildID? | integer | the ID of the guild                                                                                       |  false   |
 | option?  | string  | the option on how to return the role <br /> 1. **name** <br /> 2. **id**  (default) <br /> 3. **mention** |  false   |
 
-## Example
+## Example(s)
 
 This will return the name of your highest hoisted role:
 

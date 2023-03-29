@@ -12,7 +12,7 @@ id: unshuffleQueue
 $unshuffleQueue
 ```
 
-## Example
+## Example(s)
 
 This will unshuffle the current queue:
 

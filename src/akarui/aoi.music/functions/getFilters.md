@@ -12,7 +12,7 @@ id: getFilters
 $getFilters
 ```
 
-## Example
+## Example(s)
 
 This will return the current applied filters:
 

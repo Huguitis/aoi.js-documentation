@@ -19,7 +19,7 @@ $roleMembersCount[roleID;guildID?]
 | roleID   | integer | role ID     |   true   |
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the amount of users who have a specific role:
 

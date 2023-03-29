@@ -70,7 +70,7 @@ $hasPerms[guildID;userID;...perms]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return `true` when the author has `kick` permissions and return `false` when they don't have those:
 

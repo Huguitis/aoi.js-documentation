@@ -19,7 +19,7 @@ $checkContains[text;...chars]
 | text  | string | text you want to check                           | true     |
 | chars | string | text you want to check for in the first argument | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as `easy` and/or `simple` are present in the given text:
 

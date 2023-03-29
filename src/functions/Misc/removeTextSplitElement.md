@@ -18,7 +18,7 @@ $removeTextSplitElement[element]
 |---------|--------|------------------------------|:--------:|
 | element | string | text split element to remove |   true   |
 
-## Example
+## Example(s)
 
 This will remove the word "bye" from the array:
 

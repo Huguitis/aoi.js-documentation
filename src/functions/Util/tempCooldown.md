@@ -24,7 +24,7 @@ $tempCooldown[time;id;errorMessage?]
 | id            | string | can be user, guild, message, channel or any other ID       | true     |
 | errorMessage? | string | error message when there's remaining time for the cooldown | false    |
 
-## Example
+## Example(s)
 
 This will set a temporary cooldown for a command which applies once only:
 

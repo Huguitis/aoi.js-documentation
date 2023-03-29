@@ -19,7 +19,7 @@ $highestGuildRole[guildID?;option?]
 | guildID? | integer | the ID of the guild                                                                                      |  false   |
 | option?  | string  | the option on how to return the role <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |  false   |
 
-## Example
+## Example(s)
 
 This will return the name of the highest role of your guild:
 

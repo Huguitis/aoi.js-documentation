@@ -18,7 +18,7 @@ $deleteStageInstance[channelID]
 |-----------|---------|-------------|:--------:|
 | channelID | integer | channel ID  |   true   |
 
-## Example
+## Example(s)
 
 This will end the current stage instance: ( make sure to replace stageID with an actual stage ID )
 

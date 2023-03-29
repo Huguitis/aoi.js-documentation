@@ -18,7 +18,7 @@ $guildNames[sep?]
 |-------|--------|------------------------------------------|:--------:|
 | sep?  | string | separator to separate multiple arguments |  false   |
 
-## Example
+## Example(s)
 
 This will return the names of the guilds your bot is in and separate it by a comma:
 

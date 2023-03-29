@@ -12,7 +12,7 @@ id: nodeVersion
 $nodeVersion
 ```
 
-## Examples
+## Example(s)
 
 This will return the current node.js version your bot is running on:
 

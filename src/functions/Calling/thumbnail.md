@@ -19,7 +19,7 @@ $thumbnail[index?;URL]
 | index? | number | embed index |  false   |
 | URL    | string | image URL   |   true   |
 
-## Example
+## Example(s)
 
 This will create an embed with your user avatar in it:
 

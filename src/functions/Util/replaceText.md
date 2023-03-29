@@ -21,7 +21,7 @@ $replaceText[text;replacer;replaceTo;times?]
 | replaceTo | string | the text that will replace `replacer`          | true     |
 | times?    | number | how many times `replaceTo` replaces `replacer` | false    |
 
-## Examples
+## Example(s)
 
 This will replace `M` with `D` and the output will be `Donkey`:
 
@@ -34,7 +34,7 @@ bot.command({
 });
 ```
 
-### Advanced Examples
+### Advanced Example
 
 This will replace the word `coffee` two times using the last [field](#parameters) of `$replaceText`:
 

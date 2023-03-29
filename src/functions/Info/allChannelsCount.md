@@ -39,7 +39,7 @@ $allChannelsCount[type?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return the amount of Voice Channels in your guild:
 

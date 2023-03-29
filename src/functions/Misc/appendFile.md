@@ -20,7 +20,7 @@ $appendFile[file;text;encode?]
 | text    | integer | text to add to the file                  |   true   |
 | encode? | integer | encode type <br /> 1. **utf8** (default) |  false   |
 
-## Example
+## Example(s)
 
 This will add a comment to your main file:
 

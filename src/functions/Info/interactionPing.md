@@ -14,7 +14,7 @@ $interactionPing
 
 #### Please note that you require `events: ["onMessage", "onInteractionCreate"]` to be in your main file.
 
-## Example
+## Example(s)
 
 This will return the latency of an interaction:
 

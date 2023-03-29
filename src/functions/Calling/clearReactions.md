@@ -20,7 +20,7 @@ $clearReactions[channelID;messageID;emoji]
 | messageID | integer | message ID                                                                  |   true   |
 | emoji     | string  | emoji to remove <br /> 1. **all** (default) <br /> 2. **emoji** - any emoji |   true   |
 
-## Example
+## Example(s)
 
 This will add two emojis and remove one completely:
 

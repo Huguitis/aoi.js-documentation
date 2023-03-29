@@ -18,7 +18,7 @@ $isInteger[number]
 |--------|--------|---------------------------------------------------|----------|
 | number | number | number you want to check if its an integer or not | true     |
 
-## Example
+## Example(s)
 
 This checks if your message contains an integer and returns `true` or `false`:
 

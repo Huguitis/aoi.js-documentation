@@ -19,7 +19,7 @@ $setGuildIcon[icon;guildID?]
 | icon     | string  | new guild icon |   true   |
 | guildID? | integer | guild ID       |  false   |
 
-## Example
+## Example(s)
 
 This will change guild's icon you're executing the command in to your user avatar:
 

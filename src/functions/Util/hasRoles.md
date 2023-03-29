@@ -20,7 +20,7 @@ $hasRoles[guildID;userID;...roles]
 | userID  | integer | user ID of the user which has the roles | true     |
 | roles   | integer | the roles that will be checked for      | true     |
 
-## Example
+## Example(s)
 
 This will return `true` when the user has the listed roles:
 

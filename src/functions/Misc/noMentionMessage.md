@@ -18,7 +18,7 @@ $noMentionMessage[args]
 |-------|--------|------------------|:--------:|
 | args? | string | message position |  false   |
 
-## Examples
+## Example(s)
 
 ```javascript
 bot.command({

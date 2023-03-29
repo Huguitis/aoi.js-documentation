@@ -20,7 +20,7 @@ $platform[userID?;guildID?;sep?]
 | guildID? | integer | the guild ID                              | false    |
 | sep?     | string  | the separator to split multiple arguments | false    |
 
-## Example
+## Example(s)
 
 This will return your platform you're using Discord on:
 

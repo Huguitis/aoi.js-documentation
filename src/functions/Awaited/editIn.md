@@ -19,7 +19,7 @@ $editIn[time;content]
 | time    | string, number | after how much time the message will be edited |   true   |
 | content | string         | what the new message should be                 |   true   |
 
-## Example
+## Example(s)
 
 This will edit the sent message after five seconds:
 

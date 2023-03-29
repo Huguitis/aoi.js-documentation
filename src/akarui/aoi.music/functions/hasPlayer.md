@@ -12,7 +12,7 @@ id: hasPlayer
 $hasPlayer
 ```
 
-## Example
+## Example(s)
 
 This will return either true or false depending on if your bot has a player in the current guild or not:
 

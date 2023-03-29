@@ -19,7 +19,7 @@ $sendMessage[message;returnID?]
 | message   | string | message to send                                                     |   true   |
 | returnID? | string | return message ID  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
-## Examples
+## Example(s)
 
 This will send a message in the current channel:
 

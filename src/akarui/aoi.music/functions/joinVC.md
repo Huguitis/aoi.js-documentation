@@ -25,7 +25,7 @@ $joinVC[voiceID?;selfDeaf?;selfMute?;speaker?;audioPlayerType?;debug?]
 
 **You require `intents: ["GuildVoiceStates"]` in your main file.**
 
-## Example
+## Example(s)
 
 This will make your bot join the voice channel you're currently in:
 

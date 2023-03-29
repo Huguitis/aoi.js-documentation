@@ -18,7 +18,7 @@ $volume[value]
 |-------|----------------|-----------------------------------------------------------------------------------------|:--------:|
 | value | string, number | new volume <br /> 1. **number** (any number) <br /> 2. **get** (returns current volume) |   true   |
 
-## Examples
+## Example(s)
 
 This will return the current volume:
 

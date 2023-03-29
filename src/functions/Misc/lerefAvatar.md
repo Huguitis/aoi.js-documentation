@@ -12,7 +12,7 @@ id: lerefAvatar
 $lerefAvatar
 ```
 
-## Example
+## Example(s)
 
 This will return the creator's Avatar:
 

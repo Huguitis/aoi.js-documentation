@@ -20,7 +20,7 @@ $advancedTextSplit[text;sep;index;sep?;index?..]
 | sep   | string  | separator                                     |   true   |
 | index | integer | the position of the text you want to separate |   true   |
 
-## Example
+## Example(s)
 
 This will split `Hello.`, `Bye.` and `Ok.` and return `Bye.`:
 

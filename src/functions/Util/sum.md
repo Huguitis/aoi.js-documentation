@@ -19,7 +19,7 @@ $sum[num1;num2]
 | num1  | number |             | true     |
 | num2  | number |             | true     |
 
-## Example
+## Example(s)
 
 This will return `75` as `70+5` equals `75`:
 

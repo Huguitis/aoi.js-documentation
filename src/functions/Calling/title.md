@@ -20,7 +20,7 @@ $title[index?;title;URL?]
 | title  | string | title content                   |   true   |
 | URL?   | string | URL which will be the hyperlink |  false   |
 
-## Example
+## Example(s)
 
 This will create an embed with a title:
 

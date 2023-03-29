@@ -18,7 +18,7 @@ $truncate[number]
 |--------|--------|-------------------|----------|
 | number | number | value to truncate | true     |
 
-## Example
+## Example(s)
 
 This will return `775` and remove `.9723` from the given value:
 

@@ -18,7 +18,7 @@ $toUpperCase[text]
 |-------|--------|-------------|----------|
 | text  | string |             | true     |
 
-## Example
+## Example(s)
 
 This will everything given to uppercase, in this case it would return `THIS IS AN EXAMPLE`:
 

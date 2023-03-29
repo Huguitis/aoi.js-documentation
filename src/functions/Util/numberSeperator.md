@@ -19,7 +19,7 @@ $numberSeparator[num;sep?]
 | num   | number | number you want to separate                                        | true     |
 | sep?  | string | separator which will be used to separate the numbers, default: `,` | false    |
 
-## Example
+## Example(s)
 
 This will return `1,000,000`:
 

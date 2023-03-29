@@ -28,7 +28,7 @@ $resolveColor[type;returnAs?;...datas]
 | decimal | hex color         | #32a852     |
 | number  | hexadecimal color | 80          |
 
-## Example
+## Example(s)
 
 This will return `#32a852` as `50, 168, 82` is the RGB value of it:
 

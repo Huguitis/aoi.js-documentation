@@ -20,7 +20,7 @@ $addField[fieldTitle;fieldDescription;inline?]
 | fieldDescription? | string | description |   true   |
 | inline?           | string | inline      |  false   |
 
-## Example
+## Example(s)
 
 This will send an embed with a field and description:
 

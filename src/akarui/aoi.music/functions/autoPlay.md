@@ -18,7 +18,7 @@ $autoPlay[type?]
 |-------|--------|-------------------------------------------------------------------------------------------------------------------------------|:--------:|
 | type? | string | Type <br /> 1. **relative** (default) <br /> 2. **spotify** <br /> 3. **youtube** <br /> 4. **soundcloud** <br /> 5. **none** |  false   |
 
-## Example
+## Example(s)
 
 This will automatically add songs to your queue from the given type:
 

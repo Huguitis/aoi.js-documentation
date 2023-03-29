@@ -46,7 +46,7 @@ $queue[page?;limit?;format?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return the current queue in the `{position}) {title} - {requester.user.name}` format:
 

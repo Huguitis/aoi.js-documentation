@@ -20,7 +20,7 @@ $writeFile[path;text;encoding?]
 | text     | string | what the content of the file should be |   true   |
 | encoding | string | text encoding                          |  false   |
 
-## Examples
+## Example(s)
 
 This will a file called "testing.txt" with the content of "Hello!":
 

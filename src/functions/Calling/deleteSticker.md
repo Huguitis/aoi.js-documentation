@@ -19,7 +19,7 @@ $deleteSticker[guildID;sticker]
 | guildID | integer | guild ID            |   true   |
 | sticker | string  | name of the sticker |   true   |
 
-## Example
+## Example(s)
 
 This will delete a sticker of your guild ( make sure to provide an actual sticker name ):
 

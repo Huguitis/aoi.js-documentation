@@ -21,7 +21,7 @@ $onlyBotPerms[...perms;error?]
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 
-## Examples
+## Example(s)
 
 This will limit the command to work only when the Bot has administrator permissions:
 

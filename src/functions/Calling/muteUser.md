@@ -21,7 +21,7 @@ $muteUser[guildID;userID;mute?;reason?]
 | mute?   | integer | mute or unmute <br /> 1. **true** (mute / default) <br /> 2. **false** (unmute) |  false   |
 | reason? | string  | reason to display in the guilds audit logs                                      |  false   |
 
-## Example
+## Example(s)
 
 This will server mute yourself (must be in a voice channel):
 

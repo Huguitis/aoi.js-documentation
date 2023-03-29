@@ -18,7 +18,7 @@ $handleError[option]
 |--------|--------|--------------------------------------------------------------------------------------------------------------------------------------|:--------:|
 | option | string | what to return <br /> 1. **function** - function name <br /> 2. **command** - command name <br /> 3. **error** - error that occurred |   true   |
 
-## Example
+## Example(s)
 
 **You require `events: ["onFunctionError"]` in your main file in order to use this function!**
 

@@ -12,7 +12,7 @@ id: getCurrentTrackDuration
 $getCurrentTrackDuration
 ```
 
-## Example
+## Example(s)
 
 This will return the current track duration in ms:
 

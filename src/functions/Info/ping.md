@@ -12,7 +12,7 @@ id: ping
 $ping
 ```
 
-## Example
+## Example(s)
 
 This will return your bot's latency in MS:
 

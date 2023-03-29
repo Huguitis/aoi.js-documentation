@@ -12,7 +12,7 @@ id: maxRam
 $maxRam
 ```
 
-## Example
+## Example(s)
 
 This will your bot's maximum amount of available Ram:
 

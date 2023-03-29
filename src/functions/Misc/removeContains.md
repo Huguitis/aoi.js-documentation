@@ -19,7 +19,7 @@ $removeContains[text;...words]
 | text     | string | text where to remove the words from |   true   |
 | ...words | string | word to remove from the text        |   true   |
 
-## Example
+## Example(s)
 
 This will remove the word "aoi.js from the given text:
 

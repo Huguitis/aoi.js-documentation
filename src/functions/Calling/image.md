@@ -19,7 +19,7 @@ $image[index?;URL]
 | index? | number | embed index/position     |  false   |
 | URL    | string | image (bottom big image) |   true   |
 
-## Example
+## Example(s)
 
 This will create an embed with an image, title and footer:
 

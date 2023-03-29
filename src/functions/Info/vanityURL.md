@@ -18,7 +18,7 @@ $vanityURL[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the vanity URL of your guild, if you have one:
 

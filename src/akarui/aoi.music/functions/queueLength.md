@@ -12,7 +12,7 @@ id: queueLength
 $queueLength
 ```
 
-## Example
+## Example(s)
 
 This will return the current queue length:
 

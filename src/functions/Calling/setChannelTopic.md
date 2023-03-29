@@ -19,7 +19,7 @@ $setChannelTopic[channelID;topic]
 | channelID | integer | channel ID  |   true   |
 | topic     | string  | new topic   |   true   |
 
-## Example
+## Example(s)
 
 This will change the topic of the channel where the command is executed in:
 

@@ -12,7 +12,7 @@ id: endif
 $endif
 ```
 
-## Example
+## Example(s)
 
 Example usage of `$if: old` (will return "Hello" when the condition is true):
 

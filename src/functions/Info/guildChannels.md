@@ -20,7 +20,7 @@ $guildChannels[guildID?;option?;sep?]
 | option?  | string  | the option on how to return the channel <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |  false   |
 | sep?     | string  | separator to separate multiple arguments                                                                    |  false   |
 
-## Example
+## Example(s)
 
 This will return all channels of your guild:
 

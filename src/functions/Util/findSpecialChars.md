@@ -18,7 +18,7 @@ $findSpecialChars[text]
 |-------|--------|------------------------------------------------|----------|
 | text  | string | text where you want to find special characters | true     |
 
-## Example
+## Example(s)
 
 This will return `######`:
 

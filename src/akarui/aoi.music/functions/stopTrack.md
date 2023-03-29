@@ -12,7 +12,7 @@ id: stopTrack
 $stopTrack
 ```
 
-## Example
+## Example(s)
 
 This will stop the current track:
 

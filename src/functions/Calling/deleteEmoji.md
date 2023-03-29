@@ -18,7 +18,7 @@ $deleteEmoji[emoji]
 |-------|--------|-----------------------------|:--------:|
 | emoji | string | emoji name, id or full form |   true   |
 
-## Example
+## Example(s)
 
 This will delete a random emoji of your guild:
 

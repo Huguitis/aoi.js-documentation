@@ -18,7 +18,7 @@ $closeTicket[error?]
 |--------|--------|-----------------|:--------:|
 | error? | string | error to return |  false   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

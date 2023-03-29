@@ -19,7 +19,7 @@ $cacheMembers[guildID?;returnCount?]
 | guildID?     | integer | guild ID                                                                        |   true   |
 | returnCount? | integer | return the cached member count <br /> 1. **true** <br /> 2. **false** (default) |   true   |
 
-## Example
+## Example(s)
 
 This will cache all members of the current guild and return the amount of the cached members:
 

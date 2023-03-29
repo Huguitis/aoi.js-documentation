@@ -22,7 +22,7 @@ $createWebhook[channelID;name;avatar;reason;separator?]
 | reason     | string  | reason that will be displayed in the guild's audit logs |   true   |
 | separator? | string  | separator to separate webhook token, id, etc.           |  false   |
 
-## Example
+## Example(s)
 
 This will create a webhook in the current channel:
 

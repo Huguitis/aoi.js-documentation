@@ -18,7 +18,7 @@ $message[index?]
 |--------|---------|---------------------------------------------------------------|:--------:|
 | index? | integer | which message to return, leave empty to return every argument |  false   |
 
-## Example
+## Example(s)
 
 This will return your given message:
 

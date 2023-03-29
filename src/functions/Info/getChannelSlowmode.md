@@ -18,7 +18,7 @@ $getChannelSlowmode[channelID?]
 |------------|---------|------------------------------------------------------------------|----------|
 | channelID? | integer | channel ID of the channel where you want the channel slowmode of | false    |
 
-## Example
+## Example(s)
 
 This will return the slowmode of the channel where you execute the command in:
 

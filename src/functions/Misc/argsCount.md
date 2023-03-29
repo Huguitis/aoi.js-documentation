@@ -13,7 +13,7 @@ id: argsCount
 $argsCount
 ```
 
-## Example
+## Example(s)
 
 This will return the amount of arguments in your message, for example, `[prefix]argsCount Hello Bye` will return two:
 

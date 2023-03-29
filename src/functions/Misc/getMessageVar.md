@@ -20,7 +20,7 @@ $getMessageVar[varname;guildID?;table?]
 | messageID? | integer | message ID     |  false   |
 | table?     | string  | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will return the value of a variable called "Example":
 

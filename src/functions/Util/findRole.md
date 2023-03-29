@@ -19,7 +19,7 @@ $findRole[roleResolver;guildID?]
 | roleResolver | string  | name of the role you want to find     | true     |
 | guildID?     | integer | guild ID where the role is present in | false    |
 
-## Example
+## Example(s)
 
 This will return the role ID of the role `Owner` if it exists:
 

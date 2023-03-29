@@ -19,7 +19,7 @@ $commandInfo[name;option]
 | name   | string | command name or alias |   true   |
 | option | string | option to retrieve    |   true   |
 
-## Example
+## Example(s)
 
 This will return the usage (defined by added properties) of the command:
 

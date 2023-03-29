@@ -21,7 +21,7 @@ $getLeaderboardInfo[variable;id;type?;option?]
 | type    | string  | variable type <br /> 1. **globalUser** <br /> 2. **user** <br /> 3. **server** <br /> 4. **channel** |   true   |
 | option? | string  | data to return <br /> 1. **top** (default) <br /> **value**                                          |  false   |
 
-## Example
+## Example(s)
 
 This will return the position of the current guild:
 

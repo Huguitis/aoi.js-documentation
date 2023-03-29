@@ -20,7 +20,7 @@ $messageFlags[messageID;sep?;channelID?]
 | sep?       | string  | separator to separate returned arguments      |  false   |
 | channelID? | integer | channel id of where the message is located in |  false   |
 
-## Example
+## Example(s)
 
 This will the message flags of your initial command message:
 

@@ -18,7 +18,7 @@ $ownerID[guildID?]
 |----------|---------|-------------|----------|
 | guildID? | integer | guild ID    | false    |
 
-## Example
+## Example(s)
 
 This will return the ID of the server owner where you execute the command in:
 

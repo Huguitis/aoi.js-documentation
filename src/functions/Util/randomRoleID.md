@@ -18,7 +18,7 @@ $randomRoleID[guildID?]
 |----------|---------|----------------------------------------------|----------|
 | guildID? | integer | where it will return the random role ID from | true     |
 
-## Example
+## Example(s)
 
 This will return a random role ID of your guild:
 

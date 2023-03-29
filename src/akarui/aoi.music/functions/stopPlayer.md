@@ -12,7 +12,7 @@ id: stopPlayer
 $stopPlayer
 ```
 
-## Example
+## Example(s)
 
 This will destroy the current player:
 

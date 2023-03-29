@@ -24,7 +24,7 @@ $uptime[option?]
 | humanize           | 19m 21s                |
 | ms                 | 1165980                |
 
-## Example
+## Example(s)
 
 This will return the time of how long your bot is online for:
 

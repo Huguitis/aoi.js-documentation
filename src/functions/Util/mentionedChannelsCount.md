@@ -12,7 +12,7 @@ id: mentionedChannelsCount
 $mentionedChannelsCount
 ```
 
-## Example
+## Example(s)
 
 This will return the amount of channel mentions in the given text:
 

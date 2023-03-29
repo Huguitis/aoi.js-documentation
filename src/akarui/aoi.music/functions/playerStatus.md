@@ -12,7 +12,7 @@ id: playerStatus
 $playerStatus
 ```
 
-## Example
+## Example(s)
 
 This will return the current player status:
 

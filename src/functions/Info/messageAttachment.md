@@ -18,7 +18,7 @@ $messageAttachment[index?]
 |--------|---------|------------------------------------------------------------|:--------:|
 | index? | integer | which message attachment to return, <br /> **1** - default |  false   |
 
-## Example
+## Example(s)
 
 This will return your given attachment:
 

@@ -12,7 +12,7 @@ id: guildCount
 $guildCount
 ```
 
-## Example
+## Example(s)
 
 This will return the amount of guilds your bot is in:
 

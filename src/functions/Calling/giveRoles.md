@@ -22,7 +22,7 @@ $giveRoles[guildID;userID;...roles]
 
 Please note that the bots **highest** role must be above the role you're trying to assign.
 
-## Example
+## Example(s)
 
 This will assign you two role called "Admin" and "Moderator" (if present):
 

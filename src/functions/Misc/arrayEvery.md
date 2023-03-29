@@ -32,7 +32,7 @@ $arrayEvery[name;query;queryType?]
 * `>=` — Greater than or equal to
 * `<=` — Less than or equal to
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

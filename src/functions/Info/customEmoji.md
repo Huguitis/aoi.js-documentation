@@ -19,7 +19,7 @@ $customEmoji[emoji;id?]
 | emoji | string | emoji name or id                                                                           |   true   |
 | id?   | string | where the emoji is from <br /> 1. **global** <br /> 2. **guildID** - replace with guild ID |  false   |
 
-## Example
+## Example(s)
 
 This send a custom emoji of your choice, replace emojiname with an actual emoji name:
 

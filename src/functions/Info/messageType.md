@@ -19,7 +19,7 @@ $messageType[messageID?;channelID?]
 | messageID? | integer | id of the message                             |  false   |
 | channelID? | integer | channel ID of where the message is located in |  false   |
 
-## Example
+## Example(s)
 
 This will return the message type of the message which executed the command:
 

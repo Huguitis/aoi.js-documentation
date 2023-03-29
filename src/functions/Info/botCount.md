@@ -18,7 +18,7 @@ $botCount[guildID?]
 |----------|---------|---------------------------------------------------------------|:--------:|
 | guildID? | integer | guild id of the guild you want to retrieve the amount of bots |  false   |
 
-## Example
+## Example(s)
 
 This will return the amount of bots in your guild:
 

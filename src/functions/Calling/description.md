@@ -19,7 +19,7 @@ $description[index?;description]
 | index?      | number | embed index                        |  false   |
 | description | string | content of the embed's description |   true   |
 
-## Example
+## Example(s)
 
 This will send an embed with the content `aoi.js is great!`:
 

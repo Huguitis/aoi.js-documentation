@@ -18,7 +18,7 @@ $voicePing[type?]
 |-------|--------|-------------------------------------------------------------|:--------:|
 | type? | string | type to return <br /> 1. **ws** (default) <br /> 2. **upd** |  false   |
 
-## Example
+## Example(s)
 
 This will return the current voice latency:
 

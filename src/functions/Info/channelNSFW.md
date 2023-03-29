@@ -18,7 +18,7 @@ $channelNSFW[channelID?]
 |------------|---------|--------------------------------------------------------------------------|:--------:|
 | channelID? | integer | channel ID of the channel you want to check if its marked as NSFW or not |  false   |
 
-## Example
+## Example(s)
 
 This will return either `true` or `false` depending on if the channel where you execute the command is marked as NSFW or
 not:

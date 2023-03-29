@@ -94,7 +94,7 @@ $getAuditLogs[guildID;userID?;limit?;action?;format?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return your latest bans (which are logged in audit logs):
 

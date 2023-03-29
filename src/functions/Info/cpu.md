@@ -18,7 +18,7 @@ $cpu[option?]
 |---------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
 | option? | string | the option that the cpu usage will be returned of <br /> 1. **os** - returns the CPU usage of the bot <br /> 2. **process** - returns the CPU usage of the process |  false   |
 
-## Example
+## Example(s)
 
 This will return the CPU usage of your bot:
 

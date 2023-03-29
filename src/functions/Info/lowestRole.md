@@ -19,7 +19,7 @@ $lowestRole[userID?;guildID?]
 | userID?  | integer | user of the user you want the lowest role to be returned of |  false   |
 | guildID? | integer | the ID of the guild                                         |  false   |
 
-## Example
+## Example(s)
 
 This will return the ID of your lowest role:
 

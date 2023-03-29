@@ -19,7 +19,7 @@ $setRoleColor[roleID;color]
 | roleID | integer | role ID     |   true   |
 | color  | string  | color       |   true   |
 
-## Examples
+## Example(s)
 
 This will change a random role's color to red:
 

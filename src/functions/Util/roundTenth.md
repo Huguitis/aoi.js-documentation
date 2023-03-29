@@ -19,7 +19,7 @@ $roundTenth[number;decimalPosition]
 | number          | number  | number to round                                   | true     |
 | decimalPosition | integer | how many numbers after the comma will be returned | true     |
 
-## Example
+## Example(s)
 
 This will return `503.70` as it's the nearest number to `503.6972`:
 

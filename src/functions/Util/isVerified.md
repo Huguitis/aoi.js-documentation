@@ -18,7 +18,7 @@ $isVerified[guildID?]
 |----------|---------|------------------------------------------------------------------------|----------|
 | guildID? | integer | the guild ID of the guild you want to check its verification status of | false    |
 
-## Example
+## Example(s)
 
 This will check if your server is verified and return either `true` or `false`:
 

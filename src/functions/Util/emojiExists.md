@@ -20,7 +20,7 @@ $emojiExists[emoji]
 
 ### Please note that your bot has to be present in the guild where the emoji is in.
 
-## Example
+## Example(s)
 
 This will return `true` as
 the ![emoji](https://cdn.discordapp.com/emojis/1003365344724910191.webp?size=16&quality=lossless) emoji exists:

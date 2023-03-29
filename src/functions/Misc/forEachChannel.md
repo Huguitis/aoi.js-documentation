@@ -21,7 +21,7 @@ $forEachChannel[time;awaitData;...awaitedCmds;endCmd?]
 | awaitedCmds | string | Awaited Commands                                            |   true   |
 | endCmd?     | string | awaited command to execute when loop ends                   |  false   |
 
-## Example
+## Example(s)
 
 This will change the variable value of each channel to "test":
 

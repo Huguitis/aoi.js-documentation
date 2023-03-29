@@ -20,7 +20,7 @@ $attachment[attachment;name;type?]
 | name       | string | attachment name                             |   true   |
 | type?      | string | attachment type <br /> 1. **URL** (default) |  false   |
 
-## Example
+## Example(s)
 
 This will create an attachment:
 

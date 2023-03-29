@@ -21,7 +21,7 @@ $isBoosting[userID?;guildID?]
 
 ### Please note that your bot has to be present in the server where you're going to check for an users boosting status.
 
-## Example
+## Example(s)
 
 This will return `false` or `true` depending on if you boosted this server:
 

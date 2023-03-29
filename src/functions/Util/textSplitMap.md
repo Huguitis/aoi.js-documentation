@@ -18,7 +18,7 @@ $textSplit[awaited]
 |---------|--------|-----------------------------|----------|
 | awaited | string | name of the awaited command | true     |
 
-## Example
+## Example(s)
 
 This will return the arguments within `$textSplit` and send all of them separately:
 

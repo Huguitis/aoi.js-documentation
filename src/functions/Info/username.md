@@ -18,7 +18,7 @@ $username[userID?]
 |---------|---------|-------------|:--------:|
 | userID? | integer | user ID     |  false   |
 
-## Example
+## Example(s)
 
 This will return your username:
 

@@ -21,7 +21,7 @@ $clearReaction[channelID;messageID;userID;emoji]
 | userID    | integer | user ID to remove from the reaction |   true   |
 | emoji     | string  | emoji to remove                     |   true   |
 
-## Example
+## Example(s)
 
 This will add and remove the bot's reaction after two seconds:
 

@@ -19,7 +19,7 @@ $hasEmbeds[messageID;channelID]
 | messageID | integer | message ID of the embed                                 | true     |
 | channelID | integer | channel ID of the channel where the embed is present in | true     |
 
-## Example
+## Example(s)
 
 This will return `false` as there are false embeds attached to your message:
 

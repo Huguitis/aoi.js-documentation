@@ -21,7 +21,7 @@ $setMessageVar[varname;value;messageID?;table?]
 | messageID? | integer                 | message ID     |  false   |
 | table?     | string                  | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will change the value of "Example" to "This is a value":
 

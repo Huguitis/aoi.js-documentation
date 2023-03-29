@@ -30,7 +30,7 @@ $arrayFilter[name;query;queryType?;separator?]
 * `>=` — All items on the "left" of the found item, including itself.
 * `<=` — All items on the "right" of the found item, including itself.
 
-## Examples
+## Example(s)
 
 ```javascript
 bot.command({

@@ -18,7 +18,7 @@ $isUserDmEnabled[userid]
 |--------|---------|-----------------------------------------------------------------------|----------|
 | userid | integer | user id of the user you want to check if their dms are enabled or not | true     |
 
-## Example
+## Example(s)
 
 This will return either `true` or `false` depending on if your Direct Messages are enabled or disabled:
 

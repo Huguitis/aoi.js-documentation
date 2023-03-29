@@ -12,7 +12,7 @@ id: shuffleQueue
 $shuffleQueue
 ```
 
-## Example
+## Example(s)
 
 This will shuffle the current queue:
 

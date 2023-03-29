@@ -18,7 +18,7 @@ $loopMode[mode?]
 |-------|--------|-------------------------------------------------------------------------------|:--------:|
 | mode? | string | loop mode <br /> 1. **queue** (default) <br /> 2. **song** <br /> 3. **none** |  false   |
 
-## Example
+## Example(s)
 
 This will set the loop mode to the current track:
 

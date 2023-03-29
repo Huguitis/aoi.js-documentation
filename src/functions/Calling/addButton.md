@@ -36,7 +36,7 @@ $addButton[index;label;style;customID;disabled?;emoji?]
 
 </details>
 
-## Example
+## Example(s)
 
 This adds a primary and link button to the bot's message:
 

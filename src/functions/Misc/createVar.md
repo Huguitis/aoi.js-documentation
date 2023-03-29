@@ -19,7 +19,7 @@ $createVar[table;...vars]
 | table   | string | variable table          |   true   |
 | ...vars | string | variable name and value |   true   |
 
-## Example
+## Example(s)
 
 This will create a new variable with the name of "variable" and the value of "value":
 

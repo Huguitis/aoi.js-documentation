@@ -53,7 +53,7 @@ $editChannel[channelID;name?;type?;position?;topic?;nsfw?;bitrate?;userlimit?;pa
 
 </details>
 
-## Example
+## Example(s)
 
 This will change the current channel name to "I love aoi.js" and move it to the top:
 

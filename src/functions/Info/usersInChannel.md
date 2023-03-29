@@ -20,7 +20,7 @@ $usersInChannel[channelID;option?;sep?]
 | option?   | string  | how to return the users <br /> 1. **id** (default) <br /> 2. **user** - mentions the users |  false   |
 | sep?      | string  | separator                                                                                  |  false   |
 
-## Example
+## Example(s)
 
 This will return the users connected to a voice channel:
 

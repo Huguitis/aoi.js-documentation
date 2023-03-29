@@ -12,7 +12,7 @@ id: day
 $day
 ```
 
-## Example
+## Example(s)
 
 This will return day of the month, for example, `thursday`:
 

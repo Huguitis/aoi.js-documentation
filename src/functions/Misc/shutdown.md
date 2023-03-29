@@ -12,7 +12,7 @@ id: shutdown
 $shutdown
 ```
 
-## Example
+## Example(s)
 
 This will shutdown your bot:
 

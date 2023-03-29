@@ -12,7 +12,7 @@ id: packageVersion
 $packageVersion
 ```
 
-## Examples
+## Example(s)
 
 This will return your current aoi.js version:
 

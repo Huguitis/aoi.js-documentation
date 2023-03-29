@@ -19,7 +19,7 @@ $pinMessage[messageID?;channelID?]
 | messageID | integer | message ID  |  false   |
 | channelID | integer | channel ID  |  false   |
 
-## Example
+## Example(s)
 
 This will pin the bot's message:
 

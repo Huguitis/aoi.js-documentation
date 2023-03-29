@@ -21,7 +21,7 @@ $usersWithRole[roleID;guildID?;option?;sep?]
 | option?  | string  | how to return the users <br /> 1. **id** (default) <br /> 2. **mention** |  false   |
 | sep?     | string  | separator to separate multiple arguments                                 |  false   |
 
-## Example
+## Example(s)
 
 This will return the users of a specific role, make sure to replace roleID:
 

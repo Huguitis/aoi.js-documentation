@@ -18,7 +18,7 @@ $guildExists[guildId]
 |---------|---------|-------------|----------|
 | guildId | integer | guild id    | true     |
 
-## Example
+## Example(s)
 
 This will return `true` your guild exists:
 

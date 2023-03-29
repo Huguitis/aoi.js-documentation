@@ -12,7 +12,7 @@ id: month
 $month
 ```
 
-## Examples
+## Example(s)
 
 This will returns the current month:
 

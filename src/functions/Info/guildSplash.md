@@ -18,7 +18,7 @@ $guildSplash[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the guild's invite background (if unlocked):
 

@@ -21,7 +21,7 @@ $getCooldownTime[time;type;command;id]
 | command | string  | command name                                                                                                              |   true   |
 | id      | integer | user/guild/channel id                                                                                                     |   true   |
 
-## Example
+## Example(s)
 
 This will return the remaining cooldown of the "getCooldownTime" command:
 

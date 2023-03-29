@@ -23,7 +23,7 @@ $httpRequest[URL;method?;body?;property?;error?;headerName:headerValue?]
 | error?    | string | error to return when request fails                    |  false   |
 | ...header | string | headerName, headerValue                               |   true   |
 
-## Example
+## Example(s)
 
 This will return a random dog fact using the `GET` method:
 

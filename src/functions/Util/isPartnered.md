@@ -18,7 +18,7 @@ $isPartnered[guildID?]
 |----------|---------|-----------------------------------------------------------------------|----------|
 | guildID? | integer | the guild ID of the guild you want to check its partnership status of | true     |
 
-## Example
+## Example(s)
 
 This will check if your server is partnered and return either `true` or `false`:
 

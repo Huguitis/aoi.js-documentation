@@ -19,7 +19,7 @@ $arrayIndexOf[name;query]
 | name  | string | array name                                                         |   true   |
 | query | string | The element we will be queering for every element inside the array |   true   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

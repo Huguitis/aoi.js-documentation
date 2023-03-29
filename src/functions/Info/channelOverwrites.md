@@ -27,7 +27,7 @@ $channelOverwrites[channelID?;response?;sep?]
 |  `{allow}`  | The granted permissions        |
 |  `{deny}`   | The denied permissions         |
 
-## Example
+## Example(s)
 
 This will return the channel overwrites of the channel where you execute the command in:
 

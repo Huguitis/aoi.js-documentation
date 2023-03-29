@@ -20,7 +20,7 @@ $sendDm[message;userID?;returnID?]
 | userID?   | string | user which receives the DM                                          |  false   |
 | returnID? | string | return message ID  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
-## Example
+## Example(s)
 
 This will send a DM to the command author:
 

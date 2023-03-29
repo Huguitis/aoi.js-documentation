@@ -12,7 +12,7 @@ id: clientID
 $clientID
 ```
 
-## Example
+## Example(s)
 
 This will return the client's ID:
 

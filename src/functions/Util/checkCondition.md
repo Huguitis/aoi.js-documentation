@@ -44,7 +44,7 @@ bot.command({
 });
 ```
 
-### Advanced Example(s)
+### Advanced Example
 
 #### Logical conjunction
 

@@ -18,7 +18,7 @@ $guildName[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the name of your guild:
 

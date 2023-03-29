@@ -12,7 +12,7 @@ id: mentionedUsersCount
 $mentionedUsersCount
 ```
 
-## Example
+## Example(s)
 
 This will return the amount of user mentions in the given text:
 

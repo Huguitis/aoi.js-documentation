@@ -28,7 +28,7 @@ $createThread[channelID;name;archive;type;startMessage;returnId?]
 * **4320 —** This option makes the thread stays active for **3 days**.
 * **10080 —** This option makes the thread stays active for **1 week**.
 
-## Example
+## Example(s)
 
 This will create a thread in the current channel:
 

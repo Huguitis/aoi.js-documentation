@@ -12,7 +12,7 @@ id: pauseTrack
 $pauseTrack
 ```
 
-## Example
+## Example(s)
 
 This will pause the current track:
 

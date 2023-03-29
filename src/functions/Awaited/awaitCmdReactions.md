@@ -25,7 +25,7 @@ $awaitCmdReactions[userFilter;time;reactions;commands;errorMsg?;awaitData?]
 
 **Make sure you have `GuildMessageReactions` as intent in your main file.**
 
-## Example
+## Example(s)
 
 This will reply to you when you react with the "❤️" emoji to your initial command message:
 

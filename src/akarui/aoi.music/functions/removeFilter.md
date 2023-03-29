@@ -33,7 +33,7 @@ $removeFilter[filter]
 | FLANGER      | flanger                                    | `{"FLANGER": "value"}`      |
 | PHASER       | aphaser                                    | `{"PHASER": "value"}`       |
 
-## Example
+## Example(s)
 
 This will remove the `NIGHT_CORE` and `BASS_BOOST` filters:
 

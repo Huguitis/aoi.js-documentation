@@ -18,7 +18,7 @@ $findNumbers[text]
 |-------|--------|-------------------------------------|----------|
 | text  | string | text where you want to find numbers | true     |
 
-## Example
+## Example(s)
 
 This will return `25` and remove `Hello, I'm [..] years old` from the given text:
 

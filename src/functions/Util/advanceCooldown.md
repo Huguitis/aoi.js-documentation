@@ -24,7 +24,7 @@ $advanceCooldown[time;id;errorMessage?]
 | id            | integer | text to be separated                                          | true     |
 | errorMessage? | string  | error message to be displayed when there's cooldown remaining | false    |
 
-## Example
+## Example(s)
 
 This will set a cooldown for the guild of where you execute the command in and return the remaining cooldown time:
 

@@ -20,7 +20,7 @@ $findMember[user;returnSelf?;guildID?]
 | returnSelf? | string  | return the author's id if user was not found | false    |
 | guildID?    | integer | guild ID where the user is present in        | false    |
 
-## Example
+## Example(s)
 
 This will return your ID as `Leref` was not found in the given guild:
 

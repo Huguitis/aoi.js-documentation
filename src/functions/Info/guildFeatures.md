@@ -18,7 +18,7 @@ $guildFeatures[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the unlocked guild features of a guild:
 

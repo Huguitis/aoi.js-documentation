@@ -19,7 +19,7 @@ $status[userId?;guildId?]
 | userId?  | integer | user ID     |  false   |
 | guildId? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will either return `idle`, `online`, `invisible` or `dnd` depending on your current presence:
 

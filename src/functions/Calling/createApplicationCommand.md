@@ -50,7 +50,7 @@ options ?
 
 </details>
 
-## Example
+## Example(s)
 
 #### Check the Slash Command/Interaction guide for more information about slash commands
 

@@ -18,7 +18,7 @@ $emojiCount[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the emoji count of your guild:
 

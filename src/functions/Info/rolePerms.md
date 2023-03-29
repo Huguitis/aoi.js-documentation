@@ -20,7 +20,7 @@ $rolePerms[roleID;sep?;guildID?]
 | sep?     | integer | separator to separate multiple arguments |  false   |
 | guildID? | integer | guild ID                                 |  false   |
 
-## Example
+## Example(s)
 
 This will return the permissions for the `@everyone` role:
 

@@ -21,7 +21,7 @@ $getBanReason[guildID?;userID?]
 
 #### Please note that your bot requires `VIEW_AUDIT_LOG` permissions
 
-## Example
+## Example(s)
 
 This will return the ban reason of whoever you'd like:
 

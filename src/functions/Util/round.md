@@ -18,7 +18,7 @@ $round[number]
 |--------|--------|-----------------|----------|
 | number | number | number to round | true     |
 
-## Example
+## Example(s)
 
 This will return `555` as it's the next number to `555.78`:
 

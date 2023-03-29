@@ -18,7 +18,7 @@ $isMentioned[query]
 |-------|--------|--------------------------------------------------------------|----------|
 | query | string | where you want to check if a user/role/channel was mentioned | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as you were mentioned within the message:
 

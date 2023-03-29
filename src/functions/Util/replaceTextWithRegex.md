@@ -32,7 +32,7 @@ $replaceTextWithRegex[text;reg;flags;newT]
 
 </details>
 
-## Examples
+## Example(s)
 
 This will replace `more` with `less`:
 

@@ -18,7 +18,7 @@ $vanityUses[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the uses of your guild's vanity URL, if you have one:
 

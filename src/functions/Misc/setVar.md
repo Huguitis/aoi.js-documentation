@@ -20,7 +20,7 @@ $setVar[varname;value;table?]
 | value   | string, integer, number | variable table |   true   |
 | table?  | string                  | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will change the value of "Example" to "This is a value":
 

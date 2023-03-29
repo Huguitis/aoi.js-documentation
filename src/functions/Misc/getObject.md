@@ -18,7 +18,7 @@ $getObject[format?]
 |---------|--------|-------------------------------------------------------------|:--------:|
 | format? | string | format the output <br /> 1. **true** (default) 2. **false** |  false   |
 
-## Example
+## Example(s)
 
 This will return the object created in `$createObject`:
 

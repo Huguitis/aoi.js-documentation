@@ -19,7 +19,7 @@ $renameFile[oldFile;newFile]
 | oldFile | string | old file name |   true   |
 | newFile | string | new file name |   true   |
 
-## Example
+## Example(s)
 
 This will change your index.js to a index.txt file:
 

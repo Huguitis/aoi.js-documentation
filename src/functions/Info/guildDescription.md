@@ -18,7 +18,7 @@ $guildDescription[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the description of a specific guild:
 

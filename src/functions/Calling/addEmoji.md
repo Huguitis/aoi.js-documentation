@@ -25,7 +25,7 @@ $addEmoji[guildID;URL;name;returnEmoji?;reason?;...roles?]
 | reason?      | string  | reason which will be displayed in the guild's audit logs |  false   |
 | roles?       | integer | useable by the given role only?                          |  false   |
 
-## Example
+## Example(s)
 
 This will create an emoji:
 

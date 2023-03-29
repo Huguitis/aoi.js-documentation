@@ -20,7 +20,7 @@ $onlyForIDs[...userIds;error?]
 | ...userIds | string, integer | users you want to limit the command to                                       |   true   |
 | error?     | string          | error to return when the command was not executed by and of the listed users |  false   |
 
-## Examples
+## Example(s)
 
 This will limit the command to bot developers only:
 

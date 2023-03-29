@@ -19,7 +19,7 @@ $getRoleColor[roleId;guildId?]
 | roleId   | integer | the role Id of the role you want the color of |   true   |
 | guildId? | integer | the guild Id of where the role was created in |  false   |
 
-## Example
+## Example(s)
 
 This will return the role ID of your highest role:
 

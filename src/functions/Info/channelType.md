@@ -18,7 +18,7 @@ $channelType[channelID?]
 |------------|---------|--------------------------------------------------------|:--------:|
 | channelID? | integer | channel ID of the channel you want the channel type of |  false   |
 
-## Example
+## Example(s)
 
 This will return the channel type of the channel where you execute the command in:
 

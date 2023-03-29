@@ -14,7 +14,7 @@ not. (autoCompleteRespond function)
 $isAutoComplete
 ```
 
-## Examples
+## Example(s)
 
 This will create a slash command with the "autoComplete" feature:
 

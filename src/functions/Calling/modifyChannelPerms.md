@@ -28,7 +28,7 @@ $modifyChannelPerms[channelID?;roruId;...perms]
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 
-## Example
+## Example(s)
 
 This will allow `@everyone` to send messages and add reactions in the current channel:
 

@@ -24,7 +24,7 @@ $createSticker[guildid;URL;name;returnSticker?;tags;description;reason]
 | description?   | string  | sticker description                                                                |  false   |
 | reason?        | string  | reason that will be displayed in the server's audit logs                           |  false   |
 
-## Example
+## Example(s)
 
 This will create a sticker called `Imagine`:
 

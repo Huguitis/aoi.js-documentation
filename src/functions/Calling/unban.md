@@ -19,7 +19,7 @@ $unban[guildID;userID]
 | guildID | integer | guild ID    |   true   |
 | userID  | integer | user ID     |   true   |
 
-## Example
+## Example(s)
 
 This will unban a given user:
 

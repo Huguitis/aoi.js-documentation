@@ -12,7 +12,7 @@ id: executionTime
 $executionTime
 ```
 
-## Example
+## Example(s)
 
 This will return the execution time of how long it took to execute this code:
 

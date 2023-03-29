@@ -19,7 +19,7 @@ $roleExists[roleId;guildId?]
 | roleId   | integer | role ID you want to check if it exists      | true     |
 | guildId? | integer | guild ID of the guild where the role exists | false    |
 
-## Example
+## Example(s)
 
 This will return `false` as the role doesn't exist in your guide:
 

@@ -39,7 +39,7 @@ $createChannel[guildID;name;type;returnID;parentID]
 
 </details>
 
-## Example
+## Example(s)
 
 This will
 

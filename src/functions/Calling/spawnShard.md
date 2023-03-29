@@ -18,7 +18,7 @@ $spawnShard[shard]
 |-------|--------|-------------|:--------:|
 | shard | number | shard       |   true   |
 
-## Example
+## Example(s)
 
 This will spawn shard `1`:
 

@@ -20,7 +20,7 @@ $deleteVar[variable;id;table?]
 | id       | number, integer | id of the variable to delete ( userID etc. ) |   true   |
 | table?   | string          | variable table                               |  false   |
 
-## Example
+## Example(s)
 
 This will delete a variable called "Test":
 

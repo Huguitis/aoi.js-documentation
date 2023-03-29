@@ -18,7 +18,7 @@ $createObject[object]
 |--------|--------|-------------|:--------:|
 | object | string | json object |   true   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

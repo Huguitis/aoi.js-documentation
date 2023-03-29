@@ -18,7 +18,7 @@ $userExists[userID?]
 |---------|---------|-------------|:--------:|
 | userID? | integer | user ID     |  false   |
 
-## Example
+## Example(s)
 
 This will return either `true` or `false` depending on if the user exists, in this example below it will return `true`
 as you exist as Discord user:

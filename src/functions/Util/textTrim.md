@@ -19,7 +19,7 @@ $textTrim[text]
 |-------|--------|------------------------|----------|
 | text  | string | the text to be trimmed | true     |
 
-## Example
+## Example(s)
 
 This will remove any extra spaces of the given text, in this case it would return `Imagine a string package.`:
 

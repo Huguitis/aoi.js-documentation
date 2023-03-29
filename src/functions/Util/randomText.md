@@ -18,7 +18,7 @@ $randomText[text;text;...]
 |-------|--------|------------------------------------------|----------|
 | text  | string | any words you want to be chosen randomly | true     |
 
-## Example
+## Example(s)
 
 This will return a random text out of `Hello, Bye, Goodnight, See you`:
 

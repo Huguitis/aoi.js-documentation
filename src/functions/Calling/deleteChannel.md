@@ -18,7 +18,7 @@ $deleteChannel[channelID]
 |-----------|---------|-------------|:--------:|
 | channelID | integer | channel ID  |   true   |
 
-## Example
+## Example(s)
 
 This will delete the channel where the command was executed in:
 

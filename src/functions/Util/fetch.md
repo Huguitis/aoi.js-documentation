@@ -40,7 +40,7 @@ $fetch[method;query;...query]
 
 </details>
 
-## Example
+## Example(s)
 
 This will display information about the message using the `fetch` function:
 

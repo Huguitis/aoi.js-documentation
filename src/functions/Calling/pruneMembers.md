@@ -23,7 +23,7 @@ $pruneMembers[days?;guildID?;roleIds?;dry?;reason?;count?]
 | reason?  | string          | reason to display in the guilds audit logs                                      |  false   |
 | count?   | string          | return count of pruned members <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
-## Example
+## Example(s)
 
 This will prune all members who have been inactive for 4 days and return the count of the pruned members that meet those
 requirements:

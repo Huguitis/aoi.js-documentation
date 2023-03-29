@@ -19,7 +19,7 @@ $fetchActiveThreads[channelID;option?]
 | channelID | integer | channel ID                                                                     |   true   |
 | option?   | string  | how to return the active threads <br /> 1. **name** (default) <br /> 2. **id** |  false   |
 
-## Example
+## Example(s)
 
 This will return all active threads, if any:
 

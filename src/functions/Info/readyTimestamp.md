@@ -12,7 +12,7 @@ id: readyTimestamp
 $readyTimestamp
 ```
 
-## Example
+## Example(s)
 
 This will return the last time your bot started/was ready:
 

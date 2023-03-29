@@ -20,7 +20,7 @@ $onlyIfMessageContains[message;...text;error?]
 | text    | string, integer, number | text to check for in the message            |   true   |
 | error?  | string                  | error to return                             |  false   |
 
-## Examples
+## Example(s)
 
 This will return the error message as "aoi.js" does not appear in "Hello!":
 

@@ -20,7 +20,7 @@ $resolveEmojiID[emoji]
 
 ### Please note that your bot has to be present in the guild where the emoji is in.
 
-## Example
+## Example(s)
 
 This will return `<:LerefMoney:1003365344724910191>`:
 

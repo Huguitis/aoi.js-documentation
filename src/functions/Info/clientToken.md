@@ -14,7 +14,7 @@ $clientToken
 
 > ** ⚠ You should never share your Discord Bot Token with anyone.**
 
-## Example
+## Example(s)
 
 This will return the client's Token:
 

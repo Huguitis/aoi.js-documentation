@@ -14,7 +14,7 @@ $emojisFromMessage
 
 **Please note that your bot has to be present in the guild where the emoji is in.**
 
-## Example
+## Example(s)
 
 This will return any emojis you give as argument:
 

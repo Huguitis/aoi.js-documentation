@@ -20,7 +20,7 @@ $setRoles[guildID;memberID;...roleIDs]
 | memberID   | integer | member ID   |   true   |
 | ...roleIDs | integer | role IDs    |   true   |
 
-## Example
+## Example(s)
 
 This will either remove or add specific roles from you:
 

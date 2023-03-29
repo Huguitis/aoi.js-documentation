@@ -21,7 +21,7 @@ $interactionUpdate[content?;embeds?;components?;files?]
 | components? | string | components      |  false   |
 | files?      | string | files           |  false   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.interactionCommand({

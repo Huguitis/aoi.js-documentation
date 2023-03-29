@@ -18,7 +18,7 @@ $broadcastEval[function]
 |----------|--------|--------------------------|:--------:|
 | function | string | function or code to eval |   true   |
 
-## Example
+## Example(s)
 
 **Requires Sharding - Review the Sharding Guide if you need explanation**
 

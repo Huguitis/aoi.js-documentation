@@ -28,7 +28,7 @@ $modifyRolePerms[guildID;roleID;...perms]
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 
-## Example
+## Example(s)
 
 This will edit a existing role's permission and allow the "@everyone" role to send messages and add reactions.
 

@@ -45,7 +45,7 @@ $getEmbed[channelID?;messageID?;index?;option?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return the description of an embed:
 

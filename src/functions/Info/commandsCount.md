@@ -12,7 +12,7 @@ id: commandsCount
 $commandsCount
 ```
 
-## Example
+## Example(s)
 
 This will return the the amount of your commands:
 

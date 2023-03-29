@@ -17,7 +17,7 @@ $arrayConcat[separator;name]
 | separator | string | separator         |   true   |
 | name      | string | name of the array |   true   |
 
-## Example
+## Example(s)
 
 This will return `This is a test`:
 

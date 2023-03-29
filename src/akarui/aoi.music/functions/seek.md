@@ -18,7 +18,7 @@ $seek[time]
 |-------|--------|---------------------|:--------:|
 | time  | number | song position in ms |   true   |
 
-## Example
+## Example(s)
 
 This will seek to second 10 of the song>
 

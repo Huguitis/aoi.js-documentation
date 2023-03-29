@@ -19,7 +19,7 @@ $let[varname;value]
 | varname | string | name of the temporary variable                   | true     |
 | value   | string | value of the temporary variable you want to save | true     |
 
-## Example
+## Example(s)
 
 This will return `Ayaka` from `$get`:
 

@@ -19,7 +19,7 @@ $mentioned[index;returnSelf?]
 | index       | number | the index of the argument                    | true     |
 | returnSelf? | string | return the author's id if user was not found | false    |
 
-## Example
+## Example(s)
 
 This will return the ID of the **first** mention if you attempt to mention someone in this command, or else it will
 return your ID:

@@ -70,7 +70,7 @@ $hasPermsInChannel[channelID;userorroleID;...perms]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return `true` when the author has `send messages` permissions and return `false` when they don't have those:
 

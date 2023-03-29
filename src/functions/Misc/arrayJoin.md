@@ -19,7 +19,7 @@ $arrayJoin[name;separator?]
 | name       | string | array name  |   true   |
 | separator? | string | separator   |  false   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

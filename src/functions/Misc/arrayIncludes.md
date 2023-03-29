@@ -19,7 +19,7 @@ $arrayIncludes[name;query]
 | name  | string | array name                                                         |   true   |
 | query | string | The element we will be queering for every element inside the array |   true   |
 
-## Examples
+## Example(s)
 
 ```javascript
 bot.command({

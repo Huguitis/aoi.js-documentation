@@ -19,7 +19,7 @@ $memberJoinPosition[userID?;guildID?]
 | userID?  | integer | the ID of the member |  false   |
 | guildID? | integer | the ID of the guild  |  false   |
 
-## Example
+## Example(s)
 
 This will return your join position, if you're the owner then it'd be `1`:
 

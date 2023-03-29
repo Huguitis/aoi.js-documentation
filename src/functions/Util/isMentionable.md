@@ -19,7 +19,7 @@ $isMentionable[roleID;guildID?]
 | roleID   | integer | the role id to check if it's mentionable or not | true     |
 | guildID? | integer | guild id where the role is present in           | false    |
 
-## Example
+## Example(s)
 
 This will check if a role with the name `Owner` is mentionable and returns either `true` or `false`:
 

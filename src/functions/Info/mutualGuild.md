@@ -19,7 +19,7 @@ $mutualGuilds[userID?;sep?]
 | userID? | integer | the ID of the user                            | false    |
 | sep?    | string  | the separator to separate the returned guilds | false    |
 
-## Example
+## Example(s)
 
 This will return the mutual servers of you and the bot:
 

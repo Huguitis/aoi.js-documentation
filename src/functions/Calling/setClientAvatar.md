@@ -18,7 +18,7 @@ $setClientAvatar[avatar]
 |--------|--------|----------------|:--------:|
 | avatar | string | new avatar URL |   true   |
 
-## Example
+## Example(s)
 
 This will change the client's avatar to the command author's user avatar:
 

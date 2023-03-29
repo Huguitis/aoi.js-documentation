@@ -18,7 +18,7 @@ $addCmdReactions[...reactions]
 |-----------|--------|------------------|:--------:|
 | reactions | string | reactions to add |   true   |
 
-## Example
+## Example(s)
 
 This will add the given emojis to the author's response ("Hello!"):
 

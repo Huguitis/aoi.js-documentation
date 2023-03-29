@@ -19,7 +19,7 @@ $playTrack[track;type]
 | track | string | track to play                                                                                                                                                                   |   true   |
 | type  | string | platform type <br /> 1. **youtube** <br /> 2. **soundcloud** <br /> 3. **spotify** <br /> 4. **local** (local file) <br /> 5. **url** (url which emits music or any other kind) |   true   |
 
-## Example
+## Example(s)
 
 This will play a youtube video (`https://www.youtube.com/watch?v=SiO-lbAvEWc`):
 

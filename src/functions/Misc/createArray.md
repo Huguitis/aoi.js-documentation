@@ -19,7 +19,7 @@ $createArray[name;...elements]
 | name        | string | array name      |   true   |
 | ...elements | string | elements to add |   true   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

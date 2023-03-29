@@ -21,7 +21,7 @@ $userAvatar[userID?;size?;dynamic?;format?]
 | dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |  false   |
 | format?  | string  |                                                                |  false   |
 
-## Example
+## Example(s)
 
 This will return your profile picture:
 

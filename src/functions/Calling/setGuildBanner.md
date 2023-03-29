@@ -20,7 +20,7 @@ $setGuildBanner[guildID?;URL;reason?]
 | URL      | string  | New guild banner.                                        | true     |
 | reason?  | string  | Reason that will be displayed in the guild's audit logs. | false    |
 
-## Example
+## Example(s)
 
 This will change the banner of the current guild:
 

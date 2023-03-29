@@ -18,7 +18,7 @@ $isDM[channelID?]
 |------------|---------|------------------------------------------|----------|
 | channelID? | integer | ID of the channel that you want to check | false    |
 
-## Example
+## Example(s)
 
 This will return either `true` or `false` depending on if you're executing the command in a DM or not:
 

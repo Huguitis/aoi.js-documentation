@@ -19,7 +19,7 @@ $roleIconURL[guildId?;roleId]
 | guildId? | integer | guild ID of the guild where the role exists | false    |
 | roleId   | integer | role ID you want to check if it exists      | true     |
 
-## Example
+## Example(s)
 
 This will return the image URL of the role icon:
 

@@ -12,7 +12,7 @@ id: randomChannelID
 $randomGuildID
 ```
 
-## Example
+## Example(s)
 
 This will return a random server name using the `$randomGuildID` and `$serverName` function:
 

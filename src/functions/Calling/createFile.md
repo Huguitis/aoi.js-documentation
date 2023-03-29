@@ -19,7 +19,7 @@ $createFile[attachment;name]
 | attachment | string | content of the file |   true   |
 | name       | string | name of the file    |   true   |
 
-## Example
+## Example(s)
 
 This will create a text file called **`example.txt`** with the text "This is an example!":
 

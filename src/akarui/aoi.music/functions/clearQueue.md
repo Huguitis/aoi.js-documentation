@@ -12,7 +12,7 @@ id: clearQueue
 $clearQueue
 ```
 
-## Example
+## Example(s)
 
 This will clear the current queue:
 

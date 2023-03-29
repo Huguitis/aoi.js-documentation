@@ -18,7 +18,7 @@ $onlyNSFW[error?]
 |--------|--------|---------------------------------------------------------------------|:--------:|
 | error? | string | error to return when the command was not executed in a NSFW channel |  false   |
 
-## Examples
+## Example(s)
 
 This will limit the command only to NSFW channels:
 

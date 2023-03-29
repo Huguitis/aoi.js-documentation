@@ -26,7 +26,7 @@ You can retrieve timeout data using `$timeoutData[name]`.
 
 * Note that the duration may not go over **21 days**.
 
-## Example
+## Example(s)
 
 This will send "Hello!" after 10 seconds in the command execution channel:
 

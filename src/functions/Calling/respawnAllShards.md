@@ -12,7 +12,7 @@ id: respawnAllShards
 $respawnAllShards
 ```
 
-## Example
+## Example(s)
 
 This will respawn all shards (requires sharding):
 

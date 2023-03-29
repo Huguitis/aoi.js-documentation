@@ -20,7 +20,7 @@ $sendTTS[channelID;message;returnID?]
 | message   | string  | message to send                                                     |   true   |
 | returnID? | string  | return message ID  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
-## Example
+## Example(s)
 
 This will send a TTS message in the current channel:
 

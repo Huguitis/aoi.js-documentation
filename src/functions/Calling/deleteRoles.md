@@ -19,7 +19,7 @@ $deleteRoles[guildID;...roles]
 | guildID | integer | guild ID        |   true   |
 | roles   | string  | id of the roles |   true   |
 
-## Example
+## Example(s)
 
 This will delete roles of your guilds ( make sure to add actual IDs )
 

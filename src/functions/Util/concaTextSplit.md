@@ -18,7 +18,7 @@ $concatTextSplit[...text]
 |-------|--------|----------------------|----------|
 | text  | string | text to be separated | true     |
 
-## Example
+## Example(s)
 
 This will add `Hello, Bye` to the already used `$textSplit` argument:
 

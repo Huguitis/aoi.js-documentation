@@ -22,7 +22,7 @@ $setStatus[name;type;status;URL;afk?]
 | URL    | string          | URL (streaming status)                                                                                                  |   true   |
 | afk?   | string          | 1. **true** <br /> 2. **false** (default)                                                                               |  false   |
 
-## Example
+## Example(s)
 
 This will change the client's status to **PLAYING** and **online**:
 

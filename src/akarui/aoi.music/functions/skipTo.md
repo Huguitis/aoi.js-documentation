@@ -18,7 +18,7 @@ $skipTo[index]
 |-------|--------|----------------|:--------:|
 | index | number | track position |   true   |
 
-## Example
+## Example(s)
 
 This will skip to the third song in the queue:
 

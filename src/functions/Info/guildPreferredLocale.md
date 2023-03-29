@@ -18,7 +18,7 @@ $guildPreferredLocale[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the guild's preferred locale:
 

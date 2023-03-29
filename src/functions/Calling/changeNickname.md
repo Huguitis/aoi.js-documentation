@@ -20,7 +20,7 @@ $changeNickname[userID;nick;reason?]
 | nick    | integer | new nickname                                              |   true   |
 | reason? | integer | reason which will be displayed in the server's audit logs |  false   |
 
-## Example
+## Example(s)
 
 This will change your nickname to "I love aoi.js": (wont work if you're the guild owner)
 

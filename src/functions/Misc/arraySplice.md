@@ -21,7 +21,7 @@ $arraySplice[name;index;amount;...elements]
 | amount      | number | amount to splice     |   true   |
 | ...elements | string | elements to splice   |   true   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

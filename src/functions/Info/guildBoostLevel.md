@@ -18,7 +18,7 @@ $guildBoostLevel[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the boost level of a specific guild:
 

@@ -21,7 +21,7 @@ $addThreadMember[channelID;threadID;userID;reason]
 | userID    | integer | user id                         |   true   |
 | reason    | string  | reason to display in audit logs |   true   |
 
-## Example
+## Example(s)
 
 This will create a thread and a random user to it:
 

@@ -27,7 +27,7 @@ $awaitMessageReactions[channelID;messageID;userFilter;time;reactions;commands;er
 
 **Make sure you have `GuildMessageReactions` as intent in your main file.**
 
-## Example
+## Example(s)
 
 This will reply to you when you react with the "❤️" emoji to the bot's message:
 

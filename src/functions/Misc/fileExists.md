@@ -18,7 +18,7 @@ $fileExists[path]
 |-------|--------|-------------|:--------:|
 | path  | string | file path   |   true   |
 
-## Example
+## Example(s)
 
 This will check if a file called `index.js` exists in your directory:
 

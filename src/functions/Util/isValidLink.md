@@ -18,7 +18,7 @@ $isValidLink[URL]
 |-------|--------|------------------|----------|
 | URL   | string | any kind of link | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as the given link is valid:
 

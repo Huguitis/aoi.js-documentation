@@ -25,7 +25,7 @@ $awaitMessages[channelID;userFilter;time;replies;cmds;errorMessage?;awaitData?;d
 | awaitData?    | string  | Awaited Data.                                                                                                                      |  false   |
 | dm?           | integer | User ID of where the command may be executed.                                                                                      |  false   |
 
-## Example
+## Example(s)
 
 This will reply to any message you send after executing the command:
 

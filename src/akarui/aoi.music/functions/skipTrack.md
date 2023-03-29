@@ -12,7 +12,7 @@ id: skipTrack
 $skipTrack
 ```
 
-## Example
+## Example(s)
 
 This will skip the current track:
 

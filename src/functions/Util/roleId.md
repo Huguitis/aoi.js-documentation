@@ -19,7 +19,7 @@ $roleId[roleResolver;guildID?]
 | roleResolver | string | name of the role                              | true     |
 | guildID?     | string | id of the guild where the role was created in | false    |
 
-## Example
+## Example(s)
 
 This will return the role ID of a role called `Owner` (this example won't work if you dont have that role):
 

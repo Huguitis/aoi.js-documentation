@@ -19,7 +19,7 @@ $userActivity[guildID?;userID?]
 | guildID? | integer | guild id    | false    |
 | userID?  | integer | user id     | false    |
 
-## Example
+## Example(s)
 
 This will return your current Activity:
 

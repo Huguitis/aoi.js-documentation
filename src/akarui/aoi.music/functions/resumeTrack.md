@@ -12,7 +12,7 @@ id: resumeTrack
 $resumeTrack
 ```
 
-## Example
+## Example(s)
 
 This will resume the current track:
 

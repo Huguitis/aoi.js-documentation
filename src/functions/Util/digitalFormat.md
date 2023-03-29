@@ -18,7 +18,7 @@ $digitalFormat[ms]
 |-------|--------|-----------------------------------------|----------|
 | ms    | number | time in miliseconds you wish to convert | true     |
 
-## Example
+## Example(s)
 
 This will return `00:04:00` as `240000ms` are four minutes:
 

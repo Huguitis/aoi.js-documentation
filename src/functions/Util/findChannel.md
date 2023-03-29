@@ -21,7 +21,7 @@ $findChannel[channel;returnSelf?]
 | channel     | string | channel name of the channel you want to find                                                           | true     |
 | returnSelf? | string | will return the channel where the command is executed in by default if the given channel was not found | false    |
 
-## Example
+## Example(s)
 
 This will return `882360051640193054` as it was able to find the `#⊂・⊃﹐aoi_v5` channel:
 

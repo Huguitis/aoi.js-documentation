@@ -12,7 +12,7 @@ id: datestamp
 $datestamp
 ```
 
-## Example
+## Example(s)
 
 This will return day of the month, in MS ( we're using $humanizeMS to make it readable ):
 

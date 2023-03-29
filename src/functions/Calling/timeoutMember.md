@@ -22,7 +22,7 @@ $timeoutMember[guildID;memberID;timer;timeoutEndsAt?;reason?]
 | timeoutEndsAt? | string         | returns time when timeout ends  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 | reason?        | string         | reason that will be displayed in the guild's audit logs                          |  false   |
 
-## Example
+## Example(s)
 
 This will timeout a given member for five minutes:
 

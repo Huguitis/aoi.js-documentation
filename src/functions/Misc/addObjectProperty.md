@@ -19,7 +19,7 @@ $addObjectProperty[name;value]
 | name  | string | name of the property   |   true   |
 | value | string | value of the property |   true   |
 
-## Example
+## Example(s)
 
 This will return `Ferel` from the `Leref` Property:
 

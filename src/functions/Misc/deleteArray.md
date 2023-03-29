@@ -18,7 +18,7 @@ $deleteArray[name]
 |-------|--------|-------------|:--------:|
 | name  | string | array name  |   true   |
 
-## Example
+## Example(s)
 
 This will delete the array "array":
 

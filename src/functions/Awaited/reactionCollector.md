@@ -26,7 +26,7 @@ $reactionCollector[channelID;messageID;userFilters;time;reactions;awaitedCommand
 | awaitData?      | string  | awaited data                                                                                   |  false   |
 | endAwait?       | string  | end awaited command / awaited command to execute when timer ends                               |  false   |
 
-## Example
+## Example(s)
 
 This will send a message when you add a reaction:
 

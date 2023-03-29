@@ -20,7 +20,7 @@ $deleteInvite[guildID;inviteCode;reason?]
 | inviteCode | string  | invite code                                             |   true   |
 | reason?    | string  | reason that will be displayed in the guild's audit logs |  false   |
 
-## Example
+## Example(s)
 
 This will delete an invite (wont work as the invite code doesn't exist):
 

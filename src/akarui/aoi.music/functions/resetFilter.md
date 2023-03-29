@@ -12,7 +12,7 @@ id: resetFilter
 $resetFilter
 ```
 
-## Example
+## Example(s)
 
 This will reset the current applied filters:
 

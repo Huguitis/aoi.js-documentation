@@ -19,7 +19,7 @@ $deleteApplicationCommand[guildID/global;id]
 | guildID | string, integer | guild ID or global |   true   |
 | id      | integer         | slash command id   |   true   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

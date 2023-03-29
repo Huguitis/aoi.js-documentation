@@ -23,7 +23,7 @@ $allEmojisCount[type?]
 | Animated Emojis | animated |
 | Stable Emojis   | normal   |
 
-## Example
+## Example(s)
 
 This will return the amount of emojis in your guild:
 

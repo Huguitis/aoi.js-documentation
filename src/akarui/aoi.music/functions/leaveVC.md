@@ -18,7 +18,7 @@ $leaveVC[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will make your bot leave the current voice channel in the current guild (if any):
 

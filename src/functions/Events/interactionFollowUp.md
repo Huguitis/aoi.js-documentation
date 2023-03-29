@@ -24,7 +24,7 @@ $interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]
 | files?      | string | files                                                                                |  false   |
 | ephemeral?  | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.interactionCommand({

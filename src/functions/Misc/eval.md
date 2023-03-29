@@ -22,7 +22,7 @@ $eval[code;returnCode?;sendMessage?;returnExecution?;returnID?]
 | returnExecution? | string | return more information about the executed code <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 | returnID?        | string | return message ID <br /> 1. **true** <br /> 2. **false** (default)                               |  false   |
 
-## Example
+## Example(s)
 
 This will return your user ID:
 

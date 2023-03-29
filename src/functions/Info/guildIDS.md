@@ -18,7 +18,7 @@ $guildIDS[sep?]
 |-------|--------|---------------------------------------------|:--------:|
 | sep?  | string | the separator to separate multiple argument |  false   |
 
-## Example
+## Example(s)
 
 This will return all guild IDs your bot is in:
 

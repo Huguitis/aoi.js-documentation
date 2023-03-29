@@ -56,7 +56,7 @@ $color[index?;hex]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return a red embed:
 

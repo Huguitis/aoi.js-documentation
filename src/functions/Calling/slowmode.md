@@ -21,7 +21,7 @@ $slowmode[time;channelID?]
 
 This has a max time of 21600000 seconds (6 hours).
 
-## Examples
+## Example(s)
 
 This will change the channel's slowmode to three minutes:
 

@@ -35,7 +35,7 @@ $setFilter[filter]
 
 aoi.music also supports `ffmpeg` built-in filters in json format.
 
-## Example
+## Example(s)
 
 This will set the filter to `NIGHT_CORE` and `BASS_BOOST` filters:
 

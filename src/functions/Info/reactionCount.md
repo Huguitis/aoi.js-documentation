@@ -20,7 +20,7 @@ $reactionCount[channelID;messageID;emoji]
 | messageID | integer | the message ID                                   |   true   |
 | emoji     | string  | the emoji its reaction count will be returned of |   true   |
 
-## Example
+## Example(s)
 
 This will return the amount of reactions on your message with which you executed the command, will most likely
 return `1` due to the bot being the only one who reacted to it:

@@ -18,7 +18,7 @@ $guildBoostCount[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the amount of boosts a specific guild has:
 

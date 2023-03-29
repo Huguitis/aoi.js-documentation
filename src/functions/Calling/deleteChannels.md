@@ -18,7 +18,7 @@ $deleteChannels[...channels]
 |----------|---------|-------------|:--------:|
 | channels | integer | channel IDs |   true   |
 
-## Example
+## Example(s)
 
 This will delete multiple channels, make sure to replace the arguments:
 

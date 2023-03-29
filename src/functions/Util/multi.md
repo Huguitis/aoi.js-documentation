@@ -18,7 +18,7 @@ $multi[...numbers;...numbers]
 |---------|--------|------------------------------|----------|
 | numbers | number | numbers you want to multiply | true     |
 
-## Example
+## Example(s)
 
 This will return `72` as `8*9` equals that:
 

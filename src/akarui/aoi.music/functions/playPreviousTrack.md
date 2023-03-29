@@ -12,7 +12,7 @@ id: playPreviousTrack
 $playPreviousTrack
 ```
 
-## Example
+## Example(s)
 
 This will play the previous track:
 

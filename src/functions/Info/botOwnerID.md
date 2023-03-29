@@ -18,7 +18,7 @@ $botOwnerID[separator?]
 |------------|--------|---------------------------------------------|:--------:|
 | separator? | string | separator to split user ids (default: `, `) |  false   |
 
-## Example
+## Example(s)
 
 This will return your user ID:
 

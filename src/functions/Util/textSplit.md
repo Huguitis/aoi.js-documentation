@@ -19,7 +19,7 @@ $textSplit[text;sep?]
 | text  | string | query of arguments               | true     |
 | sep?  | string | separator for the text arguments | false    |
 
-## Example
+## Example(s)
 
 This will return `hello, how are you`:
 

@@ -19,7 +19,7 @@ $indexOfArg[string;query]
 | string | string | the text the bot will be checking the index of | true     |
 | query  | string | the query the bot will be checking for         | true     |
 
-## Example
+## Example(s)
 
 This will return `3` as `great` is the third argument in the query:
 

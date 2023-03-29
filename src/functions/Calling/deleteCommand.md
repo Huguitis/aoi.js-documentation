@@ -12,7 +12,7 @@ id: deleteCommand
 $deleteCommand
 ```
 
-## Example
+## Example(s)
 
 This will delete the initial command message:
 

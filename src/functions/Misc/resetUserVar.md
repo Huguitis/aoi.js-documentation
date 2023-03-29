@@ -20,7 +20,7 @@ $resetUserVar[varname;guildID?;table?]
 | guildID? | integer | guild ID       |  false   |
 | table?   | string  | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will reset a variable called "Example":
 

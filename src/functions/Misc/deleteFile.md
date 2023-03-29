@@ -18,7 +18,7 @@ $deleteFile[path]
 |-------|--------|-------------|:--------:|
 | path  | string | file path   |   true   |
 
-## Example
+## Example(s)
 
 This will delete your `index.js` (don't actually do that):
 

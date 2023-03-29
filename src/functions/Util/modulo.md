@@ -18,7 +18,7 @@ $modulo[...numbers;...numbers]
 |---------|--------|----------------|----------|
 | numbers | number | math operation | true     |
 
-## Example
+## Example(s)
 
 This will return `2` as it's the remainder of `5 % 3`:
 

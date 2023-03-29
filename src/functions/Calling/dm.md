@@ -18,7 +18,7 @@ $dm[userID]
 |--------|---------|-------------|:--------:|
 | userID | integer | user ID     |   true   |
 
-## Example
+## Example(s)
 
 This will send an DM to you containing "Hello! Did you really think this works?":
 

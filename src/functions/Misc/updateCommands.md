@@ -38,7 +38,7 @@ loader.setColors(loader.themes.default);
 loader.load(bot.cmd, "./commands/"); // your command directory.
 ```
 
-## Example
+## Example(s)
 
 This will update the commands of your bot without restarting it:
 

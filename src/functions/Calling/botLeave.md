@@ -18,7 +18,7 @@ $botLeave[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will make your bot leave the current guild:
 
