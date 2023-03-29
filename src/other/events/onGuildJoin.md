@@ -7,7 +7,7 @@ id: onGuildJoin
 This event will be emitted whenever the bot joins a guild.
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",

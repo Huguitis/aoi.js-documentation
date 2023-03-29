@@ -7,7 +7,7 @@ id: onGuildUpdate
 This event will be emitted whenever a guild updates, gets modified.
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",

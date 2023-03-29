@@ -7,7 +7,7 @@ id: onMessageUpdate
 This event will be emitted whenever a message is updated.
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",

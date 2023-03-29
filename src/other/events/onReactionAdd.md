@@ -7,7 +7,7 @@ id: onReactionAdd
 This event will be emitted whenever a reaction is added to a message.
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",

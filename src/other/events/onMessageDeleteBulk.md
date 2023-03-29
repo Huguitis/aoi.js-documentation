@@ -7,7 +7,7 @@ id: onMessageDeleteBulk
 This event will be emitted whenever messages are deleted in bulk.
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",

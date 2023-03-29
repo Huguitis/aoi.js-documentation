@@ -7,7 +7,7 @@ id: onGuildLeave
 This event will be emitted whenever the bot leaves a guild.
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",

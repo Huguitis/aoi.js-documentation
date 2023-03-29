@@ -7,7 +7,7 @@ id: onReactionRemove
 This event will be emitted whenever a reaction is removed from a message.
 
 ```javascript
-const { AoiClient, LoadCommands } = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
