@@ -18,7 +18,7 @@ $isChannelManageable[channelID?]
 |------------|---------|---------------------------------------------------------------|----------|
 | channelID? | integer | channel id where to check if the channel is manageable or not | false    |
 
-## Example
+## Example(s)
 
 This will return `true` or `false` depending on if the channel you're executing the command in is manageable:
 

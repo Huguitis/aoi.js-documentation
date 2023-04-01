@@ -18,7 +18,7 @@ $userID[user]
 |-------|--------|---------------------------------|:--------:|
 | user  | string | user you want to have the ID of |   true   |
 
-## Example
+## Example(s)
 
 This will return your user ID:
 

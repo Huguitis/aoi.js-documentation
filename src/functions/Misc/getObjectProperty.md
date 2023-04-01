@@ -18,7 +18,7 @@ $getObjectProperty[name]
 |-------|--------|----------------------|:--------:|
 | name  | string | object property name |   true   |
 
-## Example
+## Example(s)
 
 This will return the object property of "hello" created in `$createObject`:
 

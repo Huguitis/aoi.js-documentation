@@ -29,7 +29,7 @@ $getGuildInvite[guildID?;...options]
 
 </details>
 
-## Examples
+## Example(s)
 
 This will create an invite of the channel where the command is executed in:
 
@@ -42,7 +42,7 @@ bot.command({
 });
 ```
 
-### Advanced Examples
+### Advanced Example
 
 Create Temporary Invites with limited uses:
 

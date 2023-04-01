@@ -1,33 +1,33 @@
 ---
-title: $numberSeperator
-description: $numberSeperator will seperate numbers and make them readable.
-id: numberSeperator
+title: $numberSeparator
+description: $numberSeparator will separate numbers and make them readable.
+id: numberSeparator
 ---
 
-`$numberSeperator` will seperate numbers and make them readable.
+`$numberSeparator` will separate numbers and make them readable.
 
 ## Usage
 
 ```php
-$numberSeperator[num;sep?]
+$numberSeparator[num;sep?]
 ```
 
 ## Parameters
 
 | Field | Type   | Description                                                        | Required |
 |-------|--------|--------------------------------------------------------------------|----------|
-| num   | number | number you want to seperate                                        | true     |
-| sep?  | string | seperator which will be used to seperate the numbers, default: `,` | false    |
+| num   | number | number you want to separate                                        | true     |
+| sep?  | string | separator which will be used to separate the numbers, default: `,` | false    |
 
-## Example
+## Example(s)
 
 This will return `1,000,000`:
 
 ```javascript
 bot.command({
-    name: 'numberSeperator',
+    name: 'numberSeparator',
     code: `
-  $numberSeperator[1000000;,]
+  $numberSeparator[1000000;,]
   `
 });
 ```

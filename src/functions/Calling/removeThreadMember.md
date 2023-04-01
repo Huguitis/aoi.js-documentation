@@ -21,7 +21,7 @@ $removeThreadMember[channelID;threadID;userID;reason?]
 | userID    | integer | user ID                                    |   true   |
 | reason?   | string  | reason to display in the guilds audit logs |  false   |
 
-## Example
+## Example(s)
 
 This will remove the command author from a given thread:
 

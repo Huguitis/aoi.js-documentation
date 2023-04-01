@@ -22,7 +22,7 @@ $newTicket[name;msg;categoryID?;returnId?;error?]
 | returnId?   | string  | return the channel ID <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 | error?      | string  | error to return when something went wrong                              |  false   |
 
-## Examples
+## Example(s)
 
 This will create a new ticket:
 

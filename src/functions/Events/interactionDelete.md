@@ -12,7 +12,7 @@ id: interactionDelete
 $interactionDelete
 ```
 
-## Example
+## Example(s)
 
 This will delete the interaction after 5 seconds.
 

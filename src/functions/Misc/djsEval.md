@@ -19,7 +19,7 @@ $djsEval[code;returnCode?]
 | code        | string | discord.js code                                              |   true   |
 | returnCode? | string | return code <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
-## Example
+## Example(s)
 
 This will return your user ID:
 

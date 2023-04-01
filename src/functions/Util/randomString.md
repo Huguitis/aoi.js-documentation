@@ -19,7 +19,7 @@ $randomString[range;diffExec?]
 | range     | number | range of the random generated string | true     |
 | diffExec? | string |                                      | false    |
 
-## Example
+## Example(s)
 
 This will return a random string of twenty characters:
 

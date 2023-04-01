@@ -12,7 +12,7 @@ id: packageDependencies
 $packageDependencies
 ```
 
-## Examples
+## Example(s)
 
 This will return aoi.js' package dependencies:
 

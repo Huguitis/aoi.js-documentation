@@ -20,7 +20,7 @@ $componentCollector[messageID;userFilter;time;customIDs;commands;errorMsg?;endco
 | userFilter  | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true   |
 | time        | string  | when the command ends/expires                                                                  |   true   |
 | customID    | string  | custom ID                                                                                      |   true   |
-| commands    | string  | commands that will be executed, you can seperate multiple emojis with a comma ( `,` )          |   true   |
+| commands    | string  | commands that will be executed, you can separate multiple emojis with a comma ( `,` )          |   true   |
 | errorMsg?   | string  | error message when command expires                                                             |  false   |
 | endcommand? | integer | end command                                                                                    |  false   |
 | data?       | string  | awaited data                                                                                   |  false   |

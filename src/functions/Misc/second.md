@@ -12,7 +12,7 @@ id: second
 $second
 ```
 
-## Examples
+## Example(s)
 
 This will returns the current second:
 

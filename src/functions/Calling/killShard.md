@@ -18,7 +18,7 @@ $killShard[shardID]
 |---------|--------|-------------|:--------:|
 | shardID | number | shard ID    |   true   |
 
-## Example
+## Example(s)
 
 This will kill the current shard ( requires **sharding** ):
 

@@ -11,5 +11,3 @@ id: commandCode
 ```php
 $commandCode
 ```
-
-> There's false example as it's self-explanatory.

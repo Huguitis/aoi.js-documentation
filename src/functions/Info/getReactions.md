@@ -24,7 +24,7 @@ $getReactions[channelID;messageID;reaction;force?;option?]
 
 #### Please note that this won't work without the `GuildMessageReactions` intent.
 
-## Example
+## Example(s)
 
 This will mention all users that reacted to your message, in this case, only your bot:
 

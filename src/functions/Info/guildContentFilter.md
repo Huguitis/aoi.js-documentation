@@ -24,7 +24,7 @@ $guildContentFilter[guildID?]
 | 1    | Medium   |
 | 2    | High     |
 
-## Example
+## Example(s)
 
 This will return the content filter level of a specific guild:
 

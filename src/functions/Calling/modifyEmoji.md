@@ -21,7 +21,7 @@ $modifyEmoji[guildID;emojiID;name;...roles?]
 | name      | string  | new emoji name                            |   true   |
 | ...roles? | integer | roles that will be able to use that emoji |  false   |
 
-## Example
+## Example(s)
 
 This will edit a existing emoji / change its name to "Example":
 

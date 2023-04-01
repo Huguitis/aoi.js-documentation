@@ -18,7 +18,7 @@ $splitText[index]
 |-------|---------|------------------------------|----------|
 | index | integer | index of $textSplit argument | true     |
 
-## Example
+## Example(s)
 
 This will return `aoi.js` as it's the second argument of `$textSplit`:
 

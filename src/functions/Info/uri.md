@@ -19,7 +19,7 @@ $uri[text;type?]
 | text  | string | message to encode/decode                                                     |   true   |
 | type? | string | what to do with the text <br /> 1. **encode** (default) <br /> 2. **decode** |  false   |
 
-## Example
+## Example(s)
 
 This will encode a given text:
 

@@ -20,7 +20,7 @@ $editMessage[messageID;msg;channelID?]
 | msg        | string  | new message |   true   |
 | channelID? | integer | channel ID  |  false   |
 
-## Example
+## Example(s)
 
 This will edit the sent message after five seconds: (alternative to `$editIn`)
 

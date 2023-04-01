@@ -42,7 +42,7 @@ $randomChannelID[guildID/global?;type?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return a random channel ID of your guild:
 

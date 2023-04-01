@@ -12,7 +12,7 @@ id: messageID
 $messageID
 ```
 
-## Example
+## Example(s)
 
 This will return the message ID of the message with which you executed the command:
 

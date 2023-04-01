@@ -9,16 +9,16 @@ id: isValidImageLink
 ## Usage
 
 ```php
-$isValidImageLink[url]
+$isValidImageLink[URL]
 ```
 
 ## Parameters
 
 | Field | Type   | Description       | Required |
 |-------|--------|-------------------|----------|
-| url   | string | direct image link | true     |
+| URL   | string | direct image link | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as the given image link is valid:
 

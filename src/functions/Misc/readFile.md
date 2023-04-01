@@ -18,7 +18,7 @@ $readFile[path]
 |-------|--------|-------------|:--------:|
 | path  | string | file path   |   true   |
 
-## Example
+## Example(s)
 
 This will return your main file (index.js):
 

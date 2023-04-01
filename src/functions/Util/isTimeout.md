@@ -19,7 +19,7 @@ $isTimeout[guildid?;userid?]
 | guildid? | integer | the guild id of where they're timeouted in | false    |
 | userid?  | integer | the user id of the user that's timeouted   | false    |
 
-## Example
+## Example(s)
 
 This will check if you're timeouted and either return `true` or `false`:
 

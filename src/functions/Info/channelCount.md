@@ -1,10 +1,10 @@
 ---
-title: $allChannelsCount
-description: $allChannelsCount will return the amount of channels of a given type.
-id: allChannelsCount
+title: $channelCount
+description: $channelCount will return the amount of channels of a given type.
+id: channelCount
 ---
 
-`$allChannelsCount` will return the amount of channels of a given type.
+`$channelCount` will return the amount of channels of a given type.
 
 ## Usage
 
@@ -38,11 +38,10 @@ $channelCount[guildID?;type?]
 | Direct Message       | DM                 |
 | All Channel Types    | all                |
 
-#### Note: all channel types are **case-sensitive**.
 
 </details>
 
-## Example
+## Example(s)
 
 This will return the amount of Voice Channels in your guild:
 

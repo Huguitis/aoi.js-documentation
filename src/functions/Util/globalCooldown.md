@@ -23,7 +23,7 @@ $globalCooldown[time;errorMessage?]
 | time          | string | the duration of the cooldown                                    | true     |
 | errorMessage? | string | error message given when there's remaining time of the cooldown | false    |
 
-## Example
+## Example(s)
 
 This will return `Hello` and stop anyone from executing the command again for another five minutes:
 

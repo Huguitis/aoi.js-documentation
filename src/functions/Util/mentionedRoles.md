@@ -18,7 +18,7 @@ $mentionedRoles[index]
 |-------|--------|---------------------------|----------|
 | index | number | the index of the argument | true     |
 
-## Example
+## Example(s)
 
 This will return the ID of the **first** role mention if you attempt to mention any role in this command:
 

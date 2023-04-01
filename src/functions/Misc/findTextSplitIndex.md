@@ -18,7 +18,7 @@ $findTextSplitIndex[query]
 |-------|--------|-------------|:--------:|
 | query | string | query       |   true   |
 
-## Example
+## Example(s)
 
 This will return `3` as the first `Cya` in this `$textSplit` is in the third position:
 

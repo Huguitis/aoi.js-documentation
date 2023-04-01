@@ -19,7 +19,7 @@ $roleCount[guildID?;fetchFirst?]
 | guildID?    | integer | guild ID                                                                                       |  false   |
 | fetchFirst? | number  | fetch the roles first before returning them?  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
-## Example
+## Example(s)
 
 This will return the amount of roles of your guild:
 

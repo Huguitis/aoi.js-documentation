@@ -9,16 +9,16 @@ id: botOwnerID
 ## Usage
 
 ```php
-$botOwnerID[seperator?]
+$botOwnerID[separator?]
 ```
 
 ## Parameters
 
 | Field      | Type   | Description                                 | Required |
 |------------|--------|---------------------------------------------|:--------:|
-| seperator? | string | seperator to split user ids (default: `, `) |  false   |
+| separator? | string | separator to split user ids (default: `, `) |  false   |
 
-## Example
+## Example(s)
 
 This will return your user ID:
 

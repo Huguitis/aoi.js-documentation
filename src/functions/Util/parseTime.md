@@ -18,7 +18,7 @@ $parseTime[time]
 |-------|--------|-----------------------------------------|----------|
 | time  | string | the time that will be converted to `ms` | true     |
 
-## Examples
+## Example(s)
 
 This will convert `69 minutes` to milliseconds and return `4140000`:
 

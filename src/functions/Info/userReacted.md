@@ -23,7 +23,7 @@ $userReacted[channelID;messageID;userID;emoji]
 | userID    | integer | user ID            |   true   |
 | emoji     | string  | emoji to check for |   true   |
 
-## Example
+## Example(s)
 
 This will return `true` as your bot reacted to your initial command message:
 

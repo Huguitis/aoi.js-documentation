@@ -19,7 +19,7 @@ $resetGlobalUserVar[varname;table?]
 | varname | string | variable name  |   true   |
 | table?  | string | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will reset a variable called "Example":
 

@@ -21,7 +21,7 @@ $clear[amount;filter?;returnCount?;channelID?]
 | returnCount? | string  | return the count of deleted messages <br /> 1. **false** (default) <br /> 2. **true**                                                |  false   |
 | channelID?   | integer | channel ID                                                                                                                           |  false   |
 
-## Example
+## Example(s)
 
 This will delete the most recent fifty messages which are not pinned:
 

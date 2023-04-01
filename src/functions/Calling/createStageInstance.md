@@ -30,7 +30,7 @@ $createStageInstance[channelID;topic;type?]
 
 </details>
 
-## Examples
+## Example(s)
 
 This will create start a stage:
 

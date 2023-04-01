@@ -18,7 +18,7 @@ $guildAFKChannelID[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |   true   |
 
-## Example
+## Example(s)
 
 This will return the AFK voice channel of your guild:
 

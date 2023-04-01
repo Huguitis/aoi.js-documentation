@@ -12,7 +12,7 @@ id: allMembersCount
 $allMembersCount
 ```
 
-## Example
+## Example(s)
 
 This will return the amount of members in your guild:
 

@@ -12,7 +12,7 @@ id: randomEmoji
 $randomEmoji
 ```
 
-## Example
+## Example(s)
 
 This will return a random emoji ID of your guild:
 

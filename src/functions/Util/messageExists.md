@@ -19,7 +19,7 @@ $messageExists[messageid;channelid?]
 | messageid  | integer | the id of the message                       | true     |
 | channelid? | integer | the channel id where the message is located | false    |
 
-## Example
+## Example(s)
 
 This will return `false` as the message doesn't exist in the given channel:
 

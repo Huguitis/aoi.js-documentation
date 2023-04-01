@@ -23,7 +23,7 @@ $guildMFALevel[guildID?]
 | 0    | guild has false MFA/2FA requirement for moderation actions |
 | 1    | guild has a 2FA requirement for moderation actions         |
 
-## Example
+## Example(s)
 
 This will return the guild's MFA Level:
 

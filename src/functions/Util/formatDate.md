@@ -36,7 +36,7 @@ $formatDate[date;format?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return your current date in the `dddd, DD MMMM YYYY` format:
 

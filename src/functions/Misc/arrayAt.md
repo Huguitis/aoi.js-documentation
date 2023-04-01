@@ -22,7 +22,7 @@ $arrayAt[name;index]
 | name  | string | name of the array           |   true   |
 | index | string | The position of the element |   true   |
 
-## Example
+## Example(s)
 
 - This will return `Aoi.dashboard`:
 

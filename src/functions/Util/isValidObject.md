@@ -20,7 +20,7 @@ $isValidObject[json]
 
 ### This function will only work if it's a JSON Object
 
-## Example
+## Example(s)
 
 This will return `true` as the given object is an valid json object:
 

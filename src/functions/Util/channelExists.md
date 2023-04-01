@@ -18,7 +18,7 @@ $channelExists[channel]
 |---------|--------|----------------------------|----------|
 | channel | string | channel ID or channel name | true     |
 
-## Example
+## Example(s)
 
 This will check if a channel with the name `general` exists, alternatively you could use the channel ID instead:
 

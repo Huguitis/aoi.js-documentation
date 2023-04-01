@@ -19,7 +19,7 @@ $messagePublish[messageID;channelID?]
 | messageID  | integer | message ID  |   true   |
 | channelID? | integer | channel ID  |  false   |
 
-## Example
+## Example(s)
 
 This will publish a message ( will only work in announcement channels ):
 

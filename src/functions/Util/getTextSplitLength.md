@@ -12,9 +12,9 @@ id: getTextSplitLength
 $getTextSplitLength
 ```
 
-## Example
+## Example(s)
 
-This will return `5` as there are five arguments seperated by commas given in `$textSplit`
+This will return `5` as there are five arguments separated by commas given in `$textSplit`
 
 ```javascript
 bot.command({

@@ -18,7 +18,7 @@ $setClientName[username]
 |----------|--------|---------------------|:--------:|
 | username | string | new client username |   true   |
 
-## Example
+## Example(s)
 
 This will change the client's username to the command author's username:
 

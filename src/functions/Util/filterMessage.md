@@ -19,7 +19,7 @@ $filterMessage[text;...letters]
 | text    | string | text input which will be filtered               | true     |
 | letters | string | characters you want to filter out of the `text` | true     |
 
-## Example
+## Example(s)
 
 This will remove the `N` of `Never` and return `ever`:
 

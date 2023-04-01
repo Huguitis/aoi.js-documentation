@@ -18,7 +18,7 @@ $humanizeMs[time]
 |-------|--------|-------------|:--------:|
 | time  | number | time in MS  |   true   |
 
-## Example
+## Example(s)
 
 This will return `6mon 1w 4d 16h 34m` converted from `16782516189` MS:
 

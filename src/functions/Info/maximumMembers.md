@@ -18,7 +18,7 @@ $maximumMembers[guildID?]
 |----------|---------|---------------------|:--------:|
 | guildID? | integer | the ID of the guild |  false   |
 
-## Example
+## Example(s)
 
 This will return the maximum of members you can have in your guild:
 

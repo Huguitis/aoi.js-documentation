@@ -18,7 +18,7 @@ $arrayPush[...elements]
 |-------------|--------|-----------------|:--------:|
 | ...elements | string | elements to add |   true   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

@@ -22,7 +22,7 @@ $cloneChannel[channelID;name;returnID?]
 
 ### It won't clone any messages of that channel.
 
-## Example
+## Example(s)
 
 This will clone the current channel and name it "new channel":
 

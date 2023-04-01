@@ -20,7 +20,7 @@ $takeRoles[guildID;userID;...roleIDs]
 | userID     | integer | user ID     |   true   |
 | ...roleIDs | integer | role IDs    |   true   |
 
-## Example
+## Example(s)
 
 This will remove given roles from yourself (the roles must be below the bot's highest role):
 

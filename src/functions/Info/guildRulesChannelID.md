@@ -18,7 +18,7 @@ $guildRulesChannelID[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the ID of the guild's rules channel (community guilds only):
 

@@ -19,7 +19,7 @@ $roleName[roleID;guildID?]
 | roleID   | integer | role ID     |   true   |
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the role name of any role you may like, in this case, It would return `@everyone`:
 

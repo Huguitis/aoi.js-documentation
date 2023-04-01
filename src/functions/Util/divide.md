@@ -18,7 +18,7 @@ $divide[...numbers;...numbers]
 |---------|--------|----------------------------|----------|
 | numbers | number | numbers you want to divide | true     |
 
-## Example
+## Example(s)
 
 This will return `23` as `69/3` equals it.
 

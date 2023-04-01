@@ -70,7 +70,7 @@ $hasAnyPerm[guildID;userID;...perms]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return `true` when the author has `manage messages` or `kick` permissions and return `false` when they don't
 have any of those:

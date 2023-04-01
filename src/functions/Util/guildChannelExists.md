@@ -19,7 +19,7 @@ $guildChannelExists[channel;guildID?]
 | channel | string  | channel ID or name of the guild channel           | true     |
 | guildId | integer | id of the guild where the guild channel exists in | true     |
 
-## Example
+## Example(s)
 
 This will check if a guild channel with the name `rules` exists, alternatively you could use the channel ID instead:
 

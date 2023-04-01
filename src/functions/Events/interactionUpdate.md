@@ -4,7 +4,7 @@ description: $interactionUpdate will update an existing interaction.
 id: interactionUpdate
 ---
 
-`$interactionUpdate` will return edit an interaction.
+`$interactionUpdate` will return update an existing interaction.
 
 ## Usage
 
@@ -21,16 +21,24 @@ $interactionUpdate[content?;embeds?;components?;files?]
 | components? | string | components      |  false   |
 | files?      | string | files           |  false   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.interactionCommand({
     name: "interactionUpdate",
     prototype: "slash",
     code: `
-  $interactionUpdate[Bye, World!]
-  $wait[5s]
-  $interactionReply[Hello, World!;;;;everyone;false]
+  $interactionReply[Hello, World!;;{actionRow:{button:Example Button!:primary:customID:false}};;everyone;false]
+  `
+});
+```
+
+```js
+bot.interactionCommand({
+    name: "customID",
+    prototype: "button",
+    code: `
+  $interactionUpdate[Bye, world.]
   `
 });
 ```

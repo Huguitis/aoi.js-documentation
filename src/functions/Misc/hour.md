@@ -12,7 +12,7 @@ id: hour
 $hour
 ```
 
-## Examples
+## Example(s)
 
 This will returns the current hour:
 

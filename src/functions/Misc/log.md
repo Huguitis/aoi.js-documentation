@@ -18,7 +18,7 @@ $log[message]
 |---------|--------|----------------|:--------:|
 | message | string | message to log |   true   |
 
-## Example
+## Example(s)
 
 This will log "Aoi.js is great!" in your bot's console:
 

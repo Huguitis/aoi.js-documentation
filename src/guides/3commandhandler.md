@@ -26,10 +26,19 @@ the bot to understand where our files are.
 const { AoiClient, LoadCommands } = require("aoi.js");
 
 const bot = new AoiClient({
-    token: "DISCORD BOT TOKEN",
-    prefix: "DISCORD BOT PREFIX",
+    token: "Discord Bot Token",
+    prefix: "Discord Bot Prefix",
     intents: ["Guilds", "GuildMessages", "MessageContent"],
-    events: ["onMessage", "onInteractionCreate"]
+    events: ["onMessage", "onInteractionCreate"],
+    database: {
+        type: "aoi.db",
+        db: require("aoi.db"),
+        tables: ["main"],
+        path: "./database/",
+        extraOptions: {
+            dbType: "KeyValue"
+        }
+    }
 });
 
 const loader = new LoadCommands(bot);
@@ -114,22 +123,6 @@ $description[Welcome to this server <@$authorID>!]`
 Make sure you have the required intents and `onJoin` in the `events` property in your `index.js` or else this won't
 work!
 > **Required intents: `GuildMembers`**
-
-## Command Handler Types & Prototypes
-
-| EVENT             | HANDLER TYPE                                                                                 |
-|-------------------|----------------------------------------------------------------------------------------------|
-| SUB_COMMAND       |                                                                                              |
-| SUB_COMMAND_GROUP |                                                                                              |
-| STRING            |                                                                                              |
-| INTEGER           | Any Integer between -2^53 and 2^53                                                           |
-| BOOLEAN           |                                                                                              |
-| USER              |                                                                                              |
-| CHANNEL           | Includes all channel types + categories                                                      |
-| ROLE              |                                                                                              |
-| MENTIONABLE       | Includes users and roles                                                                     |
-| NUMBER            | Any double between -2^53 and 2^53                                                            |
-| ATTACHMENT        | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
 
 ### Updating your commands without restart!
 

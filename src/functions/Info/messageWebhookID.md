@@ -19,7 +19,7 @@ $messageWebhookID[messageID?;channelID?]
 | messageID? | integer | id of the message                             |  false   |
 | channelID? | integer | channel ID of where the message is located in |  false   |
 
-## Example
+## Example(s)
 
 This will return the ID of a webhook, make sure to replace "messageID" with an actual message ID sent from a webhook:
 

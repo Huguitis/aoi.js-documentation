@@ -16,10 +16,10 @@ $addObjectProperty[name;value]
 
 | Field | Type   | Description           | Required |
 |-------|--------|-----------------------|:--------:|
-| name  | string | name of the propery   |   true   |
+| name  | string | name of the property   |   true   |
 | value | string | value of the property |   true   |
 
-## Example
+## Example(s)
 
 This will return `Ferel` from the `Leref` Property:
 

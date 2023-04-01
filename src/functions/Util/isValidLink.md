@@ -9,16 +9,16 @@ id: isValidLink
 ## Usage
 
 ```php
-$isValidLink[url]
+$isValidLink[URL]
 ```
 
 ## Parameters
 
 | Field | Type   | Description      | Required |
 |-------|--------|------------------|----------|
-| url   | string | any kind of link | true     |
+| URL   | string | any kind of link | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as the given link is valid:
 

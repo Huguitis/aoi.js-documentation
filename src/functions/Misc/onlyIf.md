@@ -19,7 +19,7 @@ $onlyIf[condition;error?]
 | condition | string, integer, number | condition to check                            |   true   |
 | error?    | string                  | error to return when condition does not match |  false   |
 
-## Examples
+## Example(s)
 
 This will return the error message as 5 does not equal to 3:
 

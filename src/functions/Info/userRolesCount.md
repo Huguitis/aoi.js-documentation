@@ -19,7 +19,7 @@ $userRolesCount[userID?;guildID?]
 | userID?  | integer | user ID     |  false   |
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the amount of roles you have assigned:
 

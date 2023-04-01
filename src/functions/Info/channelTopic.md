@@ -18,7 +18,7 @@ $channelTopic[channelID?]
 |------------|---------|---------------------------------------------------------|:--------:|
 | channelID? | integer | channel ID of the channel you want the channel topic of |  false   |
 
-## Example
+## Example(s)
 
 This will return the channel topic of the channel where you execute the command in:
 

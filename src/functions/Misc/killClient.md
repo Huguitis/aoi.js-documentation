@@ -12,7 +12,7 @@ id: killClient
 $killClient
 ```
 
-## Example
+## Example(s)
 
 This will forcefully shutdown your bot:
 

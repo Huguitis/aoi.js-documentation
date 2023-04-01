@@ -19,7 +19,7 @@ $isDeafen[userID?;guildID?]
 | userID?  | integer | user ID you want to check if they're deafened            | false    |
 | guildID? | integer | the guild ID where you want to check if they're deafened | false    |
 
-## Example
+## Example(s)
 
 This will return `false` or `true` depending on if you're currently deafened or not:
 

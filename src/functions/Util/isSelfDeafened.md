@@ -20,7 +20,7 @@ $isSelfDeafened[userid?;guildid?]
 | userid?  | integer | the user id of the user you want to check if they're deafened | false    |
 | guildid? | integer | the guild id of the guild where they're deafened in           | false    |
 
-## Example
+## Example(s)
 
 This will return either `true` or `false` depending on if you're deafened or not:
 

@@ -22,7 +22,7 @@ $interactionEdit[content?;embeds?;components?;files?;allowedMentions?]
 | files?           | string | files                                                                           |  false   |
 | allowedMentions? | string | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone** |  false   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.interactionCommand({

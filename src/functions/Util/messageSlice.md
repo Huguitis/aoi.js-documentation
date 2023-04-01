@@ -19,7 +19,7 @@ $messageSlice[from;to?]
 | from  | number | starting point where to slice the message | true     |
 | to?   | number | ending point where slicing ends           | false    |
 
-## Example
+## Example(s)
 
 This will slice the message from the first character to the fifth character:
 

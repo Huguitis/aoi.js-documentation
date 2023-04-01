@@ -20,7 +20,7 @@ $interactionModal[title;customID;components]
 | customID   | string | modal custom ID                                |   true   |
 | components | string | modal components                               |   true   |
 
-## Example
+## Example(s)
 
 This will create a button and modal which will send the entered data to the same channel and give an ephemeral response
 to the user who submitted the form:

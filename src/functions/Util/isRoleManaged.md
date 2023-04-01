@@ -21,7 +21,7 @@ $isRoleManaged[roleID;guildID?]
 
 ### Please note that your bot has to be in the same server as the role or else this function will not work.
 
-## Example
+## Example(s)
 
 This will check if a role called `Server Booster` is managed by Discord and return either `true` or `false`:
 

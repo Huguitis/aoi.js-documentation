@@ -21,7 +21,7 @@ $isCustomEmoji[emoji;guildID?]
 
 ### Please note that your bot has to be in the server where the custom emoji was created in.
 
-## Example
+## Example(s)
 
 This will return `true` as
 the ![emoji](https://cdn.discordapp.com/emojis/1003365344724910191.webp?size=16&quality=lossless) emoji is indeed a

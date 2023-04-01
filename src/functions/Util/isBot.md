@@ -18,7 +18,7 @@ $isBot[userID?]
 |---------|---------|-----------------------------------|----------|
 | userID? | integer | user id to check if they're a bot | false    |
 
-## Example
+## Example(s)
 
 This will return `true` as your bot is, obviously, a bot:
 

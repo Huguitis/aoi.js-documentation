@@ -32,7 +32,7 @@ $userLeaderBoard[guildID;variable;order?;custom?;list?;page?;table?]
 | **{id}**       | integer         | Returns the user ID.                    |
 | **{value}**    | number, integer | Returns the variable value.             |
 
-## Example
+## Example(s)
 
 This will returns a leaderboard of the "Example" variable:
 

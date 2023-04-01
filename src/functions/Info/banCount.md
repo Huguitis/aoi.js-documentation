@@ -20,7 +20,7 @@ $banCount[guildID?]
 
 #### Please note that your bot requires permissions to `VIEW_AUDIT_LOG`
 
-## Example
+## Example(s)
 
 This will return the amount of banned users in your guild:
 

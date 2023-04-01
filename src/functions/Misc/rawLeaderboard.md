@@ -32,7 +32,7 @@ $rawLeaderboard[variable;order?;type?;custom?;list?;page?;table?]
 | **{id}**    | integer         | Returns the user ID.                    |
 | **{value}** | number, integer | Returns the variable value.             |
 
-## Example
+## Example(s)
 
 This will return a leaderboard of the "Example" variable:
 

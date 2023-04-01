@@ -20,7 +20,7 @@ $textSlice[text;from?;to]
 | from? | number | starting point where to slice the message | false    |
 | to    | number | ending point where slicing ends           | true     |
 
-## Example
+## Example(s)
 
 This will return `Hello` and remove `Bye` from the given text:
 

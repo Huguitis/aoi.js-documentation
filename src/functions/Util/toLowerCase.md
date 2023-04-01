@@ -18,7 +18,7 @@ $toLowerCase[text]
 |-------|--------|-------------|----------|
 | text  | string |             | true     |
 
-## Example
+## Example(s)
 
 This will everything given to lowercase, in this case it would return `aoi.js is great.`:
 

@@ -15,13 +15,22 @@ $updateCommands
 * Will only work if you use a command handler, example below:
 
 ```javascript
-const {AoiClient, LoadCommands} = require("aoi.js");
+const { AoiClient, LoadCommands } = require("aoi.js");
 
 const bot = new AoiClient({
     token: "DISCORD BOT TOKEN",
     prefix: "DISCORD BOT PREFIX",
     intents: ["GuildMessages", "MessageContent", "Guilds"],
-    events: ["onMessage", "onInteractionCreate"]
+    events: ["onMessage", "onInteractionCreate"],
+    database: {
+        type: "aoi.db",
+        db: require("aoi.db"),
+        tables: ["main"],
+        path: "./database/",
+        extraOptions: {
+            dbType: "KeyValue"
+        }
+    }
 });
 
 const loader = new LoadCommands(bot);
@@ -29,7 +38,7 @@ loader.setColors(loader.themes.default);
 loader.load(bot.cmd, "./commands/"); // your command directory.
 ```
 
-## Example
+## Example(s)
 
 This will update the commands of your bot without restarting it:
 

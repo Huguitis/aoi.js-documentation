@@ -4,7 +4,7 @@ description: This Guide will be covering variables, their usage and how to store
 id: variables
 ---
 
-This guide will be covering everything you need to know about variables.
+This guide will provide you with a comprehensive understanding of variables.
 
 ### Table of Content
 
@@ -13,50 +13,58 @@ This guide will be covering everything you need to know about variables.
 
 ---
 
+
 ### Using Variables
 
-**Variables are very helpful, and makes devolping a lot easier.**
+Variables are useful tools in programming that allow you to store values that can be accessed and manipulated throughout your code. To use a variable, you first need to declare it by giving it a name and assigning a value to it.
 
-Before we use variables, we have to learn how to use them.
+One way to do this is by using the following code snippet in your main file (usually named `index.js`):
 
 ```js
 bot.variables({
-    varname: "varvalue",
-    varname2: "varvalue2"
+    variableName: boolean,
+    variableName: number,
+    variableName: object,
+    variableName: "string"
 });
 ```
 
-This is the easiest out of two ways to use variables, you would put that code snippet in your main file (in most cases named `index.js`).
+![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089014114048815194/wGV2JiLiHkleAAAAABJRU5ErkJggg.png)
+
+The `bot.variables()` function takes an object as an argument, where each property represents a variable name and its corresponding value.
 
 ---
 
-### Variable Handler
+## Variable Handlers
 
-Another way, which will keep your main file clean, are variable handlers (stored in another file).
+Another way to use variables is by using a variable handler, which can help keep your main file organized and cleaner. To set up a variable handler, follow these steps:
 
-Create a directory called "**handler**" and a file inside of it called "**variables.js**", after you did that, put that
-in your main file:
+1. Create a directory called "**handler**".
+2. Create a file inside the directory named "**variables.js**".
+3. In your main file, add the following code:
 
 ```js
 bot.variables(require("./handler/variables.js"));
 ```
 
-Now go to your `variables.js` file and paste the following:
+4. In the `variables.js` file, create an array of objects, where each object represents a variable name and its corresponding value:
 
 ```js
 module.exports = [{
-    varname: "varvalue",
-    varname2: "varvalue2"
+    variableName: boolean,
+    variableName: number,
+    variableName: object,
+    variableName: "string"
 }]
 ```
 
-And that's it, you have a working variable handler and your main file will be clean.
+![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089013645339525220/hMuNNypDYKfdAAAAABJRU5ErkJggg.png)
+
+With these steps, you now have a working variable handler, which can help you keep your code organized and easier to manage.
 
 <!--- links -->
 
 [1]: #using-variables
 [2]: #variable-handler
 [3]: #variable-functions
-[embed-example]: https://cdn.discordapp.com/attachments/1061712111052521493/1061764337691279460/image_3.png
 [aoi-github]: https://github.com/akaruidevelopment/aoi.js#v6
-[ayaka-parser]: https://github.com/usersatoshi/parsers#main

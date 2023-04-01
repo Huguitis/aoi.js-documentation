@@ -9,16 +9,16 @@ id: isValidInvite
 ## Usage
 
 ```php
-$isValidInvite[url]
+$isValidInvite[URL]
 ```
 
 ## Parameters
 
 | Field | Type   | Description      | Required |
 |-------|--------|------------------|----------|
-| url   | string | guild invite url | true     |
+| URL   | string | guild invite URL | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as `https://discord.gg/aoi-js-server-akarui-development-team-773352845738115102` is an valid
 invite:

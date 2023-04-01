@@ -12,7 +12,7 @@ id: reboot
 $reboot
 ```
 
-## Example
+## Example(s)
 
 This will restart your bot:
 

@@ -20,7 +20,7 @@ $setRolePosition[roleID;position;guildID?]
 | position | number  | new role position (1 being the very bottom) |   true   |
 | guildID? | integer | guild ID                                    |  false   |
 
-## Example
+## Example(s)
 
 This will change a random role's position to `1` (the bot's highest role must be above that role):
 

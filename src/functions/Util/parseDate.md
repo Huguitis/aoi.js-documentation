@@ -26,7 +26,7 @@ $parseDate[ms;type?]
 | time | 1 years, 1 week, 6 days, 8 hours, 16 minutes, 20 seconds |
 | date | 1/1/2023, 8:16:20 AM                                     |
 
-## Example
+## Example(s)
 
 This will return your current date in the `date` [format](#types):
 

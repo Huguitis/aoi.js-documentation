@@ -20,7 +20,7 @@ $findGuildChannel[channelResolver;returnSelf?;guildID?]
 | returnSelf?     | string  | return the channel where the command got executed in when nothing found | false    |
 | guildID?        | integer | guild ID where the channel is present in                                | false    |
 
-## Example
+## Example(s)
 
 This will return the channel ID of an channel called `#rules`
 

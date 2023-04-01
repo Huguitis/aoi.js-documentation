@@ -25,13 +25,12 @@ $guildLeaderboard[variable;type?;custom?;list?;page?;table?]
 
 | Options        | Returns         |                                         |
 |----------------|-----------------|-----------------------------------------|
-| **{top}**      | number          | Returns the position of the user.       |
-| **{username}** | string          | Returns the username.                   |
-| **{tag}**      | string          | Returns the username and discriminator. |
-| **{id}**       | integer         | Returns the user ID.                    |
+| **{top}**      | number          | Returns the position of the guild.      |
+| **{name}**     | string          | Returns the guild name.                 |
+| **{id}**       | integer         | Returns the guild ID.                   |
 | **{value}**    | number, integer | Returns the variable value.             |
 
-## Example
+## Example(s)
 
 This will returns a leaderboard of the "Example" variable:
 
@@ -39,7 +38,7 @@ This will returns a leaderboard of the "Example" variable:
 bot.command({
     name: "guildLeaderboard",
     code: `
-    $guildLeaderboard[Example;asc;{top}) {username} : {value};10;1;main]
+    $guildLeaderboard[Example;asc;{top}) {name} : {value};10;1;main]
     `
 });
 ```

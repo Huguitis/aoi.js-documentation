@@ -18,7 +18,7 @@ $isUnicodeEmoji[emoji]
 |-------|--------|---------------|----------|
 | emoji | string | unicode emoji | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as "🤓" is an valid unicode emoji:
 

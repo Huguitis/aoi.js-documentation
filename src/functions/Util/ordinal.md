@@ -18,7 +18,7 @@ $ordinal[number]
 |--------|--------|----------------------------------------------------|----------|
 | number | number | number which will add `st`, `nd`, `rd`, `th` to it | true     |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

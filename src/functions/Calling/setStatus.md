@@ -9,7 +9,7 @@ id: setStatus
 ## Usage
 
 ```php
-$setStatus[name;type;status;url;afk?]
+$setStatus[name;type;status;URL;afk?]
 ```
 
 ## Parameters
@@ -19,10 +19,10 @@ $setStatus[name;type;status;url;afk?]
 | name   | string          | status content                                                                                                          |   true   |
 | type   | string, integer | 1. **PLAYING** (default) <br /> 2. **WATCHING** <br /> 3. **STREAMING** <br /> 4. **LISTENING** <br /> 5. **COMPETING** |   true   |
 | status | string          | 1. **online** (default) <br /> 2. **idle** <br /> 3. **dnd** <br /> 4. **invisible**                                    |   true   |
-| url    | string          | URL (streaming status)                                                                                                  |   true   |
+| URL    | string          | URL (streaming status)                                                                                                  |   true   |
 | afk?   | string          | 1. **true** <br /> 2. **false** (default)                                                                               |  false   |
 
-## Example
+## Example(s)
 
 This will change the client's status to **PLAYING** and **online**:
 

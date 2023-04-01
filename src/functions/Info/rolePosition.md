@@ -19,7 +19,7 @@ $rolePosition[roleID;guildID?]
 | roleID   | integer | role ID     |   true   |
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return the role position of any role you might like, for this example, we'll use the `@everyone` role:
 

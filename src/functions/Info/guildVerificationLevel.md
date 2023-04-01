@@ -26,7 +26,7 @@ $guildVerificationLevel[guildID?]
 | 3    | High    |
 | 4    | Highest |
 
-## Example
+## Example(s)
 
 This will return the guild's verification Level:
 

@@ -32,7 +32,7 @@ $getMessage[channelID;messageID;option?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return the content of your sent message:
 

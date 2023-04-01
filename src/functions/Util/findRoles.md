@@ -27,7 +27,7 @@ $findRoles[query;limit?;type?;res?]
 * {id} -> returns the role ID
 * {username} -> returns the role name
 
-## Example
+## Example(s)
 
 This will return all roles which are named `Owner`:
 

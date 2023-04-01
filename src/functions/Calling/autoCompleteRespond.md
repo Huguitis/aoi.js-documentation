@@ -23,7 +23,7 @@ $autoCompleteRespond[OptionName;OptionReply;...]
 | OptionName  | string | name of the auto-complete option                                     |   true   |
 | OptionReply | string | the reply that will be sent if the auto-complete option was selected |   true   |
 
-## Examples
+## Example(s)
 
 Create the slash-commands: (please note that you require the `events: ["onMessage", "onInteractionCreate"]` callback in
 your main file)

@@ -20,7 +20,7 @@ $modifyRole[guildID;roleID;...data]
 | roleID  | integer | role ID       |   true   |
 | ...data | string  | new role data |   true   |
 
-## Example
+## Example(s)
 
 This will edit a existing role / change its name to "Awesome!":
 

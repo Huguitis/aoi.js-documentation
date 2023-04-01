@@ -20,7 +20,7 @@ $cropText[text;limit;start?]
 | limit  | number | limit of the cropped text/will start to crop any text coming after that | true     |
 | start? | number | where cropping should start                                             | false    |
 
-## Example
+## Example(s)
 
 This will return `bye` and remove `hello and` from the given text:
 

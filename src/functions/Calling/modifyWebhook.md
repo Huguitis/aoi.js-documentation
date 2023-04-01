@@ -22,7 +22,7 @@ $modifyWebhook[webhookID;name;avatar;channelID?;reason?]
 | channelID? | integer | ID of the channel where the webhook is located in      |  false   |
 | reason?    | string  | reason that will be displayed in the guilds audit logs |  false   |
 
-## Example
+## Example(s)
 
 This will modify a existing webhook and change it's avatar to your user avatar:
 

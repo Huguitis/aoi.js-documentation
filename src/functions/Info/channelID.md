@@ -18,7 +18,7 @@ $channelID[name?]
 |-------|---------|--------------------------------------------------------|:--------:|
 | name? | integer | channel name of the channel you want the channel ID of |  false   |
 
-## Example
+## Example(s)
 
 This will return the channel ID of the channel where you execute the command in:
 

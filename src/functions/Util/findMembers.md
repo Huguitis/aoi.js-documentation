@@ -30,7 +30,7 @@ $findMembers[query;limit?;type?;force?;res?]
 * {nick} -> returns the nickname
 * {tag} -> returns the user discriminator
 
-## Example
+## Example(s)
 
 This will return twenty members with `Leref` in their username:
 

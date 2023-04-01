@@ -21,7 +21,7 @@ $isHoisted[roleID;guildID?]
 
 ### Please note that your bot has to be in the server in order for this function to work.
 
-## Example
+## Example(s)
 
 This will check if a role called `Owner` is hoisted in your server:
 

@@ -18,7 +18,7 @@ $systemChannelID[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |   true   |
 
-## Example
+## Example(s)
 
 This will return the guild's system channel ID:
 

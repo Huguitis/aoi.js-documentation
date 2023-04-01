@@ -34,7 +34,7 @@ $ifAwaited[condition;true;false?]
 | \        | \                        |     | logical OR               |
 | &&       | logical conjunction      |
 
-## Example
+## Example(s)
 
 This will execute the `awaitedCommand` awaited command as the statement is true:
 

@@ -21,7 +21,7 @@ $moveUser[guildID;userID;channelID;reason?]
 | channelID | integer | voice channel ID                           |   true   |
 | reason?   | string  | reason to display in the guilds audit logs |  false   |
 
-## Example
+## Example(s)
 
 This will move a user to another Voice Channel:
 

@@ -19,7 +19,7 @@ $getVar[varname;table?]
 | varname | string | variable name  |   true   |
 | table?  | string | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will return the value of a variable called "Example":
 

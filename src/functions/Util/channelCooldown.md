@@ -23,7 +23,7 @@ $channelCooldown[time;errorMessage?]
 | time          | string | timer of the cooldown                                   | true     |
 | errorMessage? | string | error message when given cooldown timer is still active | false    |
 
-## Example
+## Example(s)
 
 This will set a cooldown for a command in the channel where the command was executed in and returns the remaining
 cooldown:

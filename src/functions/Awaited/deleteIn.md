@@ -18,7 +18,7 @@ $deleteIn[time]
 |-------|--------|----------------------------------------------|:--------:|
 | time  | string | after how much time the message gets deleted |   true   |
 
-## Example
+## Example(s)
 
 This will delete the sent message after five seconds:
 

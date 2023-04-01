@@ -17,11 +17,11 @@ $getUserBadges[userId?;sep?]
 | Field   | Type    | Description                                                            | Required |
 |---------|---------|------------------------------------------------------------------------|:--------:|
 | userId? | integer | the id of the user you want the badges of                              |  false   |
-| sep?    | string  | seperator to split multiple badges from eachother <br /> `,` (default) |  false   |
+| sep?    | string  | separator to split multiple badges from eachother <br /> `,` (default) |  false   |
 
-## Example
+## Example(s)
 
-This will return your Discord Badges seperated by a comma:
+This will return your Discord Badges separated by a comma:
 
 ```javascript
 bot.command({

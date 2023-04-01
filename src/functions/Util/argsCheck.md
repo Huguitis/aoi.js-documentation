@@ -31,10 +31,10 @@ $argsCheck[condition;errorMessage?]
 | \>=      | greater than or equal to |
 | \>       | greater than             |
 | <        | less than                |
-| \        | \                        |     | logical OR               |
+| \|\|     | logical OR               |
 | &&       | logical conjunction      |
 
-## Example
+## Example(s)
 
 This returns: Greater than 2 arguments if condition met, else it will return an error message.
 

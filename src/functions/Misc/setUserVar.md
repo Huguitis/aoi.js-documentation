@@ -22,7 +22,7 @@ $setUserVar[varname;value;userID?;id?;table?]
 | id?     | string, integer         | 1. **specific guild id** <br /> 2. **dm** |  false   |
 | table?  | string                  | variable table                            |  false   |
 
-## Example
+## Example(s)
 
 This will change the value of "Example" to "This is a value":
 

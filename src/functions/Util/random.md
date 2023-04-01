@@ -19,9 +19,9 @@ $random[num1;num2;allow?;random?]
 | num1                          | number | start of the span                     | true     |
 | num2                          | number | end of the span                       | true     |
 | allow?                        | string | allows returning of decimal numbers   | false    |
-| [random?](#advanced-examples) | string | if the returned number will be random | false    |
+| [random?](#advanced-Example) | string | if the returned number will be random | false    |
 
-## Examples
+## Example(s)
 
 This will return a random number between `20` and `250`:
 
@@ -34,7 +34,7 @@ bot.command({
 });
 ```
 
-### Advanced Examples
+### Advanced Example
 
 This will return a random decimal number between `25` and `50`:
 

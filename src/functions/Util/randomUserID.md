@@ -18,7 +18,7 @@ $randomUserID[global/guildID?]
 |-----------------|--------|-------------------------------------------------------------------------|----------|
 | global/guildID? | string | return a random user out of all guild or out of one specific guild only | false    |
 
-## Example
+## Example(s)
 
 This will return a random user id:
 

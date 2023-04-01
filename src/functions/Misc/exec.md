@@ -18,7 +18,7 @@ $exec[code]
 |-------|--------|---------------------------------|:--------:|
 | code  | string | code to execute in your console |   true   |
 
-## Example
+## Example(s)
 
 This will return your node version:
 

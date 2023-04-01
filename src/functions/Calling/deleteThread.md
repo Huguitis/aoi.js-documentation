@@ -20,7 +20,7 @@ $deleteThread[channelID;threadID;reason?]
 | threadID  | integer | thread ID                                    |   true   |
 | reason?   | string  | guild ID                                     |  false   |
 
-## Example
+## Example(s)
 
 This will delete a thread of the channel where you execute the command in ( make sure to replace threadID with an actual
 thread ID ):

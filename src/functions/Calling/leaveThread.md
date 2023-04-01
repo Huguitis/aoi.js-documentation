@@ -19,7 +19,7 @@ $leaveThread[channelID;threadID]
 | channelID | integer | channel ID  |   true   |
 | threadID  | integer | thread ID   |   true   |
 
-## Example
+## Example(s)
 
 This will create a thread and make the bot leave after creation:
 

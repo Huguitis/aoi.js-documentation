@@ -28,7 +28,7 @@ $checkCondition[condition]
 | \>=      | greater than or equal to |
 | \>       | greater than             |
 | <        | less than                |
-| \        | \                        |     | logical OR               |
+| \|\|     | logical OR               |
 | &&       | logical conjunction      |
 
 ## Example(s)
@@ -44,7 +44,7 @@ bot.command({
 });
 ```
 
-### Advanced Example(s)
+### Advanced Example
 
 #### Logical conjunction
 

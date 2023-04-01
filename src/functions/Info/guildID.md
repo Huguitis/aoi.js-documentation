@@ -18,7 +18,7 @@ $guildID[name?]
 |-------|--------|-------------------------------------|:--------:|
 | name? | string | guild name you want the guild ID of |  false   |
 
-## Example
+## Example(s)
 
 This will return your guild ID:
 

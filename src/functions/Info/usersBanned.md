@@ -19,9 +19,9 @@ $usersBanned[guildID?;force?;option?;sep?]
 | guildID? | integer | guild ID                                                                                               |  false   |
 | force?   | string  | 1. **true** <br /> 2. **false** (default)                                                              |  false   |
 | option?  | string  | how to return the banned users <br /> 1. **id** (default) <br /> 1. **username** <br /> 1. **mention** |  false   |
-| sep?     | string  | seperator to seperate multiple arguments                                                               |  false   |
+| sep?     | string  | separator to separate multiple arguments                                                               |  false   |
 
-## Example
+## Example(s)
 
 This will return the banned users of your guild as mention in an embed:
 

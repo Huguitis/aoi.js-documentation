@@ -20,7 +20,7 @@ $footer[index?;text;iconURL?]
 | text     | string | content of the footer           |   true   |
 | iconURL? | string | footer Icon (bottom left image) |  false   |
 
-## Example
+## Example(s)
 
 This will create an embed with a footer and title:
 

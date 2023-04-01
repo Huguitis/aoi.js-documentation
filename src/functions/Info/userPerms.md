@@ -17,10 +17,10 @@ $userPerms[userID?;sep?;guildID?]
 | Field    | Type    | Description                              | Required |
 |----------|---------|------------------------------------------|:--------:|
 | userID?  | integer | user ID                                  |  false   |
-| sep?     | string  | seperator to seperate multiple arguments |  false   |
+| sep?     | string  | separator to separate multiple arguments |  false   |
 | guildID? | integer | guild ID                                 |  false   |
 
-## Example
+## Example(s)
 
 This will return your permissions:
 

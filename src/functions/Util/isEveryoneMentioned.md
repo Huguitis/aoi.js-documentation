@@ -12,7 +12,7 @@ id: isEveryoneMentioned
 $isEveryoneMentioned
 ```
 
-## Example
+## Example(s)
 
 This will check if you mentioned `@here` or `@everyone`:
 

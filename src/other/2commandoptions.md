@@ -18,29 +18,31 @@ module.exports = [{
 }]
 ```
 
-| OPTION        | INPUT   | EXPLANATION                                                                             |
-|---------------|---------|-----------------------------------------------------------------------------------------|
-| `name`        | string  | Command Name.                                                                           |
-| `aliases`     | string  | Aliases, work the same way as `name`.                                                   |
-| `nonPrefixed` | boolean | Set your command as non prefixed, meaning it can be executed without the actual prefix. |
-| `executeAt`   | string  | Define where it may can get executed in. <br /> 1. **guild** <br /> 2. **dm**           |
-| `code`        | string  | Your command code.                                                                      |
+| OPTION        | INPUT   | EXPLANATION                                                                                      |
+|---------------|---------|--------------------------------------------------------------------------------------------------|
+| `name`        | string  | Command Name.                                                                                    |
+| `aliases`     | string  | Aliases, work the same way as `name`.                                                            |
+| `nonPrefixed` | boolean | Set your command as non prefixed, meaning it can be executed without the actual prefix.          |
+| `executeAt`   | string  | Define where it may can get executed in. <br /> 1. **guild** <br /> 2. **dm** <br /> 3. **both** |
+| `code`        | string  | Your command code.                                                                               |
 
 ### Event Commands
 
 ```js
 module.exports = [{
-    name: string,
-    channel: string,
+    name?: string,
+    type: string,
+    channel?: string,
     code: string,
 }]
 ```
 
-| OPTION    | INPUT  | EXPLANATION              |
-|-----------|--------|--------------------------|
-| `name`    | string | Command Name.            |
-| `channel` | string | Where the output may go. |
-| `code`    | string | Your command code.       |
+| OPTION    | INPUT  | EXPLANATION                                                   |
+|-----------|--------|---------------------------------------------------------------|
+| `name`    | string | Command Name.                                                 |
+| `type`    | string | Defines the command type, any event, `interaction` or `loop`. |
+| `channel` | string | Where the output may go.                                      |
+| `code`    | string | Your command code.                                            |
 
 ### Interaction Commands
 
@@ -56,7 +58,7 @@ module.exports = [{
 | OPTION      | INPUT  | EXPLANATION                                                                                                                          |
 |-------------|--------|--------------------------------------------------------------------------------------------------------------------------------------|
 | `name`      | string | Command Name.                                                                                                                        |
-| `type`      | string | Defines the command type, any event, `interaction` or `loop`.                                                                        |
+| `type`      | string | Defines the command type.                                                                                                            |
 | `prototype` | string | Defines what the command will be triggered by. <br /> 1. **button** <br /> 2. **selectMenu** <br /> 4. **slash** <br /> 5. **modal** |
 | `code`      | string | Your command code.                                                                                                                   |
 
@@ -66,8 +68,8 @@ module.exports = [{
 module.exports = [{
     name: string,
     type: string,
-    channel? : boolean,
-    executeOnStartup? : boolean,
+    channel?: boolean,
+    executeOnStartup?: boolean,
     every: number,
     code: string
 }]

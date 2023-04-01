@@ -18,7 +18,7 @@ $math[calculation]
 |-------------|--------|----------------------|----------|
 | calculation | string | calculation (/*-+()) | true     |
 
-## Example
+## Example(s)
 
 This will return `205` as `15+5/2*26+(5+120)` equals it:
 

@@ -1,10 +1,10 @@
 ---
 title: $joinSplitText
-description: $joinSplitText will join all text split elements by a given seperator.
+description: $joinSplitText will join all text split elements by a given separator.
 id: joinSplitText
 ---
 
-`$joinSplitText` will join all text split elements by a given seperator.
+`$joinSplitText` will join all text split elements by a given separator.
 
 ## Usage
 
@@ -16,9 +16,9 @@ $joinSplitText[sep?]
 
 | Field | Type    | Description | Required |
 |-------|---------|-------------|:--------:|
-| sep?  | integer | seperator   |  false   |
+| sep?  | integer | separator   |  false   |
 
-## Example
+## Example(s)
 
 This will join all text split elements with a comma:
 

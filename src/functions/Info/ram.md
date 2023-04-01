@@ -12,7 +12,7 @@ id: ram
 $ram
 ```
 
-## Example
+## Example(s)
 
 This will return the RAM usage and the available amount of RAM:
 

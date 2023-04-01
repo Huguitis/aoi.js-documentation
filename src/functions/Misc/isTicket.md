@@ -18,7 +18,7 @@ $isTicket[channelID?]
 |------------|---------|-------------|:--------:|
 | channelID? | integer | channel ID  |  false   |
 
-## Example
+## Example(s)
 
 This will check if the current channel is a ticket channel created by `$newTicket`:
 

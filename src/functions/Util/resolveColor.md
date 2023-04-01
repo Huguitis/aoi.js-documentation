@@ -18,17 +18,17 @@ $resolveColor[type;returnAs?;...datas]
 |-----------|--------|-------------------------------------------|----------|
 | type      | string | which type the input is                   | true     |
 | returnAs? | string | as what the color will be returned        | false    |
-| datas     | string | the data of the rgb or decimal color data | true     |
+| datas     | string | the data of the RGB or decimal color data | true     |
 
 ### Types
 
 | Types   |                   | Returns     |
 |---------|-------------------|-------------|
-| rgb     | red, green, blue  | 50, 168, 82 |
+| RGB     | red, green, blue  | 50, 168, 82 |
 | decimal | hex color         | #32a852     |
 | number  | hexadecimal color | 80          |
 
-## Example
+## Example(s)
 
 This will return `#32a852` as `50, 168, 82` is the RGB value of it:
 

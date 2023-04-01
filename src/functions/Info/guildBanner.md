@@ -18,7 +18,7 @@ $guildBanner[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
 This will return your guild banner (if unlocked and using):
 

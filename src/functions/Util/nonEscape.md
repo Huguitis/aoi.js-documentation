@@ -18,7 +18,7 @@ $nonEscape[message]
 |---------|--------|----------------------------------|----------|
 | message | string | text you dont want to be escaped | true     |
 
-## Example
+## Example(s)
 
 This will stop from escaping certain characters:
 

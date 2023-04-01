@@ -19,9 +19,9 @@ $indexOf[string;char]
 | string | string | the text the bot will be checking the index of | true     |
 | char   | string | the character the bot will be checking for     | true     |
 
-## Example
+## Example(s)
 
-This will return `8` as it's the first occuring position of the character `w`:
+This will return `8` as it's the first occurring position of the character `w`:
 
 ```javascript
 bot.command({

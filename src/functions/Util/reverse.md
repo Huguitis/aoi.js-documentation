@@ -18,7 +18,7 @@ $reverse[text]
 |-------|--------|--------------------------|----------|
 | text  | string | text you want to reverse | true     |
 
-## Example
+## Example(s)
 
 This will the following text readable:
 

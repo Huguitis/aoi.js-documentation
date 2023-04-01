@@ -16,11 +16,11 @@ $guildNames[sep?]
 
 | Field | Type   | Description                              | Required |
 |-------|--------|------------------------------------------|:--------:|
-| sep?  | string | seperator to seperate multiple arguments |  false   |
+| sep?  | string | separator to separate multiple arguments |  false   |
 
-## Example
+## Example(s)
 
-This will return the names of the guilds your bot is in and seperate it by a comma:
+This will return the names of the guilds your bot is in and separate it by a comma:
 
 ```javascript
 bot.command({

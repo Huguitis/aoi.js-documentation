@@ -19,9 +19,9 @@ $userRoleColor[userID?;guildID?]
 | userID?  | integer | user ID     |  false   |
 | guildID? | integer | guild ID    |  false   |
 
-## Example
+## Example(s)
 
-This will return the color of your highest role:
+This will return the Color of your highest role:
 
 ```javascript
 bot.command({

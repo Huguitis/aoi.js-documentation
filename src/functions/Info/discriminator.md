@@ -18,7 +18,7 @@ $discriminator[userId?]
 |---------|---------|-------------------------------------------------------|----------|
 | userId? | integer | the user id of the user you want the discriminator of | false    |
 
-## Example
+## Example(s)
 
 This will return your Discord User Discriminator, for example `0000`:
 

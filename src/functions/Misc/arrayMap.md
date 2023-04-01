@@ -9,7 +9,7 @@ id: arrayMap
 ## Usage
 
 ```php
-$arrayMap[name;awaitedCommand;seperator?;awaitData?]
+$arrayMap[name;awaitedCommand;separator?;awaitData?]
 ```
 
 ## Parameters
@@ -18,5 +18,5 @@ $arrayMap[name;awaitedCommand;seperator?;awaitData?]
 |----------------|--------|-----------------------------|:--------:|
 | name           | string | array name                  |   true   |
 | awaitedCommand | string | awaited command to executed |   true   |
-| seperator?     | string | seperator                   |  false   |
+| separator?     | string | separator                   |  false   |
 | awaitData?     | string | awaited data                |  false   |

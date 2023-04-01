@@ -20,7 +20,7 @@ $onlyForGuilds[...guildIds;error?]
 | ...guildIds | string, integer | guilds you want to limit the command to                                       |   true   |
 | error?      | string          | error to return when the command was not executed in any of the listed guilds |  false   |
 
-## Examples
+## Example(s)
 
 This will limit the command only to the listed guilds:
 

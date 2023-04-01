@@ -9,19 +9,19 @@ id: jsonRequest
 ## Usage
 
 ```php
-$jsonRequest[url;property?;error?;headerName:headerValue?]
+$jsonRequest[URL;property?;error?;headerName:headerValue?]
 ```
 
 ## Parameters
 
 | Field     | Type   | Description                           | Required |
 |-----------|--------|---------------------------------------|:--------:|
-| url       | string | url you want to get/send data to/from |   true   |
+| URL       | string | URL you want to get/send data to/from |   true   |
 | property? | string | property to return (get method)       |  false   |
 | error?    | string | error to return when request fails    |  false   |
 | ...header | string | headerName, headerValue               |   true   |
 
-## Example
+## Example(s)
 
 This will return a random dog fact:
 

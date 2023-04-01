@@ -18,7 +18,7 @@ $expandNumber[abbrNumber]
 |------------|--------|---------------------------|----------|
 | abbrNumber | string | number you want to expand | true     |
 
-## Example
+## Example(s)
 
 This will return `1300000`:
 

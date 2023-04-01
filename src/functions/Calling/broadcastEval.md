@@ -9,16 +9,16 @@ id: broadcastEval
 ## Usage
 
 ```php
-$broadcastEval[func]
+$broadcastEval[function]
 ```
 
 ## Parameters
 
-| Field | Type   | Description              | Required |
-|-------|--------|--------------------------|:--------:|
-| func  | string | function or code to eval |   true   |
+| Field    | Type   | Description              | Required |
+|----------|--------|--------------------------|:--------:|
+| function | string | function or code to eval |   true   |
 
-## Example
+## Example(s)
 
 **Requires Sharding - Review the Sharding Guide if you need explanation**
 

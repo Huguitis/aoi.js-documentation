@@ -18,7 +18,7 @@ $suppressErrors[errorMsg?]
 |----------|-------------------------|-------------------------|:--------:|
 | errorMsg | string, integer, number | error message to return |  false   |
 
-## Example
+## Example(s)
 
 This will suppress all errors of your code and return the pre-defined error message instead:
 

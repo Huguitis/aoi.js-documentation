@@ -12,7 +12,7 @@ id: year
 $year
 ```
 
-## Examples
+## Example(s)
 
 This will returns the current year:
 

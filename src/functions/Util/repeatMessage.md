@@ -19,7 +19,7 @@ $repeatMessage[time;text]
 | time  | integer | the amount of times the text gets repeated | true     |
 | text  | string  | the text that will get repeated            | true     |
 
-## Example
+## Example(s)
 
 This will return `Hello ` twenty times:
 

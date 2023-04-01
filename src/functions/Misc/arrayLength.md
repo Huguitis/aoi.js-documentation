@@ -18,7 +18,7 @@ $arrayLength[name]
 |-------|--------|-------------|:--------:|
 | name  | string | array name  |   true   |
 
-## Example
+## Example(s)
 
 ```javascript
 bot.command({

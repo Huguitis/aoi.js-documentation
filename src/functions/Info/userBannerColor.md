@@ -18,7 +18,7 @@ $userBannerColor[userID?]
 |---------|---------|--------------------|:--------:|
 | userID? | integer | the ID of the user |  false   |
 
-## Example
+## Example(s)
 
 This will return your profile banner color:
 

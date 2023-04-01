@@ -20,7 +20,7 @@ $getGlobalUserVar[varname;userID?;table?]
 | userID? | integer | user ID        |  false   |
 | table?  | string  | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will return the value of a variable called "Example":
 

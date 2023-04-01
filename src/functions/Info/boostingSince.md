@@ -25,7 +25,7 @@ $boostingSince[guildID?;userID?;format?]
 | ms     | 1652643158052                                           |
 | date   | Sun May 15 2022 20:32:38 GMT+0100 (British Summer Time) |
 
-## Example
+## Example(s)
 
 This will return the date when you started boosting (wont work when you're not boosting):
 

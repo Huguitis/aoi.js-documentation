@@ -19,7 +19,7 @@ $stringEndsWith[text;check]
 | text  | string | the text that will be checked                                         | true     |
 | check | string | the argument that will check if the text ends with something specific | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as `aoi.js` ends with `js`:
 

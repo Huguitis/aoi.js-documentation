@@ -33,7 +33,7 @@ $if[condition;true;false?]
 | \        | \                        |     | logical OR               |
 | &&       | logical conjunction      |
 
-## Example
+## Example(s)
 
 This will return `That's false!` as `1` doesn't equal `2`:
 

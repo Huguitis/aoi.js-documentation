@@ -22,7 +22,7 @@ $isBanned[guildID;userID]
 **Please note that your bot has to be present in the guild and needs permissions to view audit logs for this function to
 function properly.**
 
-## Example
+## Example(s)
 
 This will return `false` as you're not banned in this guild:
 

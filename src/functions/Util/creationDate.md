@@ -29,7 +29,7 @@ $creationDate[id;format?]
 | time-full     | 4 years, 9 months, 6 days, 2 hours, 17 minutes, 33 seconds |
 | time-humanize | 4y 9mon 6d 2h 24m 30s                                      |
 
-## Example
+## Example(s)
 
 This will return your account create date:
 

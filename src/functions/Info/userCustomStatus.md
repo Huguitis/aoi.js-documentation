@@ -20,7 +20,7 @@ $userCustomStatus[userID?;guildID?;method?]
 | guildID? | integer | guild ID                                                                                                                           |  false   |
 | method?  | string  | which part of the status to return <br /> 1. **state** (default) - returns the status text <br /> 2. **emoji** - returns the emoji |  false   |
 
-## Example
+## Example(s)
 
 This will return your status text if you have any:
 

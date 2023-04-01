@@ -18,7 +18,7 @@ $addApplicationCommandPermissions[guildID/global?;id;...perms]
 | id             | integer         | application command ID |   true   |
 | ...perms       | string          | permissions            |   true   |
 
-## Example
+## Example(s)
 
 This will disable the slash command for everyone in the guild ( make sure to replace "ID" with the actual slash command
 ID ):

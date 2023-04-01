@@ -18,7 +18,7 @@ $textInputValue[option]
 |--------|--------|-------------------------------------------|:--------:|
 | option | string | option <br /> 1. **name (of the option)** |   true   |
 
-## Example
+## Example(s)
 
 This will create a button and modal which will send the entered data to the same channel and give an ephemeral response
 to the user who submitted the form:

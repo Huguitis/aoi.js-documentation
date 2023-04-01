@@ -20,7 +20,7 @@ $channelPermissionsFor[userorroleID?;channelID?;sep?]
 | channelID?    | integer | channel ID      |   true   |
 | sep?          | integer | guild ID        |   true   |
 
-## Example
+## Example(s)
 
 This will return your permissions in the channel where you execute the command:
 

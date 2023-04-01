@@ -18,7 +18,7 @@ $isNumber[num]
 |-------|--------|--------------------------------------------|----------|
 | num   | number | argument you want to check if its a number | true     |
 
-## Example
+## Example(s)
 
 This will return `true` as `255` is a valid number:
 

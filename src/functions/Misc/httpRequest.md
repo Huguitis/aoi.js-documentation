@@ -9,21 +9,21 @@ id: httpRequest
 ## Usage
 
 ```php
-$httpRequest[url;method?;body?;property?;error?;headerName:headerValue?]
+$httpRequest[URL;method?;body?;property?;error?;headerName:headerValue?]
 ```
 
 ## Parameters
 
 | Field     | Type   | Description                                           | Required |
 |-----------|--------|-------------------------------------------------------|:--------:|
-| url       | string | url you want to get/send data to/from                 |   true   |
+| URL       | string | URL you want to get/send data to/from                 |   true   |
 | method    | string | method <br /> 1. **GET** (default) <br /> 2. **POST** |   true   |
 | body?     | string | content                                               |  false   |
 | property? | string | property to return (get method)                       |  false   |
 | error?    | string | error to return when request fails                    |  false   |
 | ...header | string | headerName, headerValue                               |   true   |
 
-## Example
+## Example(s)
 
 This will return a random dog fact using the `GET` method:
 

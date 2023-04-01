@@ -18,7 +18,7 @@ $interactionData[data]
 |-------|--------|------------------|:--------:|
 | data  | string | data to retrieve |   true   |
 
-## Examples
+## Example(s)
 
 ```php
 $interactionData[customId]

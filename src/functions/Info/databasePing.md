@@ -12,7 +12,7 @@ id: databasePing
 $databasePing
 ```
 
-## Example
+## Example(s)
 
 This will return your database ping:
 

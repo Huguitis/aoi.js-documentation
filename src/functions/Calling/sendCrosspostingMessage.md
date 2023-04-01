@@ -19,7 +19,7 @@ $sendCrosspostingMessage[message;...channelIDs]
 | message       | string  | message to send |   true   |
 | ...channelIDs | integer | channel IDs     |   true   |
 
-## Example
+## Example(s)
 
 This will crosspost a message to multiple channels in your server:
 

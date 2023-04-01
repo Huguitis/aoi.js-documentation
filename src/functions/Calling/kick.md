@@ -20,7 +20,7 @@ $kick[userID;guildID?;reason?]
 | guildID? | integer | guild ID                                                |  false   |
 | reason?  | string  | reason that will be displayed in the guild's audit logs |  false   |
 
-## Example
+## Example(s)
 
 This will kick someone from your guild:
 

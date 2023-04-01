@@ -18,7 +18,7 @@ $lowestGuildRole[guildID?]
 |----------|---------|---------------------|:--------:|
 | guildID? | integer | the ID of the guild |  false   |
 
-## Example
+## Example(s)
 
 This will return the ID of the lowest guild role:
 

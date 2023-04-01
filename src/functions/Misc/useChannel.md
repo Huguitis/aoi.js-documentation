@@ -18,7 +18,7 @@ $useChannel[channelID]
 |-----------|---------|--------------------------------|:--------:|
 | channelID | integer | where to execute the functions |   true   |
 
-## Examples
+## Example(s)
 
 This will send an embed in the current channel:
 

@@ -20,7 +20,7 @@ $addMessageReactions[channelID;messageID;...reactions]
 | messageID | integer | message ID  |   true   |
 | reactions | string  | reactions   |   true   |
 
-## Example
+## Example(s)
 
 This will add the given reactions to your message:
 

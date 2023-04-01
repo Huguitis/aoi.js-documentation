@@ -12,7 +12,7 @@ id: authorID
 $authorID
 ```
 
-## Example
+## Example(s)
 
 This will return your user ID:
 

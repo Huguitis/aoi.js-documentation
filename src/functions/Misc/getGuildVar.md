@@ -20,7 +20,7 @@ $getGuildVar[varname;guildID?;table?]
 | guildID? | integer | guild ID       |  false   |
 | table?   | string  | variable table |  false   |
 
-## Example
+## Example(s)
 
 This will return the value of a variable called "Example":
 

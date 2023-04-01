@@ -19,7 +19,7 @@ $findUser[userResolver;returnSelf?]
 | userResolver | string | query which is used to find the user                                                 | true     |
 | returnSelf?  | string | will return the user id of the user who executed the command when user was not found | false    |
 
-## Example
+## Example(s)
 
 This will search for a user called Ferel, if it wont find the user then it'll return your user ID:
 

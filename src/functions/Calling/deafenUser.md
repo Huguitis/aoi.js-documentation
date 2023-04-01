@@ -19,7 +19,7 @@ $deafenUser[userID;deaf?]
 | userID | integer | user ID                                                                    |   true   |
 | deaf?  | string  | deafen or undeafen a user <br /> 1. **true** (default) <br /> 2. **false** |  false   |
 
-## Example
+## Example(s)
 
 This will deafen yourself:
 

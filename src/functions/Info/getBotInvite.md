@@ -68,7 +68,7 @@ $getBotInvite[...perms?]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return your bot's invite with administrator privileges:
 

@@ -9,7 +9,7 @@ id: arrayFind
 ## Usage
 
 ```php
-$arrayFind[name;query;queryType?;seperator?]
+$arrayFind[name;query;queryType?;separator?]
 ```
 
 ## Parameters
@@ -19,7 +19,7 @@ $arrayFind[name;query;queryType?;seperator?]
 | name       | string | array name                                                         |   true   |
 | query      | string | The element we will be queering for every element inside the array |   true   |
 | queryType? | string | The comparison operator                                            |  false   |
-| seperator? | string | seperator                                                          |  false   |
+| separator? | string | separator                                                          |  false   |
 
 ## Comparison Operators
 
@@ -30,7 +30,7 @@ $arrayFind[name;query;queryType?;seperator?]
 * `>=` — All items on the "left" of the found item, including itself.
 * `<=` — All items on the "right" of the found item, including itself.
 
-## Examples
+## Example(s)
 
 ```javascript
 bot.command({

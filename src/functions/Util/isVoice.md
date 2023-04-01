@@ -18,7 +18,7 @@ $isVoice[channelID]
 |------------|---------|------------------------------------------|----------|
 | channelID? | integer | ID of the channel that you want to check | false    |
 
-## Example
+## Example(s)
 
 This will return either `true` or `false` depending on what you use as argument:
 

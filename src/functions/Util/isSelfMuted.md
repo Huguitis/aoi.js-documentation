@@ -19,7 +19,7 @@ $isSelfMuted[userid?;guildid?]
 | userid?  | integer | the user id of the user you want to check if they're muted | false    |
 | guildid? | integer | the guild id of the guild where they're muted in           | false    |
 
-## Example
+## Example(s)
 
 This will return either `true` or `false` depending on if you're muted (voice channel) or not:
 

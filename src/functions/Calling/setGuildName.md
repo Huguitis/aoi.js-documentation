@@ -19,7 +19,7 @@ $setGuildName[name;guildID?]
 | name     | string  | new guild name |   true   |
 | guildID? | integer | guild ID       |  false   |
 
-## Example
+## Example(s)
 
 This will change guild's name you're executing the command in to your username:
 

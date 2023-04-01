@@ -20,7 +20,7 @@ $membersCount[guildID?;presence?;countBot?]
 | presence? | string  | the presence of the users <br /> 1. **all** (default) <br /> 2. **dnd** <br /> 3. **idle** <br /> 4. **offline** <br /> 5. **online** |  false   |
 | countBot? | string  | count bots? <br /> 1. **true** (default) <br /> 2. **false**                                                                          |  false   |
 
-## Example
+## Example(s)
 
 This will return the amount of offline users (including bots) in your guild:
 

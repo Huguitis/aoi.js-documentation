@@ -18,7 +18,7 @@ $guildIcon[guildID?]
 |----------|---------|-------------|:--------:|
 | guildID? | integer | guild ID    |   true   |
 
-## Example
+## Example(s)
 
 This will return the icon of the guild:
 

@@ -19,7 +19,7 @@ $isVideoOn[userid?;guildid?]
 | userid?  | integer | user id of the user who turned video on                                 | false    |
 | guildid? | integer | the guild ID of the guild you want to check if they have their video on | false    |
 
-## Example
+## Example(s)
 
 This will check if you're currently using the video feature in a voice channel:
 

@@ -30,7 +30,7 @@ $mentionType[mention]
 
 </details>
 
-## Example
+## Example(s)
 
 This will return `users` as you're an user:
 

@@ -18,7 +18,7 @@ $get[var]
 |-------|--------|-----------------------------------------|----------|
 | var   | string | temporary variable you want to retrieve | true     |
 
-## Example
+## Example(s)
 
 This will return `Leref` from `$let`:
 

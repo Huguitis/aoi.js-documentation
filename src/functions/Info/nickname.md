@@ -20,7 +20,7 @@ $nickname[userID?;guildID?;returnUser?]
 | userID?     | integer | user ID of the person who you want the nickname of                   | false    |
 | returnUser? | string  | return the username <br /> 1. **true** <br /> 2. **false** (default) | false    |
 
-## Example
+## Example(s)
 
 This will return your nickname, if you have none then it'll return your Discord username as `$nickname` returns nothing
 when the user has false nickname:

@@ -19,7 +19,7 @@ $memberJoinedDate[userID?;guildID?]
 | userID?  | integer | the ID of the member |  false   |
 | guildID? | integer | the ID of the guild  |  false   |
 
-## Example
+## Example(s)
 
 This will return your join date in MS and parsed date:
 

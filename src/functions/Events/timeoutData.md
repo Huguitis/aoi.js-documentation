@@ -19,7 +19,7 @@ $timeoutData[option]
 |--------|--------|-------------|:--------:|
 | option | string | option name |   true   |
 
-## Example
+## Example(s)
 
 This will send "Hello!" after 10 seconds in the command execution channel:
 

@@ -18,7 +18,7 @@ $charCount[text]
 |-------|--------|-------------------------------------------------------|----------|
 | text  | string | the text that will be the character count returned of | true     |
 
-## Example
+## Example(s)
 
 This will return `77` as there are 77 characters in this text:
 

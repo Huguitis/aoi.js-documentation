@@ -18,7 +18,7 @@ $channelCategoryID[channelID?]
 |------------|---------|---------------------------------------------------------------------|:--------:|
 | channelID? | integer | channel ID of a channel of which you want to retrieve its parent of |  false   |
 
-## Example
+## Example(s)
 
 This will return the category ID of the text channel in where you execute the command:
 

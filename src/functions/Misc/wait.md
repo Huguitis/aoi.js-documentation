@@ -18,7 +18,7 @@ $wait[time]
 |-------|----------------|---------------------------------|:--------:|
 | time  | string, number | how long to delay the execution |   true   |
 
-## Examples
+## Example(s)
 
 This will send an embed delayed:
 

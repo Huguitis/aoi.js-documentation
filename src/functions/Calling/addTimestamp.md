@@ -18,7 +18,7 @@ $addTimestamp[ms?]
 |-------|---------|-------------|:--------:|
 | ms    | integer | epoch time  |  false   |
 
-## Example
+## Example(s)
 
 This will create a embed with timestamp and description:
 

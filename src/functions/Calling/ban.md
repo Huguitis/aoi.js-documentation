@@ -21,7 +21,7 @@ $ban[guildID?;userID;days?;reason?]
 | days?    | string  | days of message history to delete, cannot be higher than 14 days |  false   |
 | reason?  | string  | ban reason                                                       |  false   |
 
-## Example
+## Example(s)
 
 This will ban a random user of your guild:
 

@@ -10,16 +10,16 @@
 
 **The official Documentation of the aoi.js NPM package.**
   
-[![NPM downloads][download-image]][download-url]
-[![AoiJS Server][aoijs-server]][aoijs-server-url]
-[![NPM version][npm-image]][npm-url]
+[![NPM downloads][download-image]][download-URL]
+[![AoiJS Server][aoijs-server]][aoijs-server-URL]
+[![NPM version][npm-image]][npm-URL]
 
 [npm-image]: http://img.shields.io/npm/v/aoi.js.svg?color=42cfff
-[npm-url]: http://npmjs.org/package/aoi.js
+[npm-URL]: http://npmjs.org/package/aoi.js
 [download-image]: https://img.shields.io/npm/dt/aoi.js.svg?color=3182b0
-[download-url]: https://npmjs.org/package/aoi.js
+[download-URL]: https://npmjs.org/package/aoi.js
 [aoijs-server]: https://img.shields.io/discord/773352845738115102?color=5865F2&logo=discord&logoColor=white
-[aoijs-server-url]: https://aoi.js.org/invite
+[aoijs-server-URL]: https://aoi.js.org/invite
 
 </div>
 
@@ -42,13 +42,22 @@ yarn add aoi.js
 ## Setup
 
 ```javascript
-const aoijs = require("aoi.js");
+const { AoiClient } = require("aoi.js");
 
-const bot = new aoijs.AoiClient({
-  token: "Discord Bot Token",
-  prefix: "Discord Bot Prefix",
-  intents: ["MessageContent", "Guilds", "GuildMessages"],
-  events: ["onMessage"]
+const bot = new AoiClient({
+    token: "Discord Bot Token",
+    prefix: "Discord Bot Prefix",
+    intents: ["MessageContent", "Guilds", "GuildMessages"],
+    events: ["onMessage"],
+    database: {
+        type: "aoi.db",
+        db: require("aoi.db"),
+        tables: ["main"],
+        path: "./database/",
+        extraOptions: {
+            dbType: "KeyValue"
+        }
+    }
 });
 
 // Ping Command Example 
