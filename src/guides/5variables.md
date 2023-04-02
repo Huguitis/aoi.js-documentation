@@ -44,18 +44,20 @@ Another way to use variables is by using a variable handler, which can help keep
 3. In your main file, add the following code:
 
 ```js
-bot.variables(require("./handler/variables.js"));
+require('./handler/variables.js')(bot);
 ```
 
 4. In the `variables.js` file, create an array of objects, where each object represents a variable name and its corresponding value:
 
 ```js
-module.exports = [{
+module.exports = (bot) => { 
+ bot.variables({
     variableName: boolean,
     variableName: number,
     variableName: object,
     variableName: "string"
-}]
+ })
+}
 ```
 
 ![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089013645339525220/hMuNNypDYKfdAAAAABJRU5ErkJggg.png)
