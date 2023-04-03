@@ -41,7 +41,7 @@ $createChannel[guildID;name;type;returnID;parentID]
 
 ## Example(s)
 
-This will
+This will create a new text channel called "aoi.js":
 
 ```javascript
 bot.command({
