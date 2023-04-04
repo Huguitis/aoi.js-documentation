@@ -4,7 +4,7 @@ description: $leaveVC will make your bot leave the current Voice Channel.
 id: leaveVC
 ---
 
-`$leaveVC` will will make your bot leave the current Voice Channel.
+`$leaveVC` will make your bot leave the current Voice Channel.
 
 ## Usage
 

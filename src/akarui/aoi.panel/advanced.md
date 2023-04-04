@@ -9,7 +9,7 @@ id: aoipanel-advanced
 ## Multiple users login
 
 ```javascript
-const {Panel} = require("@akarui/aoi.panel")
+const { Panel } = require("@akarui/aoi.panel")
 
 const panel = new Panel({
     username: ["your-username-1", "your-username-2", "and so on"],

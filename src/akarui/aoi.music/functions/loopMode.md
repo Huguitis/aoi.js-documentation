@@ -1,10 +1,10 @@
 ---
 title: $loopMode
-description: $loopMode will 
+description: $loopMode will either loop the current track, queue or end the loop. 
 id: loopMode
 ---
 
-`$loopMode` will
+`$loopMode` will either loop the current track, queue or end the loop.
 
 ## Usage
 

@@ -4,7 +4,7 @@ description: $songInfo will return given song's information.
 id: songInfo
 ---
 
-`$songInfo` will will return given song's information.
+`$songInfo` will return given song's information.
 
 ## Usage
 
