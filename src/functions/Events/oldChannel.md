@@ -1,11 +1,11 @@
 ---
 title: $oldChannel
-description: $oldChannel holds data of the channel before it was updated, used in channel update callback, or else any
+description: $oldChannel holds data of the channel before it was updated, used in channel update event, or else any
 data will be empty
 id: oldChannel
 ---
 
-`$oldChannel` holds data of the channel before it was updated, used in channel update callback, or else any data will be
+`$oldChannel` holds data of the channel before it was updated, used in channel update event, or else any data will be
 empty
 
 ## Usage

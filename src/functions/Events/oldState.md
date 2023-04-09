@@ -1,10 +1,10 @@
 ---
 title: $oldState
-description: $oldState holds data for the user voice state before it was updated (voiceStateUpdate callback).
+description: $oldState holds data for the user voice state before it was updated (voiceStateUpdate event).
 id: oldState
 ---
 
-`$oldState` holds data for the user voice state before it was updated (voiceStateUpdate callback).
+`$oldState` holds data for the user voice state before it was updated (voiceStateUpdate event).
 
 ## Usage
 

@@ -1,10 +1,10 @@
 ---
 title: $pinsUpdate
-description: $pinsUpdate holds data for the channel the channel pins were updated in. (channelPinsUpdate callback)
+description: $pinsUpdate holds data for the channel the channel pins were updated in. (channelPinsUpdate event)
 id: pinsUpdate
 ---
 
-`$pinsUpdate` holds data for the channel the channel pins were updated in. (channelPinsUpdate callback)
+`$pinsUpdate` holds data for the channel the channel pins were updated in. (channelPinsUpdate event)
 
 ## Usage
 

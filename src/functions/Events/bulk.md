@@ -1,10 +1,10 @@
 ---
 title: $bulk
-description: $bulk will hold data for the bulk delete command. (messageDeleteBulk callback)
+description: $bulk will hold data for the bulk delete command. (messageDeleteBulk event)
 id: bulk
 ---
 
-`$bulk` will hold data for the bulk delete command. (messageDeleteBulk callback)
+`$bulk` will hold data for the bulk delete command. (messageDeleteBulk event)
 
 ## Usage
 

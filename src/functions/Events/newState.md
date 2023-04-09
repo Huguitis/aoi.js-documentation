@@ -1,10 +1,10 @@
 ---
 title: $newState
-description: $newState holds data for the user voice state after the update (voiceStateUpdate callback).
+description: $newState holds data for the user voice state after the update (voiceStateUpdate event).
 id: newState
 ---
 
-`$newState` holds data for the user voice state after the update (voiceStateUpdate callback).
+`$newState` holds data for the user voice state after the update (voiceStateUpdate event).
 
 ## Usage
 

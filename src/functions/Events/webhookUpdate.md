@@ -1,10 +1,10 @@
 ---
 title: $webhookUpdate
-description: $webhookUpdate holds data for the channel the webhook was updated in. (webhookUpdate callback)
+description: $webhookUpdate holds data for the channel the webhook was updated in. (webhookUpdate event)
 id: webhookUpdate
 ---
 
-`$webhookUpdate` channel the webhook was updated in. (webhookUpdate callback)
+`$webhookUpdate` channel the webhook was updated in. (webhookUpdate event)
 
 ## Usage
 

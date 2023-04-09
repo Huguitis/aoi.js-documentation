@@ -1,10 +1,10 @@
 ---
 title: $channelUsed
-description: $channelUsed will return the channel ID of where the callback was triggered.
+description: $channelUsed will return the channel ID of where the event was triggered.
 id: channelUsed
 ---
 
-`$channelUsed` will return the channel ID of where the callback was triggered.
+`$channelUsed` will return the channel ID of where the event was triggered.
 
 ## Usage
 

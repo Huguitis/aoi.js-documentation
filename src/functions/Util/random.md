@@ -47,7 +47,7 @@ bot.command({
 });
 ```
 
-This will return a random integer between `20` and `250` and the second `$random` will be random as well:
+This will return a random number between `45` and `64` and the second `$random` will be random as well:
 
 ```javascript
 bot.command({

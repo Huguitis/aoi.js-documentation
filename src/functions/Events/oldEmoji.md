@@ -1,10 +1,10 @@
 ---
 title: $oldEmoji
-description: $oldEmoji holds data for the emoji before it was updated/ deleted. (emojiUpdate and emojiDelete callback)
+description: $oldEmoji holds data for the emoji before it was updated/ deleted. (emojiUpdate and emojiDelete event)
 id: oldEmoji
 ---
 
-`$oldEmoji` holds data for the emoji before it was updated/ deleted. (emojiUpdate and emojiDelete callback)
+`$oldEmoji` holds data for the emoji before it was updated/ deleted. (emojiUpdate and emojiDelete event)
 
 ## Usage
 

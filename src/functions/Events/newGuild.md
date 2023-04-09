@@ -1,12 +1,12 @@
 ---
 title: $newGuild
 description: $newGuild holds data for the guild after the update, might be a good idea to check partial option before
-accessing any property. (guildUpdate callback)
+accessing any property. (guildUpdate event)
 id: newGuild
 ---
 
 `$newGuild` holds data for the guild after the update, might be a good idea to check partial option before accessing any
-property. (guildUpdate callback)
+property. (guildUpdate event)
 
 ## Usage
 

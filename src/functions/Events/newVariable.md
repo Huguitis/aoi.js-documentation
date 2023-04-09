@@ -1,10 +1,10 @@
 ---
 title: $newVariable
-description: $newVariable gets the data from variable callbacks.
+description: $newVariable gets the data from variable events.
 id: newVariable
 ---
 
-`$newVariable` gets the data from variable callbacks.
+`$newVariable` gets the data from variable events.
 
 ## Usage
 

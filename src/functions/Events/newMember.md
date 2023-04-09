@@ -1,12 +1,12 @@
 ---
 title: $newMember
 description: $newMember holds data for the member after the update, might be a good idea to check partial option before
-accessing any property. (memberUpdate callback)
+accessing any property. (memberUpdate event)
 id: newMember
 ---
 
 `$newMember` holds data for the member after the update, might be a good idea to check partial option before accessing
-any property. (memberUpdate callback)
+any property. (memberUpdate event)
 
 ## Usage
 
