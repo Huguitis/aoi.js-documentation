@@ -29,8 +29,6 @@ bot.variables({
 });
 ```
 
-![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089014114048815194/wGV2JiLiHkleAAAAABJRU5ErkJggg.png)
-
 The `bot.variables()` function takes an object as an argument, where each property represents a variable name and its corresponding value.
 
 ---
@@ -59,8 +57,6 @@ module.exports = (bot) => {
  })
 }
 ```
-
-![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089013645339525220/hMuNNypDYKfdAAAAABJRU5ErkJggg.png)
 
 With these steps, you now have a working variable handler, which can help you keep your code organized and easier to manage.
 

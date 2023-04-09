@@ -28,7 +28,7 @@ require `{newEmbed:{...}}` every time you want to use embed parsers.
 
 ### Embed Parser Functions
 
-```ts
+```php
 {title:text}
 {description:text}
 {color:...}
@@ -52,7 +52,7 @@ inside of it as components.
 
 Usage:
 
-```ts
+```php
 {button:label:style:customID:disabled? (true / false):emoji?}
 ```
 
@@ -74,7 +74,7 @@ Usage:
 
 Select Menu Parser Usage:
 
-```js
+```php
 {selectMenu:customID:placeholder:minValue:maxValue:default(true / false):...options}
 
 {selectMenuOptions:optionName:customID:optionDescription:default? (true / false):emoji?}
@@ -84,7 +84,7 @@ Select Menu Parser Usage:
 
 Interaction Modal Parser Usage:
 
-```js
+```php
 {textInput:label:style:customID:required? (true / false):placeholder?:minLength?:maxLength?:defaultValue?}
 ```
 
@@ -96,7 +96,7 @@ Below are simple examples of each parser and how to use them.
 
 **Embed with title, description, footer, author / author icon and color.**
 
-```js
+```php
 {newEmbed:{author:Aoi.js is great:https\\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{title:Awesome Example!}{description:I love embed parsers!}{footer:Example #1}{color:Blue}}
 ```
 
@@ -104,7 +104,7 @@ Below are simple examples of each parser and how to use them.
 
 **Embed with title, footer, image and field.**
 
-```js 
+```php
 {newEmbed:{title:Another Awesome Example !}{image:https\\://cdn.discordapp.com/icons/773352845738115102/f6b0d1a62a83397976ea441c5377e6ad.png?size=128}{field:This is a field title!:And a field description which is not inline!:false}{footer:Example #2}}
 ```
 
@@ -118,7 +118,7 @@ Below are simple examples of each parser and how to use them.
 
 **Two buttons each one in a different row.**
 
-```js
+```php
 {actionRow:{button:Button:secondary:button1}}{actionRow:{button:Button:primary:button2}}
 ```
 
@@ -126,7 +126,7 @@ Below are simple examples of each parser and how to use them.
 
 **Three buttons, one with emoji.**
 
-```js
+```php
 {actionRow:{button:Button:primary:button1:false}{button:Button:primary:button2:false}{button:Button:danger:button3:false:👋}}
 ```
 
@@ -136,7 +136,7 @@ Below are simple examples of each parser and how to use them.
 
 **Single-Select Menu with two options**
 
-```js
+```php
 {actionRow:{selectMenu:customID:Placeholder:1:1:false:{selectMenuOptions:Option1:1:OptionDescription1:false:👋}{selectMenuOptions:Option2:2:OptionDescription2:false}}}
 ```
 
@@ -144,7 +144,7 @@ Below are simple examples of each parser and how to use them.
 
 **Multi-Select Menu with three options and and a maximum of 2 selectable options**
 
-```js
+```php
 {actionRow:{selectMenu:customID:Placeholder:1:2:false:{selectMenuOptions:Option1:1:OptionDescription1:false:👋}{selectMenuOptions:Option2:2:OptionDescription2:false}{selectMenuOptions:Option3:3:OptionDescription3:false}}}
 ```
 
@@ -154,7 +154,7 @@ Below are simple examples of each parser and how to use them.
 
 **Modal with two fields one being normal sized and the other being bigger.**
 
-```js
+```php
 {actionRow:{textInput:ExampleTitle1:1:customID1:true}}{actionRow:{textInput:ExampleTitle2:2:customID2:false}}
 ```
 
