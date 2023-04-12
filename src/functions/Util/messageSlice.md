@@ -21,13 +21,13 @@ $messageSlice[from;to?]
 
 ## Example(s)
 
-This will slice the message from the first character to the fifth character:
+This will slice the message from the first message to the fifth message:
 
 ```javascript
 bot.command({
     name: 'messageSlice',
     code: `
-  $messageSlide[1;5]
+  $messageSlice[1;5]
   `
 });
 ```
