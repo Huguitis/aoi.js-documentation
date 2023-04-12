@@ -26,7 +26,7 @@ const bot = new AoiClient({
     - **createdAt** &rarr; Will return createdAt of the role.
     - **hexColor** &rarr; Will return the hex color of the deleted role.
     - **managed** &rarr; Will return true or false whenever the role is managed or not. 
-    - **hoist** &rarr; Will return true or false whenever the role is managed or not. 
+    - **hoist** &rarr; Will return true or false whenever the role is hoisted or not. 
     - **position** &rarr; Will return the role's position. 
     - **permissions** &rarr; Will return the role's permissions.
     - **name** &rarr; Will return the role's name.
