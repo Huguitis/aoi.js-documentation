@@ -1,0 +1,27 @@
+name: Check for Duplicated Files and Other Problems
+
+on:
+  push:
+    branches:
+      - v6
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Check for duplicated files
+      run: |
+        duplicated_files=$(find . -type f | sort | uniq -d)
+        if [[ -n "$duplicated_files" ]]; then
+          echo "Duplicated files found:"
+          echo "$duplicated_files"
+          exit 1
+        fi
+
+    - name: Check for other problems
+      run: |
+        # Add any additional checks here as needed
