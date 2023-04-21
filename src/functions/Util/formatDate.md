@@ -15,24 +15,25 @@ $formatDate[date;format?]
 ## Parameters
 
 | Field   | Type   | Description                                      | Required |
-|---------|--------|--------------------------------------------------|----------|
+| ------- | ------ | ------------------------------------------------ | -------- |
 | date    | number | the date you want to format                      | true     |
 | format? | string | the format that will be used to display the date | false    |
 
 <details open>
   <summary> <h2> Possible formatting </h2></summary>
 
-| Format |                                                            |
-|--------|------------------------------------------------------------|
-| dddd   | Returns the weekday, Monday, Tuesday, Wednesday ...        |
-| dd     | Returns the abbreviation of the weekday, Mon, Tue, Wed ... |
-| DD     | Returns the day of the month                               |
-| DDD    | Returns the day of the year, 256, 257 ...                  |
-| MMMM   | Returns the month fully January, February ...              |
-| MMM    | Returns the abbreviation of the month, Jan, Feb ...        |
-| MM     | Returns the month of the year, 10, 11 ...                  |
-| YYYY   | Returns year fully, 2020, 2021 ...                         |
-| YY     | Returns the last two numbers of the year, 20, 21 ...       |
+| Format |                                                            | Returns |
+| ------ | ---------------------------------------------------------- | ------: |
+| dddd   | Returns the weekday, Monday, Tuesday, Wednesday ...        |  String |
+| dd     | Returns the abbreviation of the weekday, Mon, Tue, Wed ... |  String |
+| D      | Returns the day of the month                               |  Number |
+| DD     | Returns the day of the month                               |  String |
+| DDD    | Returns the day of the year, 256, 257 ...                  |  Number |
+| M / MM | Returns the month of the year, 10, 11 ...                  |  Number |
+| MMM    | Returns the abbreviation of the month, Jan, Feb ...        |  String |
+| MMMM   | Returns the month fully January, February ...              |  String |
+| YYYY   | Returns year fully, 2020, 2021 ...                         |  Number |
+| YY     | Returns the last two digits of the year, 20, 21 ...        |  Number |
 
 </details>
 
