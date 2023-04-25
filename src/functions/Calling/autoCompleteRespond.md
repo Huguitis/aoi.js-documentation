@@ -9,7 +9,7 @@ id: autoCompleteRespond
 ## Usage
 
 ```php
-$autoCompleteRespond[json]
+$autoCompleteRespond[object]
 ```
 
 ```php
@@ -18,10 +18,10 @@ $autoCompleteRespond[OptionName;OptionReply;...]
 
 ## Parameters
 
-| Field       | Type   | Description                                                          | Required |
-|-------------|--------|----------------------------------------------------------------------|:--------:|
-| OptionName  | string | name of the auto-complete option                                     |   true   |
-| OptionReply | string | the reply that will be sent if the auto-complete option was selected |   true   |
+| Field       | Type   | Description                                                                                      | Required |
+| ----------- | ------ | ------------------------------------------------------------------------------------------------ | :------: |
+| OptionName  | string | Name of the auto-complete option that will be displayed to the user.                             |   true   |
+| OptionReply | string | The reply that will be sent if the auto-complete option was selected, (not visible to the user). |   true   |
 
 ## Example(s)
 

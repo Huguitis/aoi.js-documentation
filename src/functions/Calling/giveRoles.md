@@ -14,11 +14,11 @@ $giveRoles[guildID;userID;...roles]
 
 ## Parameters
 
-| Field   | Type    | Description                                         | Required |
-|---------|---------|-----------------------------------------------------|:--------:|
-| guildID | integer | guild ID                                            |   true   |
-| userID  | integer | user ID                                             |   true   |
-| roles   | integer | role IDs split by semicolons (roleid;roleid;roleid) |   true   |
+| Field   | Type    | Description                                        | Required |
+| ------- | ------- | -------------------------------------------------- | :------: |
+| guildID | integer | Of which guild the member should receive roles of. |   true   |
+| userID  | integer | The user ID of the guild member.                   |   true   |
+| roles   | integer | The IDs of the roles to give.                      |   true   |
 
 Please note that the bots **highest** role must be above the role you're trying to assign.
 

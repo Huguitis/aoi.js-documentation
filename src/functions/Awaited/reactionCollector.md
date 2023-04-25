@@ -15,7 +15,7 @@ $reactionCollector[channelID;messageID;userFilters;time;reactions;awaitedCommand
 ## Parameters
 
 | Field           | Type    | Description                                                                                    | Required |
-|-----------------|---------|------------------------------------------------------------------------------------------------|:--------:|
+| --------------- | ------- | ---------------------------------------------------------------------------------------------- | :------: |
 | channelID       | integer | channel ID                                                                                     |   true   |
 | messageID       | integer | message ID                                                                                     |   true   |
 | userFilter      | string  | to what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true   |
@@ -34,7 +34,7 @@ This will send a message when you add a reaction:
 bot.command({
     name: "reactionCollector",
     code: `
-  $reactionCollector[$channelID;$splitText[1];$authorID;10m;👀;awaitReaction;true]
+  $reactionCollector[$channelID;$splitText[1];$authorID;10m;👀;awaitReaction;;true]
   $textSplit[$sendMessage[React with "👀" for something special!;true]; ]
   `
 });

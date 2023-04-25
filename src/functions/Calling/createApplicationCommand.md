@@ -9,31 +9,25 @@ id: createApplicationCommand
 ## Usage
 
 ```js
-$createApplicationCommand[guildID / global;
-name;
-description;
-defaultPermission;
-type ?;
-options ?
-]
+$createApplicationCommand[guildID/global;name;description;defaultPermission;type?;options?]
 ```
 
 ## Parameters
 
-| Field              | Type   | Description                     | Required |
-|--------------------|--------|---------------------------------|:--------:|
-| guildID/global     | string | guild ID                        |   true   |
-| name               | string | application command name        |   true   |
-| description        | string | application command description |   true   |
-| defaultPermissions | string | true/false                      |   true   |
-| type?              | string | (slash/user/message)            |  false   |
-| options?           | string | slash command options           |  false   |
+| Field              | Type            | Description                                                           | Required |
+| ------------------ | --------------- | --------------------------------------------------------------------- | :------: |
+| guildID/global     | string. integer | Application command type. <br/> 1. **global** <br/> 2. **specific guildID** |   true   |
+| name               | string          | Application command name, must be lowercase.                          |   true   |
+| description        | string          | Application command description.                                      |   true   |
+| defaultPermissions | boolean         | If the command should follow the default permissions.                 |   true   |
+| type?              | string          | The application command type. (slash/user/message)                    |  false   |
+| options?           | string          | Application command options.                                                |  false   |
 
 <details>
   <summary><h3> Application Command Option Type </h3></summary>
 
 | NAME              | ID  | NOTE                                                                                         |
-|-------------------|-----|----------------------------------------------------------------------------------------------|
+| ----------------- | --- | -------------------------------------------------------------------------------------------- |
 | SUB_COMMAND       | 1   |                                                                                              |
 | SUB_COMMAND_GROUP | 2   |                                                                                              |
 | STRING            | 3   |                                                                                              |
@@ -46,13 +40,13 @@ options ?
 | NUMBER            | 10  | Any double between -2^53 and 2^53                                                            |
 | ATTACHMENT        | 11  | [attachment](https://discord.com/developers/docs/resources/channel#attachment-object) object |
 
-#### You can find more information in the [official documentation of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).
+**You can find more information in the [official documentation of Discord's API](https://discord.com/developers/docs/interactions/application-commands#application-command-object-application-command-option-type).**
 
 </details>
 
 ## Example(s)
 
-#### Check the Slash Command/Interaction guide for more information about slash commands
+**Check the Slash Command/Interaction guide for more information about slash commands!**
 
 This will create a slash command without options:
 

@@ -14,10 +14,10 @@ $joinThread[channelID;threadID]
 
 ## Parameters
 
-| Field     | Type    | Description | Required |
-|-----------|---------|-------------|:--------:|
-| channelID | integer | channel ID  |   true   |
-| threadID  | integer | thread ID   |   true   |
+| Field     | Type    | Description                                       | Required |
+| --------- | ------- | ------------------------------------------------- | :------: |
+| channelID | integer | The channel ID of where the thread is located in. |   true   |
+| threadID  | integer | The ID of the thread.                             |   true   |
 
 ## Example(s)
 

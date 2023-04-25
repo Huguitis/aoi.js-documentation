@@ -14,11 +14,11 @@ $addField[fieldTitle;fieldDescription;inline?]
 
 ## Parameters
 
-| Field             | Type   | Description | Required |
-|-------------------|--------|-------------|:--------:|
-| fieldTitle?       | string | title       |   true   |
-| fieldDescription? | string | description |   true   |
-| inline?           | string | inline      |  false   |
+| Field             | Type    | Description                   | Required |
+| ----------------- | ------- | ----------------------------- | :------: |
+| fieldTitle?       | string  | The title of the field.       |   true   |
+| fieldDescription? | string  | The description of the field. |   true   |
+| inline?           | boolean | If the field is inline.       |  false   |
 
 ## Example(s)
 

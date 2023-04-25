@@ -14,6 +14,6 @@ $fetchClientValues[function]
 
 ## Parameters
 
-| Field    | Type   | Description         | Required |
-|----------|--------|---------------------|:--------:|
-| function | string | function to execute |   true   |
+| Field    | Type   | Description           | Required |
+| -------- | ------ | --------------------- | :------: |
+| function | string | Function to execute. |   true   |

@@ -14,9 +14,9 @@ $deleteStageInstance[channelID]
 
 ## Parameters
 
-| Field     | Type    | Description | Required |
-|-----------|---------|-------------|:--------:|
-| channelID | integer | channel ID  |   true   |
+| Field     | Type    | Description                                         | Required |
+| --------- | ------- | --------------------------------------------------- | :------: |
+| channelID | integer | The stage channel ID of the current stage instance. |   true   |
 
 ## Example(s)
 

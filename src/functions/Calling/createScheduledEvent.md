@@ -9,19 +9,19 @@ id: createScheduledEvent
 ## Usage
 
 ```php
-$createScheduledEvent[channelID;name;description;starTime;endTime?;entityType?;entityMetadata?;image?;reason?]
+$createScheduledEvent[channelID;name;description;startTime;endTime?;entityType?;entityMetadata?;image?;reason?]
 ```
 
 ## Parameters
 
-| Field           | Type    | Description       | Required |
-|-----------------|---------|-------------------|:--------:|
-| channelID       | integer | channel ID        |   true   |
-| name            | string  | event name        |   true   |
-| description     | string  | event description |   true   |
-| starTime        | string  | event start time  |   true   |
-| endTime?        | string  | event end time    |  false   |
-| entityType?     | string  | event type        |  false   |
-| entityMetadata? | string  | metadata          |  false   |
-| image?          | string  | image             |  false   |
-| reason?         | string  | reason            |  false   |
+| Field           | Type    | Description                                                   | Required |
+| --------------- | ------- | ------------------------------------------------------------- | :------: |
+| channelID       | integer | Where the event will be held.                                 |   true   |
+| name            | string  | The event title                                               |   true   |
+| description     | string  | The description of the event.                                 |   true   |
+| startTime       | string  | When the event will start.                                    |   true   |
+| endTime?        | string  | When the event will end.                                      |  false   |
+| entityType?     | string  | Event Type.                                                   |  false   |
+| entityMetadata? | string  | Event metadata.                                               |  false   |
+| image?          | string  | Image/Thumbnail of the scheduled event.                       |  false   |
+| reason?         | string  | The reason which will be displayed in the guild's audit logs. |  false   |

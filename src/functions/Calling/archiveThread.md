@@ -14,12 +14,12 @@ $archiveThread[threadID;channelID?;archive?;reason?]
 
 ## Parameters
 
-| Field      | Type    | Description                     | Required |
-|------------|---------|---------------------------------|:--------:|
-| threadID   | integer | thread ID                       |   true   |
-| channelID? | integer | channel ID                      |  false   |
-| archive?   | integer | archive thread?                 |  false   |
-| reason?    | string  | reason to display in audit logs |  false   |
+| Field      | Type    | Description                                              | Required |
+| ---------- | ------- | -------------------------------------------------------- | :------: |
+| threadID   | integer | Thread ID.                                               |   true   |
+| channelID? | integer | Channel ID of where the thread is located.               |  false   |
+| archive?   | boolean | Archive the given thread?                                |  false   |
+| reason?    | string  | Reason that will be displayed in the guild's audit logs. |  false   |
 
 ## Example(s)
 

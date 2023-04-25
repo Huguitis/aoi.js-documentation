@@ -9,16 +9,16 @@ id: channelPermissionsFor
 ## Usage
 
 ```php
-$channelPermissionsFor[userorroleID?;channelID?;sep?]
+$channelPermissionsFor[userOrRoleID?;channelID?;sep?]
 ```
 
 ## Parameters
 
-| Field         | Type    | Description     | Required |
-|---------------|---------|-----------------|:--------:|
-| userorroleID? | integer | user or role ID |   true   |
-| channelID?    | integer | channel ID      |   true   |
-| sep?          | integer | guild ID        |   true   |
+| Field        | Type    | Description                                                                   | Required |
+| ------------ | ------- | ----------------------------------------------------------------------------- | :------: |
+| userOrRoleID | integer | The user or role ID whose permissions shall be returned.                      |   true   |
+| channelID    | integer | The channel ID of the channel of which the permissions should be returned of. |   true   |
+| sep?         | string  | The separator which will be used to separate the permissions, by default ",". |  false   |
 
 ## Example(s)
 

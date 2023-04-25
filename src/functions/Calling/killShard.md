@@ -14,9 +14,9 @@ $killShard[shardID]
 
 ## Parameters
 
-| Field   | Type   | Description | Required |
-|---------|--------|-------------|:--------:|
-| shardID | number | shard ID    |   true   |
+| Field   | Type   | Description   | Required |
+| ------- | ------ | ------------- | :------: |
+| shardID | number | The shard ID. |   true   |
 
 ## Example(s)
 

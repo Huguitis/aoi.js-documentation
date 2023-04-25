@@ -14,11 +14,11 @@ $kick[userID;guildID?;reason?]
 
 ## Parameters
 
-| Field    | Type    | Description                                             | Required |
-|----------|---------|---------------------------------------------------------|:--------:|
-| userID   | integer | user ID                                                 |   true   |
-| guildID? | integer | guild ID                                                |  false   |
-| reason?  | string  | reason that will be displayed in the guild's audit logs |  false   |
+| Field    | Type    | Description                                                   | Required |
+| -------- | ------- | ------------------------------------------------------------- | :------: |
+| userID   | integer | The ID of the user which will be removed from the guild.      |   true   |
+| guildID? | integer | The ID of the guild where the user shall be removed from.     |  false   |
+| reason?  | string  | The reason which will be displayed in the guild's audit logs. |  false   |
 
 ## Example(s)
 

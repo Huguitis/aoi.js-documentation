@@ -14,15 +14,15 @@ $createSticker[guildid;URL;name;returnSticker?;tags;description;reason]
 
 ## Parameters
 
-| Field          | Type    | Description                                                                        | Required |
-|----------------|---------|------------------------------------------------------------------------------------|:--------:|
-| guildID        | integer | guild ID                                                                           |   true   |
-| URL            | string  | image URL (**png only**)                                                           |   true   |
-| name           | string  | sticker name                                                                       |   true   |
-| returnSticker? | string  | return the sticker after creation <br /> 1. **true** <br /> 2. **false** (default) |  false   |
-| tags?          | string  | sticker tags                                                                       |  false   |
-| description?   | string  | sticker description                                                                |  false   |
-| reason?        | string  | reason that will be displayed in the server's audit logs                           |  false   |
+| Field          | Type    | Description                                                                             | Required |
+| -------------- | ------- | --------------------------------------------------------------------------------------- | :------: |
+| guildID        | integer | Guild ID of where the sticker will be created in.                                       |   true   |
+| URL            | string  | Image URL (**png only**).                                                               |   true   |
+| name           | string  | The sticker name.                                                                       |   true   |
+| returnSticker? | boolean | Return the sticker after its creation. <br /> 1. **true** <br /> 2. **false** (default) |  false   |
+| tags?          | string  | Sticker tags.                                                                           |  false   |
+| description?   | string  | The description of the sticker.                                                         |  false   |
+| reason?        | string  | Reason that will be displayed in the guild's audit logs.                                |  false   |
 
 ## Example(s)
 

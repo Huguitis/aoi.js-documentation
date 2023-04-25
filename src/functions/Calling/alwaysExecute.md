@@ -19,11 +19,14 @@ const bot = new AoiClient({
 
 ### Example Usage
 
+This will respond with an embed to each message:
+
 ```javascript
-module.exports = [{
-    name: "$alwaysExecute",
+bot.command({
+    name: '$alwaysExecute',
     code: `
-    Hello!
-`
-}]
+  $description[Hello!]
+  `
+});
+
 ```

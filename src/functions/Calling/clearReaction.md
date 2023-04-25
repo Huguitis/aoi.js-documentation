@@ -1,10 +1,10 @@
 ---
 title: $clearReaction
-description: $clearReaction will remove a given reaction of a message.
+description: $clearReaction will remove a given reaction of a message of a given user.
 id: clearReaction
 ---
 
-`$clearReaction` will remove a given reaction of a message.
+`$clearReaction` will remove a given reaction of a message of a given user.
 
 ## Usage
 
@@ -14,12 +14,12 @@ $clearReaction[channelID;messageID;userID;emoji]
 
 ## Parameters
 
-| Field     | Type    | Description                         | Required |
-|-----------|---------|-------------------------------------|:--------:|
-| channelID | integer | channel ID                          |   true   |
-| messageID | integer | message ID                          |   true   |
-| userID    | integer | user ID to remove from the reaction |   true   |
-| emoji     | string  | emoji to remove                     |   true   |
+| Field     | Type    | Description                                                                            | Required |
+| --------- | ------- | -------------------------------------------------------------------------------------- | :------: |
+| channelID | integer | The channel ID of where the message is located in.                                     |   true   |
+| messageID | integer | The message ID.                                                                        |   true   |
+| userID    | integer | The user ID of the user whose reactions shall be removed.                              |   true   |
+| emoji     | string  | The exact emoji to remove. <br /> 1. **all** (default) <br /> 2. **emoji** - any emoji |   true   |
 
 ## Example(s)
 

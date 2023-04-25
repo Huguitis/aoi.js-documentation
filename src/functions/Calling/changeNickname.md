@@ -9,16 +9,16 @@ id: changeNickname
 ## Usage
 
 ```php
-$changeNickname[userID;nick;reason?]
+$changeNickname[userID;newName;reason?]
 ```
 
 ## Parameters
 
-| Field   | Type    | Description                                               | Required |
-|---------|---------|-----------------------------------------------------------|:--------:|
-| userID  | integer | user ID                                                   |   true   |
-| nick    | integer | new nickname                                              |   true   |
-| reason? | integer | reason which will be displayed in the server's audit logs |  false   |
+| Field   | Type           | Description                                              | Required |
+| ------- | -------------- | -------------------------------------------------------- | :------: |
+| userID  | integer        | The user ID of the user whose nickname shall be changed. |   true   |
+| newName | string, number | Their new nickname.                                      |   true   |
+| reason? | string, number | Reason that will be displayed in the guild's audit logs. |  false   |
 
 ## Example(s)
 

@@ -14,9 +14,9 @@ $deleteChannels[...channels]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| channels | integer | channel IDs |   true   |
+| Field       | Type    | Description                                            | Required |
+| ----------- | ------- | ------------------------------------------------------ | :------: |
+| ...channels | integer | The channel Ids of the channels which will be deleted. |   true   |
 
 ## Example(s)
 

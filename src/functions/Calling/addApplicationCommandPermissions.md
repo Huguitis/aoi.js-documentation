@@ -14,9 +14,9 @@ $addApplicationCommandPermissions[guildID/global?;id;...perms]
 
 | Field          | Type            | Description            | Required |
 |----------------|-----------------|------------------------|:--------:|
-| guildID/global | string, integer | global or guildID      |   true   |
-| id             | integer         | application command ID |   true   |
-| ...perms       | string          | permissions            |   true   |
+| guildID/global | string, integer | Slash command type. <br/> 1. **global** <br/> 2. **specific guildID**      |   true   |
+| id             | integer         | Application command ID. |   true   |
+| ...perms       | string          | Permissions.            |   true   |
 
 ## Example(s)
 

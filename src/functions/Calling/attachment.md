@@ -14,11 +14,11 @@ $attachment[attachment;name;type?]
 
 ## Parameters
 
-| Field      | Type   | Description                                 | Required |
-|------------|--------|---------------------------------------------|:--------:|
-| attachment | string | attachment                                  |   true   |
-| name       | string | attachment name                             |   true   |
-| type?      | string | attachment type <br /> 1. **URL** (default) |  false   |
+| Field      | Type   | Description                                  | Required |
+| ---------- | ------ | -------------------------------------------- | :------: |
+| attachment | string | Content of the attachment, preferably a URL. |   true   |
+| name       | string | Attachment name.                             |   true   |
+| type?      | string | Attachment type. <br /> 1. **URL** (default) |  false   |
 
 ## Example(s)
 

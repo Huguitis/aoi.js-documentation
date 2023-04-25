@@ -14,9 +14,9 @@ $broadcastEval[function]
 
 ## Parameters
 
-| Field    | Type   | Description              | Required |
-|----------|--------|--------------------------|:--------:|
-| function | string | function or code to eval |   true   |
+| Field    | Type   | Description                             | Required |
+| -------- | ------ | --------------------------------------- | :------: |
+| function | string | Function or code that will be executed. |   true   |
 
 ## Example(s)
 

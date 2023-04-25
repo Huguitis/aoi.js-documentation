@@ -14,10 +14,10 @@ $image[index?;URL]
 
 ## Parameters
 
-| Field  | Type   | Description              | Required |
-|--------|--------|--------------------------|:--------:|
-| index? | number | embed index/position     |  false   |
-| URL    | string | image (bottom big image) |   true   |
+| Field  | Type   | Description                     | Required |
+| ------ | ------ | ------------------------------- | :------: |
+| index? | number | Embed index                     |  false   |
+| URL    | string | Embed Image URL. (bottom image) |   true   |
 
 ## Example(s)
 

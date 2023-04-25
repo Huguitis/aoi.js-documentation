@@ -9,15 +9,15 @@ id: editIn
 ## Usage
 
 ```php
-$editIn[time;content]
+$editIn[time;...content]
 ```
 
 ## Parameters
 
-| Field   | Type           | Description                                    | Required |
-|---------|----------------|------------------------------------------------|:--------:|
-| time    | string, number | after how much time the message will be edited |   true   |
-| content | string         | what the new message should be                 |   true   |
+| Field   | Type           | Description                                     | Required |
+| ------- | -------------- | ----------------------------------------------- | :------: |
+| time    | string, number | After how much time the message will be edited. |   true   |
+| content | string         | What the new content of the message should be.  |   true   |
 
 ## Example(s)
 
@@ -27,7 +27,7 @@ This will edit the sent message after five seconds:
 bot.command({
     name: 'editIn',
     code: `
-  $editIn[5s;aoi.js is great, don't you agree?]
+  $editIn[5s;aoi.js is great, don't you agree?;Yes, I do!]
   I'll edit this message in 5 seconds!
   `
 });

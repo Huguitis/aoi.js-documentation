@@ -9,20 +9,22 @@ id: editMessage
 ## Usage
 
 ```php
-$editMessage[messageID;msg;channelID?]
+$editMessage[messageID;content;channelID?]
 ```
 
 ## Parameters
 
-| Field      | Type    | Description | Required |
-|------------|---------|-------------|:--------:|
-| messageID  | integer | message ID  |   true   |
-| msg        | string  | new message |   true   |
-| channelID? | integer | channel ID  |  false   |
+| Field      | Type    | Description                                        | Required |
+| ---------- | ------- | -------------------------------------------------- | :------: |
+| messageID  | integer | The message that should be edited.                 |   true   |
+| content    | string  | The content of the new message.                    |   true   |
+| channelID? | integer | The channel ID of where the message is located in. |  false   |
+
+You can only edit messages that were sent by the bot itself.
 
 ## Example(s)
 
-This will edit the sent message after five seconds: (alternative to `$editIn`)
+This will edit the sent message after five seconds: ( works the same way as `$editIn` )
 
 ```javascript
 bot.command({

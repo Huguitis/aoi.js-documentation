@@ -9,16 +9,16 @@ id: footer
 ## Usage
 
 ```php
-$footer[index?;text;iconURL?]
+$footer[index?;content;iconURL?]
 ```
 
 ## Parameters
 
-| Field    | Type   | Description                     | Required |
-|----------|--------|---------------------------------|:--------:|
-| index?   | number | embed index/position            |  false   |
-| text     | string | content of the footer           |   true   |
-| iconURL? | string | footer Icon (bottom left image) |  false   |
+| Field    | Type           | Description                      | Required |
+| -------- | -------------- | -------------------------------- | :------: |
+| index?   | number         | Embed index.                     |  false   |
+| content  | string, number | Content of the footer text.      |   true   |
+| iconURL? | string         | Footer Icon (bottom left image). |  false   |
 
 ## Example(s)
 

@@ -14,11 +14,11 @@ $addMessageReactions[channelID;messageID;...reactions]
 
 ## Parameters
 
-| Field     | Type    | Description | Required |
-|-----------|---------|-------------|:--------:|
-| channelID | integer | channel ID  |   true   |
-| messageID | integer | message ID  |   true   |
-| reactions | string  | reactions   |   true   |
+| Field     | Type    | Description                                 | Required |
+| --------- | ------- | ------------------------------------------- | :------: |
+| channelID | integer | Channel ID of where the message is located. |   true   |
+| messageID | integer | Message ID.                                 |   true   |
+| reactions | string  | Reactions to add.                           |   true   |
 
 ## Example(s)
 

@@ -9,18 +9,18 @@ id: createWebhook
 ## Usage
 
 ```php
-$createWebhook[channelID;name;avatar;reason;separator?]
+$createWebhook[channelID;name;avatar;reason;sep?]
 ```
 
 ## Parameters
 
-| Field      | Type    | Description                                             | Required |
-|------------|---------|---------------------------------------------------------|:--------:|
-| channelID  | integer | channel ID where the webhook will be created in         |   true   |
-| name       | string  | webhook display name                                    |   true   |
-| avatar     | string  | webhook avatar                                          |   true   |
-| reason     | string  | reason that will be displayed in the guild's audit logs |   true   |
-| separator? | string  | separator to separate webhook token, id, etc.           |  false   |
+| Field     | Type    | Description                                                                                        | Required |
+| --------- | ------- | -------------------------------------------------------------------------------------------------- | :------: |
+| channelID | integer | Channel ID of where the webhook will be created in.                                                |   true   |
+| name      | string  | The webhook's display name.                                                                        |   true   |
+| avatar    | string  | The webhook avatar url.                                                                            |   true   |
+| reason    | string  | Reason which will be displayed in the guild's audit logs.                                          |   true   |
+| sep?      | string  | The separator which will be used to separate important credentials like token and ID, default `,`. |  false   |
 
 ## Example(s)
 

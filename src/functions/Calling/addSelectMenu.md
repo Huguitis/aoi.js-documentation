@@ -14,15 +14,15 @@ $addSelectMenu[index;customId;placeHolder;minValues;maxValues;disabled?;label:de
 
 ## Parameters
 
-| Field       | Type    | Description                                                | Required |
-|-------------|---------|------------------------------------------------------------|:--------:|
-| index       | integer | in which row the select menu appears                       |   true   |
-| customID    | string  | custom ID                                                  |   true   |
-| placeHolder | string  | select menu placeholder text                               |   true   |
-| minValues   | integer | select menu min value                                      |   true   |
-| maxValues   | integer | select menu max value                                      |   true   |
-| disabled    | string  | disabled? <br /> 1. **true** <br /> 2. **false** (default) |   true   |
-| options     | string  | options                                                    |   true   |
+| Field       | Type    | Description                                                                                  | Required |
+| ----------- | ------- | -------------------------------------------------------------------------------------------- | :------: |
+| index       | integer | In which actionRow the selectMenu appears, a selectMenu requires one whole row for it alone. |   true   |
+| customID    | string  | The component custom ID.                                                                     |   true   |
+| placeHolder | string  | SelectMenu Placeholder Text.                                                                 |   true   |
+| minValues   | integer | SelectMenu minimal value of selectable options                                               |   true   |
+| maxValues   | integer | SelectMenu maximal value of selectable options                                               |   true   |
+| disabled    | boolean | If the selectMenu will appear as disabled- <br /> 1. **true** <br /> 2. **false** (default)  |   true   |
+| options     | string  | Select menu options separated by eachother with `;` and `:`.                                 |   true   |
 
 ## Example(s)
 

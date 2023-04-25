@@ -14,10 +14,10 @@ $deleteSticker[guildID;sticker]
 
 ## Parameters
 
-| Field   | Type    | Description         | Required |
-|---------|---------|---------------------|:--------:|
-| guildID | integer | guild ID            |   true   |
-| sticker | string  | name of the sticker |   true   |
+| Field   | Type    | Description                                      | Required |
+| ------- | ------- | ------------------------------------------------ | :------: |
+| guildID | integer | The guild ID of where the sticker is located in. |   true   |
+| sticker | string  | The name of the sticker.                         |   true   |
 
 ## Example(s)
 

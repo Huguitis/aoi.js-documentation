@@ -9,14 +9,14 @@ id: editWebhookMessage
 ## Usage
 
 ```php
-$editWebhookMessage[webhookID;webhookToken;messageID;returnID?]
+$editWebhookMessage[webhookID;webhookToken;messageID;content]
 ```
 
 ## Parameters
 
-| Field        | Type    | Description                                                             | Required |
-|--------------|---------|-------------------------------------------------------------------------|:--------:|
-| webhookID    | integer | message ID                                                              |   true   |
-| webhookToken | string  | new message                                                             |   true   |
-| messageID    | integer | channel ID                                                              |   true   |
-| returnID?    | string  | return the message ID? <br /> 1. **true** (default) <br /> 2. **false** |  false   |
+| Field        | Type    | Description              | Required |
+| ------------ | ------- | ------------------------ | :------: |
+| webhookID    | integer | Webhook ID.              |   true   |
+| webhookToken | string  | The Webhook Token.       |   true   |
+| messageID    | integer | The message ID to edit.  |   true   |
+| content      | string  | The new message content. |   true   |

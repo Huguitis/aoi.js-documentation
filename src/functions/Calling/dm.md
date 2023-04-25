@@ -14,9 +14,13 @@ $dm[userID]
 
 ## Parameters
 
-| Field  | Type    | Description | Required |
-|--------|---------|-------------|:--------:|
-| userID | integer | user ID     |   true   |
+| Field  | Type    | Description                          | Required |
+| ------ | ------- | ------------------------------------ | :------: |
+| userID | integer | The user which shall receive the DM. |   true   |
+
+**Important**:
+- You are unable to DM other bots.
+- You are unable to DM people who closed their DMs.
 
 ## Example(s)
 

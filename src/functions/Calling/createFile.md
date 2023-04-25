@@ -1,10 +1,10 @@
 ---
 title: $createFile
-description: $createFile will create a file.
+description: $createFile will create a file attachment.
 id: createFile
 ---
 
-`$createFile` will create a file.
+`$createFile` will create a file attachment.
 
 ## Usage
 
@@ -14,10 +14,10 @@ $createFile[attachment;name]
 
 ## Parameters
 
-| Field      | Type   | Description         | Required |
-|------------|--------|---------------------|:--------:|
-| attachment | string | content of the file |   true   |
-| name       | string | name of the file    |   true   |
+| Field      | Type   | Description                 | Required |
+| ---------- | ------ | --------------------------- | :------: |
+| attachment | string | Content of the file.        |   true   |
+| name       | string | The name of the attachment. |   true   |
 
 ## Example(s)
 

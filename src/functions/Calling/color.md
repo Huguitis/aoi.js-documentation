@@ -14,10 +14,10 @@ $color[index?;hex]
 
 ## Parameters
 
-| Field  | Type    | Description | Required |
-|--------|---------|-------------|:--------:|
-| index? | integer | embed index |  false   |
-| hex    | string  | hex color   |   true   |
+| Field  | Type    | Description                                               | Required |
+| ------ | ------- | --------------------------------------------------------- | :------: |
+| index? | integer | The embed index.                                          |  false   |
+| hex    | string  | The hex color or color name (supported colornames below). |   true   |
 
 <details>
   <summary><h3> Embed Colors </h3></summary>

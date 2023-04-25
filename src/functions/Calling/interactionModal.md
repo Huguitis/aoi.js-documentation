@@ -14,11 +14,11 @@ $interactionModal[title;customID;components]
 
 ## Parameters
 
-| Field      | Type   | Description                                    | Required |
-|------------|--------|------------------------------------------------|:--------:|
-| title      | string | modal title which will be displayed at the top |   true   |
-| customID   | string | modal custom ID                                |   true   |
-| components | string | modal components                               |   true   |
+| Field      | Type   | Description                                                     | Required |
+| ---------- | ------ | --------------------------------------------------------------- | :------: |
+| title      | string | The title of the modal which will be displayed as Modal Header. |   true   |
+| customID   | string | The component custom ID.                                        |   true   |
+| components | string | The modal text components.                                      |   true   |
 
 ## Example(s)
 

@@ -14,11 +14,11 @@ $deleteInvite[guildID;inviteCode;reason?]
 
 ## Parameters
 
-| Field      | Type    | Description                                             | Required |
-|------------|---------|---------------------------------------------------------|:--------:|
-| guildID    | integer | guild ID                                                |   true   |
-| inviteCode | string  | invite code                                             |   true   |
-| reason?    | string  | reason that will be displayed in the guild's audit logs |  false   |
+| Field      | Type    | Description                                               | Required |
+| ---------- | ------- | --------------------------------------------------------- | :------: |
+| guildID    | integer | The guild ID whose invite should be deleted.              |   true   |
+| inviteCode | string  | The specific invite code.                                 |   true   |
+| reason?    | string  | Reason which will be displayed in the guild's audit logs. |  false   |
 
 ## Example(s)
 

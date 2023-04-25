@@ -14,16 +14,16 @@ $createChannelInvite[channelID?;...options]
 
 ## Parameters
 
-| Field      | Type    | Description  | Required |
-|------------|---------|--------------|:--------:|
-| channelID? | integer | channel ID   |  false   |
-| options?   | string  | json objects |  false   |
+| Field      | Type    | Description                                         | Required |
+| ---------- | ------- | --------------------------------------------------- | :------: |
+| channelID? | integer | The channel ID of which the invite will be created. |  false   |
+| options?   | object  | Invite options.                                     |  false   |
 
 <details open>
   <summary><h3> Invite Target Types </h3></summary>
 
 | TYPE                 | VALUE |
-|----------------------|-------|
+| -------------------- | ----- |
 | STREAM               | 1     |
 | EMBEDDED_APPLICATION | 2     |
 
@@ -42,7 +42,7 @@ bot.command({
 });
 ```
 
-### Advanced Example
+### Advanced Example(s)
 
 Create Temporary Invites with limited uses:
 

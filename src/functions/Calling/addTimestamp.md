@@ -15,8 +15,8 @@ $addTimestamp[ms?]
 ## Parameters
 
 | Field | Type    | Description | Required |
-|-------|---------|-------------|:--------:|
-| ms    | integer | epoch time  |  false   |
+| ----- | ------- | ----------- | :------: |
+| ms    | integer | Epoch Time. |  false   |
 
 ## Example(s)
 

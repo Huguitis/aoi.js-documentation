@@ -9,15 +9,15 @@ id: deafenUser
 ## Usage
 
 ```php
-$deafenUser[userID;deaf?]
+$deafenUser[userID;deafen?]
 ```
 
 ## Parameters
 
-| Field  | Type    | Description                                                                | Required |
-|--------|---------|----------------------------------------------------------------------------|:--------:|
-| userID | integer | user ID                                                                    |   true   |
-| deaf?  | string  | deafen or undeafen a user <br /> 1. **true** (default) <br /> 2. **false** |  false   |
+| Field   | Type    | Description                                                                         | Required |
+| ------- | ------- | ----------------------------------------------------------------------------------- | :------: |
+| userID  | integer | The user who will be deafened or undeafened.                                        |   true   |
+| deafen? | boolean | Deafen or Undeafen the given user. <br /> 1. **true** (default) <br /> 2. **false** |  false   |
 
 ## Example(s)
 

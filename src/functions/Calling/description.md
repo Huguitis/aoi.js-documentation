@@ -14,10 +14,10 @@ $description[index?;description]
 
 ## Parameters
 
-| Field       | Type   | Description                        | Required |
-|-------------|--------|------------------------------------|:--------:|
-| index?      | number | embed index                        |  false   |
-| description | string | content of the embed's description |   true   |
+| Field       | Type   | Description                            | Required |
+| ----------- | ------ | -------------------------------------- | :------: |
+| index?      | number | The embed index.                       |  false   |
+| description | string | The content of the embeds description. |   true   |
 
 ## Example(s)
 

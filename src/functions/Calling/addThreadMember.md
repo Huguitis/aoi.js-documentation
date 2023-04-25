@@ -14,16 +14,16 @@ $addThreadMember[channelID;threadID;userID;reason]
 
 ## Parameters
 
-| Field     | Type    | Description                     | Required |
-|-----------|---------|---------------------------------|:--------:|
-| channelID | integer | channel ID                      |   true   |
-| threadID  | integer | thread ID                       |   true   |
-| userID    | integer | user id                         |   true   |
-| reason    | string  | reason to display in audit logs |   true   |
+| Field     | Type    | Description                                                  | Required |
+| --------- | ------- | ------------------------------------------------------------ | :------: |
+| channelID | integer | Channel ID of where the thread is located.                   |   true   |
+| threadID  | integer | The thread ID.                                               |   true   |
+| userID    | integer | The user that should be added to the thread.                 |   true   |
+| reason    | string  | The reason that will be displayed in the guild's audit logs. |   true   |
 
 ## Example(s)
 
-This will create a thread and a random user to it:
+This will create a thread and add random user to it:
 
 ```javascript
 bot.command({

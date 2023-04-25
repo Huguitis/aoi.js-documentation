@@ -14,10 +14,10 @@ $deleteMessage[messageID;channelID]
 
 ## Parameters
 
-| Field     | Type    | Description | Required |
-|-----------|---------|-------------|:--------:|
-| messageID | integer | guild ID    |   true   |
-| channelID | integer | channel ID  |  false   |
+| Field     | Type    | Description                                          | Required |
+| --------- | ------- | ---------------------------------------------------- | :------: |
+| messageID | integer | The message ID of the channel which will be deleted. |   true   |
+| channelID | integer | The channel ID of where the message is located in.   |  false   |
 
 ## Example(s)
 
