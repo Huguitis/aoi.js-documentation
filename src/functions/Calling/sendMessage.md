@@ -9,15 +9,15 @@ id: sendMessage
 ## Usage
 
 ```php
-$sendMessage[message;returnID?]
+$sendMessage[content;returnID?]
 ```
 
 ## Parameters
 
-| Field     | Type   | Description                                                         | Required |
-|-----------|--------|---------------------------------------------------------------------|:--------:|
-| message   | string | message to send                                                     |   true   |
-| returnID? | string | return message ID  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
+| Field     | Type    | Description                                                          | Required |
+| --------- | ------- | -------------------------------------------------------------------- | :------: |
+| content   | string  | Message Content to send.                                             |   true   |
+| returnID? | boolean | Return message ID?  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example(s)
 

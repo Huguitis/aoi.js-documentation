@@ -14,6 +14,20 @@ $interactionDefer[ephemeral]
 
 ## Parameters
 
-| Field     | Type    | Description                                    | Required |
-|-----------|---------|------------------------------------------------|:--------:|
-| ephemeral | integer | visible to the command author only? true/false |   true   |
+| Field     | Type    | Description                         | Required |
+| --------- | ------- | ----------------------------------- | :------: |
+| ephemeral | boolean | Visible to the command author only? |   true   |
+
+## Example(s)
+
+```javascript
+bot.command({
+    name: 'exampleButton',
+    type: 'interaction',
+    prototype: 'button',
+    code: `
+   $interactionFollowUp[This is the second message!] 
+   $interactionFollowUp[This is the first message!] 
+   $interactionDefer[true]`
+});
+```

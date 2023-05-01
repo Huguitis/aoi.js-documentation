@@ -16,7 +16,7 @@ $textInputValue[option]
 
 | Field  | Type   | Description                               | Required |
 |--------|--------|-------------------------------------------|:--------:|
-| option | string | option <br /> 1. **name (of the option)** |   true   |
+| option | string | Option <br /> 1. **name (of the option)** |   true   |
 
 ## Example(s)
 

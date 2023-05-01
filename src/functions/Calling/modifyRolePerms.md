@@ -14,14 +14,14 @@ $modifyRolePerms[guildID;roleID;...perms]
 
 ## Parameters
 
-| Field    | Type    | Description                                          | Required |
-|----------|---------|------------------------------------------------------|:--------:|
-| guildID  | integer | guild ID                                             |   true   |
-| roleID   | integer | role ID / `$guildID` represents the `@everyone` role |   true   |
-| ...perms | string  | permissions                                          |   true   |
+| Field    | Type    | Description                                                                              | Required |
+| -------- | ------- | ---------------------------------------------------------------------------------------- | :------: |
+| guildID  | integer | The guild ID of where the role is located in.                                            |   true   |
+| roleID   | integer | Role ID of the role which will be modified. / `$guildID` represents the `@everyone` role |   true   |
+| ...perms | string  | Permissions to modify.                                                                   |   true   |
 
 |     | Description                                          |
-|-----|------------------------------------------------------|
+| --- | ---------------------------------------------------- |
 | `-` | Deny a specific permission to someone or something.  |
 | `+` | Allow a specific permission to someone or something. |
 | `/` | Reset a specific permission to its default state.    |

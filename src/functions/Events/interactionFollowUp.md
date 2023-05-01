@@ -16,13 +16,13 @@ $interactionFollowUp[content?;embeds?;components?;files?;ephemeral?]
 
 ## Parameters
 
-| Field       | Type   | Description                                                                          | Required |
-|-------------|--------|--------------------------------------------------------------------------------------|:--------:|
-| content?    | string | message content                                                                      |  false   |
-| embeds?     | string | embed                                                                                |  false   |
-| components? | string | components                                                                           |  false   |
-| files?      | string | files                                                                                |  false   |
-| ephemeral?  | string | visible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |  false   |
+| Field       | Type    | Description                                                                           | Required |
+| ----------- | ------- | ------------------------------------------------------------------------------------- | :------: |
+| content?    | string  | Message content.                                                                      |  false   |
+| embeds?     | string  | Embed parser.                                                                         |  false   |
+| components? | string  | Component parser.                                                                     |  false   |
+| files?      | string  | File parser.                                                                          |  false   |
+| ephemeral?  | boolean | vVisible to the command author only? <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example(s)
 

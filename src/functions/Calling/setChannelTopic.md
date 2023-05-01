@@ -14,10 +14,10 @@ $setChannelTopic[channelID;topic]
 
 ## Parameters
 
-| Field     | Type    | Description | Required |
-|-----------|---------|-------------|:--------:|
-| channelID | integer | channel ID  |   true   |
-| topic     | string  | new topic   |   true   |
+| Field     | Type    | Description                                         | Required |
+| --------- | ------- | --------------------------------------------------- | :------: |
+| channelID | integer | The ID of the channel whose topic will be modified. |   true   |
+| topic     | string  | Content of the new channel topic.                   |   true   |
 
 ## Example(s)
 

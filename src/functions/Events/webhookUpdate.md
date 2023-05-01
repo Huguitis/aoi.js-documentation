@@ -14,6 +14,6 @@ $webhookUpdate[option]
 
 ## Parameters
 
-| Field  | Type   | Description | Required |
-|--------|--------|-------------|:--------:|
-| option | string | option      |   true   |
+| Field  | Type   | Description         | Required |
+| ------ | ------ | ------------------- | :------: |
+| option | string | Option to retrieve. |   true   |

@@ -9,14 +9,14 @@ id: ban
 ## Usage
 
 ```php
-$ban[guildID?;userID;days?;reason?]
+$ban[guildID;userID;days?;reason?]
 ```
 
 ## Parameters
 
 | Field    | Type    | Description                                                     | Required |
 | -------- | ------- | --------------------------------------------------------------- | :------: |
-| guildID? | integer | From which guild the user should be banned from.                |  false   |
+| guildID? | integer | From which guild the user should be banned from.                |   true   |
 | userID   | integer | The user to ban.                                                |   true   |
 | days?    | string  | Days of message history to delete, cannot be higher than 7 days |  false   |
 | reason?  | string  | The reason that will be displayed in the guild's audit logs.    |  false   |

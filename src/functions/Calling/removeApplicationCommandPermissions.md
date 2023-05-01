@@ -10,13 +10,13 @@ id: removeApplicationCommandPermissions
 ## Usage
 
 ```php
-$removeApplicationCommandPermissions[guildID/global;id;roruids]
+$removeApplicationCommandPermissions[guildID/global;id;...roruIds]
 ```
 
 ## Parameters
 
-| Field          | Type            | Description                                              | Required |
-|----------------|-----------------|----------------------------------------------------------|:--------:|
-| guildID/global | integer         | global / guildID                                         |   true   |
-| id             | integer         | application command ID                                   |   true   |
-| roruids        | integer, string | roles/users to modify permissions of, splitted by commas |   true   |
+| Field          | Type            | Description                                                                 | Required |
+| -------------- | --------------- | --------------------------------------------------------------------------- | :------: |
+| guildID/global | integer         | Application command type. <br/> 1. **global** <br/> 2. **specific guildID** |   true   |
+| id             | integer         | The application command ID to modify.                                       |   true   |
+| roruIds        | integer, string | Roles or users to modify/remove permissions of, splitted by commas.         |   true   |

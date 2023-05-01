@@ -9,15 +9,15 @@ id: setGuildIcon
 ## Usage
 
 ```php
-$setGuildIcon[icon;guildID?]
+$setGuildIcon[URL;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description    | Required |
-|----------|---------|----------------|:--------:|
-| icon     | string  | new guild icon |   true   |
-| guildID? | integer | guild ID       |  false   |
+| Field    | Type    | Description                                  | Required |
+| -------- | ------- | -------------------------------------------- | :------: |
+| URL      | string  | URL of the new guild Icon.                   |   true   |
+| guildID? | integer | The guild ID of where to set the guild Icon. |  false   |
 
 ## Example(s)
 

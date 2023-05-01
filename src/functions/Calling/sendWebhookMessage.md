@@ -9,17 +9,17 @@ id: sendWebhookMessage
 ## Usage
 
 ```php
-$sendWebhookMessage[webhookID;webhookToken;message;returnID?]
+$sendWebhookMessage[webhookID;webhookToken;content;returnID?]
 ```
 
 ## Parameters
 
-| Field        | Type    | Description                                                         | Required |
-|--------------|---------|---------------------------------------------------------------------|:--------:|
-| webhookID    | integer | webhook ID                                                          |   true   |
-| webhookToken | string  | webhook Token                                                       |   true   |
-| message      | string  | message to send                                                     |   true   |
-| returnID?    | string  | return message ID  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
+| Field        | Type    | Description                                                          | Required |
+| ------------ | ------- | -------------------------------------------------------------------- | :------: |
+| webhookID    | integer | The webhook ID.                                                      |   true   |
+| webhookToken | string  | The webhook Token.                                                   |   true   |
+| content      | string  | The content of the message to send.                                  |   true   |
+| returnID?    | boolean | Return message ID?  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example(s)
 

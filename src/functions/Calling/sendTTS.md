@@ -14,11 +14,11 @@ $sendTTS[channelID;message;returnID?]
 
 ## Parameters
 
-| Field     | Type    | Description                                                         | Required |
-|-----------|---------|---------------------------------------------------------------------|:--------:|
-| channelID | integer | channel ID                                                          |   true   |
-| message   | string  | message to send                                                     |   true   |
-| returnID? | string  | return message ID  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
+| Field     | Type    | Description                                                          | Required |
+| --------- | ------- | -------------------------------------------------------------------- | :------: |
+| channelID | integer | The ID of the channel where the Text-To-Speech message will be sent. |   true   |
+| message   | string  | The content of the TTS message.                                      |   true   |
+| returnID? | boolean | Return message ID?  <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example(s)
 

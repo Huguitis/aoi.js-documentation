@@ -1,10 +1,10 @@
 ---
 title: $shard
-description: $shard returns the shard ID.
+description: $shard returns the data of a shard.
 id: shard
 ---
 
-`$shard` returns the shard ID.
+`$shard` returns the data of a shard.
 
 ## Usage
 
@@ -14,6 +14,6 @@ $shard[option]
 
 ## Parameters
 
-| Field  | Type   | Description | Required |
-|--------|--------|-------------|:--------:|
-| option | string | option      |   true   |
+| Field  | Type   | Description         | Required |
+| ------ | ------ | ------------------- | :------: |
+| option | string | Option to retrieve. |   true   |

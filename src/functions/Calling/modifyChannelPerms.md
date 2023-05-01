@@ -14,14 +14,14 @@ $modifyChannelPerms[roruID;channelID;...perms]
 
 ## Parameters
 
-| Field     | Type    | Description                                                  | Required |
-|-----------|---------|--------------------------------------------------------------|:--------:|
-| roruId    | integer | role or user ID / `$guildID` represents the `@everyone` role |   true   |
-| channelID | integer | channel ID                                                   |   true   |
-| ...perms  | string  | permissions                                                  |   true   |
+| Field     | Type    | Description                                                                | Required |
+| --------- | ------- | -------------------------------------------------------------------------- | :------: |
+| roruId    | integer | The ID of an user or role. ( `$guildID` represents the `@everyone` role. ) |   true   |
+| channelID | integer | The channel ID of which you're trying to modify its permissions.           |   true   |
+| ...perms  | string  | The permissions that will be changed.                                      |   true   |
 
 |     | Description                                          |
-|-----|------------------------------------------------------|
+| --- | ---------------------------------------------------- |
 | `-` | Deny a specific permission to someone or something.  |
 | `+` | Allow a specific permission to someone or something. |
 | `/` | Reset a specific permission to its default state.    |

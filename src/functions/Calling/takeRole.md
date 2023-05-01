@@ -14,11 +14,11 @@ $takeRole[guildID;userID;roleID]
 
 ## Parameters
 
-| Field   | Type    | Description | Required |
-|---------|---------|-------------|:--------:|
-| guildID | integer | guild ID    |   true   |
-| userID  | integer | user ID     |   true   |
-| roleID  | integer | role ID     |   true   |
+| Field   | Type    | Description                                            | Required |
+| ------- | ------- | ------------------------------------------------------ | :------: |
+| guildID | integer | The guild ID of where the user and role is located in. |   true   |
+| userID  | integer | The ID of the user whose role will be removed.         |   true   |
+| roleID  | integer | The ID of the role that will be removed.               |   true   |
 
 ## Example(s)
 

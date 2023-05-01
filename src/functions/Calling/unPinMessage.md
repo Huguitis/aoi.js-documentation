@@ -14,10 +14,10 @@ $unPinMessage[messageID?;channelID?]
 
 ## Parameters
 
-| Field     | Type    | Description | Required |
-|-----------|---------|-------------|:--------:|
-| messageID | integer | message ID  |  false   |
-| channelID | integer | channel ID  |  false   |
+| Field     | Type    | Description                                               | Required |
+| --------- | ------- | --------------------------------------------------------- | :------: |
+| messageID | integer | The ID of the message to unpin.                           |  false   |
+| channelID | integer | The ID of the channel of where the message is located in. |  false   |
 
 ## Example(s)
 

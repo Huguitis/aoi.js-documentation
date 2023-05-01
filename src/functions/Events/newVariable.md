@@ -14,7 +14,7 @@ $newVariable[option;sep?]
 
 ## Parameters
 
-| Field  | Type   | Description               | Required |
-|--------|--------|---------------------------|:--------:|
-| option | string | option <br /> 1. **name** |   true   |
-| sep    | string | separator                 |  false   |
+| Field  | Type   | Description         | Required |
+| ------ | ------ | ------------------- | :------: |
+| option | string | Option to retrieve. |   true   |
+| sep    | string | Separator.          |  false   |

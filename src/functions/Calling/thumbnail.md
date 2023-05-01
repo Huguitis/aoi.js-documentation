@@ -14,10 +14,10 @@ $thumbnail[index?;URL]
 
 ## Parameters
 
-| Field  | Type   | Description | Required |
-|--------|--------|-------------|:--------:|
-| index? | number | embed index |  false   |
-| URL    | string | image URL   |   true   |
+| Field  | Type   | Description           | Required |
+| ------ | ------ | --------------------- | :------: |
+| index? | number | Embed position/index. |  false   |
+| URL    | string | Thumbnail Image URL.  |   true   |
 
 ## Example(s)
 

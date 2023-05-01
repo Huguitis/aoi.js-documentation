@@ -14,8 +14,8 @@ $modifyApplicationCommand[guildID/global;appID;name:description:type:options:def
 
 ## Parameters
 
-| Field          | Type            | Description                          | Required |
-|----------------|-----------------|--------------------------------------|:--------:|
-| guildID/global | integer, string | guildID ID                           |   true   |
-| appID          | integer         | application command ID               |   true   |
-| ...options     | string          | new data for the application command |   true   |
+| Field          | Type            | Description                                                                 | Required |
+| -------------- | --------------- | --------------------------------------------------------------------------- | :------: |
+| guildID/global | integer, string | Application command type. <br/> 1. **global** <br/> 2. **specific guildID** |   true   |
+| appID          | integer         | Application command ID.                                                     |   true   |
+| ...options     | object          | New data for the application command.                                       |   true   |

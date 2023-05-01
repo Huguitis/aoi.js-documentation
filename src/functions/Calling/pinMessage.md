@@ -14,10 +14,10 @@ $pinMessage[messageID?;channelID?]
 
 ## Parameters
 
-| Field     | Type    | Description | Required |
-|-----------|---------|-------------|:--------:|
-| messageID | integer | message ID  |  false   |
-| channelID | integer | channel ID  |  false   |
+| Field     | Type    | Description                                        | Required |
+| --------- | ------- | -------------------------------------------------- | :------: |
+| messageID | integer | The ID of the message that will be pinned.         |  false   |
+| channelID | integer | The channel ID of where the message is located in. |  false   |
 
 ## Example(s)
 

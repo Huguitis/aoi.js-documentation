@@ -14,13 +14,13 @@ $interactionEdit[content?;embeds?;components?;files?;allowedMentions?]
 
 ## Parameters
 
-| Field            | Type   | Description                                                                     | Required |
-|------------------|--------|---------------------------------------------------------------------------------|:--------:|
-| content?         | string | message content                                                                 |  false   |
-| embeds?          | string | embed                                                                           |  false   |
-| components?      | string | components                                                                      |  false   |
-| files?           | string | files                                                                           |  false   |
-| allowedMentions? | string | allowed mentions <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone** |  false   |
+| Field            | Type   | Description                                                                      | Required |
+| ---------------- | ------ | -------------------------------------------------------------------------------- | :------: |
+| content?         | string | New message content.                                                             |  false   |
+| embeds?          | string | Embed parser.                                                                    |  false   |
+| components?      | string | Component parser.                                                                |  false   |
+| files?           | string | File parser.                                                                     |  false   |
+| allowedMentions? | string | Allowed mentions? <br /> 1. **users** <br /> 2. **roles** <br /> 3. **everyone** |  false   |
 
 ## Example(s)
 

@@ -9,14 +9,14 @@ id: setClientAvatar
 ## Usage
 
 ```php
-$setClientAvatar[avatar]
+$setClientAvatar[URL]
 ```
 
 ## Parameters
 
-| Field  | Type   | Description    | Required |
-|--------|--------|----------------|:--------:|
-| avatar | string | new avatar URL |   true   |
+| Field | Type   | Description         | Required |
+| ----- | ------ | ------------------- | :------: |
+| URL   | string | The new avatar URL. |   true   |
 
 ## Example(s)
 

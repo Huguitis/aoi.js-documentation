@@ -15,9 +15,9 @@ $timeoutData[option]
 
 ## Parameters
 
-| Field  | Type   | Description | Required |
-|--------|--------|-------------|:--------:|
-| option | string | option name |   true   |
+| Field  | Type   | Description               | Required |
+| ------ | ------ | ------------------------- | :------: |
+| option | string | Timeout Data option name. |   true   |
 
 ## Example(s)
 

@@ -14,10 +14,10 @@ $sendCrosspostingMessage[message;...channelIDs]
 
 ## Parameters
 
-| Field         | Type    | Description     | Required |
-|---------------|---------|-----------------|:--------:|
-| message       | string  | message to send |   true   |
-| ...channelIDs | integer | channel IDs     |   true   |
+| Field         | Type    | Description                      | Required |
+| ------------- | ------- | -------------------------------- | :------: |
+| message       | string  | The message to send.             |   true   |
+| ...channelIDs | integer | Where to send the given message. |   true   |
 
 ## Example(s)
 

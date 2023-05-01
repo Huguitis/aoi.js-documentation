@@ -14,12 +14,12 @@ $interactionUpdate[content?;embeds?;components?;files?]
 
 ## Parameters
 
-| Field       | Type   | Description     | Required |
-|-------------|--------|-----------------|:--------:|
-| content?    | string | message content |  false   |
-| embeds?     | string | embed           |  false   |
-| components? | string | components      |  false   |
-| files?      | string | files           |  false   |
+| Field       | Type   | Description          | Required |
+| ----------- | ------ | -------------------- | :------: |
+| content?    | string | New message content. |  false   |
+| embeds?     | string | Embed parser.        |  false   |
+| components? | string | Component parser.    |  false   |
+| files?      | string | File parser.         |  false   |
 
 ## Example(s)
 
