@@ -14,10 +14,10 @@ $commandInfo[name;option]
 
 ## Parameters
 
-| Field  | Type   | Description           | Required |
-|--------|--------|-----------------------|:--------:|
-| name   | string | command name or alias |   true   |
-| option | string | option to retrieve    |   true   |
+| Field  | Type   | Description            | Required |
+| ------ | ------ | ---------------------- | :------: |
+| name   | string | Command name or alias. |   true   |
+| option | string | Property to retrieve.  |   true   |
 
 ## Example(s)
 

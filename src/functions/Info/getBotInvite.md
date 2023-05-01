@@ -1,28 +1,28 @@
 ---
-title: $getBotInvite
-description: $getBotInvite will return your bot's invite with specified permissions.
-id: getBotInvite
+title: $getClientInvite
+description: $getClientInvite will return your bot's invite with specified permissions.
+id: getClientInvite
 ---
 
-`$getBotInvite` will return your bot's invite with specified permissions.
+`$getClientInvite` will return your bot's invite with specified permissions.
 
 ## Usage
 
 ```php
-$getBotInvite[...perms?]
+$getClientInvite[...perms?]
 ```
 
 ## Parameters
 
-| Field  | Type   | Description                                       | Required |
-|--------|--------|---------------------------------------------------|----------|
-| perms? | string | permissions you want to be included in the invite | false    |
+| Field  | Type   | Description                                        | Required |
+| ------ | ------ | -------------------------------------------------- | -------- |
+| perms? | string | Permissions you want to be included in the invite. | false    |
 
 <details>
   <summary><h3> Discord API Permissions </h3></summary>
 
 | Permission              |                                                                 |
-|-------------------------|-----------------------------------------------------------------|
+| ----------------------- | --------------------------------------------------------------- |
 | createinvite            | Permission to create guild invites                              |
 | kick                    | Permission to kick guild members                                |
 | ban                     | Permission to ban guild members                                 |
@@ -76,7 +76,7 @@ This will return your bot's invite with administrator privileges:
 bot.command({
     name: 'getBotInvite',
     code: `
-  Invite me here: $getBotInvite[administrator]
+  Invite me here: $getClientInvite[administrator]
   `
 });
 ```

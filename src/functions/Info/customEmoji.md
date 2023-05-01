@@ -14,10 +14,10 @@ $customEmoji[emoji;id?]
 
 ## Parameters
 
-| Field | Type   | Description                                                                                | Required |
-|-------|--------|--------------------------------------------------------------------------------------------|:--------:|
-| emoji | string | emoji name or id                                                                           |   true   |
-| id?   | string | where the emoji is from <br /> 1. **global** <br /> 2. **guildID** - replace with guild ID |  false   |
+| Field | Type   | Description                                                                                 | Required |
+| ----- | ------ | ------------------------------------------------------------------------------------------- | :------: |
+| emoji | string | Emoji name or ID.                                                                           |   true   |
+| id?   | string | Where the emoji is from. <br /> 1. **global** <br /> 2. **guildID** - replace with guild ID |  false   |
 
 ## Example(s)
 

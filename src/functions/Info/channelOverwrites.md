@@ -14,14 +14,14 @@ $channelOverwrites[channelID?;response?;sep?]
 
 ## Parameters
 
-| Field      | Type    | Description                                                         | Required |
-|------------|---------|---------------------------------------------------------------------|:--------:|
-| channelID? | integer | channel ID of the channel you want the channel overwrites of        |  false   |
-| response?  | string  | the format the channel overwrites will be returned in               |  false   |
-| sep?       | string  | the separator to split the channel overwrites if there are multiple |  false   |
+| Field      | Type    | Description                                                          | Required |
+| ---------- | ------- | -------------------------------------------------------------------- | :------: |
+| channelID? | integer | ID of the channel you want the channel overwrites of.                |  false   |
+| response?  | string  | The format the channel overwrites will be returned in.               |  false   |
+| sep?       | string  | The separator to split the channel overwrites if there are multiple. |  false   |
 
 |    Type     | Output                         |
-|:-----------:|--------------------------------|
+| :---------: | ------------------------------ |
 | `{mention}` | Mentions the role or user      |
 |  `{type}`   | Returns the type, user or role |
 |  `{allow}`  | The granted permissions        |

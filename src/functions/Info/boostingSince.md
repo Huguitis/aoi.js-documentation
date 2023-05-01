@@ -14,14 +14,14 @@ $boostingSince[guildID?;userID?;format?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                                     | Required |
-|----------|---------|---------------------------------------------------------------------------------|:--------:|
-| guildID? | integer | the ID of the guild of where you want to check how long someone's been boosting |  false   |
-| userID?  | integer | the user ID you want to check the boosting start date of                        |  false   |
-| format?  | string  | the format that the date will be returned in                                    |  false   |
+| Field    | Type    | Description                                                                      | Required |
+| -------- | ------- | -------------------------------------------------------------------------------- | :------: |
+| guildID? | integer | The ID of the guild of where you want to check how long someone's been boosting. |  false   |
+| userID?  | integer | The user ID you want to check the boosting start date of.                        |  false   |
+| format?  | string  | The format that the date will be returned in, listed below.                      |  false   |
 
 | Format |                                                         |
-|--------|---------------------------------------------------------|
+| ------ | ------------------------------------------------------- |
 | ms     | 1652643158052                                           |
 | date   | Sun May 15 2022 20:32:38 GMT+0100 (British Summer Time) |
 

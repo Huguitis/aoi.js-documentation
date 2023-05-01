@@ -14,13 +14,13 @@ $discriminator[userId?]
 
 ## Parameters
 
-| Field   | Type    | Description                                           | Required |
-|---------|---------|-------------------------------------------------------|----------|
-| userId? | integer | the user id of the user you want the discriminator of | false    |
+| Field   | Type    | Description                                                      | Required |
+| ------- | ------- | ---------------------------------------------------------------- | -------- |
+| userId? | integer | The ID of the user you want the discriminator to be returned of. | false    |
 
 ## Example(s)
 
-This will return your Discord User Discriminator, for example `0000`:
+This will return your Discord User Discriminator, for example `User#0000` (the four digits):
 
 ```javascript
 bot.command({

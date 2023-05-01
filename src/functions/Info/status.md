@@ -1,23 +1,23 @@
 ---
-title: $status
-description: $status will a user's presence.
-id: status
+title: $userStatus
+description: $userStatus will return a user's presence.
+id: userStatus
 ---
 
-`$status` will a user's presence.
+`$userStatus` will return a user's presence.
 
 ## Usage
 
 ```php
-$status[userId?;guildId?]
+$userStatus[userId?;guildId?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| userId?  | integer | user ID     |  false   |
-| guildId? | integer | guild ID    |  false   |
+| Field    | Type    | Description                                                     | Required |
+| -------- | ------- | --------------------------------------------------------------- | :------: |
+| userId?  | integer | The ID of the user you want to return the status of.            |  false   |
+| guildId? | integer | The guild ID of which guild you want to retrieve the status of. |  false   |
 
 ## Example(s)
 
@@ -25,9 +25,9 @@ This will either return `idle`, `online`, `invisible` or `dnd` depending on your
 
 ```javascript
 bot.command({
-    name: 'status',
+    name: 'userStatus',
     code: `
-  $status[$authorID;$guildID]
+  $userStatus[$authorID;$guildID]
   `
 });
 ```

@@ -14,9 +14,9 @@ $emojiCount[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| guildID? | integer | guild ID    |  false   |
+| Field    | Type    | Description                                            | Required |
+| -------- | ------- | ------------------------------------------------------ | :------: |
+| guildID? | integer | From where the emojis will be counted and returned of. |  false   |
 
 ## Example(s)
 

@@ -14,15 +14,15 @@ $allChannelsCount[type?]
 
 ## Parameters
 
-| Field | Type   | Description                 | Required |
-|-------|--------|-----------------------------|----------|
-| type? | string | type you want the amount of | false    |
+| Field | Type   | Description                                 | Required |
+| ----- | ------ | ------------------------------------------- | -------- |
+| type? | string | Type you want the amount of to be returned. | false    |
 
 <details open>
   <summary><h3> Channel Types </h3></summary>
 
 | Channel Type         |                    |
-|----------------------|--------------------|
+| -------------------- | ------------------ |
 | Text Channel         | Text               |
 | Voice Channel        | Voice              |
 | Category             | Category           |

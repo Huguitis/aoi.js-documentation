@@ -14,13 +14,13 @@ $getAuditLogs[guildID;userID?;limit?;action?;format?]
 
 ## Parameters
 
-| Field   | Type    | Description                                           | Required |
-| ------- | ------- | ----------------------------------------------------- | :------: |
-| guildID | integer | guild ID                                              |   true   |
-| userID? | integer | the user who executed the action stated in audit logs |  false   |
-| limit?  | number  | the maximum of audit logs it will return              |  false   |
-| action? | integer | the action that was executed                          |  false   |
-| format? | string  | the format to return the audit logs in                |  false   |
+| Field   | Type    | Description                                            | Required |
+| ------- | ------- | ------------------------------------------------------ | :------: |
+| guildID | integer | The ID of a specific guild.                            |   true   |
+| userID? | integer | The user who executed the action stated in audit logs. |  false   |
+| limit?  | number  | The maximum of audit logs it will return.              |  false   |
+| action? | integer | The action that was executed.                          |  false   |
+| format? | string  | The format to return the audit logs in.                |  false   |
 
 | Format              |                                                                   |
 | ------------------- | ----------------------------------------------------------------- |

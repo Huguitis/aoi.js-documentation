@@ -14,9 +14,9 @@ $cpu[option?]
 
 ## Parameters
 
-| Field   | Type   | Description                                                                                                                                                        | Required |
-|---------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| option? | string | the option that the cpu usage will be returned of <br /> 1. **os** - returns the CPU usage of the bot <br /> 2. **process** - returns the CPU usage of the process |  false   |
+| Field   | Type   | Description                                                                                                                                                         | Required |
+| ------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| option? | string | The option that the CPU usage will be returned of. <br /> 1. **os** - returns the CPU usage of the bot <br /> 2. **process** - returns the CPU usage of the process |  false   |
 
 ## Example(s)
 

@@ -1,23 +1,23 @@
 ---
-title: $onlyBotPerms
-description: $onlyBotPerms will check if the bot has the listed permission and return a error message if not.
-id: onlyBotPerms
+title: $onlyClientPerms
+description: $onlyClientPerms will check if the bot has the listed permission and return a error message if not.
+id: onlyClientPerms
 ---
 
-`$onlyBotPerms` will check if the bot has the listed permission and return a error message if not.
+`$onlyClientPerms` will check if the bot has the listed permission and return a error message if not.
 
 ## Usage
 
 ```php
-$onlyBotPerms[...perms;error?]
+$onlyClientPerms[...perms;error?]
 ```
 
 ## Parameters
 
-| Field    | Type   | Description                                                 | Required |
-|----------|--------|-------------------------------------------------------------|:--------:|
-| ...perms | string | permission the bot requires                                 |   true   |
-| error?   | string | error to return when the bot has not the listed permissions |  false   |
+| Field    | Type   | Description                                                  | Required |
+| -------- | ------ | ------------------------------------------------------------ | :------: |
+| ...perms | string | Permission that the bot requires.                            |   true   |
+| error?   | string | Error to return when the bot has not the listed permissions. |  false   |
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 
@@ -27,9 +27,9 @@ This will limit the command to work only when the Bot has administrator permissi
 
 ```javascript
 bot.command({
-    name: "onlyBotPerms",
+    name: "onlyClientPerms",
     code: `
-    $onlyBotPerms[administrator;I don't have administrator permissions!]
+    $onlyClientPerms[administrator;I don't have administrator permissions!]
     `
 });
 ```

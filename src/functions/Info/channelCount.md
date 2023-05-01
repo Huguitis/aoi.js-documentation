@@ -14,16 +14,16 @@ $channelCount[guildID?;type?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                    | Required |
-|----------|---------|----------------------------------------------------------------|:--------:|
-| guildID? | integer | guild id of the guild where you want the amount of channels of |  false   |
-| type?    | string  | type you want the amount of                                    |  false   |
+| Field    | Type    | Description                                               | Required |
+| -------- | ------- | --------------------------------------------------------- | :------: |
+| guildID? | integer | ID of the guild where the channels will be counted from.  |  false   |
+| type?    | string  | Type you want the amount of to be returned, listed below. |  false   |
 
 <details>
   <summary><h3> Channel Types </h3></summary>
 
 | Channel Type         |                    |
-|----------------------|--------------------|
+| -------------------- | ------------------ |
 | Text Channel         | Text               |
 | Voice Channel        | Voice              |
 | Category             | Category           |

@@ -14,9 +14,9 @@ $botOwnerID[separator?]
 
 ## Parameters
 
-| Field      | Type   | Description                                 | Required |
-|------------|--------|---------------------------------------------|:--------:|
-| separator? | string | separator to split user ids (default: `, `) |  false   |
+| Field      | Type   | Description                                   | Required |
+| ---------- | ------ | --------------------------------------------- | :------: |
+| separator? | string | Separator to split user IDs. (default: ` , `) |  false   |
 
 ## Example(s)
 

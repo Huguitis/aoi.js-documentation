@@ -14,9 +14,9 @@ $botCount[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                   | Required |
-|----------|---------|---------------------------------------------------------------|:--------:|
-| guildID? | integer | guild id of the guild you want to retrieve the amount of bots |  false   |
+| Field    | Type    | Description                                                    | Required |
+| -------- | ------- | -------------------------------------------------------------- | :------: |
+| guildID? | integer | Guild ID of the guild you want to retrieve the amount of bots. |  false   |
 
 ## Example(s)
 

@@ -14,9 +14,9 @@ $channelTopic[channelID?]
 
 ## Parameters
 
-| Field      | Type    | Description                                             | Required |
-|------------|---------|---------------------------------------------------------|:--------:|
-| channelID? | integer | channel ID of the channel you want the channel topic of |  false   |
+| Field      | Type    | Description                                                   | Required |
+| ---------- | ------- | ------------------------------------------------------------- | :------: |
+| channelID? | integer | ID of the channel you want it to return the channel topic of. |  false   |
 
 ## Example(s)
 

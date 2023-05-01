@@ -14,12 +14,12 @@ $allEmojisCount[type?]
 
 ## Parameters
 
-| Field | Type   | Description                 | Required |
-|-------|--------|-----------------------------|----------|
-| type? | string | type you want the amount of | false    |
+| Field | Type   | Description                                 | Required |
+| ----- | ------ | ------------------------------------------- | -------- |
+| type? | string | Type you want the amount of to be returned. | false    |
 
 | Emoji Type      |          |
-|-----------------|----------|
+| --------------- | -------- |
 | Animated Emojis | animated |
 | Stable Emojis   | normal   |
 

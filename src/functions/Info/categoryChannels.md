@@ -14,11 +14,11 @@ $categoryChannels[categoryID;option?;sep?]
 
 ## Parameters
 
-| Field      | Type    | Description                                                                                                                                   | Required |
-|------------|---------|-----------------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| categoryID | integer | the ID of the category                                                                                                                        |   true   |
-| option?    | string  | the option the bot will return the channels in <br /> 1. **names** - returns channel names (default)  <br /> 2. **ids** - returns channel IDs |  false   |
-| sep?       | string  | the separator to separate the returned channels                                                                                              |  false   |
+| Field      | Type    | Description                                                                                                                                    | Required |
+| ---------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| categoryID | integer | The ID of the category.                                                                                                                        |   true   |
+| option?    | string  | The option the bot will return the channels in. <br /> 1. **names** - returns channel names (default)  <br /> 2. **ids** - returns channel IDs |  false   |
+| sep?       | string  | The separator to separate the returned channels.                                                                                               |  false   |
 
 ## Example(s)
 

@@ -14,9 +14,9 @@ $banCount[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                           | Required |
-|----------|---------|-----------------------------------------------------------------------|----------|
-| guildID? | integer | guild id of the guild you want to retrieve the amount of banned users | false    |
+| Field    | Type    | Description                                                                 | Required |
+| -------- | ------- | --------------------------------------------------------------------------- | -------- |
+| guildID? | integer | Guild ID of the guild you want to retrieve the amount of banned users from. | false    |
 
 #### Please note that your bot requires permissions to `VIEW_AUDIT_LOG`
 
