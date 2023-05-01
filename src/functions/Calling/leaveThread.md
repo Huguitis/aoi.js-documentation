@@ -17,7 +17,7 @@ $leaveThread[channelID;threadID]
 | Field     | Type    | Description                                              | Required |
 | --------- | ------- | -------------------------------------------------------- | :------: |
 | channelID | integer | The ID of the channel of where the thread is located in. |   true   |
-| threadID  | integer | The Id of the thread.                                    |   true   |
+| threadID  | integer | The ID of the thread.                                    |   true   |
 
 ## Example(s)
 

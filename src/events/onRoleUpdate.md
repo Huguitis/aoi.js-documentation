@@ -30,7 +30,6 @@ const bot = new AoiClient({
     - **permissions** &rarr; Will return the role's permissions.
     - **name** &rarr; Will return the role's name.
 
-
 ```javascript
 module.exports = [{
     type: "roleUpdate",

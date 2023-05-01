@@ -56,7 +56,6 @@ bot.interactionCommand({
   `
 });
 
-
 /* 
 We use "$onlyIf[$interactionData[values[0]]==customID;]" to make sure this only will be triggered for the according select menu option.
 

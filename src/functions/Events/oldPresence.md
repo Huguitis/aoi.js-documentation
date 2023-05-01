@@ -15,6 +15,6 @@ $oldPresence[option]
 
 ## Parameters
 
-| Field  | Type   | Description               | Required |
-|--------|--------|---------------------------|:--------:|
-| option | string | option <br /> 1. **name** |   true   |
+| Field  | Type   | Description         | Required |
+| ------ | ------ | ------------------- | :------: |
+| option | string | Option to retrieve. |   true   |

@@ -38,7 +38,6 @@ $channelCount[guildID?;type?]
 | Direct Message       | DM                 |
 | All Channel Types    | all                |
 
-
 </details>
 
 ## Example(s)

@@ -12,11 +12,11 @@ $addApplicationCommandPermissions[guildID/global?;id;...perms]
 
 ## Parameters
 
-| Field          | Type            | Description                                                           | Required |
-| -------------- | --------------- | --------------------------------------------------------------------- | :------: |
+| Field          | Type            | Description                                                                 | Required |
+| -------------- | --------------- | --------------------------------------------------------------------------- | :------: |
 | guildID/global | string, integer | Application command type. <br/> 1. **global** <br/> 2. **specific guildID** |   true   |
-| id             | integer         | Application command ID.                                               |   true   |
-| ...perms       | string          | Permissions.                                                          |   true   |
+| id             | integer         | Application command ID.                                                     |   true   |
+| ...perms       | string          | Permissions.                                                                |   true   |
 
 ## Example(s)
 

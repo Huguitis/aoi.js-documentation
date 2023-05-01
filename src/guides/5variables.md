@@ -13,7 +13,6 @@ This guide will provide you with a comprehensive understanding of variables.
 
 ---
 
-
 ### Using Variables
 
 Variables are useful tools in programming that allow you to store values that can be accessed and manipulated throughout your code. To use a variable, you first need to declare it by giving it a name and assigning a value to it.
