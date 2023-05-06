@@ -14,9 +14,9 @@ $createObject[object]
 
 ## Parameters
 
-| Field  | Type   | Description | Required |
-|--------|--------|-------------|:--------:|
-| object | string | json object |   true   |
+| Field  | Type   | Description  | Required |
+| ------ | ------ | ------------ | :------: |
+| object | object | Json object. |   true   |
 
 ## Example(s)
 

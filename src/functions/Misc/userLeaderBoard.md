@@ -15,17 +15,17 @@ $userLeaderBoard[guildID;variable;order?;custom?;list?;page?;table?]
 ## Parameters
 
 | Field    | Type    | Description                                                                                               | Required |
-|----------|---------|-----------------------------------------------------------------------------------------------------------|:--------:|
-| guildID  | integer | guild ID                                                                                                  |   true   |
-| variable | string  | variable name                                                                                             |   true   |
-| type?    | string  | in which order it will be returned <br /> 1. **asc** (ascending / default) <br /> 2. **dsc** (descending) |  false   |
-| custom?  | string  | formatting                                                                                                |  false   |
-| list?    | number  | how many to list                                                                                          |  false   |
-| page?    | number  | which page to list                                                                                        |  false   |
-| table?   | string  | variable table                                                                                            |  false   |
+| -------- | ------- | --------------------------------------------------------------------------------------------------------- | :------: |
+| guildID  | integer | Guild ID.                                                                                                 |   true   |
+| variable | string  | Variable name.                                                                                            |   true   |
+| type?    | string  | In which order it will be returned <br /> 1. **asc** (ascending / default) <br /> 2. **dsc** (descending) |  false   |
+| custom?  | string  | Formatting.                                                                                               |  false   |
+| list?    | number  | How many to list.                                                                                         |  false   |
+| page?    | number  | Which page to list.                                                                                       |  false   |
+| table?   | string  | Variable table.                                                                                           |  false   |
 
 | Options        | Returns         |                                         |
-|----------------|-----------------|-----------------------------------------|
+| -------------- | --------------- | --------------------------------------- |
 | **{top}**      | number          | Returns the position of the user.       |
 | **{username}** | string          | Returns the username.                   |
 | **{tag}**      | string          | Returns the username and discriminator. |

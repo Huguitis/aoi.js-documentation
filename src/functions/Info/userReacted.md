@@ -16,16 +16,16 @@ $userReacted[channelID;messageID;userID;emoji]
 
 ## Parameters
 
-| Field     | Type    | Description        | Required |
-|-----------|---------|--------------------|:--------:|
-| guildID   | integer | guild ID           |   true   |
-| messageID | integer | message ID         |   true   |
-| userID    | integer | user ID            |   true   |
-| emoji     | string  | emoji to check for |   true   |
+| Field     | Type    | Description         | Required |
+| --------- | ------- | ------------------- | :------: |
+| guildID   | integer | The guild ID.       |   true   |
+| messageID | integer | The message ID.     |   true   |
+| userID    | integer | The user ID.        |   true   |
+| emoji     | string  | Emoji to check for. |   true   |
 
 ## Example(s)
 
-This will return `true` as your bot reacted to your initial command message:
+This will return `true` as the bot reacted to the initial command message:
 
 ```javascript
 bot.command({

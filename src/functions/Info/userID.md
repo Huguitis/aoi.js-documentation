@@ -14,9 +14,9 @@ $userID[user]
 
 ## Parameters
 
-| Field | Type   | Description                     | Required |
-|-------|--------|---------------------------------|:--------:|
-| user  | string | user you want to have the ID of |   true   |
+| Field | Type           | Description                                                      | Required |
+| ----- | -------------- | ---------------------------------------------------------------- | :------: |
+| user  | string, number | The name of the user who you want the user ID to be returned of. |   true   |
 
 ## Example(s)
 

@@ -14,9 +14,9 @@ $lowestGuildRole[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description         | Required |
-|----------|---------|---------------------|:--------:|
-| guildID? | integer | the ID of the guild |  false   |
+| Field    | Type    | Description          | Required |
+| -------- | ------- | -------------------- | :------: |
+| guildID? | integer | The ID of the guild. |  false   |
 
 ## Example(s)
 

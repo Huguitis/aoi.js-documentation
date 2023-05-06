@@ -14,9 +14,9 @@ $onlyNSFW[error?]
 
 ## Parameters
 
-| Field  | Type   | Description                                                         | Required |
-|--------|--------|---------------------------------------------------------------------|:--------:|
-| error? | string | error to return when the command was not executed in a NSFW channel |  false   |
+| Field | Type   | Description                                                          | Required |
+| ----- | ------ | -------------------------------------------------------------------- | :------: |
+| error | string | Error to return when the command was not executed in a NSFW channel. |   true   |
 
 ## Example(s)
 
@@ -26,6 +26,7 @@ This will limit the command only to NSFW channels:
 bot.command({
     name: "onlyNSFW",
     code: `
+    Ok.
     $onlyNSFW[You can't use that command here!]
     `
 });

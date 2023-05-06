@@ -14,9 +14,9 @@ $guildBanner[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| guildID? | integer | guild ID    |  false   |
+| Field    | Type    | Description          | Required |
+| -------- | ------- | -------------------- | :------: |
+| guildID? | integer | The ID of the guild. |  false   |
 
 ## Example(s)
 

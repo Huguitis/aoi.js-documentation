@@ -14,9 +14,9 @@ $guildID[name?]
 
 ## Parameters
 
-| Field | Type   | Description                         | Required |
-|-------|--------|-------------------------------------|:--------:|
-| name? | string | guild name you want the guild ID of |  false   |
+| Field | Type   | Description                                       | Required |
+| ----- | ------ | ------------------------------------------------- | :------: |
+| name? | string | The guild name you want the ID to be returned of. |  false   |
 
 ## Example(s)
 

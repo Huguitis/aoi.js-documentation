@@ -9,16 +9,16 @@ id: userCustomStatus
 ## Usage
 
 ```php
-$userCustomStatus[userID?;guildID?;method?]
+$userCustomStatus[guildID?;userID?;option?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                                                                                                        | Required |
-|----------|---------|------------------------------------------------------------------------------------------------------------------------------------|:--------:|
-| userID?  | integer | user ID                                                                                                                            |  false   |
-| guildID? | integer | guild ID                                                                                                                           |  false   |
-| method?  | string  | which part of the status to return <br /> 1. **state** (default) - returns the status text <br /> 2. **emoji** - returns the emoji |  false   |
+| Field    | Type    | Description                                                                                                                               | Required |
+| -------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------------- | :------: |
+| guildID? | integer | The role ID.                                                                                                                              |  false   |
+| userID?  | integer | The user ID.                                                                                                                              |  false   |
+| option?  | string  | Which part of the status will be returned <br /> 1. **state** (default) - returns the status text <br /> 2. **emoji** - returns the emoji |  false   |
 
 ## Example(s)
 

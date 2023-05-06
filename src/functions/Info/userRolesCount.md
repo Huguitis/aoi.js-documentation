@@ -14,10 +14,10 @@ $userRolesCount[userID?;guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| userID?  | integer | user ID     |  false   |
-| guildID? | integer | guild ID    |  false   |
+| Field    | Type    | Description   | Required |
+| -------- | ------- | ------------- | :------: |
+| userID?  | integer | The user ID.  |  false   |
+| guildID? | integer | The guild ID. |  false   |
 
 ## Example(s)
 

@@ -14,11 +14,11 @@ $getGlobalUserVar[varname;userID?;table?]
 
 ## Parameters
 
-| Field   | Type    | Description    | Required |
-|---------|---------|----------------|:--------:|
-| varname | string  | variable name  |   true   |
-| userID? | integer | user ID        |  false   |
-| table?  | string  | variable table |  false   |
+| Field   | Type    | Description     | Required |
+| ------- | ------- | --------------- | :------: |
+| varname | string  | Variable name.  |   true   |
+| userID? | integer | User ID.        |  false   |
+| table?  | string  | Variable table. |  false   |
 
 ## Example(s)
 

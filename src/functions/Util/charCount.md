@@ -14,9 +14,9 @@ $charCount[text]
 
 ## Parameters
 
-| Field | Type   | Description                                           | Required |
-|-------|--------|-------------------------------------------------------|----------|
-| text  | string | the text that will be the character count returned of | true     |
+| Field | Type   | Description                                            | Required |
+| ----- | ------ | ------------------------------------------------------ | :------: |
+| text  | string | The text that will be the character count returned of. |   true   |
 
 ## Example(s)
 

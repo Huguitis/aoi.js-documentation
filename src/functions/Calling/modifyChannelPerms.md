@@ -16,8 +16,8 @@ $modifyChannelPerms[roruID;channelID;...perms]
 
 | Field     | Type    | Description                                                                | Required |
 | --------- | ------- | -------------------------------------------------------------------------- | :------: |
-| roruId    | integer | The ID of an user or role. ( `$guildID` represents the `@everyone` role. ) |   true   |
 | channelID | integer | The channel ID of which you're trying to modify its permissions.           |   true   |
+| roruID    | integer | The ID of an user or role. ( `$guildID` represents the `@everyone` role. ) |   true   |
 | ...perms  | string  | The permissions that will be changed.                                      |   true   |
 
 |     | Description                                          |

@@ -4,7 +4,7 @@ description: $stopTimeout will end/stop a timeout created by $setTimeout.
 id: stopTimeout
 ---
 
-`$stopTimeout` will stop a timeout created by `$setTimeout`.
+`$stopTimeout` will end/stop a timeout created by `$setTimeout`.
 
 ## Usage
 
@@ -14,6 +14,19 @@ $stopTimeout[id]
 
 ## Parameters
 
-| Field | Type   | Description        | Required |
-|-------|--------|--------------------|:--------:|
-| id    | string | timeout command ID |   true   |
+| Field | Type   | Description | Required |
+| ----- | ------ | ----------- | :------: |
+| id    | string | Timeout ID. |   true   |
+
+## Example(s)
+
+This will end a `$setTimeout` timeout:
+
+```javascript
+bot.command({
+    name: "stopTimeout",
+    code: `
+    $stopTimeout[10029]
+    `
+});
+```

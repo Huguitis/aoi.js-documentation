@@ -14,10 +14,10 @@ $resetGlobalUserVar[varname;table?]
 
 ## Parameters
 
-| Field   | Type   | Description    | Required |
-|---------|--------|----------------|:--------:|
-| varname | string | variable name  |   true   |
-| table?  | string | variable table |  false   |
+| Field   | Type   | Description     | Required |
+| ------- | ------ | --------------- | :------: |
+| varname | string | Variable name.  |   true   |
+| table?  | string | Variable table. |  false   |
 
 ## Example(s)
 

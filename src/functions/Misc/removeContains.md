@@ -9,15 +9,15 @@ id: removeContains
 ## Usage
 
 ```php
-$removeContains[text;...words]
+$removeContains[content;...words]
 ```
 
 ## Parameters
 
-| Field    | Type   | Description                         | Required |
-|----------|--------|-------------------------------------|:--------:|
-| text     | string | text where to remove the words from |   true   |
-| ...words | string | word to remove from the text        |   true   |
+| Field    | Type   | Description                          | Required |
+| -------- | ------ | ------------------------------------ | :------: |
+| content  | string | Text where to remove the words from. |   true   |
+| ...words | string | Text to remove from the text.        |   true   |
 
 ## Example(s)
 

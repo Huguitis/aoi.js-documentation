@@ -14,34 +14,34 @@ $getEmbed[channelID?;messageID?;index?;option?]
 
 ## Parameters
 
-| Field     | Type    | Description                                         | Required |
-|-----------|---------|-----------------------------------------------------|----------|
-| channelID | integer | channel ID of the embed                             | true     |
-| messageID | integer | message ID of the embed                             | true     |
-| index     | integer | index of the embed, 1 first embed, 2 second embed.. | true     |
-| option    | string  | which part will be returned of the embed            | true     |
+| Field     | Type    | Description                                        | Required |
+| --------- | ------- | -------------------------------------------------- | :------: |
+| channelID | integer | ID of the channel where the message is located in. |   true   |
+| messageID | integer | The ID of the message that has an embed.           |   true   |
+| index     | integer | The index of the embed.                            |   true   |
+| option    | string  | The option to fetch.                               |   true   |
 
 <details>
   <summary><h3> Options </h3></summary>
 
-| Type                | Description                     |
-|---------------------|---------------------------------|
-| title               | title of the embed              |
-| description         | description of the embed        |
-| URL                 | the URL in the title            |
-| color               | color of the embed              |
-| timestamp           | timestamp located in the footer |
-| fields[index]       | field title                     |
-| fields.value[index] | field description               |
-| thumbnail           | thumbnail (image top right)     |
-| image               | large image at the bottom       |
-| video               | video/gif                       |
-| author              | author, above title field       |
-| footer              | footer                          |
-| files               | attached files                  |
-| createdAt           | creation date of the embed      |
-| hexColor            | hex color of the embed          |
-| length              | length of the embed             |
+| Type               | Description                      |
+| ------------------ | -------------------------------- |
+| title              | Title of the embed.              |
+| description        | Description of the embed.        |
+| URL                | The URL in the title.            |
+| color              | Color of the embed.              |
+| timestamp          | Timestamp located in the footer. |
+| field[index]       | Field title.                     |
+| field[index].value | Field description.               |
+| thumbnail          | Thumbnail (image top right).     |
+| image              | Large image at the bottom.       |
+| video              | Video/GIF.                       |
+| author             | Author, above title field.       |
+| footer             | Footer.                          |
+| files              | Attached files.                  |
+| createdAt          | Creation date of the embed.      |
+| hexColor           | Hex color of the embed.          |
+| length             | Length of the embed.             |
 
 </details>
 

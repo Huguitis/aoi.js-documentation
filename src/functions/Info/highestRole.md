@@ -14,11 +14,11 @@ $highestRole[userID?;guildID?;option?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                                                              | Required |
-|----------|---------|----------------------------------------------------------------------------------------------------------|:--------:|
-| userID?  | integer | user if of the user you want the highest role of                                                         |  false   |
-| guildID? | integer | the ID of the guild                                                                                      |  false   |
-| option?  | string  | the option on how to return the role <br /> 1. **name** <br /> 2. **id** (default) <br /> 3. **mention** |  false   |
+| Field    | Type    | Description                                                                                           | Required |
+| -------- | ------- | ----------------------------------------------------------------------------------------------------- | :------: |
+| userID?  | integer | The ID of the user you want the highest role to be returned of.                                       |  false   |
+| guildID? | integer | The ID of the guild.                                                                                  |  false   |
+| option?  | string  | The option how to return the role <br /> 1. **name** <br /> 2. **id** (default) <br /> 3. **mention** |  false   |
 
 ## Example(s)
 

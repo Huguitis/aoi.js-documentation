@@ -14,9 +14,9 @@ $closeTicket[error?]
 
 ## Parameters
 
-| Field  | Type   | Description     | Required |
-|--------|--------|-----------------|:--------:|
-| error? | string | error to return |  false   |
+| Field  | Type   | Description      | Required |
+| ------ | ------ | ---------------- | :------: |
+| error? | string | Error to return. |  false   |
 
 ## Example(s)
 

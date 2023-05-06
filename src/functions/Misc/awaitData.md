@@ -14,6 +14,6 @@ $awaitData[name]
 
 ## Parameters
 
-| Field | Type   | Description       | Required |
-|-------|--------|-------------------|:--------:|
-| name  | string | awaited data name |   true   |
+| Field | Type   | Description        | Required |
+| ----- | ------ | ------------------ | :------: |
+| name  | string | Awaited Data Name. |   true   |

@@ -14,13 +14,13 @@ $eval[code;returnCode?;sendMessage?;returnExecution?;returnID?]
 
 ## Parameters
 
-| Field            | Type   | Description                                                                                      | Required |
-|------------------|--------|--------------------------------------------------------------------------------------------------|:--------:|
-| code             | string | aoi.js code                                                                                      |   true   |
-| returnCode?      | string | return code <br /> 1. **true** <br /> 2. **false** (default)                                     |  false   |
-| sendMessage?     | string | send output <br /> 1. **true** <br /> 2. **false** (default)                                     |  false   |
-| returnExecution? | string | return more information about the executed code <br /> 1. **true** <br /> 2. **false** (default) |  false   |
-| returnID?        | string | return message ID <br /> 1. **true** <br /> 2. **false** (default)                               |  false   |
+| Field            | Type    | Description                                                                                       | Required |
+| ---------------- | ------- | ------------------------------------------------------------------------------------------------- | :------: |
+| code             | string  | Aoi.js code to execute.                                                                           |   true   |
+| returnCode?      | boolean | Return code. <br /> 1. **true** <br /> 2. **false** (default)                                     |  false   |
+| sendMessage?     | boolean | Send output. <br /> 1. **true** <br /> 2. **false** (default)                                     |  false   |
+| returnExecution? | boolean | Return more information about the executed code. <br /> 1. **true** <br /> 2. **false** (default) |  false   |
+| returnID?        | boolean | Return message ID, <br /> 1. **true** <br /> 2. **false** (default)                               |  false   |
 
 ## Example(s)
 

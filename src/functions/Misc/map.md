@@ -9,14 +9,14 @@ id: map
 ## Usage
 
 ```php
-$map[text;split;awaits;sep?]
+$map[text;split;awaitedCmds;sep?]
 ```
 
 ## Parameters
 
-| Field  | Type   | Description                | Required |
-|--------|--------|----------------------------|:--------:|
-| text   | string | text                       |   true   |
-| split  | string |                            |   true   |
-| awaits | string | Awaited Command to execute |   true   |
-| sep?   | string | separator                  |  false   |
+| Field       | Type   | Description                  | Required |
+| ----------- | ------ | ---------------------------- | :------: |
+| text        | string | Text.                        |   true   |
+| split       | string |                              |   true   |
+| awaitedCmds | string | Awaited Commands to execute. |   true   |
+| sep?        | string | Separator.                   |  false   |

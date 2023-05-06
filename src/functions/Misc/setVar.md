@@ -14,11 +14,11 @@ $setVar[varname;value;table?]
 
 ## Parameters
 
-| Field   | Type                    | Description    | Required |
-|---------|-------------------------|----------------|:--------:|
-| varname | string                  | variable name  |   true   |
-| value   | string, integer, number | variable table |   true   |
-| table?  | string                  | variable table |  false   |
+| Field   | Type   | Description         | Required |
+| ------- | ------ | ------------------- | :------: |
+| Varname | string | Variable name.      |   true   |
+| Value   | string | New Variable value. |   true   |
+| Table?  | string | Variable table.     |  false   |
 
 ## Example(s)
 

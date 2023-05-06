@@ -14,11 +14,11 @@ $shardPing[shardId?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| shardId? | integer | shard ID    |  false   |
+| Field    | Type    | Description   | Required |
+| -------- | ------- | ------------- | :------: |
+| shardId? | integer | The shard ID. |  false   |
 
-#### Note that this won't work without sharding. If you're unsure, review the [sharding guide](../../guides/7sharding.md).
+**Note that this won't work without sharding. If you're unsure, review the [sharding guide](../../guides/7sharding.md).**
 
 ## Example(s)
 

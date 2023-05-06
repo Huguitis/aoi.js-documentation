@@ -14,10 +14,10 @@ $editTextSplitElement[index;text]
 
 ## Parameters
 
-| Field | Type   | Description                     | Required |
-|-------|--------|---------------------------------|:--------:|
-| index | string | index of the text split element |   true   |
-| text  | string | new text split element          |   true   |
+| Field | Type   | Description                      | Required |
+| ----- | ------ | -------------------------------- | :------: |
+| index | string | Index of the text split element. |   true   |
+| text  | string | New text split element.          |   true   |
 
 ## Example(s)
 

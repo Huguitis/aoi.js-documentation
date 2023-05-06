@@ -14,13 +14,13 @@ $userBannerColor[userID?]
 
 ## Parameters
 
-| Field   | Type    | Description        | Required |
-|---------|---------|--------------------|:--------:|
-| userID? | integer | the ID of the user |  false   |
+| Field   | Type    | Description         | Required |
+| ------- | ------- | ------------------- | :------: |
+| userID? | integer | The ID of the user. |  false   |
 
 ## Example(s)
 
-This will return your profile banner color:
+This will return your profile banner color (if any):
 
 ```javascript
 bot.command({

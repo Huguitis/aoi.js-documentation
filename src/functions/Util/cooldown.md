@@ -9,7 +9,8 @@ id: cooldown
 ## Usage
 
 ```php
-$cooldown[time;errorMessage?]
+$cooldown[time;errorMessage
+]
 ```
 
 * You are able to retrieve the remaining cooldown in the `$cooldown` function by using **`%time%`** or any of the
@@ -18,10 +19,10 @@ $cooldown[time;errorMessage?]
 
 ## Parameters
 
-| Field         | Type   | Description                                                | Required |
-|---------------|--------|------------------------------------------------------------|----------|
-| time          | string | the duration of the cooldown                               | true     |
-| errorMessage? | string | error message when there's remaining time for the cooldown | false    |
+| Field        | Type   | Description                                                 | Required |
+| ------------ | ------ | ----------------------------------------------------------- | :------: |
+| time         | string | The duration of the cooldown.                               |   true   |
+| errorMessage | string | Error message when there's remaining time for the cooldown. |   true   |
 
 ## Example(s)
 

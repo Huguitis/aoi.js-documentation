@@ -14,10 +14,10 @@ $checkContains[text;...chars]
 
 ## Parameters
 
-| Field | Type   | Description                                      | Required |
-|-------|--------|--------------------------------------------------|----------|
-| text  | string | text you want to check                           | true     |
-| chars | string | text you want to check for in the first argument | true     |
+| Field | Type   | Description                 | Required |
+| ----- | ------ | --------------------------- | :------: |
+| text  | string | Text you want to check.     |   true   |
+| chars | string | Text you want to check for. |   true   |
 
 ## Example(s)
 

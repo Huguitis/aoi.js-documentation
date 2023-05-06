@@ -14,11 +14,11 @@ $deleteVar[variable;id;table?]
 
 ## Parameters
 
-| Field    | Type            | Description                                  | Required |
-|----------|-----------------|----------------------------------------------|:--------:|
-| variable | string, number  | variable name                                |   true   |
-| id       | number, integer | id of the variable to delete ( userID etc. ) |   true   |
-| table?   | string          | variable table                               |  false   |
+| Field    | Type           | Description                                   | Required |
+| -------- | -------------- | --------------------------------------------- | :------: |
+| variable | string, number | Variable name.                                |   true   |
+| id       | integer        | ID of the variable to delete ( userID etc. ). |   true   |
+| table?   | string         | Variable table.                               |  false   |
 
 ## Example(s)
 

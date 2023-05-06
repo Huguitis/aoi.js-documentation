@@ -14,7 +14,7 @@ $getApplicationCommandOptions[name;type?]
 
 ## Parameters
 
-| Field | Type   | Description                                                                                       | Required |
-|-------|--------|---------------------------------------------------------------------------------------------------|:--------:|
-| name  | string | query                                                                                             |   true   |
-| type? | string | application command type <br /> 1. **global** (default) <br /> 2. **guildID** (specific guild ID) |  false   |
+| Field | Type   | Description                                                                                        | Required |
+| ----- | ------ | -------------------------------------------------------------------------------------------------- | :------: |
+| name  | string | Name of the application command.                                                                   |   true   |
+| type? | string | Application command type. <br /> 1. **global** (default) <br /> 2. **guildID** (specific guild ID) |  false   |

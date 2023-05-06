@@ -10,15 +10,15 @@ id: onlyForGuilds
 ## Usage
 
 ```php
-$onlyForGuilds[...guildIds;error?]
+$onlyForGuilds[...guildIds;error]
 ```
 
 ## Parameters
 
-| Field       | Type            | Description                                                                   | Required |
-|-------------|-----------------|-------------------------------------------------------------------------------|:--------:|
-| ...guildIds | string, integer | guilds you want to limit the command to                                       |   true   |
-| error?      | string          | error to return when the command was not executed in any of the listed guilds |  false   |
+| Field       | Type            | Description                                                                    | Required |
+| ----------- | --------------- | ------------------------------------------------------------------------------ | :------: |
+| ...guildIds | string, integer | Guilds you want to limit the command to.                                       |   true   |
+| error       | string          | Error to return when the command was not executed in any of the listed guilds. |   true   |
 
 ## Example(s)
 
@@ -28,6 +28,7 @@ This will limit the command only to the listed guilds:
 bot.command({
     name: "onlyForGuilds",
     code: `
+    Ok.
     $onlyForGuilds[guildID;guildID;You can't use that command here!]
     `
 });

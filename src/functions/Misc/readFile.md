@@ -15,8 +15,8 @@ $readFile[path]
 ## Parameters
 
 | Field | Type   | Description | Required |
-|-------|--------|-------------|:--------:|
-| path  | string | file path   |   true   |
+| ----- | ------ | ----------- | :------: |
+| path  | string | File path.  |   true   |
 
 ## Example(s)
 

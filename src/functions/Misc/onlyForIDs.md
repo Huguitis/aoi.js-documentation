@@ -10,15 +10,15 @@ id: onlyForIDs
 ## Usage
 
 ```php
-$onlyForIDs[...userIds;error?]
+$onlyForIDs[...userIds;error]
 ```
 
 ## Parameters
 
-| Field      | Type            | Description                                                                  | Required |
-|------------|-----------------|------------------------------------------------------------------------------|:--------:|
-| ...userIds | string, integer | users you want to limit the command to                                       |   true   |
-| error?     | string          | error to return when the command was not executed by and of the listed users |  false   |
+| Field      | Type            | Description                                                                   | Required |
+| ---------- | --------------- | ----------------------------------------------------------------------------- | :------: |
+| ...userIds | string, integer | Users you want to limit the command to.                                       |   true   |
+| error      | string          | Error to return when the command was not executed by and of the listed users. |   true   |
 
 ## Example(s)
 
@@ -28,6 +28,7 @@ This will limit the command to bot developers only:
 bot.command({
     name: "onlyForIDs",
     code: `
+    Ok.
     $onlyForIDs[$botOwnerID;You can't use that command!]
     `
 });

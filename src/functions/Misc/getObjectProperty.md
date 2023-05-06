@@ -14,9 +14,9 @@ $getObjectProperty[name]
 
 ## Parameters
 
-| Field | Type   | Description          | Required |
-|-------|--------|----------------------|:--------:|
-| name  | string | object property name |   true   |
+| Field | Type   | Description                  | Required |
+| ----- | ------ | ---------------------------- | :------: |
+| name  | string | Name of the object property. |   true   |
 
 ## Example(s)
 

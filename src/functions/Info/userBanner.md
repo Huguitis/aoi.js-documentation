@@ -14,12 +14,12 @@ $userBanner[userID?;size?;dynamic?;format?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                    | Required |
-|----------|---------|----------------------------------------------------------------|:--------:|
-| userID?  | integer | the ID of the user                                             |  false   |
-| size?    | integer | the size of the image                                          |  false   |
-| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |  false   |
-| format?  | string  |                                                                |  false   |
+| Field    | Type           | Description                               | Required |
+| -------- | -------------- | ----------------------------------------- | :------: |
+| userID?  | integer        | The ID of the user.                       |  false   |
+| size?    | string, number | The size of the image.                    |  false   |
+| dynamic? | boolean        | 1. **true** (default) <br /> 2. **false** |  false   |
+| format?  | string         | The format of the returned image.         |  false   |
 
 ## Example(s)
 

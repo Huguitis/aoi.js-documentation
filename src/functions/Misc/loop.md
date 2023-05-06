@@ -14,8 +14,8 @@ $loop[time;awaitData;...awaitedCmds]
 
 ## Parameters
 
-| Field          | Type   | Description                   | Required |
-|----------------|--------|-------------------------------|:--------:|
-| time           | string | how often to execute the loop |   true   |
-| awaitData      | string | Await Data                    |   true   |
-| ...awaitedCmds | string | Awaited Commands              |   true   |
+| Field          | Type   | Description                    | Required |
+| -------------- | ------ | ------------------------------ | :------: |
+| time           | string | How often to execute the loop. |   true   |
+| awaitData      | object | Awaited Data.                  |   true   |
+| ...awaitedCmds | string | Awaited Commands to execute.   |   true   |

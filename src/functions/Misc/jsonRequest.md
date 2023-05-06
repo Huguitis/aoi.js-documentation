@@ -9,17 +9,17 @@ id: jsonRequest
 ## Usage
 
 ```php
-$jsonRequest[URL;property?;error?;headerName:headerValue?]
+$jsonRequest[URL;property?;error?;...header?]
 ```
 
 ## Parameters
 
 | Field     | Type   | Description                           | Required |
-|-----------|--------|---------------------------------------|:--------:|
+| --------- | ------ | ------------------------------------- | :------: |
 | URL       | string | URL you want to get/send data to/from |   true   |
-| property? | string | property to return (get method)       |  false   |
-| error?    | string | error to return when request fails    |  false   |
-| ...header | string | headerName, headerValue               |   true   |
+| property? | string | Property to return (get method)       |  false   |
+| error?    | string | Error to return when request fails    |  false   |
+| ...header | string | Header.                               |  false   |
 
 ## Example(s)
 

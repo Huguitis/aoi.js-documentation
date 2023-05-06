@@ -9,15 +9,15 @@ id: getRoleColor
 ## Usage
 
 ```php
-$getRoleColor[roleId;guildId?]
+$getRoleColor[roleId;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                   | Required |
-|----------|---------|-----------------------------------------------|:--------:|
-| roleId   | integer | the role Id of the role you want the color of |   true   |
-| guildId? | integer | the guild Id of where the role was created in |  false   |
+| Field    | Type    | Description                                              | Required |
+| -------- | ------- | -------------------------------------------------------- | :------: |
+| roleId   | integer | The ID of the role you want the color to be returned of. |   true   |
+| guildID? | integer | The ID of the guild where the role exists in.            |  false   |
 
 ## Example(s)
 

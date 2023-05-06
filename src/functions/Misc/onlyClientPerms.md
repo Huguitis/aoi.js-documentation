@@ -9,7 +9,7 @@ id: onlyClientPerms
 ## Usage
 
 ```php
-$onlyClientPerms[...perms;error?]
+$onlyClientPerms[...perms;error]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $onlyClientPerms[...perms;error?]
 | Field    | Type   | Description                                                  | Required |
 | -------- | ------ | ------------------------------------------------------------ | :------: |
 | ...perms | string | Permission that the bot requires.                            |   true   |
-| error?   | string | Error to return when the bot has not the listed permissions. |  false   |
+| error    | string | Error to return when the bot has not the listed permissions. |   true   |
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 
@@ -29,6 +29,7 @@ This will limit the command to work only when the Bot has administrator permissi
 bot.command({
     name: "onlyClientPerms",
     code: `
+    Ok.
     $onlyClientPerms[administrator;I don't have administrator permissions!]
     `
 });

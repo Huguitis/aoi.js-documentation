@@ -14,10 +14,10 @@ $renameFile[oldFile;newFile]
 
 ## Parameters
 
-| Field   | Type   | Description   | Required |
-|---------|--------|---------------|:--------:|
-| oldFile | string | old file name |   true   |
-| newFile | string | new file name |   true   |
+| Field   | Type   | Description    | Required |
+| ------- | ------ | -------------- | :------: |
+| oldFile | string | Old file name. |   true   |
+| newFile | string | New file name. |   true   |
 
 ## Example(s)
 

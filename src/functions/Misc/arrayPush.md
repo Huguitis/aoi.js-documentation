@@ -14,9 +14,9 @@ $arrayPush[...elements]
 
 ## Parameters
 
-| Field       | Type   | Description     | Required |
-|-------------|--------|-----------------|:--------:|
-| ...elements | string | elements to add |   true   |
+| Field       | Type   | Description      | Required |
+| ----------- | ------ | ---------------- | :------: |
+| ...elements | string | Elements to add. |   true   |
 
 ## Example(s)
 

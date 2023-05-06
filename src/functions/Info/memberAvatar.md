@@ -14,13 +14,13 @@ $memberAvatar[guildID?;userID?;size?;dynamic?;format?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                    | Required |
-|----------|---------|----------------------------------------------------------------|:--------:|
-| guildID? | integer | the ID of the guild                                            |  false   |
-| userID?  | integer | the ID of the member                                           |  false   |
-| size?    | integer | the size of the image                                          |  false   |
-| dynamic? | string  | dynamic image <br /> 1. **true** (default) <br /> 2. **false** |  false   |
-| format?  | string  |                                                                |  false   |
+| Field    | Type    | Description                               | Required |
+| -------- | ------- | ----------------------------------------- | :------: |
+| guildID? | integer | The ID of the guild.                      |  false   |
+| userID?  | integer | The ID of the user.                       |  false   |
+| size?    | integer | The size of the image.                    |  false   |
+| dynamic? | boolean | 1. **true** (default) <br /> 2. **false** |  false   |
+| format?  | string  | Image format.                             |  false   |
 
 ## Example(s)
 

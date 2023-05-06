@@ -34,7 +34,6 @@ const bot = new AoiClient({
 });
 
 const loader = new LoadCommands(bot);
-loader.setColors(loader.themes.default);
 loader.load(bot.cmd, "./commands/"); // your command directory.
 ```
 

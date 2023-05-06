@@ -14,12 +14,12 @@ $guildVerificationLevel[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| guildID? | integer | guild ID    |  false   |
+| Field    | Type    | Description          | Required |
+| -------- | ------- | -------------------- | :------: |
+| guildID? | integer | The ID of the guild. |  false   |
 
 | Type |         |
-|------|---------|
+| ---- | ------- |
 | 0    | None    |
 | 1    | Low     |
 | 2    | Medium  |

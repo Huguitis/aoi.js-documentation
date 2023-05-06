@@ -17,10 +17,10 @@ $arrayAt[name;index]
 
 ## Parameters
 
-| Field | Type   | Description                 | Required |
-|-------|--------|-----------------------------|:--------:|
-| name  | string | name of the array           |   true   |
-| index | string | The position of the element |   true   |
+| Field | Type   | Description                  | Required |
+| ----- | ------ | ---------------------------- | :------: |
+| name  | string | Name of the array.           |   true   |
+| index | string | The position of the element. |   true   |
 
 ## Example(s)
 

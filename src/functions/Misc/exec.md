@@ -14,13 +14,13 @@ $exec[code]
 
 ## Parameters
 
-| Field | Type   | Description                     | Required |
-|-------|--------|---------------------------------|:--------:|
-| code  | string | code to execute in your console |   true   |
+| Field | Type   | Description                      | Required |
+| ----- | ------ | -------------------------------- | :------: |
+| code  | string | Code to execute in your console. |   true   |
 
 ## Example(s)
 
-This will return your node version:
+This will return your current node version:
 
 ```javascript
 bot.command({

@@ -14,12 +14,12 @@ $guildContentFilter[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| guildID? | integer | guild ID    |   true   |
+| Field    | Type    | Description          | Required |
+| -------- | ------- | -------------------- | :------: |
+| guildID? | integer | The ID of the guild. |   true   |
 
 | Type |          |
-|------|----------|
+| ---- | -------- |
 | 0    | Disabled |
 | 1    | Medium   |
 | 2    | High     |

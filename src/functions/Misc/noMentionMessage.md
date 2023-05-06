@@ -14,9 +14,9 @@ $noMentionMessage[args]
 
 ## Parameters
 
-| Field | Type   | Description      | Required |
-|-------|--------|------------------|:--------:|
-| args? | string | message position |  false   |
+| Field | Type   | Description       | Required |
+| ----- | ------ | ----------------- | :------: |
+| args? | string | Message position. |  false   |
 
 ## Example(s)
 

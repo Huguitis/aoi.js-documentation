@@ -9,17 +9,17 @@ id: getLeaderboardInfo
 ## Usage
 
 ```php
-$getLeaderboardInfo[variable;id;type?;option?]
+$getLeaderboardInfo[variable;id;type;option]
 ```
 
 ## Parameters
 
 | Field   | Type    | Description                                                                                          | Required |
-|---------|---------|------------------------------------------------------------------------------------------------------|:--------:|
-| varname | string  | variable name                                                                                        |   true   |
-| id      | integer | user/guild/channel id                                                                                |   true   |
-| type    | string  | variable type <br /> 1. **globalUser** <br /> 2. **user** <br /> 3. **server** <br /> 4. **channel** |   true   |
-| option? | string  | data to return <br /> 1. **top** (default) <br /> **value**                                          |  false   |
+| ------- | ------- | ---------------------------------------------------------------------------------------------------- | :------: |
+| varname | string  | Variable name.                                                                                       |   true   |
+| id      | integer | User/guild/channel/message ID.                                                                       |   true   |
+| type    | string  | Variable type <br /> 1. **globalUser** <br /> 2. **user** <br /> 3. **server** <br /> 4. **channel** |   true   |
+| option  | string  | Option to return <br /> 1. **top** (default) <br /> **value**                                        |   true   |
 
 ## Example(s)
 

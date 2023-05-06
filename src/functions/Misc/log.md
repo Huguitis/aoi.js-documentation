@@ -9,14 +9,14 @@ id: log
 ## Usage
 
 ```php
-$log[message]
+$log[content]
 ```
 
 ## Parameters
 
-| Field   | Type   | Description    | Required |
-|---------|--------|----------------|:--------:|
-| message | string | message to log |   true   |
+| Field   | Type           | Description                    | Required |
+| ------- | -------------- | ------------------------------ | :------: |
+| content | string, number | Content of the message to log. |   true   |
 
 ## Example(s)
 

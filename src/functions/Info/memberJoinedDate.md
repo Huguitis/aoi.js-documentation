@@ -15,9 +15,9 @@ $memberJoinedDate[userID?;guildID?]
 ## Parameters
 
 | Field    | Type    | Description          | Required |
-|----------|---------|----------------------|:--------:|
-| userID?  | integer | the ID of the member |  false   |
-| guildID? | integer | the ID of the guild  |  false   |
+| -------- | ------- | -------------------- | :------: |
+| userID?  | integer | The ID of the user.  |  false   |
+| guildID? | integer | The ID of the guild. |  false   |
 
 ## Example(s)
 

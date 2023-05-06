@@ -14,11 +14,11 @@ $rolePerms[roleID;sep?;guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                              | Required |
-|----------|---------|------------------------------------------|:--------:|
-| roleID   | integer | role ID                                  |   true   |
-| sep?     | integer | separator to separate multiple arguments |  false   |
-| guildID? | integer | guild ID                                 |  false   |
+| Field    | Type    | Description                                     | Required |
+| -------- | ------- | ----------------------------------------------- | :------: |
+| roleID   | integer | The role ID.                                    |   true   |
+| sep?     | integer | Separator to separate multiple returned values. |  false   |
+| guildID? | integer | The guild ID.                                   |  false   |
 
 ## Example(s)
 

@@ -15,8 +15,8 @@ $getClientInvite[...perms?]
 ## Parameters
 
 | Field  | Type   | Description                                        | Required |
-| ------ | ------ | -------------------------------------------------- | -------- |
-| perms? | string | Permissions you want to be included in the invite. | false    |
+| ------ | ------ | -------------------------------------------------- | :------: |
+| perms? | string | Permissions you want to be included in the invite. |  false   |
 
 <details>
   <summary><h3> Discord API Permissions </h3></summary>

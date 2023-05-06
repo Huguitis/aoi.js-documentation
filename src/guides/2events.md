@@ -48,6 +48,8 @@ Developer Portal.
 
 ### Guild Based-Events
 
+* **onInviteCreate** &rarr; Emitted whenever a guild invite is created.
+* **onInviteDelete** &rarr; Emitted whenever a guild invite is deleted.
 * **onGuildJoin** &rarr; Emitted whenever the client joins a guild.
 * **onGuildLeave** &rarr; Emitted whenever the client leaves a guild.
 * **onGuildUpdate** &rarr; Emitted whenever a guild gets updated (for example, name change).
@@ -118,7 +120,7 @@ Developer Portal.
 ### Custom Events
 
 * **onInteractionCreate** &rarr; Emitted whenever a Interaction is created.
-* **onApplicationCmdUpdate** &rarr; Emitted whenever a Application Command gets updated (for example, name).
+* **onApplicationCmdPermsUpdate** &rarr; Emitted whenever a Application Command gets updated (for example, name).
     * `$oldApplicationCmd[option?]` &rarr; Retrieves data of the old application command.
     * `$newApplicationCmd[option?]` &rarr; Retrieves data of the updated application command.
 * **onVariableCreate** &rarr; Emitted whenever a variable is created.
