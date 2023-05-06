@@ -16,9 +16,9 @@ $getMessageVar[varname;guildID?;table?]
 
 | Field      | Type    | Description    | Required |
 |------------|---------|----------------|:--------:|
-| varname    | string  | variable name  |   true   |
+| varname    | string  | Variable name.  |   true   |
 | messageID? | integer | message ID     |  false   |
-| table?     | string  | variable table |  false   |
+| table?     | string  | Variable table. |  false   |
 
 ## Example(s)
 

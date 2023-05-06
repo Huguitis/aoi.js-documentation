@@ -14,12 +14,12 @@ $uptime[option?]
 
 ## Parameters
 
-| Field   | Type   | Description                     | Required |
-|---------|--------|---------------------------------|:--------:|
-| option? | string | how the uptime will be returned |  false   |
+| Field   | Type   | Description                                     | Required |
+| ------- | ------ | ----------------------------------------------- | :------: |
+| option? | string | How the uptime will be returned (listed below). |  false   |
 
 | Option             | Output                 |
-|--------------------|------------------------|
+| ------------------ | ---------------------- |
 | full **(default)** | 19 minutes, 21 seconds |
 | humanize           | 19m 21s                |
 | ms                 | 1165980                |

@@ -14,9 +14,9 @@ $wait[time]
 
 ## Parameters
 
-| Field | Type           | Description                     | Required |
-|-------|----------------|---------------------------------|:--------:|
-| time  | string, number | how long to delay the execution |   true   |
+| Field | Type           | Description                      | Required |
+| ----- | -------------- | -------------------------------- | :------: |
+| time  | string, number | How long to delay the execution. |   true   |
 
 ## Example(s)
 

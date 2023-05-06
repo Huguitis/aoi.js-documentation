@@ -15,11 +15,11 @@ $getUserVar[varname;userID?;id?;table?]
 ## Parameters
 
 | Field   | Type            | Description                               | Required |
-|---------|-----------------|-------------------------------------------|:--------:|
-| varname | string          | variable name                             |   true   |
-| userID? | integer         | user ID                                   |  false   |
+| ------- | --------------- | ----------------------------------------- | :------: |
+| varname | string          | Variable name.                            |   true   |
+| userID? | integer         | User ID.                                  |  false   |
 | id?     | string, integer | 1. **specific guild id** <br /> 2. **dm** |  false   |
-| table?  | string          | variable table                            |  false   |
+| table?  | string          | Variable table.                           |  false   |
 
 ## Example(s)
 

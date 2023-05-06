@@ -14,9 +14,9 @@ $guildNames[sep?]
 
 ## Parameters
 
-| Field | Type   | Description                              | Required |
-|-------|--------|------------------------------------------|:--------:|
-| sep?  | string | separator to separate multiple arguments |  false   |
+| Field | Type   | Description                                     | Required |
+| ----- | ------ | ----------------------------------------------- | :------: |
+| sep?  | string | Separator to separate multiple returned values. |  false   |
 
 ## Example(s)
 

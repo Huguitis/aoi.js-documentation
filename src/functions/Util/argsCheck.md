@@ -11,20 +11,20 @@ error message.
 ## Usage
 
 ```php
-$argsCheck[condition;errorMessage?]
+$argsCheck[condition;errorMessage]
 ```
 
 ## Parameters
 
-| Field         | Type   | Description                             | Required |
-|---------------|--------|-----------------------------------------|----------|
-| condition     | string | condition to be made                    | true     |
-| errorMessage? | string | error message if condition did not meet | false    |
+| Field        | Type   | Description                              | Required |
+| ------------ | ------ | ---------------------------------------- | :------: |
+| condition    | string | Condition to be made.                    |   true   |
+| errorMessage | string | Error message if condition did not meet. |   true   |
 
 #### Valid Mathematical Operators
 
 | Operator | Mathematical Expression  |
-|----------|--------------------------|
+| -------- | ------------------------ |
 | ==       | equal to                 |
 | !=       | not equal to             |
 | <=       | less than or equal to    |

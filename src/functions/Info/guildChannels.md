@@ -15,10 +15,10 @@ $guildChannels[guildID?;option?;sep?]
 ## Parameters
 
 | Field    | Type    | Description                                                                                                 | Required |
-|----------|---------|-------------------------------------------------------------------------------------------------------------|:--------:|
-| guildID? | integer | the ID of the guild                                                                                         |  false   |
-| option?  | string  | the option on how to return the channel <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |  false   |
-| sep?     | string  | separator to separate multiple arguments                                                                    |  false   |
+| -------- | ------- | ----------------------------------------------------------------------------------------------------------- | :------: |
+| guildID? | integer | The ID of the guild.                                                                                        |  false   |
+| option?  | string  | The option on how to return the channel <br /> 1. **name** (default) <br /> 2. **id** <br /> 3. **mention** |  false   |
+| sep?     | string  | Separator to separate multiple returned values.                                                             |  false   |
 
 ## Example(s)
 

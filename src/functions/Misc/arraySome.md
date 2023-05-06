@@ -14,11 +14,11 @@ $arraySome[name;query;queryType?]
 
 ## Parameters
 
-| Field      | Type   | Description                                                        | Required |
-|------------|--------|--------------------------------------------------------------------|:--------:|
-| name       | string | array name                                                         |   true   |
-| query      | string | The element we will be queering for every element inside the array |   true   |
-| queryType? | string | The comparison operator                                            |  false   |
+| Field      | Type   | Description                                                         | Required |
+| ---------- | ------ | ------------------------------------------------------------------- | :------: |
+| name       | string | Array name.                                                         |   true   |
+| query      | string | The element we will be queering for every element inside the array. |   true   |
+| queryType? | string | The comparison operator.                                            |  false   |
 
 * `==` — Every item that matches the query.
 * `!=` — Every item that doesn't match the query.

@@ -18,8 +18,7 @@ const bot = new AoiClient({
     plugins? : ["./path"],
     respondToBots? : boolean,
     guildOnly? : boolean,
-    autoUpdate? : boolean,
-    mobilePlatform? : boolean,
+    AoiAutoUpdate? : boolean,
     cache? : {
         users: number,
         messages: number,
@@ -49,7 +48,7 @@ const bot = new AoiClient({
 ---
 
 | OPTION              | INPUT   | EXPLANATION                                                                             |
-|---------------------|---------|-----------------------------------------------------------------------------------------|
+| ------------------- | ------- | --------------------------------------------------------------------------------------- |
 | `token`             | string  | Your Discord Bot Token                                                                  |
 | `prefix`            | string  | Your Discord Bot Prefix                                                                 |
 | `intents`           | string  | Required Intents                                                                        |
@@ -58,8 +57,7 @@ const bot = new AoiClient({
 | `plugins`           | string  | aoi.js plugins directory                                                                |
 | `respondToBots`     | boolean | Either give your bot the ability to respond to bots or remove it.                       |
 | `guildOnly`         | boolean | Either give your bot the ability to respond in Direct Message or remove it.             |
-| `autoUpdate`        | boolean | Automatically update aoi.js if a update is available.                                   |
-| `mobilePlatform`    | boolean | Enable the mobile platform status for your bot.                                         |
+| `AoiAutoUpdate`     | boolean | Automatically update aoi.js if a update is available.                                   |
 | `cache`             | string  | Client Cache Options.                                                                   |
 | `database`          | string  | Client Database Options.                                                                |
 | `suppressAllErrors` | boolean | Suppress all occuring errors.                                                           |

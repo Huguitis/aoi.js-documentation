@@ -9,15 +9,15 @@ id: onlyPerms
 ## Usage
 
 ```php
-$onlyPerms[...perms;error?]
+$onlyPerms[...perms;error]
 ```
 
 ## Parameters
 
-| Field    | Type   | Description                                                  | Required |
-|----------|--------|--------------------------------------------------------------|:--------:|
-| ...perms | string | permission the user requires                                 |   true   |
-| error?   | string | error to return when the user has not the listed permissions |  false   |
+| Field    | Type   | Description                                                   | Required |
+| -------- | ------ | ------------------------------------------------------------- | :------: |
+| ...perms | string | Permission the user requires.                                 |   true   |
+| error    | string | Error to return when the user has not the listed permissions. |   true   |
 
 You can find all permissions __[here](../../guides/9permissionsintents.md)__.
 
@@ -29,6 +29,7 @@ This will limit the command to work only when the user has administrator permiss
 bot.command({
     name: "onlyPerms",
     code: `
+    Ok.
     $onlyPerms[administrator;You don't have administrator permissions!]
     `
 });

@@ -14,15 +14,15 @@ $creationDate[id;format?]
 
 ## Parameters
 
-| Field   | Type    | Description                                         | Required |
-|---------|---------|-----------------------------------------------------|----------|
-| id      | integer | user ID of who you want to get the creation date of | true     |
-| format? | string  | the format of the creation date                     | false    |
+| Field   | Type    | Description                                                         | Required |
+| ------- | ------- | ------------------------------------------------------------------- | :------: |
+| id      | integer | User ID of who you want to get the creation date to be returned of. |   true   |
+| format? | string  | The format of the creation date (listed below).                     |  false   |
 
 ### Format Input
 
 | Format        | Output                                                     |
-|---------------|------------------------------------------------------------|
+| ------------- | ---------------------------------------------------------- |
 | ms            | 1522158545409                                              |
 | date          | 3/27/2018, 1:49:05 PM                                      |
 | time          | 4 years, 9 months, 6 days, 2 hours, 17 minutes, 33 seconds |

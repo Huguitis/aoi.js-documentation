@@ -14,9 +14,9 @@ $joinSplitText[sep?]
 
 ## Parameters
 
-| Field | Type    | Description | Required |
-|-------|---------|-------------|:--------:|
-| sep?  | integer | separator   |  false   |
+| Field | Type    | Description                                     | Required |
+| ----- | ------- | ----------------------------------------------- | :------: |
+| sep?  | integer | Separator to separate multiple returned values. |  false   |
 
 ## Example(s)
 

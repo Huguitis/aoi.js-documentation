@@ -14,10 +14,10 @@ $uri[text;type?]
 
 ## Parameters
 
-| Field | Type   | Description                                                                  | Required |
-|-------|--------|------------------------------------------------------------------------------|:--------:|
-| text  | string | message to encode/decode                                                     |   true   |
-| type? | string | what to do with the text <br /> 1. **encode** (default) <br /> 2. **decode** |  false   |
+| Field | Type   | Description                                                                         | Required |
+| ----- | ------ | ----------------------------------------------------------------------------------- | :------: |
+| text  | string | Text to encode/decode.                                                              |   true   |
+| type? | string | What to do with the given text. <br /> 1. **encode** (default) <br /> 2. **decode** |  false   |
 
 ## Example(s)
 

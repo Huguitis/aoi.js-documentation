@@ -14,12 +14,12 @@ $setMessageVar[varname;value;messageID?;table?]
 
 ## Parameters
 
-| Field      | Type                    | Description    | Required |
-|------------|-------------------------|----------------|:--------:|
-| varname    | string                  | variable name  |   true   |
-| value      | string, integer, number | variable table |   true   |
-| messageID? | integer                 | message ID     |  false   |
-| table?     | string                  | variable table |  false   |
+| Field      | Type    | Description         | Required |
+| ---------- | ------- | ------------------- | :------: |
+| varname    | string  | Variable name.      |   true   |
+| value      | string  | New Variable value. |   true   |
+| messageID? | integer | Message ID.         |  false   |
+| table?     | string  | Variable table.     |  false   |
 
 ## Example(s)
 

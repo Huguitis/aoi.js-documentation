@@ -14,10 +14,10 @@ $createVar[table;...vars]
 
 ## Parameters
 
-| Field   | Type   | Description             | Required |
-|---------|--------|-------------------------|:--------:|
-| table   | string | variable table          |   true   |
-| ...vars | string | variable name and value |   true   |
+| Field   | Type   | Description              | Required |
+| ------- | ------ | ------------------------ | :------: |
+| table   | string | Variable table.          |   true   |
+| ...vars | string | Variable name and value. |   true   |
 
 ## Example(s)
 

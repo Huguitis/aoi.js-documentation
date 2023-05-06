@@ -9,17 +9,17 @@ id: forEachGuildChannel
 ## Usage
 
 ```php
-$forEachGuildChannel[time;awaitData;...awaitedCmds;endCmd?]
+$forEachGuildChannel[time;awaitData;...awaitedCmds;endCmd]
 ```
 
 ## Parameters
 
-| Field       | Type   | Description                                                 | Required |
-|-------------|--------|-------------------------------------------------------------|:--------:|
-| time        | string | how long it takes between each command to execute the other |   true   |
-| awaitData   | string | Await Data                                                  |   true   |
-| awaitedCmds | string | Awaited Commands                                            |   true   |
-| endCmd?     | string | awaited command to execute when loop ends                   |  false   |
+| Field          | Type   | Description                                                 | Required |
+| -------------- | ------ | ----------------------------------------------------------- | :------: |
+| time           | string | How long it takes between each channel to execute the next. |   true   |
+| awaitData      | object | Awaited Data.                                               |   true   |
+| ...awaitedCmds | string | Awaited Commands to execute.                                |   true   |
+| endCmd         | string | Awaited Command to execute when loop ends.                  |   true   |
 
 ## Example(s)
 
@@ -29,7 +29,7 @@ This will change the variable value of each guild channel to "test":
 bot.command({
     name: "forEachGuildChannel",
     code: `
-  $forEachGuildChannel[2s;{"value": "test"};awaitedCommand]
+  $forEachGuildChannel[2s;{"value": "test"};awaitedCommand;]
   `
 });
 

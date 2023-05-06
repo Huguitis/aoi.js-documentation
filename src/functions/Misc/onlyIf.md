@@ -9,15 +9,15 @@ id: onlyIf
 ## Usage
 
 ```php
-$onlyIf[condition;error?]
+$onlyIf[condition;error]
 ```
 
 ## Parameters
 
-| Field     | Type                    | Description                                   | Required |
-|-----------|-------------------------|-----------------------------------------------|:--------:|
-| condition | string, integer, number | condition to check                            |   true   |
-| error?    | string                  | error to return when condition does not match |  false   |
+| Field     | Type   | Description                                    | Required |
+| --------- | ------ | ---------------------------------------------- | :------: |
+| condition | string | Condition to check.                            |   true   |
+| error     | string | Error to return when condition does not match. |  false   |
 
 ## Example(s)
 
@@ -27,6 +27,7 @@ This will return the error message as 5 does not equal to 3:
 bot.command({
     name: "onlyIf",
     code: `
+    Ok.
     $onlyIf[5==3;That's wrong!]
     `
 });

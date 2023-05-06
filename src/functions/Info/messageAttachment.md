@@ -14,9 +14,9 @@ $messageAttachment[index?]
 
 ## Parameters
 
-| Field  | Type    | Description                                                | Required |
-|--------|---------|------------------------------------------------------------|:--------:|
-| index? | integer | which message attachment to return, <br /> **1** - default |  false   |
+| Field  | Type    | Description                                             | Required |
+| ------ | ------- | ------------------------------------------------------- | :------: |
+| index? | integer | The index of which message attachment will be returned. |  false   |
 
 ## Example(s)
 

@@ -10,7 +10,6 @@ id: status
 
 - **[Statuses](#bot-status)**
 - **[Client Presence](#client-presence)**
-    - **[Mobile Presence](#mobile-platform-presence)**
 
 ---
 
@@ -86,19 +85,3 @@ There are multiple types of presences:
 > * **idle**
 > * **dnd** 
 > * **invisible**
-
-#### Mobile Platform Presence
-> Please note that using this will apply the mobile platform presence to __ALL__ statuses.
-> To use the mobile presence you have to change your setup in your main file and add `mobilePlatform: true`:
-  
-```javascript
-const { AoiClient } = require("aoi.js");
-
-const bot = new AoiClient({
-    token: "DISCORD BOT TOKEN",
-    prefix: "DISCORD BOT PREFIX",
-    intents: ["Guilds", "GuildMessages", "MessageContent"],
-    events: ["onMessage", "onInteractionCreate"],
-    mobilePlatform: true
-});
-```

@@ -9,7 +9,7 @@ id: channelCooldown
 ## Usage
 
 ```php
-$channelCooldown[time;errorMessage?]
+$channelCooldown[time;errorMessage]
 ```
 
 * You are able to retrieve the remaining cooldown in the `$channelCooldown` function by using **`%time%`** or any of the
@@ -18,10 +18,10 @@ $channelCooldown[time;errorMessage?]
 
 ## Parameters
 
-| Field         | Type   | Description                                             | Required |
-|---------------|--------|---------------------------------------------------------|----------|
-| time          | string | timer of the cooldown                                   | true     |
-| errorMessage? | string | error message when given cooldown timer is still active | false    |
+| Field        | Type   | Description                                              | Required |
+| ------------ | ------ | -------------------------------------------------------- | :------: |
+| time         | string | Timer of the cooldown                                    |   true   |
+| errorMessage | string | Error message when given cooldown timer is still active. |  false   |
 
 ## Example(s)
 

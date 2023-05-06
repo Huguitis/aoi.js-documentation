@@ -12,7 +12,7 @@ id: interactionPing
 $interactionPing
 ```
 
-#### Please note that you require `events: ["onMessage", "onInteractionCreate"]` to be in your main file.
+**Please note that you require `events: ["onInteractionCreate"]` to be in your main file**
 
 ## Example(s)
 
@@ -22,7 +22,7 @@ This will return the latency of an interaction:
 bot.command({
     name: 'interactionPing',
     code: `
- $addbutton[1;test;primary;testButton;false]
+ $addButton[1;Test;primary;testButton;false]
  Click me!
   `
 });
@@ -31,7 +31,7 @@ bot.interactionCommand({
     name: 'testButton',
     prototype: 'button',
     code: `
-  $interactionUpdate[This took me: $interactionPing MS!] //will edit the button message and return the latency
+  $interactionUpdate[This took me: $interactionPing MS!]
   `
 });
 ```

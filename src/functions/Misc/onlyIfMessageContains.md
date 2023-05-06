@@ -9,16 +9,16 @@ id: onlyIfMessageContains
 ## Usage
 
 ```php
-$onlyIfMessageContains[message;...text;error?]
+$onlyIfMessageContains[content;...text;error]
 ```
 
 ## Parameters
 
-| Field   | Type                    | Description                                 | Required |
-|---------|-------------------------|---------------------------------------------|:--------:|
-| message | string, integer, number | message which should contain the given text |   true   |
-| text    | string, integer, number | text to check for in the message            |   true   |
-| error?  | string                  | error to return                             |  false   |
+| Field   | Type   | Description                                  | Required |
+| ------- | ------ | -------------------------------------------- | :------: |
+| content | string | Message which should contain the given text. |   true   |
+| text    | string | Text to check for in the message.            |   true   |
+| error   | string | Error to return.                             |   true   |
 
 ## Example(s)
 
@@ -28,6 +28,7 @@ This will return the error message as "aoi.js" does not appear in "Hello!":
 bot.command({
     name: "onlyIfMessageContains",
     code: `
+    Ok.
     $onlyIfMessageContains[Hello!;aoi.js;Couldn't find that word!]
     `
 });

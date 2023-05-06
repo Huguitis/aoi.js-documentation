@@ -9,19 +9,19 @@ id: httpRequest
 ## Usage
 
 ```php
-$httpRequest[URL;method?;body?;property?;error?;headerName:headerValue?]
+$httpRequest[URL;method;body?;property?;error?;...header?]
 ```
 
 ## Parameters
 
-| Field     | Type   | Description                                           | Required |
-|-----------|--------|-------------------------------------------------------|:--------:|
-| URL       | string | URL you want to get/send data to/from                 |   true   |
-| method    | string | method <br /> 1. **GET** (default) <br /> 2. **POST** |   true   |
-| body?     | string | content                                               |  false   |
-| property? | string | property to return (get method)                       |  false   |
-| error?    | string | error to return when request fails                    |  false   |
-| ...header | string | headerName, headerValue                               |   true   |
+| Field     | Type   | Description                                                             | Required |
+| --------- | ------ | ----------------------------------------------------------------------- | :------: |
+| URL       | string | URL you want to get/send data to/from.                                  |   true   |
+| method    | string | Method <br /> 1. **GET** (default) <br /> 2. **POST** <br /> 3. **PUT** |   true   |
+| body?     | string | Content.                                                                |  false   |
+| property? | string | Property to return (get method).                                        |  false   |
+| error?    | string | Error to return when request fails.                                     |  false   |
+| ...header | string | Header.                                                                 |  false   |
 
 ## Example(s)
 

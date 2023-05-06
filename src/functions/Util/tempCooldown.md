@@ -20,9 +20,9 @@ $tempCooldown[time;id;errorMessage?]
 
 | Field         | Type   | Description                                                | Required |
 |---------------|--------|------------------------------------------------------------|----------|
-| time          | string | the duration of the cooldown                               | true     |
+| time          | string | The duration of the cooldown.                               | true     |
 | id            | string | can be user, guild, message, channel or any other ID       | true     |
-| errorMessage? | string | error message when there's remaining time for the cooldown | false    |
+| errorMessage | string | Error message when there's remaining time for the cooldown. | true |
 
 ## Example(s)
 

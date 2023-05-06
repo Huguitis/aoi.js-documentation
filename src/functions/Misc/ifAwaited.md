@@ -15,23 +15,23 @@ $ifAwaited[condition;true;false?]
 
 ## Parameters
 
-| Field     | Type   | Description                                | Required |
-|-----------|--------|--------------------------------------------|:--------:|
-| condition | string | condition to check                         |   true   |
-| true      | string | what to return when the condition is true  |   true   |
-| false?    | string | what to return when the condition is false |  false   |
+| Field     | Type   | Description                             | Required |
+| --------- | ------ | --------------------------------------- | :------: |
+| condition | string | Condition to check                      |   true   |
+| true      | string | What to do when the condition is true.  |   true   |
+| false?    | string | What to do when the condition is false. |  false   |
 
 #### Valid Mathematical Operators
 
 | Operator | Mathematical Expression  |
-|----------|--------------------------|
+| -------- | ------------------------ |
 | ==       | equal to                 |
 | !=       | not equal to             |
 | <=       | less than or equal to    |
 | \>=      | greater than or equal to |
 | \>       | greater than             |
 | <        | less than                |
-| \        | \                        |     | logical OR               |
+| \|\|     | logical OR               |
 | &&       | logical conjunction      |
 
 ## Example(s)

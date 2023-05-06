@@ -14,9 +14,9 @@ $arrayMap[name;awaitedCommand;separator?;awaitData?]
 
 ## Parameters
 
-| Field          | Type   | Description                 | Required |
-|----------------|--------|-----------------------------|:--------:|
-| name           | string | array name                  |   true   |
-| awaitedCommand | string | awaited command to executed |   true   |
-| separator?     | string | separator                   |  false   |
-| awaitData?     | string | awaited data                |  false   |
+| Field          | Type   | Description                  | Required |
+| -------------- | ------ | ---------------------------- | :------: |
+| name           | string | Array name.                  |   true   |
+| awaitedCommand | string | Awaited command to executed. |   true   |
+| separator?     | string | Separator.                   |  false   |
+| awaitData?     | string | Awaited Data.                |  false   |

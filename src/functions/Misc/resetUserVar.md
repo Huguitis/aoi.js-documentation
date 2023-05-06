@@ -14,11 +14,11 @@ $resetUserVar[varname;guildID?;table?]
 
 ## Parameters
 
-| Field    | Type    | Description    | Required |
-|----------|---------|----------------|:--------:|
-| varname  | string  | variable name  |   true   |
-| guildID? | integer | guild ID       |  false   |
-| table?   | string  | variable table |  false   |
+| Field    | Type    | Description     | Required |
+| -------- | ------- | --------------- | :------: |
+| varname  | string  | Variable name.  |   true   |
+| guildID? | integer | Guild ID.       |  false   |
+| table?   | string  | Variable table. |  false   |
 
 ## Example(s)
 

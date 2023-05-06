@@ -11,15 +11,15 @@ if not.
 ## Usage
 
 ```php
-$onlyForRoles[...roleIds;error?]
+$onlyForRoles[...roleIds;error]
 ```
 
 ## Parameters
 
-| Field      | Type            | Description                                                                         | Required |
-|------------|-----------------|-------------------------------------------------------------------------------------|:--------:|
-| ...roleIds | string, integer | roles you want to limit the command to                                              |   true   |
-| error?     | string          | error to return when the command was not executed by any user with the listed roles |  false   |
+| Field      | Type            | Description                                                                          | Required |
+| ---------- | --------------- | ------------------------------------------------------------------------------------ | :------: |
+| ...roleIds | string, integer | Roles you want to limit the command to.                                              |   true   |
+| error      | string          | Error to return when the command was not executed by any user with the listed roles. |  false   |
 
 ## Example(s)
 
@@ -29,6 +29,7 @@ This will limit the command only to the listed channels:
 bot.command({
     name: "onlyForRoles",
     code: `
+    Ok.
     $onlyForRoles[roleID;roleID;You can't use that command!]
     `
 });

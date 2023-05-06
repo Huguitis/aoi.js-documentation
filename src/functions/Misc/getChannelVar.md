@@ -14,11 +14,11 @@ $getChannelVar[varname;channelID?;table?]
 
 ## Parameters
 
-| Field      | Type    | Description    | Required |
-|------------|---------|----------------|:--------:|
-| varname    | string  | variable name  |   true   |
-| channelID? | integer | channel ID     |  false   |
-| table?     | string  | variable table |  false   |
+| Field      | Type    | Description     | Required |
+| ---------- | ------- | --------------- | :------: |
+| varname    | string  | Variable name.  |   true   |
+| channelID? | integer | Channel ID.     |  false   |
+| table?     | string  | Variable table. |  false   |
 
 ## Example(s)
 

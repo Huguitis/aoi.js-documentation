@@ -15,9 +15,9 @@ $arraySort[name;type?]
 ## Parameters
 
 | Field | Type   | Description                                                              | Required |
-|-------|--------|--------------------------------------------------------------------------|:--------:|
-| name  | string | array name                                                               |   true   |
-| type  | string | type to sort after <br /> 1. **asc** (ascending) 2. **dsc** (descending) |   true   |
+| ----- | ------ | ------------------------------------------------------------------------ | :------: |
+| name  | string | Array name.                                                              |   true   |
+| type  | string | Type to sort after <br /> 1. **asc** (ascending) 2. **dsc** (descending) |   true   |
 
 ## Example(s)
 

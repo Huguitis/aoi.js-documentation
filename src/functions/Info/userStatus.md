@@ -9,15 +9,15 @@ id: userStatus
 ## Usage
 
 ```php
-$userStatus[userId?;guildId?]
+$userStatus[guildId?;userId?]
 ```
 
 ## Parameters
 
 | Field    | Type    | Description                                                     | Required |
 | -------- | ------- | --------------------------------------------------------------- | :------: |
-| userId?  | integer | The ID of the user you want to return the status of.            |  false   |
 | guildId? | integer | The guild ID of which guild you want to retrieve the status of. |  false   |
+| userId?  | integer | The ID of the user you want to return the status of.            |  false   |
 
 ## Example(s)
 
@@ -27,7 +27,7 @@ This will either return `idle`, `online`, `invisible` or `dnd` depending on your
 bot.command({
     name: 'userStatus',
     code: `
-  $userStatus[$authorID;$guildID]
+  $userStatus[$guildID;$authorID]
   `
 });
 ```

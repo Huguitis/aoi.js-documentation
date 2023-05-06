@@ -15,9 +15,9 @@ $arrayJoin[name;separator?]
 ## Parameters
 
 | Field      | Type   | Description | Required |
-|------------|--------|-------------|:--------:|
-| name       | string | array name  |   true   |
-| separator? | string | separator   |  false   |
+| ---------- | ------ | ----------- | :------: |
+| name       | string | Array name. |   true   |
+| separator? | string | Separator.  |  false   |
 
 ## Example(s)
 

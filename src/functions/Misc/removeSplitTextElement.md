@@ -14,9 +14,9 @@ $removeSplitTextElement[...elements]
 
 ## Parameters
 
-| Field       | Type   | Description                   | Required |
-|-------------|--------|-------------------------------|:--------:|
-| ...elements | string | split text elements to remove |   true   |
+| Field       | Type   | Description                    | Required |
+| ----------- | ------ | ------------------------------ | :------: |
+| ...elements | string | Split text elements to remove. |   true   |
 
 ## Example(s)
 

@@ -14,10 +14,10 @@ $userActivity[guildID?;userID?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|----------|
-| guildID? | integer | guild id    | false    |
-| userID?  | integer | user id     | false    |
+| Field    | Type    | Description   | Required |
+| -------- | ------- | ------------- | :------: |
+| guildID? | integer | The guild ID. |  false   |
+| userID?  | integer | The user ID.  |  false   |
 
 ## Example(s)
 
@@ -25,7 +25,7 @@ This will return your current Activity:
 
 ```javascript
 bot.command({
-    name: 'useractivity',
+    name: 'userActivity',
     code: `
   $userActivity[$guildID;$authorID]
   `

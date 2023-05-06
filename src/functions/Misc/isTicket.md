@@ -15,8 +15,8 @@ $isTicket[channelID?]
 ## Parameters
 
 | Field      | Type    | Description | Required |
-|------------|---------|-------------|:--------:|
-| channelID? | integer | channel ID  |  false   |
+| ---------- | ------- | ----------- | :------: |
+| channelID? | integer | Channel ID. |  false   |
 
 ## Example(s)
 

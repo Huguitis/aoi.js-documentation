@@ -21,7 +21,7 @@ $userBadges[userId?;sep?]
 
 ## Example(s)
 
-This will return your Discord Badges separated by a comma:
+This will return your Discord Badges separated with a comma:
 
 ```javascript
 bot.command({

@@ -14,9 +14,9 @@ $message[index?]
 
 ## Parameters
 
-| Field  | Type    | Description                                                   | Required |
-|--------|---------|---------------------------------------------------------------|:--------:|
-| index? | integer | which message to return, leave empty to return every argument |  false   |
+| Field  | Type    | Description                                                                          | Required |
+| ------ | ------- | ------------------------------------------------------------------------------------ | :------: |
+| index? | integer | Which message argument will be returned, leave it empty to return the whole message. |  false   |
 
 ## Example(s)
 
@@ -26,7 +26,7 @@ This will return your given message:
 bot.command({
     name: 'message',
     code: `
-  You've said: "$message"
-  `
+  You said: "$message"
+  ` // [prefix]message Hello!
 });
 ```

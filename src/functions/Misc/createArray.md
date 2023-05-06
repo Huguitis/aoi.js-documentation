@@ -14,10 +14,10 @@ $createArray[name;...elements]
 
 ## Parameters
 
-| Field       | Type   | Description     | Required |
-|-------------|--------|-----------------|:--------:|
-| name        | string | array name      |   true   |
-| ...elements | string | elements to add |   true   |
+| Field       | Type   | Description      | Required |
+| ----------- | ------ | ---------------- | :------: |
+| name        | string | Array name.      |   true   |
+| ...elements | string | Elements to add. |   true   |
 
 ## Example(s)
 

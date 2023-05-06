@@ -14,9 +14,9 @@ $concatTextSplit[...text]
 
 ## Parameters
 
-| Field | Type   | Description          | Required |
-|-------|--------|----------------------|----------|
-| text  | string | text to be separated | true     |
+| Field | Type   | Description                                        | Required |
+| ----- | ------ | -------------------------------------------------- | :------: |
+| text  | string | Text to concat to the existing textSplit elements. |   true   |
 
 ## Example(s)
 

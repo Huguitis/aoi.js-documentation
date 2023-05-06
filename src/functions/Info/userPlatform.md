@@ -15,10 +15,10 @@ $userPlatform[userID?;guildID?;sep?]
 ## Parameters
 
 | Field    | Type    | Description                                   | Required |
-| -------- | ------- | --------------------------------------------- | -------- |
-| userID?  | integer | ID of the user.                               | false    |
-| guildID? | integer | The guild ID of where the user is present in. | false    |
-| sep?     | string  | The separator to split multiple platforms.    | false    |
+| -------- | ------- | --------------------------------------------- | :------: |
+| userID?  | integer | ID of the user.                               |  false   |
+| guildID? | integer | The guild ID of where the user is present in. |  false   |
+| sep?     | string  | The separator to split multiple platforms.    |  false   |
 
 ### Platforms:
 - **web** - The user is currently using the web client.

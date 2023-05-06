@@ -14,11 +14,11 @@ $userPerms[userID?;sep?;guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                              | Required |
-|----------|---------|------------------------------------------|:--------:|
-| userID?  | integer | user ID                                  |  false   |
-| sep?     | string  | separator to separate multiple arguments |  false   |
-| guildID? | integer | guild ID                                 |  false   |
+| Field    | Type    | Description                                     | Required |
+| -------- | ------- | ----------------------------------------------- | :------: |
+| userID?  | integer | The user ID.                                    |  false   |
+| sep?     | string  | Separator to separate multiple returned values. |  false   |
+| guildID? | integer | The guild ID.                                   |  false   |
 
 ## Example(s)
 

@@ -14,13 +14,13 @@ $setUserVar[varname;value;userID?;id?;table?]
 
 ## Parameters
 
-| Field   | Type                    | Description                               | Required |
-|---------|-------------------------|-------------------------------------------|:--------:|
-| varname | string                  | variable name                             |   true   |
-| value   | string, integer, number | variable table                            |   true   |
-| userID? | integer                 | user ID                                   |  false   |
-| id?     | string, integer         | 1. **specific guild id** <br /> 2. **dm** |  false   |
-| table?  | string                  | variable table                            |  false   |
+| Field   | Type    | Description                               | Required |
+| ------- | ------- | ----------------------------------------- | :------: |
+| varname | string  | Variable name.                            |   true   |
+| value   | string  | New Variable value.                       |   true   |
+| userID? | integer | User ID.                                  |  false   |
+| id?     | string  | 1. **specific guild id** <br /> 2. **dm** |  false   |
+| table?  | string  | Variable table.                           |  false   |
 
 ## Example(s)
 

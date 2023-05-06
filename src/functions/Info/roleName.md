@@ -14,10 +14,10 @@ $roleName[roleID;guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description | Required |
-|----------|---------|-------------|:--------:|
-| roleID   | integer | role ID     |   true   |
-| guildID? | integer | guild ID    |  false   |
+| Field    | Type    | Description                                                    | Required |
+| -------- | ------- | -------------------------------------------------------------- | :------: |
+| roleID   | integer | The role ID of which you want the role name to be returned of. |   true   |
+| guildID? | integer | The guild ID.                                                  |  false   |
 
 ## Example(s)
 

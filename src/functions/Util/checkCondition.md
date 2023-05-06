@@ -14,14 +14,14 @@ $checkCondition[condition]
 
 ## Parameters
 
-| Field     | Type   | Description                 | Required |
-|-----------|--------|-----------------------------|----------|
-| condition | string | condition you want to check | true     |
+| Field     | Type   | Description                  | Required |
+| --------- | ------ | ---------------------------- | :------: |
+| condition | string | Condition you want to check. |   true   |
 
 #### Valid Mathematical Operators
 
 | Operator | Mathematical Expression  |
-|----------|--------------------------|
+| -------- | ------------------------ |
 | ==       | equal to                 |
 | !=       | not equal to             |
 | <=       | less than or equal to    |

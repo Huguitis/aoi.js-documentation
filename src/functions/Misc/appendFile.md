@@ -9,16 +9,16 @@ id: appendFile
 ## Usage
 
 ```php
-$appendFile[file;text;encode?]
+$appendFile[path;content;encode?]
 ```
 
 ## Parameters
 
-| Field   | Type    | Description                              | Required |
-|---------|---------|------------------------------------------|:--------:|
-| file    | integer | file location                            |   true   |
-| text    | integer | text to add to the file                  |   true   |
-| encode? | integer | encode type <br /> 1. **utf8** (default) |  false   |
+| Field   | Type           | Description                              | Required |
+| ------- | -------------- | ---------------------------------------- | :------: |
+| path    | string         | File location.                           |   true   |
+| content | string, number | Content to append to the file            |   true   |
+| encode? | string         | Encode type <br /> 1. **utf8** (default) |  false   |
 
 ## Example(s)
 
