@@ -15,15 +15,15 @@ $textTrim[text]
 
 ## Parameters
 
-| Field | Type   | Description            | Required |
-|-------|--------|------------------------|----------|
-| text  | string | the text to be trimmed | true     |
+| Field | Type   | Description             | Required |
+| ----- | ------ | ----------------------- | :------: |
+| text  | string | The text to be trimmed. |   true   |
 
 ## Example(s)
 
 This will remove any extra spaces of the given text, in this case it would return `Imagine a string package.`:
 
-```php
+```javascript
 bot.command({
     name: "textTrim",
     code: `

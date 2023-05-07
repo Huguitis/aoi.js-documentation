@@ -14,12 +14,10 @@ $isBoosting[userID?;guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                                   | Required |
-|----------|---------|-----------------------------------------------|----------|
-| userID?  | integer | user id to check if they're boosting          | false    |
-| guildID? | integer | the guild id of where they boosted the server | false    |
-
-### Please note that your bot has to be present in the server where you're going to check for an users boosting status.
+| Field    | Type    | Description                                    | Required |
+| -------- | ------- | ---------------------------------------------- | :------: |
+| userID?  | integer | User ID to check if they're boosting.          |  false   |
+| guildID? | integer | The guild ID of where they boosted the server. |  false   |
 
 ## Example(s)
 

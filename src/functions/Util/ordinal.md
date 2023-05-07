@@ -14,9 +14,9 @@ $ordinal[number]
 
 ## Parameters
 
-| Field  | Type   | Description                                        | Required |
-|--------|--------|----------------------------------------------------|----------|
-| number | number | number which will add `st`, `nd`, `rd`, `th` to it | true     |
+| Field  | Type   | Description                                         | Required |
+| ------ | ------ | --------------------------------------------------- | :------: |
+| number | number | Number which will add `st`, `nd`, `rd`, `th` to it. |   true   |
 
 ## Example(s)
 
@@ -24,10 +24,10 @@ $ordinal[number]
 bot.command({
     name: 'ordinal',
     code: `
-  $ordinal[12] // Returns 12nd 
-  $ordinal[50] // Returns 50th
-  $ordinal[11] // Returns 11st
-  $ordinal[88] // Returns 88th
+  $ordinal[12] -> Returns 12nd 
+  $ordinal[50] -> Returns 50th
+  $ordinal[11] -> Returns 11st
+  $ordinal[88] -> Returns 88th
   `
 });
 ```

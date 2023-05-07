@@ -14,10 +14,10 @@ $messageSlice[from;to?]
 
 ## Parameters
 
-| Field | Type   | Description                               | Required |
-|-------|--------|-------------------------------------------|----------|
-| from  | number | starting point where to slice the message | true     |
-| to?   | number | ending point where slicing ends           | false    |
+| Field | Type   | Description                                | Required |
+| ----- | ------ | ------------------------------------------ | :------: |
+| from  | number | Starting point where to slice the message. |   true   |
+| to?   | number | Ending point where slicing ends.           |  false   |
 
 ## Example(s)
 

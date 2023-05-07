@@ -9,20 +9,20 @@ id: findMembers
 ## Usage
 
 ```php
-$findMembers[query;limit?;type?;force?;res?]
+$findMembers[userResolver;limit?;type?;force?;format?]
 ```
 
 ## Parameters
 
-| Field  | Type   | Description                                   | Required |
-|--------|--------|-----------------------------------------------|----------|
-| query  | string | query of the username the bot will search for | true     |
-| limit? | number | the amount of results the bot will return     | false    |
-| type?  | string | type of the search query                      | false    |
-| force? | string |                                               | false    |
-| res?   | string | the format the bot will return the results    | false    |
+| Field        | Type    | Description                                                    | Required |
+| ------------ | ------- | -------------------------------------------------------------- | :------: |
+| userResolver | string  | Query of the username the bot will search for.                 |   true   |
+| limit?       | number  | The amount of results the bot will return.                     |  false   |
+| type?        | string  | Type of the search query.                                      |  false   |
+| force?       | boolean | 1. **true** <br /> 2. **false** (default)                      |  false   |
+| format?      | string  | The format the bot will return the found users (listed below). |  false   |
 
-### Parameters for the `res` argument
+### Parameters for the `format` argument
 
 * {position} -> returns the position
 * {id} -> returns the user ID

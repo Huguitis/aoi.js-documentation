@@ -14,15 +14,15 @@ $textSplit[awaited]
 
 ## Parameters
 
-| Field   | Type   | Description                 | Required |
-|---------|--------|-----------------------------|----------|
-| awaited | string | name of the awaited command | true     |
+| Field   | Type   | Description                  | Required |
+| ------- | ------ | ---------------------------- | :------: |
+| awaited | string | Name of the awaited command. |   true   |
 
 ## Example(s)
 
 This will return the arguments within `$textSplit` and send all of them separately:
 
-```php
+```javascript
 bot.command({
     name: "textSplitMap",
     code: `

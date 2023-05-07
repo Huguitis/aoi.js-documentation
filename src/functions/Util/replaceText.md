@@ -14,12 +14,12 @@ $replaceText[text;replacer;replaceTo;times?]
 
 ## Parameters
 
-| Field     | Type   | Description                                    | Required |
-|-----------|--------|------------------------------------------------|----------|
-| text      | string | text you want to modify                        | true     |
-| replacer  | string | the text that will be replaced                 | true     |
-| replaceTo | string | the text that will replace `replacer`          | true     |
-| times?    | number | how many times `replaceTo` replaces `replacer` | false    |
+| Field     | Type   | Description                                                                  | Required |
+| --------- | ------ | ---------------------------------------------------------------------------- | :------: |
+| text      | string | Text you want to modify.                                                     |   true   |
+| replacer  | string | The text that will be replaced.                                              |   true   |
+| replaceTo | string | The text that will replace `replacer`.                                       |   true   |
+| times?    | number | How many times `replaceTo` replaces `replacer`. / Use `-1` for the last one. |  false   |
 
 ## Example(s)
 

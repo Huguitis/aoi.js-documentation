@@ -9,15 +9,15 @@ id: isRoleEditable
 ## Usage
 
 ```php
-$isRoleEditable[roleid;guildid?]
+$isRoleEditable[roleID;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                               | Required |
-|----------|---------|-------------------------------------------|----------|
-| roleid   | integer | role id you want to check if its editable | true     |
-| guildid? | integer | the guild id of where the role exists     | false    |
+| Field    | Type    | Description                                       | Required |
+| -------- | ------- | ------------------------------------------------- | :------: |
+| roleID   | integer | ID of the role you want to check if its editable. |   true   |
+| guildID? | integer | The ID of the guild where the role exists.        |  false   |
 
 ## Example(s)
 

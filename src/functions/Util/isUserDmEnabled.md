@@ -9,14 +9,14 @@ id: isUserDmEnabled
 ## Usage
 
 ```php
-$isUserDmEnabled[userid]
+$isUserDmEnabled[userID]
 ```
 
 ## Parameters
 
-| Field  | Type    | Description                                                           | Required |
-|--------|---------|-----------------------------------------------------------------------|----------|
-| userid | integer | user id of the user you want to check if their dms are enabled or not | true     |
+| Field  | Type    | Description                                                       | Required |
+| ------ | ------- | ----------------------------------------------------------------- | :------: |
+| userID | integer | ID of the user you want to check if their dms are enabled or not. |   true   |
 
 ## Example(s)
 

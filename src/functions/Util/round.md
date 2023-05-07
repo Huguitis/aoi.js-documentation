@@ -14,9 +14,9 @@ $round[number]
 
 ## Parameters
 
-| Field  | Type   | Description     | Required |
-|--------|--------|-----------------|----------|
-| number | number | number to round | true     |
+| Field  | Type   | Description      | Required |
+| ------ | ------ | ---------------- | :------: |
+| number | number | Number to round. |   true   |
 
 ## Example(s)
 

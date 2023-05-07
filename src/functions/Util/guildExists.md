@@ -15,8 +15,8 @@ $guildExists[guildId]
 ## Parameters
 
 | Field   | Type    | Description | Required |
-|---------|---------|-------------|----------|
-| guildId | integer | guild id    | true     |
+| ------- | ------- | ----------- | :------: |
+| guildId | integer | Guild ID.   |   true   |
 
 ## Example(s)
 

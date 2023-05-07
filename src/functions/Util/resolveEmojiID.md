@@ -9,16 +9,14 @@ id: resolveEmojiID
 ## Usage
 
 ```php
-$resolveEmojiID[emoji]
+$resolveEmojiID[emojiResolver]
 ```
 
 ## Parameters
 
-| Field | Type   | Description | Required |
-|-------|--------|-------------|----------|
-| emoji | string | emoji name  | true     |
-
-### Please note that your bot has to be present in the guild where the emoji is in.
+| Field         | Type   | Description           | Required |
+| ------------- | ------ | --------------------- | :------: |
+| emojiResolver | string | Emoji name or string. |   true   |
 
 ## Example(s)
 

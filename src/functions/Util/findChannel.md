@@ -9,17 +9,15 @@ id: findChannel
 ## Usage
 
 ```php
-$findChannel[channel;returnSelf?]
+$findChannel[channelResolver;returnSelf?]
 ```
-
-#### Note that your bot has to be present in the guild where the channel is in.
 
 ## Parameters
 
-| Field       | Type   | Description                                                                                            | Required |
-|-------------|--------|--------------------------------------------------------------------------------------------------------|----------|
-| channel     | string | channel name of the channel you want to find                                                           | true     |
-| returnSelf? | string | will return the channel where the command is executed in by default if the given channel was not found | false    |
+| Field           | Type    | Description                                                                                             | Required |
+| --------------- | ------- | ------------------------------------------------------------------------------------------------------- | :------: |
+| channelResolver | string  | Name of the channel you want to search for.                                                             |   true   |
+| returnSelf?     | boolean | Will return the channel where the command is executed in by default if the given channel was not found. |  false   |
 
 ## Example(s)
 

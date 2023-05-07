@@ -14,10 +14,10 @@ $textSplit[text;sep?]
 
 ## Parameters
 
-| Field | Type   | Description                      | Required |
-|-------|--------|----------------------------------|----------|
-| text  | string | query of arguments               | true     |
-| sep?  | string | separator for the text arguments | false    |
+| Field | Type   | Description                       | Required |
+| ----- | ------ | --------------------------------- | :------: |
+| text  | string | Query of arguments.               |   true   |
+| sep?  | string | Separator for the text arguments. |  false   |
 
 ## Example(s)
 

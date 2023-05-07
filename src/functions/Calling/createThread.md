@@ -24,9 +24,10 @@ $createThread[channelID;name;archive;type;startMessage;returnId?]
 | returnId?    | string  | If the function should return the thread ID after its creation.  |  false   |
 
 * **60 —** This option makes the thread stays active for **1 hour**.
-* **1140 —** This option makes the thread stays active for **1 day**.
+* **1440 —** This option makes the thread stays active for **1 day**.
 * **4320 —** This option makes the thread stays active for **3 days**.
 * **10080 —** This option makes the thread stays active for **1 week**.
+* **MAX —** This option makes the thread stays active for the highest possible time.
 
 ## Example(s)
 

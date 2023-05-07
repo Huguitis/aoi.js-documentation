@@ -14,9 +14,9 @@ $divide[...numbers;...numbers]
 
 ## Parameters
 
-| Field   | Type   | Description                | Required |
-|---------|--------|----------------------------|----------|
-| numbers | number | numbers you want to divide | true     |
+| Field   | Type   | Description                                | Required |
+| ------- | ------ | ------------------------------------------ | :------: |
+| numbers | number | Numbers you want to divide with eachother. |   true   |
 
 ## Example(s)
 

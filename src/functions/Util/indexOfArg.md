@@ -14,10 +14,10 @@ $indexOfArg[string;query]
 
 ## Parameters
 
-| Field  | Type   | Description                                    | Required |
-|--------|--------|------------------------------------------------|----------|
-| string | string | the text the bot will be checking the index of | true     |
-| query  | string | the query the bot will be checking for         | true     |
+| Field  | Type   | Description                                     | Required |
+| ------ | ------ | ----------------------------------------------- | :------: |
+| string | string | The text the bot will be checking the index of. |   true   |
+| query  | string | The query the bot will be checking for.         |   true   |
 
 ## Example(s)
 

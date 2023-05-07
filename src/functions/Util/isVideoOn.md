@@ -9,15 +9,15 @@ id: isVideoOn
 ## Usage
 
 ```php
-$isVideoOn[userid?;guildid?]
+$isVideoOn[userID?;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                                             | Required |
-|----------|---------|-------------------------------------------------------------------------|----------|
-| userid?  | integer | user id of the user who turned video on                                 | false    |
-| guildid? | integer | the guild ID of the guild you want to check if they have their video on | false    |
+| Field    | Type    | Description                                                    | Required |
+| -------- | ------- | -------------------------------------------------------------- | :------: |
+| userID?  | integer | ID of the user who turned video on.                            |  false   |
+| guildID? | integer | ID of the guild you want to check if they have their video on. |  false   |
 
 ## Example(s)
 

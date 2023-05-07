@@ -14,16 +14,16 @@ $randomChannelID[guildID/global?;type?]
 
 ## Parameters
 
-| Field           | Type    | Description               | Required |
-|-----------------|---------|---------------------------|----------|
-| guildID/global? | integer | guild ID or global search | false    |
-| type?           | string  | channel type              | false    |
+| Field           | Type    | Description                | Required |
+| --------------- | ------- | -------------------------- | :------: |
+| guildID/global? | integer | Guild ID or global search. |  false   |
+| type?           | string  | Channel type.              |  false   |
 
 <details open>
   <summary><h3> Channel Types </h3></summary>
 
 | Channel Type         |                    |
-|----------------------|--------------------|
+| -------------------- | ------------------ |
 | Text Channel         | Text               |
 | Voice Channel        | Voice              |
 | Category             | Category           |
@@ -37,8 +37,6 @@ $randomChannelID[guildID/global?;type?]
 | NSFW Channel         | NSFW               |
 | Direct Message       | DM                 |
 | All Channel Types    | all                |
-
-#### Note: all channel types are **case-sensitive**.
 
 </details>
 

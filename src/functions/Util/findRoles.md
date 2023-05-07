@@ -9,19 +9,19 @@ id: findRoles
 ## Usage
 
 ```php
-$findRoles[query;limit?;type?;res?]
+$findRoles[roleResolver;limit?;type?;format?]
 ```
 
 ## Parameters
 
-| Field  | Type   | Description                                     | Required |
-|--------|--------|-------------------------------------------------|----------|
-| query  | string | name of the role you want to find               | true     |
-| limit? | number | the maximum amount of roles the bot will return | false    |
-| type?  | string | type of the search query                        | false    |
-| res?   | string | formatting for the output                       | false    |
+| Field        | Type   | Description                                      | Required |
+| ------------ | ------ | ------------------------------------------------ | :------: |
+| roleResolver | string | Query to match.                                  |   true   |
+| limit?       | number | The maximum amount of roles the bot will return. |  false   |
+| type?        | string | Type of the search query.                        |  false   |
+| format?      | string | Formatting for the output.                       |  false   |
 
-### Parameters for the `res` argument
+### Parameters for the `format` argument
 
 * {position} -> returns the position
 * {id} -> returns the role ID

@@ -14,9 +14,9 @@ $isPartnered[guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                           | Required |
-|----------|---------|-----------------------------------------------------------------------|----------|
-| guildID? | integer | the guild ID of the guild you want to check its partnership status of | true     |
+| Field    | Type    | Description                                                      | Required |
+| -------- | ------- | ---------------------------------------------------------------- | :------: |
+| guildID? | integer | The ID of the guild you want to check its partnership status of. |   true   |
 
 ## Example(s)
 

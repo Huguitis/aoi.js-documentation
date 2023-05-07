@@ -9,17 +9,15 @@ id: isCustomEmoji
 ## Usage
 
 ```php
-$isCustomEmoji[emoji;guildID?]
+$isCustomEmoji[emojiResolver;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                     | Required |
-|----------|---------|-------------------------------------------------|----------|
-| emoji    | string  | emoji you want to check if it is a custom emoji | true     |
-| guildID? | integer | guild ID of where the emoji was created in      | false    |
-
-### Please note that your bot has to be in the server where the custom emoji was created in.
+| Field         | Type    | Description                                      | Required |
+| ------------- | ------- | ------------------------------------------------ | :------: |
+| emojiResolver | string  | Emoji you want to check if it is a custom emoji. |   true   |
+| guildID?      | integer | ID of the guild where the emoji was created in.  |  false   |
 
 ## Example(s)
 

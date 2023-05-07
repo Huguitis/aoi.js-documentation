@@ -9,20 +9,18 @@ id: isValidObject
 ## Usage
 
 ```php
-$isValidObject[json]
+$isValidObject[object]
 ```
 
 ## Parameters
 
-| Field | Type   | Description | Required |
-|-------|--------|-------------|----------|
-| json  | string | json object | true     |
-
-### This function will only work if it's a JSON Object
+| Field  | Type   | Description  | Required |
+| ------ | ------ | ------------ | :------: |
+| object | object | JSON object. |   true   |
 
 ## Example(s)
 
-This will return `true` as the given object is an valid json object:
+This will return `true` as the given object is a valid JSON object:
 
 ```javascript
 bot.command({

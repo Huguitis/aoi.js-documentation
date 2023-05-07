@@ -26,7 +26,7 @@ $getMessage[channelID;messageID;option?]
 | Type     | Description             |
 | -------- | ----------------------- |
 | content  | Content of the message. |
-| userid   | Author User ID.         |
+| userID   | Author User ID.         |
 | usertag  | Author Discriminator.   |
 | username | Author Username.        |
 

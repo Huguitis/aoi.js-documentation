@@ -9,7 +9,7 @@ id: createSticker
 ## Usage
 
 ```php
-$createSticker[guildid;URL;name;returnSticker?;tags;description;reason]
+$createSticker[guildID;URL;name;returnSticker?;tags;description;reason]
 ```
 
 ## Parameters

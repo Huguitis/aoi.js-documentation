@@ -9,15 +9,14 @@ id: sum
 ## Usage
 
 ```php
-$sum[num1;num2]
+$sum[num;num]
 ```
 
 ## Parameters
 
-| Field | Type   | Description | Required |
-|-------|--------|-------------|----------|
-| num1  | number |             | true     |
-| num2  | number |             | true     |
+| Field | Type   | Description                          | Required |
+| ----- | ------ | ------------------------------------ | :------: |
+| num   | number | Numbers to perform calculation with. |   true   |
 
 ## Example(s)
 

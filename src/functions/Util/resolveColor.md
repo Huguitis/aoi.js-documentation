@@ -9,21 +9,21 @@ id: resolveColor
 ## Usage
 
 ```php
-$resolveColor[type;returnAs?;...datas]
+$resolveColor[type;returnAs?;...data]
 ```
 
 ## Parameters
 
-| Field     | Type   | Description                               | Required |
-|-----------|--------|-------------------------------------------|----------|
-| type      | string | which type the input is                   | true     |
-| returnAs? | string | as what the color will be returned        | false    |
-| datas     | string | the data of the RGB or decimal color data | true     |
+| Field     | Type   | Description                                | Required |
+| --------- | ------ | ------------------------------------------ | :------: |
+| type      | string | Which type the input is.                   |   true   |
+| returnAs? | string | As what the color will be returned.        |  false   |
+| ...data   | string | The data of the RGB or decimal color data. |   true   |
 
 ### Types
 
 | Types   |                   | Returns     |
-|---------|-------------------|-------------|
+| ------- | ----------------- | ----------- |
 | RGB     | red, green, blue  | 50, 168, 82 |
 | decimal | hex color         | #32a852     |
 | number  | hexadecimal color | 80          |

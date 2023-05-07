@@ -14,15 +14,15 @@ $toUpperCase[text]
 
 ## Parameters
 
-| Field | Type   | Description | Required |
-|-------|--------|-------------|----------|
-| text  | string |             | true     |
+| Field | Type   | Description                      | Required |
+| ----- | ------ | -------------------------------- | :------: |
+| text  | string | The text to change to uppercase. |   true   |
 
 ## Example(s)
 
 This will everything given to uppercase, in this case it would return `THIS IS AN EXAMPLE`:
 
-```php
+```javascript
 bot.command({
     name: "toUpperCase",
     code: `

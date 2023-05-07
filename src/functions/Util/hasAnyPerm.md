@@ -14,17 +14,17 @@ $hasAnyPerm[guildID;userID;...perms]
 
 ## Parameters
 
-| Field   | Type    | Description                                             | Required |
-|---------|---------|---------------------------------------------------------|----------|
-| guildID | integer | ID of the guild where the client checks the permissions | true     |
-| userID  | integer | ID of the user                                          | false    |
-| perms   | string  | permissions needed                                      | true     |
+| Field    | Type    | Description                                              | Required |
+| -------- | ------- | -------------------------------------------------------- | :------: |
+| guildID  | integer | ID of the guild where the client checks the permissions. |   true   |
+| userID   | integer | ID of the user.                                          |  false   |
+| ...perms | string  | Permissions.                                             |   true   |
 
 <details>
   <summary> <h3> Discord API Permissions </h3></summary>
 
 | Permission              |                                                                 |
-|-------------------------|-----------------------------------------------------------------|
+| ----------------------- | --------------------------------------------------------------- |
 | createinvite            | Permission to create guild invites                              |
 | kick                    | Permission to kick guild members                                |
 | ban                     | Permission to ban guild members                                 |

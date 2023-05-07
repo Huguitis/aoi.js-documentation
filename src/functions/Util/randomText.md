@@ -14,9 +14,9 @@ $randomText[text;text;...]
 
 ## Parameters
 
-| Field | Type   | Description                              | Required |
-|-------|--------|------------------------------------------|----------|
-| text  | string | any words you want to be chosen randomly | true     |
+| Field | Type   | Description                                                 | Required |
+| ----- | ------ | ----------------------------------------------------------- | :------: |
+| text  | string | Any words/sentences/letters you want to be chosen randomly. |   true   |
 
 ## Example(s)
 

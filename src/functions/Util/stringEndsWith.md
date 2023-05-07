@@ -14,10 +14,10 @@ $stringEndsWith[text;check]
 
 ## Parameters
 
-| Field | Type   | Description                                                           | Required |
-|-------|--------|-----------------------------------------------------------------------|----------|
-| text  | string | the text that will be checked                                         | true     |
-| check | string | the argument that will check if the text ends with something specific | true     |
+| Field | Type   | Description                                                            | Required |
+| ----- | ------ | ---------------------------------------------------------------------- | :------: |
+| text  | string | The text that will be checked.                                         |   true   |
+| check | string | The argument that will check if the text ends with something specific. |   true   |
 
 ## Example(s)
 

@@ -9,15 +9,15 @@ id: isStreaming
 ## Usage
 
 ```php
-$isStreaming[userid?;guildid?]
+$isStreaming[userID?;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                                    | Required |
-|----------|---------|----------------------------------------------------------------|----------|
-| userid?  | integer | the user id of the user you want to check if they're streaming | false    |
-| guildid? | integer | the guild id of where they're streaming in                     | false    |
+| Field    | Type    | Description                                            | Required |
+| -------- | ------- | ------------------------------------------------------ | :------: |
+| userID?  | integer | ID of the user you want to check if they're streaming. |  false   |
+| guildID? | integer | ID of the channel where they're streaming in.          |  false   |
 
 ## Example(s)
 
@@ -27,7 +27,7 @@ This will return either `true` or `false` depending on if you're streaming (voic
 bot.command({
     name: 'isStreaming',
     code: `
-  $isStreaming[$authorID;$guildid]
+  $isStreaming[$authorID;$guildID]
   `
 });
 ```

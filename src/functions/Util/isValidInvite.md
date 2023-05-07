@@ -9,14 +9,14 @@ id: isValidInvite
 ## Usage
 
 ```php
-$isValidInvite[URL]
+$isValidInvite[inviteResolver]
 ```
 
 ## Parameters
 
-| Field | Type   | Description      | Required |
-|-------|--------|------------------|----------|
-| URL   | string | guild invite URL | true     |
+| Field          | Type   | Description        | Required |
+| -------------- | ------ | ------------------ | :------: |
+| inviteResolver | string | Guild invite link. |   true   |
 
 ## Example(s)
 

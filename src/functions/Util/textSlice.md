@@ -14,11 +14,11 @@ $textSlice[text;from?;to]
 
 ## Parameters
 
-| Field | Type   | Description                               | Required |
-|-------|--------|-------------------------------------------|----------|
-| text  | string | text you want to slice                    | true     |
-| from? | number | starting point where to slice the message | false    |
-| to    | number | ending point where slicing ends           | true     |
+| Field | Type   | Description                                | Required |
+| ----- | ------ | ------------------------------------------ | :------: |
+| text  | string | Text you want to slice.                    |   true   |
+| from? | number | Starting point where to slice the message. |  false   |
+| to    | number | Ending point where slicing ends.           |   true   |
 
 ## Example(s)
 

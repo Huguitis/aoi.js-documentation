@@ -9,15 +9,15 @@ id: roleExists
 ## Usage
 
 ```php
-$roleExists[roleId;guildId?]
+$roleExists[roleResolver;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                 | Required |
-|----------|---------|---------------------------------------------|----------|
-| roleId   | integer | role ID you want to check if it exists      | true     |
-| guildId? | integer | guild ID of the guild where the role exists | false    |
+| Field        | Type    | Description                                    | Required |
+| ------------ | ------- | ---------------------------------------------- | :------: |
+| roleResolver | integer | ID of the role you want to check if it exists. |   true   |
+| guildID?     | integer | ID of the guild where the role exists.         |  false   |
 
 ## Example(s)
 

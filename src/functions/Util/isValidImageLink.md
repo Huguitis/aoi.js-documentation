@@ -14,9 +14,9 @@ $isValidImageLink[URL]
 
 ## Parameters
 
-| Field | Type   | Description       | Required |
-|-------|--------|-------------------|----------|
-| URL   | string | direct image link | true     |
+| Field | Type   | Description        | Required |
+| ----- | ------ | ------------------ | :------: |
+| URL   | string | Direct Image link. |   true   |
 
 ## Example(s)
 

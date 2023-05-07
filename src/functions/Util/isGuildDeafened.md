@@ -10,15 +10,15 @@ id: isGuildDeafened
 ## Usage
 
 ```php
-$isGuildDeafened[userid?;guildid?]
+$isGuildDeafened[userID?;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                                          | Required |
-|----------|---------|----------------------------------------------------------------------|----------|
-| userid?  | integer | the user id of the user you want to check if they're server deafened | false    |
-| guildid? | integer | the guild id of the guild where they're server deafened in           | false    |
+| Field    | Type    | Description                                                      | Required |
+| -------- | ------- | ---------------------------------------------------------------- | :------: |
+| userID?  | integer | The ID of the user you want to check if they're server deafened. |  false   |
+| guildID? | integer | The ID of the guild where they're server deafened in.            |  false   |
 
 ## Example(s)
 

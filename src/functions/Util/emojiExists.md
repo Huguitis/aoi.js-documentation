@@ -9,16 +9,14 @@ id: emojiExists
 ## Usage
 
 ```php
-$emojiExists[emoji]
+$emojiExists[emojiResolver]
 ```
 
 ## Parameters
 
-| Field | Type   | Description                          | Required |
-|-------|--------|--------------------------------------|----------|
-| emoji | string | emoji you want to check if it exists | true     |
-
-### Please note that your bot has to be present in the guild where the emoji is in.
+| Field         | Type   | Description                           | Required |
+| ------------- | ------ | ------------------------------------- | :------: |
+| emojiResolver | string | Emoji you want to check if it exists. |   true   |
 
 ## Example(s)
 

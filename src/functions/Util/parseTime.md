@@ -14,9 +14,9 @@ $parseTime[time]
 
 ## Parameters
 
-| Field | Type   | Description                             | Required |
-|-------|--------|-----------------------------------------|----------|
-| time  | string | the time that will be converted to `ms` | true     |
+| Field | Type   | Description                              | Required |
+| ----- | ------ | ---------------------------------------- | :------: |
+| time  | string | The time that will be converted to `ms`. |   true   |
 
 ## Example(s)
 

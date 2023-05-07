@@ -9,8 +9,7 @@ id: guildCooldown
 ## Usage
 
 ```php
-$guildCooldown[time;errorMessage
-]
+$guildCooldown[time;errorMessage]
 ```
 
 * You are able to retrieve the remaining cooldown in the `$guildCooldown` function by using **`%time%`** or any of the
@@ -19,10 +18,10 @@ $guildCooldown[time;errorMessage
 
 ## Parameters
 
-| Field         | Type   | Description                                                | Required |
-|---------------|--------|------------------------------------------------------------|----------|
-| time          | number | the duration of the cooldown                               | true     |
-| errorMessage | string | Error message when there's remaining time for the cooldown. | true |
+| Field        | Type   | Description                                                 | Required |
+| ------------ | ------ | ----------------------------------------------------------- | :------: |
+| time         | number | The duration of the cooldown.                               |   true   |
+| errorMessage | string | Error message when there's remaining time for the cooldown. |   true   |
 
 ## Example(s)
 

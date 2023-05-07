@@ -14,9 +14,9 @@ $nonEscape[message]
 
 ## Parameters
 
-| Field   | Type   | Description                      | Required |
-|---------|--------|----------------------------------|----------|
-| message | string | text you dont want to be escaped | true     |
+| Field   | Type   | Description                        | Required |
+| ------- | ------ | ---------------------------------- | -------- |
+| message | string | Text you don't want to be escaped. | true     |
 
 ## Example(s)
 

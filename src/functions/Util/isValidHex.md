@@ -9,14 +9,14 @@ id: isValidHex
 ## Usage
 
 ```php
-$isValidHex[color/int]
+$isValidHex[colorResolver]
 ```
 
 ## Parameters
 
-| Field     | Type           | Description                | Required |
-|-----------|----------------|----------------------------|----------|
-| color/int | string/integer | hex / decimal color string | true     |
+| Field         | Type            | Description                 | Required |
+| ------------- | --------------- | --------------------------- | :------: |
+| colorResolver | string, integer | Hex / decimal color string. |   true   |
 
 ## Example(s)
 

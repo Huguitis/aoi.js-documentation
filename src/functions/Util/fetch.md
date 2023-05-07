@@ -14,16 +14,16 @@ $fetch[method;query;...query]
 
 ## Parameters
 
-| Field  | Type   | Description           | Required |
-|--------|--------|-----------------------|----------|
-| method | string | method (listed below) | true     |
-| query  | string | input for the method  | true     |
+| Field  | Type   | Description                     | Required |
+| ------ | ------ | ------------------------------- | :------: |
+| method | string | Method to fetch (listed below). |   true   |
+| query  | string | Input for the used method.      |   true   |
 
 <details>
   <summary><h3> Methods </h3></summary>
 
 | Methods             |
-|---------------------|
+| ------------------- |
 | message             |
 | channel             |
 | user                |
@@ -42,7 +42,7 @@ $fetch[method;query;...query]
 
 ## Example(s)
 
-This will display information about the message using the `fetch` function:
+This will display information about the initial command message using the `fetch` function:
 
 ```javascript
 bot.command({

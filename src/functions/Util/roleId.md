@@ -14,10 +14,10 @@ $roleId[roleResolver;guildID?]
 
 ## Parameters
 
-| Field        | Type   | Description                                   | Required |
-|--------------|--------|-----------------------------------------------|----------|
-| roleResolver | string | name of the role                              | true     |
-| guildID?     | string | id of the guild where the role was created in | false    |
+| Field        | Type   | Description                                    | Required |
+| ------------ | ------ | ---------------------------------------------- | :------: |
+| roleResolver | string | Name of the role.                              |   true   |
+| guildID?     | string | ID of the guild where the role was created in. |  false   |
 
 ## Example(s)
 

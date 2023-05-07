@@ -9,15 +9,15 @@ id: isTimeout
 ## Usage
 
 ```php
-$isTimeout[guildid?;userid?]
+$isTimeout[guildID?;userID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                | Required |
-|----------|---------|--------------------------------------------|----------|
-| guildid? | integer | the guild id of where they're timeouted in | false    |
-| userid?  | integer | the user id of the user that's timeouted   | false    |
+| Field    | Type    | Description                                     | Required |
+| -------- | ------- | ----------------------------------------------- | :------: |
+| guildID? | integer | The ID of the guild where they're timeouted in. |  false   |
+| userID?  | integer | The ID of the user that's timeouted.            |  false   |
 
 ## Example(s)
 

@@ -14,10 +14,10 @@ $mentioned[index;returnSelf?]
 
 ## Parameters
 
-| Field       | Type   | Description                                  | Required |
-|-------------|--------|----------------------------------------------|----------|
-| index       | number | the index of the argument                    | true     |
-| returnSelf? | string | return the author's id if user was not found | false    |
+| Field       | Type    | Description                                   | Required |
+| ----------- | ------- | --------------------------------------------- | :------: |
+| index       | number  | The index of the argument.                    |   true   |
+| returnSelf? | boolean | Return the author's ID if user was not found. |  false   |
 
 ## Example(s)
 

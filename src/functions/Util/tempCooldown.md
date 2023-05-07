@@ -18,11 +18,11 @@ $tempCooldown[time;id;errorMessage?]
 
 ## Parameters
 
-| Field         | Type   | Description                                                | Required |
-|---------------|--------|------------------------------------------------------------|----------|
-| time          | string | The duration of the cooldown.                               | true     |
-| id            | string | can be user, guild, message, channel or any other ID       | true     |
-| errorMessage | string | Error message when there's remaining time for the cooldown. | true |
+| Field        | Type   | Description                                                 | Required |
+| ------------ | ------ | ----------------------------------------------------------- | :------: |
+| time         | string | The duration of the cooldown.                               |   true   |
+| id           | string | Can be user, guild, message, channel or any other ID.       |   true   |
+| errorMessage | string | Error message when there's remaining time for the cooldown. |   true   |
 
 ## Example(s)
 

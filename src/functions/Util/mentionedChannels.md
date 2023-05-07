@@ -14,10 +14,10 @@ $mentionedChannels[index;returnSelf?]
 
 ## Parameters
 
-| Field       | Type   | Description                                                                               | Required |
-|-------------|--------|-------------------------------------------------------------------------------------------|----------|
-| index       | number | the index of the argument                                                                 | true     |
-| returnSelf? | string | return the id of the channel where the command was executed in when channel was not found | false    |
+| Field       | Type    | Description                                                                                | Required |
+| ----------- | ------- | ------------------------------------------------------------------------------------------ | :------: |
+| index       | number  | The index of the argument.                                                                 |   true   |
+| returnSelf? | boolean | Return the ID of the channel where the command was executed in when channel was not found. |  false   |
 
 ## Example(s)
 

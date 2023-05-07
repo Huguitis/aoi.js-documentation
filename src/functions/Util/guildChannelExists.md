@@ -1,23 +1,23 @@
 ---
 title: $guildChannelExists
-description: $guildChannelExists will check if the given guild channel exists.
+description: $guildChannelExists will check if a given guild channel exists.
 id: guildChannelExists
 ---
 
-`$guildChannelExists` will check if the given guild channel exists.
+`$guildChannelExists` will check if a given guild channel exists.
 
 ## Usage
 
 ```php
-$guildChannelExists[channel;guildID?]
+$guildChannelExists[guildID;channelResolver]
 ```
 
 ## Parameters
 
-| Field   | Type    | Description                                       | Required |
-|---------|---------|---------------------------------------------------|----------|
-| channel | string  | channel ID or name of the guild channel           | true     |
-| guildId | integer | id of the guild where the guild channel exists in | true     |
+| Field           | Type            | Description                                        | Required |
+| --------------- | --------------- | -------------------------------------------------- | :------: |
+| guildID         | integer         | ID of the guild where the guild channel exists in. |   true   |
+| channelResolver | integer, string | Channel ID or name of the channel.                 |   true   |
 
 ## Example(s)
 
@@ -27,7 +27,7 @@ This will check if a guild channel with the name `rules` exists, alternatively y
 bot.command({
     name: 'guildChannelExists',
     code: `
-  $guildChannelExists[rules]
+  $guildChannelExists[$guildID;rules]
   `
 });
 ```

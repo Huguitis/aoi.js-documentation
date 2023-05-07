@@ -9,14 +9,14 @@ id: multi
 ## Usage
 
 ```php
-$multi[...numbers;...numbers]
+$multi[num;num]
 ```
 
 ## Parameters
 
-| Field   | Type   | Description                  | Required |
-|---------|--------|------------------------------|----------|
-| numbers | number | numbers you want to multiply | true     |
+| Field | Type   | Description                   | Required |
+| ----- | ------ | ----------------------------- | :------: |
+| num   | number | Numbers you want to multiply. |   true   |
 
 ## Example(s)
 

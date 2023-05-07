@@ -9,24 +9,24 @@ id: mentionType
 ## Usage
 
 ```php
-$mentionType[mention]
+$mentionType[content]
 ```
 
 ## Parameters
 
-| Field   | Type   | Description         | Required |
-|---------|--------|---------------------|----------|
-| mention | string | any type of mention | true     |
+| Field   | Type   | Description                                      | Required |
+| ------- | ------ | ------------------------------------------------ | :------: |
+| content | string | The mention whose mention type will be returned. |   true   |
 
-<details open>
-  <summary> <h3> Available Types </h3></summary>
+<details>
+  <summary> <h3> Mention Types </h3></summary>
 
-| Type     | Description                      |
-|----------|----------------------------------|
-| everyone | `@everyone` and `@here` mentions |
-| users    | all user mentions                |
-| roles    | all role mentions                |
-| all      | everything listed above          |
+| Type     | Description                       |
+| -------- | --------------------------------- |
+| everyone | `@everyone` and `@here` mentions. |
+| users    | All user mentions.                |
+| roles    | All role mentions.                |
+| all      | Everything listed above.          |
 
 </details>
 

@@ -14,15 +14,15 @@ $toLowerCase[text]
 
 ## Parameters
 
-| Field | Type   | Description | Required |
-|-------|--------|-------------|----------|
-| text  | string |             | true     |
+| Field | Type   | Description                      | Required |
+| ----- | ------ | -------------------------------- | :------: |
+| text  | string | The text to change to lowercase. |   true   |
 
 ## Example(s)
 
 This will everything given to lowercase, in this case it would return `aoi.js is great.`:
 
-```php
+```javascript
 bot.command({
     name: "toLowerCase",
     code: `

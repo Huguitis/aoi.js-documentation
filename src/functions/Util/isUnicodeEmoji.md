@@ -9,14 +9,14 @@ id: isUnicodeEmoji
 ## Usage
 
 ```php
-$isUnicodeEmoji[emoji]
+$isUnicodeEmoji[emojiResolver]
 ```
 
 ## Parameters
 
-| Field | Type   | Description   | Required |
-|-------|--------|---------------|----------|
-| emoji | string | unicode emoji | true     |
+| Field         | Type   | Description    | Required |
+| ------------- | ------ | -------------- | :------: |
+| emojiResolver | string | Unicode emoji. |   true   |
 
 ## Example(s)
 

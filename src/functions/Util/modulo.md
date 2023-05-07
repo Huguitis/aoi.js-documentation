@@ -9,14 +9,14 @@ id: modulo
 ## Usage
 
 ```php
-$modulo[...numbers;...numbers]
+$modulo[num;num]
 ```
 
 ## Parameters
 
-| Field   | Type   | Description    | Required |
-|---------|--------|----------------|----------|
-| numbers | number | math operation | true     |
+| Field | Type   | Description                          | Required |
+| ----- | ------ | ------------------------------------ | :------: |
+| num   | number | Numbers to return the raimainder of. |   true   |
 
 ## Example(s)
 

@@ -14,14 +14,14 @@ $repeatMessage[time;text]
 
 ## Parameters
 
-| Field | Type    | Description                                | Required |
-|-------|---------|--------------------------------------------|----------|
-| time  | integer | the amount of times the text gets repeated | true     |
-| text  | string  | the text that will get repeated            | true     |
+| Field | Type    | Description                                 | Required |
+| ----- | ------- | ------------------------------------------- | :------: |
+| time  | integer | The amount of times the text gets repeated. |   true   |
+| text  | string  | The text that will get repeated.            |   true   |
 
 ## Example(s)
 
-This will return `Hello ` twenty times:
+This will return `Hello` twenty times:
 
 ```javascript
 bot.command({

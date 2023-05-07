@@ -14,9 +14,9 @@ $isVoice[channelID]
 
 ## Parameters
 
-| Field      | Type    | Description                              | Required |
-|------------|---------|------------------------------------------|----------|
-| channelID? | integer | ID of the channel that you want to check | false    |
+| Field     | Type    | Description                                                       | Required |
+| --------- | ------- | ----------------------------------------------------------------- | :------: |
+| channelID | integer | ID of the channel that you want to check if it's a Voice Channel. |   true   |
 
 ## Example(s)
 

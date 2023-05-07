@@ -124,38 +124,6 @@ bot.functionManager.createFunction({
 ### Discord.js Custom Functions Examples
 
 ```ts
-$removeObjectProperty[...propertyNames;object]
-```
-
-Packages required: `none`  
-Difficulty: Advanced
-
-```js
-bot.functionManager.createFunction({
-  name: "$removeObjectProperty",
-  type: "djs",
-  code: async d => {
-    const data = d.util.aoiFunc(d);
-    if (data.err) return d.error(data.err);
-    const [propertyNamesStr, objectStr] = data.inside.splits;
-    if (!objectStr) return d.aoiError.fnError(d, 'custom', {}, 'Missing object');
-    if (!propertyNamesStr) return d.aoiError.fnError(d, 'custom', {}, 'Missing object property names');
-    const propertyNames = propertyNamesStr.split(",");
-    const object = JSON.parse(objectStr);
-    propertyNames.forEach(propertyName => {
-      delete object[propertyName];
-    });
-    data.result = JSON.stringify(object);
-    return {
-      code: d.util.setCode(data)
-    };
-  }
-});
-```
-
----
-
-```ts
 $sendImage[URL]
 ```
 
@@ -173,7 +141,7 @@ bot.functionManager.createFunction({
     let image = URL;
     const a = await d.message.channel.send({
       files: [{ 
-        attachment: image 
+        attachment: image // set the given URL as attachment.
         }]
     });
 
@@ -196,7 +164,7 @@ Difficulty: Advanced
 
 ```javascript
 bot.functionManager.createFunction({
-  name: '$imaginate',
+  name: '$imagine',
   type: 'djs',
   code: async d => {
   const { Configuration, OpenAIApi } = require("openai");
@@ -205,20 +173,19 @@ bot.functionManager.createFunction({
   if(!description) return d.aoiError.fnError(d, 'custom', {}, 'Missing description to generate a image!');
 
   const config = new Configuration({
-    apiKey: "open AI api key"
+    apiKey: "openAI API key" // required to interact with the API
   });
   const openai = new OpenAIApi(config);
 
   try {
     const response = await openai.createImage({
-      prompt: description,
-      n: 1,
+      prompt: description, // get the description from the input $imagine[INPUT]
+      n: 1, // generate one variation.
       size: "1024x1024",
     });
     data.result = response.data.data[0].URL;
-    console.log(data.result);
     return {
-      code: d.util.setCode(data)
+      code: d.util.setCode(data) 
     };
   } catch (e) {
     console.error(e);

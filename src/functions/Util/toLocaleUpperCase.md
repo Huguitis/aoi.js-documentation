@@ -14,15 +14,15 @@ $toLocaleUpperCase[text]
 
 ## Parameters
 
-| Field | Type   | Description | Required |
-|-------|--------|-------------|----------|
-| text  | string |             | true     |
+| Field | Type   | Description                             | Required |
+| ----- | ------ | --------------------------------------- | :------: |
+| text  | string | The text to change to locale uppercase. |   true   |
 
 ## Example(s)
 
 This will change every first character of a word to uppercase, in this case it would return `Hello, I'm Happy.`:
 
-```php
+```javascript
 bot.command({
     name: "toLocaleUpperCase",
     code: `

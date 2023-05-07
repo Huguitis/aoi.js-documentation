@@ -14,11 +14,11 @@ $hasAnyRole[guildID;userID;...roles]
 
 ## Parameters
 
-| Field   | Type    | Description                             | Required |
-|---------|---------|-----------------------------------------|----------|
-| guildID | integer | guild ID where the roles are present in | true     |
-| userID  | integer | user ID of the user which has the roles | true     |
-| roles   | integer | the roles that will be checked for      | true     |
+| Field    | Type    | Description                                     | Required |
+| -------- | ------- | ----------------------------------------------- | :------: |
+| guildID  | integer | ID of the guild where the roles are present in. |   true   |
+| userID   | integer | ID of the user.                                 |   true   |
+| ...roles | integer | The roles that will be checked for.             |   true   |
 
 ## Example(s)
 

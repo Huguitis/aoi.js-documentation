@@ -14,12 +14,10 @@ $isRoleManaged[roleID;guildID?]
 
 ## Parameters
 
-| Field    | Type    | Description                                                             | Required |
-|----------|---------|-------------------------------------------------------------------------|----------|
-| roleID   | integer | role ID of the role you want to check if it's managed by Discord or not | true     |
-| guildID? | integer | guild ID of where the role exists                                       | false    |
-
-### Please note that your bot has to be in the same server as the role or else this function will not work.
+| Field    | Type    | Description                                                         | Required |
+| -------- | ------- | ------------------------------------------------------------------- | :------: |
+| roleID   | integer | ID of the role you want to check if it's managed by Discord or not. |   true   |
+| guildID? | integer | ID of the guild where the role exists.                              |  false   |
 
 ## Example(s)
 

@@ -14,9 +14,9 @@ $spliceTextJoin[text;splitter;sep1?;sep2?]
 
 ## Parameters
 
-| Field    | Type   | Description | Required |
-|----------|--------|-------------|----------|
-| text     | string |             | true     |
-| splitter | string |             | true     |
-| sep1     | string |             | false    |
-| sep2     | string |             | false    |
+| Field    | Type   | Description   | Required |
+| -------- | ------ | ------------- | :------: |
+| text     | string | Text to join. |   true   |
+| splitter | string | How to split. |   true   |
+| sep1     | string | Separator.    |  false   |
+| sep2     | string | Separator.    |  false   |

@@ -9,15 +9,15 @@ $isSelfMuted is similar but not to confuse with `$isMuted`, this will check if t
 ## Usage
 
 ```php
-$isSelfMuted[userid?;guildid?]
+$isSelfMuted[userID?;guildID?]
 ```
 
 ## Parameters
 
-| Field    | Type    | Description                                                | Required |
-|----------|---------|------------------------------------------------------------|----------|
-| userid?  | integer | the user id of the user you want to check if they're muted | false    |
-| guildid? | integer | the guild id of the guild where they're muted in           | false    |
+| Field    | Type    | Description                                        | Required |
+| -------- | ------- | -------------------------------------------------- | :------: |
+| userID?  | integer | ID of the user you want to check if they're muted. |  false   |
+| guildID? | integer | ID of the guild where they're muted in.            |  false   |
 
 ## Example(s)
 

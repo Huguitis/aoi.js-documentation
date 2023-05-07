@@ -9,22 +9,22 @@ id: hasPermsInChannel
 ## Usage
 
 ```php
-$hasPermsInChannel[channelID;userorroleID;...perms]
+$hasPermsInChannel[channelID;userOrRoleID;...perms]
 ```
 
 ## Parameters
 
-| Field        | Type    | Description                                               | Required |
-|--------------|---------|-----------------------------------------------------------|----------|
-| channelD     | integer | ID of the channel where the client checks the permissions | true     |
-| userorroleID | integer | ID of the user or role                                    | true     |
-| perms        | string  | permissions needed                                        | true     |
+| Field        | Type    | Description                                                | Required |
+| ------------ | ------- | ---------------------------------------------------------- | -------- |
+| channelD     | integer | ID of the channel where the client checks the permissions. | true     |
+| userOrRoleID | integer | ID of the user or role.                                    | true     |
+| ...perms     | string  | Permissions.                                               | true     |
 
 <details>
   <summary> <h3> Discord API Permissions </h3></summary>
 
 | Permission              |                                                                 |
-|-------------------------|-----------------------------------------------------------------|
+| ----------------------- | --------------------------------------------------------------- |
 | createinvite            | Permission to create guild invites                              |
 | kickmembers             | Permission to kick guild members                                |
 | banmembers              | Permission to ban guild members                                 |

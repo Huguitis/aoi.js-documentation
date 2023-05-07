@@ -14,9 +14,9 @@ $isDM[channelID?]
 
 ## Parameters
 
-| Field      | Type    | Description                              | Required |
-|------------|---------|------------------------------------------|----------|
-| channelID? | integer | ID of the channel that you want to check | false    |
+| Field      | Type    | Description                               | Required |
+| ---------- | ------- | ----------------------------------------- | :------: |
+| channelID? | integer | ID of the channel that you want to check. |  false   |
 
 ## Example(s)
 

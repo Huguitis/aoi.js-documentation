@@ -9,15 +9,15 @@ id: messageExists
 ## Usage
 
 ```php
-$messageExists[messageid;channelid?]
+$messageExists[messageID;channelID?]
 ```
 
 ## Parameters
 
 | Field      | Type    | Description                                 | Required |
 |------------|---------|---------------------------------------------|----------|
-| messageid  | integer | the id of the message                       | true     |
-| channelid? | integer | the channel id where the message is located | false    |
+| messageID  | integer | the id of the message                       | true     |
+| channelID? | integer | the channel id where the message is located | false    |
 
 ## Example(s)
 

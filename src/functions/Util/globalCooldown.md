@@ -9,8 +9,7 @@ id: globalCooldown
 ## Usage
 
 ```php
-$globalCooldown[time;errorMessage
-]
+$globalCooldown[time;errorMessage]
 ```
 
 * You are able to retrieve the remaining cooldown in the `$globalCooldown` function by using **`%time%`** or any of the
@@ -19,10 +18,10 @@ $globalCooldown[time;errorMessage
 
 ## Parameters
 
-| Field         | Type   | Description                                                     | Required |
-|---------------|--------|-----------------------------------------------------------------|----------|
-| time          | string | the duration of the cooldown                                    | true     |
-| errorMessage? | string | error message given when there's remaining time of the cooldown | false    |
+| Field        | Type   | Description                                                      | Required |
+| ------------ | ------ | ---------------------------------------------------------------- | :------: |
+| time         | string | The duration of the cooldown.                                    |   true   |
+| errorMessage | string | Error message given when there's remaining time of the cooldown. |   true   |
 
 ## Example(s)
 

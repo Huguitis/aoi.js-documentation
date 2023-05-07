@@ -1,10 +1,10 @@
 ---
 title: $expandNumber
-description: $expandNumber will expand the given number.
+description: $expandNumber will expand any given number.
 id: expandNumber
 ---
 
-`$expandNumber` will expand the given number.
+`$expandNumber` will expand any given number.
 
 ## Usage
 
@@ -14,9 +14,9 @@ $expandNumber[abbrNumber]
 
 ## Parameters
 
-| Field      | Type   | Description               | Required |
-|------------|--------|---------------------------|----------|
-| abbrNumber | string | number you want to expand | true     |
+| Field      | Type   | Description                | Required |
+| ---------- | ------ | -------------------------- | :------: |
+| abbrNumber | string | Number you want to expand. |   true   |
 
 ## Example(s)
 

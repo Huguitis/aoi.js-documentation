@@ -9,26 +9,26 @@ id: replaceTextWithRegex
 ## Usage
 
 ```php
-$replaceTextWithRegex[text;reg;flags;newT]
+$replaceTextWithRegex[text;reg;flags;newText]
 ```
 
 ## Parameters
 
-| Field | Type   | Description                      | Required |
-|-------|--------|----------------------------------|----------|
-| text  | string | text you want to modify          | true     |
-| reg   | string | the regex that will be replaced  | true     |
-| flags | string | [flags](#flags)                  | true     |
-| newT  | string | the text that will replace `reg` | false    |
+| Field   | Type   | Description                       | Required |
+| ------- | ------ | --------------------------------- | :------: |
+| text    | string | Text you want to modify.          |   true   |
+| reg     | string | The regex that will be replaced.  |   true   |
+| flags   | string | [Flags](#flags).                  |   true   |
+| newText | string | The text that will replace `reg`. |  false   |
 
 <details open>
   <summary><h2> Flags </h2></summary>
 
 | Flags |                                        |
-|-------|----------------------------------------|
-| g     | Replace all matches (case-sensitive)   |
-| m     | Multiline matching                     |
-| i     | Replace all matches (case-insensitive) |
+| :---: | -------------------------------------- |
+|   g   | Replace all matches (case-sensitive)   |
+|   m   | Multiline matching                     |
+|   i   | Replace all matches (case-insensitive) |
 
 </details>
 

@@ -9,16 +9,16 @@ id: findMember
 ## Usage
 
 ```php
-$findMember[user;returnSelf?;guildID?]
+$findMember[userResolver;returnSelf?;guildID?]
 ```
 
 ## Parameters
 
-| Field       | Type    | Description                                  | Required |
-|-------------|---------|----------------------------------------------|----------|
-| user        | string  | user you want to find                        | true     |
-| returnSelf? | string  | return the author's id if user was not found | false    |
-| guildID?    | integer | guild ID where the user is present in        | false    |
+| Field        | Type    | Description                                           | Required |
+| ------------ | ------- | ----------------------------------------------------- | :------: |
+| userResolver | string  | User you want to find.                                |   true   |
+| returnSelf?  | boolean | Return the author ID if the given user was not found. |  false   |
+| guildID?     | integer | Guild ID where the user is present in.                |  false   |
 
 ## Example(s)
 

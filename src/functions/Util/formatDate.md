@@ -14,10 +14,10 @@ $formatDate[date;format?]
 
 ## Parameters
 
-| Field   | Type   | Description                                      | Required |
-| ------- | ------ | ------------------------------------------------ | -------- |
-| date    | number | the date you want to format                      | true     |
-| format? | string | the format that will be used to display the date | false    |
+| Field   | Type   | Description                                                      | Required |
+| ------- | ------ | ---------------------------------------------------------------- | :------: |
+| date    | number | The date you want to format.                                     |   true   |
+| format? | string | The format that will be used to display the date (listed below). |  false   |
 
 <details open>
   <summary> <h2> Possible formatting </h2></summary>
