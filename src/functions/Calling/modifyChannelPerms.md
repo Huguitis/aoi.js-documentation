@@ -9,7 +9,7 @@ id: modifyChannelPerms
 ## Usage
 
 ```php
-$modifyChannelPerms[roruID;channelID;...perms]
+$modifyChannelPerms[channelID;roruID;...perms]
 ```
 
 ## Parameters
