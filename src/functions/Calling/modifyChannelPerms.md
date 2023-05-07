@@ -36,7 +36,7 @@ This will allow `@everyone` to send messages and add reactions in the current ch
 bot.command({
     name: 'modifyChannelPerms',
     code: `
-  $modifyChannelPerms[$guildID;$channelID;+sendmessages;+addreactions]
+  $modifyChannelPerms[$channelID;$guildID;+sendmessages;+addreactions]
   `
 });
 ```
