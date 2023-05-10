@@ -9,7 +9,7 @@ id: channelSendMessage
 ## Usage
 
 ```php
-$channelSendMessage[channelID;message;returnID?]
+$channelSendMessage[channelID;content;returnID?]
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ $channelSendMessage[channelID;message;returnID?]
 | Field     | Type    | Description                                                                                   | Required |
 | --------- | ------- | --------------------------------------------------------------------------------------------- | :------: |
 | channelID | integer | Where the messages shall be sent to.                                                          |   true   |
-| message   | string  | What the content of the message should be.                                                    |   true   |
+| content   | string  | What the content of the message should be.                                                    |   true   |
 | returnID? | boolean | If the message ID should be returned or not. <br /> 1. **true** <br /> 2. **false** (default) |  false   |
 
 ## Example(s)
