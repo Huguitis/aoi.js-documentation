@@ -26,9 +26,7 @@ npm i @akarui/aoi.panel
 
 ```javascript
 const { Panel } = require("@akarui/aoi.panel");
-
 const { AoiClient } = require("aoi.js");
-
 
 const bot = new AoiClient({
     token: "Discord Bot Token",

@@ -4,7 +4,7 @@ description: $queue will return the current song queue.
 id: queue
 ---
 
-`$queue` will will return the current song queue.
+`$queue` will return the current song queue.
 
 ## Usage
 

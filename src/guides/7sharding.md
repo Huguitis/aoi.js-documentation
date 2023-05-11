@@ -84,7 +84,6 @@ const sharder = new ClientShard("./index.js", {
     token: "DISCORD BOT TOKEN"
 });
 
-
 sharder.startProcess();
 ```
 

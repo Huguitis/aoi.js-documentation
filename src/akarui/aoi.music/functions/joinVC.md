@@ -4,7 +4,7 @@ description: $joinVC will make your bot join a specified voice channel.
 id: joinVC
 ---
 
-`$joinVC` will will make your bot join a specified voice channel.
+`$joinVC` will make your bot join a specified voice channel.
 
 ## Usage
 

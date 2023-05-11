@@ -13,7 +13,6 @@ This guide will provide you with a comprehensive understanding of variables.
 
 ---
 
-
 ### Using Variables
 
 Variables are useful tools in programming that allow you to store values that can be accessed and manipulated throughout your code. To use a variable, you first need to declare it by giving it a name and assigning a value to it.
@@ -28,8 +27,6 @@ bot.variables({
     variableName: "string"
 });
 ```
-
-![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089014114048815194/wGV2JiLiHkleAAAAABJRU5ErkJggg.png)
 
 The `bot.variables()` function takes an object as an argument, where each property represents a variable name and its corresponding value.
 
@@ -59,8 +56,6 @@ module.exports = (bot) => {
  })
 }
 ```
-
-![preview](https://cdn.discordapp.com/attachments/1082168708866244648/1089013645339525220/hMuNNypDYKfdAAAAABJRU5ErkJggg.png)
 
 With these steps, you now have a working variable handler, which can help you keep your code organized and easier to manage.
 
