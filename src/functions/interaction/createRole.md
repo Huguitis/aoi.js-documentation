@@ -4,6 +4,8 @@ description: $createRole will create a new guild role.
 id: createRole
 ---
 
+`$createRole` will create a new guild role.
+
 ## Usage
 
 ```php
