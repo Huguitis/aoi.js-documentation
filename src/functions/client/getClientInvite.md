@@ -24,8 +24,8 @@ $getClientInvite[...perms?]
 | Permission              |                                                                 |
 | ----------------------- | --------------------------------------------------------------- |
 | createinvite            | Permission to create guild invites                              |
-| kick                    | Permission to kick guild members                                |
-| ban                     | Permission to ban guild members                                 |
+| kickmembers             | Permission to kick guild members                                |
+| banmembers              | Permission to ban guild members                                 |
 | administrator           | Administrator Permissions                                       |
 | managechannel           | Permission to manage guild channels                             |
 | manageserver            | Permissions to modify server settings                           |
@@ -35,7 +35,7 @@ $getClientInvite[...perms?]
 | stream                  | Permission to stream in voice channels                          |
 | viewchannel             | Permission to view a certain channel                            |
 | sendmessages            | Permission to send messages in a certain channel                |
-| sendtts                 | Permission to send Text-To-Speech messages                      |
+| sendttsmessages         | Permission to send Text-To-Speech messages                      |
 | managemessages          | Permission to manage messages                                   |
 | embedlinks              | Permission to embed links                                       |
 | attachfiles             | Permission to attach files                                      |
