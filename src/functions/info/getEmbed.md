@@ -53,7 +53,7 @@ This will return the description of an embed:
 bot.command({
     name: 'getEmbed',
     code: `
-$getEmbed[$channelID;messageID;1;description] //make sure to replace messageID with the actual message ID 
-  `
+$getEmbed[$channelID;messageID;1;description] 
+  ` //make sure to replace messageID with the actual message ID 
 });
 ```
