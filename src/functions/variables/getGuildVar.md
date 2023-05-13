@@ -16,7 +16,7 @@ $getGuildVar[varname;guildID?;table?]
 
 | Field    | Type    | Description     | Required |
 | -------- | ------- | --------------- | :------: |
-| varname  | string  | Variable name.  |   true   |
+| varname  | string  | Variable name.  |  true    |
 | guildID? | integer | Guild ID.       |  false   |
 | table?   | string  | Variable table. |  false   |
 

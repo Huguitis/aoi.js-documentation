@@ -16,8 +16,8 @@ $setGuildVar[varname;value;guildID?;table?]
 
 | Field    | Type    | Description         | Required |
 | -------- | ------- | ------------------- | :------: |
-| varname  | string  | Variable name.      |   true   |
-| value    | string  | New Variable value. |   true   |
+| varname  | string  | Variable name.      |  true    |
+| value    | string  | New Variable value. |  true    |
 | guildID? | integer | Guild ID.           |  false   |
 | table?   | string  | Variable table.     |  false   |
 

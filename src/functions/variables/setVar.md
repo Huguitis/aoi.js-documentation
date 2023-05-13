@@ -16,8 +16,8 @@ $setVar[varname;value;table?]
 
 | Field   | Type   | Description         | Required |
 | ------- | ------ | ------------------- | :------: |
-| Varname | string | Variable name.      |   true   |
-| Value   | string | New Variable value. |   true   |
+| Varname | string | Variable name.      |  true    |
+| Value   | string | New Variable value. |  true    |
 | Table?  | string | Variable table.     |  false   |
 
 ## Example(s)

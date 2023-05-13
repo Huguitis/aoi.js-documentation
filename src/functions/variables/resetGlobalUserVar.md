@@ -16,7 +16,7 @@ $resetGlobalUserVar[varname;table?]
 
 | Field   | Type   | Description     | Required |
 | ------- | ------ | --------------- | :------: |
-| varname | string | Variable name.  |   true   |
+| varname | string | Variable name.  |  true    |
 | table?  | string | Variable table. |  false   |
 
 ## Example(s)

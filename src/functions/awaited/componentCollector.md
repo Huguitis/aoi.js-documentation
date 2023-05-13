@@ -23,4 +23,4 @@ $componentCollector[messageID;userFilter;time;customIDs;commands;errorMsg?;endco
 | commands    | string  | Commands that will be executed, you can separate multiple emojis with a comma ( `,` ).          |   true   |
 | errorMsg?   | string  | Error message when command expires.                                                             |  false   |
 | endcommand? | integer | End command which will be executed when previous commands were executed.                        |  false   |
-| awaitData?       | string  | Awaited Data.                                                                                   |  false   |
+| awaitData?  | string  | Awaited Data.                                                                                   |  false   |

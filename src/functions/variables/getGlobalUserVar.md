@@ -16,7 +16,7 @@ $getGlobalUserVar[varname;userID?;table?]
 
 | Field   | Type    | Description     | Required |
 | ------- | ------- | --------------- | :------: |
-| varname | string  | Variable name.  |   true   |
+| varname | string  | Variable name.  |  true    |
 | userID? | integer | User ID.        |  false   |
 | table?  | string  | Variable table. |  false   |
 
