@@ -5,9 +5,9 @@
 │       README.md
 │
 ├───.github
-│       aoi.js-doc-structure.txt
 │       aoi.js-structure.txt
 │       contributing-example.md
+│       documentation-structure.txt
 │
 ├───extensions
 │   ├───akarui
@@ -94,7 +94,6 @@
 │           panel.md
 │
 └───src
-    ├───akarui
     ├───functions
     │   ├───array
     │   │       arrayAt.md
@@ -227,7 +226,6 @@
     │   │       guildVerificationLevel.md
     │   │       highestGuildRole.md
     │   │       ownerID.md
-    │   │       setGuildBanner.md
     │   │       setGuildDiscoverySplash.md
     │   │       setGuildIcon.md
     │   │       setGuildName.md
@@ -375,6 +373,7 @@
     │   │       sendWebhookMessage.md
     │   │       setApplicationCommandPermissions.md
     │   │       setChannelTopic.md
+    │   │       setGuildBanner.md
     │   │       setRoleColor.md
     │   │       setRolePosition.md
     │   │       setRoles.md
