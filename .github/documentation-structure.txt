@@ -1,4 +1,4 @@
-┌──────── Faf4a/aoi.js-documentation
+┌──────── aoi.js-documentation
 │
 ├───.gitignore
 │       LICENSE
