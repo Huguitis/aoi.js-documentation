@@ -10,48 +10,6 @@
 │       documentation-structure.txt
 │
 ├───extensions
-│   ├───akarui
-│   │   ├───aoi.music
-│   │   │   │   1introduction.md
-│   │   │   │
-│   │   │   └───functions
-│   │   │           addFilter.md
-│   │   │           autoPlay.md
-│   │   │           clearQueue.md
-│   │   │           getCurrentTrackDuration.md
-│   │   │           getFilters.md
-│   │   │           hasPlayer.md
-│   │   │           joinVC.md
-│   │   │           leaveVC.md
-│   │   │           loopMode.md
-│   │   │           loopStatus.md
-│   │   │           pauseTrack.md
-│   │   │           playerStatus.md
-│   │   │           playPreviousTrack.md
-│   │   │           playTrack.md
-│   │   │           queue.md
-│   │   │           queueLength.md
-│   │   │           removeFilter.md
-│   │   │           resetFilter.md
-│   │   │           resumeTrack.md
-│   │   │           seek.md
-│   │   │           setFilter.md
-│   │   │           shuffleQueue.md
-│   │   │           skipTo.md
-│   │   │           skipTrack.md
-│   │   │           songInfo.md
-│   │   │           stopPlayer.md
-│   │   │           stopTrack.md
-│   │   │           unshuffleQueue.md
-│   │   │           voicePing.md
-│   │   │           volume.md
-│   │   │
-│   │   └───aoi.panel
-│   │           1introduction.md
-│   │           advanced.md
-│   │           funcs.md
-│   │           panel.md
-│   │
 │   ├───aoi.music
 │   │   │   1introduction.md
 │   │   │
