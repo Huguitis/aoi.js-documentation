@@ -1,593 +1,770 @@
-AOI.JS\SRC\FUNCTIONS\FUNC
-├───array
-│       arrayAt.js
-│       arrayConcat.js
-│       arrayEvery.js
-│       arrayFilter.js
-│       arrayFind.js
-│       arrayForEach.js
-│       arrayIncludes.js
-│       arrayIndexOf.js
-│       arrayJoin.js
-│       arrayLastIndexOf.js
-│       arrayLength.js
-│       arrayMap.js
-│       arrayPop.js
-│       arrayPush.js
-│       arrayReverse.js
-│       arrayShift.js
-│       arrayShuffle.js
-│       arraySome.js
-│       arraySort.js
-│       arraySplice.js
-│       arrayUnshift.js
-│       createArray.js
-│       deleteArray.js
+┌──────── AkaruiDevelopment/aoi.js
 │
-├───awaited
-│       awaitCmdReactions.js
-│       awaitComponents.js
-│       awaitComponentsUntil.js
-│       awaitData.js
-│       awaitMessageReactions.js
-│       awaitMessages.js
-│       componentCollector.js
-│       deleteIn.js
-│       editIn.js
-│       reactionCollector.js
+├───.gitignore
+│       LICENSE
+│       package-lock.json
+│       package.json
+│       README.md
 │
-├───client
-│       clientID.js
-│       clientLeave.js
-│       clientOwnerIDs.js
-│       clientToken.js
-│       clientTyping.js
-│       getClientInvite.js
-│       killClient.js
-│       onlyClientPerms.js
-│       setClientAvatar.js
-│       setClientName.js
+├───.github
+│   │   CODE_OF_CONDUCT.md
+│   │   CONTRIBUTING.md
+│   │   labeler.yml
+│   │   PULL_REQUEST_TEMPLATE.md
+│   │
+│   ├───ISSUE_TEMPLATE
+│   │       bug_report.yml
+│   │       config.yml
+│   │       feature_requesting.yml
+│   │
+│   ├───PULL_REQUEST_TEMPLATE
+│   │       Functions.md
+│   │       Module.md
+│   │       nonCore.md
+│   │
+│   └───workflows
+│           add-feature-label.yml
+│           labeler.yml
+│           publish-dev.yml
 │
-├───event
-│       bulk.js
-│       channelUsed.js
-│       handleError.js
-│       interactionData.js
-│       interactionDefer.js
-│       interactionDeferUpdate.js
-│       interactionDelete.js
-│       interactionEdit.js
-│       interactionFollowUp.js
-│       interactionReply.js
-│       interactionUpdate.js
-│       isButtonInteraction.js
-│       isCommandInteraction.js
-│       isComponentInteraction.js
-│       isContextMenuInteraction.js
-│       isSelectMenuInteraction.js
-│       musicEventData.js
-│       newApplicationCmd.js
-│       newChannel.js
-│       newEmoji.js
-│       newGuild.js
-│       newMember.js
-│       newPresence.js
-│       newRole.js
-│       newState.js
-│       newUser.js
-│       oldApplicationCmd.js
-│       oldChannel.js
-│       oldEmoji.js
-│       oldGuild.js
-│       oldMember.js
-│       oldMessage.js
-│       oldMsgData.js
-│       oldPresence.js
-│       oldRole.js
-│       oldState.js
-│       oldUser.js
-│       oldVariable.js
-│       pinsUpdate.js
-│       rateLimit.js
-│       reactionData.js
-│       shard.js
-│       slashOption.js
-│       textInputValue.js
-│       timeoutData.js
-│       webhookUpdate.js
-│
-├───guild
-│       getGuildInvite.js
-│       guildAFKChannelID.js
-│       guildAvailable.js
-│       guildBanner.js
-│       guildBoostCount.js
-│       guildBoostLevel.js
-│       guildChannelExists.js
-│       guildChannels.js
-│       guildContentFilter.js
-│       guildCooldown.js
-│       guildCount.js
-│       guildDefaultMessageNotifications.js
-│       guildDescription.js
-│       guildEmojiExists.js
-│       guildEmojis.js
-│       guildExists.js
-│       guildFeatures.js
-│       guildHighestRole.js
-│       guildIcon.js
-│       guildID.js
-│       guildIDS.js
-│       guildMFALevel.js
-│       guildName.js
-│       guildNames.js
-│       guildNSFWLevel.js
-│       guildPreferredLocale.js
-│       guildRandomID.js
-│       guildRoles.js
-│       guildRulesChannelID.js
-│       guildShard.js
-│       guildShardID.js
-│       guildShardPing.js
-│       guildSplash.js
-│       guildSystemChannelID.js
-│       guildVerificationLevel.js
-│       ownerID.js
-│       setGuildBanner.js
-│       setGuildDiscoverySplash.js
-│       setGuildIcon.js
-│       setGuildName.js
-│
-├───info
-│       allChannelsCount.js
-│       allEmojisCount.js
-│       allMembersCount.js
-│       banCount.js
-│       boostingSince.js
-│       botCount.js
-│       categoryChannels.js
-│       channelCategoryID.js
-│       channelCount.js
-│       channelID.js
-│       channelName.js
-│       channelNSFW.js
-│       channelOverwrites.js
-│       channelTopic.js
-│       channelType.js
-│       commandCode.js
-│       commandInfo.js
-│       commandName.js
-│       commandsCount.js
-│       cpu.js
-│       customEmoji.js
-│       databasePing.js
-│       date.js
-│       datestamp.js
-│       day.js
-│       emojiCount.js
-│       getAttachments.js
-│       getAuditLogs.js
-│       getBanReason.js
-│       getChannelSlowmode.js
-│       getEmbed.js
-│       getMessage.js
-│       getReactions.js
-│       getRoleColor.js
-│       highestRole.js
-│       hoistedRole.js
-│       interactionPing.js
-│       lowestGuildRole.js
-│       lowestRole.js
-│       maximumMembers.js
-│       maxRam.js
-│       mutualGuilds.js
-│       ping.js
-│       reactionCount.js
-│       readyTimestamp.js
-│       referenceChannelID.js
-│       referenceGuildID.js
-│       referenceMessageID.js
-│       roleCount.js
-│       roleMembersCount.js
-│       roleName.js
-│       rolePerms.js
-│       rolePosition.js
-│       uptime.js
-│       uri.js
-│       vanityURL.js
-│       vanityUses.js
-│       voiceID.js
-│       webhookExists.js
-│
-├───interaction
-│       addApplicationCommandPermissions.js
-│       addButton.js
-│       addClientReactions.js
-│       addCmdReactions.js
-│       addEmoji.js
-│       addField.js
-│       addMessageReactions.js
-│       addSelectMenu.js
-│       addThreadMember.js
-│       addTimestamp.js
-│       archiveThread.js
-│       attachment.js
-│       author.js
-│       autoCompleteRespond.js
-│       ban.js
-│       broadcastEval.js
-│       channelPermissionsFor.js
-│       channelSendMessage.js
-│       clear.js
-│       clearReaction.js
-│       clearReactions.js
-│       cloneChannel.js
-│       color.js
-│       createApplicationCommand.js
-│       createChannel.js
-│       createChannelInvite.js
-│       createFile.js
-│       createRole.js
-│       createScheduledEvent.js
-│       createStageInstance.js
-│       createSticker.js
-│       createThread.js
-│       createWebhook.js
-│       deleteApplicationCommand.js
-│       deleteChannel.js
-│       deleteChannels.js
-│       deleteCommand.js
-│       deleteEmoji.js
-│       deleteEmojis.js
-│       deleteInvite.js
-│       deleteMessage.js
-│       deleteRoles.js
-│       deleteStageInstance.js
-│       deleteSticker.js
-│       deleteThread.js
-│       deleteWebhook.js
-│       description.js
-│       dm.js
-│       editChannel.js
-│       editMessage.js
-│       editWebhookMessage.js
-│       fetchActiveThreads.js
-│       fetchArchivedThreads.js
-│       fetchClientValues.js
-│       footer.js
-│       giveRole.js
-│       giveRoles.js
-│       image.js
-│       interactionModal.js
-│       isAutoComplete.js
-│       joinThread.js
-│       kick.js
-│       killShard.js
-│       leaveThread.js
-│       messagePublish.js
-│       modifyApplicationCommand.js
-│       modifyChannelPerms.js
-│       modifyEmoji.js
-│       modifyRole.js
-│       modifyRolePerms.js
-│       modifyWebhook.js
-│       pinMessage.js
-│       removeApplicationCommandPermissions.js
-│       reply.js
-│       respawnAllShards.js
-│       sendCrosspostingMessage.js
-│       sendDm.js
-│       sendMessage.js
-│       sendTTS.js
-│       sendWebhookMessage.js
-│       setApplicationCommandPermissions.js
-│       setChannelTopic.js
-│       setRoleColor.js
-│       setRolePosition.js
-│       setRoles.js
-│       setStatus.js
-│       slowmode.js
-│       spawnShard.js
-│       takeRole.js
-│       takeRoles.js
-│       thumbnail.js
-│       title.js
-│       unban.js
-│       unPinMessage.js
-│
-├───math
-│       abbreviate.js
-│       divide.js
-│       expandNumber.js
-│       math.js
-│       modulo.js
-│       multi.js
-│       ordinal.js
-│       round.js
-│       roundTenth.js
-│       sub.js
-│       sum.js
-│       truncate.js
-│
-├───message
-│       message.js
-│       messageAttachment.js
-│       messageFlags.js
-│       messageID.js
-│       messagePing.js
-│       messageType.js
-│       messageURL.js
-│       messageWebhookID.js
-│
-├───misc
-│       addObjectProperty.js
-│       advancedTextSplit.js
-│       appendFile.js
-│       argsCount.js
-│       closeTicket.js
-│       createCache.js
-│       createObject.js
-│       deleteFile.js
-│       djsEval.js
-│       editTextSplitElement.js
-│       endif.js
-│       error.js
-│       eventData.js
-│       eventEmit.js
-│       exec.js
-│       executionTime.js
-│       fileExists.js
-│       fileSize.js
-│       findInCache.js
-│       findObjectProperty.js
-│       findTextSplitIndex.js
-│       forEachChannel.js
-│       forEachGuild.js
-│       forEachGuildChannel.js
-│       forEachMember.js
-│       forEachRole.js
-│       forEachUser.js
-│       getApplicationCommandID.js
-│       getApplicationCommandOptions.js
-│       getCacheData.js
-│       getCooldownTime.js
-│       getObject.js
-│       getObjectProperty.js
-│       hour.js
-│       humanizeMs.js
-│       if.js
-│       ifawaited.js
-│       isTicket.js
-│       joinSplitText.js
-│       lerefAvatar.js
-│       loop.js
-│       map.js
-│       minute.js
-│       month.js
-│       newTicket.js
-│       nodeVersion.js
-│       noEscapingMessage.js
-│       noMentionMessage.js
-│       packageDependencies.js
-│       packageVersion.js
-│       readFile.js
-│       reboot.js
-│       removeContains.js
-│       removeObjectProperty.js
-│       removeSplitTextElement.js
-│       removeTextSplitElement.js
-│       renameFile.js
-│       second.js
-│       setCacheData.js
-│       setTimeout.js
-│       shutdown.js
-│       stopTimeout.js
-│       suppressErrors.js
-│       timeZone.js
-│       updateCommands.js
-│       useChannel.js
-│       wait.js
-│       writeFile.js
-│       year.js
-│
-├───user
-│       authorAvatar.js
-│       authorBanner.js
-│       authorBannerColor.js
-│       authorID.js
-│       cacheMembers.js
-│       changeNickname.js
-│       deafenUser.js
-│       discriminator.js
-│       findMember.js
-│       findMembers.js
-│       memberAvatar.js
-│       memberExists.js
-│       memberJoinDate.js
-│       memberJoinPosition.js
-│       membersCount.js
-│       moveUser.js
-│       muteUser.js
-│       nickname.js
-│       pruneMembers.js
-│       removeThreadMember.js
-│       timeoutMember.js
-│       userActivity.js
-│       userAvatar.js
-│       userBadges.js
-│       userBanner.js
-│       userBannerColor.js
-│       userCustomStatus.js
-│       userDefaultAvatar.js
-│       userExists.js
-│       userID.js
-│       username.js
-│       userPerms.js
-│       userPlatform.js
-│       userReacted.js
-│       userRoleColor.js
-│       userRoles.js
-│       userRolesCount.js
-│       usersBanned.js
-│       usersInChannel.js
-│       userStatus.js
-│       usersWithRole.js
-│       userTag.js
-│
-├───util
-│       argsCheck.js
-│       argsSlice.js
-│       channelExists.js
-│       charCount.js
-│       checkCondition.js
-│       checkContains.js
-│       concatTextSplit.js
-│       creationDate.js
-│       cropText.js
-│       digitalFormat.js
-│       disableMentionType.js
-│       emojiExists.js
-│       emojisFromMessage.js
-│       eval.js
-│       fetch.js
-│       filterMessage.js
-│       filterTextSplitElement.js
-│       findChannel.js
-│       findChars.js
-│       findGuildChannel.js
-│       findNumbers.js
-│       findRole.js
-│       findRoles.js
-│       findSpecialChars.js
-│       findUser.js
-│       formatDate.js
-│       get.js
-│       getTextSplitLength.js
-│       hasAnyPerm.js
-│       hasAnyRole.js
-│       hasEmbeds.js
-│       hasPerms.js
-│       hasPermsInChannel.js
-│       hasRoles.js
-│       httpRequest.js
-│       indexOf.js
-│       indexOfArg.js
-│       isBanned.js
-│       isBoosting.js
-│       isBot.js
-│       isChannelManageable.js
-│       isCustomEmoji.js
-│       isDeafen.js
-│       isDM.js
-│       isEveryoneMentioned.js
-│       isGuildDeafened.js
-│       isGuildMuted.js
-│       isHoisted.js
-│       isInteger.js
-│       isMentionable.js
-│       isMentioned.js
-│       isMuted.js
-│       isNumber.js
-│       isPartnered.js
-│       isRoleEditable.js
-│       isRoleManaged.js
-│       isSelfDeafened.js
-│       isSelfMuted.js
-│       isStreaming.js
-│       isThread.js
-│       isTimeout.js
-│       isUnicodeEmoji.js
-│       isUserDmEnabled.js
-│       isValidHex.js
-│       isValidImageLink.js
-│       isValidInvite.js
-│       isValidLink.js
-│       isValidObject.js
-│       isVariableExist.js
-│       isVerified.js
-│       isVideoOn.js
-│       isVoice.js
-│       jsonRequest.js
-│       let.js
-│       log.js
-│       mentioned.js
-│       mentionedChannels.js
-│       mentionedChannelsCount.js
-│       mentionedRoles.js
-│       mentionedRolesCount.js
-│       mentionedUsersCount.js
-│       mentionType.js
-│       messageExists.js
-│       messageSlice.js
-│       nonEscape.js
-│       numberSeparator.js
-│       onlyForCategories.js
-│       onlyForChannels.js
-│       onlyForGuilds.js
-│       onlyForIDs.js
-│       onlyForRoles.js
-│       onlyIf.js
-│       onlyIfMessageContains.js
-│       onlyNSFW.js
-│       onlyPerms.js
-│       parseDate.js
-│       parseTime.js
-│       partial.js
-│       ram.js
-│       random.js
-│       randomChannelID.js
-│       randomEmoji.js
-│       randomRoleID.js
-│       randomString.js
-│       randomText.js
-│       randomUserID.js
-│       repeatMessage.js
-│       replaceText.js
-│       replaceTextWithRegex.js
-│       resolveColor.js
-│       resolveEmojiID.js
-│       reverse.js
-│       roleExists.js
-│       roleIconURL.js
-│       roleId.js
-│       spliceTextJoin.js
-│       splitText.js
-│       stringEndsWith.js
-│       stringStartsWith.js
-│       tempCooldown.js
-│       textSlice.js
-│       textSplit.js
-│       textSplitMap.js
-│       textTrim.js
-│       toLocaleUpperCase.js
-│       toLowerCase.js
-│       toUpperCase.js
-│
-└───variables
-        advanceCooldown.js
-        channelCooldown.js
-        cooldown.js
-        createVar.js
-        deleteVar.js
-        getChannelVar.js
-        getGlobalUserVar.js
-        getGuildVar.js
-        getLeaderboardInfo.js
-        getMessageVar.js
-        getUserVar.js
-        getVar.js
-        globalCooldown.js
-        globalUserLeaderBoard.js
-        guildLeaderBoard.js
-        rawLeaderboard.js
-        resetGlobalUserVar.js
-        resetGuildVar.js
-        resetUserVar.js
-        setChannelVar.js
-        setGlobalUserVar.js
-        setGuildVar.js
-        setMessageVar.js
-        setUserVar.js
-        setVar.js
-        userLeaderBoard.js
-        variablesCount.js
+└───src
+    │   index.d.ts
+    │   index.js
+    │   interpreter.js
+    │
+    ├───classes
+    │       AoiBase.js
+    │       AoiClient.js
+    │       AoiError.js
+    │       CacheManager.js
+    │       ClientShard.js
+    │       Commands.js
+    │       Database.js
+    │       Functions.js
+    │       Interaction.js
+    │       LoadCommands.js
+    │       NewEvent.js
+    │       Util.js
+    │       Variables.js
+    │
+    ├───functions
+    │   │   AoiReader.js
+    │   │
+    │   └───Funcs
+    │       ├───array
+    │       │       arrayAt.js
+    │       │       arrayConcat.js
+    │       │       arrayEvery.js
+    │       │       arrayFilter.js
+    │       │       arrayFind.js
+    │       │       arrayForEach.js
+    │       │       arrayIncludes.js
+    │       │       arrayIndexOf.js
+    │       │       arrayJoin.js
+    │       │       arrayLastIndexOf.js
+    │       │       arrayLength.js
+    │       │       arrayMap.js
+    │       │       arrayPop.js
+    │       │       arrayPush.js
+    │       │       arrayReverse.js
+    │       │       arrayShift.js
+    │       │       arrayShuffle.js
+    │       │       arraySome.js
+    │       │       arraySort.js
+    │       │       arraySplice.js
+    │       │       arrayUnshift.js
+    │       │       createArray.js
+    │       │       deleteArray.js
+    │       │
+    │       ├───awaited
+    │       │       awaitCmdReactions.js
+    │       │       awaitComponents.js
+    │       │       awaitComponentsUntil.js
+    │       │       awaitData.js
+    │       │       awaitMessageReactions.js
+    │       │       awaitMessages.js
+    │       │       componentCollector.js
+    │       │       deleteIn.js
+    │       │       editIn.js
+    │       │       reactionCollector.js
+    │       │
+    │       ├───client
+    │       │       clientID.js
+    │       │       clientLeave.js
+    │       │       clientOwnerIDs.js
+    │       │       clientToken.js
+    │       │       clientTyping.js
+    │       │       getClientInvite.js
+    │       │       killClient.js
+    │       │       onlyClientPerms.js
+    │       │       setClientAvatar.js
+    │       │       setClientName.js
+    │       │
+    │       ├───event
+    │       │       bulk.js
+    │       │       channelUsed.js
+    │       │       handleError.js
+    │       │       interactionData.js
+    │       │       interactionDefer.js
+    │       │       interactionDeferUpdate.js
+    │       │       interactionDelete.js
+    │       │       interactionEdit.js
+    │       │       interactionFollowUp.js
+    │       │       interactionReply.js
+    │       │       interactionUpdate.js
+    │       │       isButtonInteraction.js
+    │       │       isCommandInteraction.js
+    │       │       isComponentInteraction.js
+    │       │       isContextMenuInteraction.js
+    │       │       isSelectMenuInteraction.js
+    │       │       musicEventData.js
+    │       │       newApplicationCmd.js
+    │       │       newChannel.js
+    │       │       newEmoji.js
+    │       │       newGuild.js
+    │       │       newMember.js
+    │       │       newPresence.js
+    │       │       newRole.js
+    │       │       newState.js
+    │       │       newUser.js
+    │       │       oldApplicationCmd.js
+    │       │       oldChannel.js
+    │       │       oldEmoji.js
+    │       │       oldGuild.js
+    │       │       oldMember.js
+    │       │       oldMessage.js
+    │       │       oldMsgData.js
+    │       │       oldPresence.js
+    │       │       oldRole.js
+    │       │       oldState.js
+    │       │       oldUser.js
+    │       │       oldVariable.js
+    │       │       pinsUpdate.js
+    │       │       rateLimit.js
+    │       │       reactionData.js
+    │       │       shard.js
+    │       │       slashOption.js
+    │       │       textInputValue.js
+    │       │       timeoutData.js
+    │       │       webhookUpdate.js
+    │       │
+    │       ├───guild
+    │       │       getGuildInvite.js
+    │       │       guildAFKChannelID.js
+    │       │       guildAvailable.js
+    │       │       guildBanner.js
+    │       │       guildBoostCount.js
+    │       │       guildBoostLevel.js
+    │       │       guildChannelExists.js
+    │       │       guildChannels.js
+    │       │       guildContentFilter.js
+    │       │       guildCooldown.js
+    │       │       guildCount.js
+    │       │       guildDefaultMessageNotifications.js
+    │       │       guildDescription.js
+    │       │       guildEmojiExists.js
+    │       │       guildEmojis.js
+    │       │       guildExists.js
+    │       │       guildFeatures.js
+    │       │       guildHighestRole.js
+    │       │       guildIcon.js
+    │       │       guildID.js
+    │       │       guildIDS.js
+    │       │       guildMFALevel.js
+    │       │       guildName.js
+    │       │       guildNames.js
+    │       │       guildNSFWLevel.js
+    │       │       guildPreferredLocale.js
+    │       │       guildRandomID.js
+    │       │       guildRoles.js
+    │       │       guildRulesChannelID.js
+    │       │       guildShard.js
+    │       │       guildShardID.js
+    │       │       guildShardPing.js
+    │       │       guildSplash.js
+    │       │       guildSystemChannelID.js
+    │       │       guildVerificationLevel.js
+    │       │       ownerID.js
+    │       │       setGuildBanner.js
+    │       │       setGuildDiscoverySplash.js
+    │       │       setGuildIcon.js
+    │       │       setGuildName.js
+    │       │
+    │       ├───info
+    │       │       allChannelsCount.js
+    │       │       allEmojisCount.js
+    │       │       allMembersCount.js
+    │       │       banCount.js
+    │       │       boostingSince.js
+    │       │       botCount.js
+    │       │       categoryChannels.js
+    │       │       channelCategoryID.js
+    │       │       channelCount.js
+    │       │       channelID.js
+    │       │       channelName.js
+    │       │       channelNSFW.js
+    │       │       channelOverwrites.js
+    │       │       channelTopic.js
+    │       │       channelType.js
+    │       │       commandCode.js
+    │       │       commandInfo.js
+    │       │       commandName.js
+    │       │       commandsCount.js
+    │       │       cpu.js
+    │       │       customEmoji.js
+    │       │       databasePing.js
+    │       │       date.js
+    │       │       datestamp.js
+    │       │       day.js
+    │       │       emojiCount.js
+    │       │       getAttachments.js
+    │       │       getAuditLogs.js
+    │       │       getBanReason.js
+    │       │       getChannelSlowmode.js
+    │       │       getEmbed.js
+    │       │       getMessage.js
+    │       │       getReactions.js
+    │       │       getRoleColor.js
+    │       │       highestRole.js
+    │       │       hoistedRole.js
+    │       │       interactionPing.js
+    │       │       lowestGuildRole.js
+    │       │       lowestRole.js
+    │       │       maximumMembers.js
+    │       │       maxRam.js
+    │       │       mutualGuilds.js
+    │       │       ping.js
+    │       │       reactionCount.js
+    │       │       readyTimestamp.js
+    │       │       referenceChannelID.js
+    │       │       referenceGuildID.js
+    │       │       referenceMessageID.js
+    │       │       roleCount.js
+    │       │       roleMembersCount.js
+    │       │       roleName.js
+    │       │       rolePerms.js
+    │       │       rolePosition.js
+    │       │       uptime.js
+    │       │       uri.js
+    │       │       vanityURL.js
+    │       │       vanityUses.js
+    │       │       voiceID.js
+    │       │       webhookExists.js
+    │       │
+    │       ├───interaction
+    │       │       addApplicationCommandPermissions.js
+    │       │       addButton.js
+    │       │       addClientReactions.js
+    │       │       addCmdReactions.js
+    │       │       addEmoji.js
+    │       │       addField.js
+    │       │       addMessageReactions.js
+    │       │       addSelectMenu.js
+    │       │       addThreadMember.js
+    │       │       addTimestamp.js
+    │       │       archiveThread.js
+    │       │       attachment.js
+    │       │       author.js
+    │       │       autoCompleteRespond.js
+    │       │       ban.js
+    │       │       broadcastEval.js
+    │       │       channelPermissionsFor.js
+    │       │       channelSendMessage.js
+    │       │       clear.js
+    │       │       clearReaction.js
+    │       │       clearReactions.js
+    │       │       cloneChannel.js
+    │       │       color.js
+    │       │       createApplicationCommand.js
+    │       │       createChannel.js
+    │       │       createChannelInvite.js
+    │       │       createFile.js
+    │       │       createRole.js
+    │       │       createScheduledEvent.js
+    │       │       createStageInstance.js
+    │       │       createSticker.js
+    │       │       createThread.js
+    │       │       createWebhook.js
+    │       │       deleteApplicationCommand.js
+    │       │       deleteChannel.js
+    │       │       deleteChannels.js
+    │       │       deleteCommand.js
+    │       │       deleteEmoji.js
+    │       │       deleteEmojis.js
+    │       │       deleteInvite.js
+    │       │       deleteMessage.js
+    │       │       deleteRoles.js
+    │       │       deleteStageInstance.js
+    │       │       deleteSticker.js
+    │       │       deleteThread.js
+    │       │       deleteWebhook.js
+    │       │       description.js
+    │       │       dm.js
+    │       │       editChannel.js
+    │       │       editMessage.js
+    │       │       editWebhookMessage.js
+    │       │       fetchActiveThreads.js
+    │       │       fetchArchivedThreads.js
+    │       │       fetchClientValues.js
+    │       │       footer.js
+    │       │       giveRole.js
+    │       │       giveRoles.js
+    │       │       image.js
+    │       │       interactionModal.js
+    │       │       isAutoComplete.js
+    │       │       joinThread.js
+    │       │       kick.js
+    │       │       killShard.js
+    │       │       leaveThread.js
+    │       │       messagePublish.js
+    │       │       modifyApplicationCommand.js
+    │       │       modifyChannelPerms.js
+    │       │       modifyEmoji.js
+    │       │       modifyRole.js
+    │       │       modifyRolePerms.js
+    │       │       modifyWebhook.js
+    │       │       pinMessage.js
+    │       │       removeApplicationCommandPermissions.js
+    │       │       reply.js
+    │       │       respawnAllShards.js
+    │       │       sendCrosspostingMessage.js
+    │       │       sendDm.js
+    │       │       sendMessage.js
+    │       │       sendTTS.js
+    │       │       sendWebhookMessage.js
+    │       │       setApplicationCommandPermissions.js
+    │       │       setChannelTopic.js
+    │       │       setRoleColor.js
+    │       │       setRolePosition.js
+    │       │       setRoles.js
+    │       │       setStatus.js
+    │       │       slowmode.js
+    │       │       spawnShard.js
+    │       │       takeRole.js
+    │       │       takeRoles.js
+    │       │       thumbnail.js
+    │       │       title.js
+    │       │       unban.js
+    │       │       unPinMessage.js
+    │       │
+    │       ├───math
+    │       │       abbreviate.js
+    │       │       divide.js
+    │       │       expandNumber.js
+    │       │       math.js
+    │       │       modulo.js
+    │       │       multi.js
+    │       │       ordinal.js
+    │       │       round.js
+    │       │       roundTenth.js
+    │       │       sub.js
+    │       │       sum.js
+    │       │       truncate.js
+    │       │
+    │       ├───message
+    │       │       message.js
+    │       │       messageAttachment.js
+    │       │       messageFlags.js
+    │       │       messageID.js
+    │       │       messagePing.js
+    │       │       messageType.js
+    │       │       messageURL.js
+    │       │       messageWebhookID.js
+    │       │
+    │       ├───misc
+    │       │       addObjectProperty.js
+    │       │       advancedTextSplit.js
+    │       │       appendFile.js
+    │       │       argsCount.js
+    │       │       closeTicket.js
+    │       │       createCache.js
+    │       │       createObject.js
+    │       │       deleteFile.js
+    │       │       djsEval.js
+    │       │       editTextSplitElement.js
+    │       │       endif.js
+    │       │       error.js
+    │       │       eventData.js
+    │       │       eventEmit.js
+    │       │       exec.js
+    │       │       executionTime.js
+    │       │       fileExists.js
+    │       │       fileSize.js
+    │       │       findInCache.js
+    │       │       findObjectProperty.js
+    │       │       findTextSplitIndex.js
+    │       │       forEachChannel.js
+    │       │       forEachGuild.js
+    │       │       forEachGuildChannel.js
+    │       │       forEachMember.js
+    │       │       forEachRole.js
+    │       │       forEachUser.js
+    │       │       getApplicationCommandID.js
+    │       │       getApplicationCommandOptions.js
+    │       │       getCacheData.js
+    │       │       getCooldownTime.js
+    │       │       getObject.js
+    │       │       getObjectProperty.js
+    │       │       hour.js
+    │       │       humanizeMs.js
+    │       │       if.js
+    │       │       ifawaited.js
+    │       │       isTicket.js
+    │       │       joinSplitText.js
+    │       │       lerefAvatar.js
+    │       │       loop.js
+    │       │       map.js
+    │       │       minute.js
+    │       │       month.js
+    │       │       newTicket.js
+    │       │       nodeVersion.js
+    │       │       noEscapingMessage.js
+    │       │       noMentionMessage.js
+    │       │       packageDependencies.js
+    │       │       packageVersion.js
+    │       │       readFile.js
+    │       │       reboot.js
+    │       │       removeContains.js
+    │       │       removeObjectProperty.js
+    │       │       removeSplitTextElement.js
+    │       │       removeTextSplitElement.js
+    │       │       renameFile.js
+    │       │       second.js
+    │       │       setCacheData.js
+    │       │       setTimeout.js
+    │       │       shutdown.js
+    │       │       stopTimeout.js
+    │       │       suppressErrors.js
+    │       │       timeZone.js
+    │       │       updateCommands.js
+    │       │       useChannel.js
+    │       │       wait.js
+    │       │       writeFile.js
+    │       │       year.js
+    │       │
+    │       ├───user
+    │       │       authorAvatar.js
+    │       │       authorBanner.js
+    │       │       authorBannerColor.js
+    │       │       authorID.js
+    │       │       cacheMembers.js
+    │       │       changeNickname.js
+    │       │       deafenUser.js
+    │       │       discriminator.js
+    │       │       findMember.js
+    │       │       findMembers.js
+    │       │       memberAvatar.js
+    │       │       memberExists.js
+    │       │       memberJoinDate.js
+    │       │       memberJoinPosition.js
+    │       │       membersCount.js
+    │       │       moveUser.js
+    │       │       muteUser.js
+    │       │       nickname.js
+    │       │       pruneMembers.js
+    │       │       removeThreadMember.js
+    │       │       timeoutMember.js
+    │       │       userActivity.js
+    │       │       userAvatar.js
+    │       │       userBadges.js
+    │       │       userBanner.js
+    │       │       userBannerColor.js
+    │       │       userCustomStatus.js
+    │       │       userDefaultAvatar.js
+    │       │       userExists.js
+    │       │       userID.js
+    │       │       username.js
+    │       │       userPerms.js
+    │       │       userPlatform.js
+    │       │       userReacted.js
+    │       │       userRoleColor.js
+    │       │       userRoles.js
+    │       │       userRolesCount.js
+    │       │       usersBanned.js
+    │       │       usersInChannel.js
+    │       │       userStatus.js
+    │       │       usersWithRole.js
+    │       │       userTag.js
+    │       │
+    │       ├───util
+    │       │       argsCheck.js
+    │       │       argsSlice.js
+    │       │       channelExists.js
+    │       │       charCount.js
+    │       │       checkCondition.js
+    │       │       checkContains.js
+    │       │       concatTextSplit.js
+    │       │       creationDate.js
+    │       │       cropText.js
+    │       │       digitalFormat.js
+    │       │       disableMentionType.js
+    │       │       emojiExists.js
+    │       │       emojisFromMessage.js
+    │       │       eval.js
+    │       │       fetch.js
+    │       │       filterMessage.js
+    │       │       filterTextSplitElement.js
+    │       │       findChannel.js
+    │       │       findChars.js
+    │       │       findGuildChannel.js
+    │       │       findNumbers.js
+    │       │       findRole.js
+    │       │       findRoles.js
+    │       │       findSpecialChars.js
+    │       │       findUser.js
+    │       │       formatDate.js
+    │       │       get.js
+    │       │       getTextSplitLength.js
+    │       │       hasAnyPerm.js
+    │       │       hasAnyRole.js
+    │       │       hasEmbeds.js
+    │       │       hasPerms.js
+    │       │       hasPermsInChannel.js
+    │       │       hasRoles.js
+    │       │       httpRequest.js
+    │       │       indexOf.js
+    │       │       indexOfArg.js
+    │       │       isBanned.js
+    │       │       isBoosting.js
+    │       │       isBot.js
+    │       │       isChannelManageable.js
+    │       │       isCustomEmoji.js
+    │       │       isDeafen.js
+    │       │       isDM.js
+    │       │       isEveryoneMentioned.js
+    │       │       isGuildDeafened.js
+    │       │       isGuildMuted.js
+    │       │       isHoisted.js
+    │       │       isInteger.js
+    │       │       isMentionable.js
+    │       │       isMentioned.js
+    │       │       isMuted.js
+    │       │       isNumber.js
+    │       │       isPartnered.js
+    │       │       isRoleEditable.js
+    │       │       isRoleManaged.js
+    │       │       isSelfDeafened.js
+    │       │       isSelfMuted.js
+    │       │       isStreaming.js
+    │       │       isThread.js
+    │       │       isTimeout.js
+    │       │       isUnicodeEmoji.js
+    │       │       isUserDmEnabled.js
+    │       │       isValidHex.js
+    │       │       isValidImageLink.js
+    │       │       isValidInvite.js
+    │       │       isValidLink.js
+    │       │       isValidObject.js
+    │       │       isVariableExist.js
+    │       │       isVerified.js
+    │       │       isVideoOn.js
+    │       │       isVoice.js
+    │       │       jsonRequest.js
+    │       │       let.js
+    │       │       log.js
+    │       │       mentioned.js
+    │       │       mentionedChannels.js
+    │       │       mentionedChannelsCount.js
+    │       │       mentionedRoles.js
+    │       │       mentionedRolesCount.js
+    │       │       mentionedUsersCount.js
+    │       │       mentionType.js
+    │       │       messageExists.js
+    │       │       messageSlice.js
+    │       │       nonEscape.js
+    │       │       numberSeparator.js
+    │       │       onlyForCategories.js
+    │       │       onlyForChannels.js
+    │       │       onlyForGuilds.js
+    │       │       onlyForIDs.js
+    │       │       onlyForRoles.js
+    │       │       onlyIf.js
+    │       │       onlyIfMessageContains.js
+    │       │       onlyNSFW.js
+    │       │       onlyPerms.js
+    │       │       parseDate.js
+    │       │       parseTime.js
+    │       │       partial.js
+    │       │       ram.js
+    │       │       random.js
+    │       │       randomChannelID.js
+    │       │       randomEmoji.js
+    │       │       randomRoleID.js
+    │       │       randomString.js
+    │       │       randomText.js
+    │       │       randomUserID.js
+    │       │       repeatMessage.js
+    │       │       replaceText.js
+    │       │       replaceTextWithRegex.js
+    │       │       resolveColor.js
+    │       │       resolveEmojiID.js
+    │       │       reverse.js
+    │       │       roleExists.js
+    │       │       roleIconURL.js
+    │       │       roleId.js
+    │       │       spliceTextJoin.js
+    │       │       splitText.js
+    │       │       stringEndsWith.js
+    │       │       stringStartsWith.js
+    │       │       tempCooldown.js
+    │       │       textSlice.js
+    │       │       textSplit.js
+    │       │       textSplitMap.js
+    │       │       textTrim.js
+    │       │       toLocaleUpperCase.js
+    │       │       toLowerCase.js
+    │       │       toUpperCase.js
+    │       │
+    │       └───variables
+    │               advanceCooldown.js
+    │               channelCooldown.js
+    │               cooldown.js
+    │               createVar.js
+    │               deleteVar.js
+    │               getChannelVar.js
+    │               getGlobalUserVar.js
+    │               getGuildVar.js
+    │               getLeaderboardInfo.js
+    │               getMessageVar.js
+    │               getUserVar.js
+    │               getVar.js
+    │               globalCooldown.js
+    │               globalUserLeaderBoard.js
+    │               guildLeaderBoard.js
+    │               rawLeaderboard.js
+    │               resetGlobalUserVar.js
+    │               resetGuildVar.js
+    │               resetUserVar.js
+    │               setChannelVar.js
+    │               setGlobalUserVar.js
+    │               setGuildVar.js
+    │               setMessageVar.js
+    │               setUserVar.js
+    │               setVar.js
+    │               userLeaderBoard.js
+    │               variablesCount.js
+    │
+    ├───handler
+    │   │   AoiAutoUpdate.js
+    │   │   AoiStart.js
+    │   │   AoiWarning.js
+    │   │   eventExecuter.js
+    │   │   FormatDate.js
+    │   │   parsers.js
+    │   │   searchIndexes.js
+    │   │   slashCommandOptionsParser.js
+    │   │   slashOption.js
+    │   │   status.js
+    │   │
+    │   ├───Custom
+    │   │       functionError.js
+    │   │       loop.js
+    │   │       timeout.js
+    │   │       timeoutPulse.js
+    │   │       varCreate.js
+    │   │       varDelete.js
+    │   │       varUpdate.js
+    │   │
+    │   ├───GuildBans
+    │   │       add.js
+    │   │       remove.js
+    │   │
+    │   ├───GuildEmojis
+    │   │       create.js
+    │   │       delete.js
+    │   │       stickerCreate.js
+    │   │       stickerDelete.js
+    │   │       stickerUpdate.js
+    │   │       update.js
+    │   │
+    │   ├───GuildInvites
+    │   │       inviteCreate.js
+    │   │       inviteDelete.js
+    │   │
+    │   ├───GuildMembers
+    │   │       available.js
+    │   │       chunk.js
+    │   │       join.js
+    │   │       leave.js
+    │   │       update.js
+    │   │
+    │   ├───GuildMessageReactions
+    │   │       add.js
+    │   │       remove.js
+    │   │       removeAll.js
+    │   │       removeEmoji.js
+    │   │
+    │   ├───GuildMessages
+    │   │       alwaysExecute.js
+    │   │       bulkDeleteMessage.js
+    │   │       commands.js
+    │   │       deleteMessage.js
+    │   │       nonPrefixed.js
+    │   │       oldCommands.js
+    │   │       updateMessage.js
+    │   │
+    │   ├───GuildMessageTypings
+    │   │       start.js
+    │   │
+    │   ├───GuildPresences
+    │   │       update.js
+    │   │
+    │   ├───Guilds
+    │   │       channelCreate.js
+    │   │       channelDelete.js
+    │   │       channelPinsUpdate.js
+    │   │       channelUpdate.js
+    │   │       guildJoin.js
+    │   │       guildLeave.js
+    │   │       guildUnavailable.js
+    │   │       guildUpdate.js
+    │   │       roleCreate.js
+    │   │       roleDelete.js
+    │   │       roleUpdate.js
+    │   │       stageInstanceCreate.js
+    │   │       stageInstanceDelete.js
+    │   │       stageInstanceUpdate.js
+    │   │       threadCreate.js
+    │   │       threadDelete.js
+    │   │       threadListSync.js
+    │   │       threadMembersUpdate.js
+    │   │       threadMemberUpdate.js
+    │   │       threadUpdate.js
+    │   │
+    │   ├───GuildVoiceStates
+    │   │       update.js
+    │   │
+    │   ├───GuildWebhooks
+    │   │       update.js
+    │   │
+    │   └───NonIntents
+    │           appCmdCreate.js
+    │           appCmdDelete.js
+    │           appCmdPermUpdate.js
+    │           appCmdUpdate.js
+    │           interaction.js
+    │           ready.js
+    │           userUpdate.js
+    │
+    ├───shardhandler
+    │       shardCreate.js
+    │       shardDisconnect.js
+    │       shardError.js
+    │       shardReady.js
+    │       shardReconnecting.js
+    │       shardResume.js
+    │
+    └───utils
+        │   CacheConstants.js
+        │   Constants.js
+        │   EventUtil.js
+        │   InteractionConstants.js
+        │   VoiceConstants.js
+        │
+        └───helpers
+                checkCondition.js
+                customParser.js
+                functions.js
+                if.js
+                mustEscape.js
+                prototypes.js
