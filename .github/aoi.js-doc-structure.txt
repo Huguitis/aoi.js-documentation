@@ -1,585 +1,661 @@
-AOI.JS-DOCUMENTATION\SRC\FUNCTIONS(-NEW)
-├───array
-│       arrayAt.md
-│       arrayConcat.md
-│       arrayEvery.md
-│       arrayFilter.md
-│       arrayFind.md
-│       arrayForEach.md
-│       arrayIncludes.md
-│       arrayIndexOf.md
-│       arrayJoin.md
-│       arrayLastIndexOf.md
-│       arrayLength.md
-│       arrayMap.md
-│       arrayPop.md
-│       arrayPush.md
-│       arrayReverse.md
-│       arrayShift.md
-│       arrayShuffle.md
-│       arraySome.md
-│       arraySort.md
-│       arraySplice.md
-│       arrayUnshift.md
-│       createArray.md
-│       deleteArray.md
+┌── Faf4a/aoi.js-documentation
+│   .gitignore
+│   LICENSE
+│   README.md
 │
-├───awaited
-│       awaitCmdReactions.md
-│       awaitComponents.md
-│       awaitComponentsUntil.md
-│       awaitData.md
-│       awaitMessageReactions.md
-│       awaitMessages.md
-│       componentCollector.md
-│       deleteIn.md
-│       editIn.md
-│       reactionCollector.md
+├───.github
+│       aoi.js-doc-structure.txt
+│       aoi.js-structure.txt
+│       contributing-example.md
 │
-├───client
-│       clientID.md
-│       clientLeave.md
-│       clientOwnerIDs.md
-│       clientToken.md
-│       clientTyping.md
-│       getClientInvite.md
-│       killClient.md
-│       onlyClientPerms.md
-│       setClientAvatar.md
-│       setClientName.md
-│
-├───event
-│       alwaysExecute.md
-│       bulk.md
-│       channelUsed.md
-│       handleError.md
-│       interactionData.md
-│       interactionDefer.md
-│       interactionDeferUpdate.md
-│       interactionDelete.md
-│       interactionEdit.md
-│       interactionFollowUp.md
-│       interactionReply.md
-│       interactionUpdate.md
-│       isButtonInteraction.md
-│       isCommandInteraction.md
-│       isComponentInteraction.md
-│       isContextMenuInteraction.md
-│       isSelectMenuInteraction.md
-│       newApplicationCmd.md
-│       newChannel.md
-│       newGuild.md
-│       newMember.md
-│       newPresence.md
-│       newRole.md
-│       newState.md
-│       newUser.md
-│       newVariable.md
-│       oldApplicationCmd.md
-│       oldChannel.md
-│       oldEmoji.md
-│       oldGuild.md
-│       oldMember.md
-│       oldMessage.md
-│       oldMsgData.md
-│       oldPresence.md
-│       oldRole.md
-│       oldState.md
-│       oldUser.md
-│       oldVariable.md
-│       pinsUpdate.md
-│       reactionData.md
-│       shard.md
-│       slashOption.md
-│       textInputValue.md
-│       timeoutData.md
-│       webhookUpdate.md
-│
-├───guild
-│       getGuildInvite.md
-│       guildAFKChannelID.md
-│       guildAvailable.md
-│       guildBanner.md
-│       guildBoostCount.md
-│       guildBoostLevel.md
-│       guildChannelExists.md
-│       guildChannels.md
-│       guildContentFilter.md
-│       guildCount.md
-│       guildDefaultMessageNotifications.md
-│       guildDescription.md
-│       guildEmojiExists.md
-│       guildEmojis.md
-│       guildExists.md
-│       guildFeatures.md
-│       guildIcon.md
-│       guildID.md
-│       guildIDS.md
-│       guildMFALevel.md
-│       guildName.md
-│       guildNames.md
-│       guildNSFWLevel.md
-│       guildPreferredLocale.md
-│       guildRoles.md
-│       guildRulesChannelID.md
-│       guildShard.md
-│       guildShardID.md
-│       guildShardPing.md
-│       guildSplash.md
-│       guildSystemChannelID.md
-│       guildVerificationLevel.md
-│       highestGuildRole.md
-│       ownerID.md
-│       setGuildBanner.md
-│       setGuildDiscoverySplash.md
-│       setGuildIcon.md
-│       setGuildName.md
-│
-├───info
-│       allChannelsCount.md
-│       allEmojisCount.md
-│       allMembersCount.md
-│       banCount.md
-│       boostingSince.md
-│       botCount.md
-│       categoryChannels.md
-│       channelCategoryID.md
-│       channelCount.md
-│       channelID.md
-│       channelName.md
-│       channelNSFW.md
-│       channelOverwrites.md
-│       channelTopic.md
-│       channelType.md
-│       commandCode.md
-│       commandInfo.md
-│       commandName.md
-│       commandsCount.md
-│       cpu.md
-│       customEmoji.md
-│       databasePing.md
-│       date.md
-│       datestamp.md
-│       day.md
-│       emojiCount.md
-│       getAttachment.md
-│       getAuditLogs.md
-│       getBanReason.md
-│       getChannelSlowmode.md
-│       getEmbed.md
-│       getMessage.md
-│       getReactions.md
-│       getRoleColor.md
-│       highestRole.md
-│       hoistedRole.md
-│       interactionPing.md
-│       lowestGuildRole.md
-│       lowestRole.md
-│       maximumMembers.md
-│       maxRam.md
-│       mutualGuild.md
-│       ping.md
-│       reactionCount.md
-│       readyTimestamp.md
-│       referenceChannelId.md
-│       referenceGuildId.md
-│       referenceMessageId.md
-│       roleCount.md
-│       roleMembersCount.md
-│       roleName.md
-│       rolePerms.md
-│       rolePosition.md
-│       uptime.md
-│       uri.md
-│       vanityURL.md
-│       vanityUses.md
-│       webhookExists.md
-│
-├───interaction
-│       addApplicationCommandPermissions.md
-│       addButton.md
-│       addClientReactions.md
-│       addCmdReactions.md
-│       addEmoji.md
-│       addField.md
-│       addMessageReactions.md
-│       addSelectMenu.md
-│       addThreadMember.md
-│       addTimestamp.md
-│       archiveThread.md
-│       attachment.md
-│       author.md
-│       autoCompleteRespond.md
-│       ban.md
-│       broadcastEval.md
-│       channelPermissionsFor.md
-│       channelSendMessage.md
-│       clear.md
-│       clearReaction.md
-│       clearReactions.md
-│       cloneChannel.md
-│       color.md
-│       createApplicationCommand.md
-│       createChannel.md
-│       createChannelInvite.md
-│       createFile.md
-│       createScheduledEvent.md
-│       createStageInstance.md
-│       createSticker.md
-│       createThread.md
-│       createWebhook.md
-│       deleteApplicationCommand.md
-│       deleteChannel.md
-│       deleteChannels.md
-│       deleteCommand.md
-│       deleteEmoji.md
-│       deleteEmojis.md
-│       deleteInvite.md
-│       deleteMessage.md
-│       deleteRoles.md
-│       deleteStageInstance.md
-│       deleteSticker.md
-│       deleteThread.md
-│       deleteWebhook.md
-│       description.md
-│       dm.md
-│       editChannel.md
-│       editMessage.md
-│       editWebhookMessage.md
-│       fetchActiveThreads.md
-│       fetchArchivedThreads.md
-│       fetchClientValues.md
-│       footer.md
-│       giveRole.md
-│       giveRoles.md
-│       image.md
-│       interactionModal.md
-│       isAutoComplete.md
-│       joinThread.md
-│       kick.md
-│       killShard.md
-│       leaveThread.md
-│       messagePublish.md
-│       modifyApplicationCommand.md
-│       modifyChannelPerms.md
-│       modifyEmoji.md
-│       modifyRole.md
-│       modifyRolePerms.md
-│       modifyWebhook.md
-│       pinMessage.md
-│       removeApplicationCommandPermissions.md
-│       reply.md
-│       respawnAllShards.md
-│       sendCrosspostingMessage.md
-│       sendDm.md
-│       sendMessage.md
-│       sendTTS.md
-│       sendWebhookMessage.md
-│       setApplicationCommandPermissions.md
-│       setChannelTopic.md
-│       setRoleColor.md
-│       setRolePosition.md
-│       setRoles.md
-│       setStatus.md
-│       slowmode.md
-│       spawnShard.md
-│       takeRole.md
-│       takeRoles.md
-│       thumbnail.md
-│       title.md
-│       unban.md
-│       unPinMessage.md
-│
-├───math
-│       abbreviate.md
-│       divide.md
-│       expandNumber.md
-│       math.md
-│       modulo.md
-│       multi.md
-│       ordinal.md
-│       round.md
-│       roundTenth.md
-│       sub.md
-│       sum.md
-│       truncate.md
-│
-├───message
-│       message.md
-│       messageAttachment.md
-│       messageFlags.md
-│       messageID.md
-│       messagePing.md
-│       messageType.md
-│       messageURL.md
-│       messageWebhookID.md
-│
-├───misc
-│       addObjectProperty.md
-│       advancedTextSplit.md
-│       appendFile.md
-│       argsCount.md
-│       closeTicket.md
-│       createCache.md
-│       createObject.md
-│       deleteFile.md
-│       djsEval.md
-│       editTextSplitElement.md
-│       endif.md
-│       error.md
-│       eventData.md
-│       eventEmit.md
-│       exec.md
-│       executionTime.md
-│       fileExists.md
-│       fileSize.md
-│       findInCache.md
-│       findObjectProperty.md
-│       findTextSplitIndex.md
-│       forEachChannel.md
-│       forEachGuild.md
-│       forEachGuildChannel.md
-│       forEachMember.md
-│       forEachRole.md
-│       forEachUser.md
-│       getApplicationCommandID.md
-│       getApplicationCommandOptions.md
-│       getCacheData.md
-│       getCooldownTime.md
-│       getObject.md
-│       getObjectProperty.md
-│       hour.md
-│       humanizeMs.md
-│       if.md
-│       ifAwaited.md
-│       isTicket.md
-│       joinSplitText.md
-│       lerefAvatar.md
-│       loop.md
-│       map.md
-│       minute.md
-│       month.md
-│       newTicket.md
-│       nodeVersion.md
-│       noEscapingMessage.md
-│       noMentionMessage.md
-│       packageDependencies.md
-│       packageVersion.md
-│       readFile.md
-│       reboot.md
-│       removeContains.md
-│       removeObjectProperty.md
-│       removeSplitTextElement.md
-│       removeTextSplitElement.md
-│       renameFile.md
-│       second.md
-│       setCacheData.md
-│       setTimeout.md
-│       shutdown.md
-│       stopTimeout.md
-│       suppressErrors.md
-│       timeZone.md
-│       updateCommands.md
-│       useChannel.md
-│       wait.md
-│       writeFile.md
-│       year.md
-│
-├───user
-│       authorAvatar.md
-│       authorBannerColor.md
-│       authorID.md
-│       cacheMembers.md
-│       changeNickname.md
-│       deafenUser.md
-│       discriminator.md
-│       findMember.md
-│       findMembers.md
-│       memberAvatar.md
-│       memberExists.md
-│       memberJoinedDate.md
-│       memberJoinPosition.md
-│       membersCount.md
-│       moveUser.md
-│       muteUser.md
-│       nickname.md
-│       pruneMembers.md
-│       removeThreadMember.md
-│       timeoutMember.md
-│       userActivity.md
-│       userAvatar.md
-│       userBadges.md
-│       userBanner.md
-│       userBannerColor.md
-│       userCustomStatus.md
-│       userDefaultAvatar.md
-│       userExists.md
-│       userID.md
-│       username.md
-│       userPerms.md
-│       userPlatform.md
-│       userReacted.md
-│       userRoleColor.md
-│       userRoles.md
-│       userRolesCount.md
-│       usersBanned.md
-│       usersInChannel.md
-│       userStatus.md
-│       usersWithRole.md
-│       userTag.md
-│
-├───util
-│       argsCheck.md
-│       argsSlice.md
-│       channelExists.md
-│       charCount.md
-│       checkCondition.md
-│       checkContains.md
-│       concaTextSplit.md
-│       creationDate.md
-│       cropText.md
-│       digitalFormat.md
-│       disableMentionType.md
-│       emojiExists.md
-│       emojisFromMessage.md
-│       eval.md
-│       fetch.md
-│       filterMessage.md
-│       findChannel.md
-│       findGuildChannel.md
-│       findNumbers.md
-│       findRole.md
-│       findRoles.md
-│       findSpecialChars.md
-│       findUser.md
-│       formatDate.md
-│       get.md
-│       getTextSplitLength.md
-│       hasAnyPerm.md
-│       hasAnyRole.md
-│       hasEmbeds.md
-│       hasPerms.md
-│       hasPermsInChannel.md
-│       hasRoles.md
-│       httpRequest.md
-│       indexOf.md
-│       indexOfArg.md
-│       isBanned.md
-│       isBoosting.md
-│       isBot.md
-│       isChannelManageable.md
-│       isCustomEmoji.md
-│       isDeafen.md
-│       isDM.md
-│       isEveryoneMentioned.md
-│       isGuildDeafened.md
-│       isGuildMuted.md
-│       isHoisted.md
-│       isInteger.md
-│       isMentionable.md
-│       isMentioned.md
-│       isMuted.md
-│       isNumber.md
-│       isPartnered.md
-│       isRoleEditable.md
-│       isRoleManaged.md
-│       isSelfDeafened.md
-│       isSelfMuted.md
-│       isStreaming.md
-│       isThread.md
-│       isTimeout.md
-│       isUnicodeEmoji.md
-│       isUserDmEnabled.md
-│       isValidHex.md
-│       isValidImageLink.md
-│       isValidInvite.md
-│       isValidLink.md
-│       isValidObject.md
-│       isVariableExist.md
-│       isVerified.md
-│       isVideoOn.md
-│       isVoice.md
-│       jsonRequest.md
-│       let.md
-│       log.md
-│       mentioned.md
-│       mentionedChannels.md
-│       mentionedChannelsCount.md
-│       mentionedRoles.md
-│       mentionedRolesCount.md
-│       mentionedUsersCount.md
-│       mentionType.md
-│       messageExists.md
-│       messageSlice.md
-│       nonEscape.md
-│       numberSeperator.md
-│       onlyForCategories.md
-│       onlyForChannels.md
-│       onlyForGuilds.md
-│       onlyForIDs.md
-│       onlyForRoles.md
-│       onlyIf.md
-│       onlyIfMessageContains.md
-│       onlyNSFW.md
-│       onlyPerms.md
-│       parseDate.md
-│       parseTime.md
-│       partial.md
-│       ram.md
-│       random.md
-│       randomChannelID.md
-│       randomEmoji.md
-│       randomRoleID.md
-│       randomString.md
-│       randomText.md
-│       randomUserID.md
-│       repeatMessage.md
-│       replaceText.md
-│       replaceTextWithRegex.md
-│       resolveColor.md
-│       resolveEmojiID.md
-│       reverse.md
-│       roleExists.md
-│       roleIconURL.md
-│       roleId.md
-│       spliceTextJoin.md
-│       splitText.md
-│       stringEndsWith.md
-│       stringStartsWith.md
-│       tempCooldown.md
-│       textSlice.md
-│       textSplit.md
-│       textSplitMap.md
-│       textTrim.md
-│       toLocaleUpperCase.md
-│       toLowerCase.md
-│       toUpperCase.md
-│
-└───variables
-        advanceCooldown.md
-        channelCooldown.md
-        cooldown.md
-        createVar.md
-        deleteVar.md
-        getChannelVar.md
-        getGlobalUserVar.md
-        getGuildVar.md
-        getLeaderboardInfo.md
-        getMessageVar.md
-        getUserVar.md
-        getVar.md
-        globalCooldown.md
-        globalUserLeaderBoard.md
-        guildCooldown.md
-        guildLeaderBoard.md
-        rawLeaderboard.md
-        resetGlobalUserVar.md
-        resetGuildVar.md
-        resetUserVar.md
-        setChannelVar.md
-        setGlobalUserVar.md
-        setGuildVar.md
-        setMessageVar.md
-        setUserVar.md
-        setVar.md
-        userLeaderBoard.md
+└───src
+    ├───akarui
+    │   ├───aoi.music
+    │   │   │   1introduction.md
+    │   │   │
+    │   │   └───functions
+    │   │           addFilter.md
+    │   │           autoPlay.md
+    │   │           clearQueue.md
+    │   │           getCurrentTrackDuration.md
+    │   │           getFilters.md
+    │   │           hasPlayer.md
+    │   │           joinVC.md
+    │   │           leaveVC.md
+    │   │           loopMode.md
+    │   │           loopStatus.md
+    │   │           pauseTrack.md
+    │   │           playerStatus.md
+    │   │           playPreviousTrack.md
+    │   │           playTrack.md
+    │   │           queue.md
+    │   │           queueLength.md
+    │   │           removeFilter.md
+    │   │           resetFilter.md
+    │   │           resumeTrack.md
+    │   │           seek.md
+    │   │           setFilter.md
+    │   │           shuffleQueue.md
+    │   │           skipTo.md
+    │   │           skipTrack.md
+    │   │           songInfo.md
+    │   │           stopPlayer.md
+    │   │           stopTrack.md
+    │   │           unshuffleQueue.md
+    │   │           voicePing.md
+    │   │           volume.md
+    │   │
+    │   └───aoi.panel
+    │           1introduction.md
+    │           advanced.md
+    │           funcs.md
+    │           panel.md
+    │
+    ├───functions
+    │   ├───array
+    │   │       arrayAt.md
+    │   │       arrayConcat.md
+    │   │       arrayEvery.md
+    │   │       arrayFilter.md
+    │   │       arrayFind.md
+    │   │       arrayForEach.md
+    │   │       arrayIncludes.md
+    │   │       arrayIndexOf.md
+    │   │       arrayJoin.md
+    │   │       arrayLastIndexOf.md
+    │   │       arrayLength.md
+    │   │       arrayMap.md
+    │   │       arrayPop.md
+    │   │       arrayPush.md
+    │   │       arrayReverse.md
+    │   │       arrayShift.md
+    │   │       arrayShuffle.md
+    │   │       arraySome.md
+    │   │       arraySort.md
+    │   │       arraySplice.md
+    │   │       arrayUnshift.md
+    │   │       createArray.md
+    │   │       deleteArray.md
+    │   │
+    │   ├───awaited
+    │   │       awaitCmdReactions.md
+    │   │       awaitComponents.md
+    │   │       awaitComponentsUntil.md
+    │   │       awaitData.md
+    │   │       awaitMessageReactions.md
+    │   │       awaitMessages.md
+    │   │       componentCollector.md
+    │   │       deleteIn.md
+    │   │       editIn.md
+    │   │       reactionCollector.md
+    │   │
+    │   ├───client
+    │   │       clientID.md
+    │   │       clientLeave.md
+    │   │       clientOwnerIDs.md
+    │   │       clientToken.md
+    │   │       clientTyping.md
+    │   │       getClientInvite.md
+    │   │       killClient.md
+    │   │       onlyClientPerms.md
+    │   │       setClientAvatar.md
+    │   │       setClientName.md
+    │   │
+    │   ├───event
+    │   │       alwaysExecute.md
+    │   │       bulk.md
+    │   │       channelUsed.md
+    │   │       handleError.md
+    │   │       interactionData.md
+    │   │       interactionDefer.md
+    │   │       interactionDeferUpdate.md
+    │   │       interactionDelete.md
+    │   │       interactionEdit.md
+    │   │       interactionFollowUp.md
+    │   │       interactionReply.md
+    │   │       interactionUpdate.md
+    │   │       isButtonInteraction.md
+    │   │       isCommandInteraction.md
+    │   │       isComponentInteraction.md
+    │   │       isContextMenuInteraction.md
+    │   │       isSelectMenuInteraction.md
+    │   │       newApplicationCmd.md
+    │   │       newChannel.md
+    │   │       newGuild.md
+    │   │       newMember.md
+    │   │       newPresence.md
+    │   │       newRole.md
+    │   │       newState.md
+    │   │       newUser.md
+    │   │       newVariable.md
+    │   │       oldApplicationCmd.md
+    │   │       oldChannel.md
+    │   │       oldEmoji.md
+    │   │       oldGuild.md
+    │   │       oldMember.md
+    │   │       oldMessage.md
+    │   │       oldMsgData.md
+    │   │       oldPresence.md
+    │   │       oldRole.md
+    │   │       oldState.md
+    │   │       oldUser.md
+    │   │       oldVariable.md
+    │   │       pinsUpdate.md
+    │   │       reactionData.md
+    │   │       shard.md
+    │   │       slashOption.md
+    │   │       textInputValue.md
+    │   │       timeoutData.md
+    │   │       webhookUpdate.md
+    │   │
+    │   ├───guild
+    │   │       getGuildInvite.md
+    │   │       guildAFKChannelID.md
+    │   │       guildAvailable.md
+    │   │       guildBanner.md
+    │   │       guildBoostCount.md
+    │   │       guildBoostLevel.md
+    │   │       guildChannelExists.md
+    │   │       guildChannels.md
+    │   │       guildContentFilter.md
+    │   │       guildCount.md
+    │   │       guildDefaultMessageNotifications.md
+    │   │       guildDescription.md
+    │   │       guildEmojiExists.md
+    │   │       guildEmojis.md
+    │   │       guildExists.md
+    │   │       guildFeatures.md
+    │   │       guildIcon.md
+    │   │       guildID.md
+    │   │       guildIDS.md
+    │   │       guildMFALevel.md
+    │   │       guildName.md
+    │   │       guildNames.md
+    │   │       guildNSFWLevel.md
+    │   │       guildPreferredLocale.md
+    │   │       guildRoles.md
+    │   │       guildRulesChannelID.md
+    │   │       guildShard.md
+    │   │       guildShardID.md
+    │   │       guildShardPing.md
+    │   │       guildSplash.md
+    │   │       guildSystemChannelID.md
+    │   │       guildVerificationLevel.md
+    │   │       highestGuildRole.md
+    │   │       ownerID.md
+    │   │       setGuildBanner.md
+    │   │       setGuildDiscoverySplash.md
+    │   │       setGuildIcon.md
+    │   │       setGuildName.md
+    │   │
+    │   ├───info
+    │   │       allChannelsCount.md
+    │   │       allEmojisCount.md
+    │   │       allMembersCount.md
+    │   │       banCount.md
+    │   │       boostingSince.md
+    │   │       botCount.md
+    │   │       categoryChannels.md
+    │   │       channelCategoryID.md
+    │   │       channelCount.md
+    │   │       channelID.md
+    │   │       channelName.md
+    │   │       channelNSFW.md
+    │   │       channelOverwrites.md
+    │   │       channelTopic.md
+    │   │       channelType.md
+    │   │       commandCode.md
+    │   │       commandInfo.md
+    │   │       commandName.md
+    │   │       commandsCount.md
+    │   │       cpu.md
+    │   │       customEmoji.md
+    │   │       databasePing.md
+    │   │       date.md
+    │   │       datestamp.md
+    │   │       day.md
+    │   │       emojiCount.md
+    │   │       getAttachment.md
+    │   │       getAuditLogs.md
+    │   │       getBanReason.md
+    │   │       getChannelSlowmode.md
+    │   │       getEmbed.md
+    │   │       getMessage.md
+    │   │       getReactions.md
+    │   │       getRoleColor.md
+    │   │       highestRole.md
+    │   │       hoistedRole.md
+    │   │       interactionPing.md
+    │   │       lowestGuildRole.md
+    │   │       lowestRole.md
+    │   │       maximumMembers.md
+    │   │       maxRam.md
+    │   │       mutualGuild.md
+    │   │       ping.md
+    │   │       reactionCount.md
+    │   │       readyTimestamp.md
+    │   │       referenceChannelId.md
+    │   │       referenceGuildId.md
+    │   │       referenceMessageId.md
+    │   │       roleCount.md
+    │   │       roleMembersCount.md
+    │   │       roleName.md
+    │   │       rolePerms.md
+    │   │       rolePosition.md
+    │   │       uptime.md
+    │   │       uri.md
+    │   │       vanityURL.md
+    │   │       vanityUses.md
+    │   │       webhookExists.md
+    │   │
+    │   ├───interaction
+    │   │       addApplicationCommandPermissions.md
+    │   │       addButton.md
+    │   │       addClientReactions.md
+    │   │       addCmdReactions.md
+    │   │       addEmoji.md
+    │   │       addField.md
+    │   │       addMessageReactions.md
+    │   │       addSelectMenu.md
+    │   │       addThreadMember.md
+    │   │       addTimestamp.md
+    │   │       archiveThread.md
+    │   │       attachment.md
+    │   │       author.md
+    │   │       autoCompleteRespond.md
+    │   │       ban.md
+    │   │       broadcastEval.md
+    │   │       channelPermissionsFor.md
+    │   │       channelSendMessage.md
+    │   │       clear.md
+    │   │       clearReaction.md
+    │   │       clearReactions.md
+    │   │       cloneChannel.md
+    │   │       color.md
+    │   │       createApplicationCommand.md
+    │   │       createChannel.md
+    │   │       createChannelInvite.md
+    │   │       createFile.md
+    │   │       createScheduledEvent.md
+    │   │       createStageInstance.md
+    │   │       createSticker.md
+    │   │       createThread.md
+    │   │       createWebhook.md
+    │   │       deleteApplicationCommand.md
+    │   │       deleteChannel.md
+    │   │       deleteChannels.md
+    │   │       deleteCommand.md
+    │   │       deleteEmoji.md
+    │   │       deleteEmojis.md
+    │   │       deleteInvite.md
+    │   │       deleteMessage.md
+    │   │       deleteRoles.md
+    │   │       deleteStageInstance.md
+    │   │       deleteSticker.md
+    │   │       deleteThread.md
+    │   │       deleteWebhook.md
+    │   │       description.md
+    │   │       dm.md
+    │   │       editChannel.md
+    │   │       editMessage.md
+    │   │       editWebhookMessage.md
+    │   │       fetchActiveThreads.md
+    │   │       fetchArchivedThreads.md
+    │   │       fetchClientValues.md
+    │   │       footer.md
+    │   │       giveRole.md
+    │   │       giveRoles.md
+    │   │       image.md
+    │   │       interactionModal.md
+    │   │       isAutoComplete.md
+    │   │       joinThread.md
+    │   │       kick.md
+    │   │       killShard.md
+    │   │       leaveThread.md
+    │   │       messagePublish.md
+    │   │       modifyApplicationCommand.md
+    │   │       modifyChannelPerms.md
+    │   │       modifyEmoji.md
+    │   │       modifyRole.md
+    │   │       modifyRolePerms.md
+    │   │       modifyWebhook.md
+    │   │       pinMessage.md
+    │   │       removeApplicationCommandPermissions.md
+    │   │       reply.md
+    │   │       respawnAllShards.md
+    │   │       sendCrosspostingMessage.md
+    │   │       sendDm.md
+    │   │       sendMessage.md
+    │   │       sendTTS.md
+    │   │       sendWebhookMessage.md
+    │   │       setApplicationCommandPermissions.md
+    │   │       setChannelTopic.md
+    │   │       setRoleColor.md
+    │   │       setRolePosition.md
+    │   │       setRoles.md
+    │   │       setStatus.md
+    │   │       slowmode.md
+    │   │       spawnShard.md
+    │   │       takeRole.md
+    │   │       takeRoles.md
+    │   │       thumbnail.md
+    │   │       title.md
+    │   │       unban.md
+    │   │       unPinMessage.md
+    │   │
+    │   ├───math
+    │   │       abbreviate.md
+    │   │       divide.md
+    │   │       expandNumber.md
+    │   │       math.md
+    │   │       modulo.md
+    │   │       multi.md
+    │   │       ordinal.md
+    │   │       round.md
+    │   │       roundTenth.md
+    │   │       sub.md
+    │   │       sum.md
+    │   │       truncate.md
+    │   │
+    │   ├───message
+    │   │       message.md
+    │   │       messageAttachment.md
+    │   │       messageFlags.md
+    │   │       messageID.md
+    │   │       messagePing.md
+    │   │       messageType.md
+    │   │       messageURL.md
+    │   │       messageWebhookID.md
+    │   │
+    │   ├───misc
+    │   │       addObjectProperty.md
+    │   │       advancedTextSplit.md
+    │   │       appendFile.md
+    │   │       argsCount.md
+    │   │       closeTicket.md
+    │   │       createCache.md
+    │   │       createObject.md
+    │   │       deleteFile.md
+    │   │       djsEval.md
+    │   │       editTextSplitElement.md
+    │   │       endif.md
+    │   │       error.md
+    │   │       eventData.md
+    │   │       eventEmit.md
+    │   │       exec.md
+    │   │       executionTime.md
+    │   │       fileExists.md
+    │   │       fileSize.md
+    │   │       findInCache.md
+    │   │       findObjectProperty.md
+    │   │       findTextSplitIndex.md
+    │   │       forEachChannel.md
+    │   │       forEachGuild.md
+    │   │       forEachGuildChannel.md
+    │   │       forEachMember.md
+    │   │       forEachRole.md
+    │   │       forEachUser.md
+    │   │       getApplicationCommandID.md
+    │   │       getApplicationCommandOptions.md
+    │   │       getCacheData.md
+    │   │       getCooldownTime.md
+    │   │       getObject.md
+    │   │       getObjectProperty.md
+    │   │       hour.md
+    │   │       humanizeMs.md
+    │   │       if.md
+    │   │       ifAwaited.md
+    │   │       isTicket.md
+    │   │       joinSplitText.md
+    │   │       lerefAvatar.md
+    │   │       loop.md
+    │   │       map.md
+    │   │       minute.md
+    │   │       month.md
+    │   │       newTicket.md
+    │   │       nodeVersion.md
+    │   │       noEscapingMessage.md
+    │   │       noMentionMessage.md
+    │   │       packageDependencies.md
+    │   │       packageVersion.md
+    │   │       readFile.md
+    │   │       reboot.md
+    │   │       removeContains.md
+    │   │       removeObjectProperty.md
+    │   │       removeSplitTextElement.md
+    │   │       removeTextSplitElement.md
+    │   │       renameFile.md
+    │   │       second.md
+    │   │       setCacheData.md
+    │   │       setTimeout.md
+    │   │       shutdown.md
+    │   │       stopTimeout.md
+    │   │       suppressErrors.md
+    │   │       timeZone.md
+    │   │       updateCommands.md
+    │   │       useChannel.md
+    │   │       wait.md
+    │   │       writeFile.md
+    │   │       year.md
+    │   │
+    │   ├───user
+    │   │       authorAvatar.md
+    │   │       authorBannerColor.md
+    │   │       authorID.md
+    │   │       cacheMembers.md
+    │   │       changeNickname.md
+    │   │       deafenUser.md
+    │   │       discriminator.md
+    │   │       findMember.md
+    │   │       findMembers.md
+    │   │       memberAvatar.md
+    │   │       memberExists.md
+    │   │       memberJoinedDate.md
+    │   │       memberJoinPosition.md
+    │   │       membersCount.md
+    │   │       moveUser.md
+    │   │       muteUser.md
+    │   │       nickname.md
+    │   │       pruneMembers.md
+    │   │       removeThreadMember.md
+    │   │       timeoutMember.md
+    │   │       userActivity.md
+    │   │       userAvatar.md
+    │   │       userBadges.md
+    │   │       userBanner.md
+    │   │       userBannerColor.md
+    │   │       userCustomStatus.md
+    │   │       userDefaultAvatar.md
+    │   │       userExists.md
+    │   │       userID.md
+    │   │       username.md
+    │   │       userPerms.md
+    │   │       userPlatform.md
+    │   │       userReacted.md
+    │   │       userRoleColor.md
+    │   │       userRoles.md
+    │   │       userRolesCount.md
+    │   │       usersBanned.md
+    │   │       usersInChannel.md
+    │   │       userStatus.md
+    │   │       usersWithRole.md
+    │   │       userTag.md
+    │   │
+    │   ├───util
+    │   │       argsCheck.md
+    │   │       argsSlice.md
+    │   │       channelExists.md
+    │   │       charCount.md
+    │   │       checkCondition.md
+    │   │       checkContains.md
+    │   │       concaTextSplit.md
+    │   │       creationDate.md
+    │   │       cropText.md
+    │   │       digitalFormat.md
+    │   │       disableMentionType.md
+    │   │       emojiExists.md
+    │   │       emojisFromMessage.md
+    │   │       eval.md
+    │   │       fetch.md
+    │   │       filterMessage.md
+    │   │       findChannel.md
+    │   │       findGuildChannel.md
+    │   │       findNumbers.md
+    │   │       findRole.md
+    │   │       findRoles.md
+    │   │       findSpecialChars.md
+    │   │       findUser.md
+    │   │       formatDate.md
+    │   │       get.md
+    │   │       getTextSplitLength.md
+    │   │       hasAnyPerm.md
+    │   │       hasAnyRole.md
+    │   │       hasEmbeds.md
+    │   │       hasPerms.md
+    │   │       hasPermsInChannel.md
+    │   │       hasRoles.md
+    │   │       httpRequest.md
+    │   │       indexOf.md
+    │   │       indexOfArg.md
+    │   │       isBanned.md
+    │   │       isBoosting.md
+    │   │       isBot.md
+    │   │       isChannelManageable.md
+    │   │       isCustomEmoji.md
+    │   │       isDeafen.md
+    │   │       isDM.md
+    │   │       isEveryoneMentioned.md
+    │   │       isGuildDeafened.md
+    │   │       isGuildMuted.md
+    │   │       isHoisted.md
+    │   │       isInteger.md
+    │   │       isMentionable.md
+    │   │       isMentioned.md
+    │   │       isMuted.md
+    │   │       isNumber.md
+    │   │       isPartnered.md
+    │   │       isRoleEditable.md
+    │   │       isRoleManaged.md
+    │   │       isSelfDeafened.md
+    │   │       isSelfMuted.md
+    │   │       isStreaming.md
+    │   │       isThread.md
+    │   │       isTimeout.md
+    │   │       isUnicodeEmoji.md
+    │   │       isUserDmEnabled.md
+    │   │       isValidHex.md
+    │   │       isValidImageLink.md
+    │   │       isValidInvite.md
+    │   │       isValidLink.md
+    │   │       isValidObject.md
+    │   │       isVariableExist.md
+    │   │       isVerified.md
+    │   │       isVideoOn.md
+    │   │       isVoice.md
+    │   │       jsonRequest.md
+    │   │       let.md
+    │   │       log.md
+    │   │       mentioned.md
+    │   │       mentionedChannels.md
+    │   │       mentionedChannelsCount.md
+    │   │       mentionedRoles.md
+    │   │       mentionedRolesCount.md
+    │   │       mentionedUsersCount.md
+    │   │       mentionType.md
+    │   │       messageExists.md
+    │   │       messageSlice.md
+    │   │       nonEscape.md
+    │   │       numberSeperator.md
+    │   │       onlyForCategories.md
+    │   │       onlyForChannels.md
+    │   │       onlyForGuilds.md
+    │   │       onlyForIDs.md
+    │   │       onlyForRoles.md
+    │   │       onlyIf.md
+    │   │       onlyIfMessageContains.md
+    │   │       onlyNSFW.md
+    │   │       onlyPerms.md
+    │   │       parseDate.md
+    │   │       parseTime.md
+    │   │       partial.md
+    │   │       ram.md
+    │   │       random.md
+    │   │       randomChannelID.md
+    │   │       randomEmoji.md
+    │   │       randomRoleID.md
+    │   │       randomString.md
+    │   │       randomText.md
+    │   │       randomUserID.md
+    │   │       repeatMessage.md
+    │   │       replaceText.md
+    │   │       replaceTextWithRegex.md
+    │   │       resolveColor.md
+    │   │       resolveEmojiID.md
+    │   │       reverse.md
+    │   │       roleExists.md
+    │   │       roleIconURL.md
+    │   │       roleId.md
+    │   │       spliceTextJoin.md
+    │   │       splitText.md
+    │   │       stringEndsWith.md
+    │   │       stringStartsWith.md
+    │   │       tempCooldown.md
+    │   │       textSlice.md
+    │   │       textSplit.md
+    │   │       textSplitMap.md
+    │   │       textTrim.md
+    │   │       toLocaleUpperCase.md
+    │   │       toLowerCase.md
+    │   │       toUpperCase.md
+    │   │
+    │   └───variables
+    │           advanceCooldown.md
+    │           channelCooldown.md
+    │           cooldown.md
+    │           createVar.md
+    │           deleteVar.md
+    │           getChannelVar.md
+    │           getGlobalUserVar.md
+    │           getGuildVar.md
+    │           getLeaderboardInfo.md
+    │           getMessageVar.md
+    │           getUserVar.md
+    │           getVar.md
+    │           globalCooldown.md
+    │           globalUserLeaderBoard.md
+    │           guildCooldown.md
+    │           guildLeaderBoard.md
+    │           rawLeaderboard.md
+    │           resetGlobalUserVar.md
+    │           resetGuildVar.md
+    │           resetUserVar.md
+    │           setChannelVar.md
+    │           setGlobalUserVar.md
+    │           setGuildVar.md
+    │           setMessageVar.md
+    │           setUserVar.md
+    │           setVar.md
+    │           userLeaderBoard.md
+    │
+    ├───guides
+    │       1setup.md
+    │       2events.md
+    │       3commandhandler.md
+    │       4status.md
+    │       5variables.md
+    │       6interaction.md
+    │       7sharding.md
+    │       8customfunctions.md
+    │       9permissionsintents.md
+    │       parser.md
+    │
+    ├───introduction
+    │       introduction.md
+    │
+    └───other
+            1clientoptions.md
+            2commandoptions.md
+            3hyperlinks.md
+            4msgformatting.md
+            5characterescaping.md
+            6soundcloud.md
