@@ -1,56 +1,100 @@
-┌── Faf4a/aoi.js-documentation
-│   .gitignore
-│   LICENSE
-│   README.md
+┌──────── Faf4a/aoi.js-documentation
+│
+├───.gitignore
+│       LICENSE
+│       README.md
 │
 ├───.github
 │       aoi.js-doc-structure.txt
 │       aoi.js-structure.txt
 │       contributing-example.md
 │
+├───extensions
+│   ├───akarui
+│   │   ├───aoi.music
+│   │   │   │   1introduction.md
+│   │   │   │
+│   │   │   └───functions
+│   │   │           addFilter.md
+│   │   │           autoPlay.md
+│   │   │           clearQueue.md
+│   │   │           getCurrentTrackDuration.md
+│   │   │           getFilters.md
+│   │   │           hasPlayer.md
+│   │   │           joinVC.md
+│   │   │           leaveVC.md
+│   │   │           loopMode.md
+│   │   │           loopStatus.md
+│   │   │           pauseTrack.md
+│   │   │           playerStatus.md
+│   │   │           playPreviousTrack.md
+│   │   │           playTrack.md
+│   │   │           queue.md
+│   │   │           queueLength.md
+│   │   │           removeFilter.md
+│   │   │           resetFilter.md
+│   │   │           resumeTrack.md
+│   │   │           seek.md
+│   │   │           setFilter.md
+│   │   │           shuffleQueue.md
+│   │   │           skipTo.md
+│   │   │           skipTrack.md
+│   │   │           songInfo.md
+│   │   │           stopPlayer.md
+│   │   │           stopTrack.md
+│   │   │           unshuffleQueue.md
+│   │   │           voicePing.md
+│   │   │           volume.md
+│   │   │
+│   │   └───aoi.panel
+│   │           1introduction.md
+│   │           advanced.md
+│   │           funcs.md
+│   │           panel.md
+│   │
+│   ├───aoi.music
+│   │   │   1introduction.md
+│   │   │
+│   │   └───functions
+│   │           addFilter.md
+│   │           autoPlay.md
+│   │           clearQueue.md
+│   │           getCurrentTrackDuration.md
+│   │           getFilters.md
+│   │           hasPlayer.md
+│   │           joinVC.md
+│   │           leaveVC.md
+│   │           loopMode.md
+│   │           loopStatus.md
+│   │           pauseTrack.md
+│   │           playerStatus.md
+│   │           playPreviousTrack.md
+│   │           playTrack.md
+│   │           queue.md
+│   │           queueLength.md
+│   │           removeFilter.md
+│   │           resetFilter.md
+│   │           resumeTrack.md
+│   │           seek.md
+│   │           setFilter.md
+│   │           shuffleQueue.md
+│   │           skipTo.md
+│   │           skipTrack.md
+│   │           songInfo.md
+│   │           stopPlayer.md
+│   │           stopTrack.md
+│   │           unshuffleQueue.md
+│   │           voicePing.md
+│   │           volume.md
+│   │
+│   └───aoi.panel
+│           1introduction.md
+│           advanced.md
+│           funcs.md
+│           panel.md
+│
 └───src
     ├───akarui
-    │   ├───aoi.music
-    │   │   │   1introduction.md
-    │   │   │
-    │   │   └───functions
-    │   │           addFilter.md
-    │   │           autoPlay.md
-    │   │           clearQueue.md
-    │   │           getCurrentTrackDuration.md
-    │   │           getFilters.md
-    │   │           hasPlayer.md
-    │   │           joinVC.md
-    │   │           leaveVC.md
-    │   │           loopMode.md
-    │   │           loopStatus.md
-    │   │           pauseTrack.md
-    │   │           playerStatus.md
-    │   │           playPreviousTrack.md
-    │   │           playTrack.md
-    │   │           queue.md
-    │   │           queueLength.md
-    │   │           removeFilter.md
-    │   │           resetFilter.md
-    │   │           resumeTrack.md
-    │   │           seek.md
-    │   │           setFilter.md
-    │   │           shuffleQueue.md
-    │   │           skipTo.md
-    │   │           skipTrack.md
-    │   │           songInfo.md
-    │   │           stopPlayer.md
-    │   │           stopTrack.md
-    │   │           unshuffleQueue.md
-    │   │           voicePing.md
-    │   │           volume.md
-    │   │
-    │   └───aoi.panel
-    │           1introduction.md
-    │           advanced.md
-    │           funcs.md
-    │           panel.md
-    │
     ├───functions
     │   ├───array
     │   │       arrayAt.md
@@ -276,6 +320,7 @@
     │   │       createChannel.md
     │   │       createChannelInvite.md
     │   │       createFile.md
+    │   │       createRole.md
     │   │       createScheduledEvent.md
     │   │       createStageInstance.md
     │   │       createSticker.md
