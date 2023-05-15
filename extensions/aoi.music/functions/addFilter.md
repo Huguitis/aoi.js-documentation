@@ -20,30 +20,30 @@ $addFilter[filter]
 
 | Filter       | Contains                                   | JSON Format                 |
 |--------------|--------------------------------------------|-----------------------------|
-| NIGHT_CORE   | aresample, asetrate                        | `{"NIGHT_CORE": "value"}`   |
-| BASS_BOOST   | bass                                       | `{"BASS_BOOST": "value"}`   |
-| 8_D          | extrastereo, aecho, apulsator, stereowiden | `{"8_D": "value"}`          |
-| PITCH        | asetrate, atempo, aresample                | `{"PITCH": "value"}`        |
-| KAROAKE      | stereotools                                | `{"KAROAKE": "value"}`      |
-| SLOWED       | asetrate, aresample                        | `{"SLOWED": "value"}`       |
-| DEEP         | asetrate, atempo, aresample                | `{"DEEP": "value"}`         |
-| TREBLE_BOOST | treble                                     | `{"TREBLE_BOOST": "value"}` |
-| GATE         | agate                                      | `{"GATE": "value"}`         |
-| VIBRATO      | vibrato                                    | `{"VIBRATO": "value"}`      |
-| FLANGER      | flanger                                    | `{"FLANGER": "value"}`      |
-| PHASER       | aphaser                                    | `{"PHASER": "value"}`       |
+| nightCore    | aresample, asetrate                        | `{"nightCore": "value"}`    |
+| bassBoost    | bass                                       | `{"bassBoost": "value"}`    |
+| 8D           | extrastereo, aecho, apulsator, stereowiden | `{"8D: "value"}`            |
+| pitch        | asetrate, atempo, aresample                | `{"pitch": "value"}`        |
+| karaoke      | stereotools                                | `{"karaoke": "value"}`      |
+| slowed       | asetrate, aresample                        | `{"slowed": "value"}`       |
+| deep         | asetrate, atempo, aresample                | `{"deep": "value"}`         |
+| trebleBoost  | treble                                     | `{"trebleBoost": "value"}`  |
+| gate         | agate                                      | `{"gate": "value"}`         |
+| vibrato      | vibrato                                    | `{"vibrato": "value"}`      |
+| flanger      | flanger                                    | `{"flanger": "value"}`      |
+| phaser       | aphaser                                    | `{"phaser": "value"}`       |
 
 aoi.music also supports `ffmpeg` built-in filters in json format.
 
 ## Example(s)
 
-This will add `NIGHT_CORE` and `BASS_BOOST` filters:
+This will add `nightCore` and `bassBoost` filters:
 
 ```javascript
 bot.command({
     name: 'addFilter',
     code: `
-    $addFilter[{"NIGHT_CORE": "1", "BASS_BOOST": "0.3"}]
+    $addFilter[{"nightCore": "1", "bassBoost": "0.3"}]
   `
 });
 ```
