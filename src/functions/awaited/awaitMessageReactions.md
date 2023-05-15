@@ -16,12 +16,12 @@ $awaitMessageReactions[channelID;messageID;userFilter;time;reactions;commands;er
 
 | Field         | Type    | Description                                                                                    | Required |
 |---------------|---------|------------------------------------------------------------------------------------------------|:--------:|
-| channelID     | integer | Channel ID.                                                                                    |   true   |
-| messageID     | integer | Message ID.                                                                                    |   true   |
-| userFilter    | string  | To what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |   true   |
-| time          | string  | How long the command will last / when the command expires.                                     |   true   |
-| reactions     | string  | Reactions, you can add multiple by separating them with commas ( `,` )                         |   true   |
-| commands      | string  | Commands that will be executed, you can separate multiple emojis with a comma ( `,` )          |   true   |
+| channelID     | integer | Channel ID.                                                                                    |  true    |
+| messageID     | integer | Message ID.                                                                                    |  true    |
+| userFilter    | string  | To what the bot will reply <br /> 1. **everyone** <br /> 2. **specific user ID** - any user ID |  true    |
+| time          | string  | How long the command will last / when the command expires.                                     |  true    |
+| reactions     | string  | Reactions, you can add multiple by separating them with commas ( `,` )                         |  true    |
+| commands      | string  | Commands that will be executed, you can separate multiple emojis with a comma ( `,` )          |  true    |
 | errorMessage? | string  | Error message when command expires.                                                            |  false   |
 | awaitData?    | string  | Awaited Data.                                                                                  |  false   |
 

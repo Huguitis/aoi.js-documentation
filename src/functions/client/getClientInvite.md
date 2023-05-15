@@ -24,8 +24,8 @@ $getClientInvite[...perms?]
 | Permission              |                                                                 |
 | ----------------------- | --------------------------------------------------------------- |
 | createinvite            | Permission to create guild invites                              |
-| kick                    | Permission to kick guild members                                |
-| ban                     | Permission to ban guild members                                 |
+| kickmembers             | Permission to kick guild members                                |
+| banmembers              | Permission to ban guild members                                 |
 | administrator           | Administrator Permissions                                       |
 | managechannel           | Permission to manage guild channels                             |
 | manageserver            | Permissions to modify server settings                           |
@@ -35,7 +35,7 @@ $getClientInvite[...perms?]
 | stream                  | Permission to stream in voice channels                          |
 | viewchannel             | Permission to view a certain channel                            |
 | sendmessages            | Permission to send messages in a certain channel                |
-| sendtts                 | Permission to send Text-To-Speech messages                      |
+| sendttsmessages         | Permission to send Text-To-Speech messages                      |
 | managemessages          | Permission to manage messages                                   |
 | embedlinks              | Permission to embed links                                       |
 | attachfiles             | Permission to attach files                                      |
@@ -57,8 +57,8 @@ $getClientInvite[...perms?]
 | requesttospeak          | Permission to use request-to-speak in stages                    |
 | manageevents            | Permission to manage events                                     |
 | managethreads           | Permission to manage threads                                    |
-| usepublicthreads        | Permission to use public threads                                |
-| useprivatethreads       | Permission to use private threads                               |
+| createpublicthreads     | Permission to use public threads                                |
+| createprivatethreads    | Permission to use private threads                               |
 | createpublicthreads     | Permission to create public threads                             |
 | createprivatethreads    | Permission to create private threads                            |
 | externalstickers        | Permission to use extrernal stickers                            |

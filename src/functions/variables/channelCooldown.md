@@ -20,7 +20,7 @@ $channelCooldown[time;errorMessage]
 
 | Field        | Type   | Description                                              | Required |
 | ------------ | ------ | -------------------------------------------------------- | :------: |
-| time         | string | Timer of the cooldown                                    |   true   |
+| time         | string | Timer of the cooldown                                    |  true    |
 | errorMessage | string | Error message when given cooldown timer is still active. |  false   |
 
 ## Example(s)

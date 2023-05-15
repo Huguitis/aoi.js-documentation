@@ -17,3 +17,23 @@ $awaitData[name]
 | Field | Type   | Description        | Required |
 | ----- | ------ | ------------------ | :------: |
 | name  | string | Awaited Data Name. |   true   |
+
+## Example(s)
+
+This will return the ID of every server member and log it in your console:
+
+```javascript
+bot.command({
+  name: "awaitData",
+  code: `
+  $forEachMember[1;{ "members": "$membersCount" };returnMembers;]
+  `
+});
+
+bot.awaitedCommand({
+  name: "returnMembers",
+  code: `
+  $log[ $authorID , is one out of $awaitData[members] members ]
+  `
+});
+```

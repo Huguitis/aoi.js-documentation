@@ -16,8 +16,8 @@ $setUserVar[varname;value;userID?;id?;table?]
 
 | Field   | Type    | Description                               | Required |
 | ------- | ------- | ----------------------------------------- | :------: |
-| varname | string  | Variable name.                            |   true   |
-| value   | string  | New Variable value.                       |   true   |
+| varname | string  | Variable name.                            |  true    |
+| value   | string  | New Variable value.                       |  true    |
 | userID? | integer | User ID.                                  |  false   |
 | id?     | string  | 1. **specific guild id** <br /> 2. **dm** |  false   |
 | table?  | string  | Variable table.                           |  false   |
